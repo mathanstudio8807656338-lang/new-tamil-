@@ -41,7 +41,6 @@ export async function getLocalLessonData(subject, className, lessonId) {
     }
 
     if (!subject || !lessonId) return null;
-    const v = new Date().getTime();
     const sub = subject.toLowerCase();
     let subjectKey = sub;
     if (sub.includes('science') && !sub.includes('social')) subjectKey = 'science';
