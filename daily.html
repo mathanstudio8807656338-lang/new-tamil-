@@ -120,11 +120,10 @@
             try {
                 const res = await fetch('1.json?v=' + v);
                 if (!res.ok) throw new Error("Data not found");
-                
                 const data = await res.json();
                 const titles = data.activeTitles || [];
                 const subject = data.activeSubject || 'Unknown';
-                const grade = data.activeGrade || '5';
+                const defaultGrade = data.activeGrade || '5';
                 const isExamOpen = data.status === 'open';
                 const isNotesOpen = data.status === 'notes' || data.status === 'open';
 
@@ -146,7 +145,7 @@
                         </div>
                         <div class="info-item">
                             <div class="info-label">வகுப்பு (Class)</div>
-                            <div class="info-value">${grade}</div>
+                            <div class="info-value">${defaultGrade}</div>
                         </div>
                     </div>
                     ${timerHtml}
@@ -156,6 +155,7 @@
 
                 titles.forEach((title, idx) => {
                     const fileId = data.activeFiles[idx] || '1';
+                    const currentGrade = (data.activeGrades && data.activeGrades[idx]) ? data.activeGrades[idx] : defaultGrade;
                     
                     html += `
                         <div class="lesson-card" style="margin-bottom: 0; padding: 1.5rem;">
@@ -165,7 +165,7 @@
                             
                             <div style="display: grid; grid-template-columns: 1fr; gap: 1rem;">
                                 ${isNotesOpen ? `
-                                    <a href="material.html?subject=${subject}&class=${grade}&lesson=${fileId}" class="action-btn btn-notes" style="padding: 1rem; border-radius: 12px; font-size: 1.05rem;">
+                                    <a href="material.html?subject=${subject}&class=${currentGrade}&lesson=${fileId}" class="action-btn btn-notes" style="padding: 1rem; border-radius: 12px; font-size: 1.05rem;">
                                         📖 பாடக்குறிப்புகள் (Study Notes)
                                     </a>
                                 ` : `
@@ -175,7 +175,7 @@
                                 `}
 
                                 ${isExamOpen ? `
-                                    <a href="quiz.html?subject=${subject}&class=${grade}&lesson=${fileId}" class="action-btn btn-exam" style="padding: 1rem; border-radius: 12px; font-size: 1.05rem;">
+                                    <a href="quiz.html?subject=${subject}&class=${currentGrade}&lesson=${fileId}" class="action-btn btn-exam" style="padding: 1rem; border-radius: 12px; font-size: 1.05rem;">
                                         📝 ஆன்லைன் தேர்வு (Online Exam)
                                     </a>
                                 ` : `

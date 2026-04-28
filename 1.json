@@ -1,1458 +1,1578 @@
 {
   "unit": "Daily Challenge",
   "subject": "ENGLISH",
-  "title": "இன்றைய தேர்வு: Unit 2: My Hobbies || அலகு 2: எனது பொழுதுபோக்குகள் & Unit 3: Time for a Journey || அலகு 3: பயணத்திற்கான நேரம்",
-  "status": "open",
+  "title": "இன்றைய குறிப்புகள்: Our Kitchen & Small Creatures",
+  "status": "notes",
   "activeSubject": "english",
   "activeGrade": "5",
   "activeTitles": [
-    "Unit 2: My Hobbies || அலகு 2: எனது பொழுதுபோக்குகள்",
-    "Unit 3: Time for a Journey || அலகு 3: பயணத்திற்கான நேரம்"
+    "Our Kitchen",
+    "Small Creatures"
   ],
   "activeFiles": [
-    "Lesson_2",
-    "Lesson_3"
+    "Lesson_1",
+    "Lesson_2"
   ],
   "quiz": [
     {
-      "q": "What is the meaning of the word 'Earthworm'? || 'Earthworm' (மண்புழு) என்பதன் பொருள் என்ன?",
+      "q": "What is used to filter tea leaves from tea?",
       "options": [
-        "A snake that lives in water",
-        "A mythological creature",
-        "A worm that lives in the ground || மண்ணில் வாழும் ஒரு வகைப் புழு",
-        "A bird that eats crops"
-      ],
-      "a": 2,
-      "ex": "An earthworm is a worm that lives in the ground. || மண்புழு என்பது மண்ணில் வாழும் ஒரு வகைப் புழுவாகும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Which of the following describes a 'Mermaid'? || கீழே உள்ளவற்றில் எது 'கடல் கன்னி' (Mermaid) என்பதைக் குறிக்கிறது?",
-      "options": [
-        "A woman's head and a fish's tail || பெண்ணின் தலையும் மீனின் வாலும் கொண்டது",
-        "A bird with a fish's tail",
-        "A fish with legs",
-        "A dog that swims"
+        "Strainer",
+        "Funnel",
+        "Grater",
+        "Ladle"
       ],
       "a": 0,
-      "ex": "A mermaid is a mythological creature with a woman's head and a fish's tail. || கடல் கன்னி என்பது பெண்ணின் தலையும் மீனின் வாலும் கொண்ட ஒரு கற்பனை உயிரினம்.",
-      "lesson": "Lesson_2"
+      "ex": "A strainer is a tool used to separate solid particles, like tea leaves, from liquids.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "What does the word 'Hem' mean in sewing? || தையல் கலையில் 'Hem' என்ற சொல்லின் பொருள் என்ன?",
+      "q": "Which of the following objects is used to cut vegetables?",
       "options": [
-        "To cut the cloth",
-        "To fold and sew the edge of a cloth || துணியின் ஓரத்தை மடித்துத் தைத்தல்",
-        "To wash the cloth",
-        "To dye the cloth"
+        "Rolling pin",
+        "Cutting-board and knife",
+        "Peeler",
+        "Tongs"
       ],
       "a": 1,
-      "ex": "Hem means to fold and sew the edge of a cloth. || 'Hem' என்பது ஒரு துணியின் விளிம்புகளை மடித்துத் தைப்பதைக் குறிக்கும்.",
-      "lesson": "Lesson_2"
+      "ex": "We use a knife to cut vegetables, usually keeping them on a cutting-board to protect the surface.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "What is the term for fishing with a rod and line? || தூண்டில் மற்றும் கயிறு கொண்டு மீன் பிடிப்பதைக் குறிக்கும் சொல் எது?",
+      "q": "What tool helps in pouring liquid into a narrow bottle without spilling?",
       "options": [
-        "Slicing",
-        "Hemming",
-        "Cycling",
-        "Angling || தூண்டில் மீன்பிடித்தல்"
+        "Bowl",
+        "Tray",
+        "Lota",
+        "Funnel"
       ],
       "a": 3,
-      "ex": "Angling means to fish with a rod and line. || தூண்டில் மற்றும் கயிறு கொண்டு மீன் பிடிப்பது 'Angling' எனப்படும்.",
-      "lesson": "Lesson_2"
+      "ex": "A funnel has a wide top and a narrow tube, making it easy to pour liquids into small openings.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "What do you call a baby fish? || மீனின் குஞ்சு எவ்வாறு அழைக்கப்படுகிறது?",
+      "q": "Which object is primarily used to remove the outer skin of fruits and vegetables?",
       "options": [
-        "Pup",
-        "Cub",
-        "Fry || மீன் குஞ்சு",
-        "Calf"
-      ],
-      "a": 2,
-      "ex": "A baby of a fish is called a fry. || மீன் குஞ்சு என்பது 'fry' என்று அழைக்கப்படுகிறது.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What does a 'DIY kid' mean? || 'DIY kid' என்றால் என்ன?",
-      "options": [
-        "Someone who never works",
-        "Someone who does any work on their own || தனது வேலைகளைத் தானே செய்பவர்",
-        "Someone who only plays games",
-        "Someone who always needs help"
+        "Knife",
+        "Peeler",
+        "Spoon",
+        "Tongs"
       ],
       "a": 1,
-      "ex": "DIY stands for Do It Yourself. A DIY kid does their work on their own. || 'DIY' என்பது 'Do It Yourself' (நீயே செய்) என்பதைக் குறிக்கும்.",
-      "lesson": "Lesson_2"
+      "ex": "A peeler is specially designed to peel the skin off fruits and vegetables like apples and potatoes.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "What is Vinoth's hobby? || வினோத்தின் பொழுதுபோக்கு எது?",
+      "q": "What is the rolling pin used for in the kitchen?",
       "options": [
-        "Washing and folding his clothes || தனது துணிகளைத் துவைத்து மடித்தல்",
-        "Cooking simple dishes",
-        "Fishing in the pond",
-        "Sewing torn clothes"
-      ],
-      "a": 0,
-      "ex": "Vinoth washes his own clothes and folds them neatly. || வினோத் தனது துணிகளைத் தானே துவைத்து மடித்து வைக்கிறான்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "At what age did Rosy learn to ride a bicycle? || ரோஸி எந்த வயதில் மிதிவண்டி ஓட்டக் கற்றுக்கொண்டாள்?",
-      "options": [
-        "8 years old",
-        "10 years old",
-        "9 years old || 9 வயதில்",
-        "7 years old"
+        "To boil water",
+        "To fry eggs",
+        "To flatten dough",
+        "To grate cheese"
       ],
       "a": 2,
-      "ex": "Rosy learnt to ride a bicycle when she was 9 years old. || ரோஸி தனது 9 வயதில் மிதிவண்டி ஓட்டக் கற்றுக்கொண்டாள்.",
-      "lesson": "Lesson_2"
+      "ex": "A rolling pin is a cylindrical kitchen utensil used to shape and flatten dough for making chapati or roti.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "Where does Megalai swim? || மேகலை எங்கே நீந்தினாள்?",
+      "q": "Which pair goes together while drinking a hot beverage?",
       "options": [
-        "In a river",
-        "In a swimming pool",
-        "In a pond",
-        "In a well || கிணற்றில்"
+        "Cup and saucer",
+        "Plate and spoon",
+        "Pot and pan",
+        "Knife and fork"
+      ],
+      "a": 0,
+      "ex": "A cup is usually placed on a saucer when serving hot beverages like tea or coffee.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Which of the following is an electronic machine used in the kitchen?",
+      "options": [
+        "Stove",
+        "Mixie",
+        "Grater",
+        "Cutting-board"
+      ],
+      "a": 1,
+      "ex": "A mixie (mixer grinder) is an electronic appliance used for mixing, blending, and grinding food.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "To pick up hot food items safely, we use ______.",
+      "options": [
+        "Ladle",
+        "Spoon",
+        "Tongs",
+        "Strainer"
+      ],
+      "a": 2,
+      "ex": "Tongs are used to grip and lift objects safely, especially hot food items.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is a deep spoon with a long handle used for serving soup called?",
+      "options": [
+        "Ladle",
+        "Fork",
+        "Peeler",
+        "Tray"
+      ],
+      "a": 0,
+      "ex": "A ladle is a large, deep spoon used for serving liquid dishes like soup or gravy.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Which utensil is best suited for boiling water?",
+      "options": [
+        "Plate",
+        "Kettle",
+        "Saucer",
+        "Tray"
+      ],
+      "a": 1,
+      "ex": "A kettle is a specially designed pot used for boiling water.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "According to the 'Rooms in our House' poem, what do we do in the kitchen?",
+      "options": [
+        "Sleep and read",
+        "Bathe and clean",
+        "Cook and sometimes eat",
+        "Play with friends"
+      ],
+      "a": 2,
+      "ex": "The poem states: 'A place where we cook And sometimes eat' is a kitchen.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "According to the poem, what is a bedroom used for?",
+      "options": [
+        "To cook",
+        "To sleep and sometimes read",
+        "To clean ourselves",
+        "To meet guests"
+      ],
+      "a": 1,
+      "ex": "The poem describes the bedroom as a place to sleep and sometimes read.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "How is a 'home' described in the poem?",
+      "options": [
+        "A place to bathe",
+        "A place to study",
+        "A place to be with a loving family",
+        "A place to eat"
+      ],
+      "a": 2,
+      "ex": "A home is described as 'A place to be With a loving family'.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Where was Amma resting when the children were looking for her?",
+      "options": [
+        "In the kitchen",
+        "In the hall",
+        "In the bedroom",
+        "In the garden"
+      ],
+      "a": 2,
+      "ex": "Amma was in bed in the bedroom because she was unwell.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Why was Amma resting in bed?",
+      "options": [
+        "She was sleepy",
+        "She had a headache",
+        "She was reading a book",
+        "She was hiding"
+      ],
+      "a": 1,
+      "ex": "Amma said, 'Oh, I have a headache.' That is why she was resting in the bedroom.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What did the children decide to make for Amma to help her feel better?",
+      "options": [
+        "A cup of coffee",
+        "A bowl of soup",
+        "A cup of tea",
+        "A glass of juice"
+      ],
+      "a": 2,
+      "ex": "The children asked, 'Can we make you a cup of tea?'",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "How long did they let the tea boil in the pot?",
+      "options": [
+        "Two minutes",
+        "Five minutes",
+        "Ten minutes",
+        "Fifteen minutes"
+      ],
+      "a": 1,
+      "ex": "They decided to boil the tea in the pot for five minutes.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What did Valli add to the tea after pouring it through the strainer?",
+      "options": [
+        "Water",
+        "Tea leaves",
+        "Milk",
+        "Sugar"
       ],
       "a": 3,
-      "ex": "Megalai swims with elders in a well. || மேகலை கிணற்றில் பெரியவர்களுடன் நீந்துகிறாள்.",
-      "lesson": "Lesson_2"
+      "ex": "After straining the tea, they added sugar, stirred, and mixed it well.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "What does James do every day? || ஜேம்ஸ் தினமும் என்ன செய்கிறான்?",
+      "q": "What do we call the action of mixing sugar into a liquid using a spoon?",
       "options": [
-        "He goes cycling",
-        "He waters his garden || தோட்டத்திற்கு நீர் ஊற்றுதல்",
-        "He hems borders",
-        "He prepares meals"
+        "Peel",
+        "Stir",
+        "Chop",
+        "Pour"
       ],
       "a": 1,
-      "ex": "James has his own garden and he waters it every day. || ஜேம்ஸ் தனது தோட்டத்தில் செடிகளுக்குத் தினமும் நீர் ஊற்றுகிறான்.",
-      "lesson": "Lesson_2"
+      "ex": "Stirring is the action of moving a spoon around in a liquid to mix ingredients.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "Who sews their torn clothes and hems the border? || கிழிந்த துணிகளைத் தைத்து ஓரங்களை மடித்துத் தைப்பவர் யார்?",
+      "q": "What is the action word for cutting vegetables into small pieces?",
       "options": [
-        "Vinoth",
-        "Megalai",
-        "Aliya || அலியா",
-        "Rosy"
-      ],
-      "a": 2,
-      "ex": "Aliya sews her torn clothes and is keen to stitch. || அலியா தனது துணிகளின் விளிம்புகளைத் தானே மடித்துத் தைப்பாள்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Which kid is good at cooking and helps clean grains? || சமைப்பதில் சிறந்தவர் மற்றும் தானியங்களைச் சுத்தம் செய்ய உதவுபவர் யார்?",
-      "options": [
-        "Raju || ராஜு",
-        "James",
-        "Vinoth",
-        "Anbu"
-      ],
-      "a": 0,
-      "ex": "Raju helps clean grains and cereals and is good at cooking. || ராஜு சமையல் செய்வதில் சிறந்தவன் மற்றும் சமையலறையில் உதவுகிறான்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What are homophones? || ஒத்த ஒலிப்புச் சொற்கள் (Homophones) என்றால் என்ன?",
-      "options": [
-        "Words that mean the same thing",
-        "Words that sound different but have the same spelling",
-        "Words that sound the same but have different spelling and meaning || ஒரே மாதிரி ஒலிக்கும் ஆனால் வெவ்வேறு எழுத்துக்களையும் பொருள்களையும் கொண்டவை",
-        "Words that are opposite in meaning"
-      ],
-      "a": 2,
-      "ex": "Homophones sound the same but have different spelling and meaning. || ஒத்த ஒலிப்புச் சொற்கள் ஒரே மாதிரி ஒலிக்கும் ஆனால் பொருள் மற்றும் எழுத்துக்கள் வேறுபடும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Choose the correct homophone: 'I saw a ______ on the flower.' || சரியான சொல்லைத் தேர்ந்தெடு: 'நான் பூவின் மீது ஒரு ______ பார்த்தேன்.'",
-      "options": [
-        "be",
-        "bee || தேனீ",
-        "by",
-        "buy"
-      ],
-      "a": 1,
-      "ex": "'bee' refers to the insect. || 'bee' என்பது தேனீயைக் குறிக்கும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Choose the correct homophone: 'The wind ______ off the leaves.' || சரியான சொல்லைத் தேர்ந்தெடு: 'காற்று இலைகளை ______.'",
-      "options": [
-        "blue",
-        "blow",
-        "blew || ஊதியது",
-        "below"
-      ],
-      "a": 2,
-      "ex": "'blew' is the past tense of blow. || 'blew' என்பது காற்று வீசுவதைக் குறிக்கும் வினைச்சொல்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Choose the correct homophone for the word 'Hair'. || 'Hair' என்ற சொல்லிற்குரிய ஒத்த ஒலிச் சொல் எது?",
-      "options": [
-        "Hear",
-        "Here",
-        "Hare || முயல்",
-        "Hire"
-      ],
-      "a": 2,
-      "ex": "Hare (animal) sounds exactly like hair. || 'Hare' (முயல்) மற்றும் 'hair' ஆகியவை ஒரே மாதிரி ஒலிக்கக்கூடியவை.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is the correct homophone for the word 'Sale'? || 'Sale' என்ற சொல்லிற்குரிய ஒத்த ஒலிச் சொல் எது?",
-      "options": [
-        "Sell",
-        "Sail || படகோட்டுதல்",
-        "Seal",
-        "Cell"
-      ],
-      "a": 1,
-      "ex": "Sale and Sail are homophones. || இவை ஒத்த ஒலிப்புச் சொற்கள்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is the correct homophone for the word 'Right'? || 'Right' என்ற சொல்லிற்குரிய ஒத்த ஒலிச் சொல் எது?",
-      "options": [
-        "Rite",
-        "Ride",
-        "Write || எழுதுதல்",
-        "Riot"
-      ],
-      "a": 2,
-      "ex": "Right and Write have the same pronunciation. || இவை இரண்டும் ஒரே மாதிரி உச்சரிக்கப்படுகின்றன.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Choose the correct homophone to fill in: 'What did you ______ at the store?' || சரியான சொல்லைத் தேர்ந்தெடு: 'கடையில் நீ என்ன ______?'",
-      "options": [
-        "by",
-        "bye",
-        "buy || வாங்கினாய்",
-        "be"
-      ],
-      "a": 2,
-      "ex": "Buy means to purchase something. || 'Buy' என்பது வாங்குவதைக் குறிக்கும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Choose the correct homophone: 'You should never ______ to your parents.' || சரியான சொல்லைத் தேர்ந்தெடு: 'பெற்றோரிடம் என்றும் ______ சொல்லக்கூடாது.'",
-      "options": [
-        "lye",
-        "lie || பொய்",
-        "lay",
-        "lee"
-      ],
-      "a": 1,
-      "ex": "Lie means to not tell the truth. || 'Lie' என்பது பொய் சொல்வதைக் குறிக்கும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is the homophone for 'Meat'? || 'Meat' (இறைச்சி) என்ற சொல்லிற்குரிய ஒத்த ஒலிச் சொல் எது?",
-      "options": [
-        "Meet || சந்திப்பு",
-        "Mate",
-        "Met",
-        "Mute"
-      ],
-      "a": 0,
-      "ex": "Meat (food) and Meet (gathering) sound the same. || இவை இரண்டும் ஒரே மாதிரி ஒலிக்கின்றன.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is the homophone for 'Dear'? || 'Dear' (அன்பான) என்ற சொல்லிற்குரிய ஒத்த ஒலிச் சொல் எது?",
-      "options": [
-        "Dare",
-        "Door",
-        "Deer || மான்",
-        "Bear"
-      ],
-      "a": 2,
-      "ex": "Dear and Deer are homophones. || 'Dear' மற்றும் 'Deer' (மான்) ஒத்த ஒலிப்புச் சொற்கள்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "According to the poem 'Treasure Trove', when should you read? || 'Treasure Trove' கவிதையின்படி, எப்போது வாசிக்க வேண்டும்?",
-      "options": [
-        "Only when you are at school",
-        "Only when you are bored",
-        "When you are happy or sad || மகிழ்ச்சியாகவோ வருத்தமாகவோ இருக்கும்போது",
-        "When it is raining outside"
-      ],
-      "a": 2,
-      "ex": "The poem starts with 'Read when you are happy, Read when you are sad'. || மகிழ்ச்சி அல்லது வருத்தத்தின் போது வாசிக்க வேண்டும் என்று கவிதை கூறுகிறது.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "In the poem 'Treasure Trove', what planet can you land on through reading? || வாசிப்பதன் மூலம் எந்தக் கோளில் இறங்க முடியும் என்று கவிதை கூறுகிறது?",
-      "options": [
-        "Jupiter",
-        "Venus",
-        "Earth",
-        "Mars || செவ்வாய் கோள்"
+        "Pour",
+        "Boil",
+        "Stir",
+        "Chop"
       ],
       "a": 3,
-      "ex": "The poem says 'Learn about space, land on Mars'. || விண்வெளியைப் பற்றி அறிந்து செவ்வாய் கோளில் இறங்கலாம் என்று கூறப்பட்டுள்ளது.",
-      "lesson": "Lesson_2"
+      "ex": "To 'chop' means to cut food into smaller pieces using a knife.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "In the poem, what do you do with a 'mystery'? || கவிதையில், ஒரு 'மர்மத்தை' (mystery) வைத்து என்ன செய்கிறாய்?",
+      "q": "What does the word 'boil' mean in cooking?",
       "options": [
-        "Ignore it",
-        "Solve a crime || குற்றத்தைத் தீர்த்தல்",
-        "Hide it",
-        "Forget it"
+        "To freeze something",
+        "To heat a liquid until it bubbles",
+        "To remove the skin",
+        "To cut into pieces"
       ],
       "a": 1,
-      "ex": "The poem says 'To discover a mystery, solve a crime'. || மர்மத்தைக் கண்டறிந்து ஒரு குற்றத்தைத் தீர்க்கலாம் என்று கூறப்பட்டுள்ளது.",
-      "lesson": "Lesson_2"
+      "ex": "Boiling is the process of heating a liquid until it reaches a temperature where it bubbles.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "Which imaginary creature is visited under the sea in the poem? || கடலுக்கு அடியில் எந்தக் கற்பனை உயிரினத்தைப் பார்ப்பதாகக் கவிதையில் உள்ளது?",
+      "q": "Which of the following words contains the 'oo' sound as in 'book'?",
       "options": [
-        "A mermaid || கடல் கன்னி",
-        "A sea monster",
-        "A dolphin",
-        "A talking fish"
+        "Make",
+        "Foot",
+        "Tree",
+        "Hall"
       ],
-      "a": 0,
-      "ex": "The poem mentions 'Visit a lovely mermaid under the sea'. || கடலுக்கு அடியில் கடல் கன்னியைப் பார்ப்பதாகக் கூறப்பட்டுள்ளது.",
-      "lesson": "Lesson_2"
+      "a": 1,
+      "ex": "The word 'foot' has the short 'oo' vowel sound, identical to 'book'.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "What is the rhyming word for 'time' in the poem? || கவிதையில் 'time' என்ற சொல்லிற்குரிய இயைபுச் சொல் எது?",
+      "q": "Find the odd word out based on its vowel sound:",
       "options": [
-        "line",
-        "rhyme",
-        "crime || குற்றம்",
-        "chime"
-      ],
-      "a": 2,
-      "ex": "Time rhymes with crime in the poem. || 'Time' மற்றும் 'crime' ஆகியவை இயைபுச் சொற்கள்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What does the word 'glance' mean? || 'glance' என்ற சொல்லின் பொருள் என்ன?",
-      "options": [
-        "To look || பார்ப்பது",
-        "To run",
-        "To hide",
-        "To sing"
-      ],
-      "a": 0,
-      "ex": "Glance means to take a quick look. || 'Glance' என்பது ஒரு விரைவான பார்வையைப் பார்ப்பதைக் குறிக்கும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "When do we use Simple Present Tense? || சாதாரண நிகழ்காலத்தை எப்போது பயன்படுத்துகிறோம்?",
-      "options": [
-        "To talk about the past",
-        "To talk about ongoing actions right now",
-        "To describe habits, general truths, and planned actions || பழக்கவழக்கங்கள் மற்றும் உண்மைகளைக் கூற",
-        "To talk about completed future tasks"
-      ],
-      "a": 2,
-      "ex": "Simple present tense is used for habits and general truths. || பழக்கவழக்கங்கள் மற்றும் பொதுவான உண்மைகளைக் குறிக்க இது பயன்படுகிறது.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Choose the correct verb form: 'I ______ to the shop.' || சரியான சொல்லைத் தேர்ந்தெடு: 'நான் கடைக்கு ______.'",
-      "options": [
-        "goes",
-        "going",
-        "gone",
-        "go || செல்கிறேன்"
+        "Wood",
+        "Good",
+        "Cook",
+        "Cake"
       ],
       "a": 3,
-      "ex": "For 'I', the present form 'go' is used. || 'I' என்ற சொல்லிற்கு 'go' தான் வரும்.",
-      "lesson": "Lesson_2"
+      "ex": "Wood, good, and cook have the 'oo' sound. Cake has a long 'a' sound.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "Choose the correct verb form: 'He ______ to the shop.' || சரியான சொல்லைத் தேர்ந்தெடு: 'அவன் கடைக்கு ______.'",
+      "q": "Complete the word from the phonics list: sh_ _k",
       "options": [
-        "go",
-        "going",
-        "goes || செல்கிறான்",
-        "gone"
-      ],
-      "a": 2,
-      "ex": "For 'He', 's' or 'es' is added making it 'goes'. || 'He' என்ற சொல்லிற்கு 'goes' வரும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Choose the correct verb form: 'They ______ cricket.' || சரியான சொல்லைத் தேர்ந்தெடு: 'அவர்கள் கிரிக்கெட் ______.'",
-      "options": [
-        "plays",
-        "play || விளையாடுகிறார்கள்",
-        "playing",
-        "played"
+        "ee",
+        "oo",
+        "ea",
+        "oa"
       ],
       "a": 1,
-      "ex": "For 'They', the base form 'play' is used. || பன்மைச் சொல்லிற்கு 'play' வரும்.",
-      "lesson": "Lesson_2"
+      "ex": "The missing letters are 'oo', making the word 'shook'.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "Which of the following is an example of a general truth? || கீழே உள்ளவற்றில் எது ஒரு 'பொதுவான உண்மை' (general truth)?",
+      "q": "I make toys with ____.",
       "options": [
-        "I am going to the market.",
-        "Water boils at 100 degrees C. || நீர் 100 டிகிரியில் கொதிக்கிறது",
-        "She painted a picture.",
-        "He will come tomorrow."
+        "Book",
+        "Wood",
+        "Foot",
+        "Cook"
       ],
       "a": 1,
-      "ex": "Scientific facts are stated in simple present tense. || அறிவியல் உண்மைகள் சாதாரண நிகழ்காலத்திலேயே கூறப்படும்.",
-      "lesson": "Lesson_2"
+      "ex": "According to the phonics practice sentences, 'I make toys with wood.'",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "Choose the correct 'Be' verb: 'We ______ students.' || சரியான சொல்லைத் தேர்ந்தெடு: 'நாங்கள் மாணவர்கள் ______.'",
+      "q": "My dad likes to ____.",
       "options": [
-        "is",
-        "am",
-        "are || ஆகிறோம்",
-        "was"
+        "Shook",
+        "Wood",
+        "Cook",
+        "Brook"
       ],
       "a": 2,
-      "ex": "For 'We', the 'be' verb is 'are'. || 'We' என்ற சொல்லிற்கு 'are' வரும்.",
-      "lesson": "Lesson_2"
+      "ex": "According to the phonics practice sentences, 'My dad likes to cook.'",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "Choose the correct 'Be' verb: 'It ______ a book.' || சரியான சொல்லைத் தேர்ந்தெடு: 'இது ஒரு புத்தகம் ______.'",
+      "q": "I ____ his hand.",
       "options": [
-        "am",
-        "are",
-        "is || ஆக இருக்கிறது",
-        "were"
-      ],
-      "a": 2,
-      "ex": "For 'It', the 'be' verb is 'is'. || 'It' என்ற சொல்லிற்கு 'is' வரும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Choose the correct verb: 'The birds ______ in the sky.' || சரியான சொல்லைத் தேர்ந்தெடு: 'பறவைகள் வானத்தில் ______.'",
-      "options": [
-        "flies",
-        "fly || பறக்கின்றன",
-        "flying",
-        "flew"
+        "Stood",
+        "Shook",
+        "Look",
+        "Took"
       ],
       "a": 1,
-      "ex": "Birds is plural, so we use 'fly'. || பன்மைச் சொல்லிற்கு 'fly' வரும்.",
-      "lesson": "Lesson_2"
+      "ex": "The correct sentence from the lesson is 'I shook his hand.'",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "Choose the correct verb: 'The boy ______ the cake.' || சரியான சொல்லைத் தேர்ந்தெடு: 'சிறுவன் கேக்கை ______.'",
+      "q": "What should we always do before using someone else's things?",
       "options": [
-        "like",
-        "liking",
-        "likes || விரும்புகிறான்",
-        "liked"
-      ],
-      "a": 2,
-      "ex": "Boy is singular, so it takes 'likes'. || ஒருமைச் சொல்லிற்கு 'likes' வரும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Which of the following phrases is useful during lunch sharing? || உணவைப் பகிர்ந்து கொள்ளும்போது பயன்படும் வாக்கியம் எது?",
-      "options": [
-        "Where is your bicycle?",
-        "I want to sleep.",
-        "Give me some water please. || தயவுசெய்து எனக்குக் கொஞ்சம் தண்ணீர் கொடுங்கள்",
-        "Let's play cricket."
-      ],
-      "a": 2,
-      "ex": "This phrase is polite during lunch time. || இது மதிய உணவின் போது பயன்படுத்தும் மரியாதையான வாக்கியமாகும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What was Anbu talented in? || அன்பு எதில் திறமைசாலியாக இருந்தான்?",
-      "options": [
-        "Catching birds",
-        "Catching fish || மீன் பிடித்தல்",
-        "Cooking food",
-        "Painting pictures"
+        "Take it secretly",
+        "Ask for permission",
+        "Break it",
+        "Hide it"
       ],
       "a": 1,
-      "ex": "The story states that Anbu was talented in catching fish. || அன்பு மீன் பிடிப்பதில் திறமையானவன் என்று கதை கூறுகிறது.",
-      "lesson": "Lesson_2"
+      "ex": "We should always ask permission before doing anything or taking someone's belongings.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "Who always went to catch fish with Anbu? || அன்புடன் மீன் பிடிக்க எப்போதும் செல்பவர் யார்?",
+      "q": "Which of these is the correct way to ask permission to enter a room?",
       "options": [
-        "Raju",
-        "Madhan || மதன்",
-        "Vinoth",
-        "James"
+        "I come in.",
+        "May I come in?",
+        "Come in.",
+        "Can you come in?"
       ],
       "a": 1,
-      "ex": "Anbu always went to catch fish with Madhan. || அன்பு எப்போதும் மதனுடன் தான் மீன் பிடிக்கச் செல்வான்.",
-      "lesson": "Lesson_2"
+      "ex": "'May I come in?' is a polite way to ask permission to enter.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "What did Anbu and Madhan use as a net to catch fish? || மீன் பிடிக்க அவர்கள் எதை வலையாகப் பயன்படுத்தினர்?",
+      "q": "Rearrange the words to form a correct sentence: use / I / Can / book / your / ?",
       "options": [
-        "A plastic bag",
-        "A dhoti || ஒரு வேட்டி",
-        "A large bucket",
-        "A woven basket"
-      ],
-      "a": 1,
-      "ex": "They used a dhoti as a net. || அவர்கள் வேட்டியை வலையாகப் பயன்படுத்தினர்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What did they use to make fishing rods? || தூண்டில் தயாரிக்க அவர்கள் எதைப் பயன்படுத்தினர்?",
-      "options": [
-        "Plastic tubes and wire",
-        "Metal rods and string",
-        "Sticks and thorns || குச்சிகள் மற்றும் முட்கள்",
-        "Bamboo and hooks"
+        "Can use I your book?",
+        "Can your book I use?",
+        "Can I use your book?",
+        "I can use your book?"
       ],
       "a": 2,
-      "ex": "They made rods using sticks and thorns. || குச்சிகள் மற்றும் முட்களைக் கொண்டு தூண்டில் செய்தனர்.",
-      "lesson": "Lesson_2"
+      "ex": "The correct question format for permission is 'Can I use your book?'",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "What did they use as bait for fishing? || மீன் பிடிக்க இரையாக எதைப் பயன்படுத்தினர்?",
+      "q": "Rearrange the words: tell / may / I / a / story / ?",
       "options": [
-        "Earthworms || மண்புழுக்கள்",
-        "Puffed rice",
-        "Bread crumbs",
-        "Small insects"
+        "I may tell a story?",
+        "May I tell a story?",
+        "May tell I a story?",
+        "A story I may tell?"
+      ],
+      "a": 1,
+      "ex": "'May I tell a story?' is the grammatically correct way to ask for permission.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Which question word is used when asking about things we CAN count?",
+      "options": [
+        "How much",
+        "How long",
+        "How many",
+        "How far"
+      ],
+      "a": 2,
+      "ex": "We use 'How many' for countable nouns (e.g., How many pencils?).",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Which question word is used when asking about things we CANNOT count?",
+      "options": [
+        "How many",
+        "How much",
+        "How old",
+        "How come"
+      ],
+      "a": 1,
+      "ex": "We use 'How much' for uncountable nouns (e.g., How much sugar?).",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Which of the following is a countable noun?",
+      "options": [
+        "Water",
+        "Rice",
+        "House",
+        "Oil"
+      ],
+      "a": 2,
+      "ex": "A house can be counted (one house, two houses). Water, rice, and oil cannot be counted individually.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Which of the following is an uncountable noun?",
+      "options": [
+        "Baby",
+        "Sugar",
+        "Chair",
+        "Pencil"
+      ],
+      "a": 1,
+      "ex": "Sugar exists as tiny grains and is treated as a mass noun, so it cannot be counted.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "The clown is confused because he is trying to count _____.",
+      "options": [
+        "Balls",
+        "Salt",
+        "Pencils",
+        "Houses"
+      ],
+      "a": 1,
+      "ex": "Salt is an uncountable noun, which is why the clown gets confused trying to count it.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "True or False: We can count 'meat' and 'sand'.",
+      "options": [
+        "True",
+        "False",
+        "Only meat is countable",
+        "Only sand is countable"
+      ],
+      "a": 1,
+      "ex": "Both meat and sand are uncountable nouns.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "In the story 'The Black Rat', why does the rat go to the bedroom?",
+      "options": [
+        "She is hungry",
+        "She is thirsty",
+        "She is sleepy",
+        "She wants to play"
+      ],
+      "a": 2,
+      "ex": "The story begins with 'Black rat is sleepy. She goes to the bedroom.'",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "In the story, where does the black rat put her books?",
+      "options": [
+        "On the table",
+        "In the school bag",
+        "Under the bed",
+        "In the trunk"
+      ],
+      "a": 1,
+      "ex": "She puts the books neatly into the school bag.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Where does the rat place the basket of fruits?",
+      "options": [
+        "On the pot",
+        "In the bowl",
+        "Near the trunk",
+        "On the hook"
+      ],
+      "a": 2,
+      "ex": "She puts the basket near the trunk.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What does she put in the bowl?",
+      "options": [
+        "The bun",
+        "The soap",
+        "The spoon",
+        "The plate"
       ],
       "a": 0,
-      "ex": "They searched for earthworms to use as bait. || மண்புழுக்களை இரையாகப் பயன்படுத்தினர்.",
-      "lesson": "Lesson_2"
+      "ex": "She puts the fruits in the basket and the bun in the bowl.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "How many fish did they catch on that Sunday? || அந்த ஞாயிற்றுக்கிழமை அவர்கள் எத்தனை மீன்களைப் பிடித்தனர்?",
+      "q": "Where does she put the bat?",
       "options": [
-        "Five",
-        "Two",
-        "Four",
-        "Three || மூன்று"
+        "On the shelf",
+        "In the trunk",
+        "Under the mat",
+        "On the pot"
+      ],
+      "a": 1,
+      "ex": "She puts the bat safely in the trunk.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Where does the rat hang the belt?",
+      "options": [
+        "On the hook",
+        "On the shelf",
+        "On the bed",
+        "In the trunk"
+      ],
+      "a": 0,
+      "ex": "She puts the belt on the hook.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Where does she place the plate and the tumbler?",
+      "options": [
+        "On the mat",
+        "On the pot",
+        "In the basket",
+        "On the shelf"
+      ],
+      "a": 1,
+      "ex": "She puts the plate and the tumbler on the pot.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What does the black rat do after pushing the pot near the wall?",
+      "options": [
+        "She makes her bed",
+        "She reads a book",
+        "She eats the bun",
+        "She goes outside"
+      ],
+      "a": 0,
+      "ex": "After moving the pot, the black rat makes her bed to finally go to sleep.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "True or False: We make milkshake with a mixie.",
+      "options": [
+        "True",
+        "False",
+        "Sometimes",
+        "Cannot be determined"
+      ],
+      "a": 0,
+      "ex": "A mixie is used to blend fruits and milk to make a milkshake.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "True or False: We cut with a knife.",
+      "options": [
+        "True",
+        "False",
+        "Only bread",
+        "Only fruits"
+      ],
+      "a": 0,
+      "ex": "A knife is the primary tool used for cutting food items in the kitchen.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "We fry food items using a ____.",
+      "options": [
+        "Strainer",
+        "Pan",
+        "Grater",
+        "Lota"
+      ],
+      "a": 1,
+      "ex": "A pan is a flat-bottomed utensil used for frying foods on a stove.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Which of the following items is uncountable?",
+      "options": [
+        "Bicycle",
+        "Tree",
+        "Bat",
+        "Butter"
       ],
       "a": 3,
-      "ex": "They caught only three fish. || அவர்கள் மூன்று மீன்களை மட்டுமே பிடித்தனர்.",
-      "lesson": "Lesson_2"
+      "ex": "Butter is a mass noun and cannot be counted directly without units (like a block of butter).",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "Where did Anbu first put the three small fish? || அந்த மூன்று மீன்களை அன்பு முதலில் எங்கு போட்டான்?",
+      "q": "Life Scenario: You are making a salad. You need to turn carrots into thin, shredded pieces. Which tool will you use?",
       "options": [
-        "In a bucket",
-        "In a jar filled with water || தண்ணீர் நிறைந்த ஜாடியில்",
-        "In a small pool",
-        "Back into the river"
+        "Rolling pin",
+        "Grater",
+        "Funnel",
+        "Tongs"
       ],
       "a": 1,
-      "ex": "Anbu put them in a water jar. || அன்பு அவற்றை ஒரு ஜாடியில் போட்டான்.",
-      "lesson": "Lesson_2"
+      "ex": "A grater is used to shred foods like carrots into small, thin pieces.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "Why didn't the fish eat the earthworms inside the jar? || ஜாடியில் இருந்த மீன்கள் மண்புழுக்களை ஏன் சாப்பிடவில்லை?",
+      "q": "Life Scenario: You accidentally spilled tea leaves into the hot tea. How will you remove them?",
       "options": [
-        "They were full",
-        "They only eat bread",
-        "They were in fear || அவை பயத்தில் இருந்தன",
-        "The water was too cold"
+        "Use a strainer",
+        "Use a knife",
+        "Use a ladle",
+        "Use a peeler"
+      ],
+      "a": 0,
+      "ex": "A strainer will let the liquid pass through while catching the solid tea leaves.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Analogy: Cook : Kitchen :: Bathe : ____",
+      "options": [
+        "Bedroom",
+        "Hall",
+        "Bathroom",
+        "Garden"
       ],
       "a": 2,
-      "ex": "Anbu could feel their fear, which prevented them from eating. || அவை பயத்துடன் இருந்ததால் எதையும் சாப்பிடவில்லை.",
+      "ex": "We cook in the kitchen and bathe in the bathroom.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Match the following: 1. Boil - a. Cut into pieces, 2. Chop - b. Heat liquid, 3. Peel - c. Remove skin.",
+      "options": [
+        "1-b, 2-a, 3-c",
+        "1-a, 2-b, 3-c",
+        "1-c, 2-a, 3-b",
+        "1-b, 2-c, 3-a"
+      ],
+      "a": 0,
+      "ex": "To boil is to heat a liquid, to chop is to cut into pieces, and to peel is to remove the skin.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Assertion: We use 'How much' to ask about the quantity of water.\nReason: Water is a countable noun.",
+      "options": [
+        "Assertion is true, Reason is false",
+        "Assertion is false, Reason is true",
+        "Both are true",
+        "Both are false"
+      ],
+      "a": 0,
+      "ex": "We do use 'How much' for water, but the reason is false because water is an UNCOUNTABLE noun.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Identify the correct pair of Countable - Uncountable nouns:",
+      "options": [
+        "Ball - Pencil",
+        "Sugar - Rice",
+        "House - Oil",
+        "Water - Metal"
+      ],
+      "a": 2,
+      "ex": "A house is countable, and oil is uncountable, making it the correct Countable-Uncountable pair.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What did Amma advise the children to do while making tea?",
+      "options": [
+        "Ask Patti for help",
+        "Ask father for help",
+        "Buy it from outside",
+        "Don't make tea"
+      ],
+      "a": 0,
+      "ex": "Amma told them, 'Yes, ask patti for help' before they started making tea.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Which letter cluster produces the sound found in words like 'wool' and 'brook'?",
+      "options": [
+        "ee",
+        "ea",
+        "oo",
+        "ou"
+      ],
+      "a": 2,
+      "ex": "The 'oo' letter cluster produces the short vowel sound in 'wool' and 'brook'.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Which container is best for serving a large amount of liquid, like water or juice, on a table?",
+      "options": [
+        "Spoon",
+        "Jug / Pot",
+        "Saucer",
+        "Peeler"
+      ],
+      "a": 1,
+      "ex": "A jug or pot is a large container used for holding and serving liquids.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Unscramble the letters to find a kitchen tool: o - p - n - o - s",
+      "options": [
+        "snoop",
+        "spoon",
+        "poons",
+        "opsno"
+      ],
+      "a": 1,
+      "ex": "The letters rearrange to form 'spoon', a common kitchen utensil.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "High Order Thinking: Why is it important to ask 'May I...?' or 'Can I...?' before using something that isn't yours?",
+      "options": [
+        "Because it makes you look smart",
+        "To show respect and get permission",
+        "Because the teacher forces you",
+        "To make the other person angry"
+      ],
+      "a": 1,
+      "ex": "Asking for permission shows good manners, respect for others' property, and prevents misunderstandings.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Which insect climbs up the water spout in the rhyme?",
+      "options": [
+        "Bumblebee",
+        "Butterfly",
+        "Spider",
+        "Ant"
+      ],
+      "a": 2,
+      "ex": "The rhyme is about 'Incy Wincy Spider' who climbed up the water spout.",
+      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
-      "q": "What happened to the fish the next morning? || அடுத்த நாள் காலை மீன்களுக்கு என்னவானது?",
+      "q": "What washed poor Incy Wincy out of the spout?",
       "options": [
-        "They all died",
-        "They ate all the food",
-        "They grew much bigger",
-        "One fish was found on the floor || ஒரு மீன் தரையில் கிடந்தது"
+        "Wind",
+        "Sunshine",
+        "Snow",
+        "Rain"
       ],
       "a": 3,
-      "ex": "Next morning, one fish had jumped out. || ஒரு மீன் ஜாடியிலிருந்து வெளியே குதித்து தரையில் கிடந்தது.",
+      "ex": "According to the rhyme, 'Down came the rain and washed poor Incy out.'",
+      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
-      "q": "What did Anbu's father bring in the evening? || அன்று மாலை அன்பின் தந்தை என்ன கொண்டு வந்தார்?",
+      "q": "What dried up all the rain in the spider poem?",
       "options": [
-        "A new fishing rod",
-        "A new fish tank || ஒரு புதிய மீன் தொட்டி",
-        "More fish food",
-        "A large net"
-      ],
-      "a": 1,
-      "ex": "His father brought a new fish tank. || அவரது தந்தை ஒரு புதிய மீன் தொட்டியை வாங்கி வந்தார்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What happened on the second day after school? || இரண்டாம் நாள் பள்ளி முடிந்து வந்தபோது என்ன கண்டான்?",
-      "options": [
-        "The fish were swimming happily",
-        "One more fish was dead and floating on the top || ஒரு மீன் செத்து மிதந்தது",
-        "The fish jumped out again",
-        "The tank broke"
-      ],
-      "a": 1,
-      "ex": "One fish died and was floating. || ஒரு மீன் இறந்து மேலே மிதந்து கொண்டிருந்தது.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What advice did Anbu's father give him about the fish? || மீன்களைப் பற்றி அவரது தந்தை கொடுத்த அறிவுரை என்ன?",
-      "options": [
-        "They need better food",
-        "Nature is their home, let them be free || இயற்கைதான் அவற்றின் வீடு, அவற்றை விடுவித்துவிடு",
-        "They need more space in the tank",
-        "We should buy more fish"
-      ],
-      "a": 1,
-      "ex": "Nature is their home and they should be free. || இயற்கைதான் அவை வாழும் இடம் என்று அவர் கூறினார்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What did Anbu do with the last remaining fish? || கடைசி மீனை அன்பு என்ன செய்தான்?",
-      "options": [
-        "He gave it to Madhan",
-        "He kept it in the tank forever",
-        "He took it to the same pond and set it free || குளத்தில் கொண்டு போய் விடுவித்தான்",
-        "He cooked it"
-      ],
-      "a": 2,
-      "ex": "He set it free in the pond. || அவன் அதை மீண்டும் குளத்திலேயே கொண்டு போய் விட்டான்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What became Anbu and Madhan's new hobby? || அன்பு மற்றும் மதனின் புதிய பொழுதுபோக்கு எது?",
-      "options": [
-        "Feeding fish with puffed rice || மீன்களுக்குப் பொரி போடுதல்",
-        "Swimming in the river",
-        "Catching butterflies",
-        "Building fish tanks"
+        "The sunshine",
+        "The wind",
+        "The moon",
+        "The clouds"
       ],
       "a": 0,
-      "ex": "Feeding fish became their new hobby. || மீன்களுக்கு உணவளிப்பதை அவர்கள் பொழுதுபோக்காக மாற்றிக்கொண்டனர்.",
+      "ex": "The poem says, 'Out came the sunshine And dried up all the rain.'",
+      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
-      "q": "In the story 'The Little Red Hen', what seeds did the hen have? || 'சிவப்புக் கோழி' கதையில் கோழியிடம் என்ன விதைகள் இருந்தன?",
+      "q": "Where did the insects in the story meet every day?",
       "options": [
-        "Rice seeds",
-        "Corn seeds",
-        "Wheat seeds || கோதுமை விதைகள்",
-        "Sunflower seeds"
-      ],
-      "a": 2,
-      "ex": "A little red hen had wheat seeds. || கோழியிடம் கோதுமை விதைகள் இருந்தன.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "How is the dog described in 'The Little Red Hen'? || நாய் எவ்வாறு விவரிக்கப்பட்டுள்ளது?",
-      "options": [
-        "Lazy",
-        "Sleepy",
-        "Noisy",
-        "Selfish || சுயநலம் பிடித்தது"
+        "On a tree",
+        "Inside a house",
+        "Under a rock",
+        "Near a beautiful pond"
       ],
       "a": 3,
-      "ex": "The story describes it as the selfish dog. || கதையில் அது ஒரு சுயநலமான நாய் என்று கூறப்பட்டுள்ளது.",
+      "ex": "The story begins with 'Many insects lived near the pond. They met every day.'",
+      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
-      "q": "How is the cat described in 'The Little Red Hen'? || பூனை எவ்வாறு விவரிக்கப்பட்டுள்ளது?",
+      "q": "What does the butterfly do every morning?",
       "options": [
-        "Lazy",
-        "Sleepy || தூக்கத்திலிருக்கும்",
-        "Noisy",
-        "Selfish"
+        "Builds a web",
+        "Collects nectar from flowers",
+        "Sleeps on leaves",
+        "Eats other insects"
       ],
       "a": 1,
-      "ex": "The cat is described as sleepy. || பூனை எப்போதும் தூக்கக் கலக்கத்தில் இருப்பதாக இருந்தது.",
+      "ex": "The butterfly says, 'I collect nectar from flowers every morning.'",
+      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
-      "q": "How is the duck described in 'The Little Red Hen'? || வாத்து எவ்வாறு விவரிக்கப்பட்டுள்ளது?",
+      "q": "Which insect buzzes around busily on sunny days to collect nectar?",
       "options": [
-        "Selfish",
-        "Sleepy",
-        "Noisy || சத்தம் போடுவது",
-        "Lazy"
+        "Snail",
+        "Beetle",
+        "Bumblebee",
+        "Mosquito"
       ],
       "a": 2,
-      "ex": "The duck is described as noisy. || வாத்து சத்தம் போட்டுக்கொண்டு இருந்தது.",
+      "ex": "The Bumblebee says, 'I collect nectar on sunny days... and visit many flowers.'",
+      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
-      "q": "How is the cow described in 'The Little Red Hen'? || பசு எவ்வாறு விவரிக்கப்பட்டுள்ளது?",
+      "q": "What colours are the dots on a ladybird?",
       "options": [
-        "Selfish",
-        "Sleepy",
-        "Noisy",
-        "Lazy || சோம்பேறி"
+        "Red and black",
+        "Yellow and green",
+        "Blue and white",
+        "Black and yellow"
       ],
-      "a": 3,
-      "ex": "The cow is described as lazy. || பசு சோம்பேறியாக இருந்தது.",
+      "a": 0,
+      "ex": "The dragonfly saw a bug with 'red and black dots', which was the ladybird.",
+      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
-      "q": "What did the little red hen do when the animals wanted to help eat the bread? || விலங்குகள் ரொட்டியைச் சாப்பிட வந்தபோது கோழி என்ன செய்தது?",
+      "q": "What is the food of the ladybird?",
       "options": [
-        "She shared it equally",
-        "She gave it all to them",
-        "She said 'No' and ate it herself || மறுத்துவிட்டுத் தானே சாப்பிட்டது",
-        "She threw it away"
+        "Nectar from flowers",
+        "Leaves and grass",
+        "Tiny insects that eat plants",
+        "Soil and mud"
       ],
       "a": 2,
-      "ex": "She didn't share it as they didn't help with the work. || அவை உதவி செய்யாததால் அவற்றுக்குப் பங்கு கொடுக்காமல் கோழி தானே சாப்பிட்டது.",
+      "ex": "The ladybird says, 'I look for the tiny insects that eat the plants. They are my food.'",
+      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
-      "q": "What is the correct homophone for the word 'Eye'? || 'Eye' (கண்) என்ற சொல்லிற்குரிய ஒத்த ஒலிச் சொல் எது?",
+      "q": "Where does the ant carry its food?",
       "options": [
-        "A",
-        "U",
-        "I || நான்",
-        "Oh"
+        "To the pond",
+        "To the beehive",
+        "To the anthill",
+        "To the tree branch"
       ],
       "a": 2,
-      "ex": "'Eye' and 'I' sound the same.",
+      "ex": "The ant says, 'I carry food to my anthill.'",
+      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
-      "q": "What is the closing phrase used in the sample Leave Letter? || விடுப்புக் கடிதத்தின் முடிவில் பயன்படுத்தும் வாக்கியம் எது?",
+      "q": "How do the ants work and eat?",
       "options": [
-        "Yours lovingly",
-        "Yours faithfully",
-        "Yours truly",
-        "Yours sincerely || தங்கள் உண்மையுள்ள"
+        "Together",
+        "Alone",
+        "Slowly",
+        "Only at night"
       ],
-      "a": 3,
-      "ex": "The letter ends with 'Yours sincerely'.",
+      "a": 0,
+      "ex": "Ants are a team. The ant says, 'We work together to get food. We eat together.'",
+      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
-      "q": "What is the meaning of the word 'Adventure'? || 'Adventure' (சாகசம்) என்பதன் பொருள் என்ன?",
+      "q": "What does the dragonfly do at the pond?",
       "options": [
-        "A quiet and boring journey",
-        "A risky or unexpected undertaking || ஒரு ஆபத்தான அல்லது எதிர்பாராத செயல்",
-        "A routine daily task",
-        "A safe trip with family"
+        "Collects food",
+        "Flies around and meets friends",
+        "Eats plant leaves",
+        "Swims in the water"
       ],
       "a": 1,
-      "ex": "According to the glossary, adventure is defined as a risky or unexpected undertaking. || சாகசம் என்பது ஒரு ஆபத்தான அல்லது எதிர்பாராத செயலைக் குறிக்கும்.",
-      "lesson": "Lesson_3"
+      "ex": "The dragonfly tells the ant, 'I just fly around and meet all my friends.'",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "Which of the following defines a 'Boat'? || 'Boat' (படகு) என்பதன் விளக்கம் எது?",
+      "q": "Which insect looks fierce and finds its food on the ground?",
       "options": [
-        "A large vehicle for the road",
-        "An aircraft",
-        "A small vessel used to travel in water || தண்ணீரில் பயணம் செய்யப் பயன்படும் ஒரு சிறிய வாகனம்",
-        "A shelter made of canvas"
-      ],
-      "a": 2,
-      "ex": "A boat is described in the vocabulary section as a small vessel used to travel in water. || படகு என்பது நீரில் பயணம் செய்ய உதவும் சிறிய வாகனமாகும்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "Who are 'Cannibals'? || 'Cannibals' (மனித உண்ணிகள்) என்பவர்கள் யார்?",
-      "options": [
-        "People who protest authority",
-        "Humans who eat other humans || சக மனிதர்களை உண்ணும் மனிதர்கள்",
-        "A small community of people",
-        "People who travel the sea"
-      ],
-      "a": 1,
-      "ex": "The text clearly defines cannibals as humans who eat other humans. || மனிதர்களைத் தின்னும் மனிதர்கள் கன்னிபால்ஸ் என்று அழைக்கப்படுவர்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "What does it mean to 'Explore'? || 'Explore' (ஆராய்ந்து பார்த்தல்) என்றால் என்ன?",
-      "options": [
-        "To travel through an unknown area to learn more about it || ஒரு தெரியாத இடத்தைப் பற்றி அறிய அங்கு பயணம் செய்வது",
-        "To shake slightly",
-        "To stay in one place",
-        "To lose consciousness"
+        "Beetle",
+        "Butterfly",
+        "Mosquito",
+        "Spider"
       ],
       "a": 0,
-      "ex": "Exploring means traveling through an unknown area to learn more about it. || ஒரு புதிய இடத்தைப் பற்றித் தெரிந்துகொள்ள அங்குப் பயணம் செய்வது 'Exploring' எனப்படும்.",
-      "lesson": "Lesson_3"
+      "ex": "The beetle looks fierce and says, 'I find my food on the ground.'",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "What is the definition of 'Fainted'? || 'Fainted' (மயக்கமடைதல்) என்பதன் பொருள் என்ன?",
+      "q": "Why did the dragonfly fly away fast at the end of the pond story?",
       "options": [
-        "To protest authority",
-        "To be afraid",
-        "To lose consciousness for a long time || நீண்ட நேரம் நினைவிழந்து போதல்",
-        "To shake or quiver"
-      ],
-      "a": 2,
-      "ex": "Fainting is defined as losing consciousness for a long time. || மயக்கமடைதல் என்பது நீண்ட நேரம் சுயநினைவை இழப்பதாகும்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "What is a 'Footprint'? || 'Footprint' (காலடித் தடம்) என்றால் என்ன?",
-      "options": [
-        "The impression of the foot in a soft substance || மென்மையான மேல்பரப்பில் காலால் ஏற்படும் தழும்பு",
-        "A type of shoe",
-        "A path made of stones",
-        "A portable shelter"
-      ],
-      "a": 0,
-      "ex": "A footprint is the impression left by a foot in a soft substance like sand or snow. || மணல் அல்லது பனியில் ஏற்படும் காலின் தழும்புகள் காலடித் தடம் எனப்படும்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "What does 'Frightened' mean? || 'Frightened' (பயந்து போதல்) என்பதன் பொருள் என்ன?",
-      "options": [
-        "Brave",
-        "Afraid || பயம்/அச்சம்",
-        "Happy",
-        "Angry"
+        "It saw a hunter",
+        "It saw a chameleon",
+        "It started raining",
+        "It was getting dark"
       ],
       "a": 1,
-      "ex": "The glossary defines frightened simply as 'Afraid'. || 'Frightened' என்பது அச்சம் அடைவதைக் குறிக்கும்.",
-      "lesson": "Lesson_3"
+      "ex": "The dragonfly flew away because it saw a chameleon, and chameleons eat insects.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "What does it mean to 'Hire' something? || 'Hire' (வாடகைக்கு எடுத்தல்) என்றால் என்ன?",
+      "q": "Which of the following creatures is a reptile that eats insects?",
       "options": [
-        "To buy it permanently",
-        "To use temporarily for sometime for an agreed payment || தற்காலிக பயன்பாட்டிற்காகப் பணம் செலுத்திப் பெறுதல்",
-        "To steal it",
-        "To build it yourself"
-      ],
-      "a": 1,
-      "ex": "Hiring means using something temporarily for an agreed payment. || ஒரு பொருளின் தற்காலிகப் பயன்பாட்டிற்காகப் பணம் தருவது வாடகை ஆகும்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "Who are considered 'Rebels'? || 'Rebels' (கிளர்ச்சியாளர்கள்) என்பவர்கள் யார்?",
-      "options": [
-        "People who protest authority || அதிகாரத்தை எதிர்த்துப் போராடுபவர்கள்",
-        "People who travel in boats",
-        "A community with common habits",
-        "Humans who eat humans"
-      ],
-      "a": 0,
-      "ex": "Rebels are defined as people who protest authority. || அதிகாரத்தை எதிர்ப்பவர்கள் கிளர்ச்சியாளர்கள் என்று அழைக்கப்படுவர்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "What does 'Tremble' mean? || 'Tremble' (நடுங்குதல்) என்பதன் பொருள் என்ன?",
-      "options": [
-        "To shout loudly",
-        "To run very fast",
-        "To shake or quiver slightly || லேசாக நடுங்குவது",
-        "To travel in a boat"
+        "Dove",
+        "Ladybird",
+        "Chameleon",
+        "Snail"
       ],
       "a": 2,
-      "ex": "Tremble is defined in the vocabulary as shaking or quivering slightly. || உடல் லேசாக நடுங்குவதை 'Tremble' என்று கூறுவர்.",
-      "lesson": "Lesson_3"
+      "ex": "A chameleon is a reptile known for catching and eating insects.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "What is a 'Tribe'? || 'Tribe' (பழங்குடி) என்றால் என்ன?",
+      "q": "Match the word to its feature: Bumblebee -> ?",
       "options": [
-        "A strong wind",
-        "A portable shelter",
-        "A small vessel",
-        "A small community with common habits and culture || பொதுவான பழக்கவழக்கங்களைக் கொண்ட ஒரு சிறிய சமூகம்"
+        "Colourful",
+        "Buzzes",
+        "Fierce",
+        "Beautiful"
+      ],
+      "a": 1,
+      "ex": "Bumblebees make a buzzing sound.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Match the word to its feature: Butterfly -> ?",
+      "options": [
+        "Fierce",
+        "Buzzes",
+        "Colourful",
+        "Tiny"
+      ],
+      "a": 2,
+      "ex": "Butterflies are known for their colourful wings.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Which word contains the '/a:/' sound using the 'ar' letter cluster?",
+      "options": [
+        "Fast",
+        "Book",
+        "Park",
+        "Blast"
+      ],
+      "a": 2,
+      "ex": "The word 'park' has the 'ar' letter cluster producing the /a:/ sound.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Which word contains the 'ast' letter cluster?",
+      "options": [
+        "Shark",
+        "Past",
+        "Dark",
+        "Farm"
+      ],
+      "a": 1,
+      "ex": "The word 'past' contains the 'ast' letter cluster.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Complete the sentence from the phonics section: The ____ eats the fish.",
+      "options": [
+        "Shark",
+        "Star",
+        "Car",
+        "Dog"
+      ],
+      "a": 0,
+      "ex": "The phonics reading practice sentence is 'The shark eats the fish.'",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Complete the sentence from the phonics section: The ____ march.",
+      "options": [
+        "Dogs",
+        "Ants",
+        "Cars",
+        "Stars"
+      ],
+      "a": 1,
+      "ex": "The phonics reading practice sentence is 'The ants march.'",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Find the missing letters: m _ _ k",
+      "options": [
+        "ar",
+        "oo",
+        "ee",
+        "ast"
+      ],
+      "a": 0,
+      "ex": "Using the 'ar' cluster, the word is 'mark'.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "If you want to politely ask your friend for a pencil, what should you say?",
+      "options": [
+        "Give me pencil.",
+        "Could you give me a pencil?",
+        "I take your pencil.",
+        "Where is pencil?"
+      ],
+      "a": 1,
+      "ex": "'Could you give me a...?' is the polite structure taught in the grammar section.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "When someone gives you the item you politely asked for, what do they usually say?",
+      "options": [
+        "Here it is.",
+        "Go away.",
+        "Take it.",
+        "It is mine."
+      ],
+      "a": 0,
+      "ex": "The correct response taught in the lesson is 'Here it is.'",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Prepositions: The fish is swimming ___ the bowl.",
+      "options": [
+        "In",
+        "On",
+        "Under",
+        "Near"
+      ],
+      "a": 0,
+      "ex": "The fish is inside the water, so it is 'in' the bowl.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Prepositions: The spider is hiding ___ the chair, on the floor below it.",
+      "options": [
+        "On",
+        "Under",
+        "In",
+        "Near"
+      ],
+      "a": 1,
+      "ex": "When something is below another object, we use 'under'.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Prepositions: The caterpillar is resting exactly ___ top of the shoe.",
+      "options": [
+        "In",
+        "Under",
+        "On",
+        "Near"
+      ],
+      "a": 2,
+      "ex": "When something is touching the top surface of an object, we use 'on'.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Prepositions: The bug is standing ___ the sofa, just a few inches away.",
+      "options": [
+        "In",
+        "Under",
+        "Near",
+        "On"
+      ],
+      "a": 2,
+      "ex": "When something is close to an object, we use 'near'.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "In 'The Ant and the Dove' story, what pushed the ant into the river?",
+      "options": [
+        "A stone",
+        "A frog",
+        "The wind",
+        "A branch"
+      ],
+      "a": 2,
+      "ex": "The story says, 'The wind blew hard and pushed him into the river.'",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Who saw the ant drowning in the river?",
+      "options": [
+        "A hunter",
+        "A dove",
+        "A beetle",
+        "A spider"
+      ],
+      "a": 1,
+      "ex": "A dove sitting on a nearby tree saw the ant crying for help.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What did the dove throw into the river to save the ant?",
+      "options": [
+        "A twig",
+        "A rope",
+        "A leaf",
+        "A flower"
+      ],
+      "a": 2,
+      "ex": "The dove threw a leaf into the river, and the ant got on it to reach the bank safely.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "After some days, who was aiming at the dove?",
+      "options": [
+        "An eagle",
+        "A hunter",
+        "A snake",
+        "A tiger"
+      ],
+      "a": 1,
+      "ex": "The ant saw a hunter aiming at the dove.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What weapons did the hunter have?",
+      "options": [
+        "A net and stick",
+        "A gun",
+        "A bow and arrow",
+        "A sword"
+      ],
+      "a": 2,
+      "ex": "The story mentions the hunter dropped his 'bow and arrow' when the ant bit him.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "How did the ant save the dove from the hunter?",
+      "options": [
+        "By pushing the hunter",
+        "By shouting loudly",
+        "By biting the hunter",
+        "By breaking the bow"
+      ],
+      "a": 2,
+      "ex": "The ant quickly bit the hunter, causing him to cry 'Ow' and drop his weapon.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What did the dove say to the ant before flying away?",
+      "options": [
+        "Goodbye, ant!",
+        "Thank you, ant!",
+        "See you later!",
+        "You are brave!"
+      ],
+      "a": 1,
+      "ex": "The dove was grateful and said, 'Thank you, ant!' before she flew away.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "According to the Big Picture, where does the ant live?",
+      "options": [
+        "In the water",
+        "In the hill",
+        "On the tree",
+        "Under the leaf"
+      ],
+      "a": 1,
+      "ex": "The Big Picture states, 'The ant is in the hill (anthill).'",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Which of these insects is known to glow in the dark at night?",
+      "options": [
+        "Rain bug",
+        "Dragonfly",
+        "Firefly",
+        "Grasshopper"
+      ],
+      "a": 2,
+      "ex": "Fireflies are small insects known for glowing in the dark.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Book Back: How does the ant walk?",
+      "options": [
+        "With its wings",
+        "With its shell",
+        "With its legs",
+        "With its tail"
+      ],
+      "a": 2,
+      "ex": "Ants do not fly like birds; they walk with their legs.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "True or False: The bumblebee collects nectar only on rainy days.",
+      "options": [
+        "True",
+        "False",
+        "Only at night",
+        "Cannot say"
+      ],
+      "a": 1,
+      "ex": "False. The bumblebee says, 'I collect nectar on SUNNY days.'",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "True or False: Ladybirds eat the plants near the pond.",
+      "options": [
+        "True",
+        "False",
+        "They eat fish",
+        "They eat frogs"
+      ],
+      "a": 1,
+      "ex": "False. Ladybirds eat the tiny insects that destroy the plants, not the plants themselves.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Find the odd one out based on the 'ast' phonics sound:",
+      "options": [
+        "Fast",
+        "Past",
+        "Mark",
+        "Blast"
+      ],
+      "a": 2,
+      "ex": "'Mark' has the 'ar' sound, while the others have the 'ast' sound.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Find the odd one out based on the 'ar' phonics sound:",
+      "options": [
+        "Vast",
+        "Car",
+        "Jar",
+        "Far"
+      ],
+      "a": 0,
+      "ex": "'Vast' has the 'ast' sound, while the others have the 'ar' sound.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Assertion: The dragonfly flew away quickly.\nReason: It saw a chameleon that eats insects.",
+      "options": [
+        "Both Assertion and Reason are true",
+        "Both are false",
+        "Assertion is true, Reason is false",
+        "Assertion is false, Reason is true"
+      ],
+      "a": 0,
+      "ex": "The dragonfly fled because chameleons are known predators of insects.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Real-life Scenario: You are reading a book and your pet dog barks loudly right next to your ear. What preposition describes the dog's position?",
+      "options": [
+        "In",
+        "Under",
+        "Near",
+        "On"
+      ],
+      "a": 2,
+      "ex": "Since the dog is right next to your ear, it is 'near' you.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Analogy: Bee : Hive :: Ant : ____",
+      "options": [
+        "Web",
+        "Pond",
+        "Anthill",
+        "Tree"
+      ],
+      "a": 2,
+      "ex": "Bees live in a hive, and ants live in an anthill.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Rearrange the words to make a polite sentence: the / Could / pass / you / salt?",
+      "options": [
+        "You could pass the salt?",
+        "Could you pass the salt?",
+        "The salt could pass you?",
+        "Pass you could the salt?"
+      ],
+      "a": 1,
+      "ex": "The correct polite request structure is 'Could you pass the salt?'",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "If a bird is sitting at the very top of a house, which preposition best describes its place?",
+      "options": [
+        "In the house",
+        "Under the house",
+        "On the house",
+        "Near the house"
+      ],
+      "a": 2,
+      "ex": "When something is resting on the surface/top, we use 'on'.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Which insect from the lesson leaves a slimy trail and carries a shell on its back?",
+      "options": [
+        "Spider",
+        "Grasshopper",
+        "Snail",
+        "Beetle"
+      ],
+      "a": 2,
+      "ex": "The snail is a small creature that carries a shell on its back.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Which insect from the vocabulary list jumps very high in the grass?",
+      "options": [
+        "Snail",
+        "Grasshopper",
+        "Butterfly",
+        "Firefly"
+      ],
+      "a": 1,
+      "ex": "A grasshopper is known for jumping high in the grass.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Complete the phonics sentence: The car is ___.",
+      "options": [
+        "Slow",
+        "Red",
+        "Fast",
+        "Big"
+      ],
+      "a": 2,
+      "ex": "The phonics reading sentence states, 'The car is fast.'",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Complete the phonics sentence: We have fun in the ___.",
+      "options": [
+        "School",
+        "Park",
+        "Pool",
+        "House"
+      ],
+      "a": 1,
+      "ex": "The phonics reading sentence states, 'We have fun in the park.'",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "High Order Thinking: Why is the ladybird considered a 'friend to farmers'?",
+      "options": [
+        "Because it waters the plants",
+        "Because it eats the harmful bugs that destroy crops",
+        "Because it gives milk",
+        "Because it is red in colour"
+      ],
+      "a": 1,
+      "ex": "Ladybirds naturally control pests by eating the tiny insects that destroy plants.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "High Order Thinking: What is the main moral of the story 'The Ant and the Dove'?",
+      "options": [
+        "Never go near a river",
+        "Hunters are dangerous",
+        "If you do good to others, good will come to you",
+        "Ants cannot swim"
+      ],
+      "a": 2,
+      "ex": "The dove helped the ant, and in return, the ant helped the dove. It teaches us to help each other.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "High Order Thinking: If the dove had not dropped the leaf, what would have most likely happened?",
+      "options": [
+        "The ant would have flown away",
+        "The ant would have drowned in the river",
+        "The wind would have stopped",
+        "The hunter would have shot the ant"
+      ],
+      "a": 1,
+      "ex": "The ant was struggling in the water. Without the leaf to climb on, it would have drowned.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "High Order Thinking: Which quality of the ants is highlighted in the pond story?",
+      "options": [
+        "Laziness",
+        "Selfishness",
+        "Teamwork and hard work",
+        "Anger"
+      ],
+      "a": 2,
+      "ex": "The ant says, 'We work together to get food. We eat together.' This shows excellent teamwork.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "High Order Thinking: Why did the ant bite the hunter instead of warning the dove by shouting?",
+      "options": [
+        "Because ants are very loud",
+        "Because ants cannot shout loudly enough, but a bite is effective",
+        "Because the ant hated the hunter",
+        "Because the dove was deaf"
+      ],
+      "a": 1,
+      "ex": "Ants are tiny creatures and cannot shout like humans. Biting the hunter was the fastest and most effective way to distract him.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Real-life Scenario: Your pencil rolls off the table and falls to the floor, hiding exactly below the table. Where is your pencil?",
+      "options": [
+        "In the table",
+        "On the table",
+        "Near the table",
+        "Under the table"
       ],
       "a": 3,
-      "ex": "A tribe is a small community sharing common habits and culture. || ஒரே வகையான பண்பாட்டைப் பகிர்ந்து கொள்ளும் சிறிய மக்கள் சமூகம்.",
-      "lesson": "Lesson_3"
+      "ex": "When an object is directly below another, the correct preposition is 'under'.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "What is a 'Waterfall'? || 'Waterfall' (நீர்வீழ்ச்சி) என்றால் என்ன?",
+      "q": "Which insect from the picture vocabulary is known as the 'rain bug'?",
       "options": [
-        "A strong ocean storm",
-        "Water dropping from a higher point to a lower point || உயரத்திலிருந்து கீழே விழும் தண்ணீர்",
-        "A soft substance like snow",
-        "A portable shelter"
+        "A small black ant",
+        "A red velvety bug seen during rains",
+        "A flying mosquito",
+        "A green grasshopper"
       ],
       "a": 1,
-      "ex": "A waterfall is water from a river or stream dropping from a higher point to a lower point. || மலையிலிருந்து கீழே விழும் தண்ணீரை நீர்வீழ்ச்சி என்று கூறுகிறோம்.",
-      "lesson": "Lesson_3"
+      "ex": "A rain bug (commonly known as red velvet mite) appears brightly coloured during the rainy season.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "At what age did Robinson Crusoe leave home for sea adventures? || ராபின்சன் கடல் பயணத்திற்காக எந்த வயதில் வீட்டை விட்டு வெளியேறினார்?",
+      "q": "Which insect has colourful wings and starts its life as a caterpillar?",
       "options": [
-        "15",
-        "28",
-        "19 || 19 வயதில்",
-        "30"
+        "Housefly",
+        "Spider",
+        "Butterfly",
+        "Snail"
       ],
       "a": 2,
-      "ex": "The text states that at age 19, Robinson left home for sea adventures. || ராபின்சன் தனது 19 வயதில் சாகசங்களுக்காகச் சென்றார்.",
-      "lesson": "Lesson_3"
+      "ex": "A caterpillar eventually transforms into a beautiful butterfly with colourful wings.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "What animal survived the shipwreck with Robinson? || ராபின்சனுடன் எந்த விலங்கு கப்பல் சிதைவிலிருந்து தப்பியது?",
+      "q": "Real-life Scenario: You are sitting at a restaurant and need a menu card. How should you ask the waiter?",
       "options": [
-        "A dog || ஒரு நாய்",
-        "A cat",
-        "A monkey",
-        "A horse"
+        "Give me menu.",
+        "Could you give me the menu card, please?",
+        "Where is menu?",
+        "I want menu."
       ],
-      "a": 0,
-      "ex": "Robinson survived on the island with only a dog. || ராபின்சன் ஒரு சிறிய நாயுடன் மட்டுமே தீவில் தப்பினார்.",
-      "lesson": "Lesson_3"
+      "a": 1,
+      "ex": "Using 'Could you give me...?' is the most polite and respectful way to ask for something.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "How did Robinson track time on the island? || ராபின்சன் தீவில் காலத்தை எவ்வாறு கணக்கிட்டார்?",
+      "q": "What is the small creature that spins a web to catch its food?",
       "options": [
-        "Using a stone calendar",
-        "Using a sundial",
-        "Using a wooden cross || ஒரு மரச் சிலுவையைப் பயன்படுத்தி",
-        "Using a pocket watch"
+        "Beetle",
+        "Dragonfly",
+        "Spider",
+        "Bumblebee"
       ],
       "a": 2,
-      "ex": "He tracked time using a wooden cross that he made. || அவர் ஒரு மரச் சிலுவையைப் பயன்படுத்திக் காலத்தைக் கணக்கிட்டார்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "What caused Robinson to live in fear for two years? || எதைக் கண்டதால் ராபின்சன் இரண்டு ஆண்டுகள் பயத்தில் வாழ்ந்தார்?",
-      "options": [
-        "A strong gale",
-        "A roaring sound",
-        "Seeing a human footprint || ஒரு மனித காலடித் தடத்தைக் கண்டதால்",
-        "A shipwreck"
-      ],
-      "a": 2,
-      "ex": "Robinson lived in fear for two years after seeing a single human footprint on the sand. || மணலில் ஒரு மனிதனின் காலடித் தடத்தைக் கண்டதால் அவர் பயமடைந்தார்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "What did Robinson name the young man he saved? || ராபின்சன் தான் காப்பாற்றிய இளைஞனுக்கு என்ன பெயரிட்டார்?",
-      "options": [
-        "Appu",
-        "Bujju",
-        "Sunday",
-        "Friday || ப்ரைடே"
-      ],
-      "a": 3,
-      "ex": "He named the young man Friday because they met on that specific day. || அவர்கள் வெள்ளிக்கிழமை சந்தித்ததால் அவருக்கு 'ப்ரைடே' என்று பெயரிட்டார்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "How long was Robinson away before returning to England? || ராபின்சன் இங்கிலாந்து திரும்புவதற்கு முன்பு எவ்வளவு காலம் தீவில் இருந்தார்?",
-      "options": [
-        "28 years, 2 months, and 19 days || 28 ஆண்டுகள், 2 மாதங்கள் மற்றும் 19 நாட்கள்",
-        "10 years and 5 months",
-        "19 years and 2 days",
-        "2 years"
-      ],
-      "a": 0,
-      "ex": "He returned to England after exactly 28 years, 2 months, and 19 days. || அவர் சுமார் 28 ஆண்டுகளுக்குப் பிறகு நாடு திரும்பினார்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "Where did Bujju’s family and cousins go for their trip? || புஜ்ஜுவின் குடும்பத்தினர் எங்குச் சுற்றுலா சென்றனர்?",
-      "options": [
-        "To a beach",
-        "To an island",
-        "To a hill || ஒரு மலைக்கு",
-        "To a forest"
-      ],
-      "a": 2,
-      "ex": "Bujju's family and cousins went to a hill for their trip. || புஜ்ஜுவின் குடும்பத்தினர் ஒரு மலைக்குப் பயணம் சென்றனர்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "Why did Appu leave the group in Bujju's story? || புஜ்ஜுவின் கதையில் அப்பு ஏன் குழுவைப் பிரிந்து சென்றார்?",
-      "options": [
-        "Due to hiccups || விக்கல் வந்ததால்",
-        "He saw a footprint",
-        "He wanted to see the waterfall",
-        "He was scared of a roar"
-      ],
-      "a": 0,
-      "ex": "Appu left the group because he got hiccups. || அப்புவுக்கு விக்கல் வந்ததால் அவர் அங்கிருந்து சென்றார்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "What animal were Bala and Janani acting like? || பாலாவும் ஜனனியும் எந்த விலங்கைப் போல நடித்தனர்?",
-      "options": [
-        "A tiger",
-        "A monkey || ஒரு குரங்கு",
-        "A goat",
-        "An ape"
-      ],
-      "a": 1,
-      "ex": "Bala and Janani stayed behind to watch a monkey and acted like one. || அவர்கள் ஒரு குரங்கைப் போலச் சத்தம் போட்டு நடித்தனர்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "What did Appu eat when he felt hungry? || அப்பு பசியாக இருந்தபோது எதைச் சாப்பிட்டார்?",
-      "options": [
-        "A guava || ஒரு கொய்யாப்பழம்",
-        "An apple",
-        "An orange",
-        "A banana"
-      ],
-      "a": 0,
-      "ex": "Appu felt hungry and ate a guava without sharing it. || அப்பு ஒரு கொய்யாப்பழத்தைத் தனியாகச் சாப்பிட்டார்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "Where did all the children in Bujju's story wish to go? || புஜ்ஜுவின் கதையில் இருந்த அனைத்துக் குழந்தைகளும் எங்குச் செல்ல விரும்பினார்கள்?",
-      "options": [
-        "To the monkey's tree",
-        "To the tent",
-        "To the waterfall || நீர்வீழ்ச்சிக்கு",
-        "To the boat"
-      ],
-      "a": 2,
-      "ex": "All the children wished to go to the waterfall. || அனைத்துக் குழந்தைகளும் நீர்வீழ்ச்சிக்குச் செல்ல விரும்பினர்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "What sound scared Bujju when he was alone? || புஜ்ஜு தனியாக இருந்தபோது எந்தச் சத்தம் அவரைக் கவலையடையச் செய்தது?",
-      "options": [
-        "A howl",
-        "A roar || கர்ஜனை",
-        "A strong wind",
-        "A crash"
-      ],
-      "a": 1,
-      "ex": "Bujju heard a loud 'ROAR' which frightened him. || புஜ்ஜு ஒரு பெரிய கர்ஜனைச் சத்தம் கேட்டுப் பயந்தார்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "Which animals are the travelers in the poem 'A Voyage'? || 'A Voyage' கவிதையில் வரும் பயணிகள் யார்?",
-      "options": [
-        "Dog, Cat, Mouse, Bird",
-        "Horse, Tiger, Ape, Goat || குதிரை, புலி, குரங்கு, ஆடு",
-        "Elephant, Lion, Monkey, Deer",
-        "Horse, Ape, Dog, Cat"
-      ],
-      "a": 1,
-      "ex": "The travelers in the poem 'A Voyage' are a Horse, Tiger, Ape, and Goat. || கவிதையின் பயணிகள் குதிரை, புலி, குரங்கு மற்றும் ஆடு.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "What weather event happened while the animals sailed in the poem? || விலங்குகள் பயணம் செய்யும்போது ஏற்பட்ட வானிலை மாற்றம் என்ன?",
-      "options": [
-        "A gale blew || பலமான காற்று வீசியது",
-        "A snowstorm started",
-        "It rained heavily",
-        "A sunny day appeared"
-      ],
-      "a": 0,
-      "ex": "A gale (strong wind) blew while the animals were sailing. || அவர்கள் செல்லும்போது பலமான காற்று வீசியது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "What is the name of the girl in the listening exercise? || கேட்டல் பயிற்சியில் வரும் சிறுமியின் பெயர் என்ன?",
-      "options": [
-        "Janani",
-        "Alice || ஆலிஸ்",
-        "Mary",
-        "Lucy"
-      ],
-      "a": 1,
-      "ex": "The girl in the writing and listening section is named Alice. || அந்தச் சிறுமியின் பெயர் ஆலிஸ்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "Where does the scene with Alice take place? || ஆலிஸின் கதை எங்கு நடைபெறுகிறது?",
-      "options": [
-        "On a ship",
-        "At a waterfall",
-        "In a tent",
-        "In Wonderland / Under a tree || வொண்டர்லேண்ட் / ஒரு மரத்தின் அடியில்"
-      ],
-      "a": 3,
-      "ex": "The scene takes place in Wonderland, specifically under a tree. || இந்தக் கதை வொண்டர்லேண்டில் ஒரு மரத்தின் அடியில் நடக்கிறது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "What kind of party is happening in the Alice in Wonderland scene? || ஆலிஸ் வொண்டர்லேண்ட் கதையில் என்ன மாதிரியான விருந்து நடக்கிறது?",
-      "options": [
-        "A tea party || தேநீர் விருந்து",
-        "A birthday party",
-        "A dinner party",
-        "A dance party"
-      ],
-      "a": 0,
-      "ex": "They are having a tea party. || அவர்கள் அங்குத் தேநீர் விருந்து கொண்டாடுகிறார்கள்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "What does the man have in his hand in the Alice story? || ஆலிஸ் கதையில் அந்த மனிதரின் கையில் என்ன இருந்தது?",
-      "options": [
-        "A cup",
-        "A sword",
-        "A pot || ஒரு குவளை",
-        "A book"
-      ],
-      "a": 2,
-      "ex": "The text states that the man has a pot in his hand. || அவரது கையில் ஒரு குவளை இருந்தது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "Why did Robinson Crusoe choose the name 'Friday' for the youth? || ராபின்சன் தான் காப்பாற்றிய இளைஞனுக்கு ஏன் 'ப்ரைடே' என்று பெயரிட்டார்?",
-      "options": [
-        "It was his favorite day",
-        "He found him on a Friday || வெள்ளிக்கிழமை அவரைக் கண்டதால்",
-        "It means 'friend'",
-        "It was the day his ship sank"
-      ],
-      "a": 1,
-      "ex": "Robinson named the young man Friday because they met on that day. || அவர்கள் வெள்ளிக்கிழமை சந்தித்ததால் அந்தப் பெயர் சூட்டப்பட்டது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "What did Robinson do immediately after finding the shipwreck? || கப்பல் சிதைவைக் கண்ட பிறகு ராபின்சன் உடனடியாக என்ன செய்தார்?",
-      "options": [
-        "He saw a footprint",
-        "He saved Friday",
-        "He built a tent and got food || கூடாரம் அமைத்து உணவு தேடினார்",
-        "He searched the island"
-      ],
-      "a": 2,
-      "ex": "He built a tent and collected food and clothing. || அவர் கூடாரம் அமைத்துத் தேவையான உணவு மற்றும் உடைகளைச் சேகரித்தார்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "Did Robinson kill Friday when they met? || ராபின்சன் ப்ரைடேவைச் சந்தித்தபோது அவரைக் கொன்றாரா?",
-      "options": [
-        "Yes",
-        "No, he saved him from tribal men || இல்லை, பழங்குடியினரிடமிருந்து அவரைக் காப்பாற்றினார்",
-        "Yes, out of fear",
-        "No, Friday ran away"
-      ],
-      "a": 1,
-      "ex": "Robinson saved the youth from the tribal men. || ராபின்சன் அவரை மற்றவர்களிடமிருந்து காப்பாற்றினார்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "How did Bujju initially get separated from the rest of his family? || புஜ்ஜு ஆரம்பத்தில் தனது குடும்பத்திலிருந்து எவ்வாறு பிரிந்தார்?",
-      "options": [
-        "He went to watch a monkey",
-        "He ran alone toward the waterfall || நீர்வீழ்ச்சியை நோக்கித் தனியாக ஓடியதால்",
-        "He got hiccups",
-        "He fainted"
-      ],
-      "a": 1,
-      "ex": "Bujju ignored his mother and ran alone toward the waterfall. || தனது தாயின் பேச்சைக் கேட்காமல் நீர்வீழ்ச்சி நோக்கி ஓடியதால் பிரிந்தார்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "How did Bujju solve his problem of being lost? || புஜ்ஜு தான் காணாமல் போன பிரச்சனையை எவ்வாறு தீர்த்தார்?",
-      "options": [
-        "He shouted for help",
-        "He followed footprints || காலடித் தடங்களைப் பின்தொடர்ந்ததார்",
-        "He built a tent",
-        "He ran towards the roar"
-      ],
-      "a": 1,
-      "ex": "Bujju used footprints as a guide to find his family. || காலடித் தடங்களை வைத்துக் குடும்பத்தைக் கண்டுபிடித்தார்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "In the poem 'A Voyage', how did the Ape and Goat react to the gale? || கவிதையில் ஆடு மற்றும் குரங்கு எவ்வாறு எதிர்வினை ஆற்றின?",
-      "options": [
-        "They grew pale",
-        "They fainted || மயக்கமடைந்தன",
-        "They trembled",
-        "They jumped"
-      ],
-      "a": 1,
-      "ex": "The Ape and Goat fainted during the gale. || காற்று வீசும்போது அவை மயக்கமடைந்தன.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "How did the Tiger react to the strong wind in 'A Voyage'? || புலி பலமான காற்றுக்கு எவ்வாறு எதிர்வினை ஆற்றியது?",
-      "options": [
-        "He trembled",
-        "He fainted",
-        "He grew pale || வெளிறிப்போனது",
-        "He roared"
-      ],
-      "a": 2,
-      "ex": "According to the poem, the Tiger grew pale. || புலி பயத்தால் வெளிறிப்போனது என்று கவிதை கூறுகிறது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "How did the animals in the poem acquire the boat? || கவிதையின் விலங்குகள் படகை எவ்வாறு பெற்றன?",
-      "options": [
-        "They built it",
-        "They stole it",
-        "They found it",
-        "They hired it || வாடகைக்கு எடுத்தன"
-      ],
-      "a": 3,
-      "ex": "The text states that the animals hired the boat. || அவை படகை வாடகைக்கு எடுத்தன.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "What word rhymes with 'Columbus' in the poem? || கவிதையில் 'Columbus' என்ற சொல்லிற்கு இயைபுச் சொல் எது?",
-      "options": [
-        "Unknown",
-        "One || ஒன் (ஒரே மாதிரி ஒலிக்கும்)",
-        "Day",
-        "Pale"
-      ],
-      "a": 1,
-      "ex": "The poem analysis pairs 'One' with 'Columbus'. || 'One' மற்றும் 'Columbus' இயைபுச் சொற்களாகக் குறிப்பிடப்பட்டுள்ளன.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "In the Alice story, what event brings them together? || ஆலிஸ் கதையில் அவர்களை ஒன்றாக இணைத்த நிகழ்வு எது?",
-      "options": [
-        "A shipwreck",
-        "A tea party || தேநீர் விருந்து",
-        "A sea voyage",
-        "A exploration"
-      ],
-      "a": 1,
-      "ex": "The characters were together at a tea party. || அவர்கள் தேநீர் விருந்தில் ஒன்றாகச் சந்தித்தனர்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "What is the correct syllabification for 'button'? || 'button' என்ற சொல்லிற்கான சரியான சொல் பிரிப்பு எது?",
-      "options": [
-        "Bu/tton",
-        "But/ton || பட்/டன்",
-        "Butt/on",
-        "B/utton"
-      ],
-      "a": 1,
-      "ex": "Button (VC/CV pattern) is divided as But/ton. || இது பட்/டன் என்று பிரிக்கப்படும்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "Identify the syllabification pattern for 'sunset'. || 'sunset' எந்த முறையைச் சார்ந்தது?",
-      "options": [
-        "Tiger Pattern",
-        "Turtle Pattern",
-        "Single Vowel",
-        "Rabbit Pattern (VC/CV) || ராபிட் முறை"
-      ],
-      "a": 3,
-      "ex": "Sunset (Sun/set) follows the Rabbit Pattern. || இது ராபிட் முறையைச் சார்ந்தது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "How is the word 'hotel' correctly divided? || 'hotel' எவ்வாறு சரியாகப் பிரிக்கப்படும்?",
-      "options": [
-        "Ho/tel || ஹோ/டெல்",
-        "Hot/el",
-        "Hote/l",
-        "H/otel"
-      ],
-      "a": 0,
-      "ex": "Hotel follows the Tiger Pattern (V/CV). || இது ஹோ/டெல் என்று பிரிக்கப்படும்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "Choose the correct conjunction: 'The dove ___ the ant are friends.' || சரியான இணைப்புச் சொல்லைத் தேர்ந்தெடு: 'புறா ___ எறும்பு நண்பர்கள்.'",
-      "options": [
-        "but",
-        "or",
-        "and || மற்றும்",
-        "so"
-      ],
-      "a": 2,
-      "ex": "We use 'and' to join two similar nouns. || புறாவையும் எறும்பையும் இணைக்க 'and' பயன்படுத்தப்படுகிறது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "Fill in the blank: 'I want popcorn ___ not pizza.' || 'எனக்கு பாப்கார்ன் வேண்டும் ___ பீட்சா வேண்டாம்.'",
-      "options": [
-        "but || ஆனால்",
-        "or",
-        "and",
-        "because"
-      ],
-      "a": 0,
-      "ex": "We use 'but' to show contrast. || மாறுபட்ட கருத்தைக் கூற 'but' பயன்படுத்தப்படுகிறது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "Which conjunction completes: 'Do you want tea ___ coffee?' || 'உனக்கு தேநீர் ___ காபி வேண்டுமா?'",
-      "options": [
-        "and",
-        "or || அல்லது",
-        "but",
-        "so"
-      ],
-      "a": 1,
-      "ex": "We use 'or' for choices. || விருப்பங்களைக் கேட்க 'or' பயன்படுத்தப்படுகிறது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "Which word is an example of the 'Turtle Pattern'? || 'Turtle Pattern' முறைக்கு உதாரணம் எது?",
-      "options": [
-        "but/ter",
-        "ho/tel",
-        "bat",
-        "cir/cle || சர்/க்கிள்"
-      ],
-      "a": 3,
-      "ex": "Circle (cir/cle) is a Turtle Pattern example. || வட்டம் (circle) ஒரு டர்டில் முறை சொல்லாகும்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "Choose the rhyming word for 'goes'. || 'goes' என்ற சொல்லிற்குரிய இயைபுச் சொல் எது?",
-      "options": [
-        "boat",
-        "gale",
-        "knows || நோஸ் (ஒரே ஒலி)",
-        "pale"
-      ],
-      "a": 2,
-      "ex": "'Goes' rhymes with 'knows'. || இவை இரண்டும் ஒரே மாதிரி ஒலிக்கின்றன.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "Fill in the blank: 'An elephant is big ___ slow.' || 'யானை பெரியது ___ மெதுவானது.'",
-      "options": [
-        "and",
-        "or",
-        "but || ஆனால்",
-        "if"
-      ],
-      "a": 2,
-      "ex": "'But' highlights contrasting states. || பெரிய உருவம் ஆனால் மெதுவான நடை என்பதால் 'but' பயன்படுத்தப்படுகிறது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "How do you divide the word 'man'? || 'man' என்ற சொல்லை எவ்வாறு பிரிப்பாய்?",
-      "options": [
-        "ma/n",
-        "m/an",
-        "man (no division) || பிரிக்க முடியாது",
-        "m/a/n"
-      ],
-      "a": 2,
-      "ex": "'Man' has one vowel sound and cannot be divided. || இதில் ஒரு உயிரெழுத்து ஒலி மட்டுமே உள்ளதால் பிரிக்க முடியாது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "Why did the human footprint cause Robinson to live in fear? || மனித காலடித் தடம் ஏன் ராபின்சனைப் பயமடையச் செய்தது?",
-      "options": [
-        "It threatened his safety || அது அவரது பாதுகாப்பிற்கு அச்சத்தை ஏற்படுத்தியது",
-        "It belong to an animal",
-        "It was very long",
-        "He was lonely"
-      ],
-      "a": 0,
-      "ex": "The presence of another person (potential cannibal) on the island meant danger. || மற்றொரு நபர் தீவில் இருப்பது ஆபத்தை உணர்த்தியதால் அவர் பயந்தார்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "How did Robinson's journey change from 'explore' to 'adventure'? || ராபின்சனின் பயணம் எவ்வாறு சாகசமாக மாறியது?",
-      "options": [
-        "He found a boat",
-        "It became a risky struggle for survival || அது உயிர்வாழ்வதற்கான ஆபத்தான போராட்டமாக மாறியது",
-        "He saw a tiger",
-        "He stayed in a tent"
-      ],
-      "a": 1,
-      "ex": "From a simple voyage, it became a life-threatening struggle after the shipwreck. || கப்பல் சிதைவிற்குப் பிறகு அது ஆபத்தான பயணமாக மாறியது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "What would happen if Bujju ignored the footprints? || புஜ்ஜு ஒருவேளைக் காலடித் தடங்களைப் புறக்கணித்திருந்தால் என்னவாகியிருக்கும்?",
-      "options": [
-        "He would find his family",
-        "He would remain lost in danger || அவர் ஆபத்தான நிலையில் தொலைந்து போயிருப்பார்",
-        "He would see the waterfall",
-        "He would eat more guava"
-      ],
-      "a": 1,
-      "ex": "Without the footprints, he would have no guide to find his family. || காலடித் தடங்கள் இல்லையென்றால் அவரால் குடும்பத்தைக் கண்டுபிடிக்க முடிந்திருக்காது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "Why did the Tiger 'grow pale' in the poem? || கவிதையில் புலி ஏன் 'வெளிறிப்போனது'?",
-      "options": [
-        "It was sick",
-        "To show the severity of the storm || புயலின் தீவிரத்தைக் காட்ட",
-        "It was hungry",
-        "It saw a horse"
-      ],
-      "a": 1,
-      "ex": "Even a strong animal like a tiger was scared of the huge gale. || ஒரு புலியே பயப்படும் அளவிற்குப் புயல் மிக வலிமையாக இருந்தது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "What does saving Friday reveal about Robinson? || ப்ரைடேவைச் சேமித்தது ராபின்சனின் எத்தகைய நிலையை வெளிப்படுத்தியது?",
-      "options": [
-        "He was looking for a worker",
-        "His desire for human connection || சக மனிதத் தொடர்புக்கான அவரது ஏக்கம்",
-        "He was brave the whole time",
-        "He wanted a dog"
-      ],
-      "a": 1,
-      "ex": "Isolation made him crave a companion so much that he risked his life. || தனிமை அவரை ஒரு துணையைத் தேட வைத்தது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "What was the main difference between Bujju and Robinson? || புஜ்ஜு மற்றும் ராபின்சனிடையே இருந்த முக்கிய வேறுபாடு என்ன?",
-      "options": [
-        "Bujju had a family and Robinson didn't",
-        "Bujju's isolation was short, Robinson's was 28 years || புஜ்ஜுவின் தனிமை குறுகியது, ராபின்சனுடையது 28 ஆண்டுகள்",
-        "One lived on a hill, one on water",
-        "They were from different countries"
-      ],
-      "a": 1,
-      "ex": "Robinson faced extreme long-term isolation unlike Bujju's brief separation. || ராபின்சன் மிக நீண்ட காலம் தனிமையில் இருந்தார்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "Why is 'kitten' VC/CV and 'hotel' V/CV? || 'kitten' மற்றும் 'hotel' ஆகியவற்றுக்கு இடைப்பட்ட சொல் பிரிப்பு வித்தியாசம் என்ன?",
-      "options": [
-        "Because of English rules",
-        "Short vowel vs Long vowel sound || குறில் ஒலி மற்றும் நெடில் ஒலி",
-        "They are the same",
-        "One has a dog"
-      ],
-      "a": 1,
-      "ex": "'Kitten' uses closed syllables for a short 'i', while 'hotel' uses an open first syllable. || ஒலிகளின் அடிப்படையில் அவற்றின் பிரிப்பு முறைகள் மாறுபடுகின்றன.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "What does 'but' show in 'He is rich but looks simple'? || இந்த வாக்கியத்தில் 'but' எதை உணர்த்துகிறது?",
-      "options": [
-        "Addition of things",
-        "A contradiction to expectation || எதிர்பார்ப்பிற்கு மாறான ஒரு செயல்",
-        "A choice to be made",
-        "A reason for something"
-      ],
-      "a": 1,
-      "ex": "'But' introduces a contrast to what people usually expect of rich people. || பணக்காரராக இருந்தும் எளிமையாக இருக்கிறார் என்ற ஒரு மாறுபட்ட கருத்தைத் தெரிவிக்கிறது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "What do the 'wooden cross' and 'footprint' represent? || சிலுவையும் காலடித் தடமும் எதைப் பிரதிபலிக்கின்றன?",
-      "options": [
-        "Order vs Wild chaos || ஒழுங்குமுறை மற்றும் எதிர்பாராத மாற்றம்",
-        "Religion and Fear",
-        "Morning and Night",
-        "Past and Future"
-      ],
-      "a": 0,
-      "ex": "The cross shows his attempt at order, while the footprint represents unpredictable danger. || சிலுவை திட்டமிடப்பட்ட வாழ்வையும் காலடித் தடம் ஆபத்தையும் குறிக்கிறது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "How do Robinson and Bujju differ in seeing footprints? || காலடித் தடங்களைக் காண்பதில் ராபின்சன் மற்றும் புஜ்ஜுவிடையே இருந்த வித்தியாசம் என்ன?",
-      "options": [
-        "Both were very happy",
-        "Robinson saw danger, Bujju saw hope || ராபின்சன் ஆபத்தை உணர்ந்தார், புஜ்ஜு நம்பிக்கையை உணர்ந்தார்",
-        "One followed and one ran away",
-        "They were different colors"
-      ],
-      "a": 1,
-      "ex": "To Robinson, it meant cannibals; to Bujju, it meant finding his family. || ராபின்சனுக்கு அது பயத்தையும், புஜ்ஜுவுக்கு அது மகிழ்ச்சியையும் தந்தது.",
-      "lesson": "Lesson_3"
+      "ex": "Spiders spin sticky webs to trap other small insects for food.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     }
   ],
   "sections": []

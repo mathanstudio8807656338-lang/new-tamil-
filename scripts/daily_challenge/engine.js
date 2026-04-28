@@ -203,6 +203,14 @@ async function run() {
     const file2 = files[idx + 1] || files[0];
     console.log(`📄 L1: ${path.basename(file1)}\n📄 L2: ${path.basename(file2)}`);
 
+    const getGradeFromPath = (fp) => {
+      const parts = fp.split(path.sep);
+      const lIdx = parts.indexOf('lessons');
+      return (lIdx !== -1 && parts.length > lIdx + 2) ? parts[lIdx + 2] : '5';
+    };
+    const grade1 = getGradeFromPath(file1);
+    const grade2 = getGradeFromPath(file2);
+
     const d1 = JSON.parse(fs.readFileSync(file1, 'utf8'));
     const d2 = JSON.parse(fs.readFileSync(file2, 'utf8'));
     const quiz = [
@@ -217,7 +225,8 @@ async function run() {
         : `இன்றைய தேர்வு: ${getTitle(d1, file1)} & ${getTitle(d2, file2)}`,
       status: action === 'notes' ? 'notes' : 'open',
       activeSubject: subject,
-      activeGrade: '5', // Defaulting to 5 for now as per system
+      activeGrade: grade1, // For backward compatibility
+      activeGrades: [grade1, grade2],
       activeTitles: [getTitle(d1, file1), getTitle(d2, file2)],
       activeFiles: [path.basename(file1, '.json'), path.basename(file2, '.json')],
       quiz,
