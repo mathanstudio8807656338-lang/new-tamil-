@@ -181,6 +181,8 @@ async function run() {
       title: action === 'notes' ? `${getTitle(data, filePath)} - குறிப்புகள்` : getTitle(data, filePath),
       status: action === 'notes' ? 'notes' : 'open',
       activeSubject: subject,
+      activeGrade: testIdx.split('_')[1] || '5',
+      activeTitles: [getTitle(data, filePath)],
       activeFiles: [path.basename(filePath, '.json')],
       quiz
     };
@@ -214,6 +216,8 @@ async function run() {
         : `இன்றைய தேர்வு: ${getTitle(d1, file1)} & ${getTitle(d2, file2)}`,
       status: action === 'notes' ? 'notes' : 'open',
       activeSubject: subject,
+      activeGrade: '5', // Defaulting to 5 for now as per system
+      activeTitles: [getTitle(d1, file1), getTitle(d2, file2)],
       activeFiles: [path.basename(file1, '.json'), path.basename(file2, '.json')],
       quiz
     };

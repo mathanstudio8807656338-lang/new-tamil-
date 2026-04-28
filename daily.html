@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Challenge - A1 Coaching</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background: #f1f5f9;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        .daily-header {
+            background: linear-gradient(135deg, #1e3a8a, #1a2e5a);
+            color: white;
+            padding: 2.5rem 1.5rem;
+            border-radius: 1.5rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 25px rgba(30, 58, 138, 0.2);
+        }
+        .daily-header h1 { margin: 0; font-size: 1.8rem; font-weight: 800; }
+        .daily-header p { margin: 0.5rem 0 0; opacity: 0.9; font-weight: 600; }
+
+        .subject-info {
+            background: white;
+            padding: 1.25rem;
+            border-radius: 1rem;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+        }
+        .info-item { text-align: center; }
+        .info-label { font-size: 0.75rem; color: #64748b; text-transform: uppercase; font-weight: 700; margin-bottom: 0.2rem; }
+        .info-value { font-size: 1.1rem; color: #1e293b; font-weight: 800; }
+
+        .lesson-card {
+            background: white;
+            border-radius: 1.25rem;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 8px 15px rgba(0,0,0,0.04);
+            border: 1px solid #e2e8f0;
+            border-left: 8px solid #2563eb;
+            animation: slideUp 0.5s ease-out;
+        }
+        @keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+        .lesson-title {
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: #1e293b;
+            margin-bottom: 1.25rem;
+            line-height: 1.4;
+        }
+
+        .btn-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        .action-btn {
+            padding: 1rem;
+            border-radius: 0.75rem;
+            text-decoration: none;
+            font-weight: 800;
+            text-align: center;
+            font-size: 0.95rem;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+        .btn-notes { background: #0d9488; color: white; box-shadow: 0 4px 10px rgba(13, 148, 136, 0.2); }
+        .btn-exam { background: #1a73e8; color: white; box-shadow: 0 4px 10px rgba(26, 115, 232, 0.2); }
+        .btn-locked { background: #e2e8f0 !important; color: #94a3b8 !important; cursor: not-allowed; box-shadow: none !important; }
+
+        .action-btn:not(.btn-locked):hover { transform: translateY(-3px); filter: brightness(1.1); }
+        
+        .loader { text-align: center; padding: 4rem; color: #64748b; font-weight: 600; }
+        
+        .sticky-back { position: fixed; bottom: 1.5rem; left: 1.2rem; z-index: 1200; }
+        .sticky-btn { width: 48px; height: 48px; display: flex; align-items: center; justify-content: center; background: #ffffff; color: #1e293b; border-radius: 50%; box-shadow: 0 8px 25px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="daily-header">
+            <h1>இன்றைய தினசரித் தேர்வு</h1>
+            <p>Daily Challenge & Study Planner</p>
+        </div>
+
+        <div id="dailyContent">
+            <div class="loader">Loading today's schedule...</div>
+        </div>
+    </div>
+
+    <div class="sticky-back">
+        <a href="index.html" class="sticky-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        </a>
+    </div>
+
+    <script type="module">
+        (async () => {
+            const v = Date.now();
+            const container = document.getElementById('dailyContent');
+
+            try {
+                const res = await fetch('1.json?v=' + v);
+                if (!res.ok) throw new Error("Data not found");
+                
+                const data = await res.json();
+                const titles = data.activeTitles || [];
+                const subject = data.activeSubject || 'Unknown';
+                const grade = data.activeGrade || '5';
+                const isExamOpen = data.status === 'open';
+
+                let html = `
+                    <div class="subject-info">
+                        <div class="info-item">
+                            <div class="info-label">பாடம் (Subject)</div>
+                            <div class="info-value" style="text-transform: capitalize;">${subject}</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">வகுப்பு (Class)</div>
+                            <div class="info-value">${grade}</div>
+                        </div>
+                    </div>
+                `;
+
+                titles.forEach((title, idx) => {
+                    html += `
+                        <div class="lesson-card">
+                            <div class="lesson-title">${title}</div>
+                            <div class="btn-row">
+                                <a href="quiz.html?lesson=1&status=notes" class="action-btn btn-notes">
+                                    📖 பாடக்குறிப்புகள்
+                                </a>
+                                ${isExamOpen ? `
+                                    <a href="quiz.html?lesson=1" class="action-btn btn-exam">
+                                        📝 ஆன்லைன் தேர்வு
+                                    </a>
+                                ` : `
+                                    <div class="action-btn btn-locked" title="8:00 PM-க்குத் திறக்கும்">
+                                        🔒 தேர்வு (8PM)
+                                    </div>
+                                `}
+                            </div>
+                        </div>
+                    `;
+                });
+
+                container.innerHTML = html;
+
+            } catch (err) {
+                container.innerHTML = `
+                    <div style="text-align:center; padding:4rem; color:#ef4444; background:white; border-radius:1rem; border:1px solid #fee2e2;">
+                        <h3>இன்றைய தரவுகள் இன்னும் பதிவேற்றப்படவில்லை.</h3>
+                        <p>காலை 6:00 மணிக்கு மேல் மீண்டும் முயற்சிக்கவும்.</p>
+                        <a href="index.html" style="color:#1e3a8a; font-weight:700; text-decoration:none;">முகப்புப் பக்கத்திற்குச் செல்</a>
+                    </div>
+                `;
+            }
+        })();
+    </script>
+</body>
+</html>
