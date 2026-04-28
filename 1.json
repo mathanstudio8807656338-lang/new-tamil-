@@ -1,17 +1,17 @@
 {
   "unit": "Daily Challenge",
-  "subject": "ENGLISH",
-  "title": "இன்றைய தேர்வு: Our Kitchen & Small Creatures",
-  "status": "open",
-  "activeSubject": "english",
-  "activeGrade": "3",
+  "subject": "MATHS",
+  "title": "இன்றைய குறிப்புகள்: அலகு 1: வடிவியல் & அலகு 2: எண்கள்",
+  "status": "notes",
+  "activeSubject": "maths",
+  "activeGrade": "5",
   "activeGrades": [
-    "3",
-    "3"
+    "5",
+    "5"
   ],
   "activeTitles": [
-    "Our Kitchen",
-    "Small Creatures"
+    "அலகு 1: வடிவியல்",
+    "அலகு 2: எண்கள்"
   ],
   "activeFiles": [
     "Lesson_1",
@@ -19,1443 +19,1173 @@
   ],
   "quiz": [
     {
-      "q": "What is used to filter tea leaves from tea?",
+      "q": "நீளம் மற்றும் அகலம் ஆகிய இரண்டு பரிமாணங்களை மட்டும் கொண்ட வடிவம் எவ்வாறு அழைக்கப்படுகிறது?",
       "options": [
-        "Strainer",
-        "Funnel",
-        "Grater",
-        "Ladle"
-      ],
-      "a": 0,
-      "ex": "A strainer is a tool used to separate solid particles, like tea leaves, from liquids.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Which of the following objects is used to cut vegetables?",
-      "options": [
-        "Rolling pin",
-        "Cutting-board and knife",
-        "Peeler",
-        "Tongs"
+        "முப்பரிமாண வடிவம்",
+        "இருபரிமாண வடிவம்",
+        "பриமாணமற்ற வடிவம்",
+        "நேர்கோடு"
       ],
       "a": 1,
-      "ex": "We use a knife to cut vegetables, usually keeping them on a cutting-board to protect the surface.",
+      "ex": "நீளம் மற்றும் அகலம் ஆகிய இரண்டு பரிமாணங்களைக் கொண்டவை இருபரிமாண வடிவங்கள் (2D) என அழைக்கப்படுகின்றன.",
+      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
-      "q": "What tool helps in pouring liquid into a narrow bottle without spilling?",
+      "q": "நீளம், அகலம் மற்றும் உயரம் ஆகிய மூன்று பரிமாணங்களைக் கொண்ட பொருள்கள் எவை?",
       "options": [
-        "Bowl",
-        "Tray",
-        "Lota",
-        "Funnel"
+        "ஒரு பரிமாண உருவங்கள்",
+        "இருபரிமாண உருவங்கள்",
+        "முப்பரிமாண உருவங்கள்",
+        "நான்கு பரிமாண உருவங்கள்"
+      ],
+      "a": 2,
+      "ex": "நீளம், அகலம், உயரம் ஆகிய மூன்றையும் கொண்ட திண்மப் பொருள்கள் முப்பரிமாண (3D) உருவங்கள் எனப்படும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "கனசதுரத்திற்கு எத்தனை முகங்கள் உள்ளன?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "a": 1,
+      "ex": "ஒரு கனசதுரமானது 6 சமமான சதுர முகங்களைக் கொண்டுள்ளது.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "ஒரு கனசதுரத்திற்கு எத்தனை முனைகள் உள்ளன?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "12"
+      ],
+      "a": 2,
+      "ex": "கனசதுரத்திற்கு 6 முகங்கள், 8 முனைகள் மற்றும் 12 விளிம்புகள் உள்ளன.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "எதிரெதிர் பக்கங்கள் சமமாக உள்ள 6 முகங்களைக் கொண்ட முப்பரிமாண உருவம் எது?",
+      "options": [
+        "கனசதுரம்",
+        "கூம்பு",
+        "கனசெவ்வகம்",
+        "உருளை"
+      ],
+      "a": 2,
+      "ex": "கனசெவ்வகத்தின் 6 முகங்களில், அதன் எதிரெதிர் பக்கங்கள் சமமாக இருக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "ஒரு உருளைக்கு எத்தனை சமதளங்கள் உள்ளன?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "a": 1,
+      "ex": "உருளைக்கு 2 சமதளங்கள் மற்றும் 1 வளைதளம் உள்ளன.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "உருளையில், இரண்டு சமதளங்களுக்கு இடையே உள்ள தொலைவு எவ்வாறு அழைக்கப்படுகிறது?",
+      "options": [
+        "ஆரம்",
+        "விட்டம்",
+        "உயரம்",
+        "சுற்றளவு"
+      ],
+      "a": 2,
+      "ex": "இரண்டு சமதளங்களுக்கு இடையே உள்ள நேர்குத்துத் தொலைவு 'உயரம்' எனப்படும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "முனைகளும் விளிம்புகளும் இல்லாத முப்பரிமாண உருவம் எது?",
+      "options": [
+        "கனசதுரம்",
+        "உருளை",
+        "கூம்பு",
+        "கோளம்"
       ],
       "a": 3,
-      "ex": "A funnel has a wide top and a narrow tube, making it easy to pour liquids into small openings.",
+      "ex": "கோளத்திற்கு ஒரே ஒரு வளைதளம் மட்டும் உண்டு. இதற்கு முனைகளோ விளிம்புகளோ கிடையாது.",
+      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
-      "q": "Which object is primarily used to remove the outer skin of fruits and vegetables?",
+      "q": "மையப்புள்ளியிலிருந்து அனைத்துப் புள்ளிகளும் சம தொலைவில் இருக்கும் வடிவம் எது?",
       "options": [
-        "Knife",
-        "Peeler",
-        "Spoon",
-        "Tongs"
+        "உருளை",
+        "கோளம்",
+        "கூம்பு",
+        "கனசெவ்வகம்"
       ],
       "a": 1,
-      "ex": "A peeler is specially designed to peel the skin off fruits and vegetables like apples and potatoes.",
+      "ex": "கோளத்தின் மேற்பரப்பில் உள்ள அனைத்துப் புள்ளிகளும் அதன் மையப்புள்ளியிலிருந்து சம தொலைவில் இருக்கும்.",
+      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
-      "q": "What is the rolling pin used for in the kitchen?",
+      "q": "ஒரு சமதளம் மற்றும் ஒரு வளைதளத்தைக் கொண்ட வடிவம் எது?",
       "options": [
-        "To boil water",
-        "To fry eggs",
-        "To flatten dough",
-        "To grate cheese"
-      ],
-      "a": 2,
-      "ex": "A rolling pin is a cylindrical kitchen utensil used to shape and flatten dough for making chapati or roti.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Which pair goes together while drinking a hot beverage?",
-      "options": [
-        "Cup and saucer",
-        "Plate and spoon",
-        "Pot and pan",
-        "Knife and fork"
+        "கூம்பு",
+        "கோளம்",
+        "உருளை",
+        "கனசதுரம்"
       ],
       "a": 0,
-      "ex": "A cup is usually placed on a saucer when serving hot beverages like tea or coffee.",
+      "ex": "கூம்பு ஒரு சமதளமான அடிபாகத்தையும், ஒரு வளைதளத்தையும் கொண்டுள்ளது.",
+      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
-      "q": "Which of the following is an electronic machine used in the kitchen?",
+      "q": "கூம்பின் முனையிலிருந்து அதன் அடிபாகத்தின் நடுப்புள்ளி வரை உள்ள தொலைவு என்ன?",
       "options": [
-        "Stove",
-        "Mixie",
-        "Grater",
-        "Cutting-board"
+        "சாயுயரம்",
+        "உயரம் (h)",
+        "விட்டம்",
+        "ஆரம்"
       ],
       "a": 1,
-      "ex": "A mixie (mixer grinder) is an electronic appliance used for mixing, blending, and grinding food.",
+      "ex": "முனையிலிருந்து அடிபாகத்தின் மையப்புள்ளி வரை உள்ள செங்குத்தான தொலைவு உயரம் (h) எனப்படும்.",
+      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
-      "q": "To pick up hot food items safely, we use ______.",
+      "q": "கால்பந்து என்பது கீழ்க்கண்ட எந்த வடிவத்திற்கு எடுத்துக்காட்டு?",
       "options": [
-        "Ladle",
-        "Spoon",
-        "Tongs",
-        "Strainer"
+        "உருளை",
+        "கனசதுரம்",
+        "கோளம்",
+        "கூம்பு"
       ],
       "a": 2,
-      "ex": "Tongs are used to grip and lift objects safely, especially hot food items.",
+      "ex": "கால்பந்து முனைகளும் விளிம்புகளும் இல்லாத ஒரு கோள வடிவப் பொருளாகும்.",
+      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
-      "q": "What is a deep spoon with a long handle used for serving soup called?",
+      "q": "எரிவாயு உருளை (Gas cylinder) எந்த முப்பரிமாண வடிவத்திற்கு உதாரணம்?",
       "options": [
-        "Ladle",
-        "Fork",
-        "Peeler",
-        "Tray"
+        "கனசெவ்வகம்",
+        "உருளை",
+        "கோளம்",
+        "கூம்பு"
+      ],
+      "a": 1,
+      "ex": "எரிவாயு உருளை பெயரிலேயே உள்ளபடி உருளை வடிவத்தைக் கொண்டது.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "தாயக்கட்டை (Dice) எந்த முப்பரிமாண வடிவத்தைக் கொண்டுள்ளது?",
+      "options": [
+        "கன செவ்வகம்",
+        "கன சதுரம்",
+        "உருளை",
+        "கோளம்"
+      ],
+      "a": 1,
+      "ex": "தாயக்கட்டை 6 சமமான சதுர முகங்களைக் கொண்டதால் அது கனசதுரம் ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "பிறந்தநாள் தொப்பியின் வடிவம் என்ன?",
+      "options": [
+        "உருளை",
+        "கூம்பு",
+        "கோளம்",
+        "கனசதுரம்"
+      ],
+      "a": 1,
+      "ex": "பிறந்தநாள் தொப்பியானது ஒரு சமதளம் and ஒரு வளைதளத்தைக் கொண்ட கூம்பு வடிவம் ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "வீடுகளில் பயன்படுத்தப்படும் பீரோ எந்த வடிவத்திற்குச் சிறந்த எடுத்துக்காட்டு?",
+      "options": [
+        "கனசதுரம்",
+        "கனசெவ்வகம்",
+        "உருளை",
+        "கூம்பு"
+      ],
+      "a": 1,
+      "ex": "பீரோவின் எதிரெதிர் பக்கங்கள் சமமாக இருக்கும் 6 முகங்களைக் கொண்டதால் அது கனசெவ்வகம் ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "கீழ்க்கண்ட எந்தக் கூற்று சரியானது?",
+      "options": [
+        "ஒரு கனசதுரத்தில் 7 முனைகள் உள்ளது",
+        "ஒரு கூம்பின் உயரமும் சாயுயரமும் சமம்",
+        "கோளம் ஒரு முப்பரிமாண உருவமாகும்",
+        "உருளைக்கு சமதளங்கள் இல்லை"
+      ],
+      "a": 2,
+      "ex": "கோளம் என்பது நீளம், அகலம், உயரம் கொண்ட ஒரு முப்பரிமாண உருவமாகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "ஒரு நிலையான மையப் புள்ளியைப் பொறுத்து சுழல்வது எவ்வாறு அழைக்கப்படுகிறது?",
+      "options": [
+        "பிரதிபலிப்பு",
+        "சமச்சீர் தன்மை",
+        "சுழற்சி",
+        "வலையமைப்பு"
+      ],
+      "a": 2,
+      "ex": "ஒரு நிலையான மையப் புள்ளியைப் பொறுத்து ஒரு பொருள் சுற்றுவது சுழற்சி எனப்படும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "ஒரு கண்ணாடியில் தெரியும் பிம்பம் பொருளின் எதற்குச் சமமாக இருக்கும்?",
+      "options": [
+        "வடிவத்திற்கு மட்டும்",
+        "பொருளின் பாதி அளவிற்கு",
+        "பொருளின் சம அளவிற்கு",
+        "உயரத்திற்கு மட்டும்"
+      ],
+      "a": 2,
+      "ex": "பிரதிபலிப்பில், ஒரு கண்ணாடியில் தெரியும் பிம்பம் அப்பொருளின் சம அளவிலானது.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "பொருளுக்கும் அதன் கண்ணாடி பிம்பத்திற்கும் இடையே உள்ள கோடு என்னவென்று அழைக்கப்படுகிறது?",
+      "options": [
+        "சமச்சீர் கோடு",
+        "பிரதிபலிப்பு அச்சு",
+        "மையப்புள்ளி",
+        "செங்குத்துக் கோடு"
+      ],
+      "a": 1,
+      "ex": "பொருளுக்கும் பிம்பத்திற்கும் இடையே உள்ள கோடு பிரதிபலிப்பு அச்சு எனப்படுகிறது.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "1/2 சுழற்சிக்குப் பின் அதே வடிவத்தைப் பெறும் ஆங்கில எழுத்து எது?",
+      "options": [
+        "A",
+        "E",
+        "H",
+        "M"
+      ],
+      "a": 2,
+      "ex": "H என்ற எழுத்தை அரை சுழற்சி (1/2) செய்தாலும் அதன் வடிவம் மாறாமல் H என்றே இருக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "கீழ்க்கண்டவற்றில் 1/2 சுழற்சிக்குப் பின் மாறாத வடிவம் பெறும் எழுத்துக்களின் சரியான தொகுதி எது?",
+      "options": [
+        "A, B, C",
+        "I, O, S",
+        "P, Q, R",
+        "L, M, N"
+      ],
+      "a": 1,
+      "ex": "I, O, S போன்ற எழுத்துக்கள் அரை சுழற்சிக்குப் பிறகும் அதே வடிவத்தைப் பெறும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "கீழ்க்கண்ட எந்த எண் 1/2 சுழற்சிக்குப்பின் அதே எண்ணாகத் தோற்றமளிக்கும்?",
+      "options": [
+        "3",
+        "7",
+        "8",
+        "9"
+      ],
+      "a": 2,
+      "ex": "0, 1, மற்றும் 8 ஆகிய எண்கள் அரை சுழற்சிக்குப் பின் மாறாத அமைப்பைக் கொண்டிருக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "10101 என்ற எண்ணை அரை சுழற்சி (1/2) செய்தால் கிடைக்கும் எண் என்ன?",
+      "options": [
+        "01010",
+        "10101",
+        "11100",
+        "11011"
+      ],
+      "a": 1,
+      "ex": "1 மற்றும் 0 ஆகிய எண்கள் அரை சுழற்சியில் மாறாதவை என்பதால் 10101 அப்படியே இருக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "ஒரு வடிவத்தின் இரண்டு பாதிகளும் வடிவம் மற்றும் அளவில் சரியாகப் பொருந்துவது எதனைக் குறிக்கிறது?",
+      "options": [
+        "சுழற்சி",
+        "சமச்சீர் தன்மை",
+        "பிரதிபலிப்பு",
+        "வடிவமைப்பு"
+      ],
+      "a": 1,
+      "ex": "ஒரு வடிவத்தை இரண்டு சரிபாதியாகப் பிரிக்கும்போது அவை சரியாகப் பொருந்தினால் அது சமச்சீர் தன்மை எனப்படும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "ஒரு சதுரத்திற்கு எத்தனை சமச்சீர் கோடுகள் உள்ளன?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "a": 2,
+      "ex": "சதுரத்தை 4 விதமாக சரிபாதியாகப் பிரிக்க முடியும், எனவே அதற்கு 4 சமச்சீர் கோடுகள் உள்ளன.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "ஒரு செவ்வகத்திற்கு எத்தனை சமச்சீர் கோடுகள் உள்ளன?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "a": 1,
+      "ex": "செவ்வகத்தை கிடைமட்டமாக ஒன்றும், செங்குத்தாக ஒன்றும் என 2 சமச்சீர் கோடுகளாகப் பிரிக்கலாம்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "ஆக்ராவில் உள்ள தாஜ்மஹால் எதற்குச் சிறந்த எடுத்துக்காட்டாகும்?",
+      "options": [
+        "பிரதிபலிப்பு",
+        "சுழற்சி",
+        "சமச்சீர் தன்மை",
+        "வலையமைப்பு"
+      ],
+      "a": 2,
+      "ex": "தாஜ்மஹால் ஒரு சமச்சீரான நினைவுச் சின்னமாகும். இதன் இரு புறங்களும் சரியாகப் பொருந்தும் வகையில் இருக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "மடிப்பதன் மூலம் முப்பரிமாண உருவத்தை உருவாக்கக்கூடிய இருபரிமாண வடிவத்தின் பெயர் என்ன?",
+      "options": [
+        "பிரதிபலிப்பு",
+        "சமச்சீர் அச்சு",
+        "வலையமைப்பு (Net)",
+        "திண்மம்"
+      ],
+      "a": 2,
+      "ex": "இருபரிமாண தளத்தில் வரையப்பட்டதை மடித்து ஒரு 3D பொருளை உருவாக்கும் அமைப்பு 'வலையமைப்பு' ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "உருளையின் வலையமைப்பில், செவ்வகத்தின் நீளமானது எதற்குச் சமமாக இருக்கும்?",
+      "options": [
+        "உருளையின் உயரம்",
+        "உருளை வட்டத்தின் சுற்றளவு",
+        "உருளையின் ஆரம்",
+        "உருளையின் விட்டம்"
+      ],
+      "a": 1,
+      "ex": "வலையமைப்பில் உள்ள செவ்வகத்தின் நீளம் = உருளையின் அடிபாகமான வட்டத்தின் சுற்றளவு.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "கூம்பின் வலையமைப்பில் வட்ட வில்ளின் நீளம் எதற்குச் சமமாக இருக்கும்?",
+      "options": [
+        "கூம்பின் உயரம்",
+        "கூம்பின் ஆரம்",
+        "கூம்பு வட்டத்தின் சுற்றளவு",
+        "சாயுயரம்"
+      ],
+      "a": 2,
+      "ex": "வலையமைப்பில் உள்ள வட்ட வில்ளின் நீளமானது, கூம்பின் அடிப்பகுதியில் உள்ள வட்டத்தின் சுற்றளவுக்குச் சமம்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "இரு கோடுகள் அல்லது கதிர்கள் ஒரு பொதுப் புள்ளியிலிருந்து விலகும் போது உருவாகுவது எது?",
+      "options": [
+        "வட்டம்",
+        "கோணம்",
+        "சமச்சீர் கோடு",
+        "முனை"
+      ],
+      "a": 1,
+      "ex": "ஒரு பொதுவான புள்ளியில் இருந்து விலகிச் செல்லும் இரு கதிர்களுக்கு இடையே கோணம் உருவாகிறது.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "கோணத்தைக் குறிக்கப் பயன்படுத்தப்படும் கணிதக் குறியீடு எது?",
+      "options": [
+        "∆",
+        "=",
+        "∠",
+        "#"
+      ],
+      "a": 2,
+      "ex": "கோணத்தை '∠' என்ற குறியீட்டைப் பயன்படுத்தி குறிப்பிடுகிறோம்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "∠ABC என்பதில், கோணத்தின் முனையைக் குறிக்கும் எழுத்து எது?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "A மற்றும் C"
+      ],
+      "a": 1,
+      "ex": "கோணத்தை மூன்று எழுத்துக்களால் குறிக்கும்போது, மையத்தில் உள்ள எழுத்தே அதன் முனையைக் (vertex) குறிக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "'Angilos' என்ற கிரேக்க வார்த்தையின் பொருள் என்ன?",
+      "options": [
+        "நேரான கோடு",
+        "நேராக இல்லாமல் வளைவானது",
+        "சமச்சீர் தன்மை",
+        "சுழலும் தன்மை"
+      ],
+      "a": 1,
+      "ex": "'Angilos' என்பதிலிருந்து Angle உருவானது. இதற்கு 'நேராக இல்லாமல் வளைவானது' என்று பொருள்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "0° க்கும் 90° க்கும் இடைப்பட்ட கோணம் எவ்வாறு அழைக்கப்படுகிறது?",
+      "options": [
+        "விரிகோணம்",
+        "செங்கோணம்",
+        "குறுங்கோணம்",
+        "நேர்க்கோணம்"
+      ],
+      "a": 2,
+      "ex": "0° ஐ விட அதிகமாகவும் 90° ஐ விட குறைவாகவும் உள்ள கோணம் குறுங்கோணம் ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "சரியாக 90° அளவுள்ள கோணத்தின் பெயர் என்ன?",
+      "options": [
+        "குறுங்கோணம்",
+        "விரிகோணம்",
+        "செங்கோணம்",
+        "நேர்க்கோணம்"
+      ],
+      "a": 2,
+      "ex": "சரியாக 90° அளவைக் கொண்டுள்ள கோணம் செங்கோணம் எனப்படும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "90° க்கும் 180° க்கும் இடைப்பட்ட கோணம் எது?",
+      "options": [
+        "குறுங்கோணம்",
+        "செங்கோணம்",
+        "விரிகோணம்",
+        "நேர்க்கோணம்"
+      ],
+      "a": 2,
+      "ex": "90° ஐ விட அதிகமாகவும் 180° ஐ விட குறைவாகவும் உள்ள கோணம் விரிகோணம் ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "சரியாக 180° அளவைக் கொண்ட கோணம் எது?",
+      "options": [
+        "குறுங்கோணம்",
+        "விரிகோணம்",
+        "நேர்க்கோணம்",
+        "செங்கோணம்"
+      ],
+      "a": 2,
+      "ex": "ஒரு நேர்க்கோட்டின் அளவு சரியாக 180° ஆகும். எனவே இது நேர்க்கோணம் எனப்படும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "இரு செங்கோணங்களை இணைக்கும்போது உருவாகும் கோணம் எது?",
+      "options": [
+        "குறுங்கோணம்",
+        "விரிகோணம்",
+        "நேர்க்கோணம்",
+        "முழுக்கோணம்"
+      ],
+      "a": 2,
+      "ex": "ஒரு செங்கோணம் 90°. இரண்டு செங்கோணங்களை இணைத்தால் 90°+90° = 180° (நேர்க்கோணம்) உருவாகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "கடிகாரத்தில் நேரம் சரியாக 2 மணியைக் காட்டும்போது, முட்களுக்கு இடைப்பட்ட கோணம் என்ன?",
+      "options": [
+        "குறுங்கோணம்",
+        "செங்கோணம்",
+        "விரிகோணம்",
+        "நேர்க்கோணம்"
       ],
       "a": 0,
-      "ex": "A ladle is a large, deep spoon used for serving liquid dishes like soup or gravy.",
+      "ex": "2 மணியைக் காட்டும்போது முட்களுக்கு இடையிலான கோணம் 90°-ஐ விடக் குறைவாக இருப்பதால் அது குறுங்கோணம் ஆகும்.",
+      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
-      "q": "Which utensil is best suited for boiling water?",
+      "q": "ஆங்கில எழுத்து 'L' எந்தக் கோணத்தைக் கொண்டுள்ளது?",
       "options": [
-        "Plate",
-        "Kettle",
-        "Saucer",
-        "Tray"
-      ],
-      "a": 1,
-      "ex": "A kettle is a specially designed pot used for boiling water.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "According to the 'Rooms in our House' poem, what do we do in the kitchen?",
-      "options": [
-        "Sleep and read",
-        "Bathe and clean",
-        "Cook and sometimes eat",
-        "Play with friends"
+        "குறுங்கோணம்",
+        "விரிகோணம்",
+        "செங்கோணம்",
+        "நேர்க்கோணம்"
       ],
       "a": 2,
-      "ex": "The poem states: 'A place where we cook And sometimes eat' is a kitchen.",
+      "ex": "'L' வடிவமானது சரியாக 90° அளவுள்ள ஒரு செங்குத்து அமைப்பைக் கொண்டிருப்பதால் அது செங்கோணம் ஆகும்.",
+      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
-      "q": "According to the poem, what is a bedroom used for?",
+      "q": "ஒரு செங்குத்து கோணம் (Vertical angle in right setup) எந்த அளவைக் காட்டுகிறது?",
       "options": [
-        "To cook",
-        "To sleep and sometimes read",
-        "To clean ourselves",
-        "To meet guests"
+        "0°",
+        "90°",
+        "180°",
+        "360°"
       ],
       "a": 1,
-      "ex": "The poem describes the bedroom as a place to sleep and sometimes read.",
+      "ex": "செங்குத்து கோணம் என்பது சரியாக 90° அளவைக் குறிக்கும்.",
+      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
-      "q": "How is a 'home' described in the poem?",
+      "q": "நகம் வெட்டியைப் (Nail clipper) பயன்படுத்தும் போது அதன் இரு கைகளுக்கு இடையே உருவாகும் கோணம் எது?",
       "options": [
-        "A place to bathe",
-        "A place to study",
-        "A place to be with a loving family",
-        "A place to eat"
+        "குறுங்கோணம்",
+        "செங்கோணம்",
+        "விரிகோணம்",
+        "நேர்க்கோணம்"
       ],
-      "a": 2,
-      "ex": "A home is described as 'A place to be With a loving family'.",
+      "a": 0,
+      "ex": "நகம் வெட்டியைப் பயன்படுத்தும் போது உருவாகும் இடைவெளி 90° க்கும் குறைவாக உள்ளதால் அது குறுங்கோணம்.",
+      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
-      "q": "Where was Amma resting when the children were looking for her?",
+      "q": "முழங்கால் மற்றும் கால் பாதம் இணையும் இடம் ஆங்கிலத்தில் எவ்வாறு அழைக்கப்படுகிறது?",
       "options": [
-        "In the kitchen",
-        "In the hall",
-        "In the bedroom",
-        "In the garden"
-      ],
-      "a": 2,
-      "ex": "Amma was in bed in the bedroom because she was unwell.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Why was Amma resting in bed?",
-      "options": [
-        "She was sleepy",
-        "She had a headache",
-        "She was reading a book",
-        "She was hiding"
+        "Knee",
+        "Ankle",
+        "Elbow",
+        "Wrist"
       ],
       "a": 1,
-      "ex": "Amma said, 'Oh, I have a headache.' That is why she was resting in the bedroom.",
+      "ex": "கணுக்கால் எனப்படும் இந்த இணையும் இடம் ஆங்கிலத்தில் 'Ankle' என அழைக்கப்படுகிறது.",
+      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
-      "q": "What did the children decide to make for Amma to help her feel better?",
+      "q": "கனசதுரத்தின் வலையமைப்பை (Net of a cube) உருவாக்க எத்தனை சமமான சதுரங்கள் தேவை?",
       "options": [
-        "A cup of coffee",
-        "A bowl of soup",
-        "A cup of tea",
-        "A glass of juice"
+        "4",
+        "5",
+        "6",
+        "8"
       ],
       "a": 2,
-      "ex": "The children asked, 'Can we make you a cup of tea?'",
+      "ex": "கனசதுரத்திற்கு 6 முகங்கள் உள்ளதால், அதன் வலையமைப்பை உருவாக்க 6 சமமான சதுரங்கள் தேவை.",
+      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
-      "q": "How long did they let the tea boil in the pot?",
+      "q": "வடிவியல் கருவிப் பெட்டியில் (Geometry box) உள்ள மூலை மட்டங்கள் (Set squares) ஒவ்வொன்றும் எந்தக் கோண அளவைக் கட்டாயம் கொண்டவை?",
       "options": [
-        "Two minutes",
-        "Five minutes",
-        "Ten minutes",
-        "Fifteen minutes"
-      ],
-      "a": 1,
-      "ex": "They decided to boil the tea in the pot for five minutes.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "What did Valli add to the tea after pouring it through the strainer?",
-      "options": [
-        "Water",
-        "Tea leaves",
-        "Milk",
-        "Sugar"
+        "30°",
+        "45°",
+        "60°",
+        "90°"
       ],
       "a": 3,
-      "ex": "After straining the tea, they added sugar, stirred, and mixed it well.",
+      "ex": "வடிவியல் பெட்டியில் உள்ள இரண்டு மூலை மட்டங்களிலும் ஒரு கோணம் கண்டிப்பாக 90° ஆக (செங்கோணம்) இருக்கும்.",
+      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
-      "q": "What do we call the action of mixing sugar into a liquid using a spoon?",
+      "q": "சமையலறையில் இடுக்கியால் பாத்திரங்களைத் தூக்கும்போது, இடுக்கியின் கைகளுக்கு இடையே உருவாகும் கோணம் பெரும்பாலும் எந்த வகையைச் சார்ந்தது?",
       "options": [
-        "Peel",
-        "Stir",
-        "Chop",
-        "Pour"
+        "எப்போதும் நேர்க்கோணம்",
+        "பயன்பாட்டைப் பொறுத்து குறுங்கோணம் அல்லது விரிகோணம்",
+        "எப்போதும் செங்கோணம்",
+        "எதுவுமில்லை"
       ],
       "a": 1,
-      "ex": "Stirring is the action of moving a spoon around in a liquid to mix ingredients.",
+      "ex": "சிறிய பாத்திரத்தைப் பிடிக்கும்போது குறுங்கோணமும், பெரிய பாத்திரத்தைப் பிடிக்கும்போது விரித்து பிடிப்பதால் விரிகோணமும் உருவாகலாம்.",
+      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
-      "q": "What is the action word for cutting vegetables into small pieces?",
+      "q": "ஒரு உருளையில் எத்தனை வளைதளங்கள் உள்ளன?",
       "options": [
-        "Pour",
-        "Boil",
-        "Stir",
-        "Chop"
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "a": 1,
+      "ex": "ஒரு உருளையானது 2 சமதளங்களையும், ஒரு (1) வளைதளத்தையும் கொண்டுள்ளது.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "கீழ்க்கண்ட ஆங்கில எழுத்துக்களில், 1/2 சுழற்சிக்குப் பின் அதே வடிவம் பெறாத எழுத்து எது?",
+      "options": [
+        "H",
+        "N",
+        "S",
+        "A"
       ],
       "a": 3,
-      "ex": "To 'chop' means to cut food into smaller pieces using a knife.",
+      "ex": "A என்ற எழுத்தை தலைகீழாக (1/2 சுழற்சி) மாற்றினால் அதன் வடிவம் மாறிவிடும். மற்றவை மாறாது.",
+      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
-      "q": "What does the word 'boil' mean in cooking?",
+      "q": "9,999 என்ற மிகப்பெரிய 4 இலக்க எண்ணுடன் 1-ஐக் கூட்டினால் கிடைக்கும் எண் எது?",
       "options": [
-        "To freeze something",
-        "To heat a liquid until it bubbles",
-        "To remove the skin",
-        "To cut into pieces"
+        "1,000",
+        "10,000",
+        "1,00,000",
+        "9,998"
       ],
       "a": 1,
-      "ex": "Boiling is the process of heating a liquid until it reaches a temperature where it bubbles.",
-      "lesson": "Lesson_1"
+      "ex": "9,999 உடன் 1-ஐக் கூட்டினால் 10,000 (பத்தாயிரம்) என்ற மிகச்சிறிய 5 இலக்க எண் கிடைக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "Which of the following words contains the 'oo' sound as in 'book'?",
+      "q": "1 என்ற எண்ணிற்குப் பின்னால் 100 பூச்சியங்கள் வந்தால் அதை கணிதத்தில் எவ்வாறு அழைக்கிறோம்?",
       "options": [
-        "Make",
-        "Foot",
-        "Tree",
-        "Hall"
+        "மில்லியன்",
+        "பில்லியன்",
+        "கூகல் (GOOGOL)",
+        "டிரில்லியன்"
+      ],
+      "a": 2,
+      "ex": "1-க்குப் பின்னால் 100 பூச்சியங்கள் வந்தால் அதனை கூகல் (GOOGOL) என அழைக்கிறோம்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "99,999 உடன் 1-ஐக் கூட்டினால் கிடைக்கும் எண் எது?",
+      "options": [
+        "10,000",
+        "1,00,000",
+        "10,00,000",
+        "1,00,00,000"
       ],
       "a": 1,
-      "ex": "The word 'foot' has the short 'oo' vowel sound, identical to 'book'.",
-      "lesson": "Lesson_1"
+      "ex": "99,999 + 1 = 1,00,000 (ஒரு இலட்சம்).",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "Find the odd word out based on its vowel sound:",
+      "q": "100 இலட்சங்கள் என்பது எதற்குச் சமம்?",
       "options": [
-        "Wood",
-        "Good",
-        "Cook",
-        "Cake"
+        "1 கோடி",
+        "10 கோடி",
+        "1 இலட்சம்",
+        "10 இலட்சம்"
+      ],
+      "a": 0,
+      "ex": "100 இலட்சங்கள் சேர்ந்தால் அது 1 கோடிக்குச் சமமாகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "ஓர் எண்ணின் இடமதிப்புகளின் கூடுதல் அந்த எண்ணின் எவ்வடிவமாகும்?",
+      "options": [
+        "சுருக்கிய வடிவம்",
+        "திட்ட வடிவம்",
+        "விரிவாக்க வடிவம்",
+        "எண் பெயர்"
+      ],
+      "a": 2,
+      "ex": "ஓர் எண்ணின் விரிவாக்க வடிவம் என்பது அதன் இலக்கங்களின் இடமதிப்புகளின் கூடுதல் ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "34,284 என்ற எண்ணில் எத்தனை ஆயிரங்கள் உள்ளன?",
+      "options": [
+        "3",
+        "4",
+        "34",
+        "342"
+      ],
+      "a": 2,
+      "ex": "34,284 என்ற எண்ணில் 34 ஆயிரங்கள் உள்ளன.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "3,45,789 என்ற எண்ணில் எத்தனை ஆயிரங்கள் உள்ளன?",
+      "options": [
+        "3",
+        "34",
+        "345",
+        "45"
+      ],
+      "a": 2,
+      "ex": "3,45,789 என்ற எண்ணில் 345 ஆயிரங்கள் உள்ளன.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "7,22,6,382 என்ற எண்ணில் 2 என்ற இலக்கத்தின் இடமதிப்புகளின் கூடுதல் என்ன?",
+      "options": [
+        "2,00,000",
+        "20,000",
+        "2,20,000",
+        "22"
+      ],
+      "a": 2,
+      "ex": "இங்கு 2 இலட்சம் மற்றும் 20 ஆயிரம் உள்ளன. அவற்றின் கூடுதல் 2,00,000 + 20,000 = 2,20,000.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "15731997 என்ற எண்ணிற்கக்கான சரியான கற்புள்ளி இட்ட வடிவம் எது?",
+      "options": [
+        "1,57,31,997",
+        "15,73,19,97",
+        "1,573,1997",
+        "157,319,97"
+      ],
+      "a": 0,
+      "ex": "இந்திய முறைப்படி வலமிருந்து இடமாக முறையே 3, 2, 2 இலக்கங்களாகப் பிரித்துக் கற்புள்ளி இட வேண்டும் (1,57,31,997).",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "15478 என்ற எண்ணில் 7-ன் இடமதிப்பு என்ன?",
+      "options": [
+        "7",
+        "70",
+        "700",
+        "7000"
+      ],
+      "a": 1,
+      "ex": "15478-ல் 7 என்பது பத்துகள் இடத்தில் உள்ளது. எனவே அதன் இடமதிப்பு 70.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "23,45,172 என்ற எண்ணில் 3-ன் இடமதிப்பு என்ன?",
+      "options": [
+        "3,000",
+        "30,000",
+        "3,00,000",
+        "30,00,000"
+      ],
+      "a": 2,
+      "ex": "3 என்ற இலக்கம் இலட்சங்கள் இடத்தில் உள்ளதால் அதன் இடமதிப்பு 3,00,000 (3 இலட்சம்).",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "5869732 என்ற எண்ணில் 5-ன் இடமதிப்பு என்ன?",
+      "options": [
+        "5,000",
+        "50,000",
+        "5,00,000",
+        "50,00,000"
       ],
       "a": 3,
-      "ex": "Wood, good, and cook have the 'oo' sound. Cake has a long 'a' sound.",
-      "lesson": "Lesson_1"
+      "ex": "5 என்ற இலக்கம் பத்து இலட்சங்கள் இடத்தில் உள்ளதால் அதன் இடமதிப்பு 50,00,000.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "Complete the word from the phonics list: sh_ _k",
+      "q": "30000 + 3000 + 300 + 30 + 3 என்பதன் திட்ட வடிவம் எது?",
       "options": [
-        "ee",
-        "oo",
-        "ea",
-        "oa"
-      ],
-      "a": 1,
-      "ex": "The missing letters are 'oo', making the word 'shook'.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "I make toys with ____.",
-      "options": [
-        "Book",
-        "Wood",
-        "Foot",
-        "Cook"
-      ],
-      "a": 1,
-      "ex": "According to the phonics practice sentences, 'I make toys with wood.'",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "My dad likes to ____.",
-      "options": [
-        "Shook",
-        "Wood",
-        "Cook",
-        "Brook"
+        "30303",
+        "33033",
+        "33333",
+        "30030"
       ],
       "a": 2,
-      "ex": "According to the phonics practice sentences, 'My dad likes to cook.'",
-      "lesson": "Lesson_1"
+      "ex": "அனைத்து இடமதிப்புகளையும் கூட்டினால் 33,333 கிடைக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "I ____ his hand.",
+      "q": "8000000 + 70000 + 3000 + 30 + 5 என்பதன் திட்ட வடிவம் என்ன?",
       "options": [
-        "Stood",
-        "Shook",
-        "Look",
-        "Took"
-      ],
-      "a": 1,
-      "ex": "The correct sentence from the lesson is 'I shook his hand.'",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "What should we always do before using someone else's things?",
-      "options": [
-        "Take it secretly",
-        "Ask for permission",
-        "Break it",
-        "Hide it"
-      ],
-      "a": 1,
-      "ex": "We should always ask permission before doing anything or taking someone's belongings.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Which of these is the correct way to ask permission to enter a room?",
-      "options": [
-        "I come in.",
-        "May I come in?",
-        "Come in.",
-        "Can you come in?"
-      ],
-      "a": 1,
-      "ex": "'May I come in?' is a polite way to ask permission to enter.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Rearrange the words to form a correct sentence: use / I / Can / book / your / ?",
-      "options": [
-        "Can use I your book?",
-        "Can your book I use?",
-        "Can I use your book?",
-        "I can use your book?"
-      ],
-      "a": 2,
-      "ex": "The correct question format for permission is 'Can I use your book?'",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Rearrange the words: tell / may / I / a / story / ?",
-      "options": [
-        "I may tell a story?",
-        "May I tell a story?",
-        "May tell I a story?",
-        "A story I may tell?"
-      ],
-      "a": 1,
-      "ex": "'May I tell a story?' is the grammatically correct way to ask for permission.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Which question word is used when asking about things we CAN count?",
-      "options": [
-        "How much",
-        "How long",
-        "How many",
-        "How far"
-      ],
-      "a": 2,
-      "ex": "We use 'How many' for countable nouns (e.g., How many pencils?).",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Which question word is used when asking about things we CANNOT count?",
-      "options": [
-        "How many",
-        "How much",
-        "How old",
-        "How come"
-      ],
-      "a": 1,
-      "ex": "We use 'How much' for uncountable nouns (e.g., How much sugar?).",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Which of the following is a countable noun?",
-      "options": [
-        "Water",
-        "Rice",
-        "House",
-        "Oil"
-      ],
-      "a": 2,
-      "ex": "A house can be counted (one house, two houses). Water, rice, and oil cannot be counted individually.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Which of the following is an uncountable noun?",
-      "options": [
-        "Baby",
-        "Sugar",
-        "Chair",
-        "Pencil"
-      ],
-      "a": 1,
-      "ex": "Sugar exists as tiny grains and is treated as a mass noun, so it cannot be counted.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "The clown is confused because he is trying to count _____.",
-      "options": [
-        "Balls",
-        "Salt",
-        "Pencils",
-        "Houses"
-      ],
-      "a": 1,
-      "ex": "Salt is an uncountable noun, which is why the clown gets confused trying to count it.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "True or False: We can count 'meat' and 'sand'.",
-      "options": [
-        "True",
-        "False",
-        "Only meat is countable",
-        "Only sand is countable"
-      ],
-      "a": 1,
-      "ex": "Both meat and sand are uncountable nouns.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "In the story 'The Black Rat', why does the rat go to the bedroom?",
-      "options": [
-        "She is hungry",
-        "She is thirsty",
-        "She is sleepy",
-        "She wants to play"
-      ],
-      "a": 2,
-      "ex": "The story begins with 'Black rat is sleepy. She goes to the bedroom.'",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "In the story, where does the black rat put her books?",
-      "options": [
-        "On the table",
-        "In the school bag",
-        "Under the bed",
-        "In the trunk"
-      ],
-      "a": 1,
-      "ex": "She puts the books neatly into the school bag.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Where does the rat place the basket of fruits?",
-      "options": [
-        "On the pot",
-        "In the bowl",
-        "Near the trunk",
-        "On the hook"
-      ],
-      "a": 2,
-      "ex": "She puts the basket near the trunk.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "What does she put in the bowl?",
-      "options": [
-        "The bun",
-        "The soap",
-        "The spoon",
-        "The plate"
+        "80,73,035",
+        "8,73,035",
+        "87,30,035",
+        "80,73,305"
       ],
       "a": 0,
-      "ex": "She puts the fruits in the basket and the bun in the bowl.",
-      "lesson": "Lesson_1"
+      "ex": "இலட்சம் மற்றும் நூறுகள் இடங்களில் பூச்சியம் வருவதால் விடை 80,73,035 ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "Where does she put the bat?",
+      "q": "4000000 + 400 + 4 என்பதன் திட்ட வடிவம் என்ன?",
       "options": [
-        "On the shelf",
-        "In the trunk",
-        "Under the mat",
-        "On the pot"
+        "40,404",
+        "4,00,404",
+        "40,00,404",
+        "40,40,404"
+      ],
+      "a": 2,
+      "ex": "பத்து இலட்சம் (4), நூறு (4), ஒன்று (4) இடங்களைத் தவிர மற்ற இடங்களில் 0 இட்டால் 40,00,404 கிடைக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "63,570 என்ற எண்ணின் விரிவாக்க வடிவம் எது?",
+      "options": [
+        "60000 + 3000 + 50 + 70",
+        "60000 + 3000 + 500 + 70",
+        "6000 + 300 + 50 + 70",
+        "60000 + 3000 + 500 + 7"
       ],
       "a": 1,
-      "ex": "She puts the bat safely in the trunk.",
-      "lesson": "Lesson_1"
+      "ex": "63,570-ன் இடமதிப்புகளின் கூடுதல் 60000 + 3000 + 500 + 70 ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "Where does the rat hang the belt?",
+      "q": "மிகப்பெரிய 7 இலக்க எண்ணிற்கும் மிகப்பெரிய 6 இலக்க எண்ணிற்கும் உள்ள வேறுபாடு என்ன?",
       "options": [
-        "On the hook",
-        "On the shelf",
-        "On the bed",
-        "In the trunk"
-      ],
-      "a": 0,
-      "ex": "She puts the belt on the hook.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Where does she place the plate and the tumbler?",
-      "options": [
-        "On the mat",
-        "On the pot",
-        "In the basket",
-        "On the shelf"
+        "9,00,000",
+        "90,00,000",
+        "1,00,000",
+        "10,00,000"
       ],
       "a": 1,
-      "ex": "She puts the plate and the tumbler on the pot.",
-      "lesson": "Lesson_1"
+      "ex": "மிகப்பெரிய 7 இலக்க எண் (99,99,999) - மிகப்பெரிய 6 இலக்க எண் (9,99,999) = 90,00,000.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "What does the black rat do after pushing the pot near the wall?",
+      "q": "எண்களை ஒப்பிடும்போது, அதிக இலக்கங்களைக் கொண்ட எண் எவ்வாறு கருதப்படும்?",
       "options": [
-        "She makes her bed",
-        "She reads a book",
-        "She eats the bun",
-        "She goes outside"
+        "சிறிய எண்",
+        "சமமான எண்",
+        "பெரிய எண்",
+        "குறைந்த எண்"
       ],
-      "a": 0,
-      "ex": "After moving the pot, the black rat makes her bed to finally go to sleep.",
-      "lesson": "Lesson_1"
+      "a": 2,
+      "ex": "இலக்கங்களின் எண்ணிக்கை அதிகமாக உள்ள எண் எப்போதும் பெரிய எண்ணாகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "True or False: We make milkshake with a mixie.",
+      "q": "எண்களை ஒப்பிடும்போது, இலக்கங்கள் சமமாக இருந்தால் எந்தப் புறம் உள்ள இடமதிப்பை முதலில் ஒப்பிட வேண்டும்?",
       "options": [
-        "True",
-        "False",
-        "Sometimes",
-        "Cannot be determined"
-      ],
-      "a": 0,
-      "ex": "A mixie is used to blend fruits and milk to make a milkshake.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "True or False: We cut with a knife.",
-      "options": [
-        "True",
-        "False",
-        "Only bread",
-        "Only fruits"
-      ],
-      "a": 0,
-      "ex": "A knife is the primary tool used for cutting food items in the kitchen.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "We fry food items using a ____.",
-      "options": [
-        "Strainer",
-        "Pan",
-        "Grater",
-        "Lota"
+        "வலதுபுறம்",
+        "இடதுபுறம்",
+        "நடுவில்",
+        "எங்கு வேண்டுமானாலும்"
       ],
       "a": 1,
-      "ex": "A pan is a flat-bottomed utensil used for frying foods on a stove.",
-      "lesson": "Lesson_1"
+      "ex": "உயர்ந்த இடமதிப்பை ஒப்பிட வேண்டும், உயர்ந்த இடமதிப்பு இடதுபுறத்தில் இருக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "Which of the following items is uncountable?",
+      "q": "மிகச்சிறிய எண்ணிலிருந்து மிகப்பெரிய எண் வரை எண்களை வரிசைப்படுத்துவது எவ்வாறு அழைக்கப்படுகிறது?",
       "options": [
-        "Bicycle",
-        "Tree",
-        "Bat",
-        "Butter"
+        "ஏறுவரிசை",
+        "இறங்குவரிசை",
+        "எண் வரிசை",
+        "நேர்வரிசை"
+      ],
+      "a": 0,
+      "ex": "சிறியதிலிருந்து பெரியது வரை செல்வது ஏறுவரிசை ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "மிகப்பெரிய எண்ணிலிருந்து மிகச்சிறிய எண் வரை எண்களை வரிசைப்படுத்துவது எவ்வாறு அழைக்கப்படுகிறது?",
+      "options": [
+        "ஏறுவரிசை",
+        "இறங்குவரிசை",
+        "பின்னோக்கு வரிசை",
+        "எதிர்வரிசை"
+      ],
+      "a": 1,
+      "ex": "பெரியதிலிருந்து சிறியது வரை இறங்கிச் செல்வது இறங்குவரிசை ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "1,00,000 என்ற எண்ணின் பெயர் என்ன?",
+      "options": [
+        "பத்தாயிரம்",
+        "ஒரு இலட்சம்",
+        "பத்து இலட்சம்",
+        "ஒரு கோடி"
+      ],
+      "a": 1,
+      "ex": "1-க்குப் பின்னால் 5 பூச்சியங்கள் இருந்தால் அது ஒரு இலட்சம்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "ஒரு கோடியே நாற்பதாயிரத்து நான்கு என்பதை எண்களால் எழுதுக.",
+      "options": [
+        "1,40,004",
+        "1,00,40,004",
+        "10,40,004",
+        "1,00,04,004"
+      ],
+      "a": 1,
+      "ex": "1 கோடி, 0 இலட்சம், 40 ஆயிரம், 0 நூறு, 0 பத்து, 4 ஒன்றுகள் = 1,00,40,004.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "அறுபத்து நான்கு இலட்சத்து மூன்று என்பதை எண்களால் எழுதுக.",
+      "options": [
+        "64,003",
+        "6,40,003",
+        "64,00,003",
+        "64,00,030"
+      ],
+      "a": 2,
+      "ex": "64 இலட்சம், 0 ஆயிரம், 0 நூறு, 0 பத்து, 3 ஒன்றுகள் = 64,00,003.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "மிகப்பெரிய 4 இலக்க எண் மற்றும் மிகச்சிறிய 5 இலக்க எண்ணின் கூடுதல் என்ன?",
+      "options": [
+        "19,999",
+        "1,09,999",
+        "20,000",
+        "99,999"
+      ],
+      "a": 0,
+      "ex": "9,999 + 10,000 = 19,999.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "மிகச்சிறிய 6 இலக்க எண்ணை மிகப்பெரிய 7 இலக்க எண்ணிலிருந்து கழித்தால் கிடைக்கும் விடை என்ன?",
+      "options": [
+        "89,99,999",
+        "98,99,999",
+        "99,89,999",
+        "99,99,999"
+      ],
+      "a": 1,
+      "ex": "99,99,999 (மிகப்பெரிய 7 இலக்க எண்) - 1,00,000 (மிகச்சிறிய 6 இலக்க எண்) = 98,99,999.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "7 இலட்சங்கள் + 5 ஆயிரங்கள் + 4 பத்துகள் + 3 ஒன்றுகள் என்பதன் திட்டவடிவம் எது?",
+      "options": [
+        "7,50,043",
+        "7,05,403",
+        "7,05,043",
+        "70,50,043"
+      ],
+      "a": 2,
+      "ex": "பத்து ஆயிரங்கள் மற்றும் நூறுகள் இடங்களில் 0 இட்டால் 7,05,043 கிடைக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "1,34,510-டன் 5 ஆயிரங்கள் மற்றும் 3 நூறுகளைக் கூட்டினால் கிடைக்கும் எண் எது?",
+      "options": [
+        "1,39,810",
+        "1,84,510",
+        "1,39,510",
+        "1,34,810"
+      ],
+      "a": 0,
+      "ex": "1,34,510 + 5300 = 1,39,810.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "எண்களைக் கூட்டும்போதும் கழிக்கும்போதும் எந்த இடமதிப்பிலிருந்து (பக்கத்திலிருந்து) ஆரம்பிக்க வேண்டும்?",
+      "options": [
+        "இடதுப்பக்கத்திலிருந்து",
+        "வலப்பக்கத்திலிருந்து",
+        "நடுவிலிருந்து",
+        "ஆயிரங்களில் இருந்து"
+      ],
+      "a": 1,
+      "ex": "தவறுகளைத் தவிர்க்க ஒன்றாம் இடமதிப்பிலிருந்து (வலப்பக்கத்திலிருந்து) தொடங்க வேண்டும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "ஒரு எண்ணிலிருந்து மற்றொரு எண்ணைக் கழிக்கக் கிடைப்பது என்ன?",
+      "options": [
+        "கூடுதல்",
+        "வித்தியாசம் (வேறுபாடு)",
+        "பெருக்கற்பலன்",
+        "ஈவு"
+      ],
+      "a": 1,
+      "ex": "கழித்தல் செயலின் விடை வித்தியாசம் அல்லது வேறுபாடு எனப்படும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "350 × 35 என்பதன் பெருக்கற்பலன் என்ன?",
+      "options": [
+        "12,500",
+        "12,250",
+        "12,050",
+        "12,150"
+      ],
+      "a": 1,
+      "ex": "350 ஐ 35 ஆல் பெருக்கினால் 12,250 கிடைக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "ஒரு எண்ணைப் பல சம பாகங்களாகப் பிரிப்பது எந்த அடிப்படைச் செயல்பாட்டைக் குறிக்கிறது?",
+      "options": [
+        "கூட்டல்",
+        "கழித்தல்",
+        "பெருக்கல்",
+        "வகுத்தல்"
       ],
       "a": 3,
-      "ex": "Butter is a mass noun and cannot be counted directly without units (like a block of butter).",
-      "lesson": "Lesson_1"
+      "ex": "சமமாகப் பிரித்தல் என்பது வகுத்தல் செயல்பாட்டைக் குறிக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "Life Scenario: You are making a salad. You need to turn carrots into thin, shredded pieces. Which tool will you use?",
+      "q": "வகுத்தல் கணக்கின் சரிபார்ப்பு சூத்திரம்: வகுபடும் எண் = ?",
       "options": [
-        "Rolling pin",
-        "Grater",
-        "Funnel",
-        "Tongs"
+        "(வகுக்கும் எண் × மீதி) + ஈவு",
+        "(வகுக்கும் எண் × ஈவு) + மீதி",
+        "(வகுக்கும் எண் + ஈவு) × மீதி",
+        "வகுக்கும் எண் + ஈவு + மீதி"
       ],
       "a": 1,
-      "ex": "A grater is used to shred foods like carrots into small, thin pieces.",
-      "lesson": "Lesson_1"
+      "ex": "வகுபடும் எண் = (வகுக்கும் எண் × ஈவு) + மீதி என்பது வகுத்தல் சரிபார்ப்பு சூத்திரம்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "Life Scenario: You accidentally spilled tea leaves into the hot tea. How will you remove them?",
+      "q": "வகுத்தல் செயல்பாட்டை எந்தப் பக்கத்திலிருந்து செய்யத் தொடங்க வேண்டும்?",
       "options": [
-        "Use a strainer",
-        "Use a knife",
-        "Use a ladle",
-        "Use a peeler"
+        "வலப்பக்கத்திலிருந்து",
+        "இடப்பக்கத்திலிருந்து",
+        "கீழிருந்து",
+        "எங்கிருந்து வேண்டுமானாலும்"
+      ],
+      "a": 1,
+      "ex": "வகுத்தல் மட்டும் இடமிருந்து வலமாக (பெரிய இடமதிப்பிலிருந்து சிறிய இடமதிப்பிற்கு) செய்யப்பட வேண்டும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "5732 ÷ 9 என்ற கணக்கின் ஈவு என்ன?",
+      "options": [
+        "636",
+        "637",
+        "638",
+        "639"
       ],
       "a": 0,
-      "ex": "A strainer will let the liquid pass through while catching the solid tea leaves.",
-      "lesson": "Lesson_1"
+      "ex": "5732 ஐ 9 ஆல் வகுக்க ஈவு 636 மற்றும் மீதி 8 கிடைக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "Analogy: Cook : Kitchen :: Bathe : ____",
+      "q": "10101, 10102, 10103 என்ற தொடரின் அடுத்த எண் என்ன?",
       "options": [
-        "Bedroom",
-        "Hall",
-        "Bathroom",
-        "Garden"
+        "10100",
+        "10104",
+        "10204",
+        "10114"
       ],
-      "a": 2,
-      "ex": "We cook in the kitchen and bathe in the bathroom.",
-      "lesson": "Lesson_1"
+      "a": 1,
+      "ex": "இது 1 என்ற எண்ணைக் கூட்டிச் செல்லும் தொடர். எனவே 10103 + 1 = 10104.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "Match the following: 1. Boil - a. Cut into pieces, 2. Chop - b. Heat liquid, 3. Peel - c. Remove skin.",
+      "q": "ஒரு நகரப் பஞ்சாயத்தில் 19,732 ஆண்களும், 24,105 பெண்களும், 525 குழந்தைகளும் உள்ளனர் எனில் மொத்த மக்கள் தொகை என்ன?",
       "options": [
-        "1-b, 2-a, 3-c",
-        "1-a, 2-b, 3-c",
-        "1-c, 2-a, 3-b",
-        "1-b, 2-c, 3-a"
+        "44,362",
+        "43,862",
+        "44,462",
+        "44,262"
       ],
       "a": 0,
-      "ex": "To boil is to heat a liquid, to chop is to cut into pieces, and to peel is to remove the skin.",
-      "lesson": "Lesson_1"
+      "ex": "மொத்த மக்கள் தொகை = 19,732 + 24,105 + 525 = 44,362.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "Assertion: We use 'How much' to ask about the quantity of water.\nReason: Water is a countable noun.",
+      "q": "ராகுலிடம் 78,347 அஞ்சல் தலைகளும் ரவியிடம் 59,475 அஞ்சல் தலைகளும் உள்ளன. இருவருக்கும் உள்ள வித்தியாசம் என்ன?",
       "options": [
-        "Assertion is true, Reason is false",
-        "Assertion is false, Reason is true",
-        "Both are true",
-        "Both are false"
+        "18,872",
+        "19,872",
+        "18,972",
+        "19,972"
       ],
       "a": 0,
-      "ex": "We do use 'How much' for water, but the reason is false because water is an UNCOUNTABLE noun.",
-      "lesson": "Lesson_1"
+      "ex": "வித்தியாசம் = 78,347 - 59,475 = 18,872.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "Identify the correct pair of Countable - Uncountable nouns:",
+      "q": "ஒரு கூடை மாங்கனிகளின் விலை ₹48 எனில், 473 கூடை மாங்கனிகளின் விலை என்ன?",
       "options": [
-        "Ball - Pencil",
-        "Sugar - Rice",
-        "House - Oil",
-        "Water - Metal"
+        "22,604",
+        "22,704",
+        "22,804",
+        "22,904"
       ],
-      "a": 2,
-      "ex": "A house is countable, and oil is uncountable, making it the correct Countable-Uncountable pair.",
-      "lesson": "Lesson_1"
+      "a": 1,
+      "ex": "473 × 48 = 22,704.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "What did Amma advise the children to do while making tea?",
+      "q": "லாரி ஒன்றில் 47345 லிட்டர் தண்ணீர் 5 பகுதிகளுக்குச் சமமாக விநியோகிக்கப்படுகிறது எனில், ஒரு பகுதிக்குக் கிடைக்கும் தண்ணீர் எவ்வளவு?",
       "options": [
-        "Ask Patti for help",
-        "Ask father for help",
-        "Buy it from outside",
-        "Don't make tea"
+        "9,469 லிட்டர்",
+        "9,569 லிட்டர்",
+        "9,369 லிட்டர்",
+        "9,479 லிட்டர்"
       ],
       "a": 0,
-      "ex": "Amma told them, 'Yes, ask patti for help' before they started making tea.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Which letter cluster produces the sound found in words like 'wool' and 'brook'?",
-      "options": [
-        "ee",
-        "ea",
-        "oo",
-        "ou"
-      ],
-      "a": 2,
-      "ex": "The 'oo' letter cluster produces the short vowel sound in 'wool' and 'brook'.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Which container is best for serving a large amount of liquid, like water or juice, on a table?",
-      "options": [
-        "Spoon",
-        "Jug / Pot",
-        "Saucer",
-        "Peeler"
-      ],
-      "a": 1,
-      "ex": "A jug or pot is a large container used for holding and serving liquids.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Unscramble the letters to find a kitchen tool: o - p - n - o - s",
-      "options": [
-        "snoop",
-        "spoon",
-        "poons",
-        "opsno"
-      ],
-      "a": 1,
-      "ex": "The letters rearrange to form 'spoon', a common kitchen utensil.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "High Order Thinking: Why is it important to ask 'May I...?' or 'Can I...?' before using something that isn't yours?",
-      "options": [
-        "Because it makes you look smart",
-        "To show respect and get permission",
-        "Because the teacher forces you",
-        "To make the other person angry"
-      ],
-      "a": 1,
-      "ex": "Asking for permission shows good manners, respect for others' property, and prevents misunderstandings.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Which insect climbs up the water spout in the rhyme?",
-      "options": [
-        "Bumblebee",
-        "Butterfly",
-        "Spider",
-        "Ant"
-      ],
-      "a": 2,
-      "ex": "The rhyme is about 'Incy Wincy Spider' who climbed up the water spout.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What washed poor Incy Wincy out of the spout?",
-      "options": [
-        "Wind",
-        "Sunshine",
-        "Snow",
-        "Rain"
-      ],
-      "a": 3,
-      "ex": "According to the rhyme, 'Down came the rain and washed poor Incy out.'",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What dried up all the rain in the spider poem?",
-      "options": [
-        "The sunshine",
-        "The wind",
-        "The moon",
-        "The clouds"
-      ],
-      "a": 0,
-      "ex": "The poem says, 'Out came the sunshine And dried up all the rain.'",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Where did the insects in the story meet every day?",
-      "options": [
-        "On a tree",
-        "Inside a house",
-        "Under a rock",
-        "Near a beautiful pond"
-      ],
-      "a": 3,
-      "ex": "The story begins with 'Many insects lived near the pond. They met every day.'",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What does the butterfly do every morning?",
-      "options": [
-        "Builds a web",
-        "Collects nectar from flowers",
-        "Sleeps on leaves",
-        "Eats other insects"
-      ],
-      "a": 1,
-      "ex": "The butterfly says, 'I collect nectar from flowers every morning.'",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Which insect buzzes around busily on sunny days to collect nectar?",
-      "options": [
-        "Snail",
-        "Beetle",
-        "Bumblebee",
-        "Mosquito"
-      ],
-      "a": 2,
-      "ex": "The Bumblebee says, 'I collect nectar on sunny days... and visit many flowers.'",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What colours are the dots on a ladybird?",
-      "options": [
-        "Red and black",
-        "Yellow and green",
-        "Blue and white",
-        "Black and yellow"
-      ],
-      "a": 0,
-      "ex": "The dragonfly saw a bug with 'red and black dots', which was the ladybird.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is the food of the ladybird?",
-      "options": [
-        "Nectar from flowers",
-        "Leaves and grass",
-        "Tiny insects that eat plants",
-        "Soil and mud"
-      ],
-      "a": 2,
-      "ex": "The ladybird says, 'I look for the tiny insects that eat the plants. They are my food.'",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Where does the ant carry its food?",
-      "options": [
-        "To the pond",
-        "To the beehive",
-        "To the anthill",
-        "To the tree branch"
-      ],
-      "a": 2,
-      "ex": "The ant says, 'I carry food to my anthill.'",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "How do the ants work and eat?",
-      "options": [
-        "Together",
-        "Alone",
-        "Slowly",
-        "Only at night"
-      ],
-      "a": 0,
-      "ex": "Ants are a team. The ant says, 'We work together to get food. We eat together.'",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What does the dragonfly do at the pond?",
-      "options": [
-        "Collects food",
-        "Flies around and meets friends",
-        "Eats plant leaves",
-        "Swims in the water"
-      ],
-      "a": 1,
-      "ex": "The dragonfly tells the ant, 'I just fly around and meet all my friends.'",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Which insect looks fierce and finds its food on the ground?",
-      "options": [
-        "Beetle",
-        "Butterfly",
-        "Mosquito",
-        "Spider"
-      ],
-      "a": 0,
-      "ex": "The beetle looks fierce and says, 'I find my food on the ground.'",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Why did the dragonfly fly away fast at the end of the pond story?",
-      "options": [
-        "It saw a hunter",
-        "It saw a chameleon",
-        "It started raining",
-        "It was getting dark"
-      ],
-      "a": 1,
-      "ex": "The dragonfly flew away because it saw a chameleon, and chameleons eat insects.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Which of the following creatures is a reptile that eats insects?",
-      "options": [
-        "Dove",
-        "Ladybird",
-        "Chameleon",
-        "Snail"
-      ],
-      "a": 2,
-      "ex": "A chameleon is a reptile known for catching and eating insects.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Match the word to its feature: Bumblebee -> ?",
-      "options": [
-        "Colourful",
-        "Buzzes",
-        "Fierce",
-        "Beautiful"
-      ],
-      "a": 1,
-      "ex": "Bumblebees make a buzzing sound.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Match the word to its feature: Butterfly -> ?",
-      "options": [
-        "Fierce",
-        "Buzzes",
-        "Colourful",
-        "Tiny"
-      ],
-      "a": 2,
-      "ex": "Butterflies are known for their colourful wings.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Which word contains the '/a:/' sound using the 'ar' letter cluster?",
-      "options": [
-        "Fast",
-        "Book",
-        "Park",
-        "Blast"
-      ],
-      "a": 2,
-      "ex": "The word 'park' has the 'ar' letter cluster producing the /a:/ sound.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Which word contains the 'ast' letter cluster?",
-      "options": [
-        "Shark",
-        "Past",
-        "Dark",
-        "Farm"
-      ],
-      "a": 1,
-      "ex": "The word 'past' contains the 'ast' letter cluster.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Complete the sentence from the phonics section: The ____ eats the fish.",
-      "options": [
-        "Shark",
-        "Star",
-        "Car",
-        "Dog"
-      ],
-      "a": 0,
-      "ex": "The phonics reading practice sentence is 'The shark eats the fish.'",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Complete the sentence from the phonics section: The ____ march.",
-      "options": [
-        "Dogs",
-        "Ants",
-        "Cars",
-        "Stars"
-      ],
-      "a": 1,
-      "ex": "The phonics reading practice sentence is 'The ants march.'",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Find the missing letters: m _ _ k",
-      "options": [
-        "ar",
-        "oo",
-        "ee",
-        "ast"
-      ],
-      "a": 0,
-      "ex": "Using the 'ar' cluster, the word is 'mark'.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "If you want to politely ask your friend for a pencil, what should you say?",
-      "options": [
-        "Give me pencil.",
-        "Could you give me a pencil?",
-        "I take your pencil.",
-        "Where is pencil?"
-      ],
-      "a": 1,
-      "ex": "'Could you give me a...?' is the polite structure taught in the grammar section.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "When someone gives you the item you politely asked for, what do they usually say?",
-      "options": [
-        "Here it is.",
-        "Go away.",
-        "Take it.",
-        "It is mine."
-      ],
-      "a": 0,
-      "ex": "The correct response taught in the lesson is 'Here it is.'",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Prepositions: The fish is swimming ___ the bowl.",
-      "options": [
-        "In",
-        "On",
-        "Under",
-        "Near"
-      ],
-      "a": 0,
-      "ex": "The fish is inside the water, so it is 'in' the bowl.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Prepositions: The spider is hiding ___ the chair, on the floor below it.",
-      "options": [
-        "On",
-        "Under",
-        "In",
-        "Near"
-      ],
-      "a": 1,
-      "ex": "When something is below another object, we use 'under'.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Prepositions: The caterpillar is resting exactly ___ top of the shoe.",
-      "options": [
-        "In",
-        "Under",
-        "On",
-        "Near"
-      ],
-      "a": 2,
-      "ex": "When something is touching the top surface of an object, we use 'on'.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Prepositions: The bug is standing ___ the sofa, just a few inches away.",
-      "options": [
-        "In",
-        "Under",
-        "Near",
-        "On"
-      ],
-      "a": 2,
-      "ex": "When something is close to an object, we use 'near'.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "In 'The Ant and the Dove' story, what pushed the ant into the river?",
-      "options": [
-        "A stone",
-        "A frog",
-        "The wind",
-        "A branch"
-      ],
-      "a": 2,
-      "ex": "The story says, 'The wind blew hard and pushed him into the river.'",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Who saw the ant drowning in the river?",
-      "options": [
-        "A hunter",
-        "A dove",
-        "A beetle",
-        "A spider"
-      ],
-      "a": 1,
-      "ex": "A dove sitting on a nearby tree saw the ant crying for help.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What did the dove throw into the river to save the ant?",
-      "options": [
-        "A twig",
-        "A rope",
-        "A leaf",
-        "A flower"
-      ],
-      "a": 2,
-      "ex": "The dove threw a leaf into the river, and the ant got on it to reach the bank safely.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "After some days, who was aiming at the dove?",
-      "options": [
-        "An eagle",
-        "A hunter",
-        "A snake",
-        "A tiger"
-      ],
-      "a": 1,
-      "ex": "The ant saw a hunter aiming at the dove.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What weapons did the hunter have?",
-      "options": [
-        "A net and stick",
-        "A gun",
-        "A bow and arrow",
-        "A sword"
-      ],
-      "a": 2,
-      "ex": "The story mentions the hunter dropped his 'bow and arrow' when the ant bit him.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "How did the ant save the dove from the hunter?",
-      "options": [
-        "By pushing the hunter",
-        "By shouting loudly",
-        "By biting the hunter",
-        "By breaking the bow"
-      ],
-      "a": 2,
-      "ex": "The ant quickly bit the hunter, causing him to cry 'Ow' and drop his weapon.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What did the dove say to the ant before flying away?",
-      "options": [
-        "Goodbye, ant!",
-        "Thank you, ant!",
-        "See you later!",
-        "You are brave!"
-      ],
-      "a": 1,
-      "ex": "The dove was grateful and said, 'Thank you, ant!' before she flew away.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "According to the Big Picture, where does the ant live?",
-      "options": [
-        "In the water",
-        "In the hill",
-        "On the tree",
-        "Under the leaf"
-      ],
-      "a": 1,
-      "ex": "The Big Picture states, 'The ant is in the hill (anthill).'",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Which of these insects is known to glow in the dark at night?",
-      "options": [
-        "Rain bug",
-        "Dragonfly",
-        "Firefly",
-        "Grasshopper"
-      ],
-      "a": 2,
-      "ex": "Fireflies are small insects known for glowing in the dark.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Book Back: How does the ant walk?",
-      "options": [
-        "With its wings",
-        "With its shell",
-        "With its legs",
-        "With its tail"
-      ],
-      "a": 2,
-      "ex": "Ants do not fly like birds; they walk with their legs.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "True or False: The bumblebee collects nectar only on rainy days.",
-      "options": [
-        "True",
-        "False",
-        "Only at night",
-        "Cannot say"
-      ],
-      "a": 1,
-      "ex": "False. The bumblebee says, 'I collect nectar on SUNNY days.'",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "True or False: Ladybirds eat the plants near the pond.",
-      "options": [
-        "True",
-        "False",
-        "They eat fish",
-        "They eat frogs"
-      ],
-      "a": 1,
-      "ex": "False. Ladybirds eat the tiny insects that destroy the plants, not the plants themselves.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Find the odd one out based on the 'ast' phonics sound:",
-      "options": [
-        "Fast",
-        "Past",
-        "Mark",
-        "Blast"
-      ],
-      "a": 2,
-      "ex": "'Mark' has the 'ar' sound, while the others have the 'ast' sound.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Find the odd one out based on the 'ar' phonics sound:",
-      "options": [
-        "Vast",
-        "Car",
-        "Jar",
-        "Far"
-      ],
-      "a": 0,
-      "ex": "'Vast' has the 'ast' sound, while the others have the 'ar' sound.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Assertion: The dragonfly flew away quickly.\nReason: It saw a chameleon that eats insects.",
-      "options": [
-        "Both Assertion and Reason are true",
-        "Both are false",
-        "Assertion is true, Reason is false",
-        "Assertion is false, Reason is true"
-      ],
-      "a": 0,
-      "ex": "The dragonfly fled because chameleons are known predators of insects.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Real-life Scenario: You are reading a book and your pet dog barks loudly right next to your ear. What preposition describes the dog's position?",
-      "options": [
-        "In",
-        "Under",
-        "Near",
-        "On"
-      ],
-      "a": 2,
-      "ex": "Since the dog is right next to your ear, it is 'near' you.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Analogy: Bee : Hive :: Ant : ____",
-      "options": [
-        "Web",
-        "Pond",
-        "Anthill",
-        "Tree"
-      ],
-      "a": 2,
-      "ex": "Bees live in a hive, and ants live in an anthill.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Rearrange the words to make a polite sentence: the / Could / pass / you / salt?",
-      "options": [
-        "You could pass the salt?",
-        "Could you pass the salt?",
-        "The salt could pass you?",
-        "Pass you could the salt?"
-      ],
-      "a": 1,
-      "ex": "The correct polite request structure is 'Could you pass the salt?'",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "If a bird is sitting at the very top of a house, which preposition best describes its place?",
-      "options": [
-        "In the house",
-        "Under the house",
-        "On the house",
-        "Near the house"
-      ],
-      "a": 2,
-      "ex": "When something is resting on the surface/top, we use 'on'.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Which insect from the lesson leaves a slimy trail and carries a shell on its back?",
-      "options": [
-        "Spider",
-        "Grasshopper",
-        "Snail",
-        "Beetle"
-      ],
-      "a": 2,
-      "ex": "The snail is a small creature that carries a shell on its back.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Which insect from the vocabulary list jumps very high in the grass?",
-      "options": [
-        "Snail",
-        "Grasshopper",
-        "Butterfly",
-        "Firefly"
-      ],
-      "a": 1,
-      "ex": "A grasshopper is known for jumping high in the grass.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Complete the phonics sentence: The car is ___.",
-      "options": [
-        "Slow",
-        "Red",
-        "Fast",
-        "Big"
-      ],
-      "a": 2,
-      "ex": "The phonics reading sentence states, 'The car is fast.'",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Complete the phonics sentence: We have fun in the ___.",
-      "options": [
-        "School",
-        "Park",
-        "Pool",
-        "House"
-      ],
-      "a": 1,
-      "ex": "The phonics reading sentence states, 'We have fun in the park.'",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "High Order Thinking: Why is the ladybird considered a 'friend to farmers'?",
-      "options": [
-        "Because it waters the plants",
-        "Because it eats the harmful bugs that destroy crops",
-        "Because it gives milk",
-        "Because it is red in colour"
-      ],
-      "a": 1,
-      "ex": "Ladybirds naturally control pests by eating the tiny insects that destroy plants.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "High Order Thinking: What is the main moral of the story 'The Ant and the Dove'?",
-      "options": [
-        "Never go near a river",
-        "Hunters are dangerous",
-        "If you do good to others, good will come to you",
-        "Ants cannot swim"
-      ],
-      "a": 2,
-      "ex": "The dove helped the ant, and in return, the ant helped the dove. It teaches us to help each other.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "High Order Thinking: If the dove had not dropped the leaf, what would have most likely happened?",
-      "options": [
-        "The ant would have flown away",
-        "The ant would have drowned in the river",
-        "The wind would have stopped",
-        "The hunter would have shot the ant"
-      ],
-      "a": 1,
-      "ex": "The ant was struggling in the water. Without the leaf to climb on, it would have drowned.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "High Order Thinking: Which quality of the ants is highlighted in the pond story?",
-      "options": [
-        "Laziness",
-        "Selfishness",
-        "Teamwork and hard work",
-        "Anger"
-      ],
-      "a": 2,
-      "ex": "The ant says, 'We work together to get food. We eat together.' This shows excellent teamwork.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "High Order Thinking: Why did the ant bite the hunter instead of warning the dove by shouting?",
-      "options": [
-        "Because ants are very loud",
-        "Because ants cannot shout loudly enough, but a bite is effective",
-        "Because the ant hated the hunter",
-        "Because the dove was deaf"
-      ],
-      "a": 1,
-      "ex": "Ants are tiny creatures and cannot shout like humans. Biting the hunter was the fastest and most effective way to distract him.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Real-life Scenario: Your pencil rolls off the table and falls to the floor, hiding exactly below the table. Where is your pencil?",
-      "options": [
-        "In the table",
-        "On the table",
-        "Near the table",
-        "Under the table"
-      ],
-      "a": 3,
-      "ex": "When an object is directly below another, the correct preposition is 'under'.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Which insect from the picture vocabulary is known as the 'rain bug'?",
-      "options": [
-        "A small black ant",
-        "A red velvety bug seen during rains",
-        "A flying mosquito",
-        "A green grasshopper"
-      ],
-      "a": 1,
-      "ex": "A rain bug (commonly known as red velvet mite) appears brightly coloured during the rainy season.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Which insect has colourful wings and starts its life as a caterpillar?",
-      "options": [
-        "Housefly",
-        "Spider",
-        "Butterfly",
-        "Snail"
-      ],
-      "a": 2,
-      "ex": "A caterpillar eventually transforms into a beautiful butterfly with colourful wings.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Real-life Scenario: You are sitting at a restaurant and need a menu card. How should you ask the waiter?",
-      "options": [
-        "Give me menu.",
-        "Could you give me the menu card, please?",
-        "Where is menu?",
-        "I want menu."
-      ],
-      "a": 1,
-      "ex": "Using 'Could you give me...?' is the most polite and respectful way to ask for something.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is the small creature that spins a web to catch its food?",
-      "options": [
-        "Beetle",
-        "Dragonfly",
-        "Spider",
-        "Bumblebee"
-      ],
-      "a": 2,
-      "ex": "Spiders spin sticky webs to trap other small insects for food.",
+      "ex": "சமமாகப் பிரிக்க வகுக்க வேண்டும். 47345 ÷ 5 = 9469 லிட்டர்.",
+      "notesMode": true,
       "lesson": "Lesson_2"
     }
   ],

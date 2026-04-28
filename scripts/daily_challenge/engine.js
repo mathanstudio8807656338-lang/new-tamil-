@@ -148,13 +148,20 @@ async function run() {
   console.log(`\n🕐 IST: ${ist} | Day: ${dayStr} | Action: ${action}\n`);
 
   if (action === 'close') {
-    await uploadFile('1.json', JSON.stringify({
+    const closedPayload = {
       unit: 'Daily Challenge', subject: 'Closed',
       title: 'இன்றைய அமர்வு முடிந்தது',
       status: 'closed',
       message: 'நாளை காலை 6 மணிக்கு மீண்டும் திறக்கும்.',
       quiz: []
-    }, null, 2), `🔒 Night Close: ${dateStr}`);
+    };
+    
+    // Save locally
+    const localPath = path.join(__dirname, '../../1.json');
+    fs.writeFileSync(localPath, JSON.stringify(closedPayload, null, 2));
+    console.log(`💾 Saved local close status`);
+
+    await uploadFile('1.json', JSON.stringify(closedPayload, null, 2), `🔒 Night Close: ${dateStr}`);
     return;
   }
 
