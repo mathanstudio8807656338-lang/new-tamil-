@@ -1,10 +1,14 @@
 {
   "unit": "Daily Challenge",
   "subject": "ENGLISH",
-  "title": "இன்றைய குறிப்புகள்: Our Kitchen & Small Creatures",
-  "status": "notes",
+  "title": "இன்றைய தேர்வு: Our Kitchen & Small Creatures",
+  "status": "open",
   "activeSubject": "english",
-  "activeGrade": "5",
+  "activeGrade": "3",
+  "activeGrades": [
+    "3",
+    "3"
+  ],
   "activeTitles": [
     "Our Kitchen",
     "Small Creatures"
@@ -24,7 +28,6 @@
       ],
       "a": 0,
       "ex": "A strainer is a tool used to separate solid particles, like tea leaves, from liquids.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -37,7 +40,6 @@
       ],
       "a": 1,
       "ex": "We use a knife to cut vegetables, usually keeping them on a cutting-board to protect the surface.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -50,7 +52,6 @@
       ],
       "a": 3,
       "ex": "A funnel has a wide top and a narrow tube, making it easy to pour liquids into small openings.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -63,7 +64,6 @@
       ],
       "a": 1,
       "ex": "A peeler is specially designed to peel the skin off fruits and vegetables like apples and potatoes.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -76,7 +76,6 @@
       ],
       "a": 2,
       "ex": "A rolling pin is a cylindrical kitchen utensil used to shape and flatten dough for making chapati or roti.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -89,7 +88,6 @@
       ],
       "a": 0,
       "ex": "A cup is usually placed on a saucer when serving hot beverages like tea or coffee.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -102,7 +100,6 @@
       ],
       "a": 1,
       "ex": "A mixie (mixer grinder) is an electronic appliance used for mixing, blending, and grinding food.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -115,7 +112,6 @@
       ],
       "a": 2,
       "ex": "Tongs are used to grip and lift objects safely, especially hot food items.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -128,7 +124,6 @@
       ],
       "a": 0,
       "ex": "A ladle is a large, deep spoon used for serving liquid dishes like soup or gravy.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -141,7 +136,6 @@
       ],
       "a": 1,
       "ex": "A kettle is a specially designed pot used for boiling water.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -154,7 +148,6 @@
       ],
       "a": 2,
       "ex": "The poem states: 'A place where we cook And sometimes eat' is a kitchen.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -167,7 +160,6 @@
       ],
       "a": 1,
       "ex": "The poem describes the bedroom as a place to sleep and sometimes read.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -180,7 +172,6 @@
       ],
       "a": 2,
       "ex": "A home is described as 'A place to be With a loving family'.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -193,7 +184,6 @@
       ],
       "a": 2,
       "ex": "Amma was in bed in the bedroom because she was unwell.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -206,7 +196,6 @@
       ],
       "a": 1,
       "ex": "Amma said, 'Oh, I have a headache.' That is why she was resting in the bedroom.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -219,7 +208,6 @@
       ],
       "a": 2,
       "ex": "The children asked, 'Can we make you a cup of tea?'",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -232,7 +220,6 @@
       ],
       "a": 1,
       "ex": "They decided to boil the tea in the pot for five minutes.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -245,7 +232,6 @@
       ],
       "a": 3,
       "ex": "After straining the tea, they added sugar, stirred, and mixed it well.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -258,7 +244,6 @@
       ],
       "a": 1,
       "ex": "Stirring is the action of moving a spoon around in a liquid to mix ingredients.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -271,7 +256,6 @@
       ],
       "a": 3,
       "ex": "To 'chop' means to cut food into smaller pieces using a knife.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -284,7 +268,6 @@
       ],
       "a": 1,
       "ex": "Boiling is the process of heating a liquid until it reaches a temperature where it bubbles.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -297,7 +280,6 @@
       ],
       "a": 1,
       "ex": "The word 'foot' has the short 'oo' vowel sound, identical to 'book'.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -310,7 +292,6 @@
       ],
       "a": 3,
       "ex": "Wood, good, and cook have the 'oo' sound. Cake has a long 'a' sound.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -323,7 +304,6 @@
       ],
       "a": 1,
       "ex": "The missing letters are 'oo', making the word 'shook'.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -336,7 +316,6 @@
       ],
       "a": 1,
       "ex": "According to the phonics practice sentences, 'I make toys with wood.'",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -349,7 +328,6 @@
       ],
       "a": 2,
       "ex": "According to the phonics practice sentences, 'My dad likes to cook.'",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -362,7 +340,6 @@
       ],
       "a": 1,
       "ex": "The correct sentence from the lesson is 'I shook his hand.'",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -375,7 +352,6 @@
       ],
       "a": 1,
       "ex": "We should always ask permission before doing anything or taking someone's belongings.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -388,7 +364,6 @@
       ],
       "a": 1,
       "ex": "'May I come in?' is a polite way to ask permission to enter.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -401,7 +376,6 @@
       ],
       "a": 2,
       "ex": "The correct question format for permission is 'Can I use your book?'",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -414,7 +388,6 @@
       ],
       "a": 1,
       "ex": "'May I tell a story?' is the grammatically correct way to ask for permission.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -427,7 +400,6 @@
       ],
       "a": 2,
       "ex": "We use 'How many' for countable nouns (e.g., How many pencils?).",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -440,7 +412,6 @@
       ],
       "a": 1,
       "ex": "We use 'How much' for uncountable nouns (e.g., How much sugar?).",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -453,7 +424,6 @@
       ],
       "a": 2,
       "ex": "A house can be counted (one house, two houses). Water, rice, and oil cannot be counted individually.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -466,7 +436,6 @@
       ],
       "a": 1,
       "ex": "Sugar exists as tiny grains and is treated as a mass noun, so it cannot be counted.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -479,7 +448,6 @@
       ],
       "a": 1,
       "ex": "Salt is an uncountable noun, which is why the clown gets confused trying to count it.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -492,7 +460,6 @@
       ],
       "a": 1,
       "ex": "Both meat and sand are uncountable nouns.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -505,7 +472,6 @@
       ],
       "a": 2,
       "ex": "The story begins with 'Black rat is sleepy. She goes to the bedroom.'",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -518,7 +484,6 @@
       ],
       "a": 1,
       "ex": "She puts the books neatly into the school bag.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -531,7 +496,6 @@
       ],
       "a": 2,
       "ex": "She puts the basket near the trunk.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -544,7 +508,6 @@
       ],
       "a": 0,
       "ex": "She puts the fruits in the basket and the bun in the bowl.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -557,7 +520,6 @@
       ],
       "a": 1,
       "ex": "She puts the bat safely in the trunk.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -570,7 +532,6 @@
       ],
       "a": 0,
       "ex": "She puts the belt on the hook.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -583,7 +544,6 @@
       ],
       "a": 1,
       "ex": "She puts the plate and the tumbler on the pot.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -596,7 +556,6 @@
       ],
       "a": 0,
       "ex": "After moving the pot, the black rat makes her bed to finally go to sleep.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -609,7 +568,6 @@
       ],
       "a": 0,
       "ex": "A mixie is used to blend fruits and milk to make a milkshake.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -622,7 +580,6 @@
       ],
       "a": 0,
       "ex": "A knife is the primary tool used for cutting food items in the kitchen.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -635,7 +592,6 @@
       ],
       "a": 1,
       "ex": "A pan is a flat-bottomed utensil used for frying foods on a stove.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -648,7 +604,6 @@
       ],
       "a": 3,
       "ex": "Butter is a mass noun and cannot be counted directly without units (like a block of butter).",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -661,7 +616,6 @@
       ],
       "a": 1,
       "ex": "A grater is used to shred foods like carrots into small, thin pieces.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -674,7 +628,6 @@
       ],
       "a": 0,
       "ex": "A strainer will let the liquid pass through while catching the solid tea leaves.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -687,7 +640,6 @@
       ],
       "a": 2,
       "ex": "We cook in the kitchen and bathe in the bathroom.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -700,7 +652,6 @@
       ],
       "a": 0,
       "ex": "To boil is to heat a liquid, to chop is to cut into pieces, and to peel is to remove the skin.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -713,7 +664,6 @@
       ],
       "a": 0,
       "ex": "We do use 'How much' for water, but the reason is false because water is an UNCOUNTABLE noun.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -726,7 +676,6 @@
       ],
       "a": 2,
       "ex": "A house is countable, and oil is uncountable, making it the correct Countable-Uncountable pair.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -739,7 +688,6 @@
       ],
       "a": 0,
       "ex": "Amma told them, 'Yes, ask patti for help' before they started making tea.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -752,7 +700,6 @@
       ],
       "a": 2,
       "ex": "The 'oo' letter cluster produces the short vowel sound in 'wool' and 'brook'.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -765,7 +712,6 @@
       ],
       "a": 1,
       "ex": "A jug or pot is a large container used for holding and serving liquids.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -778,7 +724,6 @@
       ],
       "a": 1,
       "ex": "The letters rearrange to form 'spoon', a common kitchen utensil.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -791,7 +736,6 @@
       ],
       "a": 1,
       "ex": "Asking for permission shows good manners, respect for others' property, and prevents misunderstandings.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -804,7 +748,6 @@
       ],
       "a": 2,
       "ex": "The rhyme is about 'Incy Wincy Spider' who climbed up the water spout.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -817,7 +760,6 @@
       ],
       "a": 3,
       "ex": "According to the rhyme, 'Down came the rain and washed poor Incy out.'",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -830,7 +772,6 @@
       ],
       "a": 0,
       "ex": "The poem says, 'Out came the sunshine And dried up all the rain.'",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -843,7 +784,6 @@
       ],
       "a": 3,
       "ex": "The story begins with 'Many insects lived near the pond. They met every day.'",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -856,7 +796,6 @@
       ],
       "a": 1,
       "ex": "The butterfly says, 'I collect nectar from flowers every morning.'",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -869,7 +808,6 @@
       ],
       "a": 2,
       "ex": "The Bumblebee says, 'I collect nectar on sunny days... and visit many flowers.'",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -882,7 +820,6 @@
       ],
       "a": 0,
       "ex": "The dragonfly saw a bug with 'red and black dots', which was the ladybird.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -895,7 +832,6 @@
       ],
       "a": 2,
       "ex": "The ladybird says, 'I look for the tiny insects that eat the plants. They are my food.'",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -908,7 +844,6 @@
       ],
       "a": 2,
       "ex": "The ant says, 'I carry food to my anthill.'",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -921,7 +856,6 @@
       ],
       "a": 0,
       "ex": "Ants are a team. The ant says, 'We work together to get food. We eat together.'",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -934,7 +868,6 @@
       ],
       "a": 1,
       "ex": "The dragonfly tells the ant, 'I just fly around and meet all my friends.'",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -947,7 +880,6 @@
       ],
       "a": 0,
       "ex": "The beetle looks fierce and says, 'I find my food on the ground.'",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -960,7 +892,6 @@
       ],
       "a": 1,
       "ex": "The dragonfly flew away because it saw a chameleon, and chameleons eat insects.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -973,7 +904,6 @@
       ],
       "a": 2,
       "ex": "A chameleon is a reptile known for catching and eating insects.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -986,7 +916,6 @@
       ],
       "a": 1,
       "ex": "Bumblebees make a buzzing sound.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -999,7 +928,6 @@
       ],
       "a": 2,
       "ex": "Butterflies are known for their colourful wings.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1012,7 +940,6 @@
       ],
       "a": 2,
       "ex": "The word 'park' has the 'ar' letter cluster producing the /a:/ sound.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1025,7 +952,6 @@
       ],
       "a": 1,
       "ex": "The word 'past' contains the 'ast' letter cluster.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1038,7 +964,6 @@
       ],
       "a": 0,
       "ex": "The phonics reading practice sentence is 'The shark eats the fish.'",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1051,7 +976,6 @@
       ],
       "a": 1,
       "ex": "The phonics reading practice sentence is 'The ants march.'",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1064,7 +988,6 @@
       ],
       "a": 0,
       "ex": "Using the 'ar' cluster, the word is 'mark'.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1077,7 +1000,6 @@
       ],
       "a": 1,
       "ex": "'Could you give me a...?' is the polite structure taught in the grammar section.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1090,7 +1012,6 @@
       ],
       "a": 0,
       "ex": "The correct response taught in the lesson is 'Here it is.'",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1103,7 +1024,6 @@
       ],
       "a": 0,
       "ex": "The fish is inside the water, so it is 'in' the bowl.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1116,7 +1036,6 @@
       ],
       "a": 1,
       "ex": "When something is below another object, we use 'under'.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1129,7 +1048,6 @@
       ],
       "a": 2,
       "ex": "When something is touching the top surface of an object, we use 'on'.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1142,7 +1060,6 @@
       ],
       "a": 2,
       "ex": "When something is close to an object, we use 'near'.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1155,7 +1072,6 @@
       ],
       "a": 2,
       "ex": "The story says, 'The wind blew hard and pushed him into the river.'",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1168,7 +1084,6 @@
       ],
       "a": 1,
       "ex": "A dove sitting on a nearby tree saw the ant crying for help.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1181,7 +1096,6 @@
       ],
       "a": 2,
       "ex": "The dove threw a leaf into the river, and the ant got on it to reach the bank safely.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1194,7 +1108,6 @@
       ],
       "a": 1,
       "ex": "The ant saw a hunter aiming at the dove.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1207,7 +1120,6 @@
       ],
       "a": 2,
       "ex": "The story mentions the hunter dropped his 'bow and arrow' when the ant bit him.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1220,7 +1132,6 @@
       ],
       "a": 2,
       "ex": "The ant quickly bit the hunter, causing him to cry 'Ow' and drop his weapon.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1233,7 +1144,6 @@
       ],
       "a": 1,
       "ex": "The dove was grateful and said, 'Thank you, ant!' before she flew away.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1246,7 +1156,6 @@
       ],
       "a": 1,
       "ex": "The Big Picture states, 'The ant is in the hill (anthill).'",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1259,7 +1168,6 @@
       ],
       "a": 2,
       "ex": "Fireflies are small insects known for glowing in the dark.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1272,7 +1180,6 @@
       ],
       "a": 2,
       "ex": "Ants do not fly like birds; they walk with their legs.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1285,7 +1192,6 @@
       ],
       "a": 1,
       "ex": "False. The bumblebee says, 'I collect nectar on SUNNY days.'",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1298,7 +1204,6 @@
       ],
       "a": 1,
       "ex": "False. Ladybirds eat the tiny insects that destroy the plants, not the plants themselves.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1311,7 +1216,6 @@
       ],
       "a": 2,
       "ex": "'Mark' has the 'ar' sound, while the others have the 'ast' sound.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1324,7 +1228,6 @@
       ],
       "a": 0,
       "ex": "'Vast' has the 'ast' sound, while the others have the 'ar' sound.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1337,7 +1240,6 @@
       ],
       "a": 0,
       "ex": "The dragonfly fled because chameleons are known predators of insects.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1350,7 +1252,6 @@
       ],
       "a": 2,
       "ex": "Since the dog is right next to your ear, it is 'near' you.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1363,7 +1264,6 @@
       ],
       "a": 2,
       "ex": "Bees live in a hive, and ants live in an anthill.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1376,7 +1276,6 @@
       ],
       "a": 1,
       "ex": "The correct polite request structure is 'Could you pass the salt?'",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1389,7 +1288,6 @@
       ],
       "a": 2,
       "ex": "When something is resting on the surface/top, we use 'on'.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1402,7 +1300,6 @@
       ],
       "a": 2,
       "ex": "The snail is a small creature that carries a shell on its back.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1415,7 +1312,6 @@
       ],
       "a": 1,
       "ex": "A grasshopper is known for jumping high in the grass.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1428,7 +1324,6 @@
       ],
       "a": 2,
       "ex": "The phonics reading sentence states, 'The car is fast.'",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1441,7 +1336,6 @@
       ],
       "a": 1,
       "ex": "The phonics reading sentence states, 'We have fun in the park.'",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1454,7 +1348,6 @@
       ],
       "a": 1,
       "ex": "Ladybirds naturally control pests by eating the tiny insects that destroy plants.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1467,7 +1360,6 @@
       ],
       "a": 2,
       "ex": "The dove helped the ant, and in return, the ant helped the dove. It teaches us to help each other.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1480,7 +1372,6 @@
       ],
       "a": 1,
       "ex": "The ant was struggling in the water. Without the leaf to climb on, it would have drowned.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1493,7 +1384,6 @@
       ],
       "a": 2,
       "ex": "The ant says, 'We work together to get food. We eat together.' This shows excellent teamwork.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1506,7 +1396,6 @@
       ],
       "a": 1,
       "ex": "Ants are tiny creatures and cannot shout like humans. Biting the hunter was the fastest and most effective way to distract him.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1519,7 +1408,6 @@
       ],
       "a": 3,
       "ex": "When an object is directly below another, the correct preposition is 'under'.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1532,7 +1420,6 @@
       ],
       "a": 1,
       "ex": "A rain bug (commonly known as red velvet mite) appears brightly coloured during the rainy season.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1545,7 +1432,6 @@
       ],
       "a": 2,
       "ex": "A caterpillar eventually transforms into a beautiful butterfly with colourful wings.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1558,7 +1444,6 @@
       ],
       "a": 1,
       "ex": "Using 'Could you give me...?' is the most polite and respectful way to ask for something.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1571,7 +1456,6 @@
       ],
       "a": 2,
       "ex": "Spiders spin sticky webs to trap other small insects for food.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     }
   ],
