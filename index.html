@@ -147,6 +147,21 @@
             letter-spacing: -0.01em;
         }
 
+        /* Disabled State for Regular Subjects */
+        .subject-card.disabled {
+            opacity: 0.6;
+            filter: grayscale(1);
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+        .subject-card.disabled::after {
+            content: '🔒';
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 1rem;
+        }
+
         .nav-actions {
             display: flex;
             gap: 1rem;
@@ -286,26 +301,25 @@
             </a>
         </div>
 
-        <!-- ROW 1: TET Paper I -->
         <h2 class="section-header">📄 TET Paper I (வகுப்பு 1 - 5)</h2>
         <div class="subject-row">
-            <a href="subject.html?id=tamil&paper=1" class="subject-card tamil">
+            <a href="subject.html?id=tamil&paper=1" class="subject-card tamil disabled">
                 <div class="subject-icon">📚</div>
                 <h3>தமிழ்</h3>
             </a>
-            <a href="subject.html?id=english&paper=1" class="subject-card english">
+            <a href="subject.html?id=english&paper=1" class="subject-card english disabled">
                 <div class="subject-icon">📖</div>
                 <h3>English</h3>
             </a>
-            <a href="subject.html?id=maths&paper=1" class="subject-card maths">
+            <a href="subject.html?id=maths&paper=1" class="subject-card maths disabled">
                 <div class="subject-icon">📐</div>
                 <h3>கணிதம்</h3>
             </a>
-            <a href="subject.html?id=science&paper=1" class="subject-card science">
+            <a href="subject.html?id=science&paper=1" class="subject-card science disabled">
                 <div class="subject-icon">🌱</div>
                 <h3>சுற்றுச்சூழல்</h3>
             </a>
-            <a href="subject.html?id=social&paper=1" class="subject-card social">
+            <a href="subject.html?id=social&paper=1" class="subject-card social disabled">
                 <div class="subject-icon">🌍</div>
                 <h3>சமூக அறிவியல்</h3>
             </a>
@@ -316,19 +330,19 @@
         <!-- ROW 3: Additional Sections (Combined) -->
         <h2 class="section-header">⭐ கூடுதல் பகுதிகள்</h2>
         <div class="subject-row">
-            <a href="subject.html?id=psychology" class="subject-card psychology">
+            <a href="subject.html?id=psychology" class="subject-card psychology disabled">
                 <div class="subject-icon">🧠</div>
                 <h3>உளவியல்</h3>
             </a>
-            <a href="subject.html?id=mocktest" class="subject-card tamil">
+            <a href="subject.html?id=mocktest" class="subject-card tamil disabled">
                 <div class="subject-icon">📝</div>
                 <h3>மாதிரித்தேர்வு</h3>
             </a>
-            <a href="subject.html?id=revision" class="subject-card tamil">
+            <a href="subject.html?id=revision" class="subject-card tamil disabled">
                 <div class="subject-icon">🔄</div>
                 <h3>திருப்புதல் தேர்வு</h3>
             </a>
-            <a href="subject.html?id=standard_6_7_8" class="subject-card tamil">
+            <a href="subject.html?id=standard_6_7_8" class="subject-card tamil disabled">
                 <div class="subject-icon">📚</div>
                 <h3>6, 7, 8 வகுப்புகள்</h3>
             </a>

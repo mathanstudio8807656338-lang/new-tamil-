@@ -610,6 +610,16 @@
                 const lessonTitle = data.title || (data.lesson_meta ? data.lesson_meta.title : 'Online Test');
                 currentLessonTitleDisplay = lessonTitle;
 
+                // --- ENFORCE EXAM TIMING (ONLY FOR DAILY CHALLENGE) ---
+                const urlStatus = params.get('status');
+                if (lessonId === '1' && !urlStatus && data.status === 'notes') {
+                    alert('தேர்வு (Exam) இரவு 8:00 மணிக்குத் தான் தொடங்கும். இப்போது பாடக்குறிப்புகளை (Notes) மட்டும் படிக்கலாம்!');
+                    const url = new URL(window.location);
+                    url.searchParams.set('status', 'notes');
+                    window.location.href = url.toString();
+                    return;
+                }
+
                 // Extract questions
                 let parsedPYQ = [];
                 if (data.sections) {
