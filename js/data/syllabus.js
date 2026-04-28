@@ -193,6 +193,11 @@ export const syllabusData = {
                 "title": "எதனாலே? எதனாலே? மற்றும் அறிவியலால் ஆள்வோம்",
                 "isUpdated": true,
                 "code": "Lesson_1"
+              },
+              {
+                "title": "மூதுரை, கல்வி மற்றும் பொருட்செல்வம், வாரித் தந்த வள்ளல்",
+                "isUpdated": true,
+                "code": "Lesson_2"
               }
             ]
           }

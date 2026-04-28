@@ -22,7 +22,7 @@ export const lessonMap = {
       "local": true,
       "filename": "Lesson_2",
       "grade": "5",
-      "term": 1
+      "term": 2
     },
     "சொல்லாதே சொல்லாதே": {
       "local": true,
@@ -225,6 +225,12 @@ export const lessonMap = {
     "எதனாலே? எதனாலே? மற்றும் அறிவியலால் ஆள்வோம்": {
       "local": true,
       "filename": "Lesson_1",
+      "grade": "5",
+      "term": 2
+    },
+    "மூதுரை, கல்வி மற்றும் பொருட்செல்வம், வாரித் தந்த வள்ளல்": {
+      "local": true,
+      "filename": "Lesson_2",
       "grade": "5",
       "term": 2
     }
