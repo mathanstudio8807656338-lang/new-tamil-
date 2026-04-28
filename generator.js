@@ -38,27 +38,20 @@ function generate() {
         });
     });
 
+    // கோப்புகளைச் சேமித்தல்
     fs.writeFileSync(syllabusPath, `export const syllabusData = ${JSON.stringify(syllabusData, null, 2)};`);
     fs.writeFileSync(lessonMapPath, `export const lessonMap = ${JSON.stringify(lessonMap, null, 2)};`);
     console.log("✅ இண்டெக்ஸ் கோப்புகள் தயார்!");
 
-    // GitHub Sync - Improved logic
+    // GitHub-க்கு அனுப்புதல்
     try {
-        console.log("🚀 GitHub-க்கு தகவல்களைச் சரிபார்க்கிறது...");
+        console.log("🚀 GitHub-க்கு தகவல்களை அனுப்புகிறது...");
         execSync('git add .');
-        
-        // மாற்றங்கள் இருக்கிறதா என்று சோதிக்கிறது
-        const status = execSync('git status --porcelain').toString();
-        if (status) {
-            console.log("📤 புதிய மாற்றங்களை அனுப்புகிறது...");
-            execSync('git commit -m "Auto-update: பாடங்கள் புதுப்பிக்கப்பட்டது"');
-            execSync('git push');
-            console.log("🎉 வெற்றிகரமாக GitHub-ல் பதிவேற்றப்பட்டது!");
-        } else {
-            console.log("ℹ️ பதிவேற்ற புதிய மாற்றங்கள் ஏதுமில்லை.");
-        }
+        execSync('git commit -m "Auto-update: பாடங்கள் மற்றும் இண்டெக்ஸ் புதுப்பிக்கப்பட்டது"');
+        execSync('git push');
+        console.log("🎉 GitHub-ல் வெற்றிகரமாகப் பதிவேற்றப்பட்டது!");
     } catch (e) {
-        console.error("❌ GitHub-க்கு அனுப்ப முடியவில்லை.");
+        console.error("❌ GitHub-க்கு அனுப்ப முடியவில்லை. Git செட்டப் சரியாக உள்ளதா எனச் சரிபார்க்கவும்.");
     }
 }
 
