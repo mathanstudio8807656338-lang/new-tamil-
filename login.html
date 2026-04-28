@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1 Coaching Centre - Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .login-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: radial-gradient(circle at top right, #eef2ff, #f8fafc);
+            padding: 1.5rem;
+        }
+
+        .login-card {
+            width: 100%;
+            max-width: 420px;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        .login-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .login-header img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 1rem;
+            border-radius: 20px;
+            box-shadow: var(--shadow);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--text-muted);
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border-radius: 0.75rem;
+            border: 1px solid var(--border);
+            background: #fff;
+            transition: var(--transition);
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+        }
+
+        .error-message {
+            color: var(--danger);
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-page">
+        <div class="card login-card animate-fade">
+            <div class="login-header">
+                <div class="logo" style="font-size: 2rem; margin-bottom: 0.5rem;">A1 Coaching Centre</div>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">மாணவர் லாகின் (Student Login)</p>
+            </div>
+
+            <div id="step1">
+                <form id="phoneForm">
+                    <div class="form-group">
+                        <label for="phoneNumber">மொபைல் எண் (10 Digits)</label>
+                        <div style="display: flex; gap: 0.5rem;">
+                            <span style="padding: 0.75rem; background: var(--bg-main); border: 1px solid var(--border); border-radius: 0.5rem; font-weight: 600; color: var(--text-main);">+91</span>
+                            <input type="tel" id="phoneNumber" class="form-control" placeholder="எ.கா: 9876543210" required pattern="[0-9]{10}" maxlength="10">
+                        </div>
+                    </div>
+                    
+                    <div id="recaptcha-container"></div>
+                    
+                    <button type="submit" id="nextBtn" class="btn btn-primary" style="width: 100%; font-size: 1rem; margin-top: 1rem;">
+                        தொடரவும் (Continue)
+                    </button>
+                    
+                    <div id="phoneError" class="error-message">சரியான மொபைல் எண்ணை உள்ளிடவும்!</div>
+                </form>
+            </div>
+
+            <div id="step2" style="display: none;">
+                <form id="pinForm">
+                    <div class="form-group">
+                        <label for="pinCode">பாஸ்வேர்டு (Enter 6-Digit Password)</label>
+                        <input type="text" id="pinCode" class="form-control" placeholder="எ.கா: A1B2C3" required pattern="[A-Z0-9]{6}" minlength="6" maxlength="6" style="letter-spacing: 0.5em; text-align: center; font-weight: 800; font-size: 1.25rem;" title="6 characters required">
+                        <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.5rem; text-align: center;">(உங்கள் போன் நம்பருக்கான பாஸ்வேர்டு - Password)</p>
+                    </div>
+
+                    <button type="submit" id="loginBtn" class="btn btn-primary" style="width: 100%; font-size: 1rem; margin-top: 0.5rem;">
+                        உள்நுழைய (Login)
+                    </button>
+                    
+                    <button type="button" id="backBtn" class="btn btn-outline" style="width: 100%; font-size: 1rem; margin-top: 1rem; background: white;">
+                        நம்பரை மாற்ற (Change Number)
+                    </button>
+
+                    <div id="pinError" class="error-message">தவறான பாஸ்வேர்டு! மீண்டும் முயற்சிக்கவும்.</div>
+                </form>
+            </div>
+
+            <div style="margin-top: 2rem; text-align: center;">
+                <p style="font-size: 0.85rem; color: var(--text-muted);">
+                    சந்தேகம் இருப்பின் நிர்வாகியைத் தொடர்பு கொள்ளவும்.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Auth Module -->
+    <script type="module" src="js/auth.js?v=4.0"></script>
+    <script>
+        // Check if modules are loaded
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                if (window.location.protocol === 'file:') {
+                    alert("கவனிக்கவும்: பிரவுசர் பாதுகாப்பு காரணங்களால் இந்தத் தளம் நேரடியாகச் செயல்படாது. தயவுசெய்து ஏதேனும் ஒரு Local Server-ஐப் பயன்படுத்தவும் அல்லது Cloudflare-ல் அப்லோடு செய்யவும்.");
+                }
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
+

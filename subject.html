@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syllabus - A1 Coaching</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            min-height: 100vh;
+            font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2.5rem 1.5rem;
+        }
+        #subjectTitle {
+            font-size: 2.2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #1e3a8a, #1a2e5a);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+        }
+        /* Navbar — stick to top */
+        .navbar {
+            position: sticky !important;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .class-tabs-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 1rem 0 2rem;
+            padding: 0 1rem;
+        }
+        .class-tabs-header {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: #334155;
+            margin-bottom: 0.8rem;
+            text-align: center;
+        }
+        .class-tabs {
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: center;
+            gap: 1rem;
+            max-width: 100%;
+        }
+        .class-tab {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: none;
+            background: #ffffff;
+            color: #64748b;
+            font-weight: 800;
+            font-size: 1.25rem;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+            flex-shrink: 0;
+        }
+        /* Colorful active tabs per class */
+        .class-tab[data-class="1"].active, .class-tab[data-class="6"].active  { background: linear-gradient(135deg,#2563eb,#1e40af); color:#fff; box-shadow:0 6px 14px rgba(37,99,235,0.35); }
+        .class-tab[data-class="2"].active, .class-tab[data-class="7"].active  { background: linear-gradient(135deg,#059669,#065f46); color:#fff; box-shadow:0 6px 14px rgba(5,150,105,0.35); }
+        .class-tab[data-class="3"].active, .class-tab[data-class="8"].active  { background: linear-gradient(135deg,#d97706,#92400e); color:#fff; box-shadow:0 6px 14px rgba(217,119,6,0.35); }
+        .class-tab[data-class="4"].active, .class-tab[data-class="9"].active  { background: linear-gradient(135deg,#7c3aed,#5b21b6); color:#fff; box-shadow:0 6px 14px rgba(124,58,237,0.35); }
+        .class-tab[data-class="5"].active, .class-tab[data-class="10"].active { background: linear-gradient(135deg,#db2777,#9d174d); color:#fff; box-shadow:0 6px 14px rgba(219,39,119,0.35); }
+        .class-tab:not(.active):hover { background: #f1f5f9; color: #1e293b; }
+        .term-section {
+            margin-bottom: 4.5rem;
+            animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .term-section h2 {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #0f172a;
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+        .term-section h2::after {
+            content: '';
+            flex: 1;
+            height: 4px;
+            background: linear-gradient(to right, #e2e8f0, transparent);
+            border-radius: 10px;
+        }
+        .topics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 2rem;
+        }
+        .topic-card {
+            background: #ffffff;
+            padding: 1.25rem 1.5rem;
+            border-radius: 1.25rem;
+            border: 1px solid #f1f5f9;
+            border-left: 6px solid #1e3a8a;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+            overflow: hidden;
+            position: relative;
+        }
+        .topic-card:nth-child(2n) { border-left-color: #0ea5e9; }
+        .topic-card:nth-child(3n) { border-left-color: #10b981; }
+        .topic-card:nth-child(4n) { border-left-color: #f59e0b; }
+
+        .topic-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.06);
+            border-color: #e2e8f0;
+        }
+        .topic-card.expanded {
+            background: #f8fbff;
+            border-color: #1e3a8a;
+            box-shadow: 0 15px 30px rgba(30, 58, 138, 0.1);
+        }
+        .topic-title-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            gap: 1rem;
+        }
+        .topic-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin: 0;
+            line-height: 1.4;
+            transition: color 0.3s ease;
+            flex: 1;
+        }
+        .topic-card.expanded .topic-title {
+            color: #1e3a8a;
+        }
+        .chevron {
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            color: #94a3b8;
+        }
+        .topic-card.expanded .chevron {
+            transform: rotate(180deg);
+            color: #1e3a8a;
+        }
+        .btn-group {
+            display: flex;
+            gap: 0.75rem;
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+            margin-top: 0;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .topic-card.expanded .btn-group {
+            max-height: 500px;
+            opacity: 1;
+            margin-top: 1.25rem;
+            padding-bottom: 0.25rem;
+        }
+        .btn-group {
+            display: flex;
+            gap: 0.65rem;
+            margin-top: 0.75rem;
+        }
+        .card-btn {
+            flex: 1;
+            padding: 1rem 0.5rem;
+            border-radius: 14px;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 800;
+            text-align: center;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+            letter-spacing: 0.01em;
+            color: white;
+            border: none;
+        }
+        .btn-notes { background: linear-gradient(135deg, #0d9488, #0f766e); box-shadow: 0 4px 12px rgba(13, 148, 136, 0.2); }
+        .btn-quiz { background: linear-gradient(135deg, #1e40af, #1e3a8a); box-shadow: 0 4px 12px rgba(30, 64, 175, 0.2); }
+        
+        .card-btn:hover { 
+            transform: translateY(-4px) scale(1.04); 
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+            filter: brightness(1.1);
+        }
+        .card-btn span:first-child {
+            font-size: 1.3rem;
+        }
+
+        @media (max-width: 640px) {
+            .topics-grid { grid-template-columns: 1fr; }
+            .class-tab { padding: 0.4rem 0.8rem; font-size: 0.75rem; }
+            .card-btn { font-size: 0.85rem; padding: 1rem 0.4rem; width: 100%; }
+            .btn-group { flex-direction: column; gap: 0.8rem; }
+        }
+
+        .topic-card.faded {
+            opacity: 0.6;
+            filter: grayscale(0.8);
+            transform: scale(0.98);
+        }
+        
+        .topic-card.faded .card-btn {
+            background: #cbd5e1 !important;
+            color: #64748b !important;
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+
+        .class-select-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 3rem;
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        .class-select-card {
+            padding: 3.5rem 1.5rem;
+            border-radius: 1.5rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            color: white !important;
+            border: none;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+
+        .class-select-card h3 {
+            margin: 0;
+            font-size: 1.8rem;
+            color: white !important;
+            font-weight: 800;
+        }
+
+        /* Vibrant Colors for Class Cards */
+        .card-color-6 { background: linear-gradient(135deg, #2563eb, #1e40af); }
+        .card-color-7 { background: linear-gradient(135deg, #059669, #065f46); }
+        .card-color-8 { background: linear-gradient(135deg, #d97706, #92400e); }
+        .card-color-9 { background: linear-gradient(135deg, #7c3aed, #5b21b6); }
+        .card-color-10 { background: linear-gradient(135deg, #db2777, #9d174d); }
+        .card-color-1 { background: #2563eb; }
+        .card-color-2 { background: #059669; }
+        .card-color-3 { background: #d97706; }
+        .card-color-4 { background: #7c3aed; }
+        .card-color-5 { background: #db2777; }
+
+        .class-select-card:hover {
+            transform: translateY(-8px) scale(1.03);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+            filter: brightness(1.1);
+        }
+
+        .animate-fade-in { animation: fadeIn 0.5s ease; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+        .sticky-back {
+            position: fixed;
+            bottom: 1.5rem;
+            left: 1.2rem;
+            z-index: 1200;
+        }
+        
+        .sticky-btn {
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #ffffff;
+            color: #1e293b !important;
+            border-radius: 50%;
+            text-decoration: none;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            border: 1px solid #e2e8f0;
+            transition: all 0.3s ease;
+        }
+        
+        .sticky-btn:hover {
+            transform: scale(1.1);
+            border-color: #1e3a8a;
+            color: #1e3a8a !important;
+        }
+        @keyframes pulseMobile {
+            from { transform: scale(1); opacity: 1; }
+            to { transform: scale(1.05); opacity: 0.8; }
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="brand" style="text-decoration: none; display: flex; align-items: center; gap: 0.6rem; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+                <img src="images/logo.png" alt="A1" style="height: 50px; object-fit: contain; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.08));" onerror="this.onerror=null; this.src=''; this.alt='A1'; this.style.fontSize='1.8rem'; this.style.fontWeight='900'; this.style.color='var(--primary-dark)';">
+                <div style="display: flex; flex-direction: column; justify-content: center;">
+                    <span style="font-size: 1.4rem; font-weight: 800; color: var(--text-main); line-height: 1; letter-spacing: -0.05em;">COACHING</span>
+                    <span style="font-size: 0.65rem; font-weight: 700; color: var(--accent); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 0.1rem;">TNPSC & TET EXPERTS</span>
+                    <span style="font-size: 0.85rem; font-weight: 800; color: #16a34a; margin-top: 0.3rem; animation: pulseMobile 1.5s infinite alternate;">📞 6369371452</span>
+                </div>
+            </a>
+        </div>
+    </nav>
+
+    <main class="container" style="padding-top: 1rem;">
+        <div style="text-align: center; margin-bottom: 2rem;">
+            <h1 id="subjectTitle" style="color: #1e3a8a; font-size: 1.8rem; margin: 0;">பாடம் (Subject)</h1>
+        </div>
+
+        <div class="class-tabs-container">
+            <div class="class-tabs-header" id="classTabsTitle" style="display: none;">வகுப்புகள்</div>
+            <div class="class-tabs" id="classToggle">
+                <!-- Class tabs injected here -->
+            </div>
+        </div>
+
+        <div id="syllabusContainer">
+            <div style="text-align:center; padding:5rem; color:#888;">
+                பாடங்கள் லோடு ஆகின்றன...
+            </div>
+        </div>
+
+        <div style="height: 100px;"></div>
+    </main>
+
+    <div class="sticky-back">
+        <a href="index.html" class="sticky-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        </a>
+    </div>
+
+    <script type="module">
+        (async () => {
+            const v = Date.now();
+            try {
+                // Fetch required data
+                const { checkAuth, waitForAuth } = await import(`./js/auth.js?v=${v}`);
+                await waitForAuth();
+                const { syllabusData } = await import(`./js/data/syllabus.js?v=${v}`);
+                const { extraSyllabusData } = await import(`./js/data/extraSyllabus.js?v=${v}`);
+
+                const params = new URLSearchParams(window.location.search);
+                const subject = params.get('id') || 'tamil';
+                const paper = params.get('paper');
+                const urlClass = params.get('class');
+
+                const titles = {
+                    'tamil': 'தமிழ் (Tamil)', 'english': 'English', 'maths': 'கணிதம் (Maths)',
+                    'science': paper === '1' ? 'சூழ்நிலையியல் (EVS)' : 'அறிவியல் (Science)',
+                    'social': paper === '1' ? 'சமூகவியல் (Social)' : 'சமூக அறிவியல் (Social)',
+                    'psychology': 'உளவியல் (Psychology)',
+                    'revision': 'திருப்புதல் தேர்வு (Revision)',
+                    'mocktest': 'மாதிரித்தேர்வு (Mock Exam)',
+                    'standard_6_7_8': '6, 7, 8 வகுப்புகள் (Exams)'
+                };
+
+                const titleEl = document.getElementById('subjectTitle');
+                const syllabusContainer = document.getElementById('syllabusContainer');
+                const classToggleEl = document.getElementById('classToggle');
+                const classToggleWrap = document.querySelector('.class-tabs-container');
+
+                let currentClass = null;
+                let allowedClasses = ['6', '7', '8'];
+                let useData = syllabusData;
+
+                if (subject === 'psychology' || subject === 'revision' || subject === 'mocktest' || subject === 'standard_6_7_8') {
+                    allowedClasses = ['all'];
+                    currentClass = 'all';
+                    useData = extraSyllabusData;
+                }
+                else if (paper === '1') {
+                    if (['tamil', 'english', 'maths'].includes(subject)) allowedClasses = ['1', '2', '3', '4', '5'];
+                    else allowedClasses = ['4', '5']; 
+                } else if (paper === 'extra') allowedClasses = ['9', '10'];
+
+                // RENDER FUNCTIONS
+                const renderLessons = () => {
+                    if (!syllabusContainer) return;
+                    const data = useData[subject]?.[currentClass];
+                    
+                    if (!data || data.length === 0) {
+                        syllabusContainer.innerHTML = `
+                        <div style="text-align:center;padding:4rem;color:#64748b;">
+                            <div style="font-size:3rem;margin-bottom:1rem;">📂</div>
+                            <b style="color:var(--primary);">வகுப்பு ${currentClass} பாடங்கள் இன்னும் பதிவேற்றப்படவில்லை.</b><br>
+                            விரைவில் தேர்வுகளுக்காக பதிவேற்றப்படும்.
+                        </div>`;
+                        return;
+                    }
+
+                    let html = '';
+                    let testCounter = 1;
+                    data.forEach(term => {
+                        const tTitle = (currentClass === 'all') ? term.term : (term.term === 'Annual' ? 'முழு ஆண்டு' : `பருவம் ${term.term}`);
+                        html += `<div class="term-section"><h2 class="term-title">${tTitle}</h2><div class="topics-grid">`;
+                        term.units.forEach(unit => {
+                            unit.topics.forEach(topic => {
+                                const isReady = topic.isUpdated;
+
+                                let displayTitle = topic.title;
+                                if (paper === 'extra') {
+                                    const testName = (testCounter % 2 === 0) ? 'திருப்புதல் தேர்வு' : 'மாதிரித்தேர்வு';
+                                    displayTitle = `${testName} ${Math.ceil(testCounter/2)}`;
+                                }
+
+                            html += `
+                                <div class="topic-card ${isReady ? '' : 'faded'}" ${isReady ? 'onclick="toggleAccordion(this)"' : ''}>
+                                    <div class="topic-title-wrapper">
+                                        <h3 class="topic-title">
+                                            ${displayTitle}
+                                            ${isReady ? '' : '<span style="font-size:0.7rem; color:#64748b; margin-left:8px; font-weight:400;">(விரைவில்...)</span>'}
+                                        </h3>
+                                        <div class="chevron">
+                                            ${isReady ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>' : '🔒'}
+                                        </div>
+                                    </div>
+                                    ${isReady ? `
+                                    <div class="btn-group">
+                                        <a href="material.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-notes" onclick="event.stopPropagation()">
+                                            பாடக்குறிப்புகள்
+                                        </a>
+                                        <a href="quiz.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-quiz" onclick="event.stopPropagation()">
+                                            தேர்வு
+                                        </a>
+                                    </div>` : ''}
+                                </div>`;
+                                if (isReady) testCounter++;
+                            });
+                        });
+                        html += `</div></div>`;
+                    });
+                    syllabusContainer.innerHTML = html;
+                };
+
+                const setupTabs = () => {
+                    if (!classToggleEl || subject === 'psychology' || subject === 'revision' || subject === 'mocktest' || subject === 'standard_6_7_8') {
+                        if (classToggleWrap) classToggleWrap.style.display = 'none';
+                        return;
+                    }
+                    classToggleWrap.style.display = 'flex';
+                    const titleElObj = document.getElementById('classTabsTitle');
+                    if(titleElObj) titleElObj.style.display = 'block';
+                    classToggleEl.innerHTML = allowedClasses.map(c => `
+                        <button class="class-tab ${String(c) === String(currentClass) ? 'active' : ''}" data-class="${c}">${c === 'all' ? 'All' : c}</button>
+                    `).join('');
+                    
+                    classToggleEl.querySelectorAll('button').forEach(btn => {
+                        btn.onclick = () => selectClass(btn.dataset.class);
+                    });
+                };
+
+                const selectClass = (c, isPop = false) => {
+                    currentClass = c;
+                    titleEl.innerText = titles[subject] || subject;
+                    setupTabs();
+                    renderLessons();
+                    
+                    if (!isPop) {
+                        const url = new URL(window.location);
+                        url.searchParams.set('class', c);
+                        window.history.pushState({ class: c }, '', url);
+                    }
+                };
+
+                window.addEventListener('popstate', (e) => {
+                    if (e.state && e.state.class) {
+                        selectClass(e.state.class, true);
+                    }
+                });
+
+                window.toggleAccordion = (card) => {
+                    const isExpanded = card.classList.contains('expanded');
+                    const isDesktop = window.innerWidth > 640;
+
+                    if (isDesktop) {
+                        const cardTop = card.offsetTop;
+                        const rowCards = Array.from(document.querySelectorAll('.topic-card')).filter(c => c.offsetTop === cardTop);
+
+                        // Close all cards from other rows
+                        document.querySelectorAll('.topic-card.expanded').forEach(c => {
+                            if (c.offsetTop !== cardTop) c.classList.remove('expanded');
+                        });
+
+                        // Toggle the whole row
+                        const shouldExpand = !isExpanded;
+                        rowCards.forEach(c => {
+                            if (shouldExpand) c.classList.add('expanded');
+                            else c.classList.remove('expanded');
+                        });
+                    } else {
+                        // Standard behavior for mobile: close others, toggle selected
+                        document.querySelectorAll('.topic-card.expanded').forEach(c => {
+                            if (c !== card) c.classList.remove('expanded');
+                        });
+                        card.classList.toggle('expanded');
+                    }
+                };
+
+                window.selectClass = selectClass; // Export to global for grid clicks
+
+                // INITIALIZATION — directly load first class, no grid screen
+                if (urlClass && allowedClasses.includes(urlClass)) {
+                    selectClass(urlClass, true); // Don't pushState for initial page load
+                } else {
+                    selectClass(allowedClasses[0], true);
+                }
+
+            } catch (err) {
+                console.error("PAGE ERROR:", err);
+                const container = document.getElementById('syllabusContainer');
+                if (container) container.innerHTML = `<div style="padding:4rem;text-align:center;color:red;">Error loading syllabus. Please refresh. <br><small>${err.message}</small></div>`;
+            }
+        })();
+    </script>
+</body>
+</html>

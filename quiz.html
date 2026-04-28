@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - A1 Coaching</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- MathJax for scientific/mathematical formulas -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            }
+        };
+    </script>
+</head>
+<body>
+    <style>
+        body {
+            background: #f8fafc;
+            font-family: 'Inter', sans-serif;
+            color: #1e293b;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .quiz-view-container {
+            max-width: 800px;
+            margin: 0 auto 8rem;
+            padding: 2rem 1.5rem;
+        }
+
+        /* Lang classes */
+        .lang-sep { display: inline; opacity: 0.3; margin: 0 0.5rem; }
+        body.lang-en .tm-text, body.lang-en .lang-sep { display: none !important; }
+        body.lang-tm .en-text, body.lang-tm .lang-sep { display: none !important; }
+        
+        .tm-text { font-weight: normal; }
+        .en-text { font-weight: bold; }
+
+        /* Sticky Lang Bar */
+        .lang-bar {
+            position: fixed;
+            bottom: 1.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1100;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            padding: 0.4rem;
+            border-radius: 3rem;
+            display: flex;
+            gap: 0.3rem;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+            border: 1px solid rgba(255,255,255,0.8);
+        }
+
+        .lang-btn {
+            padding: 0.7rem 1.4rem;
+            border-radius: 2rem;
+            border: none;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.95rem;
+            background: transparent;
+            color: #64748b;
+        }
+
+        .lang-btn.active {
+            background: #1a73e8;
+            color: white;
+            box-shadow: 0 8px 15px rgba(26, 115, 232, 0.25);
+        }
+
+        .quiz-header {
+            text-align: center;
+            margin-bottom: 3.5rem;
+            background: #ffffff;
+            padding: 3rem 1.5rem;
+            border-radius: 1.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02), 0 10px 15px -3px rgba(0,0,0,0.03);
+            border: 1px solid #e2e8f0;
+        }
+
+        .quiz-header h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #d32f2f; /* Clear Professional Red for Title */
+            margin-bottom: 1rem;
+        }
+
+        /* Professional Question Cards */
+        .question-list {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .question-card {
+            background: #ffffff;
+            padding: 2.5rem;
+            border-radius: 1.25rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+            border: 1px solid #f1f5f9;
+            border-left: 8px solid #d32f2f; /* Red Accent instead of Blue to match title */
+            transition: all 0.3s ease;
+            text-align: left; /* Ensure left alignment */
+        }
+
+        .question-text {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #1a73e8; /* Vibrant Clear Blue for Question */
+            line-height: 1.5;
+            margin-bottom: 2rem;
+            white-space: normal; /* Change from pre-wrap to prevent unintended breaks */
+            text-align: left !important;
+            display: block;
+            width: 100%;
+        }
+
+        .options-grid {
+            display: grid;
+            gap: 1.25rem;
+        }
+
+        .options-grid.locked {
+            pointer-events: none;
+            opacity: 0.9;
+        }
+
+        .option-item {
+            padding: 1.1rem 1.5rem;
+            border: 1.5px solid #f1f5f9;
+            border-radius: 1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            background: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+            font-weight: 600;
+            color: #475569;
+            font-size: 1.05rem;
+            white-space: normal;
+            text-align: left !important;
+        }
+
+        .option-item:hover {
+            border-color: #1a73e8;
+            background: #f8fbff;
+        }
+
+        .option-item.selected {
+            border-color: #1a73e8;
+            background: #f0f7ff;
+            box-shadow: 0 8px 16px rgba(26, 115, 232, 0.1);
+        }
+
+        .option-item.correct {
+            border-color: #10b981;
+            background: #ecfdf5;
+            color: #065f46;
+        }
+
+        .option-item.wrong {
+            border-color: #ef4444;
+            background: #fef2f2;
+            color: #991b1b;
+        }
+
+        .explanation-box {
+            margin-top: 2rem;
+            padding: 1.25rem;
+            background: #f8fafc;
+            border-radius: 0.75rem;
+            font-size: 1rem;
+            color: #334155;
+            line-height: 1.7;
+            display: none;
+            border: 1px solid #e2e8f0;
+            animation: slideUp 0.4s ease-out;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Submit Section at bottom */
+        .submit-section {
+            padding: 4rem 1.5rem;
+            text-align: center;
+        }
+
+        .btn-submit {
+            background: #1e293b;
+            color: white;
+            padding: 1.25rem 4rem;
+            border-radius: 3rem;
+            font-size: 1.3rem;
+            font-weight: 800;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+        }
+
+        .btn-submit:hover {
+            transform: scale(1.05);
+            background: #0f172a;
+        }
+
+        /* Language Toggle - Inline version */
+        .inline-lang-container {
+            display: none; /* Hidden by default, shown via JS for English only */
+            justify-content: center;
+            gap: 0.4rem;
+            margin: 1rem auto 0;
+            background: #f1f5f9;
+            padding: 0.3rem;
+            border-radius: 100px;
+            width: fit-content;
+            border: 1px solid #e2e8f0;
+        }
+
+        .lang-btn {
+            padding: 0.4rem 1rem;
+            border-radius: 100px;
+            border: none;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.8rem;
+            background: transparent;
+            color: #64748b;
+        }
+
+        .lang-btn.active {
+            background: #1a73e8;
+            color: white;
+            box-shadow: 0 4px 10px rgba(26, 115, 232, 0.2);
+        }
+
+        /* Sticky Footer for Result */
+        .submit-section {
+            margin-top: 4rem;
+            padding-bottom: 6rem;
+            text-align: center;
+        }
+
+        .btn-submit {
+            background: #1e293b;
+            color: white;
+            padding: 1rem 3rem;
+            border-radius: 3rem;
+            font-size: 1.2rem;
+            font-weight: 800;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+        }
+
+        .btn-submit:hover {
+            transform: scale(1.05);
+            background: #000;
+        }
+
+        #resultView {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2000;
+            background: white;
+            padding: 3rem;
+            border-radius: 2rem;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 50px 100px rgba(0,0,0,0.25);
+            text-align: center;
+            animation: popUp 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        @keyframes popUp {
+            from { transform: translate(-50%, -40%) scale(0.8); opacity: 0; }
+            to { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+        }
+
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(5px);
+            z-index: 1999;
+        }
+
+        .score-display {
+            font-size: 4rem;
+            font-weight: 900;
+            color: #1a73e8;
+            margin: 1.5rem 0;
+        }
+
+        .sticky-back {
+            position: fixed;
+            bottom: 1.5rem;
+            left: 1.2rem;
+            z-index: 1200;
+        }
+        
+        .sticky-btn {
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #ffffff;
+            color: #1e293b !important;
+            border-radius: 50%;
+            text-decoration: none;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            border: 1px solid #e2e8f0;
+            transition: all 0.3s ease;
+        }
+
+        .sticky-btn:hover {
+            transform: scale(1.1);
+            border-color: #1a73e8;
+            color: #1a73e8 !important;
+        }
+
+        @media (max-width: 600px) {
+            .quiz-view-container { padding: 0.5rem; }
+            .question-list { gap: 0.75rem; }
+            .question-card { padding: 1.25rem 1rem; border-left-width: 6px; box-shadow: 0 2px 10px rgba(0,0,0,0.02); }
+            .question-text { font-size: 1.1rem; margin-bottom: 1rem; line-height: 1.5; text-align: left; }
+            .options-grid { gap: 0.6rem; }
+            .option-item { padding: 0.8rem 1rem; font-size: 1rem; border-radius: 0.8rem; text-align: left; }
+            .explanation-box { padding: 0.8rem; font-size: 0.9rem; }
+            .quiz-header { padding: 1.5rem 1rem; margin-bottom: 1.5rem; }
+            .quiz-header h1 { font-size: 1.5rem; }
+            .quiz-header p { font-size: 0.9rem; }
+        }
+
+        .keyword-highlight {
+            color: #db2777;
+            font-weight: 800;
+            display: inline;
+        }
+
+        #questionContainer, .question-card, .question-text, .option-item {
+            text-align: left !important;
+            justify-content: flex-start !important;
+            word-break: keep-all !important;
+            overflow-wrap: break-word !important;
+        }
+        
+        .question-text * {
+            text-align: left !important;
+            display: inline !important; /* Force spans and labels to stay together */
+        }
+        
+        /* Prevent numbers and units from splitting abruptly */
+        .question-text, .option-item {
+            line-break: loose;
+        }
+    </style>
+</head>
+<body class="lang-en">
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="brand" style="text-decoration: none; display: flex; align-items: center; gap: 0.6rem;">
+                <img src="images/logo.png" alt="A1" style="height: 50px;">
+                <div style="display: flex; flex-direction: column;">
+                    <span style="font-size: 1.4rem; font-weight: 800; color: var(--text-main);">COACHING</span>
+                    <span style="font-size: 0.65rem; font-weight: 700; color: var(--accent);">TNPSC & TET EXPERTS</span>
+                </div>
+            </a>
+        </div>
+    </nav>
+
+    <main class="quiz-view-container">
+        
+        <div id="quizHeader" class="quiz-header">
+            <h1 id="lessonTitle">ஆன்லைன் தேர்வு</h1>
+            <p id="lessonSub" style="color: #64748b; font-weight: 600;">அனைத்து கேள்விகளுக்கும் விடையளிக்கவும்</p>
+            <div id="inlineLangToggle" class="inline-lang-container">
+                <button onclick="toggleLang('en', this)" class="lang-btn active">English</button>
+                <button onclick="toggleLang('tm', this)" class="lang-btn">தமிழ்</button>
+            </div>
+        </div>
+
+        <div id="quizLoader" style="text-align: center; color: #64748b; font-weight: 600; padding: 4rem;">
+            Loading...
+        </div>
+
+        <div id="quizApp" style="display: none;">
+            <div id="quizProgress" style="padding: 0.5rem 1rem; border-radius: 20px; background: #f1f5f9; color: #475569; font-weight: 700; font-size: 0.8rem; width: fit-content; margin: 0 auto 1.5rem;">
+                மொத்த கேள்விகள் (Total Questions): <span id="totalQNum">0</span>
+            </div>
+
+            <div id="questionContainer" class="question-list">
+                <!-- All colorful cards injected here -->
+            </div>
+
+            <div class="submit-section">
+                <button id="finalSubmitBtn" class="btn btn-submit" style="width: 100%; max-width: 400px;">சமர்ப்பிக்கவும் (SUBMIT TEST)</button>
+            </div>
+        </div>
+
+        <div class="overlay" id="overlay"></div>
+        <div class="overlay" id="nameOverlay" style="display: block; z-index: 3000;"></div>
+        
+        <!-- Name Entry Prompt -->
+        <div id="namePrompt" style="display: block; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 3001; background: white; padding: 2.5rem; border-radius: 2rem; width: 85%; max-width: 400px; box-shadow: 0 50px 100px rgba(0,0,0,0.3); text-align: center;">
+            <img src="images/logo.png" alt="A1" style="height: 60px; margin-bottom: 1.5rem;">
+            <h2 style="color: #1e293b; margin-bottom: 0.5rem; font-size: 1.4rem;">தேர்வைத் தொடங்கவும்</h2>
+            <p style="color: #64748b; font-weight: 600; margin-bottom: 1.5rem; font-size: 0.9rem;">உங்கள் பெயரை உள்ளிடவும் (Enter Name)</p>
+            <input type="text" id="userNameInput" placeholder="பெயர் மட்டும்..." style="width: 100%; padding: 1rem; border-radius: 1rem; border: 2px solid #e2e8f0; font-size: 1.1rem; font-weight: 700; text-align: center; color: #1e293b; margin-bottom: 2rem; outline: none; transition: border-color 0.3s;" onfocus="this.style.borderColor='#1a73e8'">
+            <button id="startQuizBtn" class="btn btn-primary" style="width: 100%; padding: 1.1rem; font-size: 1.2rem; font-weight: 800; border-radius: 100px;">தொடங்கவும் (START)</button>
+        </div>
+
+        <!-- Enhanced Result View -->
+        <div id="resultView">
+            <div id="screenshotArea" style="padding: 1rem; position: relative;">
+                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-30deg); opacity: 0.05; font-size: 3rem; font-weight: 900; color: #000; pointer-events: none; white-space: nowrap; width: 100%; text-align: center;">A1 COACHING CENTRE</div>
+                <h2 style="color: #64748b; font-size: 1rem; margin-bottom: 0.2rem; text-transform: uppercase; letter-spacing: 1px;">மாணவர் பெயர்</h2>
+                <h1 id="resUserName" style="color: #1e293b; margin-bottom: 1.5rem; font-weight: 900; font-size: 1.8rem;">பெயர்</h1>
+                
+                <div style="background: #f8fafc; padding: 1.5rem; border-radius: 1.5rem; border: 1px solid #e2e8f0; margin-bottom: 1.5rem;">
+                    <p style="color: #64748b; font-size: 0.85rem; margin-bottom: 0.4rem; font-weight: 700;">பாடம் (Lesson)</p>
+                    <h3 id="resLessonTitle" style="color: #1e293b; font-size: 1.1rem; margin: 0; line-height: 1.4;">தலைப்பு</h3>
+                </div>
+
+                <div style="margin: 1.5rem 0;">
+                    <p style="color: #64748b; font-size: 0.9rem; font-weight: 700;">பெற்ற மதிப்பெண்கள்</p>
+                    <div class="score-display" id="finalScore" style="margin: 0.5rem 0;">0/0</div>
+                </div>
+            </div>
+
+            <p id="resultMsg" style="color: #64748b; font-weight: 600; margin-bottom: 2rem;"></p>
+            
+            <div style="display: flex; flex-direction: column; gap: 0.8rem;">
+                <button onclick="closeResults()" class="btn btn-primary" style="width:100%; padding: 1rem; border-radius: 15px; background: #1a73e8;">விடைகளைச் சரிபார் (Review Answers)</button>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem;">
+                    <button onclick="window.location.reload()" class="btn btn-outline" style="font-size: 0.85rem; border-radius: 12px; border: 2px solid #e2e8f0;">மீண்டும் முயற்சி</button>
+                    <a id="backHome" href="index.html" class="btn btn-outline" style="font-size: 0.85rem; text-decoration: none; display: flex; align-items: center; justify-content: center; border-radius: 12px; border: 2px solid #e2e8f0; font-weight: 700; color: #1e293b;">முகப்புப் பக்கம்</a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <div class="sticky-back">
+        <a id="exitQuizSticky" href="#" class="sticky-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        </a>
+    </div>
+
+    <script type="module">
+        (async () => {
+            const v = new Date().getTime();
+            const { checkAuth, waitForAuth } = await import(`./js/auth.js?v=${v}`);
+            const { getLocalLessonData } = await import(`./js/fetchData.js?v=${v}`);
+
+            checkAuth();
+
+            const params = new URLSearchParams(window.location.search);
+            const subject = params.get('subject');
+            const className = params.get('class');
+            const lessonId = params.get('lesson');
+            const paper = params.get('paper');
+
+            const exitUrl = `subject.html?id=${subject}&class=${className}${paper ? `&paper=${paper}` : ''}`;
+            const exitBtn = document.getElementById('exitQuizSticky');
+            if (exitBtn) exitBtn.href = exitUrl;
+            const backHome = document.getElementById('backHome');
+            if (backHome) backHome.href = exitUrl;
+
+            let currentIdx = 0;
+            let questions = [];
+            let answers = {};
+            let resultsRevealed = false;
+            let currentUserName = "";
+            let currentLessonTitleDisplay = "";
+
+            const startQuizBtn = document.getElementById('startQuizBtn');
+            const userNameInput = document.getElementById('userNameInput');
+            
+            startQuizBtn.onclick = () => {
+                const name = userNameInput.value.trim();
+                if (!name) {
+                    alert("தயவுசெய்து உங்கள் பெயரை உள்ளிடவும் (Please enter your name)");
+                    return;
+                }
+                currentUserName = name;
+                document.getElementById('namePrompt').style.display = 'none';
+                document.getElementById('nameOverlay').style.display = 'none';
+                initQuiz();
+            };
+
+            window.closeResults = () => {
+                if (window.history.state && window.history.state.results) {
+                    window.history.back();
+                } else {
+                    document.getElementById('overlay').style.display = 'none';
+                    document.getElementById('resultView').style.display = 'none';
+                }
+            };
+
+            window.addEventListener('popstate', (e) => {
+                if (!e.state || !e.state.results) {
+                    document.getElementById('overlay').style.display = 'none';
+                    document.getElementById('resultView').style.display = 'none';
+                }
+            });
+
+            window.toggleLang = (lang, btn) => {
+                currentLanguage = lang;
+                localStorage.setItem('appLanguage', lang);
+                updateLangUI();
+            };
+
+            function updateLangUI() {
+                document.body.classList.remove('lang-en', 'lang-tm');
+                if (currentLanguage !== 'both') {
+                    document.body.classList.add('lang-' + currentLanguage);
+                }
+                
+                document.querySelectorAll('.lang-btn').forEach(b => {
+                    b.classList.remove('active');
+                    if (b.innerText.toLowerCase().includes(currentLanguage.substring(0, 2))) {
+                        b.classList.add('active');
+                    }
+                });
+            }
+
+            const checkEnglishSubject = () => {
+                const toggle = document.getElementById('inlineLangToggle');
+                if (subject && subject.toLowerCase().includes('english')) {
+                    toggle.style.display = 'flex';
+                } else {
+                    if (toggle) toggle.style.display = 'none';
+                    currentLanguage = 'tm';
+                    updateLangUI();
+                }
+            };
+
+            let currentLanguage = localStorage.getItem('appLanguage') || 'en';
+            updateLangUI();
+
+            function formatText(text) {
+                if (!text) return "";
+                let html = text.toString().replace(/\[\[(.*?)\]\]/g, '<span class="keyword-highlight">$1</span>');
+                
+                // 1. Format Assertion/Reason (கூற்று / காரணம்)
+                if (html.includes('கூற்று') || html.includes('காரணம்')) {
+                    html = html.replace(/(கூற்று\s*(?:\([^)]*\))?\s*:)/g, '<strong>$1</strong>');
+                    html = html.replace(/(காரணம்\s*(?:\([^)]*\))?\s*:)/g, '<br><strong>$1</strong>');
+                    html = html.replace(/\n/g, '<br>');
+                    // If we found both, don't do the aggressive lang swap below to prevent mangling
+                    return html;
+                }
+                
+                // 2. Support '||' separator (New Standard)
+                if (html.includes('||')) {
+                    const parts = html.split('||');
+                    return `<span class="en-text">${parts[0].trim()}</span><span class="lang-sep">||</span><span class="tm-text">${parts[1].trim()}</span>`;
+                }
+                
+                // 3. Support ' / ' (Old Fallback)
+                if (html.includes(" / ")) {
+                    const parts = html.split(" / ");
+                    return `<span class="en-text">${parts[0].trim()}</span><span class="lang-sep">/</span><span class="tm-text">${parts[1].trim()}</span>`;
+                }
+
+                // 4. Safe Language Wrap (Only for simple terms like "Banana (வாழைப்பழம்)")
+                const tamilRegex = /[\u0b80-\u0bff]+/;
+                if (tamilRegex.test(html) && /[a-zA-Z]/.test(html)) {
+                    // Only swap if it's a simple "Tamil (English)" or "English (Tamil)" structure without complex nested parens
+                    const simpleSwapRegex = /^([^(]+)\s*\(([^)]+)\)$/;
+                    const match = html.match(simpleSwapRegex);
+                    if (match) {
+                        const p1 = match[1].trim();
+                        const p2 = match[2].trim();
+                        if (tamilRegex.test(p1)) {
+                            return `<span class="tm-text">${p1}</span> <span class="en-text">(${p2})</span>`;
+                        } else {
+                            return `<span class="en-text">${p1}</span> <span class="tm-text">(${p2})</span>`;
+                        }
+                    }
+                }
+                return html;
+            }
+
+            async function initQuiz() {
+                const result = await getLocalLessonData(subject, className, lessonId);
+                if (!result || !result.data) return;
+                const data = result.data;
+                const lessonTitle = data.title || (data.lesson_meta ? data.lesson_meta.title : 'Online Test');
+                currentLessonTitleDisplay = lessonTitle;
+
+                // Extract questions
+                let parsedPYQ = [];
+                if (data.sections) {
+                    data.sections.forEach(sec => {
+                        if (sec.type === 'pyq' || sec.type === 'mocktest' || sec.type === 'evaluation') {
+                            const evalData = sec.evaluationData ? (sec.evaluationData.mcqs || []) : [];
+                            const contentArray = Array.isArray(sec.content) ? sec.content : evalData;
+                            contentArray.forEach(item => {
+                                let qText = item.question || item.q || "";
+                                let aText = item.answer || item.a || "";
+                                
+                                let mainQ = qText;
+                                let options = item.options || [];
+                                
+                                if (options.length === 0) {
+                                    // Look for index of (A) to reliably split question and options
+                                    let aIndex = qText.indexOf('(A)');
+                                    if (aIndex === -1) aIndex = qText.indexOf('(a)');
+                                    
+                                    if (aIndex !== -1) {
+                                        mainQ = qText.substring(0, aIndex).trim();
+                                        
+                                        let rest = qText.substring(aIndex);
+                                        let bParts = rest.split(/\(B\)|\(b\)/);
+                                        let optA = bParts[0].replace(/\(A\)|\(a\)/, '').trim();
+                                        
+                                        if (bParts.length > 1) {
+                                            let cParts = bParts[1].split(/\(C\)|\(c\)/);
+                                            let optB = cParts[0].trim();
+                                            
+                                            if (cParts.length > 1) {
+                                                let dParts = cParts[1].split(/\(D\)|\(d\)/);
+                                                let optC = dParts[0].trim();
+                                                let optD = (dParts.length > 1) ? dParts[1].trim() : "";
+                                                
+                                                options = ["(A) " + optA, "(B) " + optB, "(C) " + optC, "(D) " + optD];
+                                            }
+                                        }
+                                    }
+                                }
+
+                                let ansMain = aText;
+                                let explMain = item.explanation || item.ex || "";
+                                if (!explMain) {
+                                    let explParts = aText.toString().split(/விளக்கம்:/i);
+                                    if(explParts.length > 1) {
+                                        ansMain = explParts[0].trim();
+                                        if (ansMain.endsWith(')')) ansMain = ansMain.slice(0, -1);
+                                        explMain = explParts[1].trim();
+                                    }
+                                }
+                                
+                                let correctIdx = item.answer !== undefined ? item.answer : (item.a !== undefined ? item.a : -1);
+                                if (typeof correctIdx !== 'number') {
+                                    let ansUpper = ansMain.toString().toUpperCase();
+                                    if (ansUpper.includes('A')) correctIdx = 0;
+                                    else if (ansUpper.includes('B')) correctIdx = 1;
+                                    else if (ansUpper.includes('C')) correctIdx = 2;
+                                    else if (ansUpper.includes('D')) correctIdx = 3;
+                                }
+
+                                if (options.length > 0) {
+                                    parsedPYQ.push({
+                                        question: mainQ,
+                                        options: options,
+                                        answer: correctIdx,
+                                        explanation: explMain || ansMain
+                                    });
+                                }
+                            });
+                        }
+                    });
+                }
+                
+                questions = data.quiz ? (data.quiz.questions || (Array.isArray(data.quiz) ? data.quiz : [])) : (data.questions || []);
+                if (questions.length === 0 && parsedPYQ.length > 0) {
+                    questions = parsedPYQ;
+                }
+                if (questions.length === 0) {
+                    const loader = document.getElementById('quizLoader');
+                    if (loader) loader.innerHTML = "தேர்வு கேள்விகள் இன்னும் தயாராகவில்லை. (Questions Pending)";
+                    return;
+                }
+
+                const titleEl = document.getElementById('lessonTitle');
+                if (titleEl) titleEl.innerHTML = formatText(lessonTitle);
+                const qNumEl = document.getElementById('totalQNum');
+                if (qNumEl) qNumEl.innerText = questions.length;
+                
+                renderAllQuestions();
+                
+                const loader = document.getElementById('quizLoader');
+                if (loader) loader.style.display = 'none';
+                const app = document.getElementById('quizApp');
+                if (app) app.style.display = 'block';
+            }
+
+            function renderAllQuestions() {
+                const container = document.getElementById('questionContainer');
+                if (!container) return;
+                container.innerHTML = questions.map((q, idx) => {
+                    const questionText = q.question || q.q;
+                    const explanationText = q.ex || (q.explanation || '');
+                    const isSelected = (oIdx) => answers[idx] === oIdx;
+                    
+                    return `
+                    <div id="q-card-${idx}" class="question-card animate-fade">
+                        <div class="question-text" style="text-align: left !important;">
+                            <span style="color: #64748b; font-size: 0.95rem; font-weight: 800; display: inline-block; min-width: 30px;">${idx + 1}. </span>
+                            <span style="display: inline;">${formatText(questionText)}</span>
+                        </div>
+                        <div class="options-grid" id="options-${idx}">
+                            ${q.options.map((opt, oIdx) => `
+                            <div class="option-item ${isSelected(oIdx) ? 'selected' : ''}" onclick="handleSelect(${idx}, ${oIdx}, this)">
+                                <span>${formatText(opt)}</span>
+                            </div>
+                            `).join('')}
+                        </div>
+                        <div id="ex-box-${idx}" class="explanation-box" style="${resultsRevealed ? 'display:block' : 'display:none'}">
+                            <strong style="color: #10b981; display: block; margin-bottom: 8px; font-size: 1.1rem;">சரியான விடை: <span style="color:#065f46;">${formatText(q.options[q.answer !== undefined ? q.answer : q.a] || '')}</span></strong>
+                            <strong style="color: #1a73e8; display: block; margin-bottom: 5px;">விளக்கம் (Explanation):</strong>
+                            ${formatText(explanationText)}
+                        </div>
+                    </div>
+                    `;
+                }).join('');
+                
+                if (window.MathJax) {
+                    window.MathJax.typesetPromise();
+                }
+            }
+
+            window.handleSelect = (qIdx, oIdx, el) => {
+                if (resultsRevealed) return;
+                const grid = document.getElementById(`options-${qIdx}`);
+                if (!grid) return;
+                
+                // If already answered, don't allow re-selection
+                if (answers[qIdx] !== undefined) return;
+
+                const q = questions[qIdx];
+                const correctIdx = q.answer !== undefined ? q.answer : q.a;
+                
+                // Store answer
+                answers[qIdx] = oIdx;
+                
+                // Highlight immediately
+                const items = grid.querySelectorAll('.option-item');
+                if (oIdx === correctIdx) {
+                    el.classList.add('correct');
+                } else {
+                    el.classList.add('wrong');
+                    if (items[correctIdx]) items[correctIdx].classList.add('correct');
+                }
+                
+                // Mark as selected and lock
+                el.classList.add('selected');
+                grid.classList.add('locked');
+            };
+
+            const submitBtn = document.getElementById('finalSubmitBtn');
+            if (submitBtn) {
+                submitBtn.onclick = () => {
+                    let score = 0;
+                    questions.forEach((q, idx) => {
+                        const correctIdx = q.answer !== undefined ? q.answer : q.a;
+                        const userIdx = answers[idx];
+                        if (userIdx !== undefined && userIdx === correctIdx) {
+                            score++;
+                        }
+                    });
+
+                    resultsRevealed = true;
+                    revealAllResults();
+
+                    window.history.pushState({ results: true }, '', '');
+                    document.getElementById('overlay').style.display = 'block';
+                    document.getElementById('resultView').style.display = 'block';
+                    document.getElementById('finalScore').innerText = `${score}/${questions.length}`;
+                    document.getElementById('resUserName').innerText = currentUserName;
+                    document.getElementById('resLessonTitle').innerText = currentLessonTitleDisplay.replace(/\|\|/g, ' / ');
+                    
+                    const pct = (score / questions.length) * 100;
+                    let msg = pct >= 80 ? "சிறப்பு! (Excellent!)" : pct >= 50 ? "நல்ல முயற்சி! (Good!)" : "மேலும் பயிற்சி தேவை. (Keep it up!)";
+                    document.getElementById('resultMsg').innerText = msg;
+
+                    window.scrollTo(0, 0);
+                };
+            }
+
+            function revealAllResults() {
+                questions.forEach((q, idx) => {
+                    const correctIdx = q.answer !== undefined ? q.answer : q.a;
+                    const userIdx = answers[idx];
+                    const grid = document.getElementById(`options-${idx}`);
+                    const exBox = document.getElementById(`ex-box-${idx}`);
+                    if(!grid) return;
+                    
+                    const items = grid.querySelectorAll('.option-item');
+                    // If not answered, show correct one
+                    if (userIdx === undefined) {
+                        if (items[correctIdx]) items[correctIdx].classList.add('correct');
+                    }
+                    
+                    // Always show explanation
+                    if (exBox) exBox.style.display = 'block';
+                });
+            }
+
+            waitForAuth().then(user => {
+                if (!user) { window.location.href = 'login.html'; return; }
+                checkEnglishSubject();
+                // We show name prompt instead of auto init
+            });
+        })();
+    </script>
+</body>
+</html>
