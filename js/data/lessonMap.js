@@ -10,7 +10,7 @@ export const lessonMap = {
       "local": true,
       "filename": "Lesson_1",
       "grade": "5",
-      "term": 1
+      "term": 2
     },
     "செய்து மகிழ்வோம்": {
       "local": true,
@@ -221,6 +221,12 @@ export const lessonMap = {
       "filename": "Lesson_7",
       "grade": "5",
       "term": 1
+    },
+    "எதனாலே? எதனாலே? மற்றும் அறிவியலால் ஆள்வோம்": {
+      "local": true,
+      "filename": "Lesson_1",
+      "grade": "5",
+      "term": 2
     }
   }
 };

@@ -182,6 +182,21 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 2,
+        "units": [
+          {
+            "title": "Term 2",
+            "topics": [
+              {
+                "title": "எதனாலே? எதனாலே? மற்றும் அறிவியலால் ஆள்வோம்",
+                "isUpdated": true,
+                "code": "Lesson_1"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
