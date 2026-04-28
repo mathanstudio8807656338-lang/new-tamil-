@@ -494,9 +494,9 @@
             let currentUserName = "";
             let currentLessonTitleDisplay = "";
 
-            const startQuizBtn = document.getElementById('startQuizBtn');
-            const userNameInput = document.getElementById('userNameInput');
-            
+            // Start fetching data immediately
+            initQuiz();
+
             startQuizBtn.onclick = () => {
                 const name = userNameInput.value.trim();
                 if (!name) {
@@ -506,7 +506,6 @@
                 currentUserName = name;
                 document.getElementById('namePrompt').style.display = 'none';
                 document.getElementById('nameOverlay').style.display = 'none';
-                initQuiz();
             };
 
             window.closeResults = () => {
@@ -605,10 +604,23 @@
 
             async function initQuiz() {
                 const result = await getLocalLessonData(subject, className, lessonId);
-                if (!result || !result.data) return;
+                if (!result || !result.data) {
+                    alert('தேர்வுக்கான தரவுகள் (Quiz Data) இன்னும் வரவில்லை. தயவுசெய்து சிறிது நேரம் கழித்து மீண்டும் முயற்சிக்கவும்!');
+                    return;
+                }
                 const data = result.data;
                 const lessonTitle = data.title || (data.lesson_meta ? data.lesson_meta.title : 'Online Test');
                 currentLessonTitleDisplay = lessonTitle;
+
+                // --- ENFORCE EXAM TIMING (ONLY FOR DAILY CHALLENGE) ---
+                const urlStatus = params.get('status');
+                if (lessonId === '1' && !urlStatus && data.status === 'notes') {
+                    alert('தேர்வு (Exam) இரவு 8:00 மணிக்குத் தான் தொடங்கும். இப்போது பாடக்குறிப்புகளை (Notes) மட்டும் படிக்கலாம்!');
+                    const url = new URL(window.location);
+                    url.searchParams.set('status', 'notes');
+                    window.location.href = url.toString();
+                    return;
+                }
 
                 // --- ENFORCE EXAM TIMING (ONLY FOR DAILY CHALLENGE) ---
                 const urlStatus = params.get('status');
