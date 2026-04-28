@@ -481,7 +481,7 @@
             const lessonId = params.get('lesson');
             const paper = params.get('paper');
 
-            const exitUrl = `subject.html?id=${subject}&class=${className}${paper ? `&paper=${paper}` : ''}`;
+            const exitUrl = `index.html`;
             document.getElementById('exitQuizSticky').href = exitUrl;
             document.getElementById('backHome').href = exitUrl;
 

@@ -126,6 +126,17 @@
                 const subject = data.activeSubject || 'Unknown';
                 const grade = data.activeGrade || '5';
                 const isExamOpen = data.status === 'open';
+                const isNotesOpen = data.status === 'notes' || data.status === 'open';
+
+                let timerHtml = '';
+                if (isNotesOpen || isExamOpen) {
+                    timerHtml = `
+                        <div style="background: #fffbeb; border: 1px dashed #f59e0b; border-radius: 12px; padding: 1rem; text-align: center; margin-bottom: 2rem; box-shadow: 0 4px 15px rgba(245, 158, 11, 0.08);">
+                            <div style="font-size: 0.85rem; font-weight: 800; color: #b45309; text-transform: uppercase; margin-bottom: 0.3rem;">முடிவடைய மீதமுள்ள நேரம் (Closes in)</div>
+                            <div id="countdownTimer" style="font-size: 2rem; font-weight: 900; color: #d97706; font-variant-numeric: tabular-nums; letter-spacing: 2px;">--:--:--</div>
+                        </div>
+                    `;
+                }
 
                 let html = `
                     <div class="subject-info">
@@ -138,9 +149,8 @@
                             <div class="info-value">${grade}</div>
                         </div>
                     </div>
+                    ${timerHtml}
                 `;
-
-                const isNotesOpen = data.status === 'notes' || data.status === 'open';
 
                 html += `<div class="lessons-container" style="display: flex; flex-direction: column; gap: 2rem; margin-top: 1rem;">`;
 
@@ -184,6 +194,27 @@
                 document.getElementById('currentDateDisplay').innerText = dateStr;
 
                 container.innerHTML = html;
+
+                if (isNotesOpen || isExamOpen) {
+                    const timerEl = document.getElementById('countdownTimer');
+                    const updateTimer = () => {
+                        const now = new Date();
+                        const targetTime = new Date();
+                        targetTime.setHours(22, 30, 0, 0); // 10:30 PM
+
+                        const diff = targetTime - now;
+                        if (diff <= 0) {
+                            timerEl.innerText = "நேரம் முடிந்தது (Closed)";
+                            return;
+                        }
+                        const h = Math.floor(diff / (1000 * 60 * 60)).toString().padStart(2, '0');
+                        const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60)).toString().padStart(2, '0');
+                        const s = Math.floor((diff % (1000 * 60)) / 1000).toString().padStart(2, '0');
+                        timerEl.innerText = `${h}:${m}:${s}`;
+                    };
+                    updateTimer(); // Initial call
+                    setInterval(updateTimer, 1000);
+                }
 
             } catch (err) {
                 container.innerHTML = `
