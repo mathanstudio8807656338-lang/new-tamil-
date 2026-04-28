@@ -1,7 +1,7 @@
-name: Daily Challenge - Night Close (10PM IST)
+name: Daily Challenge - Night Close (10:30 PM IST)
 on:
   schedule:
-    - cron: '30 16 * * *'
+    - cron: '0 17 * * *'
   workflow_dispatch:
 
 jobs:
