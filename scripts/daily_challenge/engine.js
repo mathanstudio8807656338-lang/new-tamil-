@@ -94,11 +94,11 @@ function getLessonFiles(subject) {
       all.push(...files.map(f => path.join(allDir, f)));
   }
 
-  // Handle Grade/Term structure
-  for (const grade of CLASS_ORDER) {
-    const gp = path.join(base, grade);
-    if (fs.existsSync(gp)) {
-      for (const term of ['Term 1', 'Term 2', 'Term 3']) {
+  // Reordered: Term-wise, then Grade-wise (5 down to 1)
+  for (const term of ['Term 1', 'Term 2', 'Term 3']) {
+    for (const grade of CLASS_ORDER) {
+      const gp = path.join(base, grade);
+      if (fs.existsSync(gp)) {
         const tp = path.join(gp, term);
         if (fs.existsSync(tp)) {
           const files = fs.readdirSync(tp).filter(f => f.endsWith('.json')).sort();
