@@ -229,6 +229,12 @@ async function run() {
   }
 
   console.log(`📊 Questions: ${payload.quiz.length}`);
+  
+  // Save locally for dashboard/daily.html consistency
+  const localPath = path.join(__dirname, '../../1.json');
+  fs.writeFileSync(localPath, JSON.stringify(payload, null, 2));
+  console.log(`💾 Saved locally to 1.json`);
+
   await uploadFile('1.json', JSON.stringify(payload, null, 2),
     `${action === 'notes' ? '📖' : '📝'} ${action}: ${subject} ${dateStr}`);
 
