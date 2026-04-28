@@ -97,6 +97,7 @@
     <div class="container">
         <div class="daily-header">
             <h1>இன்றைய தினசரித் தேர்வு</h1>
+            <p id="currentDateDisplay" style="font-size: 1.1rem; opacity: 0.9; margin-top: 0.5rem; font-weight: 700;"></p>
             <p>Daily Challenge & Study Planner</p>
         </div>
 
@@ -165,6 +166,9 @@
                         `).join('')}
                     </div>
                 `;
+
+                const dateStr = new Date().toLocaleDateString('ta-IN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+                document.getElementById('currentDateDisplay').innerText = dateStr;
 
                 container.innerHTML = html;
 

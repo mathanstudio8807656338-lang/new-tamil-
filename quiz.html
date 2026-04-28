@@ -495,11 +495,16 @@
             const startQuizBtn = document.getElementById('startQuizBtn');
             const userNameInput = document.getElementById('userNameInput');
 
+            // Set loading state
+            startQuizBtn.disabled = true;
+            startQuizBtn.innerText = "தயாராகிறது... (Loading...)";
+
             async function initQuiz() {
                 try {
                     const result = await getLocalLessonData(subject, className, lessonId);
                     if (!result || !result.data) {
-                        alert('தேர்வுக்கான தரவுகள் (Quiz Data) இன்னும் வரவில்லை. தயவுசெய்து சிறிது நேரம் கழித்து மீண்டும் முயற்சிக்கவும்!');
+                        alert('தேர்வுக்கான தரவுகள் (Quiz Data) வரவில்லை. தயவுசெய்து பக்கத்தை புதுப்பிக்கவும் (Refresh)!');
+                        startQuizBtn.innerText = "பிழை! (Error)";
                         return;
                     }
                     const data = result.data;
@@ -509,7 +514,8 @@
                     questions = data.quiz ? (data.quiz.questions || (Array.isArray(data.quiz) ? data.quiz : [])) : (data.questions || []);
                     
                     if (questions.length === 0) {
-                        alert("கேள்விகள் இன்னும் தயாராகவில்லை.");
+                        alert("இந்த பகுதியில் கேள்விகள் இன்னும் தயாராகவில்லை.");
+                        startQuizBtn.innerText = "கேள்விகள் இல்லை";
                         return;
                     }
 
@@ -520,11 +526,16 @@
                     renderAllQuestions();
                     document.getElementById('quizLoader').style.display = 'none';
                     document.getElementById('quizApp').style.display = 'block';
+
+                    // Ready to start
+                    startQuizBtn.disabled = false;
+                    startQuizBtn.innerText = "தொடங்கவும் (START)";
                     
                     checkEnglishSubject();
                     updateLangUI();
                 } catch (e) {
                     console.error("Init Error:", e);
+                    alert("தேர்வை லோடு செய்வதில் பிழை ஏற்பட்டது: " + e.message);
                 }
             }
 
@@ -532,14 +543,15 @@
 
             startQuizBtn.onclick = () => {
                 const name = userNameInput.value.trim();
-                if (!name) { alert("பெயரை உள்ளிடவும்!"); return; }
+                if (!name) { alert("உங்கள் பெயரை உள்ளிடவும்!"); return; }
                 currentUserName = name;
                 document.getElementById('namePrompt').style.display = 'none';
                 document.getElementById('nameOverlay').style.display = 'none';
+                window.scrollTo(0, 0);
             };
 
             userNameInput.onkeyup = (e) => {
-                if (e.key === 'Enter') startQuizBtn.onclick();
+                if (e.key === 'Enter' && !startQuizBtn.disabled) startQuizBtn.onclick();
             };
 
             window.handleSelect = (qIdx, oIdx, el) => {

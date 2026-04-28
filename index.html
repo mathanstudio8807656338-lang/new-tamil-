@@ -290,7 +290,10 @@
         <!-- Subjects Rows Layout (YouTube Style) -->
         
         <!-- DAILY CHALLENGE SECTION -->
-        <h2 class="section-header">📅 இன்றைய தினசரித் தேர்வு (Daily Challenge)</h2>
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 1rem;">
+            <h2 class="section-header" style="margin-bottom: 0;">📅 இன்றைய தினசரித் தேர்வு</h2>
+            <div id="indexDate" style="font-size: 0.9rem; font-weight: 800; color: #1e3a8a; background: #dcfce7; padding: 0.4rem 1rem; border-radius: 2rem; border: 1px solid #16a34a;"></div>
+        </div>
         <div style="margin-bottom: 2rem;">
             <a href="quiz.html?lesson=1&paper=1" class="subject-card" style="background: linear-gradient(135deg, #dcfce7, #bbf7d0); border-bottom: 4px solid #16a34a; width: 100%; flex-direction: row; justify-content: center; gap: 1rem; padding: 1.5rem; text-decoration: none;">
                 <div class="subject-icon" style="margin:0; font-size: 1.5rem; min-width: 50px;">🎯</div>
@@ -441,6 +444,10 @@
                 currentUser = user;
                 authResolved = true;
                 if (authBtn) authBtn.textContent = user ? 'Logout' : 'Login';
+
+                const dateStr = new Date().toLocaleDateString('ta-IN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+                const dateEl = document.getElementById('indexDate');
+                if (dateEl) dateEl.innerText = dateStr;
             });
 
             document.addEventListener('click', async (e) => {
