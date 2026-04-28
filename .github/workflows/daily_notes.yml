@@ -18,5 +18,5 @@ jobs:
 
       - name: Push Today's Notes
         env:
-          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+          AUTOMATIC_TOKEN: ${{ secrets.AUTOMATIC_TOKEN }}
         run: node scripts/daily_challenge/engine.js notes

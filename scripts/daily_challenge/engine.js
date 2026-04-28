@@ -16,7 +16,7 @@ const https = require('https');
 
 const TRACKER_FILE  = path.join(__dirname, 'tracker.json');
 const TARGET_REPO   = 'a1onlinecoachingcenter-star/test-series-'; // Assuming same target or local repo
-const TOKEN         = process.env.MY_GITHUB_TOKEN;
+const TOKEN         = process.env.AUTOMATIC_TOKEN;
 
 const DAY_SUBJECT = {
   Mon: { subject: 'tamil',      isTest: false },
