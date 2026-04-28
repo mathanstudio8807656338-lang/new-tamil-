@@ -470,7 +470,7 @@
     <script type="module">
         (async () => {
             const v = Date.now();
-            const { checkAuth } = await import(`./js/auth.js?v=${v}`);
+            const { checkAuth, waitForAuth } = await import(`./js/auth.js?v=${v}`);
             const { getLocalLessonData } = await import(`./js/fetchData.js?v=${v}`);
 
             checkAuth();

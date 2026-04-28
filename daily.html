@@ -144,23 +144,32 @@
                     html += `
                         <div class="lesson-card">
                             <div class="lesson-title">${title}</div>
-                            <div class="btn-row">
+                            <div class="btn-row" style="grid-template-columns: 1fr;">
                                 <a href="material.html?subject=${subject}&class=${grade}&lesson=${fileId}" class="action-btn btn-notes">
-                                    📖 பாடக்குறிப்புகள்
+                                    📖 பாடக்குறிப்புகளைப் படிக்க (Read Study Notes)
                                 </a>
-                                ${isExamOpen ? `
-                                    <a href="quiz.html?subject=${subject}&class=${grade}&lesson=${fileId}" class="action-btn btn-exam">
-                                        📝 ஆன்லைன் தேர்வு
-                                    </a>
-                                ` : `
-                                    <div class="action-btn btn-locked" title="8:00 PM-க்குத் திறக்கும்">
-                                        🔒 தேர்வு (8PM)
-                                    </div>
-                                `}
                             </div>
                         </div>
                     `;
                 });
+
+                if (isExamOpen) {
+                    html += `
+                        <div style="margin-top: 2rem; text-align: center;">
+                            <a href="quiz.html?subject=${subject}&class=${grade}&lesson=1" class="action-btn btn-exam" style="padding: 1.5rem; font-size: 1.2rem; border-radius: 100px;">
+                                📝 இன்றைய தேர்வைத் தொடங்குக (Start Today's Exam)
+                            </a>
+                        </div>
+                    `;
+                } else {
+                    html += `
+                        <div style="margin-top: 2rem; text-align: center;">
+                            <div class="action-btn btn-locked" style="padding: 1.5rem; font-size: 1.2rem; border-radius: 100px;">
+                                🔒 தேர்வு இரவு 8:00 மணிக்குத் தொடங்கும்
+                            </div>
+                        </div>
+                    `;
+                }
 
                 container.innerHTML = html;
 
