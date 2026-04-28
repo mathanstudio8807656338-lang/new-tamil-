@@ -124,9 +124,18 @@
                 const titles = data.activeTitles || [];
                 const subject = data.activeSubject || 'Unknown';
                 const defaultGrade = data.activeGrade || '5';
-                const isExamOpen = data.status === 'open';
-                const isNotesOpen = data.status === 'notes' || data.status === 'open';
+                
+                const now = new Date();
+                const currentMins = now.getHours() * 60 + now.getMinutes();
+                const isPastClose = currentMins >= 1350; // 22:30 is 1350 minutes
 
+                let isExamOpen = data.status === 'open';
+                let isNotesOpen = data.status === 'notes' || data.status === 'open';
+
+                if (isPastClose) {
+                    isExamOpen = false;
+                    isNotesOpen = false;
+                }
                 let timerHtml = '';
                 if (isNotesOpen || isExamOpen) {
                     timerHtml = `
