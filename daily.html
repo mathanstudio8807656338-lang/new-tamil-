@@ -130,11 +130,19 @@
                 const isClosedTime = currentMins >= 1350 || currentMins < 360; // 22:30 to 06:00
 
                 if (isClosedTime || data.status === 'closed') {
+                    // Calculate target opening date
+                    const targetDate = new Date(now);
+                    if (currentMins >= 1350) {
+                        targetDate.setDate(now.getDate() + 1); // If past 10:30 PM, target is tomorrow
+                    }
+                    const targetDateStr = targetDate.toLocaleDateString('ta-IN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+                    const dayLabel = (currentMins >= 1350) ? 'நாளை' : 'இன்று';
+
                     container.innerHTML = `
                         <div style="text-align:center; padding:4rem; color:#64748b; background:white; border-radius:1.5rem; border:1px solid #e2e8f0; box-shadow: 0 10px 25px rgba(0,0,0,0.05);">
                             <div style="font-size: 4rem; margin-bottom: 1rem;">🌙</div>
                             <h2 style="color: #1e3a8a; margin-bottom: 1rem;">இன்றைய அமர்வு முடிந்தது</h2>
-                            <p style="font-size: 1.1rem; line-height: 1.6;">நமது தினசரித் தேர்வுத் தளம் தற்போது ஓய்வில் உள்ளது.<br><b>நாளை காலை 6:00 மணிக்கு</b> புதிய பாடங்களுடன் மீண்டும் சந்திப்போம்.</p>
+                            <p style="font-size: 1.1rem; line-height: 1.6;">நமது தினசரித் தேர்வுத் தளம் தற்போது ஓய்வில் உள்ளது.<br><b>${dayLabel} (${targetDateStr}) காலை 6:00 மணிக்கு</b> புதிய பாடங்களுடன் மீண்டும் சந்திப்போம்.</p>
                             <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #f1f5f9;">
                                 <a href="index.html" style="color:#1e3a8a; font-weight:700; text-decoration:none; display: inline-flex; align-items: center; gap: 0.5rem;">
                                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
@@ -143,10 +151,10 @@
                             </div>
                         </div>
                     `;
-                    const dateStr = now.toLocaleDateString('ta-IN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-                    document.getElementById('currentDateDisplay').innerText = dateStr;
+                    document.getElementById('currentDateDisplay').innerText = now.toLocaleDateString('ta-IN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
                     return;
                 }
+
 
                 let isExamOpen = data.status === 'open';
                 let isNotesOpen = data.status === 'notes' || data.status === 'open';
