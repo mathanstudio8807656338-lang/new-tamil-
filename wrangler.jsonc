@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "new-tamil",
+  "compatibility_date": "2026-04-28",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "A1_Tamil_Primary_Edition"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
