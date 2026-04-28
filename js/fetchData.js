@@ -78,6 +78,12 @@ export async function getLocalLessonData(subject, className, lessonId) {
         } else if (match.grade && match.term) {
             paths.push(`json-db/lessons/${subjectKey}/${match.grade}/Term ${match.term}/${match.filename}.json`);
         }
+    } else if (className) {
+        // Fallback for standard structure
+        paths.push(`json-db/lessons/${subjectKey}/${className}/Term 1/${lessonId}.json`);
+        paths.push(`json-db/lessons/${subjectKey}/${className}/Term 2/${lessonId}.json`);
+        paths.push(`json-db/lessons/${subjectKey}/${className}/Term 3/${lessonId}.json`);
+        paths.push(`json-db/lessons/${subjectKey}/all/${lessonId}.json`);
     }
 
     // Execution

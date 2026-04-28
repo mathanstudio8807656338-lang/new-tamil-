@@ -538,6 +538,10 @@
                 document.getElementById('nameOverlay').style.display = 'none';
             };
 
+            userNameInput.onkeyup = (e) => {
+                if (e.key === 'Enter') startQuizBtn.onclick();
+            };
+
             window.handleSelect = (qIdx, oIdx, el) => {
                 if (resultsRevealed) return;
                 const grid = document.getElementById(`options-${qIdx}`);

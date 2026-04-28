@@ -140,15 +140,16 @@
                 `;
 
                 titles.forEach((title, idx) => {
+                    const fileId = data.activeFiles[idx] || '1';
                     html += `
                         <div class="lesson-card">
                             <div class="lesson-title">${title}</div>
                             <div class="btn-row">
-                                <a href="quiz.html?lesson=1&status=notes" class="action-btn btn-notes">
+                                <a href="material.html?subject=${subject}&class=${grade}&lesson=${fileId}" class="action-btn btn-notes">
                                     📖 பாடக்குறிப்புகள்
                                 </a>
                                 ${isExamOpen ? `
-                                    <a href="quiz.html?lesson=1" class="action-btn btn-exam">
+                                    <a href="quiz.html?subject=${subject}&class=${grade}&lesson=${fileId}" class="action-btn btn-exam">
                                         📝 ஆன்லைன் தேர்வு
                                     </a>
                                 ` : `

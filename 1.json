@@ -1,569 +1,19 @@
 {
   "unit": "Daily Challenge",
   "subject": "ENGLISH",
-  "title": "இன்றைய தேர்வு: Patriotism and Duty || தேசபக்தி மற்றும் கடமை & Unit 2: My Native Place",
+  "title": "இன்றைய தேர்வு: Unit 3: Our Nation & Unit 1: A World with Robots || அலகு 1: இயந்திர மனிதர்கள் நிறைந்த உலகம்",
   "status": "open",
   "activeSubject": "english",
   "activeGrade": "5",
   "activeTitles": [
-    "Patriotism and Duty || தேசபக்தி மற்றும் கடமை",
-    "Unit 2: My Native Place"
+    "Unit 3: Our Nation",
+    "Unit 1: A World with Robots || அலகு 1: இயந்திர மனிதர்கள் நிறைந்த உலகம்"
   ],
   "activeFiles": [
-    "Lesson_3",
-    "Lesson_4"
+    "Lesson_7",
+    "Lesson_1"
   ],
   "quiz": [
-    {
-      "q": "1. What is the core theme of this lesson? || 1. இந்தப் பாடத்தின் முக்கியக் கருப்பொருள் என்ன?",
-      "options": [
-        "Peace and non-violence || அமைதி மற்றும் அஹிம்சை",
-        "Environmental protection || சுற்றுச் சூழல் பாதுகாப்பு",
-        "Patriotism and duty || தேசபக்தி மற்றும் கடமை",
-        "Selfishness and luxury || சுயநலம் மற்றும் ஆடம்பரம்"
-      ],
-      "a": 2,
-      "ex": "The lesson emphasizes that patriotism is not just serving in the army, but also doing one's duty properly as a citizen. || தேசபக்தி என்பது ராணுவத்தில் பணியாற்றுவது மட்டுமல்ல, ஒரு குடிமகனாகத் தனது கடமையை முறையாகச் செய்வதும் ஆகும் என்பதைப் பாடம் வலியுறுத்துகிறது."
-    },
-    {
-      "q": "2. What does true patriotism refer to among the following? || 2. உண்மையான தேசபக்தி என்பது பின்வருவனவற்றில் எதைக் குறிக்கிறது?",
-      "options": [
-        "Only fighting in war || போரில் மட்டுமே ஈடுபடுவது",
-        "Doing one's duty in society and showing love || சமூகத்தில் கடமையாற்றுவது மற்றும் அன்பு காட்டுவது",
-        "Going abroad || வெளிநாடு செல்வது",
-        "Engaging in politics || அரசியலில் ஈடுபடுவது"
-      ],
-      "a": 1,
-      "ex": "True patriotism means doing one's duty properly in society and showing love and respect to fellow human beings. || சமூகத்தில் தனது கடமையைச் சரிவரச் செய்வதும், சக மனிதர்களிடம் அன்பு காட்டுவதுமே தேசபக்தி."
-    },
-    {
-      "q": "3. What is the meaning of the word 'Soldier'? || 3. 'Soldier' (சிப்பாய்) என்ற சொல்லின் அர்த்தம் என்ன?",
-      "options": [
-        "Farmer || விவசாயி",
-        "A person who serves in the army || ராணுவத்தில் பணிபுரியும் நபர்",
-        "Teacher || ஆசிரியர்",
-        "Doctor || மருத்துவர்"
-      ],
-      "a": 1,
-      "ex": "A soldier is a person who serves in an army. || ராணுவத்தில் பணியாற்றும் நபரே சிப்பாய் அல்லது ராணுவ வீரர் என்று அழைக்கப்படுகிறார்."
-    },
-    {
-      "q": "4. What is a fight between armies called? || 4. ராணுவங்களுக்கு இடையிலான சண்டை எவ்வாறு அழைக்கப்படுகிறது?",
-      "options": [
-        "Peace || அமைதி",
-        "Battle || போர்",
-        "Weapon || ஆயுதம்",
-        "Treaty || ஒப்பந்தம்"
-      ],
-      "a": 1,
-      "ex": "A 'Battle' is a fight between armies. || ராணுவ வீரர்களுக்கு இடையே நடக்கும் சண்டையை 'Battle' (போர்) என்போம்."
-    },
-    {
-      "q": "5. What is the meaning of the word 'Weapon'? || 5. 'Weapon' (ஆயுதம்) என்பதன் அர்த்தம் என்ன?",
-      "options": [
-        "Safety gear || பாதுகாப்பு கவசம்",
-        "An object used to attack || தாக்கப் பயன்படுத்தப்படும் பொருள்",
-        "Warship || போர்க்கப்பல்",
-        "Medical equipment || மருத்துவ உபகரணங்கள்"
-      ],
-      "a": 1,
-      "ex": "A weapon is an object or tool used to attack. || தாக்க அல்லது சண்டையிடப் பயன்படுத்தப்படும் கருவி ஆயுதம் ஆகும்."
-    },
-    {
-      "q": "6. Which is the second highest military award in India? || 6. இந்தியாவின் இரண்டாவது உயரிய ராணுவ விருது எது?",
-      "options": [
-        "Padma Shri || பத்ம ஸ்ரீ",
-        "Mahavir Chakra || மகாவீர் சக்கரா",
-        "Bharat Ratna || பாரத ரத்னா",
-        "Param Vir Chakra || பரம வீர சக்கரா"
-      ],
-      "a": 1,
-      "ex": "The Mahavir Chakra is the second highest military reward in India. || மகாவீர் சக்கரா என்பது இந்தியாவின் இரண்டாவது உச்சநிலை ராணுவ விருதாகும்."
-    },
-    {
-      "q": "7. The 'Amar Jawan Jyoti' was built after which war? || 7. எந்தப் போருக்குப் பிறகு 'அமர் ஜவான் ஜோதி' கட்டப்பட்டது?",
-      "options": [
-        "1962 Indo-China war || 1962 இந்திய-சீனப் போர்",
-        "1999 Kargil war || 1999 கார்கில் போர்",
-        "1971 Indo-Pak war || 1971 இந்திய-பாகிஸ்தான் போர்",
-        "1947 Indian Independence war || 1947 இந்தியச் சுதந்திரப் போர்"
-      ],
-      "a": 2,
-      "ex": "It was built in memory of the Indian soldiers who died in the 1971 Indo-Pak war. || இது 1971 இந்திய-பாகிஸ்தான் போரில் தங்கள் உயிரைத் தியாகம் செய்த வீரர்களின் நினைவாகக் கட்டப்பட்டது."
-    },
-    {
-      "q": "8. What is the exact meaning of the word 'Honour'? || 8. 'Honour' (மரியாதை) என்பதன் சரியான அர்த்தம் என்ன?",
-      "options": [
-        "Disgrace || அவமானம்",
-        "Great respect || மிகுந்த மதிப்பிற்குரிய கௌரவம்",
-        "Sacrifice || தியாகம்",
-        "Fear || பயம்"
-      ],
-      "a": 1,
-      "ex": "Honour means having or showing great respect. || கௌரவம் அல்லது மேன்மையான மதிக்கப்படுதலே மரியாதை எனப்படும்."
-    },
-    {
-      "q": "9. What is the meaning of the word 'Sacrifice'? || 9. 'Sacrifice' (தியாகம்) என்ற சொல்லின் அர்த்தம் என்ன?",
-      "options": [
-        "Selfishness || சுயநலம்",
-        "Giving up something valued || மதிப்பிற்குரிய ஒன்றை விட்டுக்கொடுத்தல்",
-        "Pride || கர்வம்",
-        "Happiness || மகிழ்ச்சி"
-      ],
-      "a": 1,
-      "ex": "Sacrifice means giving up something valued for the sake of something else. || ஒரு உன்னதமான நோக்கத்திற்காக தனக்கு விருப்பமான ஒன்றை விட்டுக்கொடுத்தலே தியாகமாகும்."
-    },
-    {
-      "q": "10. What is the name of a military unit consisting of 300 to 800 soldiers? || 10. 300 முதல் 800 வீரர்களைக் கொண்ட ஒரு ராணுவப் பிரிவின் பெயர் என்ன?",
-      "options": [
-        "Company || கம்பெனி",
-        "Platoon || பிளாட்டூன்",
-        "Battalion || பட்டாலியன் (படைப்பிரிவு)",
-        "Brigade || பிரிகேட்"
-      ],
-      "a": 2,
-      "ex": "A Battalion is a military unit consisting of 300 to 800 soldiers. || சுமார் 300 முதல் 800 வீரர்களை உள்ளடக்கிய ஒரு ராணுவப் பிரிவு 'Battalion' எனப்படும்."
-    },
-    {
-      "q": "11. What is a 'Brass bust'? || 11. 'Brass bust' என்றால் என்ன?",
-      "options": [
-        "A full-body brass statue || முழு உருவ பித்தளைச் சிலை",
-        "A brass statue of the upper part of the human figure || மனிதனின் மேல் பகுதியை மட்டும் காட்டும் பித்தளைச் சிலை",
-        "A bronze statue || வெண்கலச் சிலை",
-        "An iron shield || இரும்புக் கவசம்"
-      ],
-      "a": 1,
-      "ex": "A brass bust refers to a statue made of brass showing the head, shoulders, and chest of a person. || பித்தளையினால் செய்யப்பட்ட தலை மற்றும் மார்பளவு வரையிலான உருவச் சிலையே பித்தளை மார்பளவு சிலை."
-    },
-    {
-      "q": "12. When is the Armed Forces Flag Day observed? || 12. सशस्त्र படைக் கொடி நாள் எப்போது கடைபிடிக்கப்படுகிறது?",
-      "options": [
-        "August 15 || ஆகஸ்ட் 15",
-        "January 26 || ஜனவரி 26",
-        "December 7 || டிசம்பர் 7",
-        "November 14 || நவம்பர் 14"
-      ],
-      "a": 2,
-      "ex": "The Armed Forces Flag Day is observed every year on December 7. || ஒவ்வொரு ஆண்டும் டிசம்பர் 7-ம் தேதி கொடி நாள் கொண்டாடப்படுகிறது."
-    },
-    {
-      "q": "13. Where did Dr. Karmugilan go for his higher studies (medicine)? || 13. டாக்டர் கார்முகிலன் தனது மேல்படிப்பிற்காக (மருத்துவம்) எங்கு சென்றார்?",
-      "options": [
-        "UK || இங்கிலாந்து",
-        "USA || அமெரிக்கா",
-        "Russia || ரஷ்யா",
-        "China || சீனா"
-      ],
-      "a": 1,
-      "ex": "He studied medicine in the USA and returned to India. || அவர் அமெரிக்காவில் உயர்கல்வி பயின்று இந்தியா திரும்பினார்."
-    },
-    {
-      "q": "14. To whom did Dr. Karmugilan provide free medical treatment? || 14. டாக்டர் கார்முகிலன் யாருக்கு இலவச மருத்துவ சிகிச்சை அளித்தார்?",
-      "options": [
-        "Urban people || நகர மக்கள்",
-        "Village people || கிராம மக்கள்",
-        "Soldiers || ராணுவ வீரர்கள்",
-        "Rich people || பணக்காரர்கள்"
-      ],
-      "a": 1,
-      "ex": "He returned to India and provided free medical treatment to village people. || அவர் தனது படிப்பை முடித்துத் தனது தாய்நாட்டின் கிராம மக்களுக்கு இலவச சேவையினை வழங்கினார்."
-    },
-    {
-      "q": "15. Which disease spread in the villages where Karmugilan worked? || 15. கார்முகிலன் பணியாற்றிய கிராமங்களில் எந்த நோய் பரவியது?",
-      "options": [
-        "Malaria || மலேரியா",
-        "Typhoid || டைபாய்டு",
-        "Dengue || டெங்கு",
-        "Cholera || காலரா"
-      ],
-      "a": 2,
-      "ex": "Dengue fever spread in the villages. || அந்தக் காலத்தில் அந்தக் கிராமங்களில் டெங்கு காய்ச்சல் மிகவேகமாகப் பரவியது."
-    },
-    {
-      "q": "16. Karmugilan was __________. (He got ________ the disease) || 16. கார்முகிலன் __________.",
-      "options": [
-        "infected by || நோய்த் தொற்றிற்கு ஆளானார்",
-        "cured from || குணமானார்",
-        "escaped from || தப்பினார்",
-        "unaffected by || பாதிப்படையவில்லை"
-      ],
-      "a": 0,
-      "ex": "Karmugilan, who treated the people, was also infected by dengue and died. || மக்களுக்குச் சிகிச்சை அளித்துக் கொண்டிருந்தபோது அவருக்கும் நோய் தொற்று ஏற்பட்டு உயிரிழந்தார்."
-    },
-    {
-      "q": "17. What did the village people build in memory of Karmugilan? || 17. ஊர் மக்கள் கார்முகிலனின் நினைவாக எதைக் கட்டினார்கள்?",
-      "options": [
-        "School || பள்ளி",
-        "Park || பூங்கா",
-        "Hospital || மருத்துவமனை",
-        "Library || நூலகம்"
-      ],
-      "a": 2,
-      "ex": "The people built a hospital in his memory and are providing free treatment. || அவரது நினைவாகக் கட்டப்பட்ட மருத்துவமனையில் இன்றும் இலவச சிகிச்சைகள் அளிக்கப்படுகின்றன."
-    },
-    {
-      "q": "18. Where should compound words be split during syllabification? || 18. அசை பிரிக்கும்போது கூட்டுச் சொற்களை எங்கு பிரிக்க வேண்டும்?",
-      "options": [
-        "After the second word || இரண்டாவது சொல்லுக்குப் பின்",
-        "After the first word || முதல் சொல்லுக்குப் பின்",
-        "At the middle vowel || நடு உயிர் எழுத்தில்",
-        "At the last letter || கடைசி எழுத்தில்"
-      ],
-      "a": 1,
-      "ex": "For compound words, we should split them after the first word. || கூட்டுச் சொற்களில் முதல் சொல்லின் முடிவிலேயே அசை பிரிக்க வேண்டும்."
-    },
-    {
-      "q": "19. What is the correct way to split the word 'Bulldog'? || 19. 'Bulldog' என்ற சொல்லை அசை பிரிக்கும் சரியான முறை எது?",
-      "options": [
-        "Bu/lldog",
-        "Bul/ldog",
-        "Bull/dog",
-        "Bulld/og"
-      ],
-      "a": 2,
-      "ex": "Since Bulldog is a compound word, it is split as Bull/dog. || இது ஒரு கூட்டுச் சொல் என்பதால் Bull மற்றும் dog எனப் பிரிக்கப்படுகிறது."
-    },
-    {
-      "q": "20. Where should a word be split if it has a Long Vowel Team (ai, ea, ee, etc.)? || 20. ஒரு சொல்லில் நெடில் உயிர் எழுத்துக்கள் (ai, ea, ee) இருந்தால் எங்கு பிரிக்க வேண்டும்?",
-      "options": [
-        "Before the vowel || உயிர் எழுத்திற்கு முன்",
-        "Following them (after the vowels) || அவற்றைத் தொடர்ந்து (உயிர் எழுத்திற்குப் பின்)",
-        "At the end of the word || சொல்லின் இறுதியில்",
-        "After the consonant || மெய் எழுத்திற்குப் பின்"
-      ],
-      "a": 1,
-      "ex": "If long vowels appear, the word should be split following them. || நெடில் உயிர் ஓசை கொண்ட எழுத்துக்களுக்குப் பின்பே அசை பிரிக்கப்பட வேண்டும்."
-    },
-    {
-      "q": "21. What is the correct way to split the word 'Peacock'? || 21. 'Peacock' என்ற சொல்லைப் பிரிக்கும் சரியான முறை என்ன?",
-      "options": [
-        "Pe/acock",
-        "Pea/cock",
-        "Peac/ock",
-        "P/eacock"
-      ],
-      "a": 1,
-      "ex": "Because 'ea' is a long vowel team, we split it following the vowels as Pea/cock. || 'ea' என்பது ஒரு நெடில் உயிர் ஓசைத் தொகுதி என்பதால் Pea/cock எனப் பிரிக்கிறோம்."
-    },
-    {
-      "q": "22. Where should a word be split if a vowel (a,e,i,o,u) precedes 'r'? || 22. 'r'-க்கு முன் ஒரு உயிர் எழுத்து (a,e,i,o,u) வந்தால் எங்கு பிரிக்க வேண்டும்?",
-      "options": [
-        "Before 'r' || 'r'-க்கு முன்",
-        "After 'r' || 'r'-க்கு பின்",
-        "Before the vowel || உயிர் எழுத்திற்கு முன்",
-        "It shouldn't be split || பிரிக்கக் கூடாது"
-      ],
-      "a": 1,
-      "ex": "If a vowel comes before the letter 'r', the split should happen after 'r'. || உயிர் எழுத்து மற்றும் 'r' இணைந்து வந்தால் 'r'-க்கு பின்னே அசை பிரியும்."
-    },
-    {
-      "q": "23. What is the correct way to split the word 'Turkey'? || 23. 'Turkey' என்ற சொல்லைப் பிரிக்கும் சரியான முறை எது?",
-      "options": [
-        "Tu/rkey",
-        "Turk/ey",
-        "Tur/key",
-        "T/urkey"
-      ],
-      "a": 2,
-      "ex": "The vowel 'u' precedes 'r', so it is split after 'r' as Tur/key. || உயிர் எழுத்து 'u' மெய் எழுத்து 'r'-க்கு முன் வருவதால் Tur/key எனப் பிரிகிறது."
-    },
-    {
-      "q": "24. According to the poem 'Patriotism', what should we cross to treat everyone equally? || 24. 'தேசபக்தி' கவிதையின்படி, சமத்துவமாக இருப்பதற்கு நாம் எதைத் தாண்ட வேண்டும்?",
-      "options": [
-        "Caste differences || ஜாதி வேறுபாடுகள்",
-        "Inner boundaries || உள்ளுணர்வுத் தடைகள் (எல்லைகள்)",
-        "Languages || மொழிகள்",
-        "Oceans || கடல்கள்"
-      ],
-      "a": 1,
-      "ex": "The poem says we should treat everyone equally by crossing our inner boundaries. || நாம் நமது மனதிற்குள் வைத்துள்ள பாரபட்சமான எல்லைகளைத் தாண்ட வேண்டும் என்று கவிதை கூறுகிறது."
-    },
-    {
-      "q": "25. What should we not destroy in our diversity, according to the poem? || 25. கவிதையின்படி, வேற்றுமையிலும் நாம் எதைச் சிதைக்கக் கூடாது?",
-      "options": [
-        "Culture || கலாச்சாரம்",
-        "Friendship || நட்பு",
-        "Integrity || ஒருமைப்பாடு",
-        "Tradition || பாரம்பரியம்"
-      ],
-      "a": 2,
-      "ex": "We should not destroy our integrity in diversity. || வேற்றுமையில் ஒற்றுமை காண்பது போல, நமது ஒருமைப்பாட்டை இழக்கக் கூடாது."
-    },
-    {
-      "q": "26. What is the correct rhyming word for 'alike'? || 26. 'alike' என்ற சொல்லுக்குச் சரியான இயைபுச் சொல் எது?",
-      "options": [
-        "like || லைக்",
-        "dislike || டிஸ்லைக்",
-        "bike || பைக்",
-        "strike || ஸ்டிரைக்"
-      ],
-      "a": 1,
-      "ex": "According to the poem, the rhyming word for alike is dislike. || பாடலில் alike மற்றும் dislike ஆகியவை இயைபுச் சொற்களாக வந்துள்ளன."
-    },
-    {
-      "q": "27. What is the correct rhyming word for 'proud'? || 27. 'proud' என்ற சொல்லின் சரியான இயைபுச் சொல் இது.",
-      "options": [
-        "loud || லவுட்",
-        "cloud || கிளவுட்",
-        "crowd || கிரவுட் (கூட்டம்)",
-        "sound || சவுண்ட்"
-      ],
-      "a": 2,
-      "ex": "According to the poem, the rhyming word for proud is crowd. || கவிதையில் proud மற்றும் crowd ஒரே ஓசையில் முடிகின்றன."
-    },
-    {
-      "q": "28. Which preposition of time is used before days of the week? || 28. வாரத்தின் நாட்களுக்கு முன் எந்த முன்னிடைச் சொல் பயன்படுத்தப்படுகிறது?",
-      "options": [
-        "IN",
-        "AT",
-        "ON",
-        "OF"
-      ],
-      "a": 2,
-      "ex": "The preposition 'ON' is used before days and dates (e.g., on Friday). || கிழமைகள் மற்றும் குறிப்பிட்ட தேதிகளுக்கு முன் 'ON' பயன்படுத்த வேண்டும்."
-    },
-    {
-      "q": "29. Which preposition is used before months and years? || 29. மாதங்கள் மற்றும் ஆண்டுகளுக்கு முன் எந்தச் சொல் பயன்படுத்தப்படுகிறது?",
-      "options": [
-        "ON",
-        "IN",
-        "AT",
-        "TO"
-      ],
-      "a": 1,
-      "ex": "The preposition 'IN' is used before months, seasons, and years (e.g., in September, in 1979). || பெரிய கால அளவுகளான மாதம் மற்றும் ஆண்டுகளுக்கு முன் 'IN' வரும்."
-    },
-    {
-      "q": "30. Which preposition is used to indicate clock time and night time? || 30. கடிகார நேரம் மற்றும் இரவு நேரத்தைக் குறிக்க எந்த முன்னிடைச் சொல் உதவுகிறது?",
-      "options": [
-        "AT",
-        "IN",
-        "ON",
-        "BY"
-      ],
-      "a": 0,
-      "ex": "The preposition 'AT' is used for clock time and night time (e.g., at 7 o'clock, at night). || குறிப்பிட்ட குறுகிய நேரத்தைக் குறிக்க 'AT' பயன்படுகிறது."
-    },
-    {
-      "q": "31. The summer vacation ends _____ Monday. Choose the correct answer. || 31. கோடை விடுமுறை திங்கள்கிழமை முடிகிறது. சரியான விடையைத் தேர்ந்தெடு.",
-      "options": [
-        "in",
-        "at",
-        "on",
-        "for"
-      ],
-      "a": 2,
-      "ex": "Monday is a day, so 'on' is the correct preposition. || திங்கள்கிழமை ஒரு நாள் என்பதால் 'on' சரியான விடை."
-    },
-    {
-      "q": "32. I will meet you _____ 7.30. Choose the correct answer. || 32. நான் உன்னை 7.30 மணிக்குச் சந்திப்பேன். சரியான விடையைத் தேர்ந்தெடு.",
-      "options": [
-        "in",
-        "at",
-        "on",
-        "by"
-      ],
-      "a": 1,
-      "ex": "7.30 is a specific clock time, so 'at' is used. || 7.30 என்பது ஒரு குறிப்பிட்ட நேரம், எனவே 'at' பயன்படும்."
-    },
-    {
-      "q": "33. I don’t drive _____ night. Choose the correct answer. || 33. நான் இரவு நேரத்தில் வாகனம் ஓட்டுவதில்லை.",
-      "options": [
-        "in",
-        "at",
-        "on",
-        "during"
-      ],
-      "a": 1,
-      "ex": "To refer to the night time, 'at night' is the correct usage. || இரவு நேரத்தைக் குறிப்பிட 'at night' என்பது இலக்கணப்படி சரியானது."
-    },
-    {
-      "q": "34. My birthday falls _____ September. Choose the correct answer. || 34. எனது பிறந்தநாள் செப்டம்பர் மாதத்தில் வரும்.",
-      "options": [
-        "on",
-        "at",
-        "in",
-        "from"
-      ],
-      "a": 2,
-      "ex": "September is a month, so 'in' is the correct preposition. || ஒரு மாதத்தைக் குறிப்பிடும்போது 'in' பயன்படுத்த வேண்டும்."
-    },
-    {
-      "q": "35. Birds migrate _____ spring and autumn. Choose the correct answer. || 35. பறவைகள் வசந்த காலத்திலும் இலையுதிர் காலத்திலும் இடம் பெயர்கின்றன.",
-      "options": [
-        "in",
-        "on",
-        "at",
-        "to"
-      ],
-      "a": 0,
-      "ex": "For seasons (spring, autumn), the preposition 'in' is used. || பருவ காலங்களுக்கு 'in' என்பது பொருத்தமான முன்னிடைச் சொல்."
-    },
-    {
-      "q": "36. Her birthday is _____ 6th April. Choose the correct answer. || 36. அவளது பிறந்தநாள் ஏப்ரல் 6-ம் தேதி ஆகும்.",
-      "options": [
-        "in",
-        "at",
-        "on",
-        "with"
-      ],
-      "a": 2,
-      "ex": "6th April is a specific date, so 'on' is the correct preposition. || ஒரு குறிப்பிட்ட தேதியைக் குறிப்பிடும்போது 'on' பயன்படுத்த வேண்டும்."
-    },
-    {
-      "q": "37. The place 'Jaswantgarh' is named in memory of whom? || 37. 'ஜஸ்வந்த்கர்' என்ற இடம் யாருடைய நினைவாகப் பெயரிடப்பட்டது?",
-      "options": [
-        "Bhagat Singh || பகத் சிங்",
-        "Subhas Chandra Bose || சுபாஷ் சந்திர போஸ்",
-        "Jaswant Singh Rawat || ஜஸ்வந்த் சிங் ராவத்",
-        "Abdul Kalam || அப்துல் கலாம்"
-      ],
-      "a": 2,
-      "ex": "The place is named after the Indian soldier Jaswant Singh Rawat. || இந்திய வீரர் ஜஸ்வந்த் சிங் ராவத்தின் வீரத்தைப் போற்றும் வகையில் அந்த இடத்திற்கு அவர்பெயர் சூட்டப்பட்டது."
-    },
-    {
-      "q": "38. In which state is Jaswantgarh located? || 38. ஜஸ்வந்த்கர் எந்த மாநிலத்தில் அமைந்துள்ளது?",
-      "options": [
-        "Himachal Pradesh || இமாச்சலப் பிரதேசம்",
-        "Arunachal Pradesh || அருணாச்சலப் பிரதேசம்",
-        "Jammu & Kashmir || ஜம்மு மற்றும் காஷ்மீர்",
-        "Punjab || பஞ்சாப்"
-      ],
-      "a": 1,
-      "ex": "Jaswantgarh is located in Arunachal Pradesh. || இது இந்தியாவின் வடகிழக்கு மாநிலமான அருணாச்சலப் பிரதேசத்தில் உள்ளது."
-    },
-    {
-      "q": "39. In which year did the Indo-China war take place? || 39. இந்திய-சீனப் போர் எந்த ஆண்டு நடைபெற்றது?",
-      "options": [
-        "1947",
-        "1962",
-        "1971",
-        "1999"
-      ],
-      "a": 1,
-      "ex": "The Indo-China war took place in the year 1962. || இந்தியாவிற்கும் சீனாவிற்கும் இடையிலான முக்கியப் போர் 1962-ல் நடந்தது."
-    },
-    {
-      "q": "40. How many continuous hours did the Battle of Nauranang last? || 40. நௌரனாங் போர் தொடர்ந்து எத்தனை மணிநேரம் நீடித்தது?",
-      "options": [
-        "24 hours",
-        "48 hours",
-        "72 hours (3 days) || 72 மணிநேரம் (3 நாட்கள்)",
-        "100 hours"
-      ],
-      "a": 2,
-      "ex": "The battle started on November 17, 1962, and lasted for 72 hours. || இந்தப் போர் 72 மணிநேரம் இடைவிடாமல் நடந்தது."
-    },
-    {
-      "q": "41. Who was the soldier who fought alone, tricking the Chinese army for 3 days? || 41. 3 நாட்கள் தனியாக நின்று சீன ராணுவத்தை ஏமாற்றிப் போரிட்ட வீரர் யார்?",
-      "options": [
-        "Captain Vikram Batra || கேப்டன் விக்ரம் பத்ரா",
-        "Jaswant Singh Rawat || ஜஸ்வந்த் சிங் ராவத்",
-        "Major Somnath Sharma || மேஜர் சோம்நாத் சர்மா",
-        "Abhinandan || அபிநந்தன்"
-      ],
-      "a": 1,
-      "ex": "Jaswant Singh Rawat fought alone, tricking the Chinese army for 3 days. || ஜஸ்வந்த் சிங் ராவத் ஒருவரே பல இடங்களில் இருந்து சுடுவது போலச் சீனர்களைத் தந்திரமாக ஏமாற்றினார்."
-    },
-    {
-      "q": "42. How many local tribal women helped Jaswant? || 42. ஜஸ்வந்த்-க்கு எத்தனை உள்ளூர் பழங்குடிப் பெண்கள் உதவினார்கள்?",
-      "options": [
-        "One || ஒருவர்",
-        "Two || இருவர்",
-        "Three || மூவர்",
-        "Four || நால்வர்"
-      ],
-      "a": 1,
-      "ex": "Two local tribal women named Sela and Nura helped him. || ஜஸ்வந்த்-க்குத் தடையின்றித் துப்பாக்கிச் சூடு நடத்த வசதியாகச் சேலா மற்றும் நூரா என்ற இரு பெண்கள் உதவினர்."
-    },
-    {
-      "q": "43. How many Chinese soldiers did Jaswant and the women kill together? || 43. ஜஸ்வந்தும் அந்தப் பெண்களும் இணைந்து எத்தனை சீன வீரர்களைக் கொன்றனர்?",
-      "options": [
-        "100",
-        "200",
-        "300",
-        "500"
-      ],
-      "a": 2,
-      "ex": "Together, they killed 300 Chinese soldiers. || அவர்கள் மூவரும் சேர்ந்து சுமார் 300 எதிரி நாட்டுப் படை வீரர்களை அழித்தனர்."
-    },
-    {
-      "q": "44. What did Jaswant decide to do to avoid being captured alive by the Chinese? || 44. சீனர்களிடம் உயிருடன் பிடிபடுவதைத் தவிர்க்க ஜஸ்வந்த் என்ன செய்ய முடிவு செய்தார்?",
-      "options": [
-        "Ran away || ஓடிவிட",
-        "Surrendered || சரணடைய",
-        "Shot himself || தன்னைத்தானே சுட்டுக்கொள்ள",
-        "Swam across the river || ஆற்றைக் கடக்க"
-      ],
-      "a": 2,
-      "ex": "To avoid being captured by the Chinese, Jaswant shot himself. || வீரமான மரணத்தைத் தழுவ முடிவெடுத்து அவர் தன்னைத்தானே மாய்த்துக் கொண்டார்."
-    },
-    {
-      "q": "45. How does the Indian Army still consider Jaswant Singh Rawat today? || 45. இந்திய ராணுவம் ஜஸ்வந்தை இன்றும் எவ்வாறு கருதுகிறது?",
-      "options": [
-        "Retired soldier || ஓய்வு பெற்ற வீரர்",
-        "Serving officer || தேசப் பணியில் இருக்கும் அதிகாரி",
-        "Martyr || தியாகி",
-        "Ordinary citizen || சாதாரணக் குடிமகன்"
-      ],
-      "a": 1,
-      "ex": "The Indian Army still considers him a serving officer and gives him promotions. || அவர் இறந்தாலும் இன்றும் அவர் பணியில் இருப்பவராகக் கருதப்பட்டு அவருக்குப் பதவி உயர்வுகள் வழங்கப்படுகின்றன."
-    },
-    {
-      "q": "46. Where is India's National Emblem taken from? || 46. இந்தியாவின் தேசியச் சின்னம் எங்கிருந்து எடுக்கப்பட்டது?",
-      "options": [
-        "Red Fort || செங்கோட்டை",
-        "Taj Mahal || தாஜ்மஹால்",
-        "Ashoka's pillar at Sarnath || சாரநாத் அசோகர் தூண்",
-        "Sanchi Stupa || சாஞ்சி ஸ்தூபி"
-      ],
-      "a": 2,
-      "ex": "The National Emblem is taken from Ashoka's pillar at Sarnath. || சாரநாத்தில் உள்ள அசோகர் நிறுவிய தூணின் உச்சிப் பகுதியே இந்தியாவின் முத்திரை."
-    },
-    {
-      "q": "47. How many lions are there in the National Emblem of India? || 47. இந்தியாவின் தேசியச் சின்னத்தில் எத்தனை சிங்கங்கள் உள்ளன?",
-      "options": [
-        "Two || இரண்டு",
-        "Three || மூன்று",
-        "Four || நான்கு",
-        "Five || ஐந்து"
-      ],
-      "a": 2,
-      "ex": "It has four lions, but only 3 lions are visible at a time. || இதில் நான்கு சிங்கங்கள் உள்ளன, ஆனால் கோணத்தின் அடிப்படையில் 3 மட்டுமே நமக்குத் தெரியும்."
-    },
-    {
-      "q": "48. Which animals are on the right and left sides of the Dharma Chakra in the National Emblem? || 48. தேசியச் சின்னத்தில் உள்ள தர்மச் சக்கரத்தின் வலது மற்றும் இடது புறத்தில் உள்ள விலங்குகள் யாவை?",
-      "options": [
-        "Elephant on right, Lion on left || யானை மற்றும் சிங்கம்",
-        "Bull on right, Horse on left || காளை மற்றும் குதிரை",
-        "Deer on right, Tiger on left || மான் மற்றும் புலி",
-        "Horse on right, Bull on left || குதிரை மற்றும் காளை"
-      ],
-      "a": 1,
-      "ex": "There is a Bull on the right and a Horse on the left of the Dharma Chakra. || சக்கரத்தின் வலதுபுறம் காளையும் (மாடு), இடதுபுறம் குதிரையும் உள்ளன."
-    },
-    {
-      "q": "49. In which script is the phrase 'Sathyameva Jayate' written? || 49. 'சத்யமேவ ஜெயதே' என்ற வாக்கியம் எந்த எழுத்து வடிவில் எழுதப்பட்டுள்ளது?",
-      "options": [
-        "Tamil || தமிழ்",
-        "Brahmi || பிராமி",
-        "Devanagari || தேவநாகரி",
-        "Sanskrit || சமஸ்கிருதம்"
-      ],
-      "a": 2,
-      "ex": "The phrase 'Sathyameva Jayate' is written below in Devanagari script. || இது தேவநாகரி என்ற பழமையான எழுத்து வடிவில் பொறிக்கப்பட்டுள்ளது."
-    },
-    {
-      "q": "50. What is the meaning of 'Sathyameva Jayate'? || 50. 'சத்யமேவ ஜெயதே' என்பதன் பொருள் என்ன?",
-      "options": [
-        "Peace is best || அமைதியே மேலானது",
-        "Truth alone Triumphs || வாய்மையே வெல்லும்",
-        "Non-violence is dharma || அஹிம்சையே அறம்",
-        "Unity is strength || ஒற்றுமையே பலம்"
-      ],
-      "a": 1,
-      "ex": "Its meaning is \"Truth alone Triumphs\". || இதன் தமிழ்ப் பொருள் 'உண்மையே எப்போதும் வெற்றி பெறும்' என்பதாகும்."
-    },
     {
       "q": "In which year and on which planet is the story 'Earth, the Desolated Home' set? || 'Earth, the Desolated Home' கதை எந்த ஆண்டில் மற்றும் எந்த கிரகத்தில் நடக்கிறது?",
       "options": [
@@ -573,7 +23,8 @@
         "D) 2168, Saturn || ஈ) 2168, சனி"
       ],
       "a": 2,
-      "ex": "The story is set in 2068 on Mars after Earth's destruction. || மனிதர்களின் சுரண்டலால் பூமி அழிக்கப்பட்ட பிறகு, 2068-ல் மனிதர்கள் செவ்வாய் கிரகத்தில் வாழ்வதாக கதை அமைக்கப்பட்டுள்ளது."
+      "ex": "The story is set in 2068 on Mars after Earth's destruction. || மனிதர்களின் சுரண்டலால் பூமி அழிக்கப்பட்ட பிறகு, 2068-ல் மனிதர்கள் செவ்வாய் கிரகத்தில் வாழ்வதாக கதை அமைக்கப்பட்டுள்ளது.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "How long did it take for the grandfather to travel to see Arivumathi? || தாத்தா அறிவுமதியைச் சந்திக்க எவ்வளவு காலம் பயணம் செய்தார்?",
@@ -584,7 +35,8 @@
         "D) 15 months || ஈ) 15 மாதங்கள்"
       ],
       "a": 1,
-      "ex": "It took 1500 Martian days (sols) for grandfather to reach. || தாத்தா செவ்வாய் கிரகத்தில் உள்ள அறிவுமதியின் மையத்தை அடைய 1500 sols பயணம் செய்தார்."
+      "ex": "It took 1500 Martian days (sols) for grandfather to reach. || தாத்தா செவ்வாய் கிரகத்தில் உள்ள அறிவுமதியின் மையத்தை அடைய 1500 sols பயணம் செய்தார்.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "How is water produced on Mars? || செவ்வாய் கிரகத்தில் தண்ணீர் எவ்வாறு உற்பத்தி செய்யப்படுகிறது?",
@@ -595,7 +47,8 @@
         "D) Melting glaciers || ஈ) பனிப்பாறைகளை உருக்குவதன் மூலம்"
       ],
       "a": 2,
-      "ex": "On Mars, water is artificially produced by burning fuels. || செவ்வாயில் எரிபொருட்களை எரிப்பதன் மூலமே செயற்கையாக நீர் உருவாக்கப்படுகிறது."
+      "ex": "On Mars, water is artificially produced by burning fuels. || செவ்வாயில் எரிபொருட்களை எரிப்பதன் மூலமே செயற்கையாக நீர் உருவாக்கப்படுகிறது.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Which planets are mentioned in the poem 'Beyond the Universe'? || 'Beyond the Universe' கவிதையில் வரும் கிரகங்கள் யாவை?",
@@ -606,7 +59,8 @@
         "D) Earth, Moon, Sun || ஈ) பூமி, நிலவு, சூரியன்"
       ],
       "a": 0,
-      "ex": "The poet glides past Earth, Mars, Saturn, Jupiter, Uranus, and Neptune. || கவிஞர் பூமி, செவ்வாய், சனி, வியாழன், யுரேனஸ் மற்றும் நெப்டியூன் ஆகிய கிரகங்களைக் கடந்து செல்வதாகக் கூறுகிறார்."
+      "ex": "The poet glides past Earth, Mars, Saturn, Jupiter, Uranus, and Neptune. || கவிஞர் பூமி, செவ்வாய், சனி, வியாழன், யுரேனஸ் மற்றும் நெப்டியூன் ஆகிய கிரகங்களைக் கடந்து செல்வதாகக் கூறுகிறார்.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "How did Amuthan and Nilavan return to Earth? || அமுதன் மற்றும் நிலவன் எவ்வாறு பூமிக்கு திரும்பினர்?",
@@ -617,7 +71,8 @@
         "D) Scientists rescued them || ஈ) விஞ்ஞானிகள் மீட்டனர்"
       ],
       "a": 1,
-      "ex": "Friendly green aliens repaired their space shuttle. || நட்புமிக்க பச்சை நிற வேற்றுகிரகவாசிகள் விண்கலத்தை சரிசெய்து அவர்களை அனுப்பி வைத்தனர்."
+      "ex": "Friendly green aliens repaired their space shuttle. || நட்புமிக்க பச்சை நிற வேற்றுகிரகவாசிகள் விண்கலத்தை சரிசெய்து அவர்களை அனுப்பி வைத்தனர்.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "How many Indian colonies were on Mars by 2068? || 2068-ல் செவ்வாயில் இந்தியா எத்தனை குடியிருப்புகளை அமைத்தது?",
@@ -628,7 +83,8 @@
         "D) Five || ஈ) ஐந்து"
       ],
       "a": 1,
-      "ex": "India established three colonies on Mars. || இந்தியா செவ்வாய் கிரகத்தில் மூன்று குடியிருப்புகளை நிறுவியுள்ளது."
+      "ex": "India established three colonies on Mars. || இந்தியா செவ்வாய் கிரகத்தில் மூன்று குடியிருப்புகளை நிறுவியுள்ளது.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "What does 'Sol' mean in the lesson? || 'Sol' என்ற வார்த்தையின் அர்த்தம் என்ன?",
@@ -639,7 +95,8 @@
         "D) Type of fuel || ஈ) ஒரு வகை எரிபொருள்"
       ],
       "a": 2,
-      "ex": "A Sol represents a single day on planet Mars. || 'Sol' என்பது செவ்வாய் கிரகத்தில் ஒரு நாளைக் குறிக்கும் சொல்லாகும்."
+      "ex": "A Sol represents a single day on planet Mars. || 'Sol' என்பது செவ்வாய் கிரகத்தில் ஒரு நாளைக் குறிக்கும் சொல்லாகும்.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Which planet is characterized by 'red storms' in the poem? || சிவப்பு புயல்களால் வகைப்படுத்தப்படும் கிரகம் எது?",
@@ -650,7 +107,8 @@
         "D) Uranus || ஈ) யுரேனஸ்"
       ],
       "a": 2,
-      "ex": "Jupiter is noted for its red storms. || வியாழன் அதன் சிவப்பு புயல்களுக்காக கவிதையில் குறிப்பிடப்படுகிறது."
+      "ex": "Jupiter is noted for its red storms. || வியாழன் அதன் சிவப்பு புயல்களுக்காக கவிதையில் குறிப்பிடப்படுகிறது.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Which planet is called the 'blue ice giant'? || 'நீல பனி அரக்கன்' என்று அழைக்கப்படும் கிரகம் எது?",
@@ -661,7 +119,8 @@
         "D) Saturn || ஈ) சனி"
       ],
       "a": 0,
-      "ex": "Neptune is described as the blue ice giant. || நெப்டியூன் அதன் குளிர்ந்த, நீல நிறத்தால் இவ்வாறு வர்ணிக்கப்படுகிறது."
+      "ex": "Neptune is described as the blue ice giant. || நெப்டியூன் அதன் குளிர்ந்த, நீல நிறத்தால் இவ்வாறு வர்ணிக்கப்படுகிறது.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Where did Amuthan and Nilavan accidentally lock themselves? || அமுதனும் நிலவனும் மீண்டும் எங்கு சிக்கிக்கொண்டனர்?",
@@ -672,7 +131,8 @@
         "D) Alien spaceship || ஈ) வேற்றுகிரகவாசிகளின் கப்பலில்"
       ],
       "a": 1,
-      "ex": "They locked themselves inside a functional space shuttle. || அவர்கள் ஒரு விண்வெளி ஓடத்திற்குள் (space shuttle) தவறுதலாக சிக்கிக்கொண்டனர்."
+      "ex": "They locked themselves inside a functional space shuttle. || அவர்கள் ஒரு விண்வெளி ஓடத்திற்குள் (space shuttle) தவறுதலாக சிக்கிக்கொண்டனர்.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "What did the boys pull to launch the shuttle? || சிறுவர்கள் எதை இழுத்ததால் விண்கலம் ஏவப்பட்டது?",
@@ -683,7 +143,8 @@
         "D) A switch || ஈ) ஒரு சுவிட்ச்"
       ],
       "a": 2,
-      "ex": "Pulling a lever initiated the launch. || ஒரு நெம்புகோலை தவறுதலாக இழுத்ததால் விண்கலம் இயங்கத் தொடங்கியது."
+      "ex": "Pulling a lever initiated the launch. || ஒரு நெம்புகோலை தவறுதலாக இழுத்ததால் விண்கலம் இயங்கத் தொடங்கியது.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Which compound word is formed by joining 'Light + House'?",
@@ -694,7 +155,8 @@
         "D) Sunlight"
       ],
       "a": 1,
-      "ex": "Light + House forms Lighthouse."
+      "ex": "Light + House forms Lighthouse.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Identify the abstract noun: || அருவப் பெயர்ச்சொல்லைக் கண்டறியவும்:",
@@ -705,7 +167,8 @@
         "D) Mars"
       ],
       "a": 1,
-      "ex": "Honesty represents a quality you cannot touch. || Honesty என்பது ஒரு பண்பு, இதனைத் தொட முடியாது."
+      "ex": "Honesty represents a quality you cannot touch. || Honesty என்பது ஒரு பண்பு, இதனைத் தொட முடியாது.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Correct collective noun: A _______ of grapes.",
@@ -716,7 +179,8 @@
         "D) army"
       ],
       "a": 2,
-      "ex": "A group of grapes is called a bunch."
+      "ex": "A group of grapes is called a bunch.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Name of the Martian habitat where Arivumathi lived?",
@@ -727,7 +191,8 @@
         "D) Galaxy"
       ],
       "a": 0,
-      "ex": "The settlement was called a Hub. || செவ்வாயில் மனிதர்கள் வாழும் மையப்பகுதி 'Hub' ஆகும்."
+      "ex": "The settlement was called a Hub. || செவ்வாயில் மனிதர்கள் வாழும் மையப்பகுதி 'Hub' ஆகும்.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "What is required to breathe outside on Mars? || செவ்வாயில் சுவாசிக்க என்ன தேவை?",
@@ -738,7 +203,8 @@
         "D) Water bottle"
       ],
       "a": 1,
-      "ex": "A space suit and oxygen cylinder are mandatory. || செவ்வாயில் விண்வெளி உடை மற்றும் ஆக்சிஜன் அவசியம்."
+      "ex": "A space suit and oxygen cylinder are mandatory. || செவ்வாயில் விண்வெளி உடை மற்றும் ஆக்சிஜன் அவசியம்.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Which planet has 'magnificent rings'?",
@@ -749,7 +215,8 @@
         "D) Jupiter"
       ],
       "a": 2,
-      "ex": "Saturn is famous for its magnificent rings."
+      "ex": "Saturn is famous for its magnificent rings.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Which planet is 'tumbling and rolling'?",
@@ -760,7 +227,8 @@
         "D) Mercury"
       ],
       "a": 1,
-      "ex": "Uranus is described as tumbling and rolling."
+      "ex": "Uranus is described as tumbling and rolling.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Meaning of 'Desolated'?",
@@ -771,7 +239,8 @@
         "D) Lush green"
       ],
       "a": 2,
-      "ex": "Desolated means empty, ruined, and uninhabitable."
+      "ex": "Desolated means empty, ruined, and uninhabitable.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "What is true about Martian vegetables? || செவ்வாய் காய்கறிகள் பற்றிய உண்மை என்ன?",
@@ -782,7 +251,8 @@
         "D) Very colorful"
       ],
       "a": 1,
-      "ex": "They lack real flavor because soil is chemically treated. || ரசாயன மண்ணால் காய்கறிகளில் உண்மையான சுவை இல்லை."
+      "ex": "They lack real flavor because soil is chemically treated. || ரசாயன மண்ணால் காய்கறிகளில் உண்மையான சுவை இல்லை.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Sun + Flower = ?",
@@ -793,7 +263,8 @@
         "D) Sunlight"
       ],
       "a": 2,
-      "ex": "Sunflower is the compound word."
+      "ex": "Sunflower is the compound word.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Star + Fish = ?",
@@ -804,7 +275,8 @@
         "D) Shine"
       ],
       "a": 1,
-      "ex": "Starfish is the result."
+      "ex": "Starfish is the result.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Collective noun for birds?",
@@ -815,7 +287,8 @@
         "D) Army"
       ],
       "a": 1,
-      "ex": "A group of birds is a flock."
+      "ex": "A group of birds is a flock.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Collective noun for bees?",
@@ -826,7 +299,8 @@
         "D) Flock"
       ],
       "a": 0,
-      "ex": "Bees come in a swarm."
+      "ex": "Bees come in a swarm.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Collective noun for singers?",
@@ -837,7 +311,8 @@
         "D) Bunch"
       ],
       "a": 2,
-      "ex": "A group of singers is a choir."
+      "ex": "A group of singers is a choir.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Word for a group of ants?",
@@ -848,7 +323,8 @@
         "D) Herd"
       ],
       "a": 1,
-      "ex": "An army of ants."
+      "ex": "An army of ants.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Collective noun for cattle?",
@@ -859,7 +335,8 @@
         "D) Flock"
       ],
       "a": 0,
-      "ex": "A group of cattle is a herd."
+      "ex": "A group of cattle is a herd.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Which is an Abstract Noun?",
@@ -870,7 +347,8 @@
         "D) Water"
       ],
       "a": 0,
-      "ex": "Freedom is an intangible concept."
+      "ex": "Freedom is an intangible concept.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "What does 'Astonished' mean?",
@@ -881,7 +359,8 @@
         "D) Tired"
       ],
       "a": 1,
-      "ex": "Astonished means extremely surprised."
+      "ex": "Astonished means extremely surprised.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "What do we call the fuel formed from ancient remains? || புதைபடிவ எரிபொருட்கள் எதிலிருந்து உருவாகின்றன?",
@@ -892,7 +371,8 @@
         "D) Biogas"
       ],
       "a": 2,
-      "ex": "Fuel from remains of dead plants and animals over millions of years. || மில்லியன் கணக்கான ஆண்டுகளில் உருவான எரிபொருள்."
+      "ex": "Fuel from remains of dead plants and animals over millions of years. || மில்லியன் கணக்கான ஆண்டுகளில் உருவான எரிபொருள்.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "What is the 'Milky Way'?",
@@ -903,7 +383,8 @@
         "D) Star type"
       ],
       "a": 1,
-      "ex": "The galaxy containing our solar system."
+      "ex": "The galaxy containing our solar system.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Assertion (A): Earth has become a desolated home. Reason (R): Humans overexploited and destroyed Earth's natural resources.",
@@ -914,7 +395,8 @@
         "D) A is false, but R is true"
       ],
       "a": 0,
-      "ex": "Human exploitation ruined Earth."
+      "ex": "Human exploitation ruined Earth.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Assertion (A): The vegetables available on Mars are extremely tasty. Reason (R): The soil on Mars is chemically treated.",
@@ -925,7 +407,8 @@
         "D) Both A and R are false"
       ],
       "a": 1,
-      "ex": "The vegetables on Mars lack real flavor because the soil is chemically treated. Therefore, Assertion A is false."
+      "ex": "The vegetables on Mars lack real flavor because the soil is chemically treated. Therefore, Assertion A is false.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Where did the shuttle crash?",
@@ -936,7 +419,8 @@
         "D) Mars"
       ],
       "a": 2,
-      "ex": "They crashed on an unknown planet."
+      "ex": "They crashed on an unknown planet.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Attitude of aliens towards boys?",
@@ -947,7 +431,8 @@
         "D) Prison"
       ],
       "a": 2,
-      "ex": "Aliens were friendly and helpful."
+      "ex": "Aliens were friendly and helpful.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Which of the following pairs is correct according to the poem?",
@@ -958,7 +443,8 @@
         "D) Neptune - Tumbling"
       ],
       "a": 1,
-      "ex": "Jupiter is the one with red storms."
+      "ex": "Jupiter is the one with red storms.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Which of the following compound word pairs is incorrect?",
@@ -969,7 +455,8 @@
         "D) Watch + man = Manwatch"
       ],
       "a": 3,
-      "ex": "The correct compound word for Watch + man is 'Watchman', not 'Manwatch'."
+      "ex": "The correct compound word for Watch + man is 'Watchman', not 'Manwatch'.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "What is the correct meaning of the word 'Adapted'?",
@@ -980,7 +467,8 @@
         "D) Traveling"
       ],
       "a": 0,
-      "ex": "Adjusting to survives in new conditions."
+      "ex": "Adjusting to survives in new conditions.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "What do you call the specialized, pressurized suit worn by astronauts?",
@@ -991,7 +479,8 @@
         "D) Sol"
       ],
       "a": 1,
-      "ex": "Astronauts wear space suits."
+      "ex": "Astronauts wear space suits.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "What is a 'Capsule'?",
@@ -1002,7 +491,8 @@
         "D) Food"
       ],
       "a": 1,
-      "ex": "A small cylinder-shaped bed for sleeping."
+      "ex": "A small cylinder-shaped bed for sleeping.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "At the end of the poem, where does the poet travel last?",
@@ -1013,7 +503,8 @@
         "D) Black hole"
       ],
       "a": 1,
-      "ex": "Journey ends meeting the Creator."
+      "ex": "Journey ends meeting the Creator.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Assertion (A): Abstract nouns cannot be seen or touched. Reason (R): Words like 'Honesty' and 'Freedom' are examples of abstract nouns.",
@@ -1024,7 +515,8 @@
         "D) Both A and R are false"
       ],
       "a": 0,
-      "ex": "Abstract nouns are intangible."
+      "ex": "Abstract nouns are intangible.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "What type of noun is 'Fear'?",
@@ -1035,7 +527,8 @@
         "D) Material"
       ],
       "a": 2,
-      "ex": "Fear is an emotion (abstract)."
+      "ex": "Fear is an emotion (abstract).",
+      "lesson": "Lesson_7"
     },
     {
       "q": "What is the primary moral of the story 'Earth, the Desolated Home'?",
@@ -1046,7 +539,8 @@
         "D) Wear suits"
       ],
       "a": 1,
-      "ex": "Protect our natural home (Earth)."
+      "ex": "Protect our natural home (Earth).",
+      "lesson": "Lesson_7"
     },
     {
       "q": "\"Names a group or collection of individuals viewed as a single, whole unit\" - This is the definition of which noun?",
@@ -1057,7 +551,8 @@
         "D) Proper"
       ],
       "a": 1,
-      "ex": "Collective nouns name groups."
+      "ex": "Collective nouns name groups.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Which grammatical category do the words \"Beauty\" and \"Kindness\" belong to?",
@@ -1068,7 +563,8 @@
         "D) Action"
       ],
       "a": 2,
-      "ex": "These are intangible qualities."
+      "ex": "These are intangible qualities.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "What is the main difference in Arivumathi's life on Mars?",
@@ -1079,7 +575,8 @@
         "D) No clothes"
       ],
       "a": 0,
-      "ex": "On Mars, basic needs are artificial."
+      "ex": "On Mars, basic needs are artificial.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "How did Amuthan and Nilavan feel inside the museum?",
@@ -1090,7 +587,8 @@
         "D) None"
       ],
       "a": 0,
-      "ex": "They felt amazed and astonished."
+      "ex": "They felt amazed and astonished.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Term for process of adjusting to surivive on a new planet?",
@@ -1101,7 +599,8 @@
         "D) Creation"
       ],
       "a": 0,
-      "ex": "Adaptation is the ability to modify to survive."
+      "ex": "Adaptation is the ability to modify to survive.",
+      "lesson": "Lesson_7"
     },
     {
       "q": "Name of a massive system of billions of stars?",
@@ -1112,7 +611,931 @@
         "D) Hub"
       ],
       "a": 2,
-      "ex": "A galaxy contains billions of stars."
+      "ex": "A galaxy contains billions of stars.",
+      "lesson": "Lesson_7"
+    },
+    {
+      "q": "What is the meaning of the word 'Rack'? || 'Rack' என்ற சொல்லின் பொருள் என்ன?",
+      "options": [
+        "A large bag || ஒரு பெரிய பை",
+        "A stand to keep things || பொருட்களை வைக்க உதவும் ஒரு அடுக்கு",
+        "A flying machine || ஒரு பறக்கும் இயந்திரம்",
+        "A type of robot || ஒரு வகை ரோபோ"
+      ],
+      "a": 1,
+      "ex": "A rack is defined as a stand to keep things. || 'Rack' என்பது பொருட்களை ஒழுங்காக வைப்பதற்கான ஒரு அலமாரி அல்லது அடுக்கு ஆகும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What does 'Sack' mean? || 'Sack' என்பதன் பொருள் என்ன?",
+      "options": [
+        "A large bag used for storing and carrying goods || பொருட்களைச் சேமிக்கவும் சுமக்கவும் பயன்படும் பெரிய பை",
+        "A large exhibition || ஒரு பெரிய கண்காட்சி",
+        "Something that looks like a human || மனிதனைப் போன்ற தோற்றம் கொண்டது",
+        "Not ready to do any work || வேலை செய்யத் தயாராக இல்லாத நிலை"
+      ],
+      "a": 0,
+      "ex": "A sack is a large bag used for storing and carrying goods. || 'Sack' என்பது பொருட்களைச் சேமிக்கவும் சுமக்கவும் பயன்படும் ஒரு பெரிய பையாகும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What does it mean to be 'lazy'? || 'Lazy' (சோம்பேறி) என்பதன் பொருள் என்ன?",
+      "options": [
+        "Very active and fast || மிகவும் சுறுசுறுப்பாகவும் வேகமாகவும் இருப்பது",
+        "Highly intelligent || அதிக புத்திசாலித்தனம்",
+        "Not ready to do any work || எந்த வேலையும் செய்யத் தயாராக இல்லாத நிலை",
+        "Always on time || எப்போதும் நேரத்திற்கு வருவது"
+      ],
+      "a": 2,
+      "ex": "A lazy person is someone who is not ready to do any work. || சோம்பேறி என்பவர் எந்த வேலையும் செய்யத் தயாராக இல்லாத ஒருவரைக் குறிக்கும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is an 'Expo'? || 'Expo' (எக்ஸ்போ) என்பது என்ன?",
+      "options": [
+        "A large international exhibition || ஒரு பெரிய பன்னாட்டு கண்காட்சி",
+        "A small grocery store || ஒரு சிறிய மளிகைக் கடை",
+        "A school playground || பள்ளி விளையாட்டு மைதானம்",
+        "A type of mechanical part || ஒரு வகை இயந்திரப் பாகம்"
+      ],
+      "a": 0,
+      "ex": "An 'Expo' is a large-scale international exhibition or trade fair. || 'எக்ஸ்போ' என்பது ஒரு பெரிய அளவிலான பன்னாட்டு கண்காட்சி ஆகும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is a 'Humanoid'? || 'Humanoid' (மனித உருவ ரோபோ) என்றால் என்ன?",
+      "options": [
+        "A machine that cleans the house || வீட்டைச் சுத்தம் செய்யும் இயந்திரம்",
+        "Something that looks like an animal || விலங்கு போலத் தோற்றமளிப்பது",
+        "Something that looks like a human || மனிதனைப் போலவே தோற்றமளிப்பது",
+        "A type of plant || ஒரு வகைச் செடி"
+      ],
+      "a": 2,
+      "ex": "A humanoid is a robot or entity that possesses a human-like appearance. || மனிதனைப் போன்ற தோற்றத்தைக் கொண்ட ஒரு இயந்திரமே 'ஹியூமனாய்டு' எனப்படும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is the meaning of 'plead'? || 'Plead' என்பதன் பொருள் என்ன?",
+      "options": [
+        "Request || வேண்டுதல் / கெஞ்சுதல்",
+        "Reject || நிராகரித்தல்",
+        "Command || கட்டளையிடுதல்",
+        "Laugh || சிரித்தல்"
+      ],
+      "a": 0,
+      "ex": "To 'plead' means to make an emotional or earnest request. || 'Plead' என்பது உருக்கமாக வேண்டுவது அல்லது கெஞ்சுவதைக் குறிக்கும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is the meaning of 'refuse'? || 'Refuse' என்பதன் பொருள் என்ன?",
+      "options": [
+        "Accept happily || மகிழ்ச்சியுடன் ஏற்றுக்கொள்வது",
+        "Disagree or reject || உடன்படாமல் இருப்பது அல்லது நிராகரிப்பது",
+        "Clean thoroughly || முழுமையாகச் சுத்தம் செய்வது",
+        "Sing a song || ஒரு பாட்டுப் பாடுவது"
+      ],
+      "a": 1,
+      "ex": "To 'refuse' means to indicate that one is not willing to do something. || 'Refuse' என்பது ஒன்றைச் செய்ய மறுப்பதாகும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is the meaning of 'pleasant'? || 'Pleasant' என்பதன் பொருள் என்ன?",
+      "options": [
+        "Sad || சோகமான",
+        "Angry || கோபமான",
+        "Happy || மகிழ்ச்சியான / இனிமையான",
+        "Boring || சலிப்பான"
+      ],
+      "a": 2,
+      "ex": "'Pleasant' describes something that is enjoyable or happy. || 'Pleasant' என்பது மகிழ்ச்சியான அல்லது இனிமையான ஒன்றைக் குறிக்கும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What kind of boy was Vicky at the beginning of the story? || கதையின் ஆரம்பத்தில் விக்கி எப்படிப்பட்ட சிறுவனாக இருந்தான்?",
+      "options": [
+        "An active boy || ஒரு சுறுசுறுப்பான சிறுவன்",
+        "A smart boy || ஒரு புத்திசாலிச் சிறுவன்",
+        "A lazy boy || ஒரு சோம்பேறிச் சிறுவன்",
+        "A helpful boy || மற்றவர்களுக்கு உதவும் சிறுவன்"
+      ],
+      "a": 2,
+      "ex": "At the start of the story, Vicky is described as a lazy boy. || கதையின் தொடக்கத்தில் விக்கி ஒரு சோம்பேறிச் சிறுவனாக விவரிக்கப்படுகிறான்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Did Vicky do his homework on time? || விக்கி தனது வீட்டுப்பாடத்தைச் சரியான நேரத்தில் செய்தானா?",
+      "options": [
+        "Yes, always || ஆம், எப்போதும்",
+        "Sometimes || சில நேரங்களில்",
+        "Only when asked || மற்றவர்கள் கேட்கும்போது மட்டும்",
+        "He never did his homework on time || அவன் ஒருபோதும் வீட்டுப்பாடத்தைச் சரியான நேரத்தில் செய்ததில்லை"
+      ],
+      "a": 3,
+      "ex": "Vicky never did his homework on time because of his laziness. || விக்கி தனது சோம்பேறித்தனத்தால் ஒருபோதும் வீட்டுப்பாடத்தைச் சரியான நேரத்தில் செய்ததில்லை.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Why did Vicky plead with his father to buy a robot? || விக்கி ஏன் தனது தந்தையிடம் ரோபோ வாங்கித் தருமாறு கெஞ்சினான்?",
+      "options": [
+        "To play games with him || அவனுடன் விளையாட",
+        "To do all his work || அவனது வேலைகளைச் செய்ய",
+        "To go to school for him || அவனுக்காகப் பள்ளிக்குச் செல்ல",
+        "To build other robots || மற்ற ரோபோக்களை உருவாக்க"
+      ],
+      "a": 1,
+      "ex": "Vicky wanted a robot to perform all his chores and duties. || விக்கி தனது வேலைகள் அனைத்தையும் செய்வதற்கு ஒரு ரோபோவை விரும்பினான்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Why did Vicky's father buy him a 'trick' robot? || விக்கியின் தந்தை அவனுக்கு ஏன் ஒரு 'தந்திர' ரோபோவை வாங்கினார்?",
+      "options": [
+        "Because it was cheap || அது மலிவாக இருந்ததால்",
+        "Because he wanted Vicky to become an active boy || விக்கி ஒரு சுறுசுறுப்பான சிறுவனாக மாற வேண்டும் என்று அவர் விரும்பியதால்",
+        "Because Vicky liked magic tricks || விக்கிக்கு மாயாஜால வித்தைகள் பிடிக்கும் என்பதால்",
+        "Because it was the only one available || அது ஒன்றுதான் அங்கிருந்தது என்பதால்"
+      ],
+      "a": 1,
+      "ex": "His father bought a trick robot to teach Vicky a lesson and make him active. || விக்கிக்கு ஒரு பாடம் புகட்டி அவனைச் சுறுசுறுப்பாக்க அவனது தந்தை அந்த ரோபோவை வாங்கினார்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What was the robot's excuse for not making a salad? || சாலட் செய்யாததற்கு ரோபோ என்ன காரணம் கூறியது?",
+      "options": [
+        "It did not eat salad, so it could not make it || அதற்கு சாலட் பிடிக்காது, அதனால் அதைச் செய்யாது",
+        "There were no vegetables left || அங்கு காய்கறிகள் எதுவும் இல்லை",
+        "Its battery was dead || அதன் பேட்டரி தீர்ந்துவிட்டது",
+        "It was too tired || அது மிகவும் சோர்வாக இருந்தது"
+      ],
+      "a": 0,
+      "ex": "The robot refused to make salad because it claimed it didn't eat salad itself. || தான் சாலட் சாப்பிடுவதில்லை, அதனால் அதைச் செய்ய முடியாது என்று ரோபோ கூறியது.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What excuse did the robot give for not cleaning Vicky's room? || விக்கியின் அறையைச் சுத்தம் செய்யாததற்கு ரோபோ என்ன காரணம் கூறியது?",
+      "options": [
+        "It didn't know how to sweep || அதற்குத் துடைக்கத் தெரியாது",
+        "It did not want to strain its back || அது தனது முதுகை வருத்திக்கொள்ள விரும்பவில்லை",
+        "The room was already clean || அறை ஏற்கனவே சுத்தமாக இருந்தது",
+        "It was busy making calls || அது போன் பேசுவதில் பிஸியாக இருந்தது"
+      ],
+      "a": 1,
+      "ex": "The robot said it didn't want to strain its back by cleaning the room. || அறையைச் சுத்தம் செய்து தனது முதுகிற்குச் சிரமம் கொடுக்க விரும்பவில்லை என்று ரோபோ கூறியது.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Why did the robot ask Vicky to charge its battery? || தனது பேட்டரியை சார்ஜ் செய்யுமாறு ரோபோ ஏன் விக்கியைக் கேட்டது?",
+      "options": [
+        "Because it was draining by listening to Vicky || விக்கி பேசுவதைக் கேட்டு அதன் சார்ஜ் குறைந்து கொண்டிருந்ததால்",
+        "Because it wanted to play a song || அது ஒரு பாடல் பாட விரும்பியதால்",
+        "Because it was time for bed || அது தூங்கும் நேரம் என்பதால்",
+        "Because the power was out || மின்சாரம் தடைபட்டதால்"
+      ],
+      "a": 0,
+      "ex": "The robot complained that listening to Vicky was draining its battery. || விக்கி பேசுவதைக் கேட்டுக்கொண்டே இருந்ததால் தன் சார்ஜ் இறங்குவதாக ரோபோ கூறியது.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Who said, 'Play me a pleasant song'? || 'எனக்கு ஒரு இனிமையான பாடலை இசை' என்று கூறியது யார்?",
+      "options": [
+        "The Robot || ரோபோ",
+        "Vicky's father || விக்கியின் தந்தை",
+        "Vicky || விக்கி",
+        "Nila || நிலா"
+      ],
+      "a": 2,
+      "ex": "Vicky asked the robot to play a pleasant song because he wanted to relax. || களைப்படைந்து போய் ஓய்வெடுக்க விரும்பிய விக்கி, ரோபோவை ஒரு பாடல் போடுமாறு கேட்டான்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Who said, 'Clean my room now!'? || 'இப்போதே எனது அறையைச் சுத்தப்படுத்து!' என்று கூறியது யார்?",
+      "options": [
+        "Vicky || விக்கி",
+        "The Robot || ரோபோ",
+        "Vicky's dad || விக்கியின் அப்பா",
+        "Anitha || அனிதா"
+      ],
+      "a": 0,
+      "ex": "Vicky commanded the robot to clean his room. || விக்கி தனது அறையைச் சுத்தப்படுத்துமாறு ரோபோவிற்கு உத்தரவிட்டான்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Who said, 'Why don't you do that yourself?'? || 'அதை நீயே ஏன் செய்யக்கூடாது?' என்று கூறியது யார்?",
+      "options": [
+        "Vicky's dad || விக்கியின் அப்பா",
+        "Vicky || விக்கி",
+        "The Robot || ரோபோ",
+        "Shabeena || ஷபீனா"
+      ],
+      "a": 2,
+      "ex": "The robot said this when Vicky asked it to charge his phone. || விக்கி தனது போனை சார்ஜ் செய்யச் சொன்னபோது ரோபோ இப்படிப் பதில் அளித்தது.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What did Vicky decide to do at the end of the story? || கதையின் முடிவில் விக்கி என்ன செய்ய முடிவு செய்தான்?",
+      "options": [
+        "Buy a new robot || ஒரு புதிய ரோபோவை வாங்க",
+        "Sell the robot and do all the work himself || ரோபோவை விற்றுவிட்டு எல்லா வேலைகளையும் தானே செய்ய",
+        "Keep the robot and remain lazy || ரோபோவை வைத்துக்கொண்டு சோம்பேறியாகவே இருக்க",
+        "Ask his dad to do his work || தனது வேலையினைச் செய்ய அப்பாவைக் கேட்க"
+      ],
+      "a": 1,
+      "ex": "Vicky realized the importance of doing his own work and decided to sell the robot. || தனது வேலைகளைத் தானே செய்வதன் அவசியத்தை உணர்ந்த விக்கி, ரோபோவை விற்க முடிவு செய்தான்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What kind of master did the robot want to be sold to at the end? || இறுதியில் ரோபோ எவ்வகையான முதலாளியிடம் தன்னை விற்க வேண்டும் என்று கேட்டது?",
+      "options": [
+        "A lazy master || ஒரு சோம்பேறி முதலாளி",
+        "An active master || ஒரு சுறுசுறுப்பான முதலாளி",
+        "A sleeping master || ஒரு தூங்கும் முதலாளி",
+        "A demanding master || எந்நேரமும் வேலை வாங்கும் முதலாளி"
+      ],
+      "a": 1,
+      "ex": "The robot requested to be sold to an active master. || ஒரு சுறுசுறுப்பான முதலாளியிடம் தன்னை விற்குமாறு ரோபோ கேட்டுக்கொண்டது.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Who bought the robot for Vicky? || விக்கிக்கு ரோபோவை வாங்கித் தந்தது யார்?",
+      "options": [
+        "His mother || அவனது தாய்",
+        "His teacher || அவனது ஆசிரியர்",
+        "His uncle || அவனது மாமா",
+        "His father || அவனது தந்தை"
+      ],
+      "a": 3,
+      "ex": "Vicky's father bought the trick robot to teach his son a lesson. || விக்கிக்கு ஒரு பாடம் புகட்ட அவனது தந்தை அந்த ரோபோவை வாங்கினார்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Did Vicky know it was a trick robot when he first got it? || விக்கிக்கு அந்த ரோபோ ஒரு தந்திர ரோபோ என்று ஆரம்பத்திலேயே தெரியுமா?",
+      "options": [
+        "Yes || ஆம்",
+        "No, he did not know || இல்லை, அவனுக்குத் தெரியாது",
+        "Yes, he read the manual || ஆம், அவன் கையேட்டைப் படித்திருந்தான்",
+        "Yes, the robot told him || ஆம், ரோபோ அவனிடம் சொன்னது"
+      ],
+      "a": 1,
+      "ex": "Vicky initially believed it was a normal robot that would do his work. || விக்கி முதலில் அது தனது வேலைகளைச் செய்யும் ஒரு சாதாரண ரோபோ என்றே நினைத்தான்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is a naming word used for one person or thing called? || ஒரு நபர் அல்லது ஒரு பொருளைக் குறிக்கும் சொல் எவ்வாறு அழைக்கப்படுகிறது?",
+      "options": [
+        "Plural || பன்மை",
+        "Adjective || பெயரடை",
+        "Singular || ஒருமை",
+        "Verb || வினைச்சொல்"
+      ],
+      "a": 2,
+      "ex": "'Singular' refers to one person, place, or thing. || ஒரு பொருளை மட்டும் குறிப்பது 'ஒருமை' (Singular) ஆகும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is a naming word that denotes more than one person or thing called? || ஒன்றுக்கு மேற்பட்ட நபர்கள் அல்லது பொருட்களைக் குறிக்கும் சொல் எவ்வாறு அழைக்கப்படுகிறது?",
+      "options": [
+        "Singular || ஒருமை",
+        "Common Noun || பொதுப் பெயர்ச்சொல்",
+        "Proper Noun || சிறப்புப் பெயர்ச்சொல்",
+        "Plural || பன்மை"
+      ],
+      "a": 3,
+      "ex": "'Plural' refers to more than one person, place, or thing. || ஒன்றுக்கும் மேற்பட்ட பொருட்களைக் குறிப்பது 'பன்மை' (Plural) ஆகும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is the plural form of 'Cup'? || 'Cup' என்பதன் பன்மை வடிவம் என்ன?",
+      "options": [
+        "Cupes",
+        "Cups",
+        "Cupies",
+        "Cup"
+      ],
+      "a": 1,
+      "ex": "For most words, we simply add 's' to form the plural. || பெரும்பாலான சொற்களுக்கு இறுதியில் 's' சேர்த்தால் பன்மை உருவாகும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is the plural form of 'Torch'? || 'Torch' என்பதன் பன்மை வடிவம் என்ன?",
+      "options": [
+        "Torchs",
+        "Torchies",
+        "Torches",
+        "Torch"
+      ],
+      "a": 2,
+      "ex": "Words ending in 'ch' take 'es' in the plural form. || 'ch' இல் முடியும் சொற்களுக்கு இறுதியில் 'es' சேர்க்க வேண்டும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is the plural form of 'Brush'? || 'Brush' என்பதன் பன்மை வடிவம் என்ன?",
+      "options": [
+        "Brushs",
+        "Brushes",
+        "Brushies",
+        "Brush"
+      ],
+      "a": 1,
+      "ex": "Words ending in 'sh' take 'es' in the plural form. || 'sh' இல் முடியும் சொற்களுக்கு இறுதியில் 'es' சேர்க்க வேண்டும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is the plural form of 'Glass'? || 'Glass' என்பதன் பன்மை வடிவம் என்ன?",
+      "options": [
+        "Glasss",
+        "Glasses",
+        "Glassies",
+        "Glass"
+      ],
+      "a": 1,
+      "ex": "Words ending in 'ss' take 'es' in the plural form. || 'ss' இல் முடியும் சொற்களுக்கு இறுதியில் 'es' சேர்க்க வேண்டும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is the plural form of 'Key'? || 'Key' என்பதன் பன்மை வடிவம் என்ன?",
+      "options": [
+        "Keyes",
+        "Keyies",
+        "Keys",
+        "Key"
+      ],
+      "a": 2,
+      "ex": "If a vowel comes before 'y', we just add 's'. || 'y' க்கு முன்னால் உயிர் எழுத்து (vowel) இருந்தால் 's' மட்டும் சேர்க்க வேண்டும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is the plural form of 'Lady'? || 'Lady' என்பதன் பன்மை வடிவம் என்ன?",
+      "options": [
+        "Ladys",
+        "Ladyies",
+        "Ladies",
+        "Ladyes"
+      ],
+      "a": 2,
+      "ex": "If a vowel does not come before 'y', change 'y' to 'ies'. || 'y' க்கு முன்னால் உயிர் எழுத்து இல்லை என்றால் 'y' ஐ நீக்கி 'ies' சேர்க்க வேண்டும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is the plural form of 'Fly'? || 'Fly' என்பதன் பன்மை வடிவம் என்ன?",
+      "options": [
+        "Flys",
+        "Flies",
+        "Flyies",
+        "Flyes"
+      ],
+      "a": 1,
+      "ex": "The 'y' changes to 'ies' because it follows a consonant 'l'. || 'y' க்கு முன்னால் மெய் எழுத்து (l) இருப்பதால், 'y' நீக்கப்பட்டு 'ies' சேர்க்கப்படுகிறது.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is the plural form of 'Bench'? || 'Bench' என்பதன் பன்மை வடிவம் என்ன?",
+      "options": [
+        "Benchs",
+        "Benchies",
+        "Benches",
+        "Bench"
+      ],
+      "a": 2,
+      "ex": "Words ending in 'ch' take 'es' in the plural. || 'ch' இல் முடியும் சொற்களுக்கு இறுதியில் 'es' சேர்க்க வேண்டும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is the plural form of 'Boy'? || 'Boy' என்பதன் பன்மை வடிவம் என்ன?",
+      "options": [
+        "Boies",
+        "Boyes",
+        "Boys",
+        "Boyies"
+      ],
+      "a": 2,
+      "ex": "Since a vowel 'o' comes before 'y', we just add 's'. || 'y' க்கு முன் 'o' என்ற உயிர் எழுத்து இருப்பதால் 's' மட்டும் சேர்க்கப்படுகிறது.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is the plural form of 'Catch'? || 'Catch' என்பதன் பன்மை வடிவம் என்ன?",
+      "options": [
+        "Catchs",
+        "Catchies",
+        "Catches",
+        "Catch"
+      ],
+      "a": 2,
+      "ex": "Words ending in 'ch' take 'es'. || 'ch' இல் முடியும் சொற்களுக்கு இறுதியில் 'es' சேர்க்க வேண்டும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is the plural form of 'Berry'? || 'Berry' என்பதன் பன்மை வடிவம் என்ன?",
+      "options": [
+        "Berrys",
+        "Berries",
+        "Berryes",
+        "Beries"
+      ],
+      "a": 1,
+      "ex": "The 'y' changes to 'ies' because 'r' is a consonant. || 'y' க்கு முன் 'r' என்ற மெய் எழுத்து இருப்பதால் 'y' மாறி 'ies' ஆகிறது.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is the plural form of 'Dish'? || 'Dish' என்பதன் பன்மை வடிவம் என்ன?",
+      "options": [
+        "Dishs",
+        "Dishes",
+        "Dishies",
+        "Dish"
+      ],
+      "a": 1,
+      "ex": "Words ending in 'sh' take 'es'. || 'sh' இல் முடியும் சொற்களுக்கு இறுதியில் 'es' சேர்க்க வேண்டும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "In the poem 'My Robot', what two words describe the robot's size and strength? || 'எனது ரோபோ' கவிதையில் அதன் அளவையும் பலத்தையும் குறிக்கும் இரு சொற்கள் எவை?",
+      "options": [
+        "Short and weak || குட்டையான மற்றும் பலவீனமான",
+        "Big and strong || பெரிய மற்றும் பலமான",
+        "Small and fast || சிறிய மற்றும் வேகமான",
+        "Tall and heavy || உயரமான மற்றும் கனமான"
+      ],
+      "a": 1,
+      "ex": "The poem describes the robot as 'big and strong'. || கவிதையின் முதல் வரியிலேயே ரோபோ பெரியது மற்றும் பலமானது என்று கூறப்படுகிறது.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "According to the poem, how does the robot walk along? || கவிதையின்படி ரோபோ எவ்வாறு நடந்து வரும்?",
+      "options": [
+        "With a heavy footstep || கனமான காலடிகளுடன்",
+        "With a nice rhyming song || ஒரு இனிமையான இயைபுப் பாடலுடன்",
+        "With a loud beep || ஒரு சத்தமான பீப் ஒலியுடன்",
+        "With a fast run || வேகமாக ஓடி வரும்"
+      ],
+      "a": 1,
+      "ex": "The robot walks along with a nice rhyming song. || ரோபோ ஒரு இனிமையான இயைபுக் கவிதையைப் பாடிக்கொண்டே நடந்து வரும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "How does the robot welcome all? || ரோபோ அனைவரையும் எவ்வாறு வரவேற்கும்?",
+      "options": [
+        "With a warm hug || கட்டிப்பிடித்து",
+        "With a handshake || கைகுலுக்கி",
+        "With a nice greeting call || ஒரு நல்ல வாழ்த்து அழைப்போடு",
+        "By offering food || உணவை வழங்கி"
+      ],
+      "a": 2,
+      "ex": "The robot welcomes all with a nice greeting call. || ரோபோ அனைவரையும் ஒரு இனிமையான வரவேற்பு அழைப்போடு வரவேற்கும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "How do the robot's wheels go in the poem? || கவிதையில் ரோபோவின் சக்கரங்கள் எவ்வாறு நகர்கின்றன?",
+      "options": [
+        "Front and back || முன்னும் பின்னும்",
+        "Left and right || இடமும் வலமும்",
+        "Up and down || மேலேயும் கீழேயும்",
+        "Round and round || வட்டமாகச் சுற்றி"
+      ],
+      "a": 0,
+      "ex": "The robot's wheels move front and back. || ரோபோவின் சக்கரங்கள் முன்னும் பின்னும் நகரும் என்று கவிதை கூறுகிறது.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Where does the robot keep the sack? || ரோபோ சாக்குப் பைகளை எங்கே வைக்கும்?",
+      "options": [
+        "On the floor || தரையில்",
+        "In every little rack || ஒவ்வொரு சிறிய அடுக்கிலும்",
+        "In the cupboard || அலமாரியில்",
+        "Outside the door || கதவிற்கு வெளியே"
+      ],
+      "a": 1,
+      "ex": "The robot keeps the sack in every little rack. || ரோபோ சாக்குகளை ஒவ்வொரு அடுக்கிலும் (rack) அடுக்கி வைக்கும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What does the robot never take? || ரோபோ எதை ஒருபோதும் எடுத்துக்கொள்வது இல்லை?",
+      "options": [
+        "Food and rest || உணவு மற்றும் ஓய்வு",
+        "Water and air || நீர் மற்றும் காற்று",
+        "Oil and battery || எண்ணெய் மற்றும் பேட்டரி",
+        "Breaks and naps || இடைவேளை மற்றும் தூக்கம்"
+      ],
+      "a": 0,
+      "ex": "The robot never needs food or rest to work. || ரோபோவிற்கு வேலை செய்ய உணவோ அல்லது ஓய்வோ தேவையில்லை.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is the rhyming word for 'tall' in the poem? || கவிதையில் 'tall' என்ற சொல்லிற்கு இயைபுச் சொல் (rhyming word) எது?",
+      "options": [
+        "Best",
+        "Rack",
+        "All",
+        "Along"
+      ],
+      "a": 2,
+      "ex": "'tall' rhymes with 'all' in the poem. || 'tall' மற்றும் 'all' ஆகிய இரண்டு சொற்களும் ஒரே மாதிரியான ஓசையைக் கொண்டுள்ளன.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is the rhyming word for 'rest' in the poem? || கவிதையில் 'rest' என்ற சொல்லிற்கு இயைபுச் சொல் எது?",
+      "options": [
+        "Sack",
+        "Best",
+        "Song",
+        "Tall"
+      ],
+      "a": 1,
+      "ex": "'rest' rhymes with 'best' in the poem. || 'rest' மற்றும் 'best' ஆகிய இரண்டு சொற்களும் ஒரே மாதிரியான ஓசையைக் கொண்டுள்ளன.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What type of noun denotes a person in general? || பொதுவாக ஒரு நபரைக் குறிக்கும் பெயர்ச்சொல் எது?",
+      "options": [
+        "Proper noun || சிறப்புப் பெயர்ச்சொல்",
+        "Common noun || பொதுப் பெயர்ச்சொல்",
+        "Adjective || பெயரடை",
+        "Pronoun || பிரதிப் பெயர்ச்சொல்"
+      ],
+      "a": 1,
+      "ex": "A common noun denotes a person or thing in general. || ஒரு பொதுவான பிரிவைக் குறிப்பது 'பொதுப் பெயர்ச்சொல்' (Common Noun) ஆகும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What type of noun denotes a person in particular? || ஒரு குறிப்பிட்ட நபரைக் குறிக்கும் பெயர்ச்சொல் எது?",
+      "options": [
+        "Common noun || பொதுப் பெயர்ச்சொல்",
+        "Proper noun || சிறப்புப் பெயர்ச்சொல்",
+        "Verb || வினைச்சொல்",
+        "Adverb || வினையுரிச்சொல்"
+      ],
+      "a": 1,
+      "ex": "A proper noun denotes a person or thing in particular. || ஒரு குறிப்பிட்ட பெயரைத் தெரிவிப்பது 'சிறப்புப் பெயர்ச்சொல்' (Proper Noun) ஆகும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Which of the following is a common noun? || கீழே உள்ளவற்றில் எது பொதுப் பெயர்ச்சொல்?",
+      "options": [
+        "Pooja",
+        "Nethra",
+        "girl",
+        "Arun"
+      ],
+      "a": 2,
+      "ex": "'girl' is a general naming word, so it is a common noun. || 'Pooja', 'Nethra', 'Arun' என்பவை குறிப்பிட்ட பெயர்கள்; 'girl' என்பது பொதுவானது.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Which of the following is a proper noun? || கீழே உள்ளவற்றில் எது சிறப்புப் பெயர்ச்சொல்?",
+      "options": [
+        "city",
+        "Chennai",
+        "boy",
+        "animal"
+      ],
+      "a": 1,
+      "ex": "'Chennai' is a specific name of a city, making it a proper noun. || 'Chennai' என்பது ஒரு குறிப்பிட்ட இடத்தைக் குறிப்பதால் அது சிறப்புப் பெயர்ச்சொல் ஆகும்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Find the odd one out: city, boy, book, Chennai || பொருந்தாத ஒன்றைக் கண்டுபிடி: city, boy, book, Chennai",
+      "options": [
+        "city",
+        "boy",
+        "book",
+        "Chennai"
+      ],
+      "a": 3,
+      "ex": "'Chennai' is a proper noun, while others are common nouns. || மற்ற மூன்றும் பொதுப் பெயர்ச்சொற்கள், சென்னை என்பது மட்டும் சிறப்புப் பெயர்ச்சொல்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Find the odd one out: Karikalan, Paari, Kumaran, king || பொருந்தாத ஒன்றைக் கண்டுபிடி: கரிகாலன், பாரி, குமரன், அரசன்",
+      "options": [
+        "Karikalan",
+        "Paari",
+        "Kumaran",
+        "king"
+      ],
+      "a": 3,
+      "ex": "'king' is a common noun, while the others are specific names. || மற்ற மூன்றும் குறிப்பிட்ட பெயர்கள், அரசன் என்பது பொதுவான பெயர்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Find the odd one out: mango, banana, fruit, apple || பொருந்தாத ஒன்றைக் கண்டுபிடி: மாம்பழம், வாழைப்பழம், பழம், ஆப்பிள்",
+      "options": [
+        "mango",
+        "banana",
+        "fruit",
+        "apple"
+      ],
+      "a": 2,
+      "ex": "'fruit' is the general category (common noun). || மற்றவை குறிப்பிட்ட பழங்கள், 'பழம்' என்பது பொதுவான சொல்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Where did Anitha go with her excitement? || அனிதா உற்சாகத்துடன் எங்கு சென்றாள்?",
+      "options": [
+        "A book fair || புத்தகக் கண்காட்சி",
+        "A dance program || நடன நிகழ்ச்சி",
+        "Robot Expo || ரோபோ கண்காட்சி",
+        "A vacation || சுற்றுலா"
+      ],
+      "a": 2,
+      "ex": "Anitha visited a Robot Expo during her holidays. || அனிதா தனது விடுமுறை நாட்களில் ரோபோ கண்காட்சிக்குச் சென்றாள்.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Who welcomed Anitha into the hall at the expo? || கண்காட்சி கூடத்திற்குள் அனிதாவை வரவேற்றது யார்?",
+      "options": [
+        "A security guard || ஒரு பாதுகாப்புக் காவலர்",
+        "A humanoid || ஒரு மனித உருவ ரோபோ",
+        "A dog robot || ஒரு நாய் ரோபோ",
+        "Her friends || அவளது நண்பர்கள்"
+      ],
+      "a": 1,
+      "ex": "A humanoid welcomed visitors and knew Anitha's name. || அனிதாவை ஒரு 'ஹியூமனாய்டு' வரவேற்றது மற்றும் அவளது பெயரையும் அது கூறியது.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What kind of robot suddenly sat on Anitha's shoulder? || அனிதாவின் தோளில் திடீரென்று அமர்ந்த ரோபோ எது?",
+      "options": [
+        "A dragonfly robot || ஒரு தும்பி ரோபோ",
+        "An ant robot || ஒரு எறும்பு ரோபோ",
+        "A butterfly robot || ஒரு பட்டாம்பூச்சி ரோபோ",
+        "A puppy robot || ஒரு நாய் குட்டி ரோபோ"
+      ],
+      "a": 2,
+      "ex": "A butterfly robot came and sat on Anitha's shoulder. || ஒரு பட்டாம்பூச்சி ரோபோ வந்து அனிதாவின் தோளில் அமர்ந்தது.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What dish did the cooking robot serve Anitha? || சமையல் ரோபோ அனிதாவிற்கு என்ன உணவை வழங்கியது?",
+      "options": [
+        "A salad || சாலட்",
+        "An omelette || ஆம்லெட்",
+        "A bowl of soup || சூப்",
+        "A slice of cake || கேக் துண்டு"
+      ],
+      "a": 1,
+      "ex": "The cooking robot served Anitha an omelette. || சமையல் ரோபோ அனிதாவிற்கு ஒரு ஆம்லெட் சமைத்துப் பரிமாறியது.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What did the robot that dropped the empty water bottle advise everyone to do? || காலியான தண்ணீர் பாட்டிலை மீட்டெடுத்த ரோபோ அனைவருக்கும் என்ன அறிவுரை கூறியது?",
+      "options": [
+        "Keep silence || அமைதி காக்கவும்",
+        "Wash hands || கைகளைச் கழுவவும்",
+        "Use dustbin || குப்பைத் தொட்டியைப் பயன்படுத்தவும்",
+        "Don't spit || எச்சில் துப்ப வேண்டாம்"
+      ],
+      "a": 2,
+      "ex": "The robot advised everyone to use the dustbin to keep the place clean. || குப்பையைத் தொட்டியில் போட வேண்டும் என்று ரோபோ அறிவுரை கூறியது.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "According to the expo, what part acts as the brain of a robot? || கண்காட்சியின்படி, ரோபோவின் மூளையாகச் செயல்படும் பாகம் எது?",
+      "options": [
+        "The mechanical part || இயந்திர பாகம்",
+        "The camera || கேமரா",
+        "The sensor || சென்சார்",
+        "The controller || கட்டுப்படுத்தி (கண்ட்ரோலர்)"
+      ],
+      "a": 3,
+      "ex": "The controller acts as the brain of the robot. || ஒரு ரோபோவிற்கு அதன் கட்டுப்படுத்தியே (Controller) மூளையாகச் செயல்படுகிறது.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is the use of the mechanical parts in a robot? || ரோபோவில் உள்ள இயந்திர பாகங்களின் பயன் என்ன?",
+      "options": [
+        "It acts as the brain || மூளையாகச் செயல்படுகிறது",
+        "It helps the robot sense walls || சுவர்களைக் கண்டறிய உதவுகிறது",
+        "It helps the robot move || ரோபோ நகர உதவுகிறது",
+        "It cooks food || உணவு சமைக்கிறது"
+      ],
+      "a": 2,
+      "ex": "Mechanical parts are necessary for the robot to move. || இயந்திர பாகங்களே ஒரு ரோபோ நகர்வதற்கு உதவுகின்றன.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "In the reading passage, on what day does the robot help its master get ready? || வாசிப்புப் பகுதியில், வாரத்தின் எந்த நாளில் ரோபோ அதன் முதலாளிக்கு உதவுகிறது?",
+      "options": [
+        "Sunday || ஞாயிறு",
+        "Monday || திங்கள்",
+        "Tuesday || செவ்வாய்",
+        "Friday || வெள்ளி"
+      ],
+      "a": 1,
+      "ex": "The passage describes the robot's morning routine on Monday. || அந்தப் பகுதியில் திங்கட்கிழமை காலையில் ரோபோ செய்யும் வேலைகள் விவரிக்கப்பட்டுள்ளன.",
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Where did the robot safely keep the master's car key? || ரோபோ அதன் முதலாளியின் கார் சாவியை எங்கே பாதுகாப்பாக வைத்தது?",
+      "options": [
+        "In the master's pocket || முதலாளியின் பாக்கெட்டில்",
+        "On the kitchen table || சமையலறை மேஜையில்",
+        "In the lunch box || மதிய உணவு பெட்டியில்",
+        "Inside the car || காருக்குள்"
+      ],
+      "a": 2,
+      "ex": "The robot kept the car key inside the master's lunch box. || ரோபோ கார் சாவியை மதிய உணவுப் பெட்டிக்குள் வைத்திருந்தது.",
+      "lesson": "Lesson_1"
+    }
+  ],
+  "sections": [
+    {
+      "title": "ATTENTION",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "THIS CONTENT IS A PLACEHOLDER. The original file was corrupted beyond recovery."
+        }
+      ]
+    },
+    {
+      "title": "1. PROSE: Earth, the Desolated Home || 1. உரைநடை: பூமி, பாழடைந்த இல்லம்",
+      "class": "box-pink",
+      "type": "content",
+      "content": [
+        {
+          "text": "((Story Overview || கதை மேலோட்டம்))"
+        },
+        {
+          "text": "🚀 [[Setting/காலம்]]: The year [[2068]]. Earth is completely destroyed due to human exploitation. || ஆண்டு [[2068]]. மனிதச் சுரண்டலால் பூமி முற்றிலும் அழிந்துவிட்டது."
+        },
+        {
+          "text": "🛰️ [[New Habitat/புதிய வாழிடம்]]: Humans have colonized [[Mars]] (the Red Planet). India has established three colonies there. || மனிதர்கள் [[செவ்வாய் கிரகத்தில்]] (சிவப்பு கிரகம்) குடியேறியுள்ளனர். இந்தியா அங்கு மூன்று குடியேற்றங்களை அமைத்துள்ளது."
+        },
+        {
+          "text": "👨‍👩‍👦 [[Characters/கதாபாத்திரங்கள்]]: [[Arivumathi]] and her grandfather. || [[அறிவுமதி]] மற்றும் அவளது தாத்தா."
+        },
+        {
+          "text": "📖 [[Plot Synopsis/கதைச் சுருக்கம்]]: Grandfather travels [[1500 sols]] (Martian days) to visit Arivumathi for her birthday. He compares the harsh, artificial life on Mars with the beautiful, natural past of Earth. || அறிவுமதியின் பிறந்தநாளுக்காக தாத்தா [[1500 செவ்வாய் நாட்களைக்]] கடந்து பயணம் செய்கிறார். அவர் செவ்வாய் கிரகத்தின் கடினமான வாழ்க்கையை பூமியின் இயற்கையான கடந்த காலத்துடன் ஒப்பிடுகிறார்."
+        },
+        {
+          "text": "🌱 [[Core Message/முக்கிய செய்தி]]: We must protect our [[natural home]] (Earth) instead of destroying it and struggling to adapt to dead planets. || நமது இயற்கை இல்லத்தை ([[பூமி]]) அழித்துவிட்டு, உயிரற்ற கிரகங்களில் வாழப் போராடுவதற்குப் பதிலாக, நாம் பூமியைப் பாதுகாக்க வேண்டும்."
+        },
+        {
+          "text": "((Key Comparisons (Earth vs. Mars) || முக்கிய ஒப்பீடுகள்))"
+        },
+        {
+          "text": "[[Environment]]: Clean Air (Earth) vs. Toxic Air + [[Space Suit]] (Mars) || [[சுற்றுச்சூழல்]]: தூய்மையான காற்று (பூமி) vs நச்சுக் காற்று + [[விண்வெளி உடை]] (செவ்வாய்)"
+        },
+        {
+          "text": "[[Agriculture]]: Natural Fertile Soil (Earth) vs. Chemically Treated Soil (Mars) || [[விவசாயம்]]: இயற்கை வளமான மண் (பூமி) vs ரசாயன மண் (செவ்வாய்)"
+        },
+        {
+          "text": "[[Water Supply]]: Natural Rain/Rivers (Earth) vs. [[Artificially Generated]] (Mars) || [[நீர் ஆதாரம்]]: இயற்கை மழை/நதிகள் (பூமி) vs [[செயற்கையாக உருவாக்கப்பட்டது]] (செவ்வாய்)"
+        }
+      ]
+    },
+    {
+      "title": "2. POEM: Beyond the Universe || 2. கவிதை: பிரபஞ்சத்தைத் தாண்டி",
+      "class": "box-orange",
+      "type": "content",
+      "content": [
+        {
+          "text": "((Theme || கருப்பொருள்))"
+        },
+        {
+          "text": "A vivid, imaginative journey across the [[solar system]], exploring the unique characteristics of different planets. || சூரிய குடும்பம் முழுவதும் ஒரு தெளிவான, கற்பனைப் பயணம்."
+        },
+        {
+          "text": "((The Cosmic Journey || காஸ்மிக் பயணம்))"
+        },
+        {
+          "text": "🌍 [[1. Earth]]: Leaving behind blue home || [[பூமி]]: நீல இல்லத்தை விட்டு வெளியேறுதல்."
+        },
+        {
+          "text": "🔴 [[2. Mars]]: Gliding past red planet || [[செவ்வாய்]]: சிவப்பு கிரகத்தைக் கடந்து செல்லுதல்."
+        },
+        {
+          "text": "🪐 [[3. Saturn]]: Magnificent rings and moons || [[சனி]]: அழகான வளையங்கள் மற்றும் நிலவுகள்."
+        },
+        {
+          "text": "🌀 [[4. Jupiter]]: Giant with [[red storms]] || [[வியாழன்]]: [[சிவப்பு புயல்களைக்]] கொண்ட அரக்கன்."
+        },
+        {
+          "text": "🔃 [[5. Uranus]]: Tumbling, rolling planet || [[யுரேனஸ்]]: உருளும் கிரகம்."
+        },
+        {
+          "text": "❄️ [[6. Neptune]]: [[Blue ice giant]] || [[நெப்டியூன்]]: [[நீல பனி அரக்கன்]]."
+        },
+        {
+          "text": "🌌 [[7. Destination]]: Infinite universe to meet [[Creator]] || [[முடிவு]]: [[படைப்பாளரைச்]] சந்திக்க எல்லையற்ற பிரபஞ்சம் நோக்கி."
+        }
+      ]
+    },
+    {
+      "title": "3. SUPPLEMENTARY: Lost in Space || 3. துணைப்பாடம்: விண்வெளியில் தொலைந்தவர்கள்",
+      "class": "box-blue",
+      "type": "content",
+      "content": [
+        {
+          "text": "((Story Overview || கதை மேலோட்டம்))"
+        },
+        {
+          "text": "[[Main Characters]]: [[Amuthan]] and [[Nilavan]]. || [[கதாபாத்திரங்கள்]]: [[அமுதன்]] மற்றும் [[நிலவன்]]."
+        },
+        {
+          "text": "[[The Incident]]: While visiting a space museum, they accidentally lock themselves inside a [[space shuttle]] and launch into space. || விண்வெளி அருங்காட்சியகத்தில் இருந்த [[விண்வெளி ஓடத்தில்]] தங்களை பூட்டிக் கொண்டு தவறுதலாக விண்ணில் பறந்தனர்."
+        },
+        {
+          "text": "[[The Climax]]: Shuttle crash-lands on a strange planet. They meet friendly green [[aliens]]. || ஒரு விசித்திரக் கிரகத்தில் விண்கலம் மோதியது. அங்கு நட்புமிக்க [[ஏலியன்களைச்]] சந்தித்தனர்."
+        },
+        {
+          "text": "[[Resolution]]: Aliens repair their shuttle and guide them safely back to Earth. || ஏலியன்கள் விண்கலத்தை சரிசெய்து அவர்களைப் பூமிக்குத் திருப்பி அனுப்பின."
+        }
+      ]
+    },
+    {
+      "title": "4. GLOSSARY & PICTIONARY || 4. கலைச்சொற்கள்",
+      "class": "box-green",
+      "type": "content",
+      "content": [
+        {
+          "text": "[[Sol]]: Martian day (Day on Mars). || [[Sol]]: செவ்வாய் கிரகத்தின் ஒரு நாள்."
+        },
+        {
+          "text": "[[Desolated]]: Ruined, empty, uninhabitable. || [[பாழடைந்த]]: பாழான, வாழத் தகுதியற்ற."
+        },
+        {
+          "text": "[[Hub]]: Central living space / settlement. || [[மையப்பகுதி]]: தங்கும் குடியிருப்பு."
+        },
+        {
+          "text": "[[Space suit]]: Pressurized suit for astronauts. || [[விண்வெளி உடை]]: விண்வெளி வீரர்களுக்கான உடை."
+        },
+        {
+          "text": "[[Capsule]]: Cylinder-shaped bed for sleeping. || [[காப்ஸ்யூல்]]: உறங்கும் உருளை வடிவப் படுக்கை."
+        },
+        {
+          "text": "[[Astonished]]: Greatly surprised / amazed. || [[வியப்பு]]: மிகவும் ஆச்சரியப்பட்ட."
+        },
+        {
+          "text": "[[Fossil Fuel]]: Ancient organic fuel (Coal/Oil). || [[புதைபடிவ எரிபொருள்]]: நிலக்கரி/எண்ணெய்."
+        },
+        {
+          "text": "[[Adapted]]: Adjusted to survive in new conditions. || [[தகவமைத்தல்]]: புதிய சூழ்நிலைக்கு ஏற்ப மாறுதல்."
+        },
+        {
+          "text": "[[Galaxy]]: Massive system of billions of stars. || [[பேரண்டம்]]: விண்மீன் மண்டலம்."
+        },
+        {
+          "text": "[[Milky Way]]: Galaxy containing our Solar System. || [[பால்வெளி மண்டலம்]]: நமது சூரிய குடும்பம் உள்ள மண்டலம்."
+        }
+      ]
+    },
+    {
+      "title": "5. GRAMMAR Focus || 5. இலக்கணம்",
+      "class": "box-orange",
+      "type": "content",
+      "content": [
+        {
+          "text": "((A. Compound Words || கூட்டுச் சொற்கள்))"
+        },
+        {
+          "text": "[[Sunflower]], [[Lighthouse]], [[Mailbox]], [[Watchman]], [[Starfish]], [[Rainbow]], [[Football]]. || இரண்டு தனித்தனி சொற்கள் இணைந்து புதிய சொல்லாகுதல்."
+        },
+        {
+          "text": "((B. Nouns || பெயர்ச்சொற்கள்))"
+        },
+        {
+          "text": "[[Collective Noun]]: Flock (birds), Swarm (bees), Bunch (grapes), Army (ants), Herd (cattle), Choir (singers). || [[தொகுப்புப் பெயர்]]: ஒரு தொகுதியைக் குறிக்கும் பெயர்."
+        },
+        {
+          "text": "[[Abstract Noun]]: Happiness, Freedom, Honesty, Bravery, Kindness. || [[பண்புப் பெயர்]]: தொட்டுணர முடியாத பண்பு அல்லது உணர்ச்சி."
+        }
+      ]
+    },
+    {
+      "title": "6. EVALUATION Q&A || 6. மதிப்பீடு வினா-விடைகள்",
+      "class": "box-blue",
+      "type": "content",
+      "content": [
+        {
+          "text": "[[Q1]]: What is the setting of 'Earth, the Desolated Home'? || 'Earth, the Desolated Home' கதையின் காலம் எது?"
+        },
+        {
+          "text": "[[Ans]]: The story is set in [[2068]] on planet Mars after humans destroyed Earth. || கி.பி. [[2068]] ஆண்டில் மனிதர்கள் பூமியை அழித்த பிறகு செவ்வாய் கிரகத்தில் கதை நடக்கிறது."
+        },
+        {
+          "text": "[[Q2]]: How long did it take for grandfather to reach? || தாத்தா வர எவ்வளவு காலம் ஆனது?"
+        },
+        {
+          "text": "[[Ans]]: It took [[1500 sols]] (Martian days) for grandfather to travel. || தாத்தா வர [[1500 செவ்வாய் நாட்கள்]] ஆனது."
+        },
+        {
+          "text": "[[Q3]]: How is water produced on Mars? || செவ்வாய் கிரகத்தில் தண்ணீர் எவ்வாறு உருவாகிறது?"
+        },
+        {
+          "text": "[[Ans]]: Water on Mars is artificially produced by [[burning fuels]]. || செவ்வாய் கிரகத்தில் [[எரிபொருட்களை எரிப்பதன்]] மூலம் தண்ணீர் உருவாகிறது."
+        },
+        {
+          "text": "[[Q4]]: Name planets mentioned in 'Beyond the Universe'. || கவிதையில் கூறப்பட்டுள்ள கிரகங்கள் யாவை?"
+        },
+        {
+          "text": "[[Ans]]: Earth, Mars, Saturn, Jupiter, Uranus, and Neptune. || பூமி, செவ்வாய், சனி, வியாழன், யுரேனஸ் மற்றும் நெப்டியூன்."
+        },
+        {
+          "text": "[[Q5]]: How did Amuthan and Nilavan return to Earth? || அமுதன் மற்றும் நிலவன் பூமிக்கு எப்படி திரும்பினர்?"
+        },
+        {
+          "text": "[[Ans]]: Friendly green [[aliens]] repaired their space shuttle and guided them home. || பச்சை நிற [[ஏலியன்கள்]] விண்கலத்தை சரிசெய்து வழிநடத்தின."
+        }
+      ]
     }
   ]
 }

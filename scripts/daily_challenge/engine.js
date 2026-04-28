@@ -181,10 +181,11 @@ async function run() {
       title: action === 'notes' ? `${getTitle(data, filePath)} - குறிப்புகள்` : getTitle(data, filePath),
       status: action === 'notes' ? 'notes' : 'open',
       activeSubject: subject,
-      activeGrade: testIdx.split('_')[1] || '5',
+      activeGrade: testIdx.toString(),
       activeTitles: [getTitle(data, filePath)],
       activeFiles: [path.basename(filePath, '.json')],
-      quiz
+      quiz: quiz.map(q => ({ ...q, lesson: path.basename(filePath, '.json') })),
+      sections: data.sections || []
     };
 
     if (action === 'open') {
@@ -205,8 +206,8 @@ async function run() {
     const d1 = JSON.parse(fs.readFileSync(file1, 'utf8'));
     const d2 = JSON.parse(fs.readFileSync(file2, 'utf8'));
     const quiz = [
-      ...extractQuiz(d1, action === 'notes'),
-      ...extractQuiz(d2, action === 'notes')
+      ...extractQuiz(d1, action === 'notes').map(q => ({ ...q, lesson: path.basename(file1, '.json') })),
+      ...extractQuiz(d2, action === 'notes').map(q => ({ ...q, lesson: path.basename(file2, '.json') }))
     ];
 
     payload = {
@@ -219,7 +220,11 @@ async function run() {
       activeGrade: '5', // Defaulting to 5 for now as per system
       activeTitles: [getTitle(d1, file1), getTitle(d2, file2)],
       activeFiles: [path.basename(file1, '.json'), path.basename(file2, '.json')],
-      quiz
+      quiz,
+      sections: [
+        ...(d1.sections || []),
+        ...(d2.sections || [])
+      ]
     };
 
     if (action === 'open') {
