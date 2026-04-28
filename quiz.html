@@ -469,8 +469,8 @@
 
     <script type="module">
         (async () => {
-            const v = new Date().getTime();
-            const { checkAuth, waitForAuth } = await import(`./js/auth.js?v=${v}`);
+            const v = Date.now();
+            const { checkAuth } = await import(`./js/auth.js?v=${v}`);
             const { getLocalLessonData } = await import(`./js/fetchData.js?v=${v}`);
 
             checkAuth();
@@ -482,314 +482,129 @@
             const paper = params.get('paper');
 
             const exitUrl = `subject.html?id=${subject}&class=${className}${paper ? `&paper=${paper}` : ''}`;
-            const exitBtn = document.getElementById('exitQuizSticky');
-            if (exitBtn) exitBtn.href = exitUrl;
-            const backHome = document.getElementById('backHome');
-            if (backHome) backHome.href = exitUrl;
+            document.getElementById('exitQuizSticky').href = exitUrl;
+            document.getElementById('backHome').href = exitUrl;
 
-            let currentIdx = 0;
             let questions = [];
             let answers = {};
             let resultsRevealed = false;
             let currentUserName = "";
             let currentLessonTitleDisplay = "";
+            let currentLanguage = localStorage.getItem('appLanguage') || 'en';
 
-            // Start fetching data immediately
+            const startQuizBtn = document.getElementById('startQuizBtn');
+            const userNameInput = document.getElementById('userNameInput');
+
+            async function initQuiz() {
+                try {
+                    const result = await getLocalLessonData(subject, className, lessonId);
+                    if (!result || !result.data) {
+                        alert('தேர்வுக்கான தரவுகள் (Quiz Data) இன்னும் வரவில்லை. தயவுசெய்து சிறிது நேரம் கழித்து மீண்டும் முயற்சிக்கவும்!');
+                        return;
+                    }
+                    const data = result.data;
+                    const lessonTitle = data.title || (data.lesson_meta ? data.lesson_meta.title : 'Online Test');
+                    currentLessonTitleDisplay = lessonTitle;
+
+                    questions = data.quiz ? (data.quiz.questions || (Array.isArray(data.quiz) ? data.quiz : [])) : (data.questions || []);
+                    
+                    if (questions.length === 0) {
+                        alert("கேள்விகள் இன்னும் தயாராகவில்லை.");
+                        return;
+                    }
+
+                    const titleEl = document.getElementById('lessonTitle');
+                    if (titleEl) titleEl.innerHTML = formatText(lessonTitle);
+                    document.getElementById('totalQNum').innerText = questions.length;
+                    
+                    renderAllQuestions();
+                    document.getElementById('quizLoader').style.display = 'none';
+                    document.getElementById('quizApp').style.display = 'block';
+                    
+                    checkEnglishSubject();
+                    updateLangUI();
+                } catch (e) {
+                    console.error("Init Error:", e);
+                }
+            }
+
             initQuiz();
 
             startQuizBtn.onclick = () => {
                 const name = userNameInput.value.trim();
-                if (!name) {
-                    alert("தயவுசெய்து உங்கள் பெயரை உள்ளிடவும் (Please enter your name)");
-                    return;
-                }
+                if (!name) { alert("பெயரை உள்ளிடவும்!"); return; }
                 currentUserName = name;
                 document.getElementById('namePrompt').style.display = 'none';
                 document.getElementById('nameOverlay').style.display = 'none';
             };
 
-            window.closeResults = () => {
-                if (window.history.state && window.history.state.results) {
-                    window.history.back();
-                } else {
-                    document.getElementById('overlay').style.display = 'none';
-                    document.getElementById('resultView').style.display = 'none';
+            window.handleSelect = (qIdx, oIdx, el) => {
+                if (resultsRevealed) return;
+                const grid = document.getElementById(`options-${qIdx}`);
+                if (!grid || grid.classList.contains('locked')) return;
+
+                const q = questions[qIdx];
+                const correctIdx = q.answer !== undefined ? q.answer : q.a;
+                answers[qIdx] = oIdx;
+                
+                const items = grid.querySelectorAll('.option-item');
+                if (oIdx === correctIdx) el.classList.add('correct');
+                else {
+                    el.classList.add('wrong');
+                    if (items[correctIdx]) items[correctIdx].classList.add('correct');
                 }
+                el.classList.add('selected');
+                grid.classList.add('locked');
             };
 
-            window.addEventListener('popstate', (e) => {
-                if (!e.state || !e.state.results) {
-                    document.getElementById('overlay').style.display = 'none';
-                    document.getElementById('resultView').style.display = 'none';
-                }
-            });
+            function renderAllQuestions() {
+                const container = document.getElementById('questionContainer');
+                if (!container) return;
+                container.innerHTML = questions.map((q, idx) => `
+                    <div class="question-card">
+                        <div class="question-text">
+                            <strong>${idx + 1}.</strong> ${formatText(q.question || q.q)}
+                        </div>
+                        <div class="options-grid" id="options-${idx}">
+                            ${q.options.map((opt, oIdx) => `
+                                <div class="option-item" onclick="handleSelect(${idx}, ${oIdx}, this)">
+                                    <span>${formatText(opt)}</span>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `).join('');
+            }
 
-            window.toggleLang = (lang, btn) => {
+            window.toggleLang = (lang) => {
                 currentLanguage = lang;
                 localStorage.setItem('appLanguage', lang);
                 updateLangUI();
             };
 
-            function updateLangUI() {
-                document.body.classList.remove('lang-en', 'lang-tm');
-                if (currentLanguage !== 'both') {
-                    document.body.classList.add('lang-' + currentLanguage);
-                }
-                
-                document.querySelectorAll('.lang-btn').forEach(b => {
-                    b.classList.remove('active');
-                    if (b.innerText.toLowerCase().includes(currentLanguage.substring(0, 2))) {
-                        b.classList.add('active');
-                    }
-                });
-            }
-
-            const checkEnglishSubject = () => {
-                const toggle = document.getElementById('inlineLangToggle');
-                if (subject && subject.toLowerCase().includes('english')) {
-                    toggle.style.display = 'flex';
-                } else {
-                    if (toggle) toggle.style.display = 'none';
-                    currentLanguage = 'tm';
-                    updateLangUI();
-                }
-            };
-
-            let currentLanguage = localStorage.getItem('appLanguage') || 'en';
-            updateLangUI();
-
             function formatText(text) {
                 if (!text) return "";
-                let html = text.toString().replace(/\[\[(.*?)\]\]/g, '<span class="keyword-highlight">$1</span>');
-                
-                // 1. Format Assertion/Reason (கூற்று / காரணம்)
-                if (html.includes('கூற்று') || html.includes('காரணம்')) {
-                    html = html.replace(/(கூற்று\s*(?:\([^)]*\))?\s*:)/g, '<strong>$1</strong>');
-                    html = html.replace(/(காரணம்\s*(?:\([^)]*\))?\s*:)/g, '<br><strong>$1</strong>');
-                    html = html.replace(/\n/g, '<br>');
-                    // If we found both, don't do the aggressive lang swap below to prevent mangling
-                    return html;
-                }
-                
-                // 2. Support '||' separator (New Standard)
-                if (html.includes('||')) {
-                    const parts = html.split('||');
-                    return `<span class="en-text">${parts[0].trim()}</span><span class="lang-sep">||</span><span class="tm-text">${parts[1].trim()}</span>`;
-                }
-                
-                // 3. Support ' / ' (Old Fallback)
-                if (html.includes(" / ")) {
-                    const parts = html.split(" / ");
-                    return `<span class="en-text">${parts[0].trim()}</span><span class="lang-sep">/</span><span class="tm-text">${parts[1].trim()}</span>`;
-                }
-
-                // 4. Safe Language Wrap (Only for simple terms like "Banana (வாழைப்பழம்)")
-                const tamilRegex = /[\u0b80-\u0bff]+/;
-                if (tamilRegex.test(html) && /[a-zA-Z]/.test(html)) {
-                    // Only swap if it's a simple "Tamil (English)" or "English (Tamil)" structure without complex nested parens
-                    const simpleSwapRegex = /^([^(]+)\s*\(([^)]+)\)$/;
-                    const match = html.match(simpleSwapRegex);
-                    if (match) {
-                        const p1 = match[1].trim();
-                        const p2 = match[2].trim();
-                        if (tamilRegex.test(p1)) {
-                            return `<span class="tm-text">${p1}</span> <span class="en-text">(${p2})</span>`;
-                        } else {
-                            return `<span class="en-text">${p1}</span> <span class="tm-text">(${p2})</span>`;
-                        }
-                    }
+                let html = text.toString().replace(/\|\|/g, ' / ');
+                if (html.includes(' / ')) {
+                    const parts = html.split(' / ');
+                    return `<span class="en-text">${parts[0]}</span><span class="lang-sep">/</span><span class="tm-text">${parts[1]}</span>`;
                 }
                 return html;
             }
 
-            async function initQuiz() {
-                const result = await getLocalLessonData(subject, className, lessonId);
-                if (!result || !result.data) {
-                    alert('தேர்வுக்கான தரவுகள் (Quiz Data) இன்னும் வரவில்லை. தயவுசெய்து சிறிது நேரம் கழித்து மீண்டும் முயற்சிக்கவும்!');
-                    return;
-                }
-                const data = result.data;
-                const lessonTitle = data.title || (data.lesson_meta ? data.lesson_meta.title : 'Online Test');
-                currentLessonTitleDisplay = lessonTitle;
-
-                // --- ENFORCE EXAM TIMING (ONLY FOR DAILY CHALLENGE) ---
-                const urlStatus = params.get('status');
-                if (lessonId === '1' && !urlStatus && data.status === 'notes') {
-                    alert('தேர்வு (Exam) இரவு 8:00 மணிக்குத் தான் தொடங்கும். இப்போது பாடக்குறிப்புகளை (Notes) மட்டும் படிக்கலாம்!');
-                    const url = new URL(window.location);
-                    url.searchParams.set('status', 'notes');
-                    window.location.href = url.toString();
-                    return;
-                }
-
-                // --- ENFORCE EXAM TIMING (ONLY FOR DAILY CHALLENGE) ---
-                const urlStatus = params.get('status');
-                if (lessonId === '1' && !urlStatus && data.status === 'notes') {
-                    alert('தேர்வு (Exam) இரவு 8:00 மணிக்குத் தான் தொடங்கும். இப்போது பாடக்குறிப்புகளை (Notes) மட்டும் படிக்கலாம்!');
-                    const url = new URL(window.location);
-                    url.searchParams.set('status', 'notes');
-                    window.location.href = url.toString();
-                    return;
-                }
-
-                // Extract questions
-                let parsedPYQ = [];
-                if (data.sections) {
-                    data.sections.forEach(sec => {
-                        if (sec.type === 'pyq' || sec.type === 'mocktest' || sec.type === 'evaluation') {
-                            const evalData = sec.evaluationData ? (sec.evaluationData.mcqs || []) : [];
-                            const contentArray = Array.isArray(sec.content) ? sec.content : evalData;
-                            contentArray.forEach(item => {
-                                let qText = item.question || item.q || "";
-                                let aText = item.answer || item.a || "";
-                                
-                                let mainQ = qText;
-                                let options = item.options || [];
-                                
-                                if (options.length === 0) {
-                                    // Look for index of (A) to reliably split question and options
-                                    let aIndex = qText.indexOf('(A)');
-                                    if (aIndex === -1) aIndex = qText.indexOf('(a)');
-                                    
-                                    if (aIndex !== -1) {
-                                        mainQ = qText.substring(0, aIndex).trim();
-                                        
-                                        let rest = qText.substring(aIndex);
-                                        let bParts = rest.split(/\(B\)|\(b\)/);
-                                        let optA = bParts[0].replace(/\(A\)|\(a\)/, '').trim();
-                                        
-                                        if (bParts.length > 1) {
-                                            let cParts = bParts[1].split(/\(C\)|\(c\)/);
-                                            let optB = cParts[0].trim();
-                                            
-                                            if (cParts.length > 1) {
-                                                let dParts = cParts[1].split(/\(D\)|\(d\)/);
-                                                let optC = dParts[0].trim();
-                                                let optD = (dParts.length > 1) ? dParts[1].trim() : "";
-                                                
-                                                options = ["(A) " + optA, "(B) " + optB, "(C) " + optC, "(D) " + optD];
-                                            }
-                                        }
-                                    }
-                                }
-
-                                let ansMain = aText;
-                                let explMain = item.explanation || item.ex || "";
-                                if (!explMain) {
-                                    let explParts = aText.toString().split(/விளக்கம்:/i);
-                                    if(explParts.length > 1) {
-                                        ansMain = explParts[0].trim();
-                                        if (ansMain.endsWith(')')) ansMain = ansMain.slice(0, -1);
-                                        explMain = explParts[1].trim();
-                                    }
-                                }
-                                
-                                let correctIdx = item.answer !== undefined ? item.answer : (item.a !== undefined ? item.a : -1);
-                                if (typeof correctIdx !== 'number') {
-                                    let ansUpper = ansMain.toString().toUpperCase();
-                                    if (ansUpper.includes('A')) correctIdx = 0;
-                                    else if (ansUpper.includes('B')) correctIdx = 1;
-                                    else if (ansUpper.includes('C')) correctIdx = 2;
-                                    else if (ansUpper.includes('D')) correctIdx = 3;
-                                }
-
-                                if (options.length > 0) {
-                                    parsedPYQ.push({
-                                        question: mainQ,
-                                        options: options,
-                                        answer: correctIdx,
-                                        explanation: explMain || ansMain
-                                    });
-                                }
-                            });
-                        }
-                    });
-                }
-                
-                questions = data.quiz ? (data.quiz.questions || (Array.isArray(data.quiz) ? data.quiz : [])) : (data.questions || []);
-                if (questions.length === 0 && parsedPYQ.length > 0) {
-                    questions = parsedPYQ;
-                }
-                if (questions.length === 0) {
-                    const loader = document.getElementById('quizLoader');
-                    if (loader) loader.innerHTML = "தேர்வு கேள்விகள் இன்னும் தயாராகவில்லை. (Questions Pending)";
-                    return;
-                }
-
-                const titleEl = document.getElementById('lessonTitle');
-                if (titleEl) titleEl.innerHTML = formatText(lessonTitle);
-                const qNumEl = document.getElementById('totalQNum');
-                if (qNumEl) qNumEl.innerText = questions.length;
-                
-                renderAllQuestions();
-                
-                const loader = document.getElementById('quizLoader');
-                if (loader) loader.style.display = 'none';
-                const app = document.getElementById('quizApp');
-                if (app) app.style.display = 'block';
+            function updateLangUI() {
+                document.body.className = 'lang-' + currentLanguage;
             }
 
-            function renderAllQuestions() {
-                const container = document.getElementById('questionContainer');
-                if (!container) return;
-                container.innerHTML = questions.map((q, idx) => {
-                    const questionText = q.question || q.q;
-                    const explanationText = q.ex || (q.explanation || '');
-                    const isSelected = (oIdx) => answers[idx] === oIdx;
-                    
-                    return `
-                    <div id="q-card-${idx}" class="question-card animate-fade">
-                        <div class="question-text" style="text-align: left !important;">
-                            <span style="color: #64748b; font-size: 0.95rem; font-weight: 800; display: inline-block; min-width: 30px;">${idx + 1}. </span>
-                            <span style="display: inline;">${formatText(questionText)}</span>
-                        </div>
-                        <div class="options-grid" id="options-${idx}">
-                            ${q.options.map((opt, oIdx) => `
-                            <div class="option-item ${isSelected(oIdx) ? 'selected' : ''}" onclick="handleSelect(${idx}, ${oIdx}, this)">
-                                <span>${formatText(opt)}</span>
-                            </div>
-                            `).join('')}
-                        </div>
-                        <div id="ex-box-${idx}" class="explanation-box" style="${resultsRevealed ? 'display:block' : 'display:none'}">
-                            <strong style="color: #10b981; display: block; margin-bottom: 8px; font-size: 1.1rem;">சரியான விடை: <span style="color:#065f46;">${formatText(q.options[q.answer !== undefined ? q.answer : q.a] || '')}</span></strong>
-                            <strong style="color: #1a73e8; display: block; margin-bottom: 5px;">விளக்கம் (Explanation):</strong>
-                            ${formatText(explanationText)}
-                        </div>
-                    </div>
-                    `;
-                }).join('');
-                
-                if (window.MathJax) {
-                    window.MathJax.typesetPromise();
+            function checkEnglishSubject() {
+                if (subject && subject.includes('english')) {
+                    document.getElementById('inlineLangToggle').style.display = 'flex';
                 }
             }
 
-            window.handleSelect = (qIdx, oIdx, el) => {
-                if (resultsRevealed) return;
-                const grid = document.getElementById(`options-${qIdx}`);
-                if (!grid) return;
-                
-                // If already answered, don't allow re-selection
-                if (answers[qIdx] !== undefined) return;
-
-                const q = questions[qIdx];
-                const correctIdx = q.answer !== undefined ? q.answer : q.a;
-                
-                // Store answer
-                answers[qIdx] = oIdx;
-                
-                // Highlight immediately
-                const items = grid.querySelectorAll('.option-item');
-                if (oIdx === correctIdx) {
-                    el.classList.add('correct');
-                } else {
-                    el.classList.add('wrong');
-                    if (items[correctIdx]) items[correctIdx].classList.add('correct');
-                }
-                
-                // Mark as selected and lock
-                el.classList.add('selected');
-                grid.classList.add('locked');
+            window.closeResults = () => {
+                document.getElementById('overlay').style.display = 'none';
+                document.getElementById('resultView').style.display = 'none';
             };
 
             const submitBtn = document.getElementById('finalSubmitBtn');
@@ -797,17 +612,9 @@
                 submitBtn.onclick = () => {
                     let score = 0;
                     questions.forEach((q, idx) => {
-                        const correctIdx = q.answer !== undefined ? q.answer : q.a;
-                        const userIdx = answers[idx];
-                        if (userIdx !== undefined && userIdx === correctIdx) {
-                            score++;
-                        }
+                        if (answers[idx] === (q.answer !== undefined ? q.answer : q.a)) score++;
                     });
-
                     resultsRevealed = true;
-                    revealAllResults();
-
-                    window.history.pushState({ results: true }, '', '');
                     document.getElementById('overlay').style.display = 'block';
                     document.getElementById('resultView').style.display = 'block';
                     document.getElementById('finalScore').innerText = `${score}/${questions.length}`;
@@ -815,9 +622,7 @@
                     document.getElementById('resLessonTitle').innerText = currentLessonTitleDisplay.replace(/\|\|/g, ' / ');
                     
                     const pct = (score / questions.length) * 100;
-                    let msg = pct >= 80 ? "சிறப்பு! (Excellent!)" : pct >= 50 ? "நல்ல முயற்சி! (Good!)" : "மேலும் பயிற்சி தேவை. (Keep it up!)";
-                    document.getElementById('resultMsg').innerText = msg;
-
+                    document.getElementById('resultMsg').innerText = pct >= 80 ? "சிறப்பு! (Excellent!)" : pct >= 50 ? "நல்ல முயற்சி! (Good!)" : "மேலும் பயிற்சி தேவை. (Keep it up!)";
                     window.scrollTo(0, 0);
                 };
             }
