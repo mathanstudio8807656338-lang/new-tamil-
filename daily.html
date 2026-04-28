@@ -140,32 +140,45 @@
                     </div>
                 `;
 
-                html += `
-                    <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1rem;">
-                        <a href="material.html?subject=${subject}&class=${grade}&lesson=1" class="action-btn btn-notes" style="padding: 1.5rem; font-size: 1.2rem; border-radius: 100px;">
-                            📖 இன்றைய பாடக்குறிப்புகள் (Read Today's Notes)
-                        </a>
+                const isNotesOpen = data.status === 'notes' || data.status === 'open';
 
-                        ${isExamOpen ? `
-                            <a href="quiz.html?subject=${subject}&class=${grade}&lesson=1" class="action-btn btn-exam" style="padding: 1.5rem; font-size: 1.2rem; border-radius: 100px;">
-                                📝 இன்றைய ஆன்லைன் தேர்வு (Start Today's Exam)
-                            </a>
-                        ` : `
-                            <div class="action-btn btn-locked" style="padding: 1.5rem; font-size: 1.2rem; border-radius: 100px;">
-                                🔒 தேர்வு இரவு 8:00 மணிக்குத் தொடங்கும் (Exam at 8PM)
-                            </div>
-                        `}
-                    </div>
+                html += `<div class="lessons-container" style="display: flex; flex-direction: column; gap: 2rem; margin-top: 1rem;">`;
 
-                    <div style="margin-top: 3rem;">
-                        <p style="font-weight: 800; color: #64748b; font-size: 0.9rem; margin-bottom: 1rem; text-align: center;">இன்றைய பாடங்கள் (Today's Lessons):</p>
-                        ${titles.map(title => `
-                            <div class="lesson-card" style="margin-bottom: 0.75rem; padding: 1rem;">
-                                <div class="lesson-title" style="margin-bottom: 0; font-size: 1rem;">${title}</div>
+                titles.forEach((title, idx) => {
+                    const fileId = data.activeFiles[idx] || '1';
+                    
+                    html += `
+                        <div class="lesson-card" style="margin-bottom: 0; padding: 1.5rem;">
+                            <div class="lesson-title" style="margin-bottom: 1.5rem; text-align: center; color: #1e293b; border-bottom: 2px dashed #e2e8f0; padding-bottom: 1rem; font-size: 1.25rem;">
+                                ${title}
                             </div>
-                        `).join('')}
-                    </div>
-                `;
+                            
+                            <div style="display: grid; grid-template-columns: 1fr; gap: 1rem;">
+                                ${isNotesOpen ? `
+                                    <a href="material.html?subject=${subject}&class=${grade}&lesson=${fileId}" class="action-btn btn-notes" style="padding: 1rem; border-radius: 12px; font-size: 1.05rem;">
+                                        📖 பாடக்குறிப்புகள் (Study Notes)
+                                    </a>
+                                ` : `
+                                    <div class="action-btn btn-locked" style="padding: 1rem; border-radius: 12px; font-size: 1.05rem;">
+                                        🔒 பாடக்குறிப்புகள் மூடியுள்ளது
+                                    </div>
+                                `}
+
+                                ${isExamOpen ? `
+                                    <a href="quiz.html?subject=${subject}&class=${grade}&lesson=${fileId}" class="action-btn btn-exam" style="padding: 1rem; border-radius: 12px; font-size: 1.05rem;">
+                                        📝 ஆன்லைன் தேர்வு (Online Exam)
+                                    </a>
+                                ` : `
+                                    <div class="action-btn btn-locked" style="padding: 1rem; border-radius: 12px; font-size: 1.05rem;">
+                                        🔒 தேர்வு இரவு 8:00 மணிக்கு (Exam at 8 PM)
+                                    </div>
+                                `}
+                            </div>
+                        </div>
+                    `;
+                });
+
+                html += `</div>`;
 
                 const dateStr = new Date().toLocaleDateString('ta-IN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
                 document.getElementById('currentDateDisplay').innerText = dateStr;
