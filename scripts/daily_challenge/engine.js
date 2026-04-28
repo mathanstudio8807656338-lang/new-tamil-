@@ -180,6 +180,8 @@ async function run() {
       unit: 'Daily Challenge', subject: subject.toUpperCase(),
       title: action === 'notes' ? `${getTitle(data, filePath)} - குறிப்புகள்` : getTitle(data, filePath),
       status: action === 'notes' ? 'notes' : 'open',
+      activeSubject: subject,
+      activeFiles: [path.basename(filePath, '.json')],
       quiz
     };
 
@@ -211,6 +213,8 @@ async function run() {
         ? `இன்றைய குறிப்புகள்: ${getTitle(d1, file1)} & ${getTitle(d2, file2)}`
         : `இன்றைய தேர்வு: ${getTitle(d1, file1)} & ${getTitle(d2, file2)}`,
       status: action === 'notes' ? 'notes' : 'open',
+      activeSubject: subject,
+      activeFiles: [path.basename(file1, '.json'), path.basename(file2, '.json')],
       quiz
     };
 

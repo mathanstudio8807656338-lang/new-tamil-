@@ -405,6 +405,20 @@
                     else allowedClasses = ['4', '5']; 
                 } else if (paper === 'extra') allowedClasses = ['9', '10'];
 
+                const isDailyMode = params.get('mode') === 'daily';
+                let activeFiles = [];
+                if (isDailyMode) {
+                    try {
+                        const dailyRes = await fetch('1.json?v=' + v);
+                        if (dailyRes.ok) {
+                            const dailyData = await dailyRes.json();
+                            activeFiles = dailyData.activeFiles || [];
+                            // Update title to indicate Daily Challenge
+                            titleEl.innerText += " - இன்றைய தேர்வு";
+                        }
+                    } catch (e) { console.error("Could not fetch daily data", e); }
+                }
+
                 // RENDER FUNCTIONS
                 const renderLessons = () => {
                     if (!syllabusContainer) return;
@@ -428,6 +442,13 @@
                         term.units.forEach(unit => {
                             unit.topics.forEach(topic => {
                                 const isReady = topic.isUpdated;
+                                let isFaded = !isReady;
+                                
+                                // Daily Mode filtering
+                                if (isDailyMode && isReady) {
+                                    const code = topic.code || topic.title;
+                                    isFaded = !activeFiles.includes(code);
+                                }
 
                                 let displayTitle = topic.title;
                                 if (paper === 'extra') {
@@ -436,17 +457,17 @@
                                 }
 
                             html += `
-                                <div class="topic-card ${isReady ? '' : 'faded'}" ${isReady ? 'onclick="toggleAccordion(this)"' : ''}>
+                                <div class="topic-card ${isFaded ? 'faded' : ''}" ${!isFaded ? 'onclick="toggleAccordion(this)"' : ''}>
                                     <div class="topic-title-wrapper">
                                         <h3 class="topic-title">
                                             ${displayTitle}
-                                            ${isReady ? '' : '<span style="font-size:0.7rem; color:#64748b; margin-left:8px; font-weight:400;">(விரைவில்...)</span>'}
+                                            ${isReady ? (isFaded && isDailyMode ? '<span style="font-size:0.7rem; color:#64748b; margin-left:8px; font-weight:400;">(இன்று இல்லை)</span>' : '') : '<span style="font-size:0.7rem; color:#64748b; margin-left:8px; font-weight:400;">(விரைவில்...)</span>'}
                                         </h3>
                                         <div class="chevron">
-                                            ${isReady ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>' : '🔒'}
+                                            ${!isFaded ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>' : '🔒'}
                                         </div>
                                     </div>
-                                    ${isReady ? `
+                                    ${!isFaded ? `
                                     <div class="btn-group">
                                         <a href="material.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}" class="card-btn btn-notes" onclick="event.stopPropagation()">
                                             பாடக்குறிப்புகள்

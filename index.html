@@ -467,6 +467,19 @@
                     }
                 });
             }
+
+            // --- DYNAMIC DAILY CHALLENGE LINK ---
+            try {
+                const dailyRes = await fetch('1.json?v=' + v);
+                if (dailyRes.ok) {
+                    const dailyData = await dailyRes.json();
+                    const dailyLink = document.querySelector('a[href*="quiz.html?lesson=1"]');
+                    if (dailyLink && dailyData.activeSubject) {
+                        // Redirect to subject.html with mode=daily
+                        dailyLink.href = `subject.html?id=${dailyData.activeSubject.toLowerCase()}&mode=daily&paper=1`;
+                    }
+                }
+            } catch (e) { console.error("Could not fetch daily data for link", e); }
         })();
     </script>
 </body>
