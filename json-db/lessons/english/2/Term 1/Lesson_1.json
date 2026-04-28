@@ -1,0 +1,710 @@
+{
+  "lesson_meta": {
+    "title": "Our Sweet Home",
+    "unit": "1",
+    "grade": "2",
+    "term": "t1",
+    "subject": "english",
+    "code": "eng_2_t1_l1"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Which of the following items is typically found in a bedroom?",
+        "options": [
+          "Stove",
+          "Cot",
+          "Sink",
+          "Dustbin"
+        ],
+        "answer": 1,
+        "explanation": "A cot is a small bed, which is typically found in the bedroom as listed in the vocabulary section."
+      },
+      {
+        "question": "Where would you place a grinder and a mixie according to the lesson?",
+        "options": [
+          "Living Room",
+          "Kitchen",
+          "Bathroom",
+          "Bedroom"
+        ],
+        "answer": 1,
+        "explanation": "Grinder, mixie, stove, plate, dustbin, and sink are items placed under the Kitchen vocabulary."
+      },
+      {
+        "question": "Identify the item that belongs to the bathroom category.",
+        "options": [
+          "Television",
+          "Cradle",
+          "Soap",
+          "Lamp"
+        ],
+        "answer": 2,
+        "explanation": "Soap, along with bucket, mug, towel, brush, tap, mirror, and washbasin, belongs to the bathroom."
+      },
+      {
+        "question": "Where is the television usually located in a house as per the text?",
+        "options": [
+          "Bathroom",
+          "Bedroom/Living Room",
+          "Kitchen",
+          "Garden"
+        ],
+        "answer": 1,
+        "explanation": "The television is listed under the Bedroom/Living Room vocabulary section."
+      },
+      {
+        "question": "Match the following items to their rooms: 1. Pillow, 2. Stove, 3. Mug",
+        "options": [
+          "1-Kitchen, 2-Bathroom, 3-Bedroom",
+          "1-Bedroom, 2-Kitchen, 3-Bathroom",
+          "1-Bathroom, 2-Bedroom, 3-Kitchen",
+          "1-Kitchen, 2-Bedroom, 3-Bathroom"
+        ],
+        "answer": 1,
+        "explanation": "Pillows are in the bedroom, stoves in the kitchen, and mugs in the bathroom."
+      },
+      {
+        "question": "Find the odd one out based on the room vocabulary:",
+        "options": [
+          "Cupboard",
+          "Cradle",
+          "Sofa",
+          "Washbasin"
+        ],
+        "answer": 3,
+        "explanation": "Cupboard, cradle, and sofa belong to the living room/bedroom, whereas washbasin belongs to the bathroom."
+      },
+      {
+        "question": "Assertion (A): A sink is listed under the kitchen vocabulary.\nReason (R): Sinks are used for washing plates and utensils in the kitchen.",
+        "options": [
+          "Both A and R are true and R is the correct explanation.",
+          "Both A and R are true but R is not the correct explanation.",
+          "A is true but R is false.",
+          "A is false but R is true."
+        ],
+        "answer": 0,
+        "explanation": "The assertion is correct as per the text, and the reason logically explains why it is placed in the kitchen."
+      },
+      {
+        "question": "Analogy Question - Sofa : Living Room :: Towel : ?",
+        "options": [
+          "Kitchen",
+          "Bathroom",
+          "Bedroom",
+          "Garden"
+        ],
+        "answer": 1,
+        "explanation": "Just like a sofa is kept in the living room, a towel is kept in the bathroom."
+      },
+      {
+        "question": "Real-life scenario: A child wants to throw away waste wrappers. Which item should they look for, and where is it located?",
+        "options": [
+          "Dustbin, Kitchen",
+          "Washbasin, Bathroom",
+          "Cupboard, Bedroom",
+          "Sink, Kitchen"
+        ],
+        "answer": 0,
+        "explanation": "The dustbin is used for waste and is explicitly listed under the Kitchen vocabulary."
+      },
+      {
+        "question": "Which of the following is NOT found in the Bedroom/Living Room list?",
+        "options": [
+          "Lamp",
+          "Clock",
+          "Bucket",
+          "Chair"
+        ],
+        "answer": 2,
+        "explanation": "A bucket is an item associated with the bathroom, not the bedroom or living room."
+      },
+      {
+        "question": "What is the grammatical concept taught using the terms 'big and small'?",
+        "options": [
+          "Verbs",
+          "Adjectives",
+          "Pronouns",
+          "Adverbs"
+        ],
+        "answer": 1,
+        "explanation": "Using words to describe things, such as 'big' and 'small', introduces children to adjectives."
+      },
+      {
+        "question": "What basic grammatical concept is introduced using 'one' and 'many'?",
+        "options": [
+          "Gender",
+          "Tenses",
+          "Plurals",
+          "Prepositions"
+        ],
+        "answer": 2,
+        "explanation": "The concepts of 'one' and 'many' teach young children about singulars and plurals."
+      },
+      {
+        "question": "Which sentence structure is reinforced for demonstratives in this unit?",
+        "options": [
+          "That is a...",
+          "This is a...",
+          "Here is a...",
+          "There is a..."
+        ],
+        "answer": 1,
+        "explanation": "Teachers are instructed to reinforce the sentence structure 'This is a...' to master demonstratives."
+      },
+      {
+        "question": "Which animal is NOT used as an example to teach the 'This is a...' structure?",
+        "options": [
+          "Giraffe",
+          "Pig",
+          "Lion",
+          "Elephant"
+        ],
+        "answer": 2,
+        "explanation": "The animals used for pictures are rat, giraffe, dog, pig, snake, and elephant. Lion is not mentioned."
+      },
+      {
+        "question": "Real-life scenario: If a teacher points to a picture of an elephant right next to them, what should the child say?",
+        "options": [
+          "That is an elephant.",
+          "Here is an elephant.",
+          "This is a elephant.",
+          "There is an elephant."
+        ],
+        "answer": 2,
+        "explanation": "The specific structure practiced in the lesson is 'This is a...'. So the child practices 'This is a elephant' (focusing on the structure, though 'an' is standard grammar)."
+      },
+      {
+        "question": "Assertion (A): The unit teaches children to differentiate between 'one' and 'many'.\nReason (R): This helps them learn about plurals.",
+        "options": [
+          "A is false but R is true.",
+          "Both A and R are true and R is the correct explanation.",
+          "Both A and R are true but R is not the correct explanation.",
+          "A is true but R is false."
+        ],
+        "answer": 1,
+        "explanation": "Understanding the difference between 'one' (singular) and 'many' (plural) is a core grammar concept in this unit."
+      },
+      {
+        "question": "Match the Grammar Concept: 1. Adjective, 2. Plural, 3. Demonstrative",
+        "options": [
+          "1-Big/Small, 2-One/Many, 3-This is a...",
+          "1-This is a..., 2-Big/Small, 3-One/Many",
+          "1-One/Many, 2-This is a..., 3-Big/Small",
+          "1-Big/Small, 2-This is a..., 3-One/Many"
+        ],
+        "answer": 0,
+        "explanation": "Adjectives describe things (Big/small), Plurals denote quantity (One/many), and Demonstratives point things out (This is a...)."
+      },
+      {
+        "question": "Analogy Question - Big/Small : Adjectives :: One/Many : ?",
+        "options": [
+          "Nouns",
+          "Verbs",
+          "Demonstratives",
+          "Plurals"
+        ],
+        "answer": 3,
+        "explanation": "Big and small describe objects (adjectives), while one and many denote singular/plural concepts."
+      },
+      {
+        "question": "To master the demonstrative structure, what must the students do?",
+        "options": [
+          "Just listen to the teacher.",
+          "Repeat the structure 'This is a...'.",
+          "Write the words 10 times.",
+          "Draw the animals."
+        ],
+        "answer": 1,
+        "explanation": "Students must repeat the structure using pictures to master it."
+      },
+      {
+        "question": "Which set of animals is exactly listed for practicing 'This is a...'?",
+        "options": [
+          "Cat, dog, pig, cow",
+          "Rat, giraffe, dog, pig, snake, elephant",
+          "Tiger, lion, bear, monkey",
+          "Ant, bee, fly, spider"
+        ],
+        "answer": 1,
+        "explanation": "The specific list provided in the text is rat, giraffe, dog, pig, snake, and elephant."
+      },
+      {
+        "question": "How are phonic consonant clusters taught to children?",
+        "options": [
+          "By memorizing the spellings.",
+          "By blending the individual letter sounds.",
+          "By looking at the pictures only.",
+          "By writing the letters."
+        ],
+        "answer": 1,
+        "explanation": "Teachers instruct children to read clusters by blending individual letter sounds (e.g., c /k/ + l /l/ = cl /kl/)."
+      },
+      {
+        "question": "What is the resulting sound of blending c /k/ + l /l/?",
+        "options": [
+          "cr /kr/",
+          "ch /tʃ/",
+          "cl /kl/",
+          "ck /k/"
+        ],
+        "answer": 2,
+        "explanation": "Blending the sounds c /k/ and l /l/ results in the initial cluster cl /kl/."
+      },
+      {
+        "question": "Which of the following words starts with the 'cl-' cluster?",
+        "options": [
+          "Flower",
+          "Clock",
+          "Drink",
+          "Brick"
+        ],
+        "answer": 1,
+        "explanation": "Clock starts with 'cl-'. The other words start with fl-, dr-, and br- respectively."
+      },
+      {
+        "question": "Which word does NOT belong to the 'fl-' cluster group?",
+        "options": [
+          "Flute",
+          "Flag",
+          "Flash",
+          "Cluck"
+        ],
+        "answer": 3,
+        "explanation": "Cluck belongs to the 'cl-' cluster, whereas flute, flag, and flash belong to the 'fl-' cluster."
+      },
+      {
+        "question": "Find the odd one out based on the initial blend:",
+        "options": [
+          "Brick",
+          "Broom",
+          "Drink",
+          "Bring"
+        ],
+        "answer": 2,
+        "explanation": "Drink starts with the 'dr-' blend, while brick, broom, and bring start with the 'br-' blend."
+      },
+      {
+        "question": "Assertion (A): The word 'drum' starts with a 'dr-' consonant cluster.\nReason (R): It is formed by blending the individual sounds of d and r.",
+        "options": [
+          "Both A and R are true and R is the correct explanation.",
+          "Both A and R are true but R is not the correct explanation.",
+          "A is true but R is false.",
+          "A is false but R is true."
+        ],
+        "answer": 0,
+        "explanation": "The assertion correctly identifies the blend, and the reason correctly explains phonics blending."
+      },
+      {
+        "question": "Analogy Question - cl- : cloth :: fl- : ?",
+        "options": [
+          "Brim",
+          "Drop",
+          "Flop",
+          "Clap"
+        ],
+        "answer": 2,
+        "explanation": "Cloth starts with 'cl-', just as Flop starts with 'fl-'."
+      },
+      {
+        "question": "Match the word to its initial blend: 1. Brass, 2. Flute, 3. Drag",
+        "options": [
+          "1-dr-, 2-br-, 3-fl-",
+          "1-br-, 2-fl-, 3-dr-",
+          "1-fl-, 2-dr-, 3-br-",
+          "1-br-, 2-dr-, 3-fl-"
+        ],
+        "answer": 1,
+        "explanation": "Brass starts with br-, Flute starts with fl-, and Drag starts with dr-."
+      },
+      {
+        "question": "Which of these words belongs to the 'dr-' cluster?",
+        "options": [
+          "Flip",
+          "Brim",
+          "Dress",
+          "Click"
+        ],
+        "answer": 2,
+        "explanation": "Dress starts with 'dr-'. Flip is fl-, brim is br-, and click is cl-."
+      },
+      {
+        "question": "Real-life scenario: A child is trying to read the word 'cloud'. What initial sound should the teacher tell them to blend?",
+        "options": [
+          "/k/ and /r/",
+          "/k/ and /l/",
+          "/s/ and /l/",
+          "/k/ and /w/"
+        ],
+        "answer": 1,
+        "explanation": "Cloud begins with 'cl-', so the child needs to blend c /k/ and l /l/."
+      },
+      {
+        "question": "The word 'fist' ends with which final phonic cluster?",
+        "options": [
+          "-nd",
+          "-nk",
+          "-ft",
+          "-st"
+        ],
+        "answer": 3,
+        "explanation": "The final letters of 'fist' are 'st', making it an '-st' final blend word."
+      },
+      {
+        "question": "Which of the following words ends with the '-nd' cluster?",
+        "options": [
+          "List",
+          "Sand",
+          "Gift",
+          "Tank"
+        ],
+        "answer": 1,
+        "explanation": "Sand ends with the letters 'nd'."
+      },
+      {
+        "question": "Find the odd one out among these final blend words:",
+        "options": [
+          "Pink",
+          "Bank",
+          "Soft",
+          "Think"
+        ],
+        "answer": 2,
+        "explanation": "Soft ends with '-ft', while pink, bank, and think end with '-nk'."
+      },
+      {
+        "question": "Assertion (A): 'Gift' and 'Loft' share the same final consonant cluster.\nReason (R): Both words end with the '-ft' blend.",
+        "options": [
+          "Both A and R are true and R is the correct explanation.",
+          "Both A and R are true but R is not the correct explanation.",
+          "A is true but R is false.",
+          "A is false but R is true."
+        ],
+        "answer": 0,
+        "explanation": "Both statements are true and correctly identify the shared '-ft' final blend."
+      },
+      {
+        "question": "Analogy Question - -nd : Pond :: -nk : ?",
+        "options": [
+          "Bond",
+          "Craft",
+          "Link",
+          "West"
+        ],
+        "answer": 2,
+        "explanation": "Pond ends with '-nd', and Link ends with '-nk'."
+      },
+      {
+        "question": "Match the word to its final blend: 1. Rest, 2. Bend, 3. Shift",
+        "options": [
+          "1-st, 2-nd, 3-ft",
+          "1-nd, 2-ft, 3-st",
+          "1-ft, 2-st, 3-nd",
+          "1-st, 2-ft, 3-nd"
+        ],
+        "answer": 0,
+        "explanation": "Rest ends with -st, Bend ends with -nd, and Shift ends with -ft."
+      },
+      {
+        "question": "Which list contains ONLY words ending in '-nk'?",
+        "options": [
+          "Tank, pink, bank, rank",
+          "Pond, bend, sand, wind",
+          "List, fist, must, rest",
+          "Gift, soft, shift, left"
+        ],
+        "answer": 0,
+        "explanation": "The '-nk' list provided in the text is tank, pink, bank, think, link, rank."
+      },
+      {
+        "question": "Which of these words is categorized under the '-st' final blend?",
+        "options": [
+          "Land",
+          "Cost",
+          "Loft",
+          "Pink"
+        ],
+        "answer": 1,
+        "explanation": "Cost ends with '-st' as listed in the final blends section."
+      },
+      {
+        "question": "Real-life scenario: A student misspells 'craft' as 'craf'. What final blend sound do they need to practice?",
+        "options": [
+          "-st",
+          "-nd",
+          "-ft",
+          "-nk"
+        ],
+        "answer": 2,
+        "explanation": "The word 'craft' requires the final blend '-ft'."
+      },
+      {
+        "question": "Which of the following does NOT end with the '-nd' cluster?",
+        "options": [
+          "Pond",
+          "Bond",
+          "Wind",
+          "Must"
+        ],
+        "answer": 3,
+        "explanation": "Must ends with the '-st' blend."
+      },
+      {
+        "question": "Is the following statement True or False? 'Cloud and Cluck belong to the cl- initial blend group.'",
+        "options": [
+          "True",
+          "False",
+          "Partially True",
+          "Cannot be determined"
+        ],
+        "answer": 0,
+        "explanation": "Both cloud and cluck start with the 'cl-' consonant blend."
+      },
+      {
+        "question": "Identify the word that shares the same initial blend as 'brass'.",
+        "options": [
+          "Brick",
+          "Drop",
+          "Flute",
+          "Clock"
+        ],
+        "answer": 0,
+        "explanation": "Brass and Brick both begin with the 'br-' consonant blend."
+      },
+      {
+        "question": "Identify the word that shares the same initial blend as 'drag'.",
+        "options": [
+          "Bring",
+          "Drink",
+          "Flag",
+          "Clap"
+        ],
+        "answer": 1,
+        "explanation": "Drag and Drink both begin with the 'dr-' consonant blend."
+      },
+      {
+        "question": "What is the final blend in the word 'think'?",
+        "options": [
+          "-st",
+          "-nd",
+          "-ft",
+          "-nk"
+        ],
+        "answer": 3,
+        "explanation": "The word think ends with the '-nk' phonic cluster."
+      },
+      {
+        "question": "What is the final blend in the word 'left'?",
+        "options": [
+          "-st",
+          "-ft",
+          "-nk",
+          "-nd"
+        ],
+        "answer": 1,
+        "explanation": "The word left ends with the '-ft' phonic cluster."
+      },
+      {
+        "question": "Which consonant cluster is formed by blending f /f/ + l /l/?",
+        "options": [
+          "fr-",
+          "fl-",
+          "-ft",
+          "cl-"
+        ],
+        "answer": 1,
+        "explanation": "Blending /f/ and /l/ creates the initial blend 'fl-'."
+      },
+      {
+        "question": "Which word starts with 'dr-' and ends with '-nk'?",
+        "options": [
+          "Drop",
+          "Drink",
+          "Dress",
+          "Drag"
+        ],
+        "answer": 1,
+        "explanation": "The word 'Drink' has 'dr-' as the initial blend and '-nk' as the final blend."
+      },
+      {
+        "question": "What is the title of the supplementary reading story?",
+        "options": [
+          "Up and Down",
+          "The Fat King",
+          "The Fat Dog",
+          "Our Sweet Home"
+        ],
+        "answer": 2,
+        "explanation": "The story used to develop independent reading skills is titled 'The Fat Dog'."
+      },
+      {
+        "question": "What is the primary purpose of reading 'The Fat Dog'?",
+        "options": [
+          "To learn grammar.",
+          "To learn physical directions.",
+          "To develop independent reading skills.",
+          "To memorize sight words."
+        ],
+        "answer": 2,
+        "explanation": "The text states 'The Fat Dog' is used to develop independent reading skills."
+      },
+      {
+        "question": "Based on the comprehension exercise for 'The Fat Dog', is the king fat?",
+        "options": [
+          "Yes",
+          "No",
+          "Sometimes",
+          "Not mentioned"
+        ],
+        "answer": 1,
+        "explanation": "The text explicitly gives the example 'The king is fat. -> No.'."
+      },
+      {
+        "question": "Based on the comprehension exercise, does the king have a fat dog?",
+        "options": [
+          "Yes",
+          "No",
+          "Sometimes",
+          "Not mentioned"
+        ],
+        "answer": 0,
+        "explanation": "The text explicitly gives the example 'The king has a fat dog. -> Yes.'."
+      },
+      {
+        "question": "What type of questions are asked in the comprehension exercise for the story?",
+        "options": [
+          "Fill in the blanks",
+          "Multiple choice questions",
+          "Yes or No questions",
+          "Match the following"
+        ],
+        "answer": 2,
+        "explanation": "Students complete 'Yes or No' questions based on the story."
+      },
+      {
+        "question": "What is the title of the poem used in this unit?",
+        "options": [
+          "The Fat Dog",
+          "Our Sweet Home",
+          "Left and Right",
+          "Up and Down"
+        ],
+        "answer": 3,
+        "explanation": "The poem mentioned in the reading section is titled 'Up and Down'."
+      },
+      {
+        "question": "What do the students learn from the poem 'Up and Down'?",
+        "options": [
+          "Names of animals",
+          "Physical directions",
+          "Consonant clusters",
+          "Household items"
+        ],
+        "answer": 1,
+        "explanation": "The poem is used to teach physical directions like left, right, up, down."
+      },
+      {
+        "question": "How is the poem 'Up and Down' meant to be taught?",
+        "options": [
+          "By writing it 5 times.",
+          "By singing it with corresponding actions.",
+          "By reading it silently.",
+          "By drawing the directions."
+        ],
+        "answer": 1,
+        "explanation": "The text states the poem is meant to be sung with corresponding actions."
+      },
+      {
+        "question": "Real-life scenario: A teacher wants to teach a child to look 'left' and 'right' before crossing the road. Which activity from the unit builds this knowledge?",
+        "options": [
+          "Reading 'The Fat Dog'",
+          "Singing the poem 'Up and Down'",
+          "Practicing 'This is a...'",
+          "Blending phonic sounds"
+        ],
+        "answer": 1,
+        "explanation": "The poem 'Up and Down' actively teaches physical directions like left and right."
+      },
+      {
+        "question": "Assertion (A): Sight word recognition is emphasized in this unit.\nReason (R): It is a key learning outcome for early language learning.",
+        "options": [
+          "Both A and R are true and R is the correct explanation.",
+          "Both A and R are true but R is not the correct explanation.",
+          "A is true but R is false.",
+          "A is false but R is true."
+        ],
+        "answer": 0,
+        "explanation": "The text explicitly states that recognition of simple sight words is emphasized as a key learning outcome."
+      },
+      {
+        "question": "Match the section to its content: 1. Grammar, 2. Vocabulary, 3. Phonics",
+        "options": [
+          "1-Cot/Sink, 2-cl/st, 3-Plurals",
+          "1-Plurals, 2-Cot/Sink, 3-cl/st",
+          "1-cl/st, 2-Plurals, 3-Cot/Sink",
+          "1-Plurals, 2-cl/st, 3-Cot/Sink"
+        ],
+        "answer": 1,
+        "explanation": "Grammar covers plurals, Vocabulary covers household items like cot/sink, and Phonics covers blends like cl/st."
+      },
+      {
+        "question": "What skill do students practice by sequencing the story 'The Fat Dog'?",
+        "options": [
+          "Phonics blending",
+          "Comprehension and ordering",
+          "Vocabulary spelling",
+          "Grammar structures"
+        ],
+        "answer": 1,
+        "explanation": "Sequencing the story in the correct order is a comprehension exercise."
+      },
+      {
+        "question": "Which of the following lists correctly identifies the 4 physical directions taught in the poem?",
+        "options": [
+          "North, South, East, West",
+          "Front, Back, Top, Bottom",
+          "Left, Right, Up, Down",
+          "Inside, Outside, Above, Below"
+        ],
+        "answer": 2,
+        "explanation": "The text states the poem 'Up and Down' teaches physical directions: left, right, up, down."
+      }
+    ]
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "பாடச் சுருக்கம்",
+        "content": "The unit 'Our Sweet Home' revolves around the household and is taught during the month of June. It focuses on vocabulary building related to the bedroom, living room, kitchen, and bathroom. Grammatical concepts such as big/small (adjectives), one/many (plurals), and the demonstrative structure 'This is a...' are reinforced. Phonics instruction is a major component, specifically blending initial consonant clusters (cl-, fl-, br-, dr-) and final clusters (-st, -nd, -nk, -ft). Finally, comprehension and reading skills are developed using the story 'The Fat Dog' and the poem 'Up and Down', which teaches physical directions."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள்",
+        "content": "• Vocabulary Development: Familiarizing students with household objects.\n• - Bedroom/Living Room: cot, pillow, lamp, cupboard, cradle, window, door, television, chair, sofa, clock.\n• - Kitchen: dustbin, grinder, plate, stove, mixie, sink.\n• - Bathroom: bucket, mug, towel, soap, brush, tap, mirror, washbasin.\n• Grammar: Teaching basic sentence structures ('This is a...'), adjectives (big/small), and plurals (one/many).\n• Phonics: Blending consonant clusters. Initial blends: cl-, fl-, br-, dr-. Final blends: -st, -nd, -nk, -ft.\n• Reading & Comprehension: Independent reading via the story 'The Fat Dog' (Yes/No questions, sequencing) and learning directions via the poem 'Up and Down' (left, right, up, down)."
+      },
+      {
+        "title": "தகவல் பேழை",
+        "content": "▸ Phonics Consonant Clusters List:\n\n▸ Initial Blends:\n• - cl-: clock, cloud, clap, click, cloth, cluck.\n• - fl-: flower, flute, flip, flag, flop, flash.\n• - br-: brick, broom, bring, brim, brass.\n• - dr-: drink, drum, drop, dress, drag, drip.\n\n▸ Final Blends:\n• - -st: list, fist, must, rest, west, cost.\n• - -nd: pond, bend, sand, wind, land, bond.\n• - -nk: tank, pink, bank, think, link, rank.\n• - -ft: gift, soft, shift, left, loft, craft."
+      },
+      {
+        "title": "உங்களுக்கு தெரியுமா?",
+        "content": "Did you know that recognition of simple sight words is emphasized as a key learning outcome for this unit? Along with phonics, sight words help children develop rapid independent reading skills without having to sound out every letter."
+      },
+      {
+        "title": "கலைச்சொற்கள்",
+        "content": "• - Consonant Clusters: Two or more consonants together in a word whose sounds are blended together (e.g., cl, st).\n• - Blending: Combining individual letter sounds to read a whole word (e.g., c /k/ + l /l/ = cl /kl/).\n• - Demonstratives: Words used to point to specific things (e.g., 'This is a...').\n• - Plurals: The grammatical concept distinguishing 'many' from 'one'.\n• - Adjectives: Words used to describe things (e.g., big, small)."
+      },
+      {
+        "title": "பாட பின்புற வினாக்கள்",
+        "content": "▸ Comprehension Questions for 'The Fat Dog':\n• The king is fat. -> No.\n• The king has a fat dog. -> Yes.\n• Sequence the story in the correct order (Exercise for students).\n\n▸ Poem Activities:\n• - Sing 'Up and Down' with corresponding actions to learn left, right, up, and down."
+      },
+      {
+        "title": "படம் சார்ந்த குறிப்புகள்",
+        "content": "Grammar Image Notes: To teach the sentence structure 'This is a...', pictures of specific animals are used. The teacher points to the pictures and the children repeat. The animals pictured are: rat, giraffe, dog, pig, snake, and elephant."
+      },
+      {
+        "title": "நினைவில் கொள்க",
+        "content": "▸ Important Points to Remember:\n• - The concept of singular and plural is taught simply as 'one' and 'many'.\n• - When teaching initial blends, physically demonstrate the sound merging: c /k/ + l /l/ = cl /kl/.\n• - The poem 'Up and Down' must be taught practically by singing it with corresponding physical actions to effectively teach left, right, up, and down."
+      }
+    ]
+  }
+}

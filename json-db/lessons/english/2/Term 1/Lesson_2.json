@@ -1,0 +1,714 @@
+{
+  "lesson_meta": {
+    "title": "Listen to Your Body & Magic Words",
+    "unit": "2",
+    "grade": "2",
+    "term": "t1",
+    "subject": "english",
+    "code": "eng_2_t1_l2"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Which of the following is an action verb listed in the grammar section?",
+        "options": [
+          "Beautiful",
+          "Hop",
+          "Slowly",
+          "Table"
+        ],
+        "answer": 1,
+        "explanation": "The text lists action verbs such as jump, sit, hop, and clap."
+      },
+      {
+        "question": "Fill in the blank with the correct article: 'This is ___ axe.'",
+        "options": [
+          "an",
+          "the",
+          "some",
+          "a"
+        ],
+        "answer": 0,
+        "explanation": "The word 'axe' starts with a vowel sound, so 'an' is used. The text provides the example 'This is an axe'."
+      },
+      {
+        "question": "What is the plural form of 'cap' as taught in the lesson?",
+        "options": [
+          "Capes",
+          "Caps",
+          "Cap",
+          "Capping"
+        ],
+        "answer": 1,
+        "explanation": "The concept of 'one and many' teaches changing singular to plural, for example, 'one cap to two caps'."
+      },
+      {
+        "question": "According to the vocabulary section, what is the color of the skirt?",
+        "options": [
+          "Red",
+          "Blue",
+          "Green",
+          "Pink"
+        ],
+        "answer": 0,
+        "explanation": "The text specifically mentions 'red skirt' in the vocabulary combinations."
+      },
+      {
+        "question": "Match the clothing with its color: 1. Belt, 2. Saree, 3. Shorts",
+        "options": [
+          "1-Violet, 2-Green, 3-Blue",
+          "1-Blue, 2-Green, 3-Violet",
+          "1-Green, 2-Violet, 3-Blue",
+          "1-Violet, 2-Blue, 3-Green"
+        ],
+        "answer": 0,
+        "explanation": "The text lists: violet belt, green saree, and blue shorts."
+      },
+      {
+        "question": "Identify the correct color for the coat based on the vocabulary list.",
+        "options": [
+          "Brown",
+          "Grey",
+          "White",
+          "Black"
+        ],
+        "answer": 3,
+        "explanation": "The vocabulary combination provided is 'black coat'."
+      },
+      {
+        "question": "If a student is asked to point out the 'orange' item, what should they look for?",
+        "options": [
+          "Sweater",
+          "Hat",
+          "Cap",
+          "Shirt"
+        ],
+        "answer": 1,
+        "explanation": "The item associated with the color orange is an 'orange hat'."
+      },
+      {
+        "question": "What color is the table cloth described in the lesson?",
+        "options": [
+          "Purple",
+          "Pink",
+          "Red",
+          "Yellow"
+        ],
+        "answer": 0,
+        "explanation": "The text specifically mentions a 'purple table cloth'."
+      },
+      {
+        "question": "Which of these clothing items is white?",
+        "options": [
+          "Tie",
+          "Dhoti",
+          "Socks",
+          "Frock"
+        ],
+        "answer": 1,
+        "explanation": "The text pairs the color white with dhoti ('white dhoti')."
+      },
+      {
+        "question": "Assertion (A): The socks mentioned in the lesson are grey.\nReason (R): Teachers use pictures to help children associate colors with specific clothing items.",
+        "options": [
+          "Both A and R are true but R is not the correct explanation.",
+          "A is true but R is false.",
+          "A is false but R is true.",
+          "Both A and R are true and R is the correct explanation."
+        ],
+        "answer": 3,
+        "explanation": "The socks are indeed grey, and the pedagogical method is using pictures to associate these colors with the clothes."
+      },
+      {
+        "question": "Real-life scenario: You want someone to help you carry a heavy bag. According to the poem, what magic word should you use?",
+        "options": [
+          "Sorry",
+          "Please",
+          "Excuse me",
+          "Thank you"
+        ],
+        "answer": 1,
+        "explanation": "The poem teaches: When we want someone to help: 'Please, please, please.'"
+      },
+      {
+        "question": "What magic word is used when someone helps us out?",
+        "options": [
+          "Sorry",
+          "Welcome",
+          "Thank you",
+          "Please"
+        ],
+        "answer": 2,
+        "explanation": "The poem states: When someone helps us out: 'Thank you, thank you, thank you.'"
+      },
+      {
+        "question": "If you accidentally push a friend and make them cry, what is the appropriate magic word?",
+        "options": [
+          "Sorry",
+          "Please",
+          "Thank you",
+          "Never mind"
+        ],
+        "answer": 0,
+        "explanation": "The text explicitly says: When we make someone cry: 'Sorry, sorry, sorry.'"
+      },
+      {
+        "question": "How are teachers instructed to teach 'The Magic Words' poem?",
+        "options": [
+          "Have children read it silently in groups.",
+          "Write it 10 times on the blackboard.",
+          "Sing it with actions, have children listen, do actions, and repeat.",
+          "Only memorize the words."
+        ],
+        "answer": 2,
+        "explanation": "The pedagogy notes state the poem should be sung with actions. Children listen, do actions first, then repeat."
+      },
+      {
+        "question": "Who are the main characters in the story 'Nina Wonders...'?",
+        "options": [
+          "Nina and Nithin",
+          "Raja and Rani",
+          "Nina and Noah",
+          "Nithin and Neha"
+        ],
+        "answer": 0,
+        "explanation": "The characters explicitly mentioned in the story are Nina and Nithin."
+      },
+      {
+        "question": "What is the context or setting of the story 'Nina Wonders...'?",
+        "options": [
+          "It is a rainy school day.",
+          "It is a hot holiday and Nina is bored.",
+          "It is a winter evening at the park.",
+          "They are visiting a doctor's clinic."
+        ],
+        "answer": 1,
+        "explanation": "The context provided is: 'It is a hot holiday, and Nina is bored.'"
+      },
+      {
+        "question": "What is the name of the game Nithin introduces?",
+        "options": [
+          "Hide and Seek",
+          "Find the Sound",
+          "Listen to your body",
+          "Simon Says"
+        ],
+        "answer": 2,
+        "explanation": "Nithin introduces a game called 'Listen to your body'."
+      },
+      {
+        "question": "Which body part makes a 'Lup tup. Lup tup.' sound?",
+        "options": [
+          "Stomach",
+          "Feet",
+          "Heart",
+          "Breath"
+        ],
+        "answer": 2,
+        "explanation": "The heart makes a 'Lup tup. Lup tup.' sound, functioning like a drum."
+      },
+      {
+        "question": "Analogy Question - Heart : Drum :: Feet : ?",
+        "options": [
+          "Tippity-Tappity-Toe Stamp!",
+          "Lup tup",
+          "SSSSSSSSS",
+          "Guddu Guddu"
+        ],
+        "answer": 0,
+        "explanation": "The heart beats like a drum (Lup tup), while the feet make a 'Tippity-Tappity-Toe Stamp! Stamp! Stamp!' sound."
+      },
+      {
+        "question": "What sound does the breath make in the story?",
+        "options": [
+          "Lup tup",
+          "SSSSSSSSS",
+          "Stamp! Stamp!",
+          "Guddu… Guddu…"
+        ],
+        "answer": 1,
+        "explanation": "The story notes that the breath makes a 'SSSSSSSSS' sound."
+      },
+      {
+        "question": "True or False: The stomach making a 'Guddu… Guddu… Guddu…' sound indicates that a person is sleepy.",
+        "options": [
+          "Cannot be determined",
+          "Partially True",
+          "True",
+          "False"
+        ],
+        "answer": 3,
+        "explanation": "False. The text states that the 'Guddu… Guddu… Guddu…' sound indicates that a person is hungry, not sleepy."
+      },
+      {
+        "question": "What is the pedagogical focus for teachers when teaching 'Nina Wonders...'?",
+        "options": [
+          "Teaching animal names.",
+          "Focusing on naming body parts and related verbs.",
+          "Teaching colors and shapes.",
+          "Memorizing the entire story."
+        ],
+        "answer": 1,
+        "explanation": "The pedagogy note specifies that teachers should focus on naming different parts of the body and specific verbs related to them."
+      },
+      {
+        "question": "Which word starts with the initial consonant blend 'bl-'?",
+        "options": [
+          "Clip",
+          "Black",
+          "Frog",
+          "Tent"
+        ],
+        "answer": 1,
+        "explanation": "The word 'black' uses the initial consonant blend 'bl-'."
+      },
+      {
+        "question": "Find the word with the final consonant blend '-nt'.",
+        "options": [
+          "Black",
+          "Tent",
+          "Clip",
+          "Frog"
+        ],
+        "answer": 1,
+        "explanation": "The word 'tent' ends with the consonant blend '-nt'."
+      },
+      {
+        "question": "Which of these words contains the long 'a' vowel sound formed by 'a_e'?",
+        "options": [
+          "Sail",
+          "Pain",
+          "Cage",
+          "Way"
+        ],
+        "answer": 2,
+        "explanation": "Words with the 'a_e' pattern include came, tame, cage, page, sale, tale, base, and case."
+      },
+      {
+        "question": "Identify the word that uses the 'ai' letter cluster for the long 'a' sound.",
+        "options": [
+          "Tale",
+          "Base",
+          "Case",
+          "Wait"
+        ],
+        "answer": 3,
+        "explanation": "The 'ai' words listed are mail, sail, main, pain, wait, bait, laid, and raid."
+      },
+      {
+        "question": "Which letter cluster gives the long 'a' sound in the word 'way'?",
+        "options": [
+          "a_e",
+          "ai",
+          "ay",
+          "ea"
+        ],
+        "answer": 2,
+        "explanation": "The word 'way' is categorized under the 'ay' words for the long 'a' sound."
+      },
+      {
+        "question": "What tools are teachers encouraged to use for phonics activities involving the long 'a' sound?",
+        "options": [
+          "Word cards and a Word Wall",
+          "Audio recordings only",
+          "Textbooks only",
+          "Drawing boards"
+        ],
+        "answer": 0,
+        "explanation": "Teachers are encouraged to use word cards and a Word Wall for activities."
+      },
+      {
+        "question": "Which of the following is NOT a sight word listed for the reading exercise?",
+        "options": [
+          "Home",
+          "Girl",
+          "Stand",
+          "Jump"
+        ],
+        "answer": 3,
+        "explanation": "The sight words listed are girl, home, stand, came, and soon. Jump is an action verb."
+      },
+      {
+        "question": "Read the passage: 'A girl was going home. Soon, it started to rain. She had to stand under the tree.' Why did she stand under the tree?",
+        "options": [
+          "She was waiting for a bus.",
+          "She was bored.",
+          "It started to rain.",
+          "She was hiding."
+        ],
+        "answer": 2,
+        "explanation": "According to the passage, she had to stand under the tree because 'Soon, it started to rain'."
+      },
+      {
+        "question": "In the reading passage, what vehicle came to help the girl go home?",
+        "options": [
+          "Train",
+          "Bus",
+          "Car",
+          "Bicycle"
+        ],
+        "answer": 1,
+        "explanation": "The passage says, 'Then, a bus came and she went home.'"
+      },
+      {
+        "question": "How do students track their achievement of learning outcomes in this unit?",
+        "options": [
+          "By writing a test.",
+          "By earning stickers from the teacher.",
+          "By coloring an apple.",
+          "By singing a song."
+        ],
+        "answer": 2,
+        "explanation": "Children track learning milestones by coloring an apple as a self-assessment tool."
+      },
+      {
+        "question": "Which of these is a Key Learning Outcome for TET pedagogy at the end of this unit?",
+        "options": [
+          "Name clothes and colours.",
+          "Recite 'The Magic Words'.",
+          "Use 'a/an' in a sentence.",
+          "All of the above."
+        ],
+        "answer": 3,
+        "explanation": "The learning outcomes include naming clothes/colours, using a/an, and reciting 'The Magic Words'."
+      },
+      {
+        "question": "What is the name of the supplementary story that students are expected to read by the end of the unit?",
+        "options": [
+          "What Do You See?",
+          "Nina Wonders...",
+          "Listen to your body",
+          "The Magic Words"
+        ],
+        "answer": 0,
+        "explanation": "The outcomes mention reading the supplementary story 'What Do You See?'."
+      },
+      {
+        "question": "Match the Long 'a' sound pattern with the correct word: 1. a_e, 2. ai, 3. ay",
+        "options": [
+          "1-Tale, 2-Main, 3-Way",
+          "1-Way, 2-Tale, 3-Main",
+          "1-Main, 2-Way, 3-Tale",
+          "1-Tale, 2-Way, 3-Main"
+        ],
+        "answer": 0,
+        "explanation": "a_e words include tale; ai words include main; ay words include way."
+      },
+      {
+        "question": "Assertion (A): The heart beats all day and night.\nReason (R): It acts like a drum making a 'Lup tup' sound in the body.",
+        "options": [
+          "A is false but R is true.",
+          "A is true but R is false.",
+          "Both A and R are true and R is the correct explanation.",
+          "Both A and R are true but R is not the correct explanation."
+        ],
+        "answer": 3,
+        "explanation": "Both statements are factually correct as per the text. However, the heart beating day and night is not caused by it sounding like a drum; both are just properties of the heart."
+      },
+      {
+        "question": "Real-life scenario: A student says, 'I can hop.' What grammar construct are they demonstrating?",
+        "options": [
+          "Articles (a/an)",
+          "Answering questions using 'I can...'",
+          "Sight words",
+          "Singular and Plural"
+        ],
+        "answer": 1,
+        "explanation": "One of the learning outcomes is to 'answer questions using \"I can...\"', combined with an action verb."
+      },
+      {
+        "question": "Find the odd one out from the clothing list:",
+        "options": [
+          "Shirt",
+          "Frock",
+          "Handkerchief",
+          "Hop"
+        ],
+        "answer": 3,
+        "explanation": "Hop is an action verb. The rest are clothing accessories/items."
+      },
+      {
+        "question": "Which combination is incorrect based on the textbook's vocabulary?",
+        "options": [
+          "Brown sweater",
+          "Pink frock",
+          "Red hat",
+          "Green saree"
+        ],
+        "answer": 2,
+        "explanation": "The hat is orange ('orange hat'). The skirt and tie are red."
+      },
+      {
+        "question": "What word is formed by the consonant blend 'fr-'?",
+        "options": [
+          "Frog",
+          "Frock",
+          "Free",
+          "All of the above"
+        ],
+        "answer": 0,
+        "explanation": "The specific example given in the text for the 'fr-' blend is 'frog'."
+      },
+      {
+        "question": "HOTS Question: Why does the textbook emphasize using a 'Word Wall' for long 'a' sounds?",
+        "options": [
+          "To test spelling memory.",
+          "To provide constant visual reinforcement of phonics patterns.",
+          "To decorate the classroom.",
+          "To replace the textbook completely."
+        ],
+        "answer": 1,
+        "explanation": "A word wall provides constant visual exposure, helping students recognize and remember phonetic clusters like 'a_e', 'ai', and 'ay'."
+      },
+      {
+        "question": "Fill in the blank: The ___ socks are kept next to the blue shorts.",
+        "options": [
+          "White",
+          "Grey",
+          "Black",
+          "Purple"
+        ],
+        "answer": 1,
+        "explanation": "The text pairs the color 'grey' with socks."
+      },
+      {
+        "question": "Which body part is associated with a 'Tippity-Tappity-Toe' sound?",
+        "options": [
+          "Hands",
+          "Heart",
+          "Feet",
+          "Stomach"
+        ],
+        "answer": 2,
+        "explanation": "The feet make a 'Tippity-Tappity-Toe Stamp! Stamp! Stamp!' sound."
+      },
+      {
+        "question": "Analogy Question: 'a_e' : cage :: 'ai' : ?",
+        "options": [
+          "Sale",
+          "Way",
+          "Bait",
+          "Base"
+        ],
+        "answer": 2,
+        "explanation": "Cage uses the 'a_e' pattern, while Bait uses the 'ai' pattern."
+      },
+      {
+        "question": "What grammatical concept is taught by changing 'one cap' to 'two caps'?",
+        "options": [
+          "Singular and Plural",
+          "Articles",
+          "Verbs",
+          "Adjectives"
+        ],
+        "answer": 0,
+        "explanation": "This reinforces the concept of 'one and many', which is singular and plural."
+      },
+      {
+        "question": "If a teacher says 'This is ___ bun', what should the student fill in?",
+        "options": [
+          "an",
+          "the",
+          "a",
+          "two"
+        ],
+        "answer": 2,
+        "explanation": "The word 'bun' starts with a consonant sound, so 'a' is used ('This is a bun')."
+      },
+      {
+        "question": "HOTS Question: The game 'Listen to your body' integrates which two learning aspects?",
+        "options": [
+          "Math and Science",
+          "Body awareness and specific related verbs.",
+          "Singing and dancing",
+          "Colors and clothes"
+        ],
+        "answer": 1,
+        "explanation": "The pedagogy note states the focus is on naming body parts (awareness) and the specific verbs related to them."
+      },
+      {
+        "question": "Which of these words uses the 'a_e' pattern?",
+        "options": [
+          "Pain",
+          "Raid",
+          "Tame",
+          "Mail"
+        ],
+        "answer": 2,
+        "explanation": "Tame uses the 'a_e' pattern. The others use 'ai'."
+      },
+      {
+        "question": "Which sight word means the opposite of 'went' in the given passage?",
+        "options": [
+          "Soon",
+          "Home",
+          "Came",
+          "Stand"
+        ],
+        "answer": 2,
+        "explanation": "The word 'came' (e.g., a bus came) is a sight word and the opposite of went."
+      },
+      {
+        "question": "Which color is associated with the 'handkerchief'?",
+        "options": [
+          "Blue",
+          "Violet",
+          "Orange",
+          "Brown"
+        ],
+        "answer": 0,
+        "explanation": "The text lists a 'blue handkerchief'."
+      },
+      {
+        "question": "Which color is associated with the 'tie'?",
+        "options": [
+          "Black",
+          "Red",
+          "Green",
+          "Yellow"
+        ],
+        "answer": 1,
+        "explanation": "The text lists 'red tie'."
+      },
+      {
+        "question": "What is the color of the 'shirt' mentioned in the vocabulary?",
+        "options": [
+          "Yellow",
+          "Grey",
+          "Purple",
+          "Pink"
+        ],
+        "answer": 0,
+        "explanation": "The vocabulary pairs yellow with shirt ('yellow shirt')."
+      },
+      {
+        "question": "Real-life scenario: A child successfully reads the sight words and phonetic words from the lesson. What should they do next according to the pedagogy?",
+        "options": [
+          "Go to sleep.",
+          "Color an apple as a self-assessment tool.",
+          "Write the words 100 times.",
+          "Tear the page."
+        ],
+        "answer": 1,
+        "explanation": "Children track their learning milestones by coloring an apple."
+      },
+      {
+        "question": "Assertion (A): The poem 'The Magic Words' should be sung without any physical movement.\nReason (R): This helps children focus on spelling.",
+        "options": [
+          "Both A and R are true and R is the correct explanation.",
+          "Both A and R are true but R is not the correct explanation.",
+          "A is true but R is false.",
+          "Both A and R are false."
+        ],
+        "answer": 3,
+        "explanation": "Both statements are false. The pedagogy instructs that the poem should be sung with actions."
+      },
+      {
+        "question": "HOTS Question: Why are words like 'girl', 'home', and 'soon' taught as 'Sight Words'?",
+        "options": [
+          "Because they are difficult to pronounce.",
+          "Because they cannot be seen.",
+          "Because children should recognize them instantly by sight to read fluently.",
+          "Because they all have long 'a' sounds."
+        ],
+        "answer": 2,
+        "explanation": "Sight words are common words that children are taught to recognize instantly by sight, improving reading fluency."
+      },
+      {
+        "question": "What initial consonant blend is found in the word 'clip'?",
+        "options": [
+          "cr-",
+          "cl-",
+          "ch-",
+          "bl-"
+        ],
+        "answer": 1,
+        "explanation": "The word 'clip' begins with the consonant blend 'cl-'."
+      },
+      {
+        "question": "Identify the long 'a' word derived from the 'ai' cluster.",
+        "options": [
+          "Page",
+          "Base",
+          "Laid",
+          "Sale"
+        ],
+        "answer": 2,
+        "explanation": "Laid uses the 'ai' letter cluster to produce the long 'a' sound."
+      },
+      {
+        "question": "Match the word to its phonics category: 1. Tent, 2. Frog, 3. Black",
+        "options": [
+          "1-Final -nt, 2-Initial bl-, 3-Initial fr-",
+          "1-Initial bl-, 2-Final -nt, 3-Initial fr-",
+          "1-Final -nt, 2-Initial fr-, 3-Initial bl-",
+          "1-Initial fr-, 2-Final -nt, 3-Initial bl-"
+        ],
+        "answer": 2,
+        "explanation": "Tent has a final -nt. Frog has initial fr-. Black has initial bl-."
+      },
+      {
+        "question": "When teaching 'a' and 'an', what determines which article to use?",
+        "options": [
+          "The length of the word.",
+          "The initial sound (vowel or consonant) of the noun.",
+          "Whether the noun is plural.",
+          "The color of the object."
+        ],
+        "answer": 1,
+        "explanation": "The use of 'a' (consonant sound) or 'an' (vowel sound) depends on the initial sound of the following noun."
+      },
+      {
+        "question": "HOTS Question: Nithin says 'Listen to your body'. Which sensory skill is primarily being developed here?",
+        "options": [
+          "Visual (Sight)",
+          "Auditory (Hearing) and Internal Awareness",
+          "Gustatory (Taste)",
+          "Olfactory (Smell)"
+        ],
+        "answer": 1,
+        "explanation": "The game focuses on hearing internal body sounds (heartbeats, stomach rumbles), developing auditory skills and internal body awareness."
+      }
+    ]
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "பாடச் சுருக்கம்",
+        "content": "This unit focuses on developing young learners' foundational English skills across grammar, vocabulary, values, body awareness, and reading. Grammar covers action verbs (jump, sit), articles (a/an), and singular/plural nouns. Vocabulary introduces clothing items paired with specific colors (e.g., red skirt, blue shorts). Values are taught through 'The Magic Words' (Please, Thank you, Sorry) via a song with actions. The story 'Nina Wonders...' introduces body awareness, where characters listen to sounds made by the heart, feet, breath, and stomach. Phonics instruction blends consonants (bl-, cl-, fr-, -nt) and explores long 'a' sounds using 'a_e', 'ai', and 'ay' clusters. Finally, students practice reading comprehension using sight words and track their learning outcomes by coloring an apple."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள்",
+        "content": "▸ 1. Grammar & Language Structures:\n• - Action Verbs: jump, sit, hop, clap.\n• - Articles: Using 'a' (e.g., a bun) and 'an' (e.g., an axe).\n• - Singular and Plural: Concept of 'one and many' (e.g., one cap to two caps).\n\n▸ 2. Vocabulary (Clothes and Colours):\n• - red skirt, red tie, violet belt, green saree, blue handkerchief, blue shorts, black coat, yellow cap, yellow shirt, orange hat, brown sweater, purple table cloth, white dhoti, pink frock, grey socks.\n\n▸ 3. Values through Poem:\n• - 'The Magic Words': Help -> 'Please'; Helped -> 'Thank you'; Made someone cry -> 'Sorry'.\n\n▸ 4. Story - 'Nina Wonders...':\n• - Characters: Nina and Nithin.\n• - Heart: 'Lup tup' (like a drum).\n• - Feet: 'Tippity-Tappity-Toe Stamp!'.\n• - Breath: 'SSSSSSSSS'.\n• - Stomach: 'Guddu… Guddu…' (hungry).\n\n▸ 5. Phonics:\n• - Consonant blends: bl- (black), cl- (clip), fr- (frog), -nt (tent).\n• - Long 'a' sounds: a_e, ai, ay."
+      },
+      {
+        "title": "தகவல் பேழை",
+        "content": "▸ Long 'a' Vowel Sound Word Lists:\n\n• 'a_e' words: came, tame, cage, page, sale, tale, base, case.\n• 'ai' words: mail, sail, main, pain, wait, bait, laid, raid.\n• 'ay' words: way.\n\n▸ Consonant Blends:\n• Initial: bl- (black), cl- (clip), fr- (frog)\n• Final: -nt (tent)"
+      },
+      {
+        "title": "உங்களுக்கு தெரியுமா?",
+        "content": "• - Did you know students track their learning progress in this unit by coloring an apple? It acts as a fun self-assessment tool.\n• - The game 'Listen to your body' is an excellent way to connect physical body parts with specific action verbs and sounds (like the heart beating like a drum day and night)."
+      },
+      {
+        "title": "படம் சார்ந்த குறிப்புகள்",
+        "content": "▸ Clothes and Colors Picture Associations:\n▸ Teachers use pictures to help children link colors to clothing. Important pairs to note from the images include:\n• - Red: Skirt, Tie\n• - Blue: Handkerchief, Shorts\n• - Yellow: Cap, Shirt\n• - Pink: Frock\n• - Grey: Socks\n• - White: Dhoti\n• - Black: Coat"
+      },
+      {
+        "title": "கலைச்சொற்கள்",
+        "content": "• - Action Verbs: Words that express physical action (jump, sit, hop, clap).\n• - Articles: Words that define a noun as specific or unspecific (a, an).\n• - Sight Words: Frequently used words children should memorize by sight (girl, home, stand, came, soon).\n• - Magic Words: Polite words used in social interactions (Please, Thank you, Sorry)."
+      },
+      {
+        "title": "பாட பின்புற வினாக்கள்",
+        "content": "▸ Reading Comprehension Passage:\n• 'A girl was going home. Soon, it started to rain. She had to stand under the tree. Then, a bus came and she went home.'\n\n▸ Questions based on outcomes:\n• - Can you name the clothes and colours?\n• - Can you name the parts of the body?\n• - Answer questions using 'I can...'"
+      },
+      {
+        "title": "நினைவில் கொள்க",
+        "content": "▸ Pedagogy Notes for Teachers:\n• - 'The Magic Words' poem must be sung with actions. Listen first, do actions, then repeat.\n• - When teaching 'Nina Wonders...', focus on naming the body parts and linking them to their specific verbs.\n• - Use Word Cards and a Word Wall regularly for long 'a' vowel sound activities to ensure visual retention."
+      },
+      {
+        "title": "மதிப்பீட்டு பகுதி ஒரு மதிப்பெண் வினாக்கள்",
+        "content": "▸ Key Sight Words Identification from the Passage:\n• girl\n• home\n• stand\n• came\n• soon\n\n▸ Learning Outcome Checklist (Self-Assessment):\n• - Read sight words and phonic words.\n• - Use 'a/an' in sentences.\n• - Recite 'The Magic Words' poem.\n• - Read the supplementary story 'What Do You See?'"
+      }
+    ]
+  }
+}

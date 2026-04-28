@@ -1,0 +1,710 @@
+{
+  "lesson_meta": {
+    "title": "Our Kitchen",
+    "unit": "1",
+    "grade": "3",
+    "term": "t1",
+    "subject": "english",
+    "code": "eng_3_t1_l1"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "பாடச் சுருக்கம் (Lesson Summary)",
+        "content": "This lesson introduces students to the kitchen environment, the various utensils used (like funnel, strainer, mixie, pot, stove, knife, etc.), and the actions performed in a kitchen (stir, chop, boil, pour, peel). It includes a poem about the rooms in a house, a short story about children making tea for their sick Amma, phonics focusing on the 'oo' sound, grammar on asking for permission (May I/Can I), and differentiating countable vs uncountable nouns. Finally, it features a supplementary story about an organized Black Rat."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள் (Lesson Concepts Topic-wise)",
+        "content": "• Kitchen Utensils: funnel, strainer, mixie, pot, stove, knife, spoon, cutting-board, peeler, cup, saucer, grater, rolling pin, tumbler, pan, kettle, lota, tray, plate, bowl, tongs, ladle.\n• Action Words: stir (mix with a spoon), chop (cut into pieces), boil (heat a liquid), pour (transfer liquid), peel (remove skin).\n• Phonics ('oo' sound): foot, book, hook, wood, good, cook, look, nook, wool, shook, rook, stood, broom, crook, brook.\n• Grammar (Permission): 'May I...?' and 'Can I...?' are polite ways to ask for permission.\n• Grammar (Nouns): 'How many' is used for countable nouns (balls, pencils, babies). 'How much' is used for uncountable nouns (sugar, metal, water, rice, oil)."
+      },
+      {
+        "title": "தகவல் பேழை (Info Box - Word Wall)",
+        "content": "▸ Important words to practice from the Word Wall:\n• here, with, help, make, keep, have, ready, made, good, said, boil, pour, stir, chop."
+      },
+      {
+        "title": "உங்களுக்கு தெரியுமா? (Do You Know?)",
+        "content": "We can count things like balls, pencils, babies, chairs, and houses. But we cannot count things like sugar, metal, water, rice, and oil. For example, the clown gets confused trying to count 'salt' because salt is an uncountable noun!"
+      },
+      {
+        "title": "கலைச்சொற்கள் (Glossary / Action Words)",
+        "content": "• Funnel - A tube with a wide top to pour liquid into small openings.\n• Strainer - A tool used to separate liquid from solid (e.g., tea leaves).\n• Grater - A kitchen tool used to shred food into small pieces.\n• Rolling pin - A cylinder used to flatten dough.\n• Tongs - A tool used to grip and lift hot objects."
+      },
+      {
+        "title": "பாட பின்புற மதிப்பீட்டு வினாக்கள் (Book Back Questions)",
+        "content": "• Circle the right word: strainer is chosen for filtering tea.\n• Match the following: sugar -> tea, pan -> stove, milk -> tumbler.\n▸ 3. Listen, think and write:\n• a. Where is Amma? Amma is in the bedroom.\n• b. Why was Amma in bed? Amma had a headache.\n• c. What did Valli add to the tea at last? She added sugar.\n• d. How is the tea? The tea smells good.\n▸ 4. True or False:\n• We cut with knife. (True)\n• We mix with recipe book. (False)\n• We make milkshake with mixie. (True)\n• We fry with pan. (True)\n▸ 5. Countable or Uncountable:\n• Juice (Cannot count), Sugar (Cannot count), Water (Cannot count), Pen (Can count), Ball (Can count)."
+      },
+      {
+        "title": "படங்கள் சார்ந்த முக்கிய குறிப்புகள் (Image Based Notes)",
+        "content": "• The Big Picture: A key is in the girl's hand. The children observe various objects in the living room like a wall clock, fish tank, sofa, cupboard, and hanger.\n• The Clown: He is shown counting items easily but gets completely confused when he sees salt because salt is uncountable."
+      },
+      {
+        "title": "நினைவில் கொள்க (Remember)",
+        "content": "Always ask for permission before using others' things by politely saying 'May I...' or 'Can I...'. Also, learn to keep your room clean and organized, just like the Black Rat who neatly arranged everything in her bedroom before going to sleep."
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "What is used to filter tea leaves from tea?",
+        "options": [
+          "Strainer",
+          "Funnel",
+          "Grater",
+          "Ladle"
+        ],
+        "answer": 0,
+        "explanation": "A strainer is a tool used to separate solid particles, like tea leaves, from liquids."
+      },
+      {
+        "question": "Which of the following objects is used to cut vegetables?",
+        "options": [
+          "Rolling pin",
+          "Cutting-board and knife",
+          "Peeler",
+          "Tongs"
+        ],
+        "answer": 1,
+        "explanation": "We use a knife to cut vegetables, usually keeping them on a cutting-board to protect the surface."
+      },
+      {
+        "question": "What tool helps in pouring liquid into a narrow bottle without spilling?",
+        "options": [
+          "Bowl",
+          "Tray",
+          "Lota",
+          "Funnel"
+        ],
+        "answer": 3,
+        "explanation": "A funnel has a wide top and a narrow tube, making it easy to pour liquids into small openings."
+      },
+      {
+        "question": "Which object is primarily used to remove the outer skin of fruits and vegetables?",
+        "options": [
+          "Knife",
+          "Peeler",
+          "Spoon",
+          "Tongs"
+        ],
+        "answer": 1,
+        "explanation": "A peeler is specially designed to peel the skin off fruits and vegetables like apples and potatoes."
+      },
+      {
+        "question": "What is the rolling pin used for in the kitchen?",
+        "options": [
+          "To boil water",
+          "To fry eggs",
+          "To flatten dough",
+          "To grate cheese"
+        ],
+        "answer": 2,
+        "explanation": "A rolling pin is a cylindrical kitchen utensil used to shape and flatten dough for making chapati or roti."
+      },
+      {
+        "question": "Which pair goes together while drinking a hot beverage?",
+        "options": [
+          "Cup and saucer",
+          "Plate and spoon",
+          "Pot and pan",
+          "Knife and fork"
+        ],
+        "answer": 0,
+        "explanation": "A cup is usually placed on a saucer when serving hot beverages like tea or coffee."
+      },
+      {
+        "question": "Which of the following is an electronic machine used in the kitchen?",
+        "options": [
+          "Stove",
+          "Mixie",
+          "Grater",
+          "Cutting-board"
+        ],
+        "answer": 1,
+        "explanation": "A mixie (mixer grinder) is an electronic appliance used for mixing, blending, and grinding food."
+      },
+      {
+        "question": "To pick up hot food items safely, we use ______.",
+        "options": [
+          "Ladle",
+          "Spoon",
+          "Tongs",
+          "Strainer"
+        ],
+        "answer": 2,
+        "explanation": "Tongs are used to grip and lift objects safely, especially hot food items."
+      },
+      {
+        "question": "What is a deep spoon with a long handle used for serving soup called?",
+        "options": [
+          "Ladle",
+          "Fork",
+          "Peeler",
+          "Tray"
+        ],
+        "answer": 0,
+        "explanation": "A ladle is a large, deep spoon used for serving liquid dishes like soup or gravy."
+      },
+      {
+        "question": "Which utensil is best suited for boiling water?",
+        "options": [
+          "Plate",
+          "Kettle",
+          "Saucer",
+          "Tray"
+        ],
+        "answer": 1,
+        "explanation": "A kettle is a specially designed pot used for boiling water."
+      },
+      {
+        "question": "According to the 'Rooms in our House' poem, what do we do in the kitchen?",
+        "options": [
+          "Sleep and read",
+          "Bathe and clean",
+          "Cook and sometimes eat",
+          "Play with friends"
+        ],
+        "answer": 2,
+        "explanation": "The poem states: 'A place where we cook And sometimes eat' is a kitchen."
+      },
+      {
+        "question": "According to the poem, what is a bedroom used for?",
+        "options": [
+          "To cook",
+          "To sleep and sometimes read",
+          "To clean ourselves",
+          "To meet guests"
+        ],
+        "answer": 1,
+        "explanation": "The poem describes the bedroom as a place to sleep and sometimes read."
+      },
+      {
+        "question": "How is a 'home' described in the poem?",
+        "options": [
+          "A place to bathe",
+          "A place to study",
+          "A place to be with a loving family",
+          "A place to eat"
+        ],
+        "answer": 2,
+        "explanation": "A home is described as 'A place to be With a loving family'."
+      },
+      {
+        "question": "Where was Amma resting when the children were looking for her?",
+        "options": [
+          "In the kitchen",
+          "In the hall",
+          "In the bedroom",
+          "In the garden"
+        ],
+        "answer": 2,
+        "explanation": "Amma was in bed in the bedroom because she was unwell."
+      },
+      {
+        "question": "Why was Amma resting in bed?",
+        "options": [
+          "She was sleepy",
+          "She had a headache",
+          "She was reading a book",
+          "She was hiding"
+        ],
+        "answer": 1,
+        "explanation": "Amma said, 'Oh, I have a headache.' That is why she was resting in the bedroom."
+      },
+      {
+        "question": "What did the children decide to make for Amma to help her feel better?",
+        "options": [
+          "A cup of coffee",
+          "A bowl of soup",
+          "A cup of tea",
+          "A glass of juice"
+        ],
+        "answer": 2,
+        "explanation": "The children asked, 'Can we make you a cup of tea?'"
+      },
+      {
+        "question": "How long did they let the tea boil in the pot?",
+        "options": [
+          "Two minutes",
+          "Five minutes",
+          "Ten minutes",
+          "Fifteen minutes"
+        ],
+        "answer": 1,
+        "explanation": "They decided to boil the tea in the pot for five minutes."
+      },
+      {
+        "question": "What did Valli add to the tea after pouring it through the strainer?",
+        "options": [
+          "Water",
+          "Tea leaves",
+          "Milk",
+          "Sugar"
+        ],
+        "answer": 3,
+        "explanation": "After straining the tea, they added sugar, stirred, and mixed it well."
+      },
+      {
+        "question": "What do we call the action of mixing sugar into a liquid using a spoon?",
+        "options": [
+          "Peel",
+          "Stir",
+          "Chop",
+          "Pour"
+        ],
+        "answer": 1,
+        "explanation": "Stirring is the action of moving a spoon around in a liquid to mix ingredients."
+      },
+      {
+        "question": "What is the action word for cutting vegetables into small pieces?",
+        "options": [
+          "Pour",
+          "Boil",
+          "Stir",
+          "Chop"
+        ],
+        "answer": 3,
+        "explanation": "To 'chop' means to cut food into smaller pieces using a knife."
+      },
+      {
+        "question": "What does the word 'boil' mean in cooking?",
+        "options": [
+          "To freeze something",
+          "To heat a liquid until it bubbles",
+          "To remove the skin",
+          "To cut into pieces"
+        ],
+        "answer": 1,
+        "explanation": "Boiling is the process of heating a liquid until it reaches a temperature where it bubbles."
+      },
+      {
+        "question": "Which of the following words contains the 'oo' sound as in 'book'?",
+        "options": [
+          "Make",
+          "Foot",
+          "Tree",
+          "Hall"
+        ],
+        "answer": 1,
+        "explanation": "The word 'foot' has the short 'oo' vowel sound, identical to 'book'."
+      },
+      {
+        "question": "Find the odd word out based on its vowel sound:",
+        "options": [
+          "Wood",
+          "Good",
+          "Cook",
+          "Cake"
+        ],
+        "answer": 3,
+        "explanation": "Wood, good, and cook have the 'oo' sound. Cake has a long 'a' sound."
+      },
+      {
+        "question": "Complete the word from the phonics list: sh_ _k",
+        "options": [
+          "ee",
+          "oo",
+          "ea",
+          "oa"
+        ],
+        "answer": 1,
+        "explanation": "The missing letters are 'oo', making the word 'shook'."
+      },
+      {
+        "question": "I make toys with ____.",
+        "options": [
+          "Book",
+          "Wood",
+          "Foot",
+          "Cook"
+        ],
+        "answer": 1,
+        "explanation": "According to the phonics practice sentences, 'I make toys with wood.'"
+      },
+      {
+        "question": "My dad likes to ____.",
+        "options": [
+          "Shook",
+          "Wood",
+          "Cook",
+          "Brook"
+        ],
+        "answer": 2,
+        "explanation": "According to the phonics practice sentences, 'My dad likes to cook.'"
+      },
+      {
+        "question": "I ____ his hand.",
+        "options": [
+          "Stood",
+          "Shook",
+          "Look",
+          "Took"
+        ],
+        "answer": 1,
+        "explanation": "The correct sentence from the lesson is 'I shook his hand.'"
+      },
+      {
+        "question": "What should we always do before using someone else's things?",
+        "options": [
+          "Take it secretly",
+          "Ask for permission",
+          "Break it",
+          "Hide it"
+        ],
+        "answer": 1,
+        "explanation": "We should always ask permission before doing anything or taking someone's belongings."
+      },
+      {
+        "question": "Which of these is the correct way to ask permission to enter a room?",
+        "options": [
+          "I come in.",
+          "May I come in?",
+          "Come in.",
+          "Can you come in?"
+        ],
+        "answer": 1,
+        "explanation": "'May I come in?' is a polite way to ask permission to enter."
+      },
+      {
+        "question": "Rearrange the words to form a correct sentence: use / I / Can / book / your / ?",
+        "options": [
+          "Can use I your book?",
+          "Can your book I use?",
+          "Can I use your book?",
+          "I can use your book?"
+        ],
+        "answer": 2,
+        "explanation": "The correct question format for permission is 'Can I use your book?'"
+      },
+      {
+        "question": "Rearrange the words: tell / may / I / a / story / ?",
+        "options": [
+          "I may tell a story?",
+          "May I tell a story?",
+          "May tell I a story?",
+          "A story I may tell?"
+        ],
+        "answer": 1,
+        "explanation": "'May I tell a story?' is the grammatically correct way to ask for permission."
+      },
+      {
+        "question": "Which question word is used when asking about things we CAN count?",
+        "options": [
+          "How much",
+          "How long",
+          "How many",
+          "How far"
+        ],
+        "answer": 2,
+        "explanation": "We use 'How many' for countable nouns (e.g., How many pencils?)."
+      },
+      {
+        "question": "Which question word is used when asking about things we CANNOT count?",
+        "options": [
+          "How many",
+          "How much",
+          "How old",
+          "How come"
+        ],
+        "answer": 1,
+        "explanation": "We use 'How much' for uncountable nouns (e.g., How much sugar?)."
+      },
+      {
+        "question": "Which of the following is a countable noun?",
+        "options": [
+          "Water",
+          "Rice",
+          "House",
+          "Oil"
+        ],
+        "answer": 2,
+        "explanation": "A house can be counted (one house, two houses). Water, rice, and oil cannot be counted individually."
+      },
+      {
+        "question": "Which of the following is an uncountable noun?",
+        "options": [
+          "Baby",
+          "Sugar",
+          "Chair",
+          "Pencil"
+        ],
+        "answer": 1,
+        "explanation": "Sugar exists as tiny grains and is treated as a mass noun, so it cannot be counted."
+      },
+      {
+        "question": "The clown is confused because he is trying to count _____.",
+        "options": [
+          "Balls",
+          "Salt",
+          "Pencils",
+          "Houses"
+        ],
+        "answer": 1,
+        "explanation": "Salt is an uncountable noun, which is why the clown gets confused trying to count it."
+      },
+      {
+        "question": "True or False: We can count 'meat' and 'sand'.",
+        "options": [
+          "True",
+          "False",
+          "Only meat is countable",
+          "Only sand is countable"
+        ],
+        "answer": 1,
+        "explanation": "Both meat and sand are uncountable nouns."
+      },
+      {
+        "question": "In the story 'The Black Rat', why does the rat go to the bedroom?",
+        "options": [
+          "She is hungry",
+          "She is thirsty",
+          "She is sleepy",
+          "She wants to play"
+        ],
+        "answer": 2,
+        "explanation": "The story begins with 'Black rat is sleepy. She goes to the bedroom.'"
+      },
+      {
+        "question": "In the story, where does the black rat put her books?",
+        "options": [
+          "On the table",
+          "In the school bag",
+          "Under the bed",
+          "In the trunk"
+        ],
+        "answer": 1,
+        "explanation": "She puts the books neatly into the school bag."
+      },
+      {
+        "question": "Where does the rat place the basket of fruits?",
+        "options": [
+          "On the pot",
+          "In the bowl",
+          "Near the trunk",
+          "On the hook"
+        ],
+        "answer": 2,
+        "explanation": "She puts the basket near the trunk."
+      },
+      {
+        "question": "What does she put in the bowl?",
+        "options": [
+          "The bun",
+          "The soap",
+          "The spoon",
+          "The plate"
+        ],
+        "answer": 0,
+        "explanation": "She puts the fruits in the basket and the bun in the bowl."
+      },
+      {
+        "question": "Where does she put the bat?",
+        "options": [
+          "On the shelf",
+          "In the trunk",
+          "Under the mat",
+          "On the pot"
+        ],
+        "answer": 1,
+        "explanation": "She puts the bat safely in the trunk."
+      },
+      {
+        "question": "Where does the rat hang the belt?",
+        "options": [
+          "On the hook",
+          "On the shelf",
+          "On the bed",
+          "In the trunk"
+        ],
+        "answer": 0,
+        "explanation": "She puts the belt on the hook."
+      },
+      {
+        "question": "Where does she place the plate and the tumbler?",
+        "options": [
+          "On the mat",
+          "On the pot",
+          "In the basket",
+          "On the shelf"
+        ],
+        "answer": 1,
+        "explanation": "She puts the plate and the tumbler on the pot."
+      },
+      {
+        "question": "What does the black rat do after pushing the pot near the wall?",
+        "options": [
+          "She makes her bed",
+          "She reads a book",
+          "She eats the bun",
+          "She goes outside"
+        ],
+        "answer": 0,
+        "explanation": "After moving the pot, the black rat makes her bed to finally go to sleep."
+      },
+      {
+        "question": "True or False: We make milkshake with a mixie.",
+        "options": [
+          "True",
+          "False",
+          "Sometimes",
+          "Cannot be determined"
+        ],
+        "answer": 0,
+        "explanation": "A mixie is used to blend fruits and milk to make a milkshake."
+      },
+      {
+        "question": "True or False: We cut with a knife.",
+        "options": [
+          "True",
+          "False",
+          "Only bread",
+          "Only fruits"
+        ],
+        "answer": 0,
+        "explanation": "A knife is the primary tool used for cutting food items in the kitchen."
+      },
+      {
+        "question": "We fry food items using a ____.",
+        "options": [
+          "Strainer",
+          "Pan",
+          "Grater",
+          "Lota"
+        ],
+        "answer": 1,
+        "explanation": "A pan is a flat-bottomed utensil used for frying foods on a stove."
+      },
+      {
+        "question": "Which of the following items is uncountable?",
+        "options": [
+          "Bicycle",
+          "Tree",
+          "Bat",
+          "Butter"
+        ],
+        "answer": 3,
+        "explanation": "Butter is a mass noun and cannot be counted directly without units (like a block of butter)."
+      },
+      {
+        "question": "Life Scenario: You are making a salad. You need to turn carrots into thin, shredded pieces. Which tool will you use?",
+        "options": [
+          "Rolling pin",
+          "Grater",
+          "Funnel",
+          "Tongs"
+        ],
+        "answer": 1,
+        "explanation": "A grater is used to shred foods like carrots into small, thin pieces."
+      },
+      {
+        "question": "Life Scenario: You accidentally spilled tea leaves into the hot tea. How will you remove them?",
+        "options": [
+          "Use a strainer",
+          "Use a knife",
+          "Use a ladle",
+          "Use a peeler"
+        ],
+        "answer": 0,
+        "explanation": "A strainer will let the liquid pass through while catching the solid tea leaves."
+      },
+      {
+        "question": "Analogy: Cook : Kitchen :: Bathe : ____",
+        "options": [
+          "Bedroom",
+          "Hall",
+          "Bathroom",
+          "Garden"
+        ],
+        "answer": 2,
+        "explanation": "We cook in the kitchen and bathe in the bathroom."
+      },
+      {
+        "question": "Match the following: 1. Boil - a. Cut into pieces, 2. Chop - b. Heat liquid, 3. Peel - c. Remove skin.",
+        "options": [
+          "1-b, 2-a, 3-c",
+          "1-a, 2-b, 3-c",
+          "1-c, 2-a, 3-b",
+          "1-b, 2-c, 3-a"
+        ],
+        "answer": 0,
+        "explanation": "To boil is to heat a liquid, to chop is to cut into pieces, and to peel is to remove the skin."
+      },
+      {
+        "question": "Assertion: We use 'How much' to ask about the quantity of water.\nReason: Water is a countable noun.",
+        "options": [
+          "Assertion is true, Reason is false",
+          "Assertion is false, Reason is true",
+          "Both are true",
+          "Both are false"
+        ],
+        "answer": 0,
+        "explanation": "We do use 'How much' for water, but the reason is false because water is an UNCOUNTABLE noun."
+      },
+      {
+        "question": "Identify the correct pair of Countable - Uncountable nouns:",
+        "options": [
+          "Ball - Pencil",
+          "Sugar - Rice",
+          "House - Oil",
+          "Water - Metal"
+        ],
+        "answer": 2,
+        "explanation": "A house is countable, and oil is uncountable, making it the correct Countable-Uncountable pair."
+      },
+      {
+        "question": "What did Amma advise the children to do while making tea?",
+        "options": [
+          "Ask Patti for help",
+          "Ask father for help",
+          "Buy it from outside",
+          "Don't make tea"
+        ],
+        "answer": 0,
+        "explanation": "Amma told them, 'Yes, ask patti for help' before they started making tea."
+      },
+      {
+        "question": "Which letter cluster produces the sound found in words like 'wool' and 'brook'?",
+        "options": [
+          "ee",
+          "ea",
+          "oo",
+          "ou"
+        ],
+        "answer": 2,
+        "explanation": "The 'oo' letter cluster produces the short vowel sound in 'wool' and 'brook'."
+      },
+      {
+        "question": "Which container is best for serving a large amount of liquid, like water or juice, on a table?",
+        "options": [
+          "Spoon",
+          "Jug / Pot",
+          "Saucer",
+          "Peeler"
+        ],
+        "answer": 1,
+        "explanation": "A jug or pot is a large container used for holding and serving liquids."
+      },
+      {
+        "question": "Unscramble the letters to find a kitchen tool: o - p - n - o - s",
+        "options": [
+          "snoop",
+          "spoon",
+          "poons",
+          "opsno"
+        ],
+        "answer": 1,
+        "explanation": "The letters rearrange to form 'spoon', a common kitchen utensil."
+      },
+      {
+        "question": "High Order Thinking: Why is it important to ask 'May I...?' or 'Can I...?' before using something that isn't yours?",
+        "options": [
+          "Because it makes you look smart",
+          "To show respect and get permission",
+          "Because the teacher forces you",
+          "To make the other person angry"
+        ],
+        "answer": 1,
+        "explanation": "Asking for permission shows good manners, respect for others' property, and prevents misunderstandings."
+      }
+    ]
+  }
+}

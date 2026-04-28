@@ -1,0 +1,710 @@
+{
+  "lesson_meta": {
+    "title": "Know Your Feelings",
+    "unit": "3",
+    "grade": "2",
+    "term": "t1",
+    "subject": "english",
+    "code": "eng_2_t1_l3"
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "According to the 'How Do I Feel?' poem, what action is associated with being happy?",
+        "options": [
+          "Sleep... zzz, zzz, zzz",
+          "Laugh... ha, ha, ha",
+          "Cry... boo, hoo, hoo",
+          "Drink... gulp, gulp, gulp"
+        ],
+        "answer": 1,
+        "explanation": "The poem states: 'When I am happy, I laugh... ha, ha, ha.'"
+      },
+      {
+        "question": "What sound or action shows that a person is sad in the poem?",
+        "options": [
+          "chew, chew, chew",
+          "wow, wow, wow",
+          "boo, hoo, hoo",
+          "ha, ha, ha"
+        ],
+        "answer": 2,
+        "explanation": "The poem states: 'When I am sad, I cry... boo, hoo, hoo.'"
+      },
+      {
+        "question": "Which emotion is associated with saying 'wow, wow, wow'?",
+        "options": [
+          "Happy",
+          "Angry",
+          "Surprised",
+          "Tired"
+        ],
+        "answer": 2,
+        "explanation": "The poem states: 'When I am surprised, I say... wow, wow, wow.'"
+      },
+      {
+        "question": "Match the feeling to the action according to the poem: 1. Hungry, 2. Thirsty, 3. Tired.",
+        "options": [
+          "1-eat/chew, 2-drink/gulp, 3-sleep/zzz",
+          "1-drink/gulp, 2-sleep/zzz, 3-eat/chew",
+          "1-sleep/zzz, 2-eat/chew, 3-drink/gulp",
+          "1-eat/chew, 2-sleep/zzz, 3-drink/gulp"
+        ],
+        "answer": 0,
+        "explanation": "Hungry matches with eat/chew, Thirsty matches with drink/gulp, and Tired matches with sleep/zzz."
+      },
+      {
+        "question": "In the story 'Not That One', what was Mom doing when Gopi asked about the green box?",
+        "options": [
+          "Cooking",
+          "Reading",
+          "Sleeping",
+          "Washing clothes"
+        ],
+        "answer": 1,
+        "explanation": "The story explicitly mentions: 'Mom was reading.'"
+      },
+      {
+        "question": "Why did Mom say 'No, no! Not that one!' when Gopi tried to get the green box?",
+        "options": [
+          "Because the box was empty.",
+          "Because it was someone else's box.",
+          "Because the box was too heavy for him.",
+          "Because all those boxes would fall on their heads."
+        ],
+        "answer": 3,
+        "explanation": "Mom warned Gopi that pulling that specific box would cause all the boxes to fall on their heads."
+      },
+      {
+        "question": "Where did Mom take Gopi after he got angry about the box?",
+        "options": [
+          "To the park",
+          "To the school",
+          "To the market",
+          "To his friend's house"
+        ],
+        "answer": 2,
+        "explanation": "Mom said, 'Come, let’s go to the market. I will get you something.'"
+      },
+      {
+        "question": "What was the first thing Gopi pointed to and wanted at the market?",
+        "options": [
+          "An apple",
+          "A book",
+          "A samosa",
+          "Flowers"
+        ],
+        "answer": 0,
+        "explanation": "In the market, Gopi first said 'I want that one!' pointing to an apple."
+      },
+      {
+        "question": "Why did the shopkeeper refuse to give Gopi the apple he pointed to?",
+        "options": [
+          "It was rotten.",
+          "The fruits would fall down.",
+          "It was too expensive.",
+          "It was already sold."
+        ],
+        "answer": 1,
+        "explanation": "The shopkeeper warned, 'No, no, not that one! The fruits will fall down!'"
+      },
+      {
+        "question": "From where did Gopi almost pull out a samosa?",
+        "options": [
+          "From a high stack of samosas",
+          "From the bottom of a basket",
+          "From an oven",
+          "From another child's hand"
+        ],
+        "answer": 0,
+        "explanation": "The story says he was 'almost pulling out a samosa from a high stack of samosas.'"
+      },
+      {
+        "question": "When did Gopi start crying loudly in the market?",
+        "options": [
+          "After the flower seller said no.",
+          "When he dropped the apple.",
+          "When he tripped and fell.",
+          "When Mom shouted at him."
+        ],
+        "answer": 0,
+        "explanation": "After Gopi asked for the flowers and the seller said 'No, no, not that one!', Gopi started crying loudly."
+      },
+      {
+        "question": "What did Mom want to buy from the basket of puppies?",
+        "options": [
+          "A brown puppy",
+          "A black puppy",
+          "A white puppy",
+          "A spotted puppy"
+        ],
+        "answer": 2,
+        "explanation": "Mom said loudly, 'I want that one! The white one!'"
+      },
+      {
+        "question": "Which puppy did Gopi gently take in the end?",
+        "options": [
+          "The white puppy at the bottom",
+          "The brown puppy on top of the pile",
+          "The black puppy in the middle",
+          "He did not take any puppy"
+        ],
+        "answer": 1,
+        "explanation": "Gopi gently took the brown puppy that was on top of the pile, preventing the pile from falling."
+      },
+      {
+        "question": "Why did Gopi stop crying suddenly?",
+        "options": [
+          "He was given a chocolate.",
+          "He became curious about what 'the white one' was that Mom wanted.",
+          "He got scared of the crowd.",
+          "The shopkeeper shouted at him."
+        ],
+        "answer": 1,
+        "explanation": "When Mom loudly said she wanted the white one, Gopi stopped crying suddenly to see what it was."
+      },
+      {
+        "question": "Grammar: According to Valli, which 'be' verb should be used after 'I'?",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "was"
+        ],
+        "answer": 1,
+        "explanation": "Valli explains, 'We should use am after I'."
+      },
+      {
+        "question": "Grammar: Which verb is correctly used with the pronouns 'You' and 'We' in present tense?",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "were"
+        ],
+        "answer": 0,
+        "explanation": "The grammar rule states: 'We should use are after you and we'."
+      },
+      {
+        "question": "Fill in the blank with the correct word: 'I ____ a boy.'",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "be"
+        ],
+        "answer": 2,
+        "explanation": "The pronoun 'I' takes the verb 'am' (I am a boy)."
+      },
+      {
+        "question": "Fill in the blank with the correct word: 'We ____ sisters.'",
+        "options": [
+          "am",
+          "are",
+          "is",
+          "was"
+        ],
+        "answer": 1,
+        "explanation": "The pronoun 'We' takes the verb 'are' (We are sisters)."
+      },
+      {
+        "question": "Fill in the blank with the correct word: 'You ____ a girl.'",
+        "options": [
+          "are",
+          "am",
+          "is",
+          "has"
+        ],
+        "answer": 0,
+        "explanation": "The pronoun 'You' takes the verb 'are' (You are a girl)."
+      },
+      {
+        "question": "Real-life scenario: Two friends are introducing themselves together. What should they say?",
+        "options": [
+          "We am friends.",
+          "You are friends.",
+          "I are friends.",
+          "We are friends."
+        ],
+        "answer": 3,
+        "explanation": "When speaking together as a plural group in the first person, 'We are' is the grammatically correct structure."
+      },
+      {
+        "question": "Which letter cluster produces the long 'e' sound in the word 'jeep'?",
+        "options": [
+          "ea",
+          "ie",
+          "ee",
+          "ei"
+        ],
+        "answer": 2,
+        "explanation": "The word 'jeep' is spelled with the 'ee' cluster which produces the long 'e' sound."
+      },
+      {
+        "question": "Identify the word that uses the 'ea' letter cluster for the long 'e' sound.",
+        "options": [
+          "Meet",
+          "Seat",
+          "Deep",
+          "Feet"
+        ],
+        "answer": 1,
+        "explanation": "From the options, 'seat' uses the 'ea' cluster. The others use 'ee'."
+      },
+      {
+        "question": "Find the odd one out from the phonics list: keen, beep, make, seed.",
+        "options": [
+          "keen",
+          "make",
+          "beep",
+          "seed"
+        ],
+        "answer": 1,
+        "explanation": "'Make' has a long 'a' sound, whereas keen, beep, and seed have the long 'e' sound ('ee' cluster)."
+      },
+      {
+        "question": "Find the odd one out from the phonics list: beak, clay, bean, feat.",
+        "options": [
+          "beak",
+          "bean",
+          "feat",
+          "clay"
+        ],
+        "answer": 3,
+        "explanation": "'Clay' has a long 'a' sound, while beak, bean, and feat have the long 'e' sound ('ea' cluster)."
+      },
+      {
+        "question": "Find the odd one out from the phonics list: main, weep, clean, team.",
+        "options": [
+          "main",
+          "clean",
+          "team",
+          "weep"
+        ],
+        "answer": 0,
+        "explanation": "'Main' has a long 'a' sound, whereas weep, clean, and team have the long 'e' sound."
+      },
+      {
+        "question": "Find the odd one out from the phonics list: seat, bead, made, leech.",
+        "options": [
+          "seat",
+          "leech",
+          "made",
+          "bead"
+        ],
+        "answer": 2,
+        "explanation": "'Made' has a long 'a' sound. The other words have the long 'e' sound."
+      },
+      {
+        "question": "Which sentence correctly highlights words with the long 'e' sound as given in the lesson?",
+        "options": [
+          "The red dog ran fast.",
+          "The green leaf is on the tree.",
+          "He made a big pot.",
+          "Look into my bag."
+        ],
+        "answer": 1,
+        "explanation": "Green, leaf, and tree all contain the long 'e' sound taught in the lesson."
+      },
+      {
+        "question": "What is the initial consonant blend for the word 'plate'?",
+        "options": [
+          "pr-",
+          "sl-",
+          "pl-",
+          "pt-"
+        ],
+        "answer": 2,
+        "explanation": "The text shows: p + l = pl- (plate)."
+      },
+      {
+        "question": "The word 'desk' ends with which final consonant blend?",
+        "options": [
+          "-sp",
+          "-sk",
+          "-st",
+          "-nk"
+        ],
+        "answer": 1,
+        "explanation": "The text shows: s + k = -sk (desk)."
+      },
+      {
+        "question": "What is the correct initial consonant blend for the word 'sleep'?",
+        "options": [
+          "sl-",
+          "sp-",
+          "pl-",
+          "sw-"
+        ],
+        "answer": 0,
+        "explanation": "The text shows: s + l = sl- (sleep)."
+      },
+      {
+        "question": "Which word ends with the consonant blend '-sp'?",
+        "options": [
+          "Desk",
+          "Fast",
+          "Wasp",
+          "Lamp"
+        ],
+        "answer": 2,
+        "explanation": "The text shows: s + p = -sp (wasp)."
+      },
+      {
+        "question": "Which of the following is a sight word listed on the 'Word Wall' in this unit?",
+        "options": [
+          "Jump",
+          "Night",
+          "Happy",
+          "Puppy"
+        ],
+        "answer": 1,
+        "explanation": "The word 'night' is explicitly listed on the Word Wall."
+      },
+      {
+        "question": "In the 'Let us make' activity, what color should the happy face be colored?",
+        "options": [
+          "Red",
+          "Blue",
+          "Green",
+          "Yellow"
+        ],
+        "answer": 3,
+        "explanation": "The instructions state: 'Draw a happy face and colour it yellow.'"
+      },
+      {
+        "question": "What color is instructed for the sad face in the drawing activity?",
+        "options": [
+          "Green",
+          "Red",
+          "Blue",
+          "Yellow"
+        ],
+        "answer": 2,
+        "explanation": "The instructions state: 'Draw a sad face and colour it blue.'"
+      },
+      {
+        "question": "What color is instructed for the angry face in the drawing activity?",
+        "options": [
+          "Blue",
+          "Green",
+          "Red",
+          "Yellow"
+        ],
+        "answer": 2,
+        "explanation": "The instructions state: 'Draw an angry face and colour it red.'"
+      },
+      {
+        "question": "What color is instructed for the surprised face in the drawing activity?",
+        "options": [
+          "Green",
+          "Yellow",
+          "Red",
+          "Blue"
+        ],
+        "answer": 0,
+        "explanation": "The instructions state: 'Draw a surprised face and colour it green.'"
+      },
+      {
+        "question": "In the supplementary story 'No... No... Not Now', where does the character first ask to hop?",
+        "options": [
+          "On the bed",
+          "On the tub",
+          "By the cup",
+          "To the shop"
+        ],
+        "answer": 1,
+        "explanation": "The story begins with: 'Shall I hop on this tub? No... No... Not now.'"
+      },
+      {
+        "question": "Complete the sentence from 'No... No... Not Now': 'Shall I jump on your _____?'",
+        "options": [
+          "tub",
+          "cap",
+          "bed",
+          "shop"
+        ],
+        "answer": 2,
+        "explanation": "The text asks, 'Shall I jump on your bed?'"
+      },
+      {
+        "question": "Complete the sentence from 'No... No... Not Now': 'Shall I run to the _____?'",
+        "options": [
+          "park",
+          "school",
+          "shop",
+          "house"
+        ],
+        "answer": 2,
+        "explanation": "The text asks, 'Shall I run to the shop?'"
+      },
+      {
+        "question": "At the end of 'No... No... Not Now', what do they decide to do?",
+        "options": [
+          "Have a nap",
+          "Go to sleep",
+          "Go out and play",
+          "Eat some food"
+        ],
+        "answer": 2,
+        "explanation": "The story ends with: 'But then what shall I do? Come! Let us go out and play.'"
+      },
+      {
+        "question": "Choose the correct verbs: 'I ____ a cat. You ____ a dog.'",
+        "options": [
+          "are / am",
+          "am / are",
+          "is / are",
+          "am / is"
+        ],
+        "answer": 1,
+        "explanation": "The pronoun 'I' takes 'am', and 'You' takes 'are'. Therefore, 'I am a cat. You are a dog.'"
+      },
+      {
+        "question": "Is the following statement True or False? 'In the present tense, am is used with You and We.'",
+        "options": [
+          "True",
+          "False",
+          "Only with You",
+          "Only with We"
+        ],
+        "answer": 1,
+        "explanation": "False. The verb 'are' is used with You and We. 'Am' is only used with 'I'."
+      },
+      {
+        "question": "Assertion (A): Gopi started crying loudly when he asked for flowers.\nReason (R): The flower seller happily gave him the flowers from the bottom of the stack.",
+        "options": [
+          "Both A and R are true and R is the correct explanation.",
+          "Both A and R are true but R is not the correct explanation.",
+          "A is true but R is false.",
+          "A is false but R is true."
+        ],
+        "answer": 2,
+        "explanation": "The assertion is true, but the reason is false because the flower seller refused, saying 'No, no, not that one! The flowers will fall down.'"
+      },
+      {
+        "question": "Analogy Question - Thirsty : Drink :: Hungry : ?",
+        "options": [
+          "Sleep",
+          "Laugh",
+          "Eat",
+          "Cry"
+        ],
+        "answer": 2,
+        "explanation": "When thirsty you drink, and when hungry you eat, as per the poem actions."
+      },
+      {
+        "question": "Analogy Question - Tired : zzz :: Sad : ?",
+        "options": [
+          "ha ha",
+          "boo hoo",
+          "wow",
+          "chew"
+        ],
+        "answer": 1,
+        "explanation": "The sound for tired is zzz (sleeping), and the sound for sad is boo hoo (crying)."
+      },
+      {
+        "question": "HOTS Question 1: What is the underlying reason Mom and all the shopkeepers kept saying 'Not that one!' to Gopi?",
+        "options": [
+          "Because they didn't want to buy him anything.",
+          "Because he was pointing to the most expensive items.",
+          "Because pulling an item from the middle or bottom of a stack would make the entire pile fall down.",
+          "Because those specific items were already sold."
+        ],
+        "answer": 2,
+        "explanation": "Every time Gopi pointed, it was to an item supporting others (boxes, apples, books, samosas). Pulling it would cause a collapse."
+      },
+      {
+        "question": "HOTS Question 2: What important life skill is primarily being taught to children through Gopi's story?",
+        "options": [
+          "How to properly stack fruits in a market.",
+          "Understanding the consequences of our actions and managing frustration/anger.",
+          "How to buy puppies from a basket.",
+          "Learning the names of different shops."
+        ],
+        "answer": 1,
+        "explanation": "The story helps children connect with their own feelings of anger when told 'no', and teaches them the logical consequences of actions (things falling) to manage that frustration."
+      },
+      {
+        "question": "HOTS Question 3: The words 'see' and 'sea' sound exactly the same but have different spellings and meanings. Why are they grouped together in this lesson's phonics section?",
+        "options": [
+          "Because they are both sight words.",
+          "Because they both represent bodies of water.",
+          "Because they share the exact same long 'e' vowel sound despite having different letter clusters ('ee' and 'ea').",
+          "Because they both start with the letter 's'."
+        ],
+        "answer": 2,
+        "explanation": "The phonics lesson focuses on the auditory long 'e' sound, showing that both 'ee' and 'ea' clusters can produce it."
+      },
+      {
+        "question": "HOTS Question 4: If a character in a story is shivering, hiding behind a chair, and saying 'Please don't hurt me!', which vocabulary feeling are they most likely expressing?",
+        "options": [
+          "Bored",
+          "Scared",
+          "Lazy",
+          "Surprised"
+        ],
+        "answer": 1,
+        "explanation": "Shivering and hiding are physical signs of being scared, which is one of the feelings taught in the vocabulary section."
+      },
+      {
+        "question": "HOTS Question 5: Why does the 'Let us make' activity ask children to use specific colors (yellow, blue, red, green) for different emotion faces?",
+        "options": [
+          "To test their memory of the rainbow.",
+          "Because the textbook ran out of other colors.",
+          "To help children visually categorize and express their emotions by linking abstract feelings to concrete colors.",
+          "To teach them how to mix primary colors."
+        ],
+        "answer": 2,
+        "explanation": "Associating emotions with colors (like red for anger, blue for sadness) is a pedagogical tool to help young children recognize, process, and communicate abstract feelings visually."
+      },
+      {
+        "question": "Fill in the blank from the sentence on the word wall: 'I brush my teeth at _____.'",
+        "options": [
+          "school",
+          "night",
+          "people",
+          "think"
+        ],
+        "answer": 1,
+        "explanation": "One of the sight word sentences is 'I brush my teeth at night.'"
+      },
+      {
+        "question": "Book Back Question: Gopi pulled the _____ box.",
+        "options": [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        "answer": 2,
+        "explanation": "The text asks: Gopi pulled the (green / red) box. The correct answer is green."
+      },
+      {
+        "question": "Book Back Question: Gopi and Mom go to the _____.",
+        "options": [
+          "park",
+          "school",
+          "market",
+          "hospital"
+        ],
+        "answer": 2,
+        "explanation": "The text asks: Gopi and Mom go to the (market / park). The correct answer is market."
+      },
+      {
+        "question": "Book Back Question: Gopi wants an _____.",
+        "options": [
+          "orange",
+          "apple",
+          "banana",
+          "mango"
+        ],
+        "answer": 1,
+        "explanation": "The text asks: Gopi wants an (orange / apple). The correct answer is apple."
+      },
+      {
+        "question": "Book Back Question: Mom wants a _____ puppy.",
+        "options": [
+          "brown",
+          "black",
+          "white",
+          "spotted"
+        ],
+        "answer": 2,
+        "explanation": "The text asks: Mom wants a (brown / white) puppy. The correct answer is white."
+      },
+      {
+        "question": "Book Back Question: Who was reading a book at the beginning of the story?",
+        "options": [
+          "Gopi",
+          "Mom",
+          "The shopkeeper",
+          "Chittu"
+        ],
+        "answer": 1,
+        "explanation": "The story explicitly states: 'Mom was reading.'"
+      },
+      {
+        "question": "Book Back Question: What did Gopi say to every shopkeeper?",
+        "options": [
+          "Give me that!",
+          "I want that one!",
+          "How much is this?",
+          "Can I have this?"
+        ],
+        "answer": 1,
+        "explanation": "Throughout the story, Gopi repeats the phrase 'I want that one!'"
+      },
+      {
+        "question": "Book Back Question: Why was Gopi angry at the beginning?",
+        "options": [
+          "Because he was hungry.",
+          "Because Mom didn't take him to the park.",
+          "Because Mom said 'Not that one!' to the box he wanted to pull.",
+          "Because he lost his toy."
+        ],
+        "answer": 2,
+        "explanation": "Mom stopped him from pulling the green box so it wouldn't fall on their heads, which made him angry."
+      },
+      {
+        "question": "Book Back Question: Why was everyone looking at Gopi in the market?",
+        "options": [
+          "Because he was singing a song.",
+          "Because he was dancing.",
+          "Because he was crying loudly.",
+          "Because he bought a puppy."
+        ],
+        "answer": 2,
+        "explanation": "The story states: 'By now, Gopi was crying loudly. Everyone was looking at Gopi.'"
+      },
+      {
+        "question": "Which of these words is NOT a feeling mentioned in the vocabulary section?",
+        "options": [
+          "Lazy",
+          "Scared",
+          "Tall",
+          "Shocked"
+        ],
+        "answer": 2,
+        "explanation": "'Tall' is an adjective describing size/height, not a feeling like lazy, scared, or shocked."
+      }
+    ]
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "பாடச் சுருக்கம்",
+        "content": "This unit, 'Know Your Feelings', introduces children to different emotions and how to express them. Through the poem 'How Do I Feel?', children learn actions associated with being happy, sad, surprised, hungry, thirsty, and tired. The main story 'Not That One' follows a boy named Gopi who gets angry when his mother and shopkeepers prevent him from pulling items from the bottom of stacks, teaching children about logical consequences and managing frustration. The grammar section focuses on the present tense 'be' verbs 'am' (used with 'I') and 'are' (used with 'You' and 'We'). The phonics section explores the long 'e' sound through 'ee' and 'ea' letter clusters, along with initial and final consonant blends. It concludes with sight words and a supplementary story 'No... No... Not Now'."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள்",
+        "content": "▸ 1. Feelings and Emotions Vocabulary:\n• - Happy (laugh, ha ha), Sad (cry, boo hoo), Surprised (wow wow), Hungry (eat, chew), Thirsty (drink, gulp), Tired (sleep, zzz).\n• - Other feelings: angry, sleepy, shocked, scared, lazy, bored.\n\n▸ 2. Grammar Structures:\n• - Use 'am' after 'I' (e.g., I am a boy / I am a girl / I am a cat).\n• - Use 'are' after 'You' and 'We' (e.g., You are a boy / We are brothers / You are girls / We are friends).\n\n▸ 3. Phonics:\n• - Long 'e' sound using 'ee' cluster: see, deep, jeep, meet, feet, seed, green, bee, tree, sheep, week, keep.\n• - Long 'e' sound using 'ea' cluster: sea, bead, read, seat, heat, neat, meal, teach, leaf, eat.\n• - Consonant blends: pl- (plate), sl- (sleep), pr- (pray), -sp (wasp), -sk (desk).\n\n▸ 4. Stories:\n• - 'Not That One': Gopi learns not to pull items from the bottom of a stack (boxes, apples, books, samosas) to prevent them from falling. He finally takes a brown puppy from the top of a pile and becomes happy.\n• - 'No... No... Not Now': A supplementary story about asking permission for actions (hop on tub, sit by cup, jump on bed, run to shop)."
+      },
+      {
+        "title": "தகவல் பேழை",
+        "content": "▸ Phonics Word Lists (Long 'e' Sound):\n• - 'ee' Words: see, fee, deep, jeep, meet, feet, seed, weed, cheek, sleep, wheel, leech, fleet, green, free, teeth, bee, tree, sheep, weed, keen, seen, seek, week, weep, deed, feed, keep.\n• - 'ea' Words: sea, bead, read, seat, heat, neat, meal, deal, cheap, wheat, cream, clean, teach, treat, bleach, breathe, tea, leaf, eat, leap, reap, heap, seal, heal, team, lean, mean, bean.\n\n▸ Word Wall (Sight Words):\n• made, could, book, look, ball, back, think, night, people, school, run."
+      },
+      {
+        "title": "உங்களுக்கு தெரியுமா?",
+        "content": "• - Did you know that the rule for using 'am' and 'are' is based on the person of the pronoun? 'I' is the first-person singular and always takes 'am'. 'You' (second person) and 'We' (first-person plural) always take 'are' in the present tense.\n• - Teachers use flashcards of different facial expressions (happy, sad, angry, surprised) to help children visually recognize and name their feelings, making emotional intelligence a core part of early education."
+      },
+      {
+        "title": "கலைச்சொற்கள்",
+        "content": "• - Feelings: Emotional states of a person (e.g., happy, sad, angry).\n• - Sight Words: High-frequency words that children should recognize instantly (e.g., could, people, think).\n• - Blends: Two consonants whose sounds are blended together (e.g., pl-, -sk).\n• - Homophones: Words that sound the same but have different spellings and meanings, like 'see' (ee) and 'sea' (ea)."
+      },
+      {
+        "title": "படம் சார்ந்த குறிப்புகள்",
+        "content": "▸ Let us make - Drawing Activity Instructions:\n• - Draw a happy face and colour it yellow.\n• - Draw a sad face and colour it blue.\n• - Draw an angry face and colour it red.\n• - Draw a surprised face and colour it green.\n\n▸ Grammar Context Pictures:\n• Valli introduces herself: 'I am Valli.'\n• She talks about her friends: 'We are friends.'\n• She talks to Chittu: 'You are Chittu.'"
+      },
+      {
+        "title": "நினைவில் கொள்க",
+        "content": "▸ Pedagogical Notes:\n• - The poem 'How Do I Feel?' should be sung with physical actions (laughing, pretending to sleep, chewing) to reinforce the vocabulary.\n• - When teaching the story 'Not That One', focus on characters and their feelings. Help children make connections with their everyday lives, like when they are told 'no'.\n• - For phonics, first teach the sound /i:/, then introduce the two letter clusters ('ee' and 'ea') that produce this sound."
+      },
+      {
+        "title": "பாட பின்புற வினாக்கள்",
+        "content": "▸ 1. Circle the correct word:\n• - Gopi pulled the (green / red) box. -> green\n• - Gopi and Mom go to the (market / park). -> market\n• - Gopi wants an (orange / apple). -> apple\n• - Mom wants a (brown / white) puppy. -> white\n\n▸ 2. Listen, think and say:\n• - Who was reading a book? -> Mom was reading a book.\n• - Why was everyone looking at Gopi? -> Because Gopi was crying loudly.\n• - What did Gopi say to the shopkeeper? -> 'I want that one!'\n• - Why was Gopi angry? -> Because Mom said 'Not that one!' to the green box he wanted, as all boxes would fall.\n• - How would you feel if you were Gopi? -> (Subjective answer: sad/angry but understanding eventually).\n\n▸ 3. Fill in the blanks with am / are:\n• - I (am) a cat. You (are) a dog.\n• - Yes, we (are) dogs. You (are) cats.\n• - We all (are) friends."
+      }
+    ]
+  }
+}

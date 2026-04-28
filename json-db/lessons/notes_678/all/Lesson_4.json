@@ -1,0 +1,843 @@
+{
+  "வகுப்பு": "6",
+  "பருவம்": "1",
+  "பாட_எண்": "Grammar",
+  "பாட_தலைப்பு": "English Grammar (Term 1)",
+  "பாடக்குறிப்புகள்": {
+    "பாடச்சுருக்கம்": "This grammar module covers the fundamental concepts of English grammar for Class 6 Term 1. It begins with the structure of a sentence, differentiating between the Subject and the Predicate. It then comprehensively explains the 8 Parts of Speech: Noun, Pronoun, Verb, Adjective, Adverb, Preposition, Conjunction, and Interjection. Furthermore, it delves deep into the classification of Nouns (Proper, Common, Collective, Abstract, Material) and Pronouns (Subject, Object, Possessive adjectives, and Possessive pronouns). These rules form the foundation for constructing grammatically correct sentences in English.",
+    "பாடக்கருத்துக்கள்": [
+      {
+        "தலைப்பு": "1. Subject and Predicate",
+        "விவரங்கள்": [
+          "A sentence is a group of words that makes complete sense.",
+          "Every complete sentence contains two parts: a Subject and a Predicate.",
+          "Subject: The person, place, animal, or thing we are speaking about. (e.g., 'The sun' in 'The sun shines loudly' - Wait, 'The sun shines brightly').",
+          "Predicate: What is said about the subject. It always contains a verb. (e.g., 'shines brightly')."
+        ]
+      },
+      {
+        "தலைப்பு": "2. Parts of Speech",
+        "விவரங்கள்": [
+          "Words are divided into different kinds or classes called Parts of Speech, according to their use and function in a sentence.",
+          "There are 8 parts of speech in English: Noun, Pronoun, Verb, Adjective, Adverb, Preposition, Conjunction, and Interjection."
+        ]
+      },
+      {
+        "தலைப்பு": "3. Nouns and Types of Nouns",
+        "விவரங்கள்": [
+          "A Noun is a word used as the name of a person, place, or thing.",
+          "Proper Noun: The name of a particular person or place (Always starts with a capital letter). Example: Chennai, Ravi.",
+          "Common Noun: A name given in common to every person or thing of the same class or kind. Example: boy, city, dog.",
+          "Collective Noun: The name of a number (or collection) of persons or things taken together and spoken of as one whole. Example: crowd, army, flock.",
+          "Abstract Noun: The name of a quality, action, or state considered apart from the object to which it belongs. Example: honesty, bravery, childhood.",
+          "Material Noun: The name of a raw material or substance out of which things are made. Example: gold, iron, wood."
+        ]
+      },
+      {
+        "தலைப்பு": "4. Pronouns",
+        "விவரங்கள்": [
+          "A Pronoun is a word used instead of a noun to avoid repetition.",
+          "Subject Pronouns (do the action): I, We, You, He, She, It, They.",
+          "Object Pronouns (receive the action): me, us, you, him, her, it, them.",
+          "Possessive Adjectives (show ownership, followed by a noun): my, our, your, his, her, its, their.",
+          "Possessive Pronouns (show ownership, stand alone): mine, ours, yours, his, hers, theirs."
+        ]
+      },
+      {
+        "தலைப்பு": "5. Verbs, Adjectives, and Adverbs",
+        "விவரங்கள்": [
+          "Verb: A word used to express an action or state. Example: run, jump, is, are.",
+          "Adjective: A word used to add something to the meaning of a noun (Describes a noun). Example: brave boy, tall tree.",
+          "Adverb: A word used to add something to the meaning of a verb, an adjective, or another adverb. Example: He ran quickly, very beautiful."
+        ]
+      },
+      {
+        "தலைப்பு": "6. Prepositions, Conjunctions, and Interjections",
+        "விவரங்கள்": [
+          "Preposition: A word used with a noun or pronoun to show how the person or thing denoted by the noun or pronoun stands in relation to something else. Example: on, in, under.",
+          "Conjunction: A word used to join words or sentences. Example: and, but, or, because.",
+          "Interjection: A word which expresses some sudden feeling. Example: Alas!, Hurrah!, Oh!"
+        ]
+      }
+    ],
+    "தகவல்_பேழை": [
+      "The word 'Noun' comes from the Latin word 'nomen' which means 'name'.",
+      "Articles (a, an, the) are actually a type of Adjective because they describe nouns.",
+      "A sentence can have a single word if it is an imperative verb. Example: 'Stop!' (Here the subject 'You' is understood)."
+    ],
+    "உங்களுக்கு_தெரியுமா": [
+      "Do you know that the word 'I' is always capitalized, no matter where it appears in a sentence?",
+      "Do you know that 'Abstract Nouns' are things you cannot perceive through your five senses? You cannot touch, taste, see, hear, or smell 'bravery'.",
+      "Did you know 'oxymoron' is a figure of speech but 'Noun' is a part of speech? Always distinguish between figures of speech and parts of speech."
+    ],
+    "படம்_சார்ந்த_குறிப்புகள்": [
+      "Tree Diagram of Nouns: The main branch is 'Nouns', splitting into 'Proper', 'Common', 'Collective', 'Material', and 'Abstract'.",
+      "Table of Pronouns: A table showing First Person, Second Person, and Third Person categorized into Subjective, Objective, and Possessive cases."
+    ],
+    "நினைவில்_கொள்க": [
+      "A Proper Noun always begins with a capital letter.",
+      "A pronoun must agree with the noun it replaces in number and gender.",
+      "A predicate MUST contain a verb.",
+      "Adjectives describe Nouns. Adverbs describe Verbs, Adjectives, or other Adverbs."
+    ],
+    "கலைச்சொற்கள்": [
+      {
+        "சொல்": "Noun (பெயர்ச்சொல்)",
+        "பொருள்": "A word that names a person, place, thing, or idea."
+      },
+      {
+        "சொல்": "Verb (வினைச்சொல்)",
+        "பொருள்": "A word that expresses an action, an occurrence, or a state of being."
+      },
+      {
+        "சொல்": "Adjective (பெயரடை)",
+        "பொருள்": "A word that modifies or describes a noun or pronoun."
+      },
+      {
+        "சொல்": "Pronoun (பிரதிப் பெயர்ச்சொல்)",
+        "பொருள்": "A word that takes the place of a noun."
+      },
+      {
+        "சொல்": "Predicate (பயனிலை)",
+        "பொருள்": "The part of a sentence or clause containing a verb and stating something about the subject."
+      }
+    ],
+    "பாட_பின்புற_வினாக்கள்": {
+      "சரியான_விடையை_தேர்ந்தெடுத்து_எழுதுக": [
+        {
+          "கேள்வி": "Identify the proper noun in the sentence: 'She travelled to London.'",
+          "விடை": "London"
+        },
+        {
+          "கேள்வி": "What part of speech is the word 'beautifully' in 'She sang beautifully'?",
+          "விடை": "Adverb"
+        },
+        {
+          "கேள்வி": "Find the subject in the sentence: 'The old man walked slowly.'",
+          "விடை": "The old man"
+        },
+        {
+          "கேள்வி": "Choose the correct pronoun: 'Ravi and I are friends. ___ play together.'",
+          "விடை": "We"
+        }
+      ],
+      "கோடிட்ட_இடங்களை_நிரப்புக": [
+        {
+          "கேள்வி": "A __________ noun names a collection or group of things.",
+          "விடை": "Collective"
+        },
+        {
+          "கேள்வி": "Words that join two sentences are called __________.",
+          "விடை": "Conjunctions"
+        },
+        {
+          "கேள்வி": "Honesty is the best policy. Here 'Honesty' is an __________ noun.",
+          "விடை": "Abstract"
+        }
+      ],
+      "பொருத்துக": [
+        {
+          "கேள்வி": "Proper Noun",
+          "விடை": "India"
+        },
+        {
+          "கேள்வி": "Material Noun",
+          "விடை": "Gold"
+        },
+        {
+          "கேள்வி": "Collective Noun",
+          "விடை": "Army"
+        },
+        {
+          "கேள்வி": "Abstract Noun",
+          "விடை": "Kindness"
+        }
+      ],
+      "சரியா_தவறா": [
+        {
+          "கேள்வி": "A common noun always begins with a capital letter.",
+          "விடை": "False"
+        },
+        {
+          "கேள்வி": "An adjective describes a verb.",
+          "விடை": "False"
+        },
+        {
+          "கேள்வி": "A sentence always has a subject and a predicate.",
+          "விடை": "True"
+        }
+      ],
+      "கூற்று_காரணம்": [
+        {
+          "கூற்று": "In the sentence 'Stop!', the subject is hidden.",
+          "காரணம்": "In imperative sentences, the subject 'You is always implied or understood.",
+          "விடை": "Both Assertion and Reason are true, and the Reason is the correct explanation."
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "questions": [
+      {
+        "q": "Identify the Subject in the sentence: 'The beautiful rainbow soon faded away.'",
+        "options": [
+          "The beautiful rainbow",
+          "soon faded away",
+          "faded away",
+          "rainbow soon faded"
+        ],
+        "answer": 0,
+        "explanation": "The subject is what the sentence is about. Here, the sentence is about 'The beautiful rainbow'."
+      },
+      {
+        "q": "Identify the Predicate in the sentence: 'My mother cooks delicious food.'",
+        "options": [
+          "My mother",
+          "delicious food",
+          "cooks delicious food",
+          "cooks"
+        ],
+        "answer": 2,
+        "explanation": "The predicate tells us something about the subject. Here, 'cooks delicious food' describes the action of the subject 'My mother'."
+      },
+      {
+        "q": "Which part of speech is the word 'brave' in the sentence: 'Ashoka was a brave king.'?",
+        "options": [
+          "Noun",
+          "Adjective",
+          "Adverb",
+          "Verb"
+        ],
+        "answer": 1,
+        "explanation": "The word 'brave' describes the noun 'king'. A word that describes a noun is an Adjective."
+      },
+      {
+        "q": "What kind of noun is the word 'flock' in 'A flock of sheep was grazing'?",
+        "options": [
+          "Proper Noun",
+          "Abstract Noun",
+          "Material Noun",
+          "Collective Noun"
+        ],
+        "answer": 3,
+        "explanation": "A collective noun refers to a group of things or people. 'Flock' refers to a group of sheep."
+      },
+      {
+        "q": "Which of the following is an Abstract Noun?",
+        "options": [
+          "Teacher",
+          "Wisdom",
+          "Water",
+          "Chennai"
+        ],
+        "answer": 1,
+        "explanation": "An abstract noun denotes an idea, quality, or state that cannot be physically touched. 'Wisdom' is a quality."
+      },
+      {
+        "q": "Identify the Pronoun in the sentence: 'The dog barked because it was hungry.'",
+        "options": [
+          "dog",
+          "barked",
+          "it",
+          "because"
+        ],
+        "answer": 2,
+        "explanation": "'it' is used in place of the noun 'dog' to avoid repetition. Therefore, it is a pronoun."
+      },
+      {
+        "q": "Choose the correct Preposition: 'The book is ________ the table.'",
+        "options": [
+          "on",
+          "and",
+          "is",
+          "beautiful"
+        ],
+        "answer": 0,
+        "explanation": "A preposition shows the relationship between a noun and another word. 'on' shows the position of the book relative to the table."
+      },
+      {
+        "q": "Identify the Verb in the following sentence: 'The birds fly in the sky.'",
+        "options": [
+          "birds",
+          "fly",
+          "in",
+          "sky"
+        ],
+        "answer": 1,
+        "explanation": "A verb denotes an action. 'fly' is the action being performed by the birds."
+      },
+      {
+        "q": "What part of speech joins two words or sentences?",
+        "options": [
+          "Preposition",
+          "Adverb",
+          "Interjection",
+          "Conjunction"
+        ],
+        "answer": 3,
+        "explanation": "A conjunction (like and, but, or) is used to connect words, phrases, or clauses."
+      },
+      {
+        "q": "Which sentence contains a Material Noun?",
+        "options": [
+          "The army marched forward.",
+          "My ring is made of gold.",
+          "Truth always wins.",
+          "He is a tall boy."
+        ],
+        "answer": 1,
+        "explanation": "Material nouns refer to substances out of which things are made. 'Gold' is a material noun."
+      },
+      {
+        "q": "Identify the Adverb in the sentence: 'The tortoise walked slowly.'",
+        "options": [
+          "tortoise",
+          "walked",
+          "slowly",
+          "The"
+        ],
+        "answer": 2,
+        "explanation": "An adverb describes a verb. 'slowly' describes how the tortoise walked."
+      },
+      {
+        "q": "Identify the part of speech of the capitalized word: 'WOW! That is a beautiful dress.'",
+        "options": [
+          "Verb",
+          "Interjection",
+          "Conjunction",
+          "Pronoun"
+        ],
+        "answer": 1,
+        "explanation": "'WOW' expresses a sudden strong feeling, which is the definition of an Interjection."
+      },
+      {
+        "q": "In the sentence 'Sit down.', what is the subject?",
+        "options": [
+          "Sit",
+          "down",
+          "It has no subject",
+          "You (understood)"
+        ],
+        "answer": 3,
+        "explanation": "In imperative sentences (commands or requests), the subject is always 'You', even though it is not explicitly written."
+      },
+      {
+        "q": "Select the correct Proper Noun from the options.",
+        "options": [
+          "mountain",
+          "Himalayas",
+          "river",
+          "city"
+        ],
+        "answer": 1,
+        "explanation": "A proper noun is the specific name of a particular entity. 'Himalayas' is the specific name of a mountain range."
+      },
+      {
+        "q": "Match the following: 1. He - a. Object Pronoun, 2. Him - b. Subject Pronoun, 3. His - c. Possessive Adjective. Choose the correct order.",
+        "options": [
+          "1-b, 2-a, 3-c",
+          "1-a, 2-b, 3-c",
+          "1-c, 2-a, 3-b",
+          "1-b, 2-c, 3-a"
+        ],
+        "answer": 0,
+        "explanation": "'He' does the action (Subject), 'Him' receives the action (Object), and 'His' shows ownership (Possessive)."
+      },
+      {
+        "q": "Which word is a Common Noun in the sentence 'Delhi is a big city'?",
+        "options": [
+          "Delhi",
+          "is",
+          "big",
+          "city"
+        ],
+        "answer": 3,
+        "explanation": "A common noun represents a class of entities. 'city' is common to all cities, whereas 'Delhi' is a proper noun."
+      },
+      {
+        "q": "Fill in the blank with the correct possessive pronoun: 'This pen belongs to me. It is ________.'",
+        "options": [
+          "my",
+          "mine",
+          "me",
+          "I"
+        ],
+        "answer": 1,
+        "explanation": "'Mine' is a possessive pronoun used independently without a noun following it."
+      },
+      {
+        "q": "Find the odd one out based on the types of nouns: anger, joy, silver, sorrow.",
+        "options": [
+          "anger",
+          "joy",
+          "silver",
+          "sorrow"
+        ],
+        "answer": 2,
+        "explanation": "Anger, joy, and sorrow are Abstract Nouns. Silver is a Material Noun."
+      },
+      {
+        "q": "Identify the Conjunction in the sentence: 'I wanted to play, but it started raining.'",
+        "options": [
+          "wanted",
+          "play",
+          "but",
+          "started"
+        ],
+        "answer": 2,
+        "explanation": "'but' is the word joining the two clauses 'I wanted to play' and 'it started raining'."
+      },
+      {
+        "q": "Identify the type of the capitalized noun: 'A BUNCH of keys is on the table.'",
+        "options": [
+          "Proper Noun",
+          "Abstract Noun",
+          "Collective Noun",
+          "Material Noun"
+        ],
+        "answer": 2,
+        "explanation": "'Bunch' denotes a collection of keys taken together as a whole."
+      },
+      {
+        "q": "Which part of speech replaces a noun to avoid repetition?",
+        "options": [
+          "Adjective",
+          "Pronoun",
+          "Adverb",
+          "Verb"
+        ],
+        "answer": 1,
+        "explanation": "Pronouns (like he, she, it, they) are used in place of nouns to make sentences less repetitive."
+      },
+      {
+        "q": "Choose the correctly capitalized sentence.",
+        "options": [
+          "rohit went to mumbai on sunday.",
+          "Rohit went to Mumbai on sunday.",
+          "Rohit went to Mumbai on Sunday.",
+          "rohit went to Mumbai on Sunday."
+        ],
+        "answer": 2,
+        "explanation": "Proper Nouns (Rohit, Mumbai, Sunday) must always begin with a capital letter."
+      },
+      {
+        "q": "Which of the following contains an Adjective?",
+        "options": [
+          "He runs fast.",
+          "She has a red bag.",
+          "They are reading.",
+          "We went out."
+        ],
+        "answer": 1,
+        "explanation": "In the sentence 'She has a red bag', 'red' is an adjective modifying the noun 'bag'."
+      },
+      {
+        "q": "What is the function of an Adverb?",
+        "options": [
+          "To describe a noun",
+          "To replace a noun",
+          "To express an action",
+          "To modify a verb, adjective, or another adverb"
+        ],
+        "answer": 3,
+        "explanation": "An adverb adds meaning or context (like how, when, where) to verbs, adjectives, or other adverbs."
+      },
+      {
+        "q": "Identify the Subject Pronoun: '________ are going to the market.'",
+        "options": [
+          "Them",
+          "Us",
+          "They",
+          "Him"
+        ],
+        "answer": 2,
+        "explanation": "The subject performs the action. 'They' is a subject pronoun, whereas them, us, and him are object pronouns."
+      },
+      {
+        "q": "Identify the Predicate in: 'The small puppy barked loudly all night.'",
+        "options": [
+          "The small puppy",
+          "puppy barked",
+          "barked loudly all night",
+          "all night"
+        ],
+        "answer": 2,
+        "explanation": "The predicate includes the verb and everything that tells us what the subject did. The subject is 'The small puppy'."
+      },
+      {
+        "q": "Determine the Part of Speech of the word 'fast' in 'He is a fast runner.'",
+        "options": [
+          "Adverb",
+          "Verb",
+          "Adjective",
+          "Noun"
+        ],
+        "answer": 2,
+        "explanation": "Here, 'fast' modifies the noun 'runner', so it acts as an Adjective."
+      },
+      {
+        "q": "Determine the Part of Speech of the word 'fast' in 'He runs fast.'",
+        "options": [
+          "Adjective",
+          "Adverb",
+          "Verb",
+          "Pronoun"
+        ],
+        "answer": 1,
+        "explanation": "Here, 'fast' modifies the verb 'runs', telling us HOW he runs. Therefore, it is an Adverb."
+      },
+      {
+        "q": "Which sentence uses a Possessive Adjective correctly?",
+        "options": [
+          "The bag is my.",
+          "That is mine book.",
+          "This is her pencil.",
+          "The house is theirs."
+        ],
+        "answer": 2,
+        "explanation": "Possessive adjectives (my, your, his, her) must be followed by a noun. 'her pencil' is correct."
+      },
+      {
+        "q": "Identify the Abstract Noun from the following.",
+        "options": [
+          "Childhood",
+          "Children",
+          "School",
+          "Book"
+        ],
+        "answer": 0,
+        "explanation": "Childhood is a state of being, an intangible concept. Hence, it is an Abstract Noun."
+      },
+      {
+        "q": "Fill in the correct Pronoun: 'Rani is my sister. I love ________.'",
+        "options": [
+          "she",
+          "her",
+          "him",
+          "hers"
+        ],
+        "answer": 1,
+        "explanation": "The pronoun receives the action of 'love', so we need the object pronoun 'her'."
+      },
+      {
+        "q": "Identify the Preposition: 'The cat jumped over the wall.'",
+        "options": [
+          "cat",
+          "jumped",
+          "over",
+          "wall"
+        ],
+        "answer": 2,
+        "explanation": "'over' shows the spatial relationship between the cat's jump and the wall."
+      },
+      {
+        "q": "Which is an example of an Interjection?",
+        "options": [
+          "Because",
+          "Ouch!",
+          "Into",
+          "Happily"
+        ],
+        "answer": 1,
+        "explanation": "Interjections express sudden bursts of emotion or pain and are usually followed by an exclamation mark."
+      },
+      {
+        "q": "What type of noun is 'Iron' in the sentence 'Iron is a useful metal'?",
+        "options": [
+          "Proper Noun",
+          "Material Noun",
+          "Common Noun",
+          "Abstract Noun"
+        ],
+        "answer": 1,
+        "explanation": "Iron is a substance from which other things are made, classifying it as a Material Noun."
+      },
+      {
+        "q": "Analogy Question: Proper Noun : Chennai :: Common Noun : ?",
+        "options": [
+          "Tamil Nadu",
+          "City",
+          "Ganga",
+          "Sunday"
+        ],
+        "answer": 1,
+        "explanation": "Chennai is a specific name (Proper), whereas 'city' is the general category name (Common)."
+      },
+      {
+        "q": "Identify the Parts of Speech of the words 'Black' and 'Dog' in 'The black dog barked.'",
+        "options": [
+          "Adjective, Noun",
+          "Noun, Verb",
+          "Adverb, Noun",
+          "Verb, Adjective"
+        ],
+        "answer": 0,
+        "explanation": "'Dog' is a naming word (Noun) and 'black' describes the dog (Adjective)."
+      },
+      {
+        "q": "Find the subject: 'Under the tree sat a wise monk.'",
+        "options": [
+          "Under the tree",
+          "sat",
+          "a wise monk",
+          "tree"
+        ],
+        "answer": 2,
+        "explanation": "The sentence is inverted. To find the subject, ask 'Who sat?'. The answer is 'a wise monk'."
+      },
+      {
+        "q": "Which noun represents a 'collection of soldiers'?",
+        "options": [
+          "Fleet",
+          "Army",
+          "Swarm",
+          "Herd"
+        ],
+        "answer": 1,
+        "explanation": "An army is the collective noun used specifically for a group of soldiers."
+      },
+      {
+        "q": "Identify the Object Pronoun in 'The teacher gave us homework.'",
+        "options": [
+          "teacher",
+          "gave",
+          "us",
+          "homework"
+        ],
+        "answer": 2,
+        "explanation": "'us' is receiving the action of the verb 'gave', making it an object pronoun."
+      },
+      {
+        "q": "What type of noun is 'Truth'?",
+        "options": [
+          "Proper Noun",
+          "Common Noun",
+          "Abstract Noun",
+          "Collective Noun"
+        ],
+        "answer": 2,
+        "explanation": "Truth is a concept/quality that cannot be physically touched, so it is an Abstract Noun."
+      },
+      {
+        "q": "Select the correct sentence.",
+        "options": [
+          "Me and my friend went to the park.",
+          "My friend and I went to the park.",
+          "I and my friend went to the park.",
+          "My friend and me went to the park."
+        ],
+        "answer": 1,
+        "explanation": "When acting as the subject, use the subject pronoun 'I', and it is polite to place others before yourself."
+      },
+      {
+        "q": "Identify the verb in 'The sun shines brightly.'",
+        "options": [
+          "The",
+          "sun",
+          "shines",
+          "brightly"
+        ],
+        "answer": 2,
+        "explanation": "The verb indicates the action happening. Here, the sun is performing the action of shining."
+      },
+      {
+        "q": "Which of these is a Possessive Pronoun?",
+        "options": [
+          "Your",
+          "Our",
+          "Theirs",
+          "Their"
+        ],
+        "answer": 2,
+        "explanation": "'Theirs' is a possessive pronoun because it can stand alone without a noun following it."
+      },
+      {
+        "q": "Spot the Conjunction: 'You will pass if you work hard.'",
+        "options": [
+          "will",
+          "pass",
+          "if",
+          "hard"
+        ],
+        "answer": 2,
+        "explanation": "'if' joins the two clauses 'You will pass' and 'you work hard', making it a conjunction."
+      },
+      {
+        "q": "Which is an Abstract Noun derived from the verb 'know'?",
+        "options": [
+          "Knowing",
+          "Known",
+          "Knowledge",
+          "Knew"
+        ],
+        "answer": 2,
+        "explanation": "The abstract concept associated with the action of knowing is 'Knowledge'."
+      },
+      {
+        "q": "Identify the subject in 'Are you coming to the party?'",
+        "options": [
+          "Are",
+          "you",
+          "coming",
+          "party"
+        ],
+        "answer": 1,
+        "explanation": "In a question, the subject usually comes after the helping verb. 'You' is performing the action 'coming'."
+      },
+      {
+        "q": "What part of speech is 'Alas' in 'Alas! He is dead.'?",
+        "options": [
+          "Conjunction",
+          "Interjection",
+          "Preposition",
+          "Adverb"
+        ],
+        "answer": 1,
+        "explanation": "'Alas' expresses a sudden emotion of sorrow, hence it is an interjection."
+      },
+      {
+        "q": "True or False: Every predicate must contain a noun.",
+        "options": [
+          "True",
+          "False",
+          "Only in long sentences",
+          "Cannot be determined"
+        ],
+        "answer": 1,
+        "explanation": "A predicate MUST contain a verb, not necessarily a noun. E.g., 'He runs.' (Predicate is only the verb 'runs')."
+      },
+      {
+        "q": "Which noun represents a collection of bees?",
+        "options": [
+          "Pack",
+          "Swarm",
+          "Flock",
+          "Bunch"
+        ],
+        "answer": 1,
+        "explanation": "The collective noun used for a group of flying insects like bees is a 'swarm'."
+      },
+      {
+        "q": "Find the odd one out: happily, quickly, beautifully, friendly.",
+        "options": [
+          "happily",
+          "quickly",
+          "beautifully",
+          "friendly"
+        ],
+        "answer": 3,
+        "explanation": "Happily, quickly, beautifully are Adverbs. 'Friendly' is an Adjective (e.g., a friendly dog)."
+      },
+      {
+        "q": "Identify the Part of Speech of 'Water' in 'Water the plants daily.'",
+        "options": [
+          "Noun",
+          "Verb",
+          "Adjective",
+          "Adverb"
+        ],
+        "answer": 1,
+        "explanation": "Here, 'Water' is used as an action command (imperative verb), meaning to pour water."
+      },
+      {
+        "q": "What part of speech is the word 'this' in 'This is my book.'?",
+        "options": [
+          "Demonstrative Pronoun",
+          "Noun",
+          "Verb",
+          "Adjective"
+        ],
+        "answer": 0,
+        "explanation": "'This' stands in place of a noun, pointing it out, so it acts as a pronoun here."
+      },
+      {
+        "q": "Assertion: 'Wood' is a material noun. Reason: It is a substance from which things like furniture are made.",
+        "options": [
+          "Assertion is correct, Reason is incorrect",
+          "Both Assertion and Reason are correct and the Reason explains it properly",
+          "Both Assertion and Reason are incorrect",
+          "Assertion is incorrect, Reason is correct"
+        ],
+        "answer": 1,
+        "explanation": "Material nouns refer to raw materials, and wood perfectly fits this definition."
+      },
+      {
+        "q": "Which word functions as a preposition in: 'She hid behind the door'?",
+        "options": [
+          "She",
+          "hid",
+          "behind",
+          "door"
+        ],
+        "answer": 2,
+        "explanation": "'behind' shows the positional relationship between 'she' and the 'door'."
+      },
+      {
+        "q": "A group of keys is called a bunch. A group of ships is called a ________.",
+        "options": [
+          "Fleet",
+          "Pack",
+          "Herd",
+          "Gang"
+        ],
+        "answer": 0,
+        "explanation": "The correct collective noun for ships or vehicles is a Fleet."
+      },
+      {
+        "q": "HOTS Question: Identify the error in 'The sceneries of Kashmir are beautiful.'",
+        "options": [
+          "The",
+          "sceneries",
+          "are",
+          "beautiful"
+        ],
+        "answer": 1,
+        "explanation": "'Scenery' is an abstract/uncountable noun and does not have a plural form 'sceneries'."
+      },
+      {
+        "q": "HOTS Question: In 'The rich should help the poor', what part of speech is 'rich' acting as?",
+        "options": [
+          "Noun",
+          "Adverb",
+          "Verb",
+          "Preposition"
+        ],
+        "answer": 0,
+        "explanation": "Normally an adjective, when used with 'The' to represent a group of people, it acts as a Noun."
+      },
+      {
+        "q": "HOTS Question: Find the Subject in 'Here comes the bus.'",
+        "options": [
+          "Here",
+          "comes",
+          "the bus",
+          "Here comes"
+        ],
+        "answer": 2,
+        "explanation": "In sentences beginning with 'Here' or 'There', the true subject usually follows the verb. What comes? The bus comes."
+      },
+      {
+        "q": "HOTS Question: Identify the correctly structured sentence using pronouns.",
+        "options": [
+          "Him and me are brothers.",
+          "He and I are brothers.",
+          "I and him are brothers.",
+          "Me and he are brothers."
+        ],
+        "answer": 1,
+        "explanation": "When pronouns are the subject, they must be in the subjective case (He, I). Also, courtesy dictates 'I' comes last."
+      },
+      {
+        "q": "HOTS Question: What is the collective noun for a group of directors?",
+        "options": [
+          "Panel",
+          "Board",
+          "Troupe",
+          "Jury"
+        ],
+        "answer": 1,
+        "explanation": "A group of directors managing a company or organization is collectively called a Board of Directors."
+      }
+    ]
+  }
+}

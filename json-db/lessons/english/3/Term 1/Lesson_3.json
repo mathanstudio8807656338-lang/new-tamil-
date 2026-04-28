@@ -1,0 +1,710 @@
+{
+  "lesson_meta": {
+    "title": "The World Around Us",
+    "unit": "3",
+    "grade": "3",
+    "term": "t1",
+    "subject": "english",
+    "code": "eng_3_t1_l3"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "பாடச் சுருக்கம் (Lesson Summary)",
+        "content": "This lesson introduces students to different landforms and natural environments like mountains, deserts, plains, and oceans. It features a poem 'Beauty of Nature' describing these landforms. The lesson includes an informative story about a Mother Camel and a Baby Camel explaining their physical adaptations for surviving in the desert. The grammar section focuses on polite requests using 'Would you please...?' and the usage of articles (a, an, the). A phonics section covers the 'ir' and 'ur' sounds. Finally, a supplementary story, 'A School on the Mountain', teaches the importance of going to school on time through a little bear and his animal friends."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள் (Lesson Concepts Topic-wise)",
+        "content": "• Landforms Vocabulary: volcano, desert, oasis, plain, island, glacier, mountain, valley, river, lake.\n• Beauty of Nature (Poem Concepts): Mountains have peaks, plains are flat. Oceans have waves, rivers have banks. Lakes are large, ponds are small. Deserts are dry, valleys are deep.\n▸ 3. Camel Adaptations (Baby Camel & Mother Camel Story):\n• - Long legs: Help them walk on desert sand.\n• - Long eyelashes: Save their eyes from strong winds that carry a lot of sand.\n• - Hump: Helps them store food for when they can't find any in the desert.\n• - Hard skin: Saves them from thorns, keeps them cool in summer and warm in winter.\n▸ 4. Phonics ('ir' and 'ur' sounds):\n• - 'ir': girl, dirt, stir, birth, shirt, skirt, mirth, third, first, dirty, whirl, sir, bird.\n• - 'ur': blur, burn, curve, fur, nurse, turn, curb, churn, burst, curtain, purse.\n• Grammar - Polite Requests: Using 'Would you please move/close the window/pass the pencil?' and replying with 'Yes, I can' or 'No, I cannot.'\n▸ 6. Grammar - Articles (a, an, the):\n• - 'a' is used before consonant sounds (e.g., a ball, a box, a car, a bulb).\n• - 'an' is used before vowel sounds (e.g., an elephant, an ant, an umbrella, an egg, an apple).\n• - 'the' is used for a particular person/thing, for things already mentioned (e.g., This is a box. The box is blue), and for unique things (e.g., the sun, the moon, the Earth, the stars, the sky).\n• A School on the Mountain (Story Summary): A little bear didn't want to go to school. He asks 1 monkey, 2 elephants, 3 lion cubs, 4 rabbits, and 5 frogs to play with him. They all refuse, saying they will be late for school. Realizing all his friends are going, the bear also goes to school and feels happy."
+      },
+      {
+        "title": "தகவல் பேழை (Info Box - Word Wall)",
+        "content": "▸ Important words to practice from the Word Wall:\n• myself, never, only, own, pick, shall, show, start, today, together, try, warm, flat, round."
+      },
+      {
+        "title": "உங்களுக்கு தெரியுமா? (Do You Know?)",
+        "content": "We use the article 'the' for unique things in the universe. For example: the sun, the moon, the Earth, the stars, the sky. We also use 'the' when we talk about the same thing again (e.g., This is an umbrella. The umbrella is pink)."
+      },
+      {
+        "title": "கலைச்சொற்கள் (Glossary / Landforms)",
+        "content": "• Peak - The pointed top of a mountain.\n• Plain - A large area of flat land.\n• Desert - A very dry, sandy area with little or no water.\n• Oasis - A fertile spot in a desert where water is found.\n• Glacier - A slowly moving mass or river of ice.\n• Valley - A low area of land between hills or mountains, typically with a river or stream flowing through it."
+      },
+      {
+        "title": "பாட பின்புற மதிப்பீட்டு வினாக்கள் (Book Back Questions)",
+        "content": "• Camel Story Match: Toe -> protects from hot sand; Eyelashes -> protects from sandy winds; Hump -> stores food; Skin -> protects from thorns.\n• Circle the odd one: walk, hump, winds, camel, desert, cow (Answer: cow).\n▸ 3. Camel Story Q&A:\n• - Name the animal: Camel.\n• - Why long legs? To walk in the sand.\n• - Why long eyelashes? To protect from strong winds.\n• - Where do camels store food? In their hump.\n• - Which is the best place for camels? A desert.\n• Write correct landform: dry -> desert, deep -> valley, flat -> plain.\n• Articles exercise: 'I met AN old man. THE old man came from A village. He told me about THE Sun and THE Moon.'"
+      },
+      {
+        "title": "படம் சார்ந்த முக்கிய குறிப்புகள் (Image Based Notes)",
+        "content": "▸ Big Picture (Who does what?):\n• John rides a bicycle.\n• Malar swims in the river.\n• Asif plays with the dog.\n• Anbu flies a kite.\n• Babu is on the tree.\n• Devi has the balloons.\n• Arun rides on the camel.\n• Malik climbs up the mountain."
+      },
+      {
+        "title": "நினைவில் கொள்க (Remember)",
+        "content": "Nature has diverse landforms, and animals adapt to survive in them, just like the camel adapts to the harsh desert. In our daily lives, using polite phrases like 'Would you please' makes communication better. Also, school is a happy place where we learn and meet friends, so we should never be late!"
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "According to the 'Beauty of Nature' poem, what do mountains have?",
+        "options": [
+          "Banks",
+          "Waves",
+          "Peaks",
+          "Valleys"
+        ],
+        "answer": 2,
+        "explanation": "The poem states, 'Mountains have peaks, And plains are flat.'"
+      },
+      {
+        "question": "Which landform is described as being 'flat' in the poem?",
+        "options": [
+          "Desert",
+          "Mountain",
+          "Plain",
+          "Lake"
+        ],
+        "answer": 2,
+        "explanation": "Plains are large areas of flat land."
+      },
+      {
+        "question": "According to the poem, what do oceans have?",
+        "options": [
+          "Peaks",
+          "Waves",
+          "Banks",
+          "Dry sand"
+        ],
+        "answer": 1,
+        "explanation": "The poem says, 'Oceans have waves And rivers have banks.'"
+      },
+      {
+        "question": "Which water body is described as 'large' in the poem?",
+        "options": [
+          "Pond",
+          "Lake",
+          "River",
+          "Oasis"
+        ],
+        "answer": 1,
+        "explanation": "The poem mentions, 'Lakes are large And ponds are small.'"
+      },
+      {
+        "question": "How are deserts and valleys described in the poem?",
+        "options": [
+          "Deserts are wet, valleys are high",
+          "Deserts are flat, valleys are dry",
+          "Deserts are dry, valleys are deep",
+          "Deserts are deep, valleys are dry"
+        ],
+        "answer": 2,
+        "explanation": "The final lines of the poem are: 'Deserts are dry And valleys are deep.'"
+      },
+      {
+        "question": "What is a fertile spot in a desert with water called?",
+        "options": [
+          "Glacier",
+          "Island",
+          "Oasis",
+          "Valley"
+        ],
+        "answer": 2,
+        "explanation": "An oasis is an isolated area of vegetation in a desert, usually surrounding a water source."
+      },
+      {
+        "question": "Which of the following refers to a slowly moving mass or river of ice?",
+        "options": [
+          "Island",
+          "Volcano",
+          "Plain",
+          "Glacier"
+        ],
+        "answer": 3,
+        "explanation": "A glacier is a huge mass of ice that moves very slowly across land."
+      },
+      {
+        "question": "In the story 'Baby Camel and Mother Camel', why do camels have long legs?",
+        "options": [
+          "To kick predators",
+          "To run fast in the forest",
+          "To walk on the desert sand easily",
+          "To jump over rocks"
+        ],
+        "answer": 2,
+        "explanation": "The mother camel explains, 'Long legs help us to walk on the desert sand.'"
+      },
+      {
+        "question": "What carries a lot of sand in the desert?",
+        "options": [
+          "Strong winds",
+          "Camels",
+          "Rivers",
+          "Oceans"
+        ],
+        "answer": 0,
+        "explanation": "Deserts have strong winds which carry a lot of sand."
+      },
+      {
+        "question": "How do camels protect their eyes from the strong sandy winds?",
+        "options": [
+          "By closing their eyes constantly",
+          "By using their long ears",
+          "By having long eyelashes",
+          "By hiding behind rocks"
+        ],
+        "answer": 2,
+        "explanation": "The mother camel says, 'Long eyelashes save our eyes from these winds.'"
+      },
+      {
+        "question": "Where do camels store their food?",
+        "options": [
+          "In their stomach",
+          "In their hump",
+          "In their long neck",
+          "In their hard skin"
+        ],
+        "answer": 1,
+        "explanation": "Camels store fat/food in their humps to use when they cannot find any food in the desert."
+      },
+      {
+        "question": "Which of the following is NOT a benefit of the camel's hard skin?",
+        "options": [
+          "It saves them from thorns",
+          "It helps them store water",
+          "It keeps them cool in summer",
+          "It keeps them warm in winter"
+        ],
+        "answer": 1,
+        "explanation": "The hard skin protects from thorns and regulates temperature, but water/food storage is the job of the hump and stomach."
+      },
+      {
+        "question": "What is the best place for a camel to live?",
+        "options": [
+          "The mountain",
+          "The forest",
+          "The plain",
+          "The desert"
+        ],
+        "answer": 3,
+        "explanation": "The camel's body features are perfectly adapted to the desert, making it their best home."
+      },
+      {
+        "question": "Which of the following words contains the 'ir' phonics sound?",
+        "options": [
+          "Nurse",
+          "Burn",
+          "Girl",
+          "Curve"
+        ],
+        "answer": 2,
+        "explanation": "The word 'girl' has the 'ir' letter cluster making the /з:/ sound."
+      },
+      {
+        "question": "Which of the following words contains the 'ur' phonics sound?",
+        "options": [
+          "Shirt",
+          "Skirt",
+          "Dirty",
+          "Nurse"
+        ],
+        "answer": 3,
+        "explanation": "The word 'nurse' has the 'ur' letter cluster."
+      },
+      {
+        "question": "Complete the word using the correct letter cluster: st _ _",
+        "options": [
+          "ar",
+          "ur",
+          "ir",
+          "oo"
+        ],
+        "answer": 2,
+        "explanation": "Adding 'ir' forms the word 'stir', which matches the phonics list in the book."
+      },
+      {
+        "question": "Complete the word using the correct letter cluster: b _ _ n",
+        "options": [
+          "ir",
+          "ur",
+          "ee",
+          "oo"
+        ],
+        "answer": 1,
+        "explanation": "Adding 'ur' forms the word 'burn'."
+      },
+      {
+        "question": "Find the odd one out based on the phonics sound letter cluster:",
+        "options": [
+          "Bird",
+          "Dirt",
+          "First",
+          "Turn"
+        ],
+        "answer": 3,
+        "explanation": "'Turn' uses the 'ur' cluster, while the other three use the 'ir' cluster."
+      },
+      {
+        "question": "What is the most polite way to ask your friend to move their bag?",
+        "options": [
+          "Move your bag now.",
+          "Would you please move your bag?",
+          "Can you moving the bag?",
+          "Take your bag."
+        ],
+        "answer": 1,
+        "explanation": "Using 'Would you please...?' is the polite request structure taught in the lesson."
+      },
+      {
+        "question": "If your friend asks, 'Would you please pass the pencil?', what is a polite reply?",
+        "options": [
+          "Why should I?",
+          "Yes, I can.",
+          "I don't care.",
+          "Take it yourself."
+        ],
+        "answer": 1,
+        "explanation": "The grammar section teaches replying politely with 'Yes, I can' or 'No, I cannot'."
+      },
+      {
+        "question": "Which article should be used in this sentence: 'This is ___ elephant.'?",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "none"
+        ],
+        "answer": 1,
+        "explanation": "'Elephant' starts with a vowel sound, so we use 'an'."
+      },
+      {
+        "question": "Which article should be used in this sentence: 'This is ___ ball.'?",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "none"
+        ],
+        "answer": 0,
+        "explanation": "'Ball' starts with a consonant sound, so we use 'a'."
+      },
+      {
+        "question": "Fill in the blank: '___ boy in red shirt is a cricketer.'",
+        "options": [
+          "A",
+          "An",
+          "The",
+          "Some"
+        ],
+        "answer": 2,
+        "explanation": "We use 'The' because we are talking about a particular boy (the one in the red shirt)."
+      },
+      {
+        "question": "Fill in the blank: '___ Earth is round.'",
+        "options": [
+          "A",
+          "An",
+          "The",
+          "One"
+        ],
+        "answer": 2,
+        "explanation": "We use 'the' for unique things in nature, like the Earth, the sun, and the moon."
+      },
+      {
+        "question": "Read the sentences: 'This is a box. ___ box is blue.' Which article comes in the blank?",
+        "options": [
+          "A",
+          "An",
+          "The",
+          "That"
+        ],
+        "answer": 2,
+        "explanation": "We use 'the' when we talk about the same thing again."
+      },
+      {
+        "question": "Fill in the blanks: 'I met ___ old man. ___ old man came from ___ village.'",
+        "options": [
+          "a, The, an",
+          "an, The, a",
+          "the, An, a",
+          "an, A, the"
+        ],
+        "answer": 1,
+        "explanation": "'an old man' (vowel sound), 'The old man' (already mentioned), 'a village' (consonant sound)."
+      },
+      {
+        "question": "In the story 'A School on the Mountain', where was the school located?",
+        "options": [
+          "In the valley",
+          "On the plain",
+          "On the mountain",
+          "In the desert"
+        ],
+        "answer": 2,
+        "explanation": "The story title and opening line state, 'There was a school on the mountain.'"
+      },
+      {
+        "question": "Who did NOT want to go to school at the beginning of the story?",
+        "options": [
+          "Little monkey",
+          "Little rabbit",
+          "Little frog",
+          "Little bear"
+        ],
+        "answer": 3,
+        "explanation": "The story begins: 'Little bear did not want to go to school.'"
+      },
+      {
+        "question": "How many little monkeys walked by the bear?",
+        "options": [
+          "One",
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "answer": 0,
+        "explanation": "The story says, 'One little monkey walks by.'"
+      },
+      {
+        "question": "How many little elephants did the little bear invite to play?",
+        "options": [
+          "One",
+          "Two",
+          "Three",
+          "Five"
+        ],
+        "answer": 1,
+        "explanation": "The story says, 'Two little elephants walk by.'"
+      },
+      {
+        "question": "Which animal group had exactly three members walking by?",
+        "options": [
+          "Lion cubs",
+          "Rabbits",
+          "Frogs",
+          "Monkeys"
+        ],
+        "answer": 0,
+        "explanation": "The story says, 'Three little lion cubs walk by.'"
+      },
+      {
+        "question": "Which animal group had exactly four members walking by?",
+        "options": [
+          "Elephants",
+          "Lion cubs",
+          "Rabbits",
+          "Frogs"
+        ],
+        "answer": 2,
+        "explanation": "The story says, 'Four little rabbits hop by.'"
+      },
+      {
+        "question": "How many little frogs hopped by the little bear?",
+        "options": [
+          "Two",
+          "Three",
+          "Four",
+          "Five"
+        ],
+        "answer": 3,
+        "explanation": "The story says, 'Five little frogs hop by.'"
+      },
+      {
+        "question": "Why did all the animals refuse to play with the little bear?",
+        "options": [
+          "They did not like him",
+          "They wanted to sleep",
+          "They would be late for school",
+          "They were hungry"
+        ],
+        "answer": 2,
+        "explanation": "Every animal replied, 'We are sorry, not now... Or we will be late for school.'"
+      },
+      {
+        "question": "What did the little bear decide to do at the end of the story?",
+        "options": [
+          "He went back to sleep",
+          "He played alone",
+          "He cried loudly",
+          "He decided to go to school"
+        ],
+        "answer": 3,
+        "explanation": "He said, 'All my friends are going to school. I will go to school.'"
+      },
+      {
+        "question": "How did the little bear feel after going to school?",
+        "options": [
+          "Sad",
+          "Angry",
+          "Happy",
+          "Tired"
+        ],
+        "answer": 2,
+        "explanation": "He said, 'I like my school. We are happy at school.'"
+      },
+      {
+        "question": "According to the 'Big Picture', who swims in the river?",
+        "options": [
+          "John",
+          "Malar",
+          "Asif",
+          "Babu"
+        ],
+        "answer": 1,
+        "explanation": "The image description states, 'Malar swims in the river.'"
+      },
+      {
+        "question": "According to the 'Big Picture', who flies a kite?",
+        "options": [
+          "Anbu",
+          "Devi",
+          "Arun",
+          "Malik"
+        ],
+        "answer": 0,
+        "explanation": "The image description states, 'Anbu flies kite.'"
+      },
+      {
+        "question": "According to the 'Big Picture', who climbs up the mountain?",
+        "options": [
+          "Malik",
+          "John",
+          "Asif",
+          "Babu"
+        ],
+        "answer": 0,
+        "explanation": "The image description states, 'Malik climbs up the mountain.'"
+      },
+      {
+        "question": "Which of the following article rules is correct?",
+        "options": [
+          "Use 'a' before unique things.",
+          "Use 'the' before words starting with a consonant sound.",
+          "Use 'an' before words starting with a vowel sound.",
+          "Use 'an' for already mentioned things."
+        ],
+        "answer": 2,
+        "explanation": "We use 'an' before vowel sounds. 'The' is for unique/mentioned things, and 'a' is for consonant sounds."
+      },
+      {
+        "question": "Match the following: 1. Peak - a. Desert, 2. Dry - b. Plain, 3. Flat - c. Mountain",
+        "options": [
+          "1-a, 2-b, 3-c",
+          "1-b, 2-c, 3-a",
+          "1-c, 2-a, 3-b",
+          "1-a, 2-c, 3-b"
+        ],
+        "answer": 2,
+        "explanation": "Mountains have peaks, deserts are dry, and plains are flat."
+      },
+      {
+        "question": "Find the odd word out: walk, hump, winds, camel, cow, desert.",
+        "options": [
+          "camel",
+          "winds",
+          "cow",
+          "hump"
+        ],
+        "answer": 2,
+        "explanation": "All other words are related to the camel and desert story. Cow is the odd one out."
+      },
+      {
+        "question": "Assertion (A): We use 'the' before the word 'Sun'.\nReason (R): The Sun is a unique thing in nature.",
+        "options": [
+          "Both A and R are true",
+          "Both A and R are false",
+          "A is true, R is false",
+          "A is false, R is true"
+        ],
+        "answer": 0,
+        "explanation": "Grammar rules dictate that 'the' is used for unique objects like the Sun, Moon, and Earth."
+      },
+      {
+        "question": "Assertion (A): Deserts are the best place for a camel to live.\nReason (R): Camels have webbed feet to swim in the desert.",
+        "options": [
+          "Both A and R are true",
+          "Both A and R are false",
+          "A is true, R is false",
+          "A is false, R is true"
+        ],
+        "answer": 2,
+        "explanation": "The assertion is true, but the reason is false. Camels have long legs to walk on sand, not webbed feet for swimming."
+      },
+      {
+        "question": "Rearrange the words to form a polite sentence: please / you / door / Would / close / the / ?",
+        "options": [
+          "You would please close the door?",
+          "Would you please close the door?",
+          "Please you would close the door?",
+          "Would please you close the door?"
+        ],
+        "answer": 1,
+        "explanation": "'Would you please close the door?' is the correct structural format for a polite request."
+      },
+      {
+        "question": "Which of the following animals did NOT appear in the 'A School on the Mountain' story?",
+        "options": [
+          "Monkey",
+          "Lion cub",
+          "Rabbit",
+          "Tiger"
+        ],
+        "answer": 3,
+        "explanation": "The story features a bear, monkey, elephants, lion cubs, rabbits, and frogs. Tiger is not mentioned."
+      },
+      {
+        "question": "Real-life Scenario: You are pointing at the night sky. Which sentence is grammatically correct?",
+        "options": [
+          "Look at a moon.",
+          "Look at an moon.",
+          "Look at the moon.",
+          "Look at moon."
+        ],
+        "answer": 2,
+        "explanation": "'Moon' is a unique object, so we must use the article 'the'."
+      },
+      {
+        "question": "Analogy: Desert : Dry :: Valley : ___",
+        "options": [
+          "Flat",
+          "Deep",
+          "High",
+          "Wet"
+        ],
+        "answer": 1,
+        "explanation": "According to the poem, deserts are dry, and valleys are deep."
+      },
+      {
+        "question": "Identify the word from the word wall that means 'with each other'.",
+        "options": [
+          "Myself",
+          "Never",
+          "Together",
+          "Only"
+        ],
+        "answer": 2,
+        "explanation": "'Together' is a word wall vocabulary word meaning 'with each other'."
+      },
+      {
+        "question": "Complete the phonics sentence: 'Dirt on the ___.'",
+        "options": [
+          "Floor",
+          "Shirt",
+          "Skirt",
+          "Ground"
+        ],
+        "answer": 1,
+        "explanation": "The phonics reading sentence says, 'Dirt on the shirt', practicing the 'ir' sound."
+      },
+      {
+        "question": "High Order Thinking: Why does a camel NOT need to drink or eat every single day like other animals?",
+        "options": [
+          "Because it eats magic sand",
+          "Because its long legs make it forget hunger",
+          "Because its hump stores food/fat to use later",
+          "Because there is plenty of food in the desert"
+        ],
+        "answer": 2,
+        "explanation": "The hump acts as a storage reservoir for food/fat, allowing the camel to survive for days without eating."
+      },
+      {
+        "question": "High Order Thinking: In the story 'A School on the Mountain', the animals appear in increasing numbers. If rabbits are 4, which animal was 5?",
+        "options": [
+          "Monkeys",
+          "Elephants",
+          "Lion cubs",
+          "Frogs"
+        ],
+        "answer": 3,
+        "explanation": "The sequence is 1 monkey, 2 elephants, 3 lion cubs, 4 rabbits, and 5 frogs."
+      },
+      {
+        "question": "High Order Thinking: Why do we say 'This is AN apple' but 'THE apple is red'?",
+        "options": [
+          "Because 'apple' changes its spelling",
+          "Because we use 'an' for the first time, and 'the' when we talk about the same apple again",
+          "Because 'the' is used only for red things",
+          "Because 'an' is incorrect grammar"
+        ],
+        "answer": 1,
+        "explanation": "Grammar rule: 'a/an' is used to introduce an object. 'the' is used when referring to that already mentioned object."
+      },
+      {
+        "question": "High Order Thinking: How does a camel's hard skin act like a 'weather coat'?",
+        "options": [
+          "It changes color according to the weather.",
+          "It keeps them cool in summer and warm in winter.",
+          "It makes them invisible in the sand.",
+          "It produces water during summer."
+        ],
+        "answer": 1,
+        "explanation": "The hard skin provides thermal insulation, protecting the camel from the extreme heat of summer and the cold of winter."
+      },
+      {
+        "question": "High Order Thinking: A tourist is visiting a sandy area with very little water. Suddenly, strong winds start blowing sand everywhere. Which feature of the camel would the tourist wish they had right then?",
+        "options": [
+          "A hump",
+          "Long legs",
+          "Long eyelashes",
+          "Hard skin"
+        ],
+        "answer": 2,
+        "explanation": "The long eyelashes of a camel act like a protective shield against blowing sand, which would be very useful in a sandstorm."
+      },
+      {
+        "question": "In the Big Picture, who is playing with the dog?",
+        "options": [
+          "Babu",
+          "Devi",
+          "Asif",
+          "Arun"
+        ],
+        "answer": 2,
+        "explanation": "The image description states, 'Asif plays with the dog.'"
+      },
+      {
+        "question": "In the Big Picture, who is on the tree?",
+        "options": [
+          "Babu",
+          "John",
+          "Malar",
+          "Anbu"
+        ],
+        "answer": 0,
+        "explanation": "The image description states, 'Babu is on the tree.'"
+      },
+      {
+        "question": "Which of the following phonics words means to 'mix a liquid'?",
+        "options": [
+          "Blur",
+          "Stir",
+          "Curve",
+          "Fur"
+        ],
+        "answer": 1,
+        "explanation": "'Stir' uses the 'ir' sound and means to mix a liquid using a spoon."
+      },
+      {
+        "question": "Match the following article with the word: ___ ice-cream.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "none"
+        ],
+        "answer": 1,
+        "explanation": "'Ice-cream' starts with a vowel sound (i), so we use 'an'."
+      },
+      {
+        "question": "What is the polite phrase we use before asking someone to do something for us?",
+        "options": [
+          "Do it now",
+          "You must",
+          "Would you please",
+          "I order you"
+        ],
+        "answer": 2,
+        "explanation": "'Would you please' is the grammatically correct and polite way to make a request."
+      }
+    ]
+  }
+}

@@ -1,0 +1,710 @@
+{
+  "lesson_meta": {
+    "title": "Small Creatures",
+    "unit": "2",
+    "grade": "3",
+    "term": "t1",
+    "subject": "english",
+    "code": "eng_3_t1_l2"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "பாடச் சுருக்கம் (Lesson Summary)",
+        "content": "This lesson introduces students to various small creatures and insects like butterflies, ants, spiders, and ladybirds. It begins with the classic 'Incy Wincy Spider' rhyme. The main story, 'The Insects at the Pond', details the daily activities of different insects (e.g., the ant carrying food, the ladybird eating plant bugs, and the dragonfly escaping a chameleon). The grammar section focuses on the prepositions 'in, on, under, near' and polite requests using 'Could you give me...?'. The phonics section teaches the '/a:/' sound using 'ar' and 'ast' letter clusters. Finally, the supplementary story 'The Ant and the Dove' teaches a moral about helping one another."
+      },
+      {
+        "title": "பாடக்கருத்துக்கள் (Lesson Concepts Topic-wise)",
+        "content": "• Small Creatures Vocabulary: bumblebee, snail, ladybird, butterfly, mosquito, grasshopper, housefly, firefly, spider, dragonfly, caterpillar, beetle, rain bug, golden beetle.\n• Incy Wincy Spider: The spider climbs the water spout, rain washes it down, and sunshine dries the rain so it can climb again.\n▸ 3. The Insects at the Pond:\n• - Butterfly: Collects nectar from flowers every morning.\n• - Bumblebee: Buzzes busily and collects nectar on sunny days visiting many flowers.\n• - Ladybird: Has red and black dots, eats tiny insects that destroy plants.\n• - Ant: Works hard, carries food to the anthill, and works/eats together with others.\n• - Beetle: Looks fierce and finds food walking on the ground.\n• - Dragonfly: Flies around meeting friends, but flies away from chameleons because chameleons eat insects.\n▸ 4. Phonics ('ar' & 'ast'):\n• - 'ar': car, jar, far, tar, star, mark, park, bark, dark, shark, art, arm, farm, march, spark.\n• - 'ast': blast, fast, past, last, vast.\n• Grammar (Prepositions): 'in' (inside), 'on' (above/surface), 'under' (below), 'near' (close to).\n• Grammar (Polite Request): Using 'Could you give me a...?' and replying with 'Here it is.'\n• The Ant and the Dove: A dove saves a drowning ant by dropping a leaf. Later, the ant saves the dove from a hunter by biting the hunter's foot."
+      },
+      {
+        "title": "தகவல் பேழை (Info Box - Word Wall)",
+        "content": "▸ Important words to practice from the Word Wall:\n• where, hello, hard, from, those, today, around, your, fast, little, together, butterfly, snail, grasshopper, ant, caterpillar."
+      },
+      {
+        "title": "உங்களுக்கு தெரியுமா? (Do You Know?)",
+        "content": "• Chameleons are reptiles that eat small insects! That is why the dragonfly flew away as fast as it could when it saw a chameleon.\n• Ladybirds are very helpful to plants because they eat the tiny harmful bugs that destroy leaves.\n• Ants always work as a team. They carry food to their anthill and share it together."
+      },
+      {
+        "title": "கலைச்சொற்கள் (Glossary / Action Words)",
+        "content": "• Nectar - The sweet liquid collected by bees and butterflies from flowers.\n• Anthill - A mound of soil built by ants as their home.\n• Fierce - Looking angry, powerful, or dangerous.\n• Buzz - The low, continuous humming sound made by bees.\n• Chameleon - A type of lizard known for catching insects with its long tongue.\n• Spout - A pipe or tube that carries water."
+      },
+      {
+        "title": "பாட பின்புற மதிப்பீட்டு வினாக்கள் (Book Back Questions)",
+        "content": "• The insects in the story lived near a pond.\n• Match the words: Bumblebee -> buzzes, Beetle -> fierce, Butterfly -> colourful, Pond -> beautiful.\n• Chameleons eat insects.\n• Where is the pond? The pond is in the park.\n• What does the ant carry? The ant carries food.\n• What colour is the ladybird? The ladybird is red and black.\n• What does the chameleon eat? The chameleon eats insects.\n• Prepositions (Visuals): The cockroach is 'near' the shoes. The ladybird is 'in' the box. The ant is 'under' the chair. The butterfly is 'on' the ball.\n• Complete the sentences (Story 2): The wind blew 'hard'. The dove was on a 'tree'. The 'leaf' fell near the ant.\n• I Can Do: The ladybird is red. Ant walks with its legs. The insects live near the pond. The bumblebee has to collect nectar."
+      },
+      {
+        "title": "படம் சார்ந்த முக்கிய குறிப்புகள் (Image Based Notes)",
+        "content": "• The Pond Scene: A beautiful pond surrounded by plants where all insects like dragonflies, bumblebees, ants, and beetles gather and talk to each other.\n• Preposition Caterpillar: A caterpillar is shown in the shoe (inside), on the shoe (top), under the shoe (bottom), and near the shoe (beside) to explain prepositions.\n• The Ant and the Dove: A hunter is shown aiming a bow and arrow at the dove, and the tiny ant bites his leg to make him drop the weapon."
+      },
+      {
+        "title": "நினைவில் கொள்க (Remember)",
+        "content": "• Always use polite words like 'Could you give me...?' when asking for something, and 'Here it is' when giving it.\n• We use 'in, on, under, near' to tell where exactly a person, animal, or thing is located.\n• Help others when they are in trouble. Just like the dove saved the ant, the ant remembered the help and saved the dove from the hunter."
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "Which insect climbs up the water spout in the rhyme?",
+        "options": [
+          "Bumblebee",
+          "Butterfly",
+          "Spider",
+          "Ant"
+        ],
+        "answer": 2,
+        "explanation": "The rhyme is about 'Incy Wincy Spider' who climbed up the water spout."
+      },
+      {
+        "question": "What washed poor Incy Wincy out of the spout?",
+        "options": [
+          "Wind",
+          "Sunshine",
+          "Snow",
+          "Rain"
+        ],
+        "answer": 3,
+        "explanation": "According to the rhyme, 'Down came the rain and washed poor Incy out.'"
+      },
+      {
+        "question": "What dried up all the rain in the spider poem?",
+        "options": [
+          "The sunshine",
+          "The wind",
+          "The moon",
+          "The clouds"
+        ],
+        "answer": 0,
+        "explanation": "The poem says, 'Out came the sunshine And dried up all the rain.'"
+      },
+      {
+        "question": "Where did the insects in the story meet every day?",
+        "options": [
+          "On a tree",
+          "Inside a house",
+          "Under a rock",
+          "Near a beautiful pond"
+        ],
+        "answer": 3,
+        "explanation": "The story begins with 'Many insects lived near the pond. They met every day.'"
+      },
+      {
+        "question": "What does the butterfly do every morning?",
+        "options": [
+          "Builds a web",
+          "Collects nectar from flowers",
+          "Sleeps on leaves",
+          "Eats other insects"
+        ],
+        "answer": 1,
+        "explanation": "The butterfly says, 'I collect nectar from flowers every morning.'"
+      },
+      {
+        "question": "Which insect buzzes around busily on sunny days to collect nectar?",
+        "options": [
+          "Snail",
+          "Beetle",
+          "Bumblebee",
+          "Mosquito"
+        ],
+        "answer": 2,
+        "explanation": "The Bumblebee says, 'I collect nectar on sunny days... and visit many flowers.'"
+      },
+      {
+        "question": "What colours are the dots on a ladybird?",
+        "options": [
+          "Red and black",
+          "Yellow and green",
+          "Blue and white",
+          "Black and yellow"
+        ],
+        "answer": 0,
+        "explanation": "The dragonfly saw a bug with 'red and black dots', which was the ladybird."
+      },
+      {
+        "question": "What is the food of the ladybird?",
+        "options": [
+          "Nectar from flowers",
+          "Leaves and grass",
+          "Tiny insects that eat plants",
+          "Soil and mud"
+        ],
+        "answer": 2,
+        "explanation": "The ladybird says, 'I look for the tiny insects that eat the plants. They are my food.'"
+      },
+      {
+        "question": "Where does the ant carry its food?",
+        "options": [
+          "To the pond",
+          "To the beehive",
+          "To the anthill",
+          "To the tree branch"
+        ],
+        "answer": 2,
+        "explanation": "The ant says, 'I carry food to my anthill.'"
+      },
+      {
+        "question": "How do the ants work and eat?",
+        "options": [
+          "Together",
+          "Alone",
+          "Slowly",
+          "Only at night"
+        ],
+        "answer": 0,
+        "explanation": "Ants are a team. The ant says, 'We work together to get food. We eat together.'"
+      },
+      {
+        "question": "What does the dragonfly do at the pond?",
+        "options": [
+          "Collects food",
+          "Flies around and meets friends",
+          "Eats plant leaves",
+          "Swims in the water"
+        ],
+        "answer": 1,
+        "explanation": "The dragonfly tells the ant, 'I just fly around and meet all my friends.'"
+      },
+      {
+        "question": "Which insect looks fierce and finds its food on the ground?",
+        "options": [
+          "Beetle",
+          "Butterfly",
+          "Mosquito",
+          "Spider"
+        ],
+        "answer": 0,
+        "explanation": "The beetle looks fierce and says, 'I find my food on the ground.'"
+      },
+      {
+        "question": "Why did the dragonfly fly away fast at the end of the pond story?",
+        "options": [
+          "It saw a hunter",
+          "It saw a chameleon",
+          "It started raining",
+          "It was getting dark"
+        ],
+        "answer": 1,
+        "explanation": "The dragonfly flew away because it saw a chameleon, and chameleons eat insects."
+      },
+      {
+        "question": "Which of the following creatures is a reptile that eats insects?",
+        "options": [
+          "Dove",
+          "Ladybird",
+          "Chameleon",
+          "Snail"
+        ],
+        "answer": 2,
+        "explanation": "A chameleon is a reptile known for catching and eating insects."
+      },
+      {
+        "question": "Match the word to its feature: Bumblebee -> ?",
+        "options": [
+          "Colourful",
+          "Buzzes",
+          "Fierce",
+          "Beautiful"
+        ],
+        "answer": 1,
+        "explanation": "Bumblebees make a buzzing sound."
+      },
+      {
+        "question": "Match the word to its feature: Butterfly -> ?",
+        "options": [
+          "Fierce",
+          "Buzzes",
+          "Colourful",
+          "Tiny"
+        ],
+        "answer": 2,
+        "explanation": "Butterflies are known for their colourful wings."
+      },
+      {
+        "question": "Which word contains the '/a:/' sound using the 'ar' letter cluster?",
+        "options": [
+          "Fast",
+          "Book",
+          "Park",
+          "Blast"
+        ],
+        "answer": 2,
+        "explanation": "The word 'park' has the 'ar' letter cluster producing the /a:/ sound."
+      },
+      {
+        "question": "Which word contains the 'ast' letter cluster?",
+        "options": [
+          "Shark",
+          "Past",
+          "Dark",
+          "Farm"
+        ],
+        "answer": 1,
+        "explanation": "The word 'past' contains the 'ast' letter cluster."
+      },
+      {
+        "question": "Complete the sentence from the phonics section: The ____ eats the fish.",
+        "options": [
+          "Shark",
+          "Star",
+          "Car",
+          "Dog"
+        ],
+        "answer": 0,
+        "explanation": "The phonics reading practice sentence is 'The shark eats the fish.'"
+      },
+      {
+        "question": "Complete the sentence from the phonics section: The ____ march.",
+        "options": [
+          "Dogs",
+          "Ants",
+          "Cars",
+          "Stars"
+        ],
+        "answer": 1,
+        "explanation": "The phonics reading practice sentence is 'The ants march.'"
+      },
+      {
+        "question": "Find the missing letters: m _ _ k",
+        "options": [
+          "ar",
+          "oo",
+          "ee",
+          "ast"
+        ],
+        "answer": 0,
+        "explanation": "Using the 'ar' cluster, the word is 'mark'."
+      },
+      {
+        "question": "If you want to politely ask your friend for a pencil, what should you say?",
+        "options": [
+          "Give me pencil.",
+          "Could you give me a pencil?",
+          "I take your pencil.",
+          "Where is pencil?"
+        ],
+        "answer": 1,
+        "explanation": "'Could you give me a...?' is the polite structure taught in the grammar section."
+      },
+      {
+        "question": "When someone gives you the item you politely asked for, what do they usually say?",
+        "options": [
+          "Here it is.",
+          "Go away.",
+          "Take it.",
+          "It is mine."
+        ],
+        "answer": 0,
+        "explanation": "The correct response taught in the lesson is 'Here it is.'"
+      },
+      {
+        "question": "Prepositions: The fish is swimming ___ the bowl.",
+        "options": [
+          "In",
+          "On",
+          "Under",
+          "Near"
+        ],
+        "answer": 0,
+        "explanation": "The fish is inside the water, so it is 'in' the bowl."
+      },
+      {
+        "question": "Prepositions: The spider is hiding ___ the chair, on the floor below it.",
+        "options": [
+          "On",
+          "Under",
+          "In",
+          "Near"
+        ],
+        "answer": 1,
+        "explanation": "When something is below another object, we use 'under'."
+      },
+      {
+        "question": "Prepositions: The caterpillar is resting exactly ___ top of the shoe.",
+        "options": [
+          "In",
+          "Under",
+          "On",
+          "Near"
+        ],
+        "answer": 2,
+        "explanation": "When something is touching the top surface of an object, we use 'on'."
+      },
+      {
+        "question": "Prepositions: The bug is standing ___ the sofa, just a few inches away.",
+        "options": [
+          "In",
+          "Under",
+          "Near",
+          "On"
+        ],
+        "answer": 2,
+        "explanation": "When something is close to an object, we use 'near'."
+      },
+      {
+        "question": "In 'The Ant and the Dove' story, what pushed the ant into the river?",
+        "options": [
+          "A stone",
+          "A frog",
+          "The wind",
+          "A branch"
+        ],
+        "answer": 2,
+        "explanation": "The story says, 'The wind blew hard and pushed him into the river.'"
+      },
+      {
+        "question": "Who saw the ant drowning in the river?",
+        "options": [
+          "A hunter",
+          "A dove",
+          "A beetle",
+          "A spider"
+        ],
+        "answer": 1,
+        "explanation": "A dove sitting on a nearby tree saw the ant crying for help."
+      },
+      {
+        "question": "What did the dove throw into the river to save the ant?",
+        "options": [
+          "A twig",
+          "A rope",
+          "A leaf",
+          "A flower"
+        ],
+        "answer": 2,
+        "explanation": "The dove threw a leaf into the river, and the ant got on it to reach the bank safely."
+      },
+      {
+        "question": "After some days, who was aiming at the dove?",
+        "options": [
+          "An eagle",
+          "A hunter",
+          "A snake",
+          "A tiger"
+        ],
+        "answer": 1,
+        "explanation": "The ant saw a hunter aiming at the dove."
+      },
+      {
+        "question": "What weapons did the hunter have?",
+        "options": [
+          "A net and stick",
+          "A gun",
+          "A bow and arrow",
+          "A sword"
+        ],
+        "answer": 2,
+        "explanation": "The story mentions the hunter dropped his 'bow and arrow' when the ant bit him."
+      },
+      {
+        "question": "How did the ant save the dove from the hunter?",
+        "options": [
+          "By pushing the hunter",
+          "By shouting loudly",
+          "By biting the hunter",
+          "By breaking the bow"
+        ],
+        "answer": 2,
+        "explanation": "The ant quickly bit the hunter, causing him to cry 'Ow' and drop his weapon."
+      },
+      {
+        "question": "What did the dove say to the ant before flying away?",
+        "options": [
+          "Goodbye, ant!",
+          "Thank you, ant!",
+          "See you later!",
+          "You are brave!"
+        ],
+        "answer": 1,
+        "explanation": "The dove was grateful and said, 'Thank you, ant!' before she flew away."
+      },
+      {
+        "question": "According to the Big Picture, where does the ant live?",
+        "options": [
+          "In the water",
+          "In the hill",
+          "On the tree",
+          "Under the leaf"
+        ],
+        "answer": 1,
+        "explanation": "The Big Picture states, 'The ant is in the hill (anthill).'"
+      },
+      {
+        "question": "Which of these insects is known to glow in the dark at night?",
+        "options": [
+          "Rain bug",
+          "Dragonfly",
+          "Firefly",
+          "Grasshopper"
+        ],
+        "answer": 2,
+        "explanation": "Fireflies are small insects known for glowing in the dark."
+      },
+      {
+        "question": "Book Back: How does the ant walk?",
+        "options": [
+          "With its wings",
+          "With its shell",
+          "With its legs",
+          "With its tail"
+        ],
+        "answer": 2,
+        "explanation": "Ants do not fly like birds; they walk with their legs."
+      },
+      {
+        "question": "True or False: The bumblebee collects nectar only on rainy days.",
+        "options": [
+          "True",
+          "False",
+          "Only at night",
+          "Cannot say"
+        ],
+        "answer": 1,
+        "explanation": "False. The bumblebee says, 'I collect nectar on SUNNY days.'"
+      },
+      {
+        "question": "True or False: Ladybirds eat the plants near the pond.",
+        "options": [
+          "True",
+          "False",
+          "They eat fish",
+          "They eat frogs"
+        ],
+        "answer": 1,
+        "explanation": "False. Ladybirds eat the tiny insects that destroy the plants, not the plants themselves."
+      },
+      {
+        "question": "Find the odd one out based on the 'ast' phonics sound:",
+        "options": [
+          "Fast",
+          "Past",
+          "Mark",
+          "Blast"
+        ],
+        "answer": 2,
+        "explanation": "'Mark' has the 'ar' sound, while the others have the 'ast' sound."
+      },
+      {
+        "question": "Find the odd one out based on the 'ar' phonics sound:",
+        "options": [
+          "Vast",
+          "Car",
+          "Jar",
+          "Far"
+        ],
+        "answer": 0,
+        "explanation": "'Vast' has the 'ast' sound, while the others have the 'ar' sound."
+      },
+      {
+        "question": "Assertion: The dragonfly flew away quickly.\nReason: It saw a chameleon that eats insects.",
+        "options": [
+          "Both Assertion and Reason are true",
+          "Both are false",
+          "Assertion is true, Reason is false",
+          "Assertion is false, Reason is true"
+        ],
+        "answer": 0,
+        "explanation": "The dragonfly fled because chameleons are known predators of insects."
+      },
+      {
+        "question": "Real-life Scenario: You are reading a book and your pet dog barks loudly right next to your ear. What preposition describes the dog's position?",
+        "options": [
+          "In",
+          "Under",
+          "Near",
+          "On"
+        ],
+        "answer": 2,
+        "explanation": "Since the dog is right next to your ear, it is 'near' you."
+      },
+      {
+        "question": "Analogy: Bee : Hive :: Ant : ____",
+        "options": [
+          "Web",
+          "Pond",
+          "Anthill",
+          "Tree"
+        ],
+        "answer": 2,
+        "explanation": "Bees live in a hive, and ants live in an anthill."
+      },
+      {
+        "question": "Rearrange the words to make a polite sentence: the / Could / pass / you / salt?",
+        "options": [
+          "You could pass the salt?",
+          "Could you pass the salt?",
+          "The salt could pass you?",
+          "Pass you could the salt?"
+        ],
+        "answer": 1,
+        "explanation": "The correct polite request structure is 'Could you pass the salt?'"
+      },
+      {
+        "question": "If a bird is sitting at the very top of a house, which preposition best describes its place?",
+        "options": [
+          "In the house",
+          "Under the house",
+          "On the house",
+          "Near the house"
+        ],
+        "answer": 2,
+        "explanation": "When something is resting on the surface/top, we use 'on'."
+      },
+      {
+        "question": "Which insect from the lesson leaves a slimy trail and carries a shell on its back?",
+        "options": [
+          "Spider",
+          "Grasshopper",
+          "Snail",
+          "Beetle"
+        ],
+        "answer": 2,
+        "explanation": "The snail is a small creature that carries a shell on its back."
+      },
+      {
+        "question": "Which insect from the vocabulary list jumps very high in the grass?",
+        "options": [
+          "Snail",
+          "Grasshopper",
+          "Butterfly",
+          "Firefly"
+        ],
+        "answer": 1,
+        "explanation": "A grasshopper is known for jumping high in the grass."
+      },
+      {
+        "question": "Complete the phonics sentence: The car is ___.",
+        "options": [
+          "Slow",
+          "Red",
+          "Fast",
+          "Big"
+        ],
+        "answer": 2,
+        "explanation": "The phonics reading sentence states, 'The car is fast.'"
+      },
+      {
+        "question": "Complete the phonics sentence: We have fun in the ___.",
+        "options": [
+          "School",
+          "Park",
+          "Pool",
+          "House"
+        ],
+        "answer": 1,
+        "explanation": "The phonics reading sentence states, 'We have fun in the park.'"
+      },
+      {
+        "question": "High Order Thinking: Why is the ladybird considered a 'friend to farmers'?",
+        "options": [
+          "Because it waters the plants",
+          "Because it eats the harmful bugs that destroy crops",
+          "Because it gives milk",
+          "Because it is red in colour"
+        ],
+        "answer": 1,
+        "explanation": "Ladybirds naturally control pests by eating the tiny insects that destroy plants."
+      },
+      {
+        "question": "High Order Thinking: What is the main moral of the story 'The Ant and the Dove'?",
+        "options": [
+          "Never go near a river",
+          "Hunters are dangerous",
+          "If you do good to others, good will come to you",
+          "Ants cannot swim"
+        ],
+        "answer": 2,
+        "explanation": "The dove helped the ant, and in return, the ant helped the dove. It teaches us to help each other."
+      },
+      {
+        "question": "High Order Thinking: If the dove had not dropped the leaf, what would have most likely happened?",
+        "options": [
+          "The ant would have flown away",
+          "The ant would have drowned in the river",
+          "The wind would have stopped",
+          "The hunter would have shot the ant"
+        ],
+        "answer": 1,
+        "explanation": "The ant was struggling in the water. Without the leaf to climb on, it would have drowned."
+      },
+      {
+        "question": "High Order Thinking: Which quality of the ants is highlighted in the pond story?",
+        "options": [
+          "Laziness",
+          "Selfishness",
+          "Teamwork and hard work",
+          "Anger"
+        ],
+        "answer": 2,
+        "explanation": "The ant says, 'We work together to get food. We eat together.' This shows excellent teamwork."
+      },
+      {
+        "question": "High Order Thinking: Why did the ant bite the hunter instead of warning the dove by shouting?",
+        "options": [
+          "Because ants are very loud",
+          "Because ants cannot shout loudly enough, but a bite is effective",
+          "Because the ant hated the hunter",
+          "Because the dove was deaf"
+        ],
+        "answer": 1,
+        "explanation": "Ants are tiny creatures and cannot shout like humans. Biting the hunter was the fastest and most effective way to distract him."
+      },
+      {
+        "question": "Real-life Scenario: Your pencil rolls off the table and falls to the floor, hiding exactly below the table. Where is your pencil?",
+        "options": [
+          "In the table",
+          "On the table",
+          "Near the table",
+          "Under the table"
+        ],
+        "answer": 3,
+        "explanation": "When an object is directly below another, the correct preposition is 'under'."
+      },
+      {
+        "question": "Which insect from the picture vocabulary is known as the 'rain bug'?",
+        "options": [
+          "A small black ant",
+          "A red velvety bug seen during rains",
+          "A flying mosquito",
+          "A green grasshopper"
+        ],
+        "answer": 1,
+        "explanation": "A rain bug (commonly known as red velvet mite) appears brightly coloured during the rainy season."
+      },
+      {
+        "question": "Which insect has colourful wings and starts its life as a caterpillar?",
+        "options": [
+          "Housefly",
+          "Spider",
+          "Butterfly",
+          "Snail"
+        ],
+        "answer": 2,
+        "explanation": "A caterpillar eventually transforms into a beautiful butterfly with colourful wings."
+      },
+      {
+        "question": "Real-life Scenario: You are sitting at a restaurant and need a menu card. How should you ask the waiter?",
+        "options": [
+          "Give me menu.",
+          "Could you give me the menu card, please?",
+          "Where is menu?",
+          "I want menu."
+        ],
+        "answer": 1,
+        "explanation": "Using 'Could you give me...?' is the most polite and respectful way to ask for something."
+      },
+      {
+        "question": "What is the small creature that spins a web to catch its food?",
+        "options": [
+          "Beetle",
+          "Dragonfly",
+          "Spider",
+          "Bumblebee"
+        ],
+        "answer": 2,
+        "explanation": "Spiders spin sticky webs to trap other small insects for food."
+      }
+    ]
+  }
+}

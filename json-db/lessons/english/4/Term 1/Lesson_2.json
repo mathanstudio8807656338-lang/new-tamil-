@@ -1,0 +1,726 @@
+{
+  "lesson_meta": {
+    "title": "Unit 2: My Hobbies || அலகு 2: எனது பொழுதுபோக்குகள்",
+    "unit": 2,
+    "grade": "4",
+    "term": "1",
+    "subject": "English",
+    "code": "eng_4_t1_l2"
+  },
+  "material": {
+    "sections": [
+      {
+        "title": "Language Selection || மொழியைத் தேர்ந்தெடுக்கவும்",
+        "content": "<div style='padding: 10px; border-bottom: 1px solid #ddd; margin-bottom: 20px; display: flex; justify-content: center; gap: 10px;'><button onclick='window.setLanguage(\"en\")' id='btn-en' style='padding: 5px 15px; cursor: pointer;'>English</button><button onclick='window.setLanguage(\"tm\")' id='btn-tm' style='padding: 5px 15px; cursor: pointer;'>தமிழ்</button></div><script>if(!window.setLanguage){window.setLanguage = function(lang){const ens = document.querySelectorAll(\".en-text\");const tms = document.querySelectorAll(\".tm-text\");const seps = document.querySelectorAll(\".lang-sep\");const bEn = document.getElementById(\"btn-en\");const bTm = document.getElementById(\"btn-tm\");if(bEn){bEn.style.fontWeight = lang===\"en\"?\"bold\":\"normal\";}if(bTm){bTm.style.fontWeight = lang===\"tm\"?\"bold\":\"normal\";}ens.forEach(el => el.style.display = (lang===\"tm\"?\"none\":\"inline\"));tms.forEach(el => el.style.display = (lang===\"en\"?\"none\":\"inline\"));seps.forEach(el => el.style.display = \"none\");};window.setLanguage(\"en\");}</script>"
+      },
+      {
+        "title": "1. My Little Pictionary || 1. எனது சிறு விளக்கப்பட அகராதி",
+        "content": "<div><ul><li><b>[[Earthworm]] (n)</b>: A worm that lives in the ground. || <b>[[மண்புழு]]</b>: மண்ணில் வாழும் ஒரு வகைப் புழு.</li><li><b>[[Mermaid]] (n)</b>: A mythological creature with a woman’s head and upper body and a tail of a fish. || <b>[[கடல் கன்னி]]</b>: பெண்ணின் தலையையும் மீனின் வாலையும் கொண்ட ஒரு கற்பனை உயிரினம்.</li><li><b>[[Hem]] (v)</b>: Fold and sew the edge of a cloth. || <b>[[ஓரம் தைத்தல்]]</b>: துணியின் விளிம்புகளை மடித்துத் தைத்தல்.</li><li><b>[[Angling]] (n)</b>: Fish with a rod and line. || <b>[[தூண்டில் இடுதல்]]</b>: தூண்டில் மற்றும் கயிறு கொண்டு மீன் பிடித்தல்.</li><li><b>[[Fry]] (n)</b>: Baby of a fish. || <b>[[மீன் குஞ்சு]]</b>: மீனின் சிறிய குஞ்சு.</li></ul></div>"
+      },
+      {
+        "title": "2. Do It Yourself (DIY) Kids || 2. தானே செய்யும் (DIY) சிறுவர்கள்",
+        "content": "<div><p><span class='en-text'>A DIY (Do It Yourself) kid is someone who does their own work by themselves.</span><span class='tm-text'>DIY (Do It Yourself) சிறுவன் என்பவன் தனது வேலைகளைத் தானே செய்துகொள்பவன் ஆவான்.</span></p><ul><li>🎯 <b>Vinoth</b>: <span class='en-text'>Washes his own clothes, folds all clothes neatly, and loves to do his work on his own.</span><span class='tm-text'><b>வினோத்</b>: தனது துணிகளைத் தானே துவைக்கிறான், துணிகளை நேர்த்தியாக மடிக்கிறான், தனது வேலைகளைத் தானே செய்ய விரும்புகிறான்.</span></li><li>🚲 <b>Rosy</b>: <span class='en-text'>Learnt to ride a bicycle when she was 9 years old. She rides it every day and enjoys cycling.</span><span class='tm-text'><b>ரோஸி</b>: தனது 9 வயதில் மிதிவண்டி ஓட்டக் கற்றுக்கொண்டாள். தினமும் மிதிவண்டி ஓட்டுகிறாள்.</span></li><li>🏊 <b>Megalai</b>: <span class='en-text'>Swims with elders in a well and competes with them. She is fond of swimming.</span><span class='tm-text'><b>மேகலை</b>: கிணற்றில் பெரியவர்களுடன் நீந்துகிறாள் மற்றும் அவர்களுடன் போட்டியிடுகிறாள்.</span></li><li>🌱 <b>James</b>: <span class='en-text'>Has his own garden, waters it every day, and loves gardening.</span><span class='tm-text'><b>ஜேம்ஸ்</b>: தனது தோட்டத்தில் செடிகளுக்குத் தினமும் நீர் ஊற்றுகிறான், தோட்டக்கலையில் ஆர்வம் உடையவன்.</span></li><li>🧵 <b>Aliya</b>: <span class='en-text'>Sews her torn clothes and hems the border. She is always keen to stitch.</span><span class='tm-text'><b>அலியா</b>: கிழிந்த துணிகளைத் தைக்கிறாள் மற்றும் ஓரங்களை மடித்துத் தைக்கிறாள்.</span></li><li>🔪 <b>Raju</b>: <span class='en-text'>Helps by cleaning grains and cereals. He is good at cooking, likes slicing, cutting or chopping fruits and vegetables, and prepares simple dishes.</span><span class='tm-text'><b>ராஜு</b>: தானியங்களைச் சுத்தம் செய்ய உதவுகிறான். சமையல் செய்வதில் சிறந்தவன், காய்கறிகளை நறுக்கவும் எளிய உணவுகளைத் தயாரிக்கவும் பிடிக்கும்.</span></li></ul></div>"
+      },
+      {
+        "title": "3. Glossary & Vocabulary || 3. சொல்லகராதி",
+        "content": "<div><ul><li><b>[[DIY kid]]</b>: <span class='en-text'>Do It Yourself kid. Someone who does any work on their own.</span><span class='tm-text'>தானே செய்யும் சிறுவன்: தனது வேலைகளைத் தானே செய்து கொள்பவர்.</span></li><li><b>[[Sew]]</b>: <span class='en-text'>Making stitches with a needle.</span><span class='tm-text'>தையல்: ஊசி கொண்டு தைப்பது.</span></li><li><b>[[Cereals]]</b>: <span class='en-text'>Grains used for food.</span><span class='tm-text'>தானியங்கள்: உணவாகப் பயன்படும் தானிய வகைகள்.</span></li><li><b>[[Slicing]]</b>: <span class='en-text'>Cut into slices.</span><span class='tm-text'>துண்டாக்குதல்: மெல்லிய துண்டுகளாக வெட்டுதல்.</span></li></ul></div>"
+      },
+      {
+        "title": "4. Grammar: Homophones || 4. இலக்கணம்: ஒத்த ஒலிப்புச் சொற்கள்",
+        "content": "<div><p><span class='en-text'>Homophones are words that sound the same but their spelling and meaning are different.</span><span class='tm-text'>ஒரே மாதிரி ஒலிக்கக்கூடிய, ஆனால் வெவ்வேறு எழுத்துக்களையும் பொருள்களையும் கொண்ட சொற்கள் ஒத்த ஒலிப்புச் சொற்கள் எனப்படும்.</span></p><ul><li>Sale / Sail (விற்பனை / படகோட்டுதல்)</li><li>Desert / Dessert (பாலைவனம் / இனிப்பு உணவு)</li><li>Read / Reed (வாசித்தல் / நாணல்)</li><li>Pair / Pear (ஜோடி / பேரிக்காய்)</li><li>Hare / Hair (முயல் / முடி)</li><li>Deer / Dear (மான் / அன்பான)</li><li>Eye / I (கண் / நான்)</li><li>Buy / Buy (வாங்குதல்)</li><li>Meat / Meet (இறைச்சி / சந்திப்பு)</li><li>Waste / Waist (வீணாக்குதல் / இடுப்பு)</li><li>Right / Write (சரி / எழுதுதல்)</li></ul></div>"
+      },
+      {
+        "title": "5. Poem: Treasure Trove || 5. கவிதை: புதையல் பெட்டி",
+        "content": "<div><p><span class='en-text'>The poem encourages reading when you are happy or sad. Through reading, you can learn about space, land on Mars, zoom with cars, glance at history, and visit a lovely mermaid under the sea.</span><span class='tm-text'>இந்தக் கவிதை நீங்கள் மகிழ்ச்சியாகவோ அல்லது வருத்தமாகவோ இருக்கும்போது வாசிப்பதை ஊக்குவிக்கிறது. வாசிப்பதன் மூலம் நீங்கள் விண்வெளி, செவ்வாய் கோள், வரலாறு மற்றும் கடலுக்கு அடியில் உள்ள கடல் கன்னி பற்றி அறியலாம்.</span></p><div><p><b>Rhyming Words / இயைபுச் சொற்கள்:</b></p><ul><li>Mars – Cars</li><li>Time – Crime</li><li>Be – Sea</li></ul></div></div>"
+      },
+      {
+        "title": "6. Glossary (Poem) || 6. கலைச்சொற்கள் (கவிதை)",
+        "content": "<div><ul><li><b>[[Space]]</b>: Beyond earth (விண்வெளி)</li><li><b>[[Zoom]]</b>: Travel quickly (வேகமாகப் பயணித்தல்)</li><li><b>[[Glance]]</b>: Look (பார்வை)</li><li><b>[[Discover]]</b>: Find (கண்டுபிடித்தல்)</li><li><b>[[Mystery]]</b>: Strange or unknown thing (மர்மம்)</li><li><b>[[Mermaid]]</b>: An imaginary creature (கடல் கன்னி)</li></ul></div>"
+      },
+      {
+        "title": "7. Grammar: Simple Present Tense || 7. இலக்கணம்: சாதாரண நிகழ்காலம்",
+        "content": "<div><p><span class='en-text'>Simple present tense is used to describe habits, unchanging situations, general truths, and planned actions.</span><span class='tm-text'>வழக்கமான செயல்பாடுகள், பொதுவான உண்மைகள் மற்றும் திட்டமிடப்பட்ட செயல்களைக் குறிக்க சாதாரண நிகழ்காலம் பயன்படுத்தப்படுகிறது.</span></p><div><p>🏃 <b>Action Verbs Rule:</b></p><ul><li>For <b>I, We, You, They</b>: Use the base form (e.g., I <i>play</i>).</li><li>For <b>He, She, It</b>: Add 's' or 'es' (e.g., He <i>plays</i>).</li></ul></div><div><p>✨ <b>'Be' Verbs:</b></p><ul><li><b>Am</b>: Only for <b>I</b>.</li><li><b>Is</b>: For <b>He, She, It</b>.</li><li><b>Are</b>: For <b>We, You, They</b>.</li></ul></div></div>"
+      },
+      {
+        "title": "8. Let Us Speak (Situational) || 8. உரையாடல் பயிற்சி",
+        "content": "<div><p><span class='en-text'>Useful structures for sharing lunch: 'What is your lunch today?', 'Mine is white rice and sambar.', 'Give me some water please.', 'I am full.'</span><span class='tm-text'>உணவைப் பகிர்ந்து கொள்ளும்போது பயன்படுத்தும் உரையாடல்கள்: 'உனது மதிய உணவு என்ன?', 'மதிய உணவைப் பகிர்ந்து கொள்வோம்.', 'தயவுசெய்து எனக்குக் கொஞ்சம் தண்ணீர் கொடுங்கள்.', 'எனக்கு வயிறு நிறைந்துவிட்டது.'</span></p></div>"
+      },
+      {
+        "title": "9. Prose: Anbu and the Fish || 9. உரைநடை: அன்பும் மீனும்",
+        "content": "<div><p><span class='en-text'>Anbu always went fishing with his friend Madhan. They used a dhoti as a net. One Sunday, they caught three small fish. Anbu's father told him, 'Nature is their home. It is best to let them be free.' Anbu set the last fish free and started feeding fish as a new hobby.</span><span class='tm-text'>அன்பு தனது நண்பன் மதனுடன் மீன் பிடிக்கச் செல்வான். அவர்கள் வேட்டியை வலையாகப் பயன்படுத்தினர். ஒரு ஞாயிற்றுக்கிழமை மூன்று சிறிய மீன்களைப் பிடித்தனர். இயற்கைதான் அவற்றின் வீடு, அவற்றை விடுவிப்பதே சிறந்தது என்று அன்பின் தந்தை கூறினார். அன்பு மீன்களை விடுவித்து, அவற்றுக்குப் பொரி போட்டு உணவளிப்பதையே தனது புதிய பொழுதுபோக்காக மாற்றிக்கொண்டான்.</span></p></div>"
+      },
+      {
+        "title": "10. The Little Red Hen || 10. சிறிய சிவப்புக் கோழி",
+        "content": "<div><p><span class='en-text'>A little red hen had wheat seeds and asked for help to sow and reap. The dog, cat, duck, and cow all replied 'No'. When the bread was ready, she ate it herself.</span><span class='tm-text'>ஒரு சிறிய சிவப்புக் கோழி கோதுமை விதைகளை விதைக்க உதவி கேட்டது. நாய், பூனை, வாத்து மற்றும் பசு ஆகியவை உதவி செய்ய மறுத்துவிட்டன. ரொட்டி தயாரானதும், கோழி அதைத் தனியாகவே சாப்பிட்டது.</span></p></div>"
+      },
+      {
+        "title": "11. Letter Writing || 11. கடிதம் எழுதுதல்",
+        "content": "<div><p><span class='en-text'>Format of a Leave Letter: From, To, Salutation, Body, and Closing (Yours sincerely).</span><span class='tm-text'>விடுப்புக் கடிதத்தின் முறை: அனுப்புநர், பெறுநர், விளிப்பு, கடிதத்தின் விவரம் மற்றும் முடிவு (சரியான முறையில் முடிப்பது).</span></p></div>"
+      }
+    ]
+  },
+  "quiz": {
+    "questions": [
+      {
+        "question": "What is the meaning of the word 'Earthworm'? || 'Earthworm' (மண்புழு) என்பதன் பொருள் என்ன?",
+        "options": [
+          "A snake that lives in water",
+          "A mythological creature",
+          "A worm that lives in the ground || மண்ணில் வாழும் ஒரு வகைப் புழு",
+          "A bird that eats crops"
+        ],
+        "answer": 2,
+        "explanation": "An earthworm is a worm that lives in the ground. || மண்புழு என்பது மண்ணில் வாழும் ஒரு வகைப் புழுவாகும்."
+      },
+      {
+        "question": "Which of the following describes a 'Mermaid'? || கீழே உள்ளவற்றில் எது 'கடல் கன்னி' (Mermaid) என்பதைக் குறிக்கிறது?",
+        "options": [
+          "A woman's head and a fish's tail || பெண்ணின் தலையும் மீனின் வாலும் கொண்டது",
+          "A bird with a fish's tail",
+          "A fish with legs",
+          "A dog that swims"
+        ],
+        "answer": 0,
+        "explanation": "A mermaid is a mythological creature with a woman's head and a fish's tail. || கடல் கன்னி என்பது பெண்ணின் தலையும் மீனின் வாலும் கொண்ட ஒரு கற்பனை உயிரினம்."
+      },
+      {
+        "question": "What does the word 'Hem' mean in sewing? || தையல் கலையில் 'Hem' என்ற சொல்லின் பொருள் என்ன?",
+        "options": [
+          "To cut the cloth",
+          "To fold and sew the edge of a cloth || துணியின் ஓரத்தை மடித்துத் தைத்தல்",
+          "To wash the cloth",
+          "To dye the cloth"
+        ],
+        "answer": 1,
+        "explanation": "Hem means to fold and sew the edge of a cloth. || 'Hem' என்பது ஒரு துணியின் விளிம்புகளை மடித்துத் தைப்பதைக் குறிக்கும்."
+      },
+      {
+        "question": "What is the term for fishing with a rod and line? || தூண்டில் மற்றும் கயிறு கொண்டு மீன் பிடிப்பதைக் குறிக்கும் சொல் எது?",
+        "options": [
+          "Slicing",
+          "Hemming",
+          "Cycling",
+          "Angling || தூண்டில் மீன்பிடித்தல்"
+        ],
+        "answer": 3,
+        "explanation": "Angling means to fish with a rod and line. || தூண்டில் மற்றும் கயிறு கொண்டு மீன் பிடிப்பது 'Angling' எனப்படும்."
+      },
+      {
+        "question": "What do you call a baby fish? || மீனின் குஞ்சு எவ்வாறு அழைக்கப்படுகிறது?",
+        "options": [
+          "Pup",
+          "Cub",
+          "Fry || மீன் குஞ்சு",
+          "Calf"
+        ],
+        "answer": 2,
+        "explanation": "A baby of a fish is called a fry. || மீன் குஞ்சு என்பது 'fry' என்று அழைக்கப்படுகிறது."
+      },
+      {
+        "question": "What does a 'DIY kid' mean? || 'DIY kid' என்றால் என்ன?",
+        "options": [
+          "Someone who never works",
+          "Someone who does any work on their own || தனது வேலைகளைத் தானே செய்பவர்",
+          "Someone who only plays games",
+          "Someone who always needs help"
+        ],
+        "answer": 1,
+        "explanation": "DIY stands for Do It Yourself. A DIY kid does their work on their own. || 'DIY' என்பது 'Do It Yourself' (நீயே செய்) என்பதைக் குறிக்கும்."
+      },
+      {
+        "question": "What is Vinoth's hobby? || வினோத்தின் பொழுதுபோக்கு எது?",
+        "options": [
+          "Washing and folding his clothes || தனது துணிகளைத் துவைத்து மடித்தல்",
+          "Cooking simple dishes",
+          "Fishing in the pond",
+          "Sewing torn clothes"
+        ],
+        "answer": 0,
+        "explanation": "Vinoth washes his own clothes and folds them neatly. || வினோத் தனது துணிகளைத் தானே துவைத்து மடித்து வைக்கிறான்."
+      },
+      {
+        "question": "At what age did Rosy learn to ride a bicycle? || ரோஸி எந்த வயதில் மிதிவண்டி ஓட்டக் கற்றுக்கொண்டாள்?",
+        "options": [
+          "8 years old",
+          "10 years old",
+          "9 years old || 9 வயதில்",
+          "7 years old"
+        ],
+        "answer": 2,
+        "explanation": "Rosy learnt to ride a bicycle when she was 9 years old. || ரோஸி தனது 9 வயதில் மிதிவண்டி ஓட்டக் கற்றுக்கொண்டாள்."
+      },
+      {
+        "question": "Where does Megalai swim? || மேகலை எங்கே நீந்தினாள்?",
+        "options": [
+          "In a river",
+          "In a swimming pool",
+          "In a pond",
+          "In a well || கிணற்றில்"
+        ],
+        "answer": 3,
+        "explanation": "Megalai swims with elders in a well. || மேகலை கிணற்றில் பெரியவர்களுடன் நீந்துகிறாள்."
+      },
+      {
+        "question": "What does James do every day? || ஜேம்ஸ் தினமும் என்ன செய்கிறான்?",
+        "options": [
+          "He goes cycling",
+          "He waters his garden || தோட்டத்திற்கு நீர் ஊற்றுதல்",
+          "He hems borders",
+          "He prepares meals"
+        ],
+        "answer": 1,
+        "explanation": "James has his own garden and he waters it every day. || ஜேம்ஸ் தனது தோட்டத்தில் செடிகளுக்குத் தினமும் நீர் ஊற்றுகிறான்."
+      },
+      {
+        "question": "Who sews their torn clothes and hems the border? || கிழிந்த துணிகளைத் தைத்து ஓரங்களை மடித்துத் தைப்பவர் யார்?",
+        "options": [
+          "Vinoth",
+          "Megalai",
+          "Aliya || அலியா",
+          "Rosy"
+        ],
+        "answer": 2,
+        "explanation": "Aliya sews her torn clothes and is keen to stitch. || அலியா தனது துணிகளின் விளிம்புகளைத் தானே மடித்துத் தைப்பாள்."
+      },
+      {
+        "question": "Which kid is good at cooking and helps clean grains? || சமைப்பதில் சிறந்தவர் மற்றும் தானியங்களைச் சுத்தம் செய்ய உதவுபவர் யார்?",
+        "options": [
+          "Raju || ராஜு",
+          "James",
+          "Vinoth",
+          "Anbu"
+        ],
+        "answer": 0,
+        "explanation": "Raju helps clean grains and cereals and is good at cooking. || ராஜு சமையல் செய்வதில் சிறந்தவன் மற்றும் சமையலறையில் உதவுகிறான்."
+      },
+      {
+        "question": "What are homophones? || ஒத்த ஒலிப்புச் சொற்கள் (Homophones) என்றால் என்ன?",
+        "options": [
+          "Words that mean the same thing",
+          "Words that sound different but have the same spelling",
+          "Words that sound the same but have different spelling and meaning || ஒரே மாதிரி ஒலிக்கும் ஆனால் வெவ்வேறு எழுத்துக்களையும் பொருள்களையும் கொண்டவை",
+          "Words that are opposite in meaning"
+        ],
+        "answer": 2,
+        "explanation": "Homophones sound the same but have different spelling and meaning. || ஒத்த ஒலிப்புச் சொற்கள் ஒரே மாதிரி ஒலிக்கும் ஆனால் பொருள் மற்றும் எழுத்துக்கள் வேறுபடும்."
+      },
+      {
+        "question": "Choose the correct homophone: 'I saw a ______ on the flower.' || சரியான சொல்லைத் தேர்ந்தெடு: 'நான் பூவின் மீது ஒரு ______ பார்த்தேன்.'",
+        "options": [
+          "be",
+          "bee || தேனீ",
+          "by",
+          "buy"
+        ],
+        "answer": 1,
+        "explanation": "'bee' refers to the insect. || 'bee' என்பது தேனீயைக் குறிக்கும்."
+      },
+      {
+        "question": "Choose the correct homophone: 'The wind ______ off the leaves.' || சரியான சொல்லைத் தேர்ந்தெடு: 'காற்று இலைகளை ______.'",
+        "options": [
+          "blue",
+          "blow",
+          "blew || ஊதியது",
+          "below"
+        ],
+        "answer": 2,
+        "explanation": "'blew' is the past tense of blow. || 'blew' என்பது காற்று வீசுவதைக் குறிக்கும் வினைச்சொல்."
+      },
+      {
+        "question": "Choose the correct homophone for the word 'Hair'. || 'Hair' என்ற சொல்லிற்குரிய ஒத்த ஒலிச் சொல் எது?",
+        "options": [
+          "Hear",
+          "Here",
+          "Hare || முயல்",
+          "Hire"
+        ],
+        "answer": 2,
+        "explanation": "Hare (animal) sounds exactly like hair. || 'Hare' (முயல்) மற்றும் 'hair' ஆகியவை ஒரே மாதிரி ஒலிக்கக்கூடியவை."
+      },
+      {
+        "question": "What is the correct homophone for the word 'Sale'? || 'Sale' என்ற சொல்லிற்குரிய ஒத்த ஒலிச் சொல் எது?",
+        "options": [
+          "Sell",
+          "Sail || படகோட்டுதல்",
+          "Seal",
+          "Cell"
+        ],
+        "answer": 1,
+        "explanation": "Sale and Sail are homophones. || இவை ஒத்த ஒலிப்புச் சொற்கள்."
+      },
+      {
+        "question": "What is the correct homophone for the word 'Right'? || 'Right' என்ற சொல்லிற்குரிய ஒத்த ஒலிச் சொல் எது?",
+        "options": [
+          "Rite",
+          "Ride",
+          "Write || எழுதுதல்",
+          "Riot"
+        ],
+        "answer": 2,
+        "explanation": "Right and Write have the same pronunciation. || இவை இரண்டும் ஒரே மாதிரி உச்சரிக்கப்படுகின்றன."
+      },
+      {
+        "question": "Choose the correct homophone to fill in: 'What did you ______ at the store?' || சரியான சொல்லைத் தேர்ந்தெடு: 'கடையில் நீ என்ன ______?'",
+        "options": [
+          "by",
+          "bye",
+          "buy || வாங்கினாய்",
+          "be"
+        ],
+        "answer": 2,
+        "explanation": "Buy means to purchase something. || 'Buy' என்பது வாங்குவதைக் குறிக்கும்."
+      },
+      {
+        "question": "Choose the correct homophone: 'You should never ______ to your parents.' || சரியான சொல்லைத் தேர்ந்தெடு: 'பெற்றோரிடம் என்றும் ______ சொல்லக்கூடாது.'",
+        "options": [
+          "lye",
+          "lie || பொய்",
+          "lay",
+          "lee"
+        ],
+        "answer": 1,
+        "explanation": "Lie means to not tell the truth. || 'Lie' என்பது பொய் சொல்வதைக் குறிக்கும்."
+      },
+      {
+        "question": "What is the homophone for 'Meat'? || 'Meat' (இறைச்சி) என்ற சொல்லிற்குரிய ஒத்த ஒலிச் சொல் எது?",
+        "options": [
+          "Meet || சந்திப்பு",
+          "Mate",
+          "Met",
+          "Mute"
+        ],
+        "answer": 0,
+        "explanation": "Meat (food) and Meet (gathering) sound the same. || இவை இரண்டும் ஒரே மாதிரி ஒலிக்கின்றன."
+      },
+      {
+        "question": "What is the homophone for 'Dear'? || 'Dear' (அன்பான) என்ற சொல்லிற்குரிய ஒத்த ஒலிச் சொல் எது?",
+        "options": [
+          "Dare",
+          "Door",
+          "Deer || மான்",
+          "Bear"
+        ],
+        "answer": 2,
+        "explanation": "Dear and Deer are homophones. || 'Dear' மற்றும் 'Deer' (மான்) ஒத்த ஒலிப்புச் சொற்கள்."
+      },
+      {
+        "question": "According to the poem 'Treasure Trove', when should you read? || 'Treasure Trove' கவிதையின்படி, எப்போது வாசிக்க வேண்டும்?",
+        "options": [
+          "Only when you are at school",
+          "Only when you are bored",
+          "When you are happy or sad || மகிழ்ச்சியாகவோ வருத்தமாகவோ இருக்கும்போது",
+          "When it is raining outside"
+        ],
+        "answer": 2,
+        "explanation": "The poem starts with 'Read when you are happy, Read when you are sad'. || மகிழ்ச்சி அல்லது வருத்தத்தின் போது வாசிக்க வேண்டும் என்று கவிதை கூறுகிறது."
+      },
+      {
+        "question": "In the poem 'Treasure Trove', what planet can you land on through reading? || வாசிப்பதன் மூலம் எந்தக் கோளில் இறங்க முடியும் என்று கவிதை கூறுகிறது?",
+        "options": [
+          "Jupiter",
+          "Venus",
+          "Earth",
+          "Mars || செவ்வாய் கோள்"
+        ],
+        "answer": 3,
+        "explanation": "The poem says 'Learn about space, land on Mars'. || விண்வெளியைப் பற்றி அறிந்து செவ்வாய் கோளில் இறங்கலாம் என்று கூறப்பட்டுள்ளது."
+      },
+      {
+        "question": "In the poem, what do you do with a 'mystery'? || கவிதையில், ஒரு 'மர்மத்தை' (mystery) வைத்து என்ன செய்கிறாய்?",
+        "options": [
+          "Ignore it",
+          "Solve a crime || குற்றத்தைத் தீர்த்தல்",
+          "Hide it",
+          "Forget it"
+        ],
+        "answer": 1,
+        "explanation": "The poem says 'To discover a mystery, solve a crime'. || மர்மத்தைக் கண்டறிந்து ஒரு குற்றத்தைத் தீர்க்கலாம் என்று கூறப்பட்டுள்ளது."
+      },
+      {
+        "question": "Which imaginary creature is visited under the sea in the poem? || கடலுக்கு அடியில் எந்தக் கற்பனை உயிரினத்தைப் பார்ப்பதாகக் கவிதையில் உள்ளது?",
+        "options": [
+          "A mermaid || கடல் கன்னி",
+          "A sea monster",
+          "A dolphin",
+          "A talking fish"
+        ],
+        "answer": 0,
+        "explanation": "The poem mentions 'Visit a lovely mermaid under the sea'. || கடலுக்கு அடியில் கடல் கன்னியைப் பார்ப்பதாகக் கூறப்பட்டுள்ளது."
+      },
+      {
+        "question": "What is the rhyming word for 'time' in the poem? || கவிதையில் 'time' என்ற சொல்லிற்குரிய இயைபுச் சொல் எது?",
+        "options": [
+          "line",
+          "rhyme",
+          "crime || குற்றம்",
+          "chime"
+        ],
+        "answer": 2,
+        "explanation": "Time rhymes with crime in the poem. || 'Time' மற்றும் 'crime' ஆகியவை இயைபுச் சொற்கள்."
+      },
+      {
+        "question": "What does the word 'glance' mean? || 'glance' என்ற சொல்லின் பொருள் என்ன?",
+        "options": [
+          "To look || பார்ப்பது",
+          "To run",
+          "To hide",
+          "To sing"
+        ],
+        "answer": 0,
+        "explanation": "Glance means to take a quick look. || 'Glance' என்பது ஒரு விரைவான பார்வையைப் பார்ப்பதைக் குறிக்கும்."
+      },
+      {
+        "question": "When do we use Simple Present Tense? || சாதாரண நிகழ்காலத்தை எப்போது பயன்படுத்துகிறோம்?",
+        "options": [
+          "To talk about the past",
+          "To talk about ongoing actions right now",
+          "To describe habits, general truths, and planned actions || பழக்கவழக்கங்கள் மற்றும் உண்மைகளைக் கூற",
+          "To talk about completed future tasks"
+        ],
+        "answer": 2,
+        "explanation": "Simple present tense is used for habits and general truths. || பழக்கவழக்கங்கள் மற்றும் பொதுவான உண்மைகளைக் குறிக்க இது பயன்படுகிறது."
+      },
+      {
+        "question": "Choose the correct verb form: 'I ______ to the shop.' || சரியான சொல்லைத் தேர்ந்தெடு: 'நான் கடைக்கு ______.'",
+        "options": [
+          "goes",
+          "going",
+          "gone",
+          "go || செல்கிறேன்"
+        ],
+        "answer": 3,
+        "explanation": "For 'I', the present form 'go' is used. || 'I' என்ற சொல்லிற்கு 'go' தான் வரும்."
+      },
+      {
+        "question": "Choose the correct verb form: 'He ______ to the shop.' || சரியான சொல்லைத் தேர்ந்தெடு: 'அவன் கடைக்கு ______.'",
+        "options": [
+          "go",
+          "going",
+          "goes || செல்கிறான்",
+          "gone"
+        ],
+        "answer": 2,
+        "explanation": "For 'He', 's' or 'es' is added making it 'goes'. || 'He' என்ற சொல்லிற்கு 'goes' வரும்."
+      },
+      {
+        "question": "Choose the correct verb form: 'They ______ cricket.' || சரியான சொல்லைத் தேர்ந்தெடு: 'அவர்கள் கிரிக்கெட் ______.'",
+        "options": [
+          "plays",
+          "play || விளையாடுகிறார்கள்",
+          "playing",
+          "played"
+        ],
+        "answer": 1,
+        "explanation": "For 'They', the base form 'play' is used. || பன்மைச் சொல்லிற்கு 'play' வரும்."
+      },
+      {
+        "question": "Which of the following is an example of a general truth? || கீழே உள்ளவற்றில் எது ஒரு 'பொதுவான உண்மை' (general truth)?",
+        "options": [
+          "I am going to the market.",
+          "Water boils at 100 degrees C. || நீர் 100 டிகிரியில் கொதிக்கிறது",
+          "She painted a picture.",
+          "He will come tomorrow."
+        ],
+        "answer": 1,
+        "explanation": "Scientific facts are stated in simple present tense. || அறிவியல் உண்மைகள் சாதாரண நிகழ்காலத்திலேயே கூறப்படும்."
+      },
+      {
+        "question": "Choose the correct 'Be' verb: 'We ______ students.' || சரியான சொல்லைத் தேர்ந்தெடு: 'நாங்கள் மாணவர்கள் ______.'",
+        "options": [
+          "is",
+          "am",
+          "are || ஆகிறோம்",
+          "was"
+        ],
+        "answer": 2,
+        "explanation": "For 'We', the 'be' verb is 'are'. || 'We' என்ற சொல்லிற்கு 'are' வரும்."
+      },
+      {
+        "question": "Choose the correct 'Be' verb: 'It ______ a book.' || சரியான சொல்லைத் தேர்ந்தெடு: 'இது ஒரு புத்தகம் ______.'",
+        "options": [
+          "am",
+          "are",
+          "is || ஆக இருக்கிறது",
+          "were"
+        ],
+        "answer": 2,
+        "explanation": "For 'It', the 'be' verb is 'is'. || 'It' என்ற சொல்லிற்கு 'is' வரும்."
+      },
+      {
+        "question": "Choose the correct verb: 'The birds ______ in the sky.' || சரியான சொல்லைத் தேர்ந்தெடு: 'பறவைகள் வானத்தில் ______.'",
+        "options": [
+          "flies",
+          "fly || பறக்கின்றன",
+          "flying",
+          "flew"
+        ],
+        "answer": 1,
+        "explanation": "Birds is plural, so we use 'fly'. || பன்மைச் சொல்லிற்கு 'fly' வரும்."
+      },
+      {
+        "question": "Choose the correct verb: 'The boy ______ the cake.' || சரியான சொல்லைத் தேர்ந்தெடு: 'சிறுவன் கேக்கை ______.'",
+        "options": [
+          "like",
+          "liking",
+          "likes || விரும்புகிறான்",
+          "liked"
+        ],
+        "answer": 2,
+        "explanation": "Boy is singular, so it takes 'likes'. || ஒருமைச் சொல்லிற்கு 'likes' வரும்."
+      },
+      {
+        "question": "Which of the following phrases is useful during lunch sharing? || உணவைப் பகிர்ந்து கொள்ளும்போது பயன்படும் வாக்கியம் எது?",
+        "options": [
+          "Where is your bicycle?",
+          "I want to sleep.",
+          "Give me some water please. || தயவுசெய்து எனக்குக் கொஞ்சம் தண்ணீர் கொடுங்கள்",
+          "Let's play cricket."
+        ],
+        "answer": 2,
+        "explanation": "This phrase is polite during lunch time. || இது மதிய உணவின் போது பயன்படுத்தும் மரியாதையான வாக்கியமாகும்."
+      },
+      {
+        "question": "What was Anbu talented in? || அன்பு எதில் திறமைசாலியாக இருந்தான்?",
+        "options": [
+          "Catching birds",
+          "Catching fish || மீன் பிடித்தல்",
+          "Cooking food",
+          "Painting pictures"
+        ],
+        "answer": 1,
+        "explanation": "The story states that Anbu was talented in catching fish. || அன்பு மீன் பிடிப்பதில் திறமையானவன் என்று கதை கூறுகிறது."
+      },
+      {
+        "question": "Who always went to catch fish with Anbu? || அன்புடன் மீன் பிடிக்க எப்போதும் செல்பவர் யார்?",
+        "options": [
+          "Raju",
+          "Madhan || மதன்",
+          "Vinoth",
+          "James"
+        ],
+        "answer": 1,
+        "explanation": "Anbu always went to catch fish with Madhan. || அன்பு எப்போதும் மதனுடன் தான் மீன் பிடிக்கச் செல்வான்."
+      },
+      {
+        "question": "What did Anbu and Madhan use as a net to catch fish? || மீன் பிடிக்க அவர்கள் எதை வலையாகப் பயன்படுத்தினர்?",
+        "options": [
+          "A plastic bag",
+          "A dhoti || ஒரு வேட்டி",
+          "A large bucket",
+          "A woven basket"
+        ],
+        "answer": 1,
+        "explanation": "They used a dhoti as a net. || அவர்கள் வேட்டியை வலையாகப் பயன்படுத்தினர்."
+      },
+      {
+        "question": "What did they use to make fishing rods? || தூண்டில் தயாரிக்க அவர்கள் எதைப் பயன்படுத்தினர்?",
+        "options": [
+          "Plastic tubes and wire",
+          "Metal rods and string",
+          "Sticks and thorns || குச்சிகள் மற்றும் முட்கள்",
+          "Bamboo and hooks"
+        ],
+        "answer": 2,
+        "explanation": "They made rods using sticks and thorns. || குச்சிகள் மற்றும் முட்களைக் கொண்டு தூண்டில் செய்தனர்."
+      },
+      {
+        "question": "What did they use as bait for fishing? || மீன் பிடிக்க இரையாக எதைப் பயன்படுத்தினர்?",
+        "options": [
+          "Earthworms || மண்புழுக்கள்",
+          "Puffed rice",
+          "Bread crumbs",
+          "Small insects"
+        ],
+        "answer": 0,
+        "explanation": "They searched for earthworms to use as bait. || மண்புழுக்களை இரையாகப் பயன்படுத்தினர்."
+      },
+      {
+        "question": "How many fish did they catch on that Sunday? || அந்த ஞாயிற்றுக்கிழமை அவர்கள் எத்தனை மீன்களைப் பிடித்தனர்?",
+        "options": [
+          "Five",
+          "Two",
+          "Four",
+          "Three || மூன்று"
+        ],
+        "answer": 3,
+        "explanation": "They caught only three fish. || அவர்கள் மூன்று மீன்களை மட்டுமே பிடித்தனர்."
+      },
+      {
+        "question": "Where did Anbu first put the three small fish? || அந்த மூன்று மீன்களை அன்பு முதலில் எங்கு போட்டான்?",
+        "options": [
+          "In a bucket",
+          "In a jar filled with water || தண்ணீர் நிறைந்த ஜாடியில்",
+          "In a small pool",
+          "Back into the river"
+        ],
+        "answer": 1,
+        "explanation": "Anbu put them in a water jar. || அன்பு அவற்றை ஒரு ஜாடியில் போட்டான்."
+      },
+      {
+        "question": "Why didn't the fish eat the earthworms inside the jar? || ஜாடியில் இருந்த மீன்கள் மண்புழுக்களை ஏன் சாப்பிடவில்லை?",
+        "options": [
+          "They were full",
+          "They only eat bread",
+          "They were in fear || அவை பயத்தில் இருந்தன",
+          "The water was too cold"
+        ],
+        "answer": 2,
+        "explanation": "Anbu could feel their fear, which prevented them from eating. || அவை பயத்துடன் இருந்ததால் எதையும் சாப்பிடவில்லை."
+      },
+      {
+        "question": "What happened to the fish the next morning? || அடுத்த நாள் காலை மீன்களுக்கு என்னவானது?",
+        "options": [
+          "They all died",
+          "They ate all the food",
+          "They grew much bigger",
+          "One fish was found on the floor || ஒரு மீன் தரையில் கிடந்தது"
+        ],
+        "answer": 3,
+        "explanation": "Next morning, one fish had jumped out. || ஒரு மீன் ஜாடியிலிருந்து வெளியே குதித்து தரையில் கிடந்தது."
+      },
+      {
+        "question": "What did Anbu's father bring in the evening? || அன்று மாலை அன்பின் தந்தை என்ன கொண்டு வந்தார்?",
+        "options": [
+          "A new fishing rod",
+          "A new fish tank || ஒரு புதிய மீன் தொட்டி",
+          "More fish food",
+          "A large net"
+        ],
+        "answer": 1,
+        "explanation": "His father brought a new fish tank. || அவரது தந்தை ஒரு புதிய மீன் தொட்டியை வாங்கி வந்தார்."
+      },
+      {
+        "question": "What happened on the second day after school? || இரண்டாம் நாள் பள்ளி முடிந்து வந்தபோது என்ன கண்டான்?",
+        "options": [
+          "The fish were swimming happily",
+          "One more fish was dead and floating on the top || ஒரு மீன் செத்து மிதந்தது",
+          "The fish jumped out again",
+          "The tank broke"
+        ],
+        "answer": 1,
+        "explanation": "One fish died and was floating. || ஒரு மீன் இறந்து மேலே மிதந்து கொண்டிருந்தது."
+      },
+      {
+        "question": "What advice did Anbu's father give him about the fish? || மீன்களைப் பற்றி அவரது தந்தை கொடுத்த அறிவுரை என்ன?",
+        "options": [
+          "They need better food",
+          "Nature is their home, let them be free || இயற்கைதான் அவற்றின் வீடு, அவற்றை விடுவித்துவிடு",
+          "They need more space in the tank",
+          "We should buy more fish"
+        ],
+        "answer": 1,
+        "explanation": "Nature is their home and they should be free. || இயற்கைதான் அவை வாழும் இடம் என்று அவர் கூறினார்."
+      },
+      {
+        "question": "What did Anbu do with the last remaining fish? || கடைசி மீனை அன்பு என்ன செய்தான்?",
+        "options": [
+          "He gave it to Madhan",
+          "He kept it in the tank forever",
+          "He took it to the same pond and set it free || குளத்தில் கொண்டு போய் விடுவித்தான்",
+          "He cooked it"
+        ],
+        "answer": 2,
+        "explanation": "He set it free in the pond. || அவன் அதை மீண்டும் குளத்திலேயே கொண்டு போய் விட்டான்."
+      },
+      {
+        "question": "What became Anbu and Madhan's new hobby? || அன்பு மற்றும் மதனின் புதிய பொழுதுபோக்கு எது?",
+        "options": [
+          "Feeding fish with puffed rice || மீன்களுக்குப் பொரி போடுதல்",
+          "Swimming in the river",
+          "Catching butterflies",
+          "Building fish tanks"
+        ],
+        "answer": 0,
+        "explanation": "Feeding fish became their new hobby. || மீன்களுக்கு உணவளிப்பதை அவர்கள் பொழுதுபோக்காக மாற்றிக்கொண்டனர்."
+      },
+      {
+        "question": "In the story 'The Little Red Hen', what seeds did the hen have? || 'சிவப்புக் கோழி' கதையில் கோழியிடம் என்ன விதைகள் இருந்தன?",
+        "options": [
+          "Rice seeds",
+          "Corn seeds",
+          "Wheat seeds || கோதுமை விதைகள்",
+          "Sunflower seeds"
+        ],
+        "answer": 2,
+        "explanation": "A little red hen had wheat seeds. || கோழியிடம் கோதுமை விதைகள் இருந்தன."
+      },
+      {
+        "question": "How is the dog described in 'The Little Red Hen'? || நாய் எவ்வாறு விவரிக்கப்பட்டுள்ளது?",
+        "options": [
+          "Lazy",
+          "Sleepy",
+          "Noisy",
+          "Selfish || சுயநலம் பிடித்தது"
+        ],
+        "answer": 3,
+        "explanation": "The story describes it as the selfish dog. || கதையில் அது ஒரு சுயநலமான நாய் என்று கூறப்பட்டுள்ளது."
+      },
+      {
+        "question": "How is the cat described in 'The Little Red Hen'? || பூனை எவ்வாறு விவரிக்கப்பட்டுள்ளது?",
+        "options": [
+          "Lazy",
+          "Sleepy || தூக்கத்திலிருக்கும்",
+          "Noisy",
+          "Selfish"
+        ],
+        "answer": 1,
+        "explanation": "The cat is described as sleepy. || பூனை எப்போதும் தூக்கக் கலக்கத்தில் இருப்பதாக இருந்தது."
+      },
+      {
+        "question": "How is the duck described in 'The Little Red Hen'? || வாத்து எவ்வாறு விவரிக்கப்பட்டுள்ளது?",
+        "options": [
+          "Selfish",
+          "Sleepy",
+          "Noisy || சத்தம் போடுவது",
+          "Lazy"
+        ],
+        "answer": 2,
+        "explanation": "The duck is described as noisy. || வாத்து சத்தம் போட்டுக்கொண்டு இருந்தது."
+      },
+      {
+        "question": "How is the cow described in 'The Little Red Hen'? || பசு எவ்வாறு விவரிக்கப்பட்டுள்ளது?",
+        "options": [
+          "Selfish",
+          "Sleepy",
+          "Noisy",
+          "Lazy || சோம்பேறி"
+        ],
+        "answer": 3,
+        "explanation": "The cow is described as lazy. || பசு சோம்பேறியாக இருந்தது."
+      },
+      {
+        "question": "What did the little red hen do when the animals wanted to help eat the bread? || விலங்குகள் ரொட்டியைச் சாப்பிட வந்தபோது கோழி என்ன செய்தது?",
+        "options": [
+          "She shared it equally",
+          "She gave it all to them",
+          "She said 'No' and ate it herself || மறுத்துவிட்டுத் தானே சாப்பிட்டது",
+          "She threw it away"
+        ],
+        "answer": 2,
+        "explanation": "She didn't share it as they didn't help with the work. || அவை உதவி செய்யாததால் அவற்றுக்குப் பங்கு கொடுக்காமல் கோழி தானே சாப்பிட்டது."
+      },
+      {
+        "question": "What is the correct homophone for the word 'Eye'? || 'Eye' (கண்) என்ற சொல்லிற்குரிய ஒத்த ஒலிச் சொல் எது?",
+        "options": [
+          "A",
+          "U",
+          "I || நான்",
+          "Oh"
+        ],
+        "answer": 2,
+        "explanation": "'Eye' and 'I' sound the same."
+      },
+      {
+        "question": "What is the closing phrase used in the sample Leave Letter? || விடுப்புக் கடிதத்தின் முடிவில் பயன்படுத்தும் வாக்கியம் எது?",
+        "options": [
+          "Yours lovingly",
+          "Yours faithfully",
+          "Yours truly",
+          "Yours sincerely || தங்கள் உண்மையுள்ள"
+        ],
+        "answer": 3,
+        "explanation": "The letter ends with 'Yours sincerely'."
+      }
+    ]
+  }
+}
