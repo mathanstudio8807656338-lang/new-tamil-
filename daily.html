@@ -16,7 +16,7 @@
             --text-main: #0f172a;
             --text-muted: #64748b;
             --glass: rgba(255, 255, 255, 0.8);
-            --shadow: 0 10px 40px rgba(0, 0, 0, 0.04);
+            --shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
         }
 
         * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -27,25 +27,26 @@
             margin: 0;
             color: var(--text-main);
             overflow-x: hidden;
+            font-size: 15px;
         }
 
         .premium-bg {
             position: fixed;
-            top: 0; left: 0; width: 100%; height: 300px;
-            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #3b82f6 100%);
+            top: 0; left: 0; width: 100%; height: 200px;
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
             z-index: -1;
-            border-bottom-left-radius: 3rem;
-            border-bottom-right-radius: 3rem;
+            border-bottom-left-radius: 2rem;
+            border-bottom-right-radius: 2rem;
         }
 
         .container {
-            max-width: 600px;
+            max-width: 500px;
             margin: 0 auto;
-            padding: 1.5rem;
+            padding: 1rem;
         }
 
         header {
-            padding: 1rem 0 2.5rem;
+            padding: 0.5rem 0 1.5rem;
             color: white;
             display: flex;
             justify-content: space-between;
@@ -53,40 +54,38 @@
         }
 
         .user-greet h1 {
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             margin: 0;
             font-weight: 800;
-            letter-spacing: -0.5px;
         }
 
         .user-greet p {
-            margin: 0.2rem 0 0;
+            margin: 0.1rem 0 0;
             opacity: 0.8;
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
 
         .status-badge {
             background: rgba(255,255,255,0.2);
             backdrop-filter: blur(10px);
-            padding: 0.5rem 1rem;
+            padding: 0.3rem 0.8rem;
             border-radius: 2rem;
-            font-size: 0.8rem;
-            font-weight: 700;
+            font-size: 0.7rem;
+            font-weight: 800;
             border: 1px solid rgba(255,255,255,0.3);
         }
 
         .main-card {
             background: white;
-            border-radius: 2rem;
-            padding: 1.5rem;
+            border-radius: 1.5rem;
+            padding: 1.2rem;
             box-shadow: var(--shadow);
-            margin-top: -1rem;
-            border: 1px solid rgba(255,255,255,0.8);
-            animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+            border: 1px solid rgba(0,0,0,0.02);
+            animation: slideUp 0.5s ease-out;
         }
 
         @keyframes slideUp {
-            from { opacity: 0; transform: translateY(40px); }
+            from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
@@ -94,91 +93,86 @@
             display: inline-block;
             background: #eff6ff;
             color: var(--primary);
-            padding: 0.4rem 1rem;
-            border-radius: 0.75rem;
+            padding: 0.3rem 0.8rem;
+            border-radius: 0.5rem;
             font-weight: 800;
-            font-size: 0.85rem;
-            margin-bottom: 1rem;
-            text-transform: uppercase;
+            font-size: 0.75rem;
+            margin-bottom: 0.8rem;
         }
 
         .date-banner {
-            font-size: 1.1rem;
-            font-weight: 700;
-            color: var(--text-main);
-            margin-bottom: 0.5rem;
+            font-size: 1rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
         }
 
         .timer-box {
             background: #fffbeb;
-            border-radius: 1.25rem;
-            padding: 1rem;
-            margin: 1.5rem 0;
+            border-radius: 1rem;
+            padding: 0.75rem 1rem;
+            margin-bottom: 1.25rem;
             display: flex;
             align-items: center;
-            gap: 1rem;
+            gap: 0.8rem;
             border: 1px solid #fef3c7;
         }
 
         .timer-icon {
-            font-size: 1.5rem;
-            background: white;
-            width: 45px; height: 45px;
-            display: flex; align-items: center; justify-content: center;
-            border-radius: 50%;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            font-size: 1.2rem;
         }
 
-        .timer-info .label { font-size: 0.75rem; color: #b45309; font-weight: 800; text-transform: uppercase; }
-        .timer-info .value { font-size: 1.25rem; font-weight: 900; color: #d97706; font-family: 'Inter', sans-serif; }
+        .timer-info .label { font-size: 0.65rem; color: #b45309; font-weight: 800; text-transform: uppercase; }
+        .timer-info .value { font-size: 1.1rem; font-weight: 900; color: #d97706; font-family: 'Inter', sans-serif; }
 
         .lesson-item {
-            background: #f8fafc;
-            border-radius: 1.5rem;
-            padding: 1.25rem;
-            margin-bottom: 1rem;
+            background: #ffffff;
+            border-radius: 1.2rem;
+            padding: 1rem;
+            margin-bottom: 0.75rem;
             border: 1px solid #f1f5f9;
-            transition: all 0.3s;
+            transition: all 0.2s;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.02);
         }
-
-        .lesson-item:hover { transform: scale(1.02); background: white; border-color: var(--primary-light); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
 
         .lesson-header {
             display: flex;
             align-items: center;
-            gap: 1rem;
-            margin-bottom: 1.25rem;
+            gap: 0.75rem;
+            margin-bottom: 0.8rem;
         }
 
         .lesson-index {
-            background: var(--primary);
-            color: white;
-            width: 32px; height: 32px;
+            background: #f1f5f9;
+            color: var(--primary);
+            width: 28px; height: 28px;
             display: flex; align-items: center; justify-content: center;
-            border-radius: 0.75rem;
+            border-radius: 0.5rem;
             font-weight: 800;
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
 
         .lesson-name {
             font-weight: 700;
-            font-size: 1.05rem;
+            font-size: 0.95rem;
             color: var(--text-main);
-            line-height: 1.4;
+            line-height: 1.3;
         }
 
         .action-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 0.75rem;
+            gap: 0.5rem;
         }
 
         .btn-action {
-            padding: 0.8rem;
-            border-radius: 1rem;
+            padding: 0.7rem;
+            border-radius: 0.8rem;
             text-decoration: none;
             font-weight: 700;
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             text-align: center;
             display: flex;
             align-items: center;
@@ -189,40 +183,32 @@
 
         .btn-notes { background: #0d9488; color: white; }
         .btn-exam { background: #2563eb; color: white; }
-        .btn-locked { background: #e2e8f0; color: #94a3b8; cursor: not-allowed; }
+        
+        .btn-locked { 
+            background: #f8fafc; 
+            color: #94a3b8; 
+            border: 1px dashed #e2e8f0;
+            cursor: not-allowed; 
+        }
 
-        .btn-action:not(.btn-locked):active { transform: scale(0.95); }
+        .btn-action:not(.btn-locked):active { transform: scale(0.96); opacity: 0.9; }
 
         .closed-state {
             text-align: center;
-            padding: 3rem 1.5rem;
+            padding: 2rem 1rem;
         }
 
         .loader-container {
-            height: 60vh;
+            height: 50vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            color: var(--text-muted);
         }
 
-        .pulse-loader {
-            width: 50px; height: 50px;
-            background: var(--primary-light);
-            border-radius: 50%;
-            animation: pulse 1.5s infinite;
-        }
-
-        @keyframes pulse {
-            0% { transform: scale(0.8); opacity: 0.5; }
-            50% { transform: scale(1.2); opacity: 0.2; }
-            100% { transform: scale(0.8); opacity: 0.5; }
-        }
-
-        /* Responsive */
-        @media (max-width: 400px) {
-            .action-grid { grid-template-columns: 1fr; }
+        @media (max-width: 360px) {
+            .user-greet h1 { font-size: 1.1rem; }
+            .lesson-name { font-size: 0.85rem; }
         }
     </style>
 </head>
