@@ -3,187 +3,228 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>A1 Dashboard</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <title>A1 Premium Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
     <style>
         :root {
             --primary: #1e3a8a;
-            --primary-light: #3b82f6;
+            --primary-soft: #eff6ff;
             --accent: #f43f5e;
-            --bg: #f1f5f9;
+            --success: #10b981;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
             --text-main: #0f172a;
             --text-muted: #64748b;
-            --shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            --border: #f1f5f9;
         }
 
-        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+        * { 
+            box-sizing: border-box; 
+            -webkit-tap-highlight-color: transparent; 
+            font-family: 'Outfit', sans-serif;
+        }
 
         body {
             background: var(--bg);
-            font-family: 'Outfit', sans-serif;
             margin: 0;
             color: var(--text-main);
-            overflow: hidden;
             height: 100vh;
-        }
-
-        .header-section {
-            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
-            color: white;
-            padding: 0.75rem 1rem;
-            border-bottom-left-radius: 1.25rem;
-            border-bottom-right-radius: 1.25rem;
-            box-shadow: 0 4px 15px rgba(30, 58, 138, 0.2);
-            position: relative;
-            z-index: 10;
-        }
-
-        .header-top {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .header-top h1 { font-size: 0.9rem; margin: 0; font-weight: 800; opacity: 0.9; }
-        .date-chip { background: rgba(255,255,255,0.2); padding: 0.2rem 0.5rem; border-radius: 1rem; font-size: 0.65rem; font-weight: 700; }
-
-        .header-greet { font-size: 1.2rem; font-weight: 900; margin: 0.4rem 0; }
-        
-        .special-exam-badge { 
-            display: inline-flex; 
-            align-items: center; 
-            gap: 0.3rem; 
-            background: var(--accent); 
-            color: white; 
-            padding: 0.25rem 0.6rem; 
-            border-radius: 2rem; 
-            font-size: 0.7rem; 
-            font-weight: 800;
-            animation: pulse 2s infinite;
-        }
-
-        @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.03); } 100% { transform: scale(1); } }
-
-        .scroll-container {
-            height: calc(100vh - 120px);
-            overflow-y: auto;
-            padding: 0.6rem;
-            scrollbar-width: none;
-        }
-        .scroll-container::-webkit-scrollbar { display: none; }
-
-        .timer-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: #fffbeb;
-            border: 1px solid #fef3c7;
-            padding: 0.4rem 0.75rem;
-            border-radius: 0.6rem;
-            margin-bottom: 0.6rem;
-        }
-        .timer-row .label { font-size: 0.6rem; color: #b45309; font-weight: 800; }
-        .timer-row .value { font-size: 0.9rem; font-weight: 900; color: #d97706; }
-
-        .lesson-tile {
-            background: #ffffff;
-            border-radius: 0.8rem;
-            padding: 0.6rem;
-            margin-bottom: 0.5rem;
-            border: 1px solid #f1f5f9;
             display: flex;
             flex-direction: column;
-            gap: 0.5rem;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+            overflow: hidden;
         }
 
-        .lesson-info {
+        /* Premium App Header */
+        header {
+            background: white;
+            padding: 0.75rem 1.2rem;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .brand-box { display: flex; flex-direction: column; }
+        .brand-box h1 { font-size: 1rem; margin: 0; font-weight: 800; color: var(--primary); letter-spacing: -0.5px; }
+        .brand-box span { font-size: 0.65rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; }
+
+        .user-profile {
+            background: var(--primary-soft);
+            width: 36px; height: 36px;
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 800; color: var(--primary); font-size: 0.9rem;
+        }
+
+        /* Content Container */
+        .app-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1rem;
+            scrollbar-width: none;
+        }
+        .app-content::-webkit-scrollbar { display: none; }
+
+        /* Greet Section */
+        .greet-card {
+            margin-bottom: 1.25rem;
+        }
+        .greet-card h2 { font-size: 1.3rem; margin: 0; font-weight: 900; color: var(--text-main); }
+        .greet-card p { margin: 0.2rem 0 0; font-size: 0.8rem; color: var(--text-muted); font-weight: 600; }
+
+        /* Special Highlight */
+        .special-chip {
+            background: linear-gradient(135deg, #f43f5e, #fb7185);
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border-radius: 0.75rem;
+            font-size: 0.75rem;
+            font-weight: 800;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 10px rgba(244, 63, 94, 0.2);
+        }
+
+        /* Status Row */
+        .status-row {
+            display: flex;
+            gap: 0.6rem;
+            margin-bottom: 1.25rem;
+        }
+        .status-item {
+            flex: 1;
+            background: white;
+            padding: 0.6rem 0.8rem;
+            border-radius: 1rem;
+            border: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+        }
+        .status-item .label { font-size: 0.6rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-bottom: 0.2rem; }
+        .status-item .value { font-size: 0.9rem; font-weight: 800; color: var(--primary); }
+        .status-item.highlight .value { color: #b45309; }
+
+        /* Lesson Grid */
+        .section-label {
+            font-size: 0.75rem;
+            font-weight: 800;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            display: block;
+        }
+
+        .lesson-card {
+            background: white;
+            border-radius: 1.25rem;
+            padding: 1rem;
+            margin-bottom: 0.75rem;
+            border: 1px solid var(--border);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+            transition: transform 0.2s;
+        }
+        .lesson-card:active { transform: scale(0.98); }
+
+        .lesson-header {
             display: flex;
             align-items: center;
-            gap: 0.5rem;
+            gap: 0.8rem;
+            margin-bottom: 1rem;
         }
-        .lesson-idx { background: #f1f5f9; color: var(--primary); width: 22px; height: 22px; display: flex; align-items: center; justify-content: center; border-radius: 0.3rem; font-weight: 800; font-size: 0.7rem; }
-        .lesson-name { font-weight: 700; font-size: 0.85rem; color: var(--text-main); flex: 1; line-height: 1.2; }
+        .lesson-icon-box {
+            width: 32px; height: 32px;
+            background: var(--primary-soft);
+            border-radius: 0.75rem;
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 800; color: var(--primary); font-size: 0.8rem;
+        }
+        .lesson-title { font-weight: 800; font-size: 0.95rem; color: var(--text-main); line-height: 1.3; }
 
-        .btn-grid {
+        .lesson-actions {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 0.35rem;
+            gap: 0.6rem;
         }
 
-        .btn-pill {
-            padding: 0.5rem;
-            border-radius: 0.6rem;
+        .action-btn {
+            padding: 0.7rem;
+            border-radius: 0.75rem;
             text-decoration: none;
             font-weight: 800;
-            font-size: 0.7rem;
+            font-size: 0.75rem;
             text-align: center;
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 0.25rem;
-            transition: all 0.2s;
+            gap: 0.4rem;
+            transition: 0.2s;
         }
 
-        .btn-notes { background: #0d9488; color: white; }
-        .btn-exam { background: #2563eb; color: white; }
-        .btn-locked { background: #f8fafc; color: #94a3b8; border: 1px dashed #e2e8f0; cursor: not-allowed; }
+        .btn-notes { background: #f1f5f9; color: #475569; }
+        .btn-exam { background: var(--primary); color: white; }
+        .btn-locked { background: #fafafa; color: #cbd5e1; border: 1px dashed #e2e8f0; cursor: not-allowed; }
 
-        .btn-pill:not(.btn-locked):active { transform: scale(0.96); opacity: 0.9; }
+        /* Loader */
+        .loader-box { height: 60vh; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+        .spinner { width: 30px; height: 30px; border: 3px solid #f1f5f9; border-top-color: var(--primary); border-radius: 50%; animation: spin 1s linear infinite; }
+        @keyframes spin { to { transform: rotate(360deg); } }
 
-        .loader-wrap { height: 50vh; display: flex; align-items: center; justify-content: center; }
-        .dot-loader { width: 10px; height: 10px; background: var(--primary); border-radius: 50%; animation: dotPulse 1s infinite alternate; }
-        @keyframes dotPulse { from { transform: scale(0.5); opacity: 0.5; } to { transform: scale(1.5); opacity: 1; } }
-
-        .subject-info { font-size: 0.65rem; font-weight: 800; color: var(--text-muted); margin: 0 0 0.4rem 0.2rem; text-transform: uppercase; letter-spacing: 0.5px; }
+        /* Closed State */
+        .closed-box { text-align: center; padding: 3rem 1rem; background: white; border-radius: 1.5rem; }
     </style>
 </head>
 <body>
-    <div class="header-section">
-        <div class="header-top">
-            <h1 id="headerTitle">இன்றைய தினசரித் தேர்வு</h1>
-            <div class="date-chip" id="topDate">ஏப்ரல் 29</div>
+    <header>
+        <div class="brand-box">
+            <h1>A1 TAMIL</h1>
+            <span>Primary Edition</span>
         </div>
-        <div class="header-greet" id="greetName">வணக்கம்!</div>
-        <div class="special-exam-badge">🔥 இன்றைய சிறப்புத் தேர்வு</div>
-    </div>
-    
-    <div class="scroll-container" id="mainDashboard">
-        <div class="loader-wrap">
-            <div class="dot-loader"></div>
+        <div class="user-profile" id="userInitial">A1</div>
+    </header>
+
+    <div class="app-content" id="appBody">
+        <div class="loader-box">
+            <div class="spinner"></div>
+            <p style="font-size: 0.8rem; font-weight: 700; color: var(--text-muted); margin-top: 1rem;">Loading dashboard...</p>
         </div>
     </div>
 
     <script type="module">
-        import { waitForAuth } from './js/auth.js?v=4.2';
+        import { waitForAuth } from './js/auth.js?v=5.0';
 
         (async () => {
-            const container = document.getElementById('mainDashboard');
+            const body = document.getElementById('appBody');
             const user = await waitForAuth();
-            if (user) document.getElementById('greetName').innerText = `வணக்கம், ${user.name || "மாணவர்"}!`;
+            if (user) {
+                const initial = user.name ? user.name.charAt(0).toUpperCase() : 'S';
+                document.getElementById('userInitial').innerText = initial;
+            }
 
             const v = Date.now();
             try {
                 const res = await fetch('1.json?v=' + v);
                 const data = await res.json();
+                
                 const now = new Date();
                 const currentMins = now.getHours() * 60 + now.getMinutes();
-                const isClosedTime = currentMins >= 1350 || currentMins < 360;
+                const isClosed = currentMins >= 1350 || currentMins < 360;
 
-                document.getElementById('topDate').innerText = now.toLocaleDateString('ta-IN', { month: 'short', day: 'numeric' });
-
-                if (isClosedTime || data.status === 'closed') {
+                if (isClosed || data.status === 'closed') {
                     renderClosed();
                 } else {
-                    renderDashboard(data);
+                    renderDashboard(data, user);
                 }
             } catch (err) {
-                container.innerHTML = `<div class="lesson-tile" style="text-align:center;"><h3>பிழை!</h3><p>மீண்டும் முயற்சிக்கவும்.</p></div>`;
+                body.innerHTML = `<div class="closed-box"><h3>Error loading data</h3><p>Please refresh.</p></div>`;
             }
         })();
 
-        function renderDashboard(data) {
-            const container = document.getElementById('mainDashboard');
+        function renderDashboard(data, user) {
+            const body = document.getElementById('appBody');
             const titles = data.activeTitles || [];
             const subject = data.activeSubject || 'General';
             const grade = data.activeGrade || '5';
@@ -192,14 +233,26 @@
             const isNotesOpen = data.status === 'notes' || data.status === 'open';
 
             let html = `
-                ${(isNotesOpen || isExamOpen) ? `
-                    <div class="timer-row">
-                        <div class="label">நேரம் முடிவடைய:</div>
-                        <div id="timerValue" class="value">--:--:--</div>
-                    </div>
-                ` : ''}
+                <div class="greet-card">
+                    <h2>வணக்கம், ${user ? (user.name || "மாணவர்") : "மாணவர்"}!</h2>
+                    <p>இன்று உங்களுக்காகக் காத்திருக்கும் பாடங்கள்</p>
+                </div>
 
-                <div class="subject-info">பாடம்: ${subject} • வகுப்பு: ${grade}</div>
+                <div class="special-chip">✨ இன்றைய சிறப்புத் தேர்வு (Live)</div>
+
+                <div class="status-row">
+                    <div class="status-item">
+                        <span class="label">பாடம்</span>
+                        <span class="value">${subject}</span>
+                    </div>
+                    <div class="status-item highlight">
+                        <span class="label">முடிவடைய</span>
+                        <span id="timerValue" class="value">--:--:--</span>
+                    </div>
+                </div>
+
+                <span class="section-label">வகுப்பு: ${grade} - பாடப்பிரிவுகள்</span>
+                <div class="lessons-container">
             `;
 
             titles.forEach((title, idx) => {
@@ -207,31 +260,38 @@
                 const cGrade = (data.activeGrades && data.activeGrades[idx]) ? data.activeGrades[idx] : grade;
                 
                 html += `
-                    <div class="lesson-tile">
-                        <div class="lesson-info">
-                            <div class="lesson-idx">${idx + 1}</div>
-                            <div class="lesson-name">${title}</div>
+                    <div class="lesson-card">
+                        <div class="lesson-header">
+                            <div class="lesson-icon-box">${idx + 1}</div>
+                            <div class="lesson-title">${title}</div>
                         </div>
-                        <div class="btn-grid">
+                        <div class="lesson-actions">
                             ${isNotesOpen ? `
-                                <a href="material.html?subject=${subject}&class=${cGrade}&lesson=${fileId}" class="btn-pill btn-notes">📖 குறிப்புகள்</a>
-                            ` : `<div class="btn-pill btn-locked">🔒 குறிப்புகள்</div>`}
+                                <a href="material.html?subject=${subject}&class=${cGrade}&lesson=${fileId}" class="action-btn btn-notes">📖 குறிப்புகள்</a>
+                            ` : `<div class="action-btn btn-locked">🔒 Notes</div>`}
 
                             ${isExamOpen ? `
-                                <a href="quiz.html?subject=${subject}&class=${cGrade}&lesson=${fileId}" class="btn-pill btn-exam">📝 தேர்வு</a>
-                            ` : `<div class="btn-pill btn-locked">🔒 இரவு 8 மணி</div>`}
+                                <a href="quiz.html?subject=${subject}&class=${cGrade}&lesson=${fileId}" class="action-btn btn-exam">📝 தேர்வு</a>
+                            ` : `<div class="action-btn btn-locked">🔒 Exam at 8PM</div>`}
                         </div>
                     </div>
                 `;
             });
 
-            container.innerHTML = html;
+            html += `</div>`;
+            body.innerHTML = html;
             startTimer();
         }
 
         function renderClosed() {
-            const container = document.getElementById('mainDashboard');
-            container.innerHTML = `<div class="lesson-tile" style="text-align:center; padding: 2rem;"><h2>நாளை காலை 6 மணிக்கு சந்திப்போம் 🌙</h2></div>`;
+            const body = document.getElementById('appBody');
+            body.innerHTML = `
+                <div class="closed-box">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🌙</div>
+                    <h2 style="font-weight: 900;">அமர்வு முடிந்தது</h2>
+                    <p style="color: var(--text-muted); font-size: 0.9rem; font-weight: 600;">மீண்டும் நாளை காலை 6:00 மணிக்குச் சந்திக்கலாம்!</p>
+                </div>
+            `;
         }
 
         function startTimer() {
