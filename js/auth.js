@@ -122,18 +122,19 @@ function initLoginPage() {
                     };
                     localStorage.setItem(STORAGE_KEY, JSON.stringify(userData));
 
-                    // 3. Save and provide clear next steps
+                    // 🔗 WhatsApp Group Link
                     const groupLink = `https://chat.whatsapp.com/KDL9niBSU6t0Nx1wlBtpJy`;
                     
-                    // Show a more professional success message
-                    const confirmJoin = confirm("பதிவு முடிந்தது! எங்களது அதிகாரப்பூர்வ வாட்ஸ்அப் குழுவில் இணைந்து புதிய பாடங்களைப் பெற்றிடுங்கள். (Join our group for updates?)");
+                    // Show message and open WhatsApp, then redirect
+                    alert("பதிவு வெற்றிகரமாக முடிந்தது! இப்போது எங்களது வாட்ஸ்அப் குழுவில் இணைந்து கொள்ளுங்கள். அதன் பின் பாடங்கள் பகுதிக்குத் தானாக அழைத்துச் செல்லப்படுவீர்கள்.");
                     
-                    if (confirmJoin) {
-                        window.open(groupLink, '_blank');
-                    }
+                    // Open WhatsApp Link
+                    window.open(groupLink, '_blank');
                     
-                    // Always redirect to application page
-                    window.location.href = "index.html";
+                    // Automatically redirect to the daily lessons page
+                    setTimeout(() => {
+                        window.location.href = "daily.html";
+                    }, 500);
                 } else {
                     alert("பிழை! மீண்டும் முயலவும்.");
                     btn.disabled = false;
