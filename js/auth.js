@@ -121,15 +121,7 @@ function initLoginPage() {
                         isFree: true
                     };
                     localStorage.setItem(STORAGE_KEY, JSON.stringify(userData));
-
-                    // 🔗 Show the WhatsApp Join Modal
-                    const waModal = document.getElementById('waModal');
-                    if (waModal) {
-                        waModal.style.display = 'flex';
-                    } else {
-                        // Fallback if modal not found
-                        window.location.href = "daily.html";
-                    }
+                    window.location.href = "daily.html";
                 } else {
                     alert("பிழை! மீண்டும் முயலவும்.");
                     btn.disabled = false;

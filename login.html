@@ -39,7 +39,6 @@
             border: 1px solid #f1f5f9;
             text-align: center;
             animation: slideUp 0.5s ease-out;
-            position: relative;
         }
 
         @keyframes slideUp { from { transform: translateY(15px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
@@ -91,30 +90,11 @@
         .link-btn.paid { background: #fff1f2; color: #9f1239; border-color: #fecaca; }
 
         .footer-text { font-size: 0.65rem; color: var(--text-muted); font-weight: 700; margin-top: 1.25rem; }
-        
-        /* WhatsApp Modal Overlay */
-        #waModal {
-            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-            background: white; border-radius: 2rem; z-index: 100;
-            display: none; flex-direction: column; align-items: center; justify-content: center;
-            padding: 2rem; text-align: center;
-        }
     </style>
 </head>
 <body>
 
     <div class="login-card">
-        <!-- WhatsApp Join Modal -->
-        <div id="waModal">
-            <div style="font-size: 3rem;">🚀</div>
-            <h2 style="font-size: 1.2rem; color: var(--primary); margin: 0.75rem 0;">இன்னும் ஒரே படி!</h2>
-            <p style="font-size: 0.8rem; color: var(--text-muted); font-weight: 700; line-height: 1.4;">தேர்வைத் தொடங்க முதலில் எங்களது வாட்ஸ்அப் குழுவில் இணையுங்கள்.</p>
-            <a href="https://chat.whatsapp.com/KDL9niBSU6t0Nx1wlBtpJy" id="waJoinBtn" target="_blank" class="link-btn wa" style="font-size: 1rem; padding: 1rem; width: 100%; margin-top: 1rem;">
-                JOIN GROUP (இணையவும்)
-            </a>
-            <button id="proceedBtn" class="btn btn-primary" style="display: none; margin-top: 1rem;">START EXAM</button>
-        </div>
-
         <div class="logo-box">
             <h1>A1 ONLINE COACHING CENTRE</h1>
             <p>📞 6369371452</p>
@@ -124,7 +104,7 @@
         <form id="freeForm">
             <div class="form-group">
                 <label>உங்கள் பெயர் (Full Name)</label>
-                <input type="text" id="freeName" class="form-control" placeholder="எ.கா: ரகு" required>
+                <input type="text" id="freeName" class="form-control" placeholder="பெயர்..." required>
             </div>
             <div class="form-group">
                 <label>மொபைல் எண் (Mobile No)</label>
@@ -149,24 +129,6 @@
     </div>
 
     <style>@keyframes spin { to { transform: rotate(360deg); } }</style>
-
-    <script type="module" src="js/auth.js?v=12.0"></script>
-    <script>
-        const waJoinBtn = document.getElementById('waJoinBtn');
-        const proceedBtn = document.getElementById('proceedBtn');
-        if (waJoinBtn) {
-            waJoinBtn.onclick = () => {
-                localStorage.setItem('A1_WA_JOINED', 'true');
-                setTimeout(() => {
-                    proceedBtn.style.display = 'flex';
-                    waJoinBtn.style.opacity = '0.5';
-                    waJoinBtn.innerText = 'Redirecting...';
-                }, 1000);
-            };
-        }
-        if (proceedBtn) {
-            proceedBtn.onclick = () => { window.location.href = "daily.html"; };
-        }
-    </script>
+    <script type="module" src="js/auth.js?v=13.0"></script>
 </body>
 </html>
