@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>A1 Dashboard</title>
+    <title>A1 Daily Challenge</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -25,117 +25,122 @@
             height: 100vh;
             display: flex;
             flex-direction: column;
-            overflow: hidden; /* No overall scroll */
+            overflow: hidden;
         }
 
-        /* Ultra Compact Header */
+        /* Compact Header */
         header {
             background: white;
-            padding: 0.4rem 0.8rem;
+            padding: 0.6rem 1rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
             border-bottom: 1px solid #f1f5f9;
         }
-        .logo-box h1 { font-size: 0.8rem; margin: 0; font-weight: 900; color: var(--primary); }
-        .logo-box span { font-size: 0.5rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; }
+        .logo-box h1 { font-size: 1rem; margin: 0; font-weight: 900; color: var(--primary); }
+        .logo-box span { font-size: 0.6rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; }
 
         .status-badge {
             background: #dcfce7;
             color: #166534;
-            padding: 0.15rem 0.5rem;
+            padding: 0.25rem 0.6rem;
             border-radius: 1rem;
-            font-size: 0.55rem;
+            font-size: 0.65rem;
             font-weight: 800;
         }
 
-        /* Compact Greet Section */
+        /* Greet Section */
         .greet-row {
-            padding: 0.5rem 0.8rem;
+            padding: 0.75rem 1rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-        .greet-row h2 { font-size: 0.85rem; margin: 0; font-weight: 800; }
-        .greet-row p { font-size: 0.6rem; margin: 0; color: var(--text-muted); font-weight: 600; }
+        .greet-row h2 { font-size: 1.1rem; margin: 0; font-weight: 900; }
+        .greet-row p { font-size: 0.75rem; margin: 0; color: var(--text-muted); font-weight: 700; }
 
-        /* Shrunk Summary Bar */
+        /* Summary Bar */
         .summary-bar {
             display: flex;
-            gap: 0.4rem;
-            padding: 0 0.8rem 0.5rem;
+            gap: 0.6rem;
+            padding: 0 1rem 0.75rem;
         }
         .summary-item {
             flex: 1;
             background: white;
-            padding: 0.35rem 0.5rem;
-            border-radius: 0.6rem;
+            padding: 0.6rem 0.8rem;
+            border-radius: 0.75rem;
             border: 1px solid #f1f5f9;
-            display: flex; flex-direction: column;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
         }
-        .summary-item .label { font-size: 0.5rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; }
-        .summary-item .value { font-size: 0.7rem; font-weight: 800; color: var(--primary); }
+        .summary-item .label { font-size: 0.6rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; }
+        .summary-item .value { font-size: 0.9rem; font-weight: 900; color: var(--primary); display: block; }
 
-        /* Lesson List - Scrollable */
+        /* Lesson List - Large & Clear */
         .lesson-list {
             flex: 1;
             overflow-y: auto;
-            padding: 0 0.6rem 0.6rem;
+            padding: 0 0.75rem 0.75rem;
             scrollbar-width: none;
         }
         .lesson-list::-webkit-scrollbar { display: none; }
 
         .lesson-tile {
             background: white;
-            border-radius: 0.6rem;
-            padding: 0.5rem;
-            margin-bottom: 0.3rem;
+            border-radius: 1rem;
+            padding: 1rem;
+            margin-bottom: 0.6rem;
             border: 1px solid #f1f5f9;
             display: flex;
-            align-items: center;
-            gap: 0.5rem;
+            flex-direction: column; /* Stacked for better readability */
+            gap: 0.75rem;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.03);
+            border-left: 6px solid var(--primary);
         }
 
+        .l-top { display: flex; align-items: center; gap: 0.75rem; }
         .l-idx {
-            width: 18px; height: 18px;
+            width: 28px; height: 28px;
             background: var(--primary-soft);
             color: var(--primary);
-            border-radius: 0.3rem;
+            border-radius: 0.5rem;
             display: flex; align-items: center; justify-content: center;
-            font-size: 0.6rem; font-weight: 900;
+            font-size: 0.9rem; font-weight: 900;
         }
+        .l-title { font-size: 1rem; font-weight: 800; color: var(--text-main); flex: 1; line-height: 1.3; }
 
-        .l-title { font-size: 0.7rem; font-weight: 700; flex: 1; line-height: 1.2; }
-
-        .l-actions { display: flex; gap: 0.3rem; }
+        .l-actions { display: flex; gap: 0.6rem; margin-top: 0.25rem; }
 
         .btn-sm {
-            padding: 0.3rem 0.5rem;
-            border-radius: 0.4rem;
+            flex: 1;
+            padding: 0.8rem 0.5rem;
+            border-radius: 0.75rem;
             text-decoration: none;
-            font-size: 0.55rem;
-            font-weight: 800;
-            display: flex; align-items: center; gap: 0.2rem;
-            transition: 0.1s;
+            font-size: 0.85rem;
+            font-weight: 900;
+            display: flex; align-items: center; justify-content: center; gap: 0.4rem;
+            transition: 0.2s;
         }
-        .btn-n { background: #f1f5f9; color: #475569; }
-        .btn-e { background: var(--primary); color: white; }
-        .btn-l { background: #fafafa; color: #cbd5e1; border: 1px dashed #e2e8f0; padding: 0.3rem 0.4rem; }
+        .btn-n { background: #f1f5f9; color: #475569; border: 1.5px solid #e2e8f0; }
+        .btn-e { background: var(--primary); color: white; box-shadow: 0 10px 15px rgba(30, 58, 138, 0.2); }
+        .btn-l { background: #fafafa; color: #cbd5e1; border: 1.5px dashed #e2e8f0; }
 
-        /* Fixed Bottom Info */
+        .btn-sm:active { transform: scale(0.95); }
+
+        /* Footer Timer */
         .footer-bar {
             background: #fffbeb;
-            padding: 0.4rem 0.8rem;
+            padding: 0.75rem 1rem;
             border-top: 1px solid #fef3c7;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-        .timer-label { font-size: 0.55rem; font-weight: 800; color: #b45309; }
-        #timerValue { font-size: 0.75rem; font-weight: 900; color: #d97706; }
+        .timer-label { font-size: 0.75rem; font-weight: 800; color: #b45309; text-transform: uppercase; }
+        #timerValue { font-size: 1rem; font-weight: 900; color: #d97706; }
 
         .loader { height: 100%; display: flex; align-items: center; justify-content: center; }
-        .spin { width: 20px; height: 20px; border: 2px solid #f1f5f9; border-top-color: var(--primary); border-radius: 50%; animation: spin 1s linear infinite; }
+        .spin { width: 30px; height: 30px; border: 3px solid #f1f5f9; border-top-color: var(--primary); border-radius: 50%; animation: spin 1s linear infinite; }
         @keyframes spin { to { transform: rotate(360deg); } }
     </style>
 </head>
@@ -145,24 +150,24 @@
             <h1>A1 TAMIL</h1>
             <span>Primary Edition</span>
         </div>
-        <div class="status-badge">ONLINE</div>
+        <div class="status-badge">LIVE</div>
     </header>
 
     <div class="greet-row">
         <div>
             <h2 id="greetUser">வணக்கம்!</h2>
-            <p>இன்றைய வகுப்புகள்</p>
+            <p>இன்றைய பாடங்கள்</p>
         </div>
-        <div style="background: var(--accent); color: white; font-size: 0.5rem; font-weight: 900; padding: 0.15rem 0.4rem; border-radius: 0.4rem;">DAILY CHALLENGE 🔥</div>
+        <div style="background: var(--accent); color: white; font-size: 0.6rem; font-weight: 900; padding: 0.3rem 0.6rem; border-radius: 0.5rem; animation: pulse 1s infinite alternate;">DAILY CHALLENGE 🔥</div>
     </div>
 
     <div class="summary-bar">
         <div class="summary-item">
-            <span class="label">பாடம்</span>
+            <span class="label">பாடம் (Subject)</span>
             <span class="value" id="subVal">---</span>
         </div>
         <div class="summary-item">
-            <span class="label">வகுப்பு</span>
+            <span class="label">வகுப்பு (Class)</span>
             <span class="value" id="gradeVal">---</span>
         </div>
     </div>
@@ -172,12 +177,12 @@
     </div>
 
     <div class="footer-bar">
-        <span class="timer-label">நேரம் மீதம்:</span>
+        <span class="timer-label">கால அவகாசம்:</span>
         <span id="timerValue">--:--:--</span>
     </div>
 
     <script type="module">
-        import { waitForAuth } from './js/auth.js?v=6.0';
+        import { waitForAuth } from './js/auth.js?v=7.0';
 
         (async () => {
             const container = document.getElementById('lessonContainer');
@@ -194,7 +199,7 @@
                 renderLessons(data);
                 startTimer();
             } catch (e) {
-                container.innerHTML = `<p style="text-align:center; font-size:0.6rem;">Error loading data.</p>`;
+                container.innerHTML = `<p style="text-align:center; font-size:0.8rem; padding:2rem;">தரவுகளை ஏற்ற முடியவில்லை.</p>`;
             }
         })();
 
@@ -213,16 +218,18 @@
                 
                 html += `
                     <div class="lesson-tile">
-                        <div class="l-idx">${idx + 1}</div>
-                        <div class="l-title">${title}</div>
+                        <div class="l-top">
+                            <div class="l-idx">${idx + 1}</div>
+                            <div class="l-title">${title}</div>
+                        </div>
                         <div class="l-actions">
                             ${isNotesOpen ? 
-                                `<a href="material.html?subject=${subject}&class=${cGrade}&lesson=${fileId}" class="btn-sm btn-n">📖 Notes</a>` : 
-                                `<div class="btn-sm btn-l">🔒</div>`}
+                                `<a href="material.html?subject=${subject}&class=${cGrade}&lesson=${fileId}" class="btn-sm btn-n">📖 குறிப்புகள்</a>` : 
+                                `<div class="btn-sm btn-l">🔒 Locked</div>`}
                             
                             ${isExamOpen ? 
-                                `<a href="quiz.html?subject=${subject}&class=${cGrade}&lesson=${fileId}" class="btn-sm btn-e">📝 Exam</a>` : 
-                                `<div class="btn-sm btn-l">🔒</div>`}
+                                `<a href="quiz.html?subject=${subject}&class=${cGrade}&lesson=${fileId}" class="btn-sm btn-e">📝 தேர்வு (Exam)</a>` : 
+                                `<div class="btn-sm btn-l">🔒 Locked</div>`}
                         </div>
                     </div>
                 `;
@@ -247,5 +254,8 @@
             setInterval(update, 1000);
         }
     </script>
+    <style>
+        @keyframes pulse { from { transform: scale(1); } to { transform: scale(1.05); } }
+    </style>
 </body>
 </html>
