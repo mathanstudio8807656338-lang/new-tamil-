@@ -122,19 +122,14 @@ function initLoginPage() {
                     };
                     localStorage.setItem(STORAGE_KEY, JSON.stringify(userData));
 
-                    // 🔗 WhatsApp Group Link
-                    const groupLink = `https://chat.whatsapp.com/KDL9niBSU6t0Nx1wlBtpJy`;
-                    
-                    // Show message and open WhatsApp, then redirect
-                    alert("பதிவு வெற்றிகரமாக முடிந்தது! இப்போது எங்களது வாட்ஸ்அப் குழுவில் இணைந்து கொள்ளுங்கள். அதன் பின் பாடங்கள் பகுதிக்குத் தானாக அழைத்துச் செல்லப்படுவீர்கள்.");
-                    
-                    // Open WhatsApp Link
-                    window.open(groupLink, '_blank');
-                    
-                    // Automatically redirect to the daily lessons page
-                    setTimeout(() => {
+                    // 🔗 Show the WhatsApp Join Modal
+                    const waModal = document.getElementById('waModal');
+                    if (waModal) {
+                        waModal.style.display = 'flex';
+                    } else {
+                        // Fallback if modal not found
                         window.location.href = "daily.html";
-                    }, 500);
+                    }
                 } else {
                     alert("பிழை! மீண்டும் முயலவும்.");
                     btn.disabled = false;

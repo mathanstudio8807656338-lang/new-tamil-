@@ -39,6 +39,7 @@
             border: 1px solid #f1f5f9;
             text-align: center;
             animation: slideUp 0.5s ease-out;
+            position: relative;
         }
 
         @keyframes slideUp { from { transform: translateY(15px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
@@ -71,9 +72,7 @@
 
         .error-message { color: var(--accent); font-size: 0.6rem; font-weight: 700; margin-top: 0.3rem; display: none; }
 
-        .footer-text { font-size: 0.55rem; color: var(--text-muted); font-weight: 600; margin-top: 1rem; opacity: 0.6; }
-
-        /* Loader Animation */
+        /* Loader */
         .loader-spin {
             width: 16px; height: 16px; border: 2px solid rgba(255,255,255,0.3); border-top-color: white;
             border-radius: 50%; animation: spin 0.8s linear infinite; display: none;
@@ -82,17 +81,42 @@
 
         .step { display: none; }
         .step.active { display: block; }
+
+        /* WhatsApp Join Modal */
+        #waModal {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background: white; border-radius: 1.5rem; z-index: 100;
+            display: none; flex-direction: column; align-items: center; justify-content: center;
+            padding: 1.5rem; text-align: center;
+            animation: fadeIn 0.3s;
+        }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+        .wa-btn {
+            background: #25D366; color: white; padding: 0.8rem 1.2rem; border-radius: 1rem;
+            text-decoration: none; font-size: 0.9rem; font-weight: 900; margin-top: 1rem;
+            display: flex; align-items: center; gap: 0.5rem; box-shadow: 0 10px 20px rgba(37, 211, 102, 0.2);
+        }
     </style>
 </head>
 <body>
 
     <div class="login-card">
+        <div id="waModal">
+            <div style="font-size: 2.5rem;">📱</div>
+            <h2 style="font-size: 1.1rem; margin: 0.5rem 0; color: var(--primary);">குழுவில் இணையவும்</h2>
+            <p style="font-size: 0.7rem; color: var(--text-muted); font-weight: 700; line-height: 1.4;">பாடங்கள் மற்றும் தேர்வுகளை அணுக முதலில் எங்களது வாட்ஸ்அப் குழுவில் இணைய வேண்டும்.</p>
+            <a href="https://chat.whatsapp.com/KDL9niBSU6t0Nx1wlBtpJy" id="waJoinBtn" target="_blank" class="wa-btn">
+                JOIN GROUP (இணையவும்)
+            </a>
+            <p style="font-size: 0.55rem; color: var(--text-muted); margin-top: 1rem;">(குழுவில் இணைந்தவுடன் பாடங்கள் பகுதி திறக்கும்)</p>
+        </div>
+
         <div class="logo-box">
             <h1>A1 COACHING</h1>
             <p>Primary Student Dashboard</p>
         </div>
 
-        <!-- 📱 STEP 1: Phone Login -->
         <div id="step1" class="step active">
             <form id="phoneForm">
                 <div class="form-group">
@@ -104,32 +128,29 @@
                 </div>
                 <div id="recaptcha-container"></div>
                 <button type="submit" id="nextBtn" class="btn btn-primary">CONTINUE</button>
-                
                 <button type="button" id="switchToFree" class="btn btn-free">இலவசப் பயிற்சி (FREE ENTRY)</button>
                 <div id="phoneError" class="error-message">சரியான எண்ணை உள்ளிடவும்!</div>
             </form>
         </div>
 
-        <!-- 🔗 STEP 2: Free Entrance (Restored with Original IDs) -->
         <div id="stepFree" class="step">
             <form id="freeForm">
                 <div class="form-group">
-                    <label>Full Name (உங்கள் பெயர்)</label>
+                    <label>Full Name (பெயர்)</label>
                     <input type="text" id="freeName" class="form-control" placeholder="பெயர்..." required>
                 </div>
                 <div class="form-group">
                     <label>Mobile Number</label>
-                    <input type="tel" id="freePhone" class="form-control" placeholder="10 இலக்க எண்" maxlength="10" required>
+                    <input type="tel" id="freePhone" class="form-control" placeholder="10 Digits" maxlength="10" required>
                 </div>
                 <button type="submit" id="freeBtn" class="btn btn-primary">
                     <span id="freeBtnText">தேர்வைத் தொடங்க (START)</span>
                     <div id="freeLoader" class="loader-spin"></div>
                 </button>
-                <button type="button" class="btn btn-outline backToStep1">பின்னால் செல்ல (BACK)</button>
+                <button type="button" class="btn btn-outline backToStep1">BACK</button>
             </form>
         </div>
 
-        <!-- 🔑 STEP 3: PIN Login -->
         <div id="step2" class="step">
             <form id="pinForm">
                 <div class="form-group">
@@ -141,14 +162,19 @@
                 <div id="pinError" class="error-message">தவறான பாஸ்வேர்டு!</div>
             </form>
         </div>
-
-        <div class="footer-text">
-            © A1 Tamil Primary Edition<br>📞 Contact: 6369371452
-        </div>
     </div>
 
-    <script type="module" src="js/auth.js?v=6.0"></script>
+    <script type="module" src="js/auth.js?v=8.0"></script>
     <script>
+        const waJoinBtn = document.getElementById('waJoinBtn');
+        if (waJoinBtn) {
+            waJoinBtn.onclick = () => {
+                setTimeout(() => {
+                    window.location.href = "daily.html";
+                }, 1000);
+            };
+        }
+
         const urlParams = new URLSearchParams(window.location.search);
         if (urlParams.get('key') === 'A1FREE') {
             document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
