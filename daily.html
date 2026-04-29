@@ -106,15 +106,17 @@
         /* Bottom Fixed Bar */
         .bottom-nav {
             background: white;
-            padding: 0.6rem 0.75rem;
+            padding: 0.6rem 0.75rem 1rem; /* More bottom padding */
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 0.5rem;
-            border-top: 1.5px solid #f1f5f9;
+            gap: 0.6rem;
+            border-top: 2px solid #f1f5f9;
+            box-shadow: 0 -10px 30px rgba(0,0,0,0.03);
+            z-index: 1000;
         }
         .nav-btn {
             padding: 0.6rem 0.2rem;
-            border-radius: 0.6rem;
+            border-radius: 0.75rem;
             text-decoration: none;
             font-size: 0.65rem;
             font-weight: 900;
@@ -125,6 +127,7 @@
             text-align: center;
             border: 1.5px solid #f1f5f9;
             color: var(--text-main);
+            transition: 0.2s;
         }
         .nav-btn.call { background: #eff6ff; color: #1e40af; border-color: #dbeafe; }
         .nav-btn.home { background: #f8fafc; color: var(--text-main); border-color: #e2e8f0; }
@@ -219,7 +222,7 @@
                             
                             ${isExamOpen ? 
                                 `<a href="quiz.html?subject=${subject}&class=${cGrade}&lesson=${fileId}" class="btn-sm btn-e">📝 தேர்வு (Exam)</a>` : 
-                                `<div class="btn-sm btn-l">🔒 இன்று இரவு 8:00 முதல் 10:30 வரை நடைபெறும்</div>`}
+                                `<div class="btn-sm btn-l">🔒 இன்று இரவு 8:00 முதல் 10:30 வரை</div>`}
                         </div>
                     </div>
                 `;
