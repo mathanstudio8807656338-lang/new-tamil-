@@ -121,7 +121,7 @@ function initLoginPage() {
                         isFree: true
                     };
                     localStorage.setItem(STORAGE_KEY, JSON.stringify(userData));
-                    window.location.href = "daily.html";
+                    window.location.href = "index.html";
                 } else {
                     alert("பிழை! மீண்டும் முயலவும்.");
                     btn.disabled = false;
@@ -298,7 +298,7 @@ export async function checkAuth() {
         }
 
         if ((path.includes('login.html') || path.endsWith('/login')) && user) {
-            window.location.replace("daily.html");
+            window.location.replace("index.html");
             return user;
         }
 
