@@ -20,3 +20,12 @@ jobs:
         env:
           AUTOMATIC_TOKEN: ${{ secrets.AUTOMATIC_TOKEN }}
         run: node scripts/daily_challenge/engine.js open
+
+      - name: Commit & Push Tracker Update
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add scripts/daily_challenge/tracker.json
+          git commit -m "chore: update lesson tracker [skip ci]" || echo "No changes to commit"
+          git push origin main
+

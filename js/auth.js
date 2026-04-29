@@ -82,18 +82,22 @@ function initLoginPage() {
     const phoneForm = document.getElementById('phoneForm');
     const pinForm = document.getElementById('pinForm');
     const freeForm = document.getElementById('freeForm');
-    if (!phoneForm || !pinForm) return;
     let currentPhoneNumber = "";
 
-    // 🔗 FREE REGISTRATION LOGIC
+    // 🔗 1. FREE REGISTRATION LOGIC
     if (freeForm) {
+        console.log("Free form initialized");
         freeForm.addEventListener('submit', async (e) => {
             e.preventDefault();
-            const name = document.getElementById('freeName').value.trim();
-            const phone = document.getElementById('freePhone').value.trim();
+            const nameInput = document.getElementById('freeName');
+            const phoneInput = document.getElementById('freePhone');
             const btn = document.getElementById('freeBtn');
             const text = document.getElementById('freeBtnText');
             const loader = document.getElementById('freeLoader');
+
+            if (!nameInput || !phoneInput) return;
+            const name = nameInput.value.trim();
+            const phone = phoneInput.value.trim();
 
             if (phone.length !== 10) {
                 alert("சரியான 10 இலக்க மொபைல் எண்ணை உள்ளிடவும்!");
@@ -140,114 +144,147 @@ function initLoginPage() {
         });
     }
 
-    phoneForm.addEventListener('submit', async (e) => {
-        e.preventDefault();
-        const numStr = document.getElementById('phoneNumber').value;
-        const phoneError = document.getElementById('phoneError');
-        phoneError.style.display = 'none';
-        if (numStr.length !== 10) {
-            phoneError.innerText = "சரியான 10 இலக்க மொபைல் எண்ணை உள்ளிடவும்!";
-            phoneError.style.display = 'block';
-            return;
-        }
-        currentPhoneNumber = numStr;
-        document.getElementById('step1').style.display = 'none';
-        document.getElementById('step2').style.display = 'block';
-        window.history.pushState({ loginStep: 2 }, '', '');
-    });
+    // 🔗 2. PHONE FORM LOGIC
+    if (phoneForm) {
+        phoneForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const numStr = document.getElementById('phoneNumber').value;
+            const phoneError = document.getElementById('phoneError');
+            if (phoneError) phoneError.style.display = 'none';
 
-    window.addEventListener('popstate', (e) => {
-        if (e.state && e.state.loginStep === 2) {
-            document.getElementById('step1').style.display = 'none';
-            document.getElementById('step2').style.display = 'block';
-        } else {
-            document.getElementById('step2').style.display = 'none';
-            document.getElementById('step1').style.display = 'block';
-        }
-    });
+            if (numStr.length !== 10) {
+                if (phoneError) {
+                    phoneError.innerText = "சரியான 10 இலக்க மொபைல் எண்ணை உள்ளிடவும்!";
+                    phoneError.style.display = 'block';
+                }
+                return;
+            }
+            currentPhoneNumber = numStr;
+            const step1 = document.getElementById('step1');
+            const step2 = document.getElementById('step2');
+            if (step1) step1.style.display = 'none';
+            if (step2) step2.style.display = 'block';
+            window.history.pushState({ loginStep: 2 }, '', '');
+        });
+    }
 
-    pinForm.addEventListener('submit', async (e) => {
-        e.preventDefault();
-        const pinInput = document.getElementById('pinCode');
-        const enteredPin = pinInput.value.trim();
-        const pinError = document.getElementById('pinError');
-        if (enteredPin.length !== 6) {
-            pinError.style.display = 'block';
-            pinError.innerText = "பாஸ்வேர்டு 6 இலக்கங்களாக இருக்க வேண்டும்!";
-            return;
-        }
-        const loginBtn = document.getElementById('loginBtn');
-        const loginText = document.getElementById('loginBtnText');
-        const loginLoader = document.getElementById('loginLoader');
-        pinError.style.display = 'none';
-        loginBtn.disabled = true;
-        if (loginText) loginText.style.display = 'none';
-        if (loginLoader) loginLoader.style.display = 'block';
-
-        try {
-            const cleanPhone = currentPhoneNumber.toString().replace(/\D/g, '').trim();
-            const correctKey = await generateDeterministicKey(cleanPhone);
-
-            if (enteredPin === correctKey) {
-                const deviceId = await getDeviceId();
-                const lockCheck = await checkDeviceLock(currentPhoneNumber, deviceId, PROJECT_PREFIX);
-                if (!lockCheck.allowed) {
-                    pinError.innerText = lockCheck.message;
+    // 🔗 3. PIN FORM LOGIC
+    if (pinForm) {
+        pinForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const pinInput = document.getElementById('pinCode');
+            const enteredPin = pinInput.value.trim();
+            const pinError = document.getElementById('pinError');
+            if (enteredPin.length !== 6) {
+                if (pinError) {
                     pinError.style.display = 'block';
-                    loginBtn.disabled = false;
-                    loginBtn.innerText = "உள்நுழைய (Login)";
+                    pinError.innerText = "பாஸ்வேர்டு 6 இலக்கங்களாக இருக்க வேண்டும்!";
+                }
+                return;
+            }
+            const loginBtn = document.getElementById('loginBtn');
+            const loginText = document.getElementById('loginBtnText');
+            const loginLoader = document.getElementById('loginLoader');
+            if (pinError) pinError.style.display = 'none';
+            if (loginBtn) loginBtn.disabled = true;
+            if (loginText) loginText.style.display = 'none';
+            if (loginLoader) loginLoader.style.display = 'block';
+
+            try {
+                const cleanPhone = currentPhoneNumber.toString().replace(/\D/g, '').trim();
+                const correctKey = await generateDeterministicKey(cleanPhone);
+
+                if (enteredPin === correctKey) {
+                    const deviceId = await getDeviceId();
+                    const lockCheck = await checkDeviceLock(currentPhoneNumber, deviceId, PROJECT_PREFIX);
+                    if (!lockCheck.allowed) {
+                        if (pinError) {
+                            pinError.innerText = lockCheck.message;
+                            pinError.style.display = 'block';
+                        }
+                        if (loginBtn) {
+                            loginBtn.disabled = false;
+                            loginBtn.innerText = "உள்நுழைய (Login)";
+                        }
+                        if (loginText) loginText.style.display = 'block';
+                        if (loginLoader) loginLoader.style.display = 'none';
+                        return;
+                    }
+
+                    const regResult = await registerDevice(currentPhoneNumber, deviceId, PROJECT_PREFIX);
+                    if (regResult && regResult.blocked) {
+                        if (pinError) {
+                            pinError.innerText = regResult.message;
+                            pinError.style.display = 'block';
+                        }
+                        if (loginBtn) {
+                            loginBtn.disabled = false;
+                            loginBtn.innerText = "உள்நுழைய (Login)";
+                        }
+                        if (loginText) loginText.style.display = 'block';
+                        if (loginLoader) loginLoader.style.display = 'none';
+                        return;
+                    }
+
+                    const userData = {
+                        phoneNumber: currentPhoneNumber,
+                        name: "மாணவர்",
+                        deviceId: deviceId,
+                        loggedInAt: Date.now()
+                    };
+                    localStorage.setItem(STORAGE_KEY, JSON.stringify(userData));
+                    window.location.href = "index.html";
+                } else {
+                    if (pinError) {
+                        pinError.innerText = "தவறான பாஸ்வேர்டு! (Invalid Password)";
+                        pinError.style.display = 'block';
+                    }
+                    if (loginBtn) {
+                        loginBtn.disabled = false;
+                        loginBtn.innerText = "உள்நுழைய (Login)";
+                    }
                     if (loginText) loginText.style.display = 'block';
                     if (loginLoader) loginLoader.style.display = 'none';
-                    return;
                 }
-
-                const regResult = await registerDevice(currentPhoneNumber, deviceId, PROJECT_PREFIX);
-                if (regResult && regResult.blocked) {
-                    pinError.innerText = regResult.message;
+            } catch (error) {
+                if (pinError) {
+                    if (error.message === "SECURE_CONTEXT_REQUIRED") {
+                        pinError.innerText = "பாதுகாப்பு பிழை: HTTPS பயன்படுத்தவும்.";
+                    } else {
+                        pinError.innerText = "பிழை! மீண்டும் முயலவும்.";
+                    }
                     pinError.style.display = 'block';
+                }
+                if (loginBtn) {
                     loginBtn.disabled = false;
                     loginBtn.innerText = "உள்நுழைய (Login)";
-                    if (loginText) loginText.style.display = 'block';
-                    if (loginLoader) loginLoader.style.display = 'none';
-                    return;
                 }
-
-                ['a1_user_session', 'a1_user_session_v2', 'a1_user_session_v3'].forEach(k => localStorage.removeItem(k));
-                const userData = {
-                    phoneNumber: currentPhoneNumber,
-                    name: "மாணவர்",
-                    deviceId: deviceId,
-                    loggedInAt: Date.now()
-                };
-                localStorage.setItem(STORAGE_KEY, JSON.stringify(userData));
-                window.location.href = "index.html";
-            } else {
-                pinError.innerText = "தவறான பாஸ்வேர்டு! (Invalid Password)";
-                pinError.style.display = 'block';
-                loginBtn.disabled = false;
-                loginBtn.innerText = "உள்நுழைய (Login)";
                 if (loginText) loginText.style.display = 'block';
                 if (loginLoader) loginLoader.style.display = 'none';
             }
-        } catch (error) {
-            if (error.message === "SECURE_CONTEXT_REQUIRED") {
-                pinError.innerText = "பாதுகாப்பு பிழை: HTTPS பயன்படுத்தவும்.";
-            } else {
-                pinError.innerText = "பிழை! மீண்டும் முயலவும்.";
-            }
-            pinError.style.display = 'block';
-            loginBtn.disabled = false;
-            loginBtn.innerText = "உள்நுழைய (Login)";
-            if (loginText) loginText.style.display = 'block';
-            if (loginLoader) loginLoader.style.display = 'none';
-        }
-    });
+        });
+    }
 
     const backBtn = document.getElementById('backBtn');
+    const switchToFreeBtn = document.getElementById('switchToFree'); // ✨ New
+
+    if (switchToFreeBtn) {
+        switchToFreeBtn.addEventListener('click', () => {
+            const step1 = document.getElementById('step1');
+            const stepFree = document.getElementById('stepFree');
+            if (step1) step1.style.display = 'none';
+            if (stepFree) stepFree.style.display = 'block';
+        });
+    }
+
     if (backBtn) {
         backBtn.addEventListener('click', () => {
-            document.getElementById('step2').style.display = 'none';
-            document.getElementById('step1').style.display = 'block';
+            const step1 = document.getElementById('step1');
+            const step2 = document.getElementById('step2');
+            const stepFree = document.getElementById('stepFree');
+            if (step2) step2.style.display = 'none';
+            if (stepFree) stepFree.style.display = 'none'; // Hide free step too on back
+            if (step1) step1.style.display = 'block';
         });
     }
 }
