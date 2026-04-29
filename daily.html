@@ -3,300 +3,240 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>A1 Premium Dashboard</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <title>A1 One-Page Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
     <style>
         :root {
             --primary: #1e3a8a;
             --primary-soft: #eff6ff;
             --accent: #f43f5e;
-            --success: #10b981;
             --bg: #f8fafc;
-            --card-bg: #ffffff;
             --text-main: #0f172a;
             --text-muted: #64748b;
-            --border: #f1f5f9;
         }
 
-        * { 
-            box-sizing: border-box; 
-            -webkit-tap-highlight-color: transparent; 
-            font-family: 'Outfit', sans-serif;
-        }
+        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
         body {
             background: var(--bg);
             margin: 0;
             color: var(--text-main);
+            font-family: 'Outfit', sans-serif;
             height: 100vh;
             display: flex;
             flex-direction: column;
-            overflow: hidden;
+            overflow: hidden; /* No scrolling for the whole page */
         }
 
-        /* Premium App Header */
+        /* Compact Header */
         header {
             background: white;
-            padding: 0.75rem 1.2rem;
-            border-bottom: 1px solid var(--border);
+            padding: 0.5rem 1rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            z-index: 100;
+            border-bottom: 1px solid #f1f5f9;
+        }
+        .logo-box h1 { font-size: 0.9rem; margin: 0; font-weight: 900; color: var(--primary); }
+        .logo-box span { font-size: 0.55rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; }
+
+        /* Greet area */
+        .top-info {
+            padding: 0.6rem 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .greet-text h2 { font-size: 1rem; margin: 0; font-weight: 900; }
+        .greet-text p { font-size: 0.65rem; margin: 0; color: var(--text-muted); font-weight: 600; }
+
+        .status-chip {
+            background: #dcfce7;
+            color: #166534;
+            padding: 0.2rem 0.6rem;
+            border-radius: 1rem;
+            font-size: 0.6rem;
+            font-weight: 800;
         }
 
-        .brand-box { display: flex; flex-direction: column; }
-        .brand-box h1 { font-size: 1rem; margin: 0; font-weight: 800; color: var(--primary); letter-spacing: -0.5px; }
-        .brand-box span { font-size: 0.65rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; }
-
-        .user-profile {
-            background: var(--primary-soft);
-            width: 36px; height: 36px;
-            border-radius: 50%;
-            display: flex; align-items: center; justify-content: center;
-            font-weight: 800; color: var(--primary); font-size: 0.9rem;
+        /* Subject Summary Row */
+        .summary-bar {
+            display: flex;
+            gap: 0.5rem;
+            padding: 0 1rem 0.6rem;
         }
+        .summary-item {
+            flex: 1;
+            background: white;
+            padding: 0.4rem 0.6rem;
+            border-radius: 0.75rem;
+            border: 1px solid #f1f5f9;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+        .summary-item .label { font-size: 0.55rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; }
+        .summary-item .value { font-size: 0.75rem; font-weight: 800; color: var(--primary); display: block; }
 
-        /* Content Container */
-        .app-content {
+        /* Scrollable Lesson List (ONLY this part scrolls if content overflows) */
+        .lesson-list {
             flex: 1;
             overflow-y: auto;
-            padding: 1rem;
+            padding: 0 0.75rem 0.75rem;
             scrollbar-width: none;
         }
-        .app-content::-webkit-scrollbar { display: none; }
+        .lesson-list::-webkit-scrollbar { display: none; }
 
-        /* Greet Section */
-        .greet-card {
-            margin-bottom: 1.25rem;
-        }
-        .greet-card h2 { font-size: 1.3rem; margin: 0; font-weight: 900; color: var(--text-main); }
-        .greet-card p { margin: 0.2rem 0 0; font-size: 0.8rem; color: var(--text-muted); font-weight: 600; }
-
-        /* Special Highlight */
-        .special-chip {
-            background: linear-gradient(135deg, #f43f5e, #fb7185);
-            color: white;
-            padding: 0.4rem 0.8rem;
+        .lesson-tile {
+            background: white;
             border-radius: 0.75rem;
-            font-size: 0.75rem;
-            font-weight: 800;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.4rem;
-            margin-bottom: 1rem;
-            box-shadow: 0 4px 10px rgba(244, 63, 94, 0.2);
-        }
-
-        /* Status Row */
-        .status-row {
+            padding: 0.6rem;
+            margin-bottom: 0.4rem;
+            border: 1px solid #f1f5f9;
             display: flex;
+            align-items: center;
             gap: 0.6rem;
-            margin-bottom: 1.25rem;
-        }
-        .status-item {
-            flex: 1;
-            background: white;
-            padding: 0.6rem 0.8rem;
-            border-radius: 1rem;
-            border: 1px solid var(--border);
-            display: flex;
-            flex-direction: column;
-        }
-        .status-item .label { font-size: 0.6rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-bottom: 0.2rem; }
-        .status-item .value { font-size: 0.9rem; font-weight: 800; color: var(--primary); }
-        .status-item.highlight .value { color: #b45309; }
-
-        /* Lesson Grid */
-        .section-label {
-            font-size: 0.75rem;
-            font-weight: 800;
-            color: var(--text-muted);
-            margin-bottom: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            display: block;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.01);
         }
 
-        .lesson-card {
-            background: white;
-            border-radius: 1.25rem;
-            padding: 1rem;
-            margin-bottom: 0.75rem;
-            border: 1px solid var(--border);
-            box-shadow: 0 2px 8px rgba(0,0,0,0.02);
-            transition: transform 0.2s;
-        }
-        .lesson-card:active { transform: scale(0.98); }
-
-        .lesson-header {
-            display: flex;
-            align-items: center;
-            gap: 0.8rem;
-            margin-bottom: 1rem;
-        }
-        .lesson-icon-box {
-            width: 32px; height: 32px;
+        .l-idx {
+            width: 20px; height: 20px;
             background: var(--primary-soft);
-            border-radius: 0.75rem;
+            color: var(--primary);
+            border-radius: 0.3rem;
             display: flex; align-items: center; justify-content: center;
-            font-weight: 800; color: var(--primary); font-size: 0.8rem;
-        }
-        .lesson-title { font-weight: 800; font-size: 0.95rem; color: var(--text-main); line-height: 1.3; }
-
-        .lesson-actions {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 0.6rem;
+            font-size: 0.65rem; font-weight: 800;
         }
 
-        .action-btn {
-            padding: 0.7rem;
-            border-radius: 0.75rem;
+        .l-title { font-size: 0.75rem; font-weight: 700; flex: 1; line-height: 1.2; }
+
+        .l-actions { display: flex; gap: 0.4rem; }
+
+        .btn-sm {
+            padding: 0.4rem 0.6rem;
+            border-radius: 0.5rem;
             text-decoration: none;
+            font-size: 0.6rem;
             font-weight: 800;
-            font-size: 0.75rem;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 0.4rem;
+            display: flex; align-items: center; gap: 0.2rem;
             transition: 0.2s;
         }
+        .btn-n { background: #f1f5f9; color: #475569; }
+        .btn-e { background: var(--primary); color: white; }
+        .btn-l { background: #fafafa; color: #cbd5e1; border: 1px dashed #e2e8f0; }
 
-        .btn-notes { background: #f1f5f9; color: #475569; }
-        .btn-exam { background: var(--primary); color: white; }
-        .btn-locked { background: #fafafa; color: #cbd5e1; border: 1px dashed #e2e8f0; cursor: not-allowed; }
+        .btn-sm:active { transform: scale(0.95); }
+
+        /* Timer Section */
+        .footer-timer {
+            background: #fffbeb;
+            padding: 0.5rem 1rem;
+            border-top: 1px solid #fef3c7;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .timer-label { font-size: 0.6rem; font-weight: 800; color: #b45309; text-transform: uppercase; }
+        #timerValue { font-size: 0.85rem; font-weight: 900; color: #d97706; }
 
         /* Loader */
-        .loader-box { height: 60vh; display: flex; flex-direction: column; align-items: center; justify-content: center; }
-        .spinner { width: 30px; height: 30px; border: 3px solid #f1f5f9; border-top-color: var(--primary); border-radius: 50%; animation: spin 1s linear infinite; }
+        .loader { height: 100%; display: flex; align-items: center; justify-content: center; }
+        .spin { width: 24px; height: 24px; border: 3px solid #f1f5f9; border-top-color: var(--primary); border-radius: 50%; animation: spin 1s linear infinite; }
         @keyframes spin { to { transform: rotate(360deg); } }
-
-        /* Closed State */
-        .closed-box { text-align: center; padding: 3rem 1rem; background: white; border-radius: 1.5rem; }
     </style>
 </head>
 <body>
     <header>
-        <div class="brand-box">
+        <div class="logo-box">
             <h1>A1 TAMIL</h1>
             <span>Primary Edition</span>
         </div>
-        <div class="user-profile" id="userInitial">A1</div>
+        <div class="status-chip">LIVE</div>
     </header>
 
-    <div class="app-content" id="appBody">
-        <div class="loader-box">
-            <div class="spinner"></div>
-            <p style="font-size: 0.8rem; font-weight: 700; color: var(--text-muted); margin-top: 1rem;">Loading dashboard...</p>
+    <div class="top-info">
+        <div class="greet-text">
+            <h2 id="greetUser">வணக்கம்!</h2>
+            <p>இன்றைய பாடங்கள் தயார்</p>
+        </div>
+        <div style="background: var(--accent); color: white; font-size: 0.55rem; font-weight: 900; padding: 0.2rem 0.5rem; border-radius: 0.5rem;">SPECIAL EXAM 🔥</div>
+    </div>
+
+    <div class="summary-bar" id="summaryBar">
+        <div class="summary-item">
+            <span class="label">பாடம்</span>
+            <span class="value" id="subVal">---</span>
+        </div>
+        <div class="summary-item">
+            <span class="label">வகுப்பு</span>
+            <span class="value" id="gradeVal">---</span>
         </div>
     </div>
 
+    <div class="lesson-list" id="lessonContainer">
+        <div class="loader"><div class="spin"></div></div>
+    </div>
+
+    <div class="footer-timer">
+        <span class="timer-label">அமர்வு முடிவடைய:</span>
+        <span id="timerValue">--:--:--</span>
+    </div>
+
     <script type="module">
-        import { waitForAuth } from './js/auth.js?v=5.0';
+        import { waitForAuth } from './js/auth.js?v=6.0';
 
         (async () => {
-            const body = document.getElementById('appBody');
+            const container = document.getElementById('lessonContainer');
             const user = await waitForAuth();
-            if (user) {
-                const initial = user.name ? user.name.charAt(0).toUpperCase() : 'S';
-                document.getElementById('userInitial').innerText = initial;
-            }
+            if (user) document.getElementById('greetUser').innerText = `வணக்கம், ${user.name || "மாணவர்"}!`;
 
-            const v = Date.now();
             try {
-                const res = await fetch('1.json?v=' + v);
+                const res = await fetch('1.json?v=' + Date.now());
                 const data = await res.json();
                 
-                const now = new Date();
-                const currentMins = now.getHours() * 60 + now.getMinutes();
-                const isClosed = currentMins >= 1350 || currentMins < 360;
+                document.getElementById('subVal').innerText = data.activeSubject || 'TAMIL';
+                document.getElementById('gradeVal').innerText = data.activeGrade || '5';
 
-                if (isClosed || data.status === 'closed') {
-                    renderClosed();
-                } else {
-                    renderDashboard(data, user);
-                }
-            } catch (err) {
-                body.innerHTML = `<div class="closed-box"><h3>Error loading data</h3><p>Please refresh.</p></div>`;
+                renderLessons(data);
+                startTimer();
+            } catch (e) {
+                container.innerHTML = `<p style="text-align:center; font-size:0.7rem;">Error loading data.</p>`;
             }
         })();
 
-        function renderDashboard(data, user) {
-            const body = document.getElementById('appBody');
+        function renderLessons(data) {
+            const container = document.getElementById('lessonContainer');
             const titles = data.activeTitles || [];
-            const subject = data.activeSubject || 'General';
+            const subject = data.activeSubject || 'Tamil';
             const grade = data.activeGrade || '5';
             
             const isExamOpen = data.status === 'open';
             const isNotesOpen = data.status === 'notes' || data.status === 'open';
 
-            let html = `
-                <div class="greet-card">
-                    <h2>வணக்கம், ${user ? (user.name || "மாணவர்") : "மாணவர்"}!</h2>
-                    <p>இன்று உங்களுக்காகக் காத்திருக்கும் பாடங்கள்</p>
-                </div>
-
-                <div class="special-chip">✨ இன்றைய சிறப்புத் தேர்வு (Live)</div>
-
-                <div class="status-row">
-                    <div class="status-item">
-                        <span class="label">பாடம்</span>
-                        <span class="value">${subject}</span>
-                    </div>
-                    <div class="status-item highlight">
-                        <span class="label">முடிவடைய</span>
-                        <span id="timerValue" class="value">--:--:--</span>
-                    </div>
-                </div>
-
-                <span class="section-label">வகுப்பு: ${grade} - பாடப்பிரிவுகள்</span>
-                <div class="lessons-container">
-            `;
-
+            let html = '';
             titles.forEach((title, idx) => {
                 const fileId = data.activeFiles[idx] || '1';
                 const cGrade = (data.activeGrades && data.activeGrades[idx]) ? data.activeGrades[idx] : grade;
                 
                 html += `
-                    <div class="lesson-card">
-                        <div class="lesson-header">
-                            <div class="lesson-icon-box">${idx + 1}</div>
-                            <div class="lesson-title">${title}</div>
-                        </div>
-                        <div class="lesson-actions">
-                            ${isNotesOpen ? `
-                                <a href="material.html?subject=${subject}&class=${cGrade}&lesson=${fileId}" class="action-btn btn-notes">📖 குறிப்புகள்</a>
-                            ` : `<div class="action-btn btn-locked">🔒 Notes</div>`}
-
-                            ${isExamOpen ? `
-                                <a href="quiz.html?subject=${subject}&class=${cGrade}&lesson=${fileId}" class="action-btn btn-exam">📝 தேர்வு</a>
-                            ` : `<div class="action-btn btn-locked">🔒 Exam at 8PM</div>`}
+                    <div class="lesson-tile">
+                        <div class="l-idx">${idx + 1}</div>
+                        <div class="l-title">${title}</div>
+                        <div class="l-actions">
+                            ${isNotesOpen ? 
+                                `<a href="material.html?subject=${subject}&class=${cGrade}&lesson=${fileId}" class="btn-sm btn-n">📖 Notes</a>` : 
+                                `<div class="btn-sm btn-l">🔒</div>`}
+                            
+                            ${isExamOpen ? 
+                                `<a href="quiz.html?subject=${subject}&class=${cGrade}&lesson=${fileId}" class="btn-sm btn-e">📝 Exam</a>` : 
+                                `<div class="btn-sm btn-l">🔒</div>`}
                         </div>
                     </div>
                 `;
             });
-
-            html += `</div>`;
-            body.innerHTML = html;
-            startTimer();
-        }
-
-        function renderClosed() {
-            const body = document.getElementById('appBody');
-            body.innerHTML = `
-                <div class="closed-box">
-                    <div style="font-size: 3rem; margin-bottom: 1rem;">🌙</div>
-                    <h2 style="font-weight: 900;">அமர்வு முடிந்தது</h2>
-                    <p style="color: var(--text-muted); font-size: 0.9rem; font-weight: 600;">மீண்டும் நாளை காலை 6:00 மணிக்குச் சந்திக்கலாம்!</p>
-                </div>
-            `;
+            container.innerHTML = html;
         }
 
         function startTimer() {
             const el = document.getElementById('timerValue');
-            if (!el) return;
             const update = () => {
                 const now = new Date();
                 const target = new Date();
