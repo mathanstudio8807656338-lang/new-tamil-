@@ -122,13 +122,18 @@ function initLoginPage() {
                     };
                     localStorage.setItem(STORAGE_KEY, JSON.stringify(userData));
 
-                    // 3. Join WhatsApp Group
+                    // 3. Save and provide clear next steps
                     const groupLink = `https://chat.whatsapp.com/KDL9niBSU6t0Nx1wlBtpJy`;
                     
-                    alert("விவரங்கள் சேமிக்கப்பட்டன! எங்களது அதிகாரப்பூர்வ வாட்ஸ்அப் குழுவில் இணைந்து புதிய பாடங்களைப் பெற்றிடுங்கள்.");
-                    window.open(groupLink, '_blank');
+                    // Show a more professional success message
+                    const confirmJoin = confirm("பதிவு முடிந்தது! எங்களது அதிகாரப்பூர்வ வாட்ஸ்அப் குழுவில் இணைந்து புதிய பாடங்களைப் பெற்றிடுங்கள். (Join our group for updates?)");
                     
-                    setTimeout(() => { window.location.href = "index.html"; }, 1500);
+                    if (confirmJoin) {
+                        window.open(groupLink, '_blank');
+                    }
+                    
+                    // Always redirect to application page
+                    window.location.href = "index.html";
                 } else {
                     alert("பிழை! மீண்டும் முயலவும்.");
                     btn.disabled = false;
