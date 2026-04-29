@@ -31,47 +31,37 @@
         /* Navbar */
         nav {
             background: white;
-            padding: 0.4rem 0.75rem;
+            padding: 0.5rem 1rem;
             display: flex;
             align-items: center;
-            gap: 0.75rem;
+            justify-content: space-between;
             border-bottom: 1px solid #f1f5f9;
         }
-        .back-link {
-            color: var(--text-main);
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 28px; height: 28px;
-            background: #f1f5f9;
-            border-radius: 50%;
-        }
-        .logo-box h1 { font-size: 0.9rem; margin: 0; font-weight: 900; color: var(--primary); line-height: 1; }
-        .logo-box span { font-size: 0.5rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; }
+        .logo-box h1 { font-size: 0.95rem; margin: 0; font-weight: 900; color: var(--primary); }
+        .status-badge { background: #dcfce7; color: #166534; padding: 0.2rem 0.5rem; border-radius: 1rem; font-size: 0.6rem; font-weight: 800; }
 
         /* Ticker */
         .ticker {
             background: #1e293b;
             color: white;
-            padding: 0.35rem 0.5rem;
+            padding: 0.4rem 0.5rem;
             font-size: 0.65rem;
             font-weight: 700;
             white-space: nowrap;
             overflow: hidden;
         }
-        .ticker-inner { display: inline-block; animation: scroll 20s linear infinite; }
+        .ticker-inner { display: inline-block; animation: scroll 25s linear infinite; }
         @keyframes scroll { from { transform: translateX(100%); } to { transform: translateX(-100%); } }
 
         /* Greet Row */
         .greet-row {
-            padding: 0.6rem 0.75rem;
+            padding: 0.6rem 1rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-        .greet-row h2 { font-size: 0.95rem; margin: 0; font-weight: 900; }
-        .greet-row p { font-size: 0.65rem; margin: 0; color: var(--text-muted); font-weight: 700; }
+        .greet-row h2 { font-size: 1rem; margin: 0; font-weight: 900; }
+        .challenge-badge { background: var(--accent); color: white; font-size: 0.55rem; font-weight: 900; padding: 0.25rem 0.5rem; border-radius: 0.4rem; }
 
         /* Lesson List */
         .lesson-list {
@@ -84,7 +74,7 @@
 
         .lesson-tile {
             background: white;
-            border-radius: 0.8rem;
+            border-radius: 1rem;
             padding: 0.8rem;
             margin-bottom: 0.6rem;
             border: 1px solid #f1f5f9;
@@ -95,58 +85,51 @@
             border-left: 5px solid var(--primary);
         }
         .l-top { display: flex; align-items: center; gap: 0.6rem; }
-        .l-idx {
-            width: 24px; height: 24px;
-            background: var(--primary-soft);
-            color: var(--primary);
-            border-radius: 0.4rem;
-            display: flex; align-items: center; justify-content: center;
-            font-size: 0.8rem; font-weight: 900;
-        }
+        .l-idx { width: 24px; height: 24px; background: var(--primary-soft); color: var(--primary); border-radius: 0.4rem; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 900; }
         .l-title { font-size: 0.9rem; font-weight: 800; color: var(--text-main); flex: 1; line-height: 1.3; }
         .l-actions { display: flex; gap: 0.5rem; }
 
         .btn-sm {
             flex: 1;
-            padding: 0.7rem 0.5rem;
+            padding: 0.75rem 0.5rem;
             border-radius: 0.6rem;
             text-decoration: none;
             font-size: 0.8rem;
             font-weight: 900;
             display: flex; align-items: center; justify-content: center; gap: 0.3rem;
+            text-align: center;
         }
         .btn-n { background: #f1f5f9; color: #475569; border: 1.5px solid #e2e8f0; }
         .btn-e { background: var(--primary); color: white; }
-        .btn-l { background: #fafafa; color: #94a3b8; border: 1.5px dashed #e2e8f0; font-size: 0.55rem; }
+        .btn-l { background: #fafafa; color: #94a3b8; border: 1.5px dashed #e2e8f0; font-size: 0.5rem; line-height: 1.2; }
 
-        /* Paid Button */
-        .paid-btn {
-            background: #fff1f2;
-            color: #9f1239;
-            padding: 0.75rem;
-            border-radius: 0.75rem;
+        /* Bottom Fixed Bar */
+        .bottom-nav {
+            background: white;
+            padding: 0.6rem 0.75rem;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.5rem;
+            border-top: 1.5px solid #f1f5f9;
+        }
+        .nav-btn {
+            padding: 0.6rem 0.2rem;
+            border-radius: 0.6rem;
             text-decoration: none;
-            font-size: 0.85rem;
+            font-size: 0.65rem;
             font-weight: 900;
             display: flex;
+            flex-direction: column;
             align-items: center;
-            justify-content: center;
-            gap: 0.5rem;
-            border: 1.5px solid #fecaca;
-            margin-top: 0.5rem;
+            gap: 0.2rem;
+            text-align: center;
+            border: 1.5px solid #f1f5f9;
+            color: var(--text-main);
         }
-
-        /* Footer */
-        .footer-bar {
-            background: #fffbeb;
-            padding: 0.6rem 0.75rem;
-            border-top: 1px solid #fef3c7;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .timer-label { font-size: 0.7rem; font-weight: 800; color: #b45309; }
-        #timerValue { font-size: 0.9rem; font-weight: 900; color: #d97706; }
+        .nav-btn.call { background: #eff6ff; color: #1e40af; border-color: #dbeafe; }
+        .nav-btn.home { background: #f8fafc; color: var(--text-main); border-color: #e2e8f0; }
+        .nav-btn.wa { background: #dcfce7; color: #166534; border-color: #bbf7d0; }
+        .nav-icon { font-size: 1rem; }
 
         .loader { height: 100%; display: flex; align-items: center; justify-content: center; }
         .spin { width: 24px; height: 24px; border: 3px solid #f1f5f9; border-top-color: var(--primary); border-radius: 50%; animation: spin 1s linear infinite; }
@@ -155,46 +138,46 @@
 </head>
 <body>
     <nav>
-        <a href="index.html" class="back-link">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
-        </a>
         <div class="logo-box">
-            <h1>A1 TAMIL</h1>
-            <span>Primary Edition</span>
+            <h1>A1 COACHING CENTRE</h1>
         </div>
+        <div class="status-badge">LIVE</div>
     </nav>
 
     <div class="ticker">
         <div class="ticker-inner">
-            பாடங்கள் இன்று இரவு 10:30 மணி வரை காட்சிப்படுத்தப்படும். தேர்வு 8 மணி முதல் 10:30 மணி வரை நடைபெறும்.
+            தேர்வு இரவு 8:00 மணி முதல் 10:30 மணி வரை நடைபெறும். பெய்டு குரூப்பில் இணைந்து ஜூலை மாதம் சிறப்பு ஆசிரியர் தகுதித் தேர்வு நடைபெறும் வரை தேர்வை எழுதிக் கொள்ளலாம்.
         </div>
     </div>
 
     <div class="greet-row">
         <div>
             <h2 id="greetUser">வணக்கம்!</h2>
-            <p>இன்றைய பாடங்கள்</p>
         </div>
-        <div style="background: var(--accent); color: white; font-size: 0.55rem; font-weight: 900; padding: 0.25rem 0.5rem; border-radius: 0.4rem;">DAILY CHALLENGE 🔥</div>
+        <div class="challenge-badge">DAILY CHALLENGE 🔥</div>
     </div>
 
-    <div class="lesson-list">
-        <div id="lessonContainer">
-            <div class="loader"><div class="spin"></div></div>
-        </div>
-        
-        <a href="https://wa.me/916369371452?text=Paid Group-ல் இணைய விரும்புகிறேன்" target="_blank" class="paid-btn">
-            💎 PAID GROUP-ல் இணைய (BUY NOW)
+    <div class="lesson-list" id="lessonContainer">
+        <div class="loader"><div class="spin"></div></div>
+    </div>
+
+    <div class="bottom-nav">
+        <a href="tel:6369371452" class="nav-btn call">
+            <span class="nav-icon">📞</span>
+            <span>தொடர்புக்கு</span>
+        </a>
+        <a href="index.html" class="nav-btn home">
+            <span class="nav-icon">🏠</span>
+            <span>முகப்புப் பக்கம்</span>
+        </a>
+        <a href="https://chat.whatsapp.com/KDL9niBSU6t0Nx1wlBtpJy" target="_blank" class="nav-btn wa">
+            <span class="nav-icon">📱</span>
+            <span>வாட்ஸ்அப்</span>
         </a>
     </div>
 
-    <div class="footer-bar">
-        <span class="timer-label">கால அவகாசம்:</span>
-        <span id="timerValue">--:--:--</span>
-    </div>
-
     <script type="module">
-        import { waitForAuth } from './js/auth.js?v=13.0';
+        import { waitForAuth } from './js/auth.js?v=14.0';
 
         (async () => {
             const container = document.getElementById('lessonContainer');
@@ -205,7 +188,6 @@
                 const res = await fetch('1.json?v=' + Date.now());
                 const data = await res.json();
                 renderLessons(data);
-                startTimer();
             } catch (e) {
                 container.innerHTML = `<p style="text-align:center; font-size:0.8rem; padding:1rem;">Error loading data.</p>`;
             }
@@ -237,29 +219,12 @@
                             
                             ${isExamOpen ? 
                                 `<a href="quiz.html?subject=${subject}&class=${cGrade}&lesson=${fileId}" class="btn-sm btn-e">📝 தேர்வு (Exam)</a>` : 
-                                `<div class="btn-sm btn-l">🔒 இன்று இரவு 8 மணிக்குத் திறக்கப்படும்</div>`}
+                                `<div class="btn-sm btn-l">🔒 இன்று இரவு 8:00 முதல் 10:30 வரை நடைபெறும்</div>`}
                         </div>
                     </div>
                 `;
             });
             container.innerHTML = html;
-        }
-
-        function startTimer() {
-            const el = document.getElementById('timerValue');
-            const update = () => {
-                const now = new Date();
-                const target = new Date();
-                target.setHours(22, 30, 0, 0);
-                const diff = target - now;
-                if (diff <= 0) { el.innerText = "CLOSED"; return; }
-                const h = Math.floor(diff / 3600000).toString().padStart(2, '0');
-                const m = Math.floor((diff % 3600000) / 60000).toString().padStart(2, '0');
-                const s = Math.floor((diff % 60000) / 1000).toString().padStart(2, '0');
-                el.innerText = `${h}:${m}:${s}`;
-            };
-            update();
-            setInterval(update, 1000);
         }
     </script>
 </body>
