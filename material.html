@@ -2,262 +2,310 @@
 <html lang="ta">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>A1 Material View</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&family=Noto+Sans+Tamil:wght@400;700;900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1 Coaching Center</title>
     <script src="js/auth.js" type="module"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <!-- MathJax loaded conditionally via JS -->
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;700;800&family=Outfit:wght@300;400;600;800&display=swap');
+        
         :root {
-            --primary: #1e3a8a;
-            --primary-soft: #eff6ff;
-            --accent: #f43f5e;
-            --bg: #f8fafc;
-            --text-main: #0f172a;
-            --text-muted: #64748b;
+            --primary: #1e3a8a; 
+            --secondary: #10b981; 
+            --bg: #f0f9ff;
             --card-bg: #ffffff;
+            --text-main: #0f172a;
         }
-
-        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
         body {
-            background: var(--bg);
-            margin: 0;
-            color: var(--text-main);
             font-family: 'Outfit', 'Noto Sans Tamil', sans-serif;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        /* Compact Top Nav */
-        nav {
-            background: white;
-            padding: 0.5rem 1rem;
-            display: flex;
-            align-items: center;
-            border-bottom: 1px solid #f1f5f9;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-        .back-link { 
-            color: var(--text-main); 
-            margin-right: 0.75rem; 
-            display: flex; 
-            align-items: center; 
-            text-decoration: none;
-        }
-        .nav-logo h1 { font-size: 0.85rem; margin: 0; font-weight: 900; color: var(--primary); }
-        .nav-logo span { font-size: 0.5rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; }
-
-        /* Lesson Header */
-        .lesson-header {
-            background: white;
-            padding: 0.75rem 1rem;
-            border-bottom: 1px solid #f1f5f9;
-        }
-        #lessonTitle { 
-            font-size: 0.95rem; 
-            font-weight: 900; 
-            color: var(--primary); 
+            background-color: var(--bg);
+            color: var(--text-main);
             margin: 0;
-            line-height: 1.3;
+            padding: 0;
+            min-height: 100vh;
+            transition: background-color 0.4s ease;
         }
-        .header-meta {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 0.4rem;
-        }
-        .contact-info { font-size: 0.6rem; font-weight: 700; color: var(--text-muted); }
 
-        /* Content Area */
-        .content-container {
-            flex: 1;
-            padding: 0.75rem;
-            max-width: 800px;
-            margin: 0 auto;
-            width: 100%;
+        .header-bar {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: background 0.5s ease;
         }
+
+        .header-bar h1 { margin: 0; font-size: 1.8rem; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; }
+        .header-bar p { margin: 0.5rem 0 0; opacity: 1; font-weight: 700; font-size: 1.2rem; }
+
+        .container { max-width: 800px; margin: -2rem auto 4rem; padding: 0 1rem; position: relative; z-index: 10; }
 
         .material-card {
-            background: white;
-            border-radius: 1rem;
-            padding: 1rem;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-            border: 1px solid #f1f5f9;
+            background: var(--card-bg);
+            border-radius: 1.5rem;
+            padding: 2.5rem;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.06);
+            border: 1px solid rgba(0,0,0,0.05);
+            animation: slideUp 0.5s ease-out;
         }
+
+        @keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+        .watermark {
+            position: fixed;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-35deg);
+            font-size: 40pt;
+            font-weight: 900;
+            color: rgba(0,0,0,0.06);
+            white-space: nowrap;
+            user-select: none;
+            pointer-events: none;
+            z-index: -100;
+        }
+        .watermark-lower { top: 70%; }
 
         .section-header {
             color: var(--primary);
-            font-size: 0.9rem;
-            font-weight: 900;
-            border-bottom: 2px solid var(--primary-soft);
-            padding-bottom: 0.3rem;
-            margin: 1.2rem 0 0.6rem;
+            font-size: 1.4rem;
+            font-weight: 800;
+            border-bottom: 3px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+            margin: 2.5rem 0 1rem;
+            transition: color 0.4s ease;
         }
 
         .section-body { 
-            font-size: 0.85rem; 
-            line-height: 1.6; 
-            color: #334155; 
-            margin-bottom: 1rem;
-            white-space: pre-wrap;
+            font-size: 1.3rem; 
+            line-height: 1.8; 
+            color: #334155; /* Slate 700 for better readability */
+            text-align: justify; 
+            margin-bottom: 2rem;
+            white-space: pre-wrap; /* Carry all formatting from raw text */
         }
-
+        .section-body strong { 
+            color: var(--primary); 
+            font-weight: 900; 
+            display: inline-block; 
+            margin-bottom: 0.2rem;
+            font-size: 1.35rem;
+            border-bottom: 2px solid rgba(0,0,0,0.05);
+        }
+        .keyword { color: #e91e63; font-weight: 800; font-style: italic; }
+        .sub-heading { color: #1b5e20; font-weight: 800; font-size: 1.15rem; margin-top: 1rem; margin-bottom: 0.4rem; display: block; border-bottom: 1px dotted #1b5e20; width: fit-content; }
+        
+        .box-blue { border-left: 6px solid #1e3a8a; background: #eff6ff; }
+        .box-green { border-left: 6px solid #166534; background: #f0fdf4; }
+        .box-pink { border-left: 6px solid #be123c; background: #fff1f2; }
+        .box-orange { border-left: 6px solid #ea580c; background: #fff7ed; }
+        
         .info-box {
-            background: var(--primary-soft);
-            border-left: 4px solid var(--primary);
-            padding: 0.75rem;
-            border-radius: 0.5rem;
-            margin: 0.75rem 0;
-            font-size: 0.85rem;
-            font-weight: 600;
+            background: #f0fdf4;
+            border-left: 5px solid var(--secondary);
+            padding: 1.5rem;
+            border-radius: 1rem;
+            margin: 1.5rem 0;
+            transition: border-left-color 0.4s ease;
         }
 
         .qa-item {
-            background: #f8fafc;
-            padding: 0.75rem;
-            border-radius: 0.75rem;
-            margin-bottom: 0.6rem;
-            border: 1px solid #f1f5f9;
-        }
-        .qa-q { font-weight: 800; color: var(--primary); margin-bottom: 0.3rem; font-size: 0.85rem; }
-        .qa-a { font-weight: 700; color: #1e293b; font-size: 0.85rem; }
-
-        /* Premium QA Style (for Mock Tests) */
-        .premium-qa-card {
-            background: white;
-            border-radius: 0.75rem;
-            padding: 0.85rem;
-            margin-bottom: 0.75rem;
-            border: 1px solid #f1f5f9;
-        }
-        .premium-q-text { font-size: 0.9rem; font-weight: 800; color: var(--primary); margin-bottom: 0.6rem; }
-        .premium-options-grid { display: grid; gap: 0.4rem; margin-bottom: 0.6rem; }
-        .premium-option {
-            background: #f8fafc;
-            border: 1px solid #e2e8f0;
-            padding: 0.5rem 0.75rem;
-            border-radius: 0.5rem;
-            font-size: 0.8rem;
-            display: flex; align-items: flex-start;
-        }
-        .premium-opt-letter { font-weight: 900; color: #0ea5e9; margin-right: 0.5rem; }
-        .premium-answer-box {
-            background: #f0fdf4;
-            border-left: 3px solid #10b981;
-            padding: 0.5rem 0.75rem;
-            border-radius: 0.4rem;
-            margin-bottom: 0.4rem;
-            font-weight: 800; color: #065f46; font-size: 0.8rem;
-        }
-        .premium-expl-box {
-            background: #fff1f2;
-            border-left: 3px solid #f43f5e;
-            padding: 0.5rem 0.75rem;
-            border-radius: 0.4rem;
-            color: #9f1239; font-size: 0.8rem;
-        }
-
-        /* Language Toggle */
-        .lang-bar {
-            display: none;
             background: #f1f5f9;
-            padding: 0.2rem;
-            border-radius: 2rem;
-            gap: 0.2rem;
+            padding: 1.2rem;
+            border-radius: 1rem;
+            margin-bottom: 1rem;
+            border: 1px solid #e2e8f0;
         }
-        .lang-btn {
-            padding: 0.25rem 0.75rem;
-            border-radius: 1.5rem;
-            border: none;
-            font-size: 0.65rem;
-            font-weight: 800;
-            cursor: pointer;
-            background: transparent;
-            color: var(--text-muted);
-        }
-        .lang-btn.active { background: white; color: var(--primary); box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
 
-        /* Floating Actions */
-        .fab-container {
-            position: fixed;
-            bottom: 1.5rem;
-            right: 1.5rem;
-            display: flex;
-            flex-direction: column;
-            gap: 0.75rem;
-            z-index: 1000;
-        }
-        .fab {
-            width: 45px; height: 45px;
-            background: white;
-            border-radius: 50%;
+        .qa-q { font-weight: 700; color: var(--primary); margin-bottom: 0.5rem; transition: color 0.4s ease; }
+
+        .sticky-back { position: fixed; bottom: 2rem; left: 1.5rem; z-index: 100; display: flex; flex-direction: column; gap: 10px; }
+        .back-btn {
+            width: 50px; height: 50px; background: white; border-radius: 50%;
             display: flex; align-items: center; justify-content: center;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-            border: 1px solid #f1f5f9;
-            cursor: pointer;
-            transition: 0.2s;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1); text-decoration: none;
+            color: var(--text-main); transition: 0.3s;
         }
-        .fab:active { transform: scale(0.9); }
-        .fab-print { background: var(--primary); color: white; }
+        .back-btn:hover { transform: scale(1.1); color: var(--primary); }
+        .print-btn { background: var(--primary); color: white; border: none; cursor: pointer; transition: background 0.4s ease; }
+        .print-btn:hover { color: white; filter: brightness(1.2); }
 
-        /* Loading */
-        #loading {
-            position: fixed; inset: 0; background: var(--bg);
-            display: flex; flex-direction: column; align-items: center; justify-content: center;
-            z-index: 2000;
+        .loading-screen {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: var(--bg); display: flex; flex-direction: column;
+            align-items: center; justify-content: center; z-index: 1000;
         }
-        .spinner { width: 30px; height: 30px; border: 3px solid #f1f5f9; border-top-color: var(--primary); border-radius: 50%; animation: spin 1s linear infinite; }
+
+        .spinner {
+            width: 50px; height: 50px; border: 5px solid #e2e8f0;
+            border-top-color: var(--primary); border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        .en-text { font-weight: bold; }
+        .tm-text { font-weight: normal; }
+
         @keyframes spin { to { transform: rotate(360deg); } }
 
-        /* Print Hacks */
-        @media print {
-            .fab-container, nav, .lang-bar { display: none !important; }
-            body { background: white; }
-            .content-container { padding: 0; }
-            .material-card { box-shadow: none; border: none; padding: 0; }
+        /* Premium PYQ / Mock Test Styling */
+        .premium-qa-card {
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border: 1px solid #e2e8f0;
+            transition: transform 0.2s;
+            page-break-inside: avoid;
+        }
+        .premium-qa-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        .premium-q-text {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #1e3a8a; /* Blue */
+            margin-bottom: 1.2rem;
+            line-height: 1.6;
+        }
+        .premium-options-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.8rem;
+            margin-bottom: 1.2rem;
+        }
+        .premium-option {
+            background: #f8fafc;
+            border: 1px solid #cbd5e1;
+            padding: 0.8rem 1rem;
+            border-radius: 8px;
+            font-size: 1.05rem;
+            color: #334155;
+            display: flex;
+            align-items: flex-start;
+        }
+        .premium-opt-letter {
+            font-weight: 800;
+            color: #0ea5e9;
+            margin-right: 12px;
+            min-width: 24px;
+        }
+        .premium-answer-box {
+            background: #ecfdf5;
+            border-left: 4px solid #10b981; /* Green */
+            padding: 1rem;
+            border-radius: 6px;
+            margin-bottom: 0.8rem;
+            font-weight: 700;
+            color: #065f46;
+        }
+        .premium-expl-box {
+            background: #fdf2f8;
+            border-left: 4px solid #f43f5e; /* Rose */
+            padding: 1rem;
+            border-radius: 6px;
+            color: #881337;
+            font-size: 1.05rem;
+            line-height: 1.6;
+        }
+        .premium-expl-label {
+            font-weight: 800;
+            margin-bottom: 0.3rem;
+            color: #be123c;
+        }
+
+        /* Language Toggle Styling */
+        .lang-bar-container {
+            display: none; /* Hidden by default */
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 1rem;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 0.4rem;
+            border-radius: 2rem;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .lang-btn {
+            padding: 0.5rem 1.2rem;
+            border-radius: 1.5rem;
+            border: none;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.9rem;
+            background: transparent;
+            color: white;
+        }
+
+        .lang-btn.active {
+            background: white;
+            color: var(--primary);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        /* Language Toggle Visibility Logic */
+        .lang-sep { display: inline; opacity: 0.3; margin: 0 0.3rem; }
+        body.lang-en .tm-text, body.lang-en .lang-sep { display: none !important; }
+        body.lang-tm .en-text, body.lang-tm .lang-sep { display: none !important; }
+
+        @media (max-width: 640px) {
+            .header-bar h1 { font-size: 1.4rem; }
+            .container { padding: 0; }
+            .material-card { padding: 0.5rem 0.8rem; border-radius: 0; border-left: none; border-right: none; box-shadow: none; }
+            .premium-qa-card { padding: 1rem 0.5rem; border-radius: 0; border-left: none; border-right: none; box-shadow: none; border-bottom: 2px solid #e2e8f0; margin-bottom: 1rem; }
         }
     </style>
 </head>
 <body>
-    <div id="loading">
+    <div id="loading" class="loading-screen">
         <div class="spinner"></div>
-        <p style="font-size: 0.7rem; font-weight: 700; margin-top: 0.75rem; color: var(--text-muted);">பாடம் தயாராகிறது...</p>
+        <p style="margin-top: 1rem; font-weight: 600; opacity: 0.7;">பாடம் லோடு ஆகிறது...</p>
     </div>
 
-    <nav>
-        <a href="daily.html" class="back-link">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
-        </a>
-        <div class="nav-logo">
-            <h1>A1 TAMIL</h1>
-            <span>Primary Edition</span>
+    <div class="watermark">A1 COACHING CENTER</div>
+    <div class="watermark watermark-lower">A1 COACHING CENTER</div>
+
+    <nav class="navbar" style="position: sticky; top: 0; z-index: 2000; background: white; border-bottom: 1px solid #e2e8f0; padding: 0.5rem 0;">
+        <div class="nav-container" style="display: flex; align-items: center; padding: 0 1rem; max-width: 800px; margin: 0 auto;">
+            <a href="daily.html" style="margin-right: 1rem; color: #1e293b; display: flex; align-items: center;">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+            </a>
+            <div style="display: flex; flex-direction: column;">
+                <span style="font-size: 1.1rem; font-weight: 800; color: var(--primary); line-height: 1;">A1 COACHING</span>
+                <span style="font-size: 0.6rem; font-weight: 700; color: var(--secondary);">TNPSC & TET EXPERTS</span>
+            </div>
         </div>
     </nav>
 
-    <div class="lesson-header">
-        <h2 id="lessonTitle">பாடம்</h2>
-        <div class="header-meta">
-            <span class="contact-info">📞 6369371452</span>
-            <div id="langToggle" class="lang-bar">
-                <button onclick="changeLanguage('en', this)" class="lang-btn active">EN</button>
-                <button onclick="changeLanguage('tm', this)" class="lang-btn">தமிழ்</button>
-            </div>
+    <div class="header-bar">
+        <h1 id="lessonTitle" style="font-size: 1.4rem;">பாடம்</h1>
+        <p style="font-size: 0.9rem; opacity: 0.9; margin-top: 0.5rem;">📞 Contact: 6369371452</p>
+        <div id="langToggle" class="lang-bar-container">
+            <button onclick="changeLanguage('en', this)" class="lang-btn active">English</button>
+            <button onclick="changeLanguage('tm', this)" class="lang-btn">தமிழ்</button>
         </div>
     </div>
 
-    <div class="content-container">
+    <div class="container">
         <div id="contentArea" class="material-card">
-            <!-- Content Loads Here -->
+            <!-- Content will load here -->
         </div>
     </div>
 
-    <div class="fab-container">
-        <div class="fab fab-print" onclick="printMaterial()">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-        </div>
+    <div class="sticky-back">
+        <a href="javascript:history.back()" class="back-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        </a>
+        <button onclick="printMaterial()" class="back-btn print-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+        </button>
     </div>
 
     <script type="module">
@@ -266,39 +314,52 @@
             const { getLocalLessonData, formatText } = await import(`./js/fetchData.js?v=${v}`);
 
             const themes = {
-                "science": { header: "SCIENCE | அறிவியல்", primary: "#1e3a8a", requiresMath: true },
-                "maths": { header: "MATHEMATICS | கணிதம்", primary: "#0284c7", requiresMath: true },
-                "social": { header: "SOCIAL SCIENCE | சமூக அறிவியல்", primary: "#e11d48", requiresMath: false },
-                "tamil": { header: "TAMIL | தமிழ்", primary: "#9f1239", requiresMath: false },
-                "english": { header: "ENGLISH | ஆங்கிலம்", primary: "#4338ca", requiresMath: false },
-                "psychology": { header: "PSYCHOLOGY | உளவியல்", primary: "#b45309", requiresMath: false },
-                "default": { header: "A1 COACHING", primary: "#1e3a8a", requiresMath: false }
+                "science": { header: "SCIENCE | அறிவியல்", primary: "#1e3a8a", secondary: "#10b981", bg: "#f0f9ff", requiresMath: true },
+                "maths": { header: "MATHEMATICS | கணிதம்", primary: "#0284c7", secondary: "#4f46e5", bg: "#f0f9ff", requiresMath: true },
+                "social": { header: "SOCIAL SCIENCE | சமூக அறிவியல்", primary: "#e11d48", secondary: "#be123c", bg: "#fff1f2", requiresMath: false },
+                "tamil": { header: "TAMIL | தமிழ்", primary: "#9f1239", secondary: "#fda4af", bg: "#fff1f2", requiresMath: false },
+                "english": { header: "ENGLISH | ஆங்கிலம்", primary: "#4338ca", secondary: "#0d9488", bg: "#f8fafc", requiresMath: false },
+                "psychology": { header: "PSYCHOLOGY | உளவியல்", primary: "#b45309", secondary: "#f59e0b", bg: "#fffbeb", requiresMath: false },
+                "default": { header: "ONLINE COACHING", primary: "#1e3a8a", secondary: "#0c4a6e", bg: "#f0f9ff", requiresMath: false }
             };
 
             let currentTheme = themes["default"];
 
             window.changeLanguage = (lang, btn) => {
-                document.body.className = `lang-${lang}`;
+                document.body.classList.remove('lang-en', 'lang-tm');
+                if (lang === 'tm') document.body.classList.add('lang-tm');
+                else document.body.classList.add('lang-en');
+                
                 document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
             };
 
             function applyTheme(subjectRaw) {
-                let key = (subjectRaw || "").toLowerCase().replace('math', 'maths');
-                if (!themes[key]) {
-                    if (key.includes('social')) key = 'social';
-                    else if (key.includes('science')) key = 'science'; 
-                    else if (key.includes('tamil')) key = 'tamil';
-                    else if (key.includes('english')) key = 'english';
-                    else if (key.includes('psy')) key = 'psychology';
-                    else key = 'default';
-                }
-                currentTheme = themes[key];
-                document.documentElement.style.setProperty('--primary', currentTheme.primary);
-                document.documentElement.style.setProperty('--primary-soft', currentTheme.primary + '15');
+                let subjectKey = (subjectRaw || "").toLowerCase().replace('math', 'maths');
                 
+                if (!themes[subjectKey]) {
+                    if (subjectKey.includes('social')) subjectKey = 'social';
+                    else if (subjectKey.includes('science')) subjectKey = 'science'; 
+                    else if (subjectKey.includes('tamil')) subjectKey = 'tamil';
+                    else if (subjectKey.includes('english')) subjectKey = 'english';
+                    else if (subjectKey.includes('psy')) subjectKey = 'psychology';
+                    else subjectKey = 'default';
+                }
+
+                currentTheme = themes[subjectKey];
+
+                // Apply CSS Variables
+                document.documentElement.style.setProperty('--primary', currentTheme.primary);
+                document.documentElement.style.setProperty('--secondary', currentTheme.secondary);
+                document.documentElement.style.setProperty('--bg', currentTheme.bg);
+                
+                // Set Header
+                document.title = currentTheme.header + " - A1 Coaching Center";
+
+                // Load MathJax if required
                 if (currentTheme.requiresMath) {
                     const script = document.createElement('script');
+                    script.id = "MathJax-script";
                     script.async = true;
                     script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js";
                     window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
@@ -307,7 +368,90 @@
             }
 
             window.printMaterial = function() {
-                window.print();
+                const title = document.getElementById('lessonTitle').innerText;
+                const content = document.getElementById('contentArea').innerHTML;
+                const pw = window.open('', '_blank');
+                
+                const mathJaxScript = currentTheme.requiresMath ? `
+                    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"><\/script>
+                    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"><\/script>
+                    <script>
+                        window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\\\(', '\\)']] } };
+                    <\/script>
+                ` : '';
+
+                pw.document.write(`<html><head><title>${title}</title>
+                    ${mathJaxScript}
+                    <style>
+                    * {
+                        -webkit-print-color-adjust: exact !important;
+                        print-color-adjust: exact !important;
+                    }
+                    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; padding: 10px 20px; line-height: 1.4; }
+                    
+                    /* Premium Header Built for PDF Print */
+                    .p-header-box { 
+                        background: linear-gradient(135deg, #1e3a8a, #10b981) !important; 
+                        color: white !important; 
+                        padding: 10px; 
+                        border-radius: 8px; 
+                        text-align: center; 
+                        margin-bottom: 10px; 
+                        -webkit-print-color-adjust: exact;
+                    }
+                    .p-header-box h1 { margin: 0; font-size: 18pt; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; color: white !important; }
+                    .p-header-box p { margin: 5px 0 0; font-weight: 800; font-size: 12pt; color: #f8fafc !important; }
+                    
+                    .lesson-title { text-align: center; margin-top: 5px; margin-bottom: 15px; font-size: 14pt; color: #333; font-weight: 800; border-bottom: 2px solid ${currentTheme.primary}; padding-bottom: 5px; }
+                    
+                    .section-header { color: ${currentTheme.primary}; border-bottom: 1px solid #eee; margin-top: 15px; font-size: 13pt; font-weight: 800; }
+                    .section-body { font-size: 11pt; line-height: 1.5; color: #111; text-align: justify; }
+                    
+                    /* Premium Style Overrides for PDF - Compact Version */
+                    .premium-qa-card { margin-bottom: 10px; padding: 0 0 10px 0; border-bottom: 1px dashed #cbd5e1; page-break-inside: auto; }
+                    .premium-q-text, .qa-q { font-size: 11pt; font-weight: 700; color: #1e3a8a !important; margin-bottom: 8px; }
+                    
+                    .premium-options-grid { display: grid; grid-template-columns: 1fr; gap: 4px; margin-bottom: 8px; }
+                    .premium-option { background: #f8fafc !important; border: 1px solid #000 !important; padding: 6px 10px; border-radius: 6px; font-size: 11pt; color: #000 !important; font-weight: 600; display: flex; align-items: flex-start; }
+                    .premium-opt-letter { font-weight: 800; color: #000 !important; margin-right: 8px; min-width: 20px; }
+                    
+                    .premium-answer-box { background: #ecfdf5 !important; border-left: 4px solid #065f46 !important; padding: 8px 10px; border-radius: 4px; margin-bottom: 8px; font-weight: 800; color: #065f46 !important; font-size: 11pt; }
+                    
+                    .premium-expl-box { background: #fdf2f8 !important; border-left: 4px solid #db2777 !important; padding: 8px 10px; border-radius: 4px; color: #9d174d !important; font-size: 11pt; line-height: 1.5; }
+                    .premium-expl-label { font-weight: 800; margin-bottom: 3px; color: #be123c !important; }
+
+                    .qa-item { background: #fff; padding: 10px 0; margin-bottom: 10px; border-bottom: 1px dashed #e2e8f0; page-break-inside: auto; }
+                    .info-box { background: #f0fdf4 !important; border-left: 4px solid ${currentTheme.secondary} !important; padding: 10px; margin: 10px 0; border-radius: 6px; font-weight: 600; font-size: 11pt; }
+                    
+                    .keyword { color: #db2777 !important; font-weight: 800; }
+                    .en-text { font-weight: bold; }
+                    .watermark-logo { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 60%; max-width: 500px; opacity: 0.15; z-index: 1000; pointer-events: none; }
+                </style></head><body>
+                    <img src="${window.location.origin}${window.location.pathname.replace(/[^\\/]*$/, '')}images/logo.png" class="watermark-logo" />
+                    <div class="p-header-box">
+                        <h1>A1 ONLINE COACHING CENTER</h1>
+                        <p>📞 MOBILE NO: 6369371452</p>
+                    </div>
+                    <div class="lesson-title">${title}</div>
+                    <div>${content}</div>
+                    <script>
+                        window.onload = () => { 
+                            Promise.all([
+                                document.fonts.ready,
+                                window.MathJax ? window.MathJax.typesetPromise() : Promise.resolve()
+                            ]).then(() => {
+                                setTimeout(() => {
+                                    window.print();
+                                    const isMobile = /Android|iPhone/i.test(navigator.userAgent);
+                                    if (!isMobile) { setTimeout(() => { window.close(); }, 1500); }
+                                }, 500);
+                            }).catch(() => {
+                                window.print();
+                            });
+                        };
+                    <\/script>
+                </body></html>`);
+                pw.document.close();
             };
 
             async function init() {
@@ -315,109 +459,170 @@
                 const subject = params.get('subject') || 'default';
                 const className = params.get('class');
                 const lessonId = params.get('lesson');
+                const paper = params.get('paper');
+
+                const exitUrl = `daily.html`;
+                const backBtn = document.querySelector('.sticky-back .back-btn');
+                if (backBtn) backBtn.href = exitUrl;
 
                 applyTheme(subject);
                 if (subject.toLowerCase().includes('english')) {
                     document.getElementById('langToggle').style.display = 'flex';
+                    document.body.classList.add('lang-en');
                 }
 
                 if (!lessonId) {
-                    document.getElementById('contentArea').innerHTML = `<p style="text-align:center; font-size:0.75rem;">பாடம் குறிப்பிடப்படவில்லை.</p>`;
+                    document.getElementById('contentArea').innerHTML = "பாடம் குறிப்பிடப்படவில்லை.";
                     document.getElementById('loading').style.display = 'none';
                     return;
                 }
 
                 try {
                     const result = await getLocalLessonData(subject, className, lessonId);
-                    if (!result || !result.data) throw new Error("No data found");
+                    
+                    if (!result || !result.data) {
+                        document.getElementById('contentArea').innerHTML = `
+                            <div style="color:#64748b; text-align:center; padding:3rem 1rem; background:#f8fafc; border-radius:1rem; border:1px solid #e2e8f0; margin-top:2rem;">
+                                <h3 style="margin-top:0;">பாடம் இன்னும் தயாராகவில்லை</h3>
+                                <p style="font-weight:600;">தற்போது இந்த பாடத்திற்கான குறிப்புகள் பதிவேற்றம் செய்யப்படவில்லை.</p>
+                                <p style="margin-bottom:0; opacity:0.8; font-size:0.9rem;">விரைவில் இணைக்கப்படும், அதுவரை பொறுத்திருக்கவும்.</p>
+                            </div>
+                        `;
+                        return;
+                    }
 
                     const data = result.data;
                     const meta = data.lesson_meta || data.meta || {};
                     const title = meta.title || data.title || lessonId;
 
-                    document.getElementById('lessonTitle').innerText = title;
+                    if (data) {
+                        const sections = data.sections || (data.material && data.material.sections);
+                        const summary = data.summary || (data.material && data.material.summary);
+                        
+                        const fullHeader = `${currentTheme.header} - ${title}`;
+                        document.getElementById('lessonTitle').innerText = fullHeader;
+                        
+                        let html = '';
+                        if (summary) {
+                            html += `<div class="info-box">${formatText(summary)}</div>`;
+                        }
 
-                    let html = '';
-                    const sections = data.sections || (data.material && data.material.sections);
-                    const summary = data.summary || (data.material && data.material.summary);
-
-                    if (summary) html += `<div class="info-box">${formatText(summary)}</div>`;
-
-                    if (sections) {
-                        html += sections.map(section => {
-                            let inner = '';
-                            if (section.type === 'infobox' || section.type === 'content') {
-                                const contentArray = Array.isArray(section.content) ? section.content : [section.content];
-                                inner = `<div class="${section.class || (section.type === 'infobox' ? 'info-box' : '')}">${contentArray.map(c => `<p class="section-body">${formatText(c.text || c)}</p>`).join('')}</div>`;
-                            } else if (section.type === 'evaluation') {
-                                const ed = section.evaluationData;
-                                inner = `<div style="background:#f8fafc; border-radius:0.75rem; padding:0.5rem;">
-                                    ${ed.mcqs ? ed.mcqs.map((m,i)=>`<div class="qa-item"><div class="qa-q">${i+1}. ${formatText(m.question)}</div><div class="qa-a">விடை: ${formatText(m.answer)}</div></div>`).join('') : ''}
-                                    ${ed.fillBlanks ? ed.fillBlanks.map((m,i)=>`<div class="qa-item"><div class="qa-q">${i+1}. ${formatText(m.question)}</div><div class="qa-a">விடை: ${formatText(m.answer)}</div></div>`).join('') : ''}
-                                    ${ed.trueFalse ? ed.trueFalse.map((m,i)=>`<div class="qa-item"><div class="qa-q">${i+1}. ${formatText(m.question)}</div><div class="qa-a">விடை: ${formatText(m.answer)}</div></div>`).join('') : ''}
-                                    ${ed.match ? ed.match.map(m => `<div style="display:flex; justify-content:space-between; margin-bottom:0.4rem; border-bottom:1px dashed #e2e8f0; padding-bottom:0.2rem; font-size:0.8rem;"><span>${m.key}</span><span> - ${m.value}</span></div>`).join('') : ''}
-                                </div>`;
-                            } else if (section.type === 'pyq') {
-                                const contentArray = Array.isArray(section.content) ? section.content : [];
-                                if (subject === 'mocktest' || section.isMock) {
-                                    inner = contentArray.map(item => {
-                                        let qText = item.question || "";
-                                        let aText = item.answer || "";
-                                        let mainQ = qText, optA = "", optB = "", optC = "", optD = "";
-                                        let qParts = qText.split(/\(A\)/i);
-                                        if (qParts.length > 1) {
-                                            mainQ = qParts[0];
-                                            let rest = qParts[1];
-                                            let bParts = rest.split(/\(B\)/i); optA = bParts[0];
-                                            if (bParts.length > 1) {
-                                                let cParts = bParts[1].split(/\(C\)/i); optB = cParts[0];
-                                                if (cParts.length > 1) {
-                                                    let dParts = cParts[1].split(/\(D\)/i); optC = dParts[0];
-                                                    if (dParts.length > 1) optD = dParts[1];
+                        if (sections) {
+                            html += sections.map(section => {
+                                let contentHTML = '';
+                                if (section.type === 'infobox' || section.type === 'content') {
+                                    const contentArray = Array.isArray(section.content) ? section.content : [section.content];
+                                    const boxClass = section.class || (section.type === 'infobox' ? 'info-box' : '');
+                                    contentHTML = `<div class="${boxClass}">${contentArray.map(c => `<p>${formatText(c.text || c)}</p>`).join('')}</div>`;
+                                } else if (section.type === 'evaluation') {
+                                    const ed = section.evaluationData;
+                                    contentHTML = `<div style="background:#f8fafc; border:1px solid #e2e8f0; padding:1.5rem; border-radius:1rem;">
+                                        ${ed.mcqs ? ed.mcqs.map((m,i)=>`<div class="qa-item"><div class="qa-q">${i+1}. ${formatText(m.question)}</div><div style="font-weight:700; color:#1e293b;">விடை: ${formatText(m.answer)}</div></div>`).join('') : ''}
+                                        ${ed.fillBlanks ? ed.fillBlanks.map((m,i)=>`<div class="qa-item"><div class="qa-q">${i+1}. ${formatText(m.question)}</div><div style="font-weight:700; color:#1e293b;">விடை: ${formatText(m.answer)}</div></div>`).join('') : ''}
+                                        ${ed.trueFalse ? ed.trueFalse.map((m,i)=>`<div class="qa-item"><div class="qa-q">${i+1}. ${formatText(m.question)}</div><div style="font-weight:700; color:#1e293b;">விடை: ${formatText(m.answer)}</div></div>`).join('') : ''}
+                                        ${ed.match ? ed.match.map(m => `<div style="display:flex; justify-content:space-between; margin-bottom:0.5rem; border-bottom:1px dashed #eee; padding-bottom:0.3rem;"><span>${m.key}</span><span> - ${m.value}</span></div>`).join('') : ''}
+                                    </div>`;
+                                } else if (section.type === 'pyq') {
+                                    const contentArray = Array.isArray(section.content) ? section.content : [];
+                                    if (subject === 'mocktest') {
+                                        contentHTML = `<div style="background:transparent;">
+                                            ${contentArray.map(item => {
+                                                let qText = item.question || "";
+                                                let aText = item.answer || "";
+                                                
+                                                let mainQ = qText;
+                                                let optA = "", optB = "", optC = "", optD = "";
+                                                let qParts = qText.split(/\(A\)/i);
+                                                if (qParts.length > 1) {
+                                                    mainQ = qParts[0];
+                                                    let rest = qParts[1];
+                                                    let bParts = rest.split(/\(B\)/i);
+                                                    optA = bParts[0];
+                                                    if (bParts.length > 1) {
+                                                        let cParts = bParts[1].split(/\(C\)/i);
+                                                        optB = cParts[0];
+                                                        if (cParts.length > 1) {
+                                                            let dParts = cParts[1].split(/\(D\)/i);
+                                                            optC = dParts[0];
+                                                            if (dParts.length > 1) optD = dParts[1];
+                                                        }
+                                                    }
                                                 }
-                                            }
-                                        }
-                                        let ansMain = aText, explMain = "";
-                                        let explParts = aText.split(/விளக்கம்:/i);
-                                        if(explParts.length > 1) { ansMain = explParts[0].trim().replace(/\)$/, ''); explMain = explParts[1].trim(); }
-                                        
-                                        return `
-                                            <div class="premium-qa-card">
-                                                <div class="premium-q-text">${formatText(mainQ.trim())}</div>
-                                                ${optA ? `<div class="premium-options-grid">
-                                                    <div class="premium-option"><span class="premium-opt-letter">(A)</span>${formatText(optA.trim())}</div>
-                                                    <div class="premium-option"><span class="premium-opt-letter">(B)</span>${formatText(optB.trim())}</div>
-                                                    <div class="premium-option"><span class="premium-opt-letter">(C)</span>${formatText(optC.trim())}</div>
-                                                    <div class="premium-option"><span class="premium-opt-letter">(D)</span>${formatText(optD.trim())}</div>
-                                                </div>` : ''}
-                                                <div class="premium-answer-box">விடை: ${formatText(ansMain)}</div>
-                                                ${explMain ? `<div class="premium-expl-box"><b>விளக்கம்:</b><br>${formatText(explMain)}</div>` : ''}
-                                            </div>
-                                        `;
-                                    }).join('');
+                                                
+                                                let ansMain = aText;
+                                                let explMain = "";
+                                                let explParts = aText.split(/விளக்கம்:/i);
+                                                if(explParts.length > 1) {
+                                                    ansMain = explParts[0].trim();
+                                                    if (ansMain.endsWith(')')) ansMain = ansMain.slice(0, -1);
+                                                    explMain = explParts[1].trim();
+                                                }
+                                                
+                                                return `
+                                                    <div class="premium-qa-card">
+                                                        <div class="premium-q-text">${formatText(mainQ.trim())}</div>
+                                                        ${optA ? `
+                                                        <div class="premium-options-grid">
+                                                            <div class="premium-option"><span class="premium-opt-letter">(A)</span>${formatText(optA.trim())}</div>
+                                                            <div class="premium-option"><span class="premium-opt-letter">(B)</span>${formatText(optB.trim())}</div>
+                                                            <div class="premium-option"><span class="premium-opt-letter">(C)</span>${formatText(optC.trim())}</div>
+                                                            <div class="premium-option"><span class="premium-opt-letter">(D)</span>${formatText(optD.trim())}</div>
+                                                        </div>
+                                                        ` : ''}
+                                                        <div class="premium-answer-box">விடை: ${formatText(ansMain)}</div>
+                                                        ${explMain ? `
+                                                        <div class="premium-expl-box">
+                                                            <div class="premium-expl-label">விளக்கம்:</div>
+                                                            ${formatText(explMain)}
+                                                        </div>
+                                                        ` : ''}
+                                                    </div>
+                                                `;
+                                            }).join('')}
+                                        </div>`;
+                                    } else {
+                                        contentHTML = `<div style="background:#f0fdf4; border:1px solid #dcfce7; padding:1.5rem; border-radius:1rem;">
+                                            ${contentArray.map(item => `
+                                                <div class="qa-item" style="background:#fff; border-color:#dcfce7;">
+                                                    <div class="qa-q" style="color:#065f46;">${formatText(item.question)}</div>
+                                                    <div style="font-weight:700; color:#1e293b;">விடை: ${formatText(item.answer)}</div>
+                                                </div>
+                                            `).join('')}
+                                        </div>`;
+                                    }
                                 } else {
-                                    inner = contentArray.map(item => `
-                                        <div class="qa-item">
-                                            <div class="qa-q">${formatText(item.question)}</div>
-                                            <div class="qa-a">விடை: ${formatText(item.answer)}</div>
-                                        </div>
-                                    `).join('');
+                                    if (typeof section.content === 'string') {
+                                        contentHTML = `<div class="section-body">${formatText(section.content)}</div>`;
+                                    } else {
+                                        contentHTML = (section.content || []).map(c => `
+                                            <p class="section-body">${formatText(c.text || c)}</p>
+                                        `).join('');
+                                    }
                                 }
-                            } else {
-                                const content = Array.isArray(section.content) ? section.content : [section.content];
-                                inner = content.map(c => `<p class="section-body">${formatText(c.text || c)}</p>`).join('');
-                            }
-                            return `<div><h2 class="section-header">${formatText(section.title)}</h2>${inner}</div>`;
-                        }).join('');
+                                return `<div><h2 class="section-header">${formatText(section.title)}</h2>${contentHTML}</div>`;
+                            }).join('');
+                        }
+
+                        document.getElementById('contentArea').innerHTML = html;
+                        
+                        if (window.MathJax) {
+                            window.MathJax.typesetPromise();
+                        }
+                    } else {
+                        document.getElementById('contentArea').innerHTML = "பாடம் இன்னும் முழுமையாகத் தயாராகவில்லை.";
                     }
-                    document.getElementById('contentArea').innerHTML = html || `<p style="text-align:center;">பாடம் தயாராகவில்லை.</p>`;
-                    if (window.MathJax) window.MathJax.typesetPromise();
-                } catch (e) {
-                    document.getElementById('contentArea').innerHTML = `<p style="color:red; text-align:center; padding:2rem;">பாடம் லோடு ஆகவில்லை: ${e.message}</p>`;
+                } catch (error) {
+                    document.getElementById('contentArea').innerHTML = `
+                    <div style="color:#e11d48; text-align:center; padding:3rem 1rem; background:#fff1f2; border-radius:1rem; border:1px solid #fecaca; margin-top:2rem;">
+                        <h3 style="margin-top:0;">பாடம் லோடு ஆகவில்லை!</h3>
+                        <p style="font-weight:700; color:#991b1b;">${error.message}</p>
+                        <p style="margin-bottom:0; opacity:0.7; font-size:0.9rem;">தயவுசெய்து அட்மினைத் தொடர்பு கொள்ளவும்.</p>
+                    </div>`;
                 } finally {
                     document.getElementById('loading').style.display = 'none';
                 }
             }
+
             init();
         })();
     </script>

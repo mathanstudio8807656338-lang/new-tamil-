@@ -2,265 +2,592 @@
 <html lang="ta">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Quiz - A1 Premium</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&family=Noto+Sans+Tamil:wght@400;700;900&display=swap" rel="stylesheet">
-    <script src="js/auth.js" type="module"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - A1 Coaching</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- MathJax for scientific/mathematical formulas -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            }
+        };
+    </script>
+</head>
+<body>
     <style>
-        :root {
-            --primary: #1e3a8a;
-            --primary-soft: #eff6ff;
-            --accent: #f43f5e;
-            --bg: #f8fafc;
-            --text-main: #0f172a;
-            --text-muted: #64748b;
-            --success: #10b981;
-            --danger: #ef4444;
+        body {
+            background: #f8fafc;
+            font-family: 'Inter', sans-serif;
+            color: #1e293b;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .quiz-view-container {
+            max-width: 800px;
+            margin: 0 auto 8rem;
+            padding: 2rem 1.5rem;
         }
 
-        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+        /* Lang classes */
+        .lang-sep { display: inline; opacity: 0.3; margin: 0 0.5rem; }
+        body.lang-en .tm-text, body.lang-en .lang-sep { display: none !important; }
+        body.lang-tm .en-text, body.lang-tm .lang-sep { display: none !important; }
+        
+        .tm-text { font-weight: normal; }
+        .en-text { font-weight: bold; }
 
-        body {
-            background: var(--bg);
-            margin: 0;
-            color: var(--text-main);
-            font-family: 'Outfit', 'Noto Sans Tamil', sans-serif;
+        /* Sticky Lang Bar */
+        .lang-bar {
+            position: fixed;
+            bottom: 1.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1100;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            padding: 0.4rem;
+            border-radius: 3rem;
+            display: flex;
+            gap: 0.3rem;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+            border: 1px solid rgba(255,255,255,0.8);
+        }
+
+        .lang-btn {
+            padding: 0.7rem 1.4rem;
+            border-radius: 2rem;
+            border: none;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.95rem;
+            background: transparent;
+            color: #64748b;
+        }
+
+        .lang-btn.active {
+            background: #1a73e8;
+            color: white;
+            box-shadow: 0 8px 15px rgba(26, 115, 232, 0.25);
+        }
+
+        .quiz-header {
+            text-align: center;
+            margin-bottom: 3.5rem;
+            background: #ffffff;
+            padding: 3rem 1.5rem;
+            border-radius: 1.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02), 0 10px 15px -3px rgba(0,0,0,0.03);
+            border: 1px solid #e2e8f0;
+        }
+
+        .quiz-header h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #d32f2f; /* Clear Professional Red for Title */
+            margin-bottom: 1rem;
+        }
+
+        /* Professional Question Cards */
+        .question-list {
             display: flex;
             flex-direction: column;
-            min-height: 100vh;
-        }
-
-        /* Compact Top Nav */
-        nav {
-            background: white;
-            padding: 0.5rem 1rem;
-            display: flex;
-            align-items: center;
-            border-bottom: 1px solid #f1f5f9;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-        .back-link { color: var(--text-main); margin-right: 0.75rem; display: flex; align-items: center; text-decoration: none; }
-        .nav-logo h1 { font-size: 0.85rem; margin: 0; font-weight: 900; color: var(--primary); }
-        .nav-logo span { font-size: 0.5rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; }
-
-        /* Quiz Header */
-        .quiz-header {
-            background: white;
-            padding: 0.75rem 1rem;
-            border-bottom: 1px solid #f1f5f9;
-            text-align: center;
-        }
-        #lessonTitle { font-size: 0.95rem; font-weight: 900; color: var(--primary); margin: 0; line-height: 1.3; }
-        .progress-chip {
-            display: inline-block;
-            background: var(--primary-soft);
-            color: var(--primary);
-            padding: 0.2rem 0.6rem;
-            border-radius: 1rem;
-            font-size: 0.6rem;
-            font-weight: 800;
-            margin-top: 0.4rem;
-        }
-
-        /* Question Area */
-        .quiz-container {
-            flex: 1;
-            padding: 0.75rem;
-            max-width: 800px;
-            margin: 0 auto;
-            width: 100%;
+            gap: 2rem;
         }
 
         .question-card {
-            background: white;
-            border-radius: 1rem;
-            padding: 1rem;
-            margin-bottom: 0.75rem;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            background: #ffffff;
+            padding: 2.5rem;
+            border-radius: 1.25rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.03);
             border: 1px solid #f1f5f9;
-            border-left: 4px solid var(--primary);
+            border-left: 8px solid #d32f2f; /* Red Accent instead of Blue to match title */
+            transition: all 0.3s ease;
+            text-align: left; /* Ensure left alignment */
         }
 
-        .q-text { font-size: 0.9rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.85rem; line-height: 1.4; }
-        
-        .options-grid { display: grid; gap: 0.5rem; }
-        .option-item {
-            padding: 0.75rem 1rem;
-            background: #f8fafc;
-            border: 1.5px solid #f1f5f9;
-            border-radius: 0.75rem;
-            font-size: 0.85rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: 0.2s;
-            display: flex; align-items: center; gap: 0.75rem;
-        }
-        .option-item:active { transform: scale(0.98); }
-        .option-item.correct { background: #ecfdf5; border-color: var(--success); color: #065f46; }
-        .option-item.wrong { background: #fef2f2; border-color: var(--danger); color: #991b1b; }
-        .option-item.selected { border-color: var(--primary); }
-
-        .locked { pointer-events: none; }
-
-        /* Submit Button */
-        .footer-action {
-            padding: 1rem;
-            background: white;
-            border-top: 1px solid #f1f5f9;
-            position: sticky;
-            bottom: 0;
-            display: flex; justify-content: center;
-        }
-        .btn-submit {
-            background: var(--primary);
-            color: white;
-            padding: 0.75rem 2rem;
-            border-radius: 2rem;
-            border: none;
-            font-size: 0.9rem;
-            font-weight: 800;
+        .question-text {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #1a73e8; /* Vibrant Clear Blue for Question */
+            line-height: 1.5;
+            margin-bottom: 2rem;
+            white-space: normal; /* Change from pre-wrap to prevent unintended breaks */
+            text-align: left !important;
+            display: block;
             width: 100%;
-            max-width: 400px;
-            box-shadow: 0 10px 20px rgba(30, 58, 138, 0.2);
         }
 
-        /* Result Popup */
-        .modal-overlay {
-            display: none; position: fixed; inset: 0; background: rgba(15, 23, 42, 0.6);
-            backdrop-filter: blur(4px); z-index: 2000; align-items: center; justify-content: center; padding: 1.5rem;
+        .options-grid {
+            display: grid;
+            gap: 1.25rem;
         }
-        .result-card {
-            background: white; padding: 2rem; border-radius: 1.5rem; width: 100%; max-width: 350px;
-            text-align: center; box-shadow: 0 25px 50px rgba(0,0,0,0.2);
-            animation: pop 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+        .options-grid.locked {
+            pointer-events: none;
+            opacity: 0.9;
         }
-        @keyframes pop { from { transform: scale(0.8); opacity: 0; } to { transform: scale(1); opacity: 1; } }
 
-        .score-box { font-size: 3rem; font-weight: 900; color: var(--primary); margin: 1rem 0; }
-        .result-msg { font-size: 0.9rem; font-weight: 700; color: var(--text-muted); margin-bottom: 1.5rem; }
-
-        .btn-p { background: var(--primary); color: white; padding: 0.7rem 1.5rem; border-radius: 1rem; border: none; font-weight: 800; width: 100%; margin-bottom: 0.5rem; cursor: pointer; }
-        .btn-o { background: transparent; color: var(--text-muted); padding: 0.5rem; border: none; font-weight: 700; cursor: pointer; }
-
-        /* Name Prompt */
-        .name-modal {
-            position: fixed; inset: 0; background: white; z-index: 3000;
-            display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem;
+        .option-item {
+            padding: 1.1rem 1.5rem;
+            border: 1.5px solid #f1f5f9;
+            border-radius: 1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            background: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+            font-weight: 600;
+            color: #475569;
+            font-size: 1.05rem;
+            white-space: normal;
+            text-align: left !important;
         }
-        .name-modal h2 { font-size: 1.2rem; font-weight: 900; margin-bottom: 0.5rem; }
-        .name-input {
-            width: 100%; max-width: 300px; padding: 0.85rem; border-radius: 1rem;
-            border: 2px solid #f1f5f9; font-size: 1rem; font-weight: 700; text-align: center; margin-bottom: 1.5rem; outline: none;
-        }
-        .name-input:focus { border-color: var(--primary); }
 
-        /* Loading */
-        #loading {
-            position: fixed; inset: 0; background: var(--bg);
-            display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 4000;
+        .option-item:hover {
+            border-color: #1a73e8;
+            background: #f8fbff;
         }
-        .spinner { width: 30px; height: 30px; border: 3px solid #f1f5f9; border-top-color: var(--primary); border-radius: 50%; animation: spin 1s linear infinite; }
-        @keyframes spin { to { transform: rotate(360deg); } }
 
-        /* Lang classes */
-        .lang-sep { display: inline; opacity: 0.3; margin: 0 0.3rem; }
-        body.lang-en .tm-text, body.lang-en .lang-sep { display: none !important; }
-        body.lang-tm .en-text, body.lang-tm .lang-sep { display: none !important; }
+        .option-item.selected {
+            border-color: #1a73e8;
+            background: #f0f7ff;
+            box-shadow: 0 8px 16px rgba(26, 115, 232, 0.1);
+        }
+
+        .option-item.correct {
+            border-color: #10b981;
+            background: #ecfdf5;
+            color: #065f46;
+        }
+
+        .option-item.wrong {
+            border-color: #ef4444;
+            background: #fef2f2;
+            color: #991b1b;
+        }
+
+        .explanation-box {
+            margin-top: 2rem;
+            padding: 1.25rem;
+            background: #f8fafc;
+            border-radius: 0.75rem;
+            font-size: 1rem;
+            color: #334155;
+            line-height: 1.7;
+            display: none;
+            border: 1px solid #e2e8f0;
+            animation: slideUp 0.4s ease-out;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Submit Section at bottom */
+        .submit-section {
+            padding: 4rem 1.5rem;
+            text-align: center;
+        }
+
+        .btn-submit {
+            background: #1e293b;
+            color: white;
+            padding: 1.25rem 4rem;
+            border-radius: 3rem;
+            font-size: 1.3rem;
+            font-weight: 800;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+        }
+
+        .btn-submit:hover {
+            transform: scale(1.05);
+            background: #0f172a;
+        }
+
+        /* Language Toggle - Inline version */
+        .inline-lang-container {
+            display: none; /* Hidden by default, shown via JS for English only */
+            justify-content: center;
+            gap: 0.4rem;
+            margin: 1rem auto 0;
+            background: #f1f5f9;
+            padding: 0.3rem;
+            border-radius: 100px;
+            width: fit-content;
+            border: 1px solid #e2e8f0;
+        }
+
+        .lang-btn {
+            padding: 0.4rem 1rem;
+            border-radius: 100px;
+            border: none;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.8rem;
+            background: transparent;
+            color: #64748b;
+        }
+
+        .lang-btn.active {
+            background: #1a73e8;
+            color: white;
+            box-shadow: 0 4px 10px rgba(26, 115, 232, 0.2);
+        }
+
+        /* Sticky Footer for Result */
+        .submit-section {
+            margin-top: 4rem;
+            padding-bottom: 6rem;
+            text-align: center;
+        }
+
+        .btn-submit {
+            background: #1e293b;
+            color: white;
+            padding: 1rem 3rem;
+            border-radius: 3rem;
+            font-size: 1.2rem;
+            font-weight: 800;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+        }
+
+        .btn-submit:hover {
+            transform: scale(1.05);
+            background: #000;
+        }
+
+        #resultView {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2000;
+            background: white;
+            padding: 3rem;
+            border-radius: 2rem;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 50px 100px rgba(0,0,0,0.25);
+            text-align: center;
+            animation: popUp 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        @keyframes popUp {
+            from { transform: translate(-50%, -40%) scale(0.8); opacity: 0; }
+            to { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+        }
+
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(5px);
+            z-index: 1999;
+        }
+
+        .score-display {
+            font-size: 4rem;
+            font-weight: 900;
+            color: #1a73e8;
+            margin: 1.5rem 0;
+        }
+
+        .sticky-back {
+            position: fixed;
+            bottom: 1.5rem;
+            left: 1.2rem;
+            z-index: 1200;
+        }
+        
+        .sticky-btn {
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #ffffff;
+            color: #1e293b !important;
+            border-radius: 50%;
+            text-decoration: none;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            border: 1px solid #e2e8f0;
+            transition: all 0.3s ease;
+        }
+
+        .sticky-btn:hover {
+            transform: scale(1.1);
+            border-color: #1a73e8;
+            color: #1a73e8 !important;
+            box-shadow: 0 10px 30px rgba(26, 115, 232, 0.2);
+        }
+
+        @media (max-width: 600px) {
+            .quiz-view-container { padding: 0.5rem; }
+            .question-list { gap: 0.75rem; }
+            .question-card { padding: 1.25rem 1rem; border-left-width: 6px; box-shadow: 0 2px 10px rgba(0,0,0,0.02); }
+            .question-text { font-size: 1.1rem; margin-bottom: 1rem; line-height: 1.5; text-align: left; }
+            .options-grid { gap: 0.6rem; }
+            .option-item { padding: 0.8rem 1rem; font-size: 1rem; border-radius: 0.8rem; text-align: left; }
+            .explanation-box { padding: 0.8rem; font-size: 0.9rem; }
+            .quiz-header { padding: 1.5rem 1rem; margin-bottom: 1.5rem; }
+            .quiz-header h1 { font-size: 1.5rem; }
+            .quiz-header p { font-size: 0.9rem; }
+        }
+
+        .keyword-highlight {
+            color: #db2777;
+            font-weight: 800;
+            display: inline;
+        }
+
+        #questionContainer, .question-card, .question-text, .option-item {
+            text-align: left !important;
+            justify-content: flex-start !important;
+            word-break: keep-all !important;
+            overflow-wrap: break-word !important;
+        }
+        
+        .question-text * {
+            text-align: left !important;
+            display: inline !important; /* Force spans and labels to stay together */
+        }
+        
+        /* Prevent numbers and units from splitting abruptly */
+        .question-text, .option-item {
+            line-break: loose;
+        }
     </style>
 </head>
 <body class="lang-en">
-    <div id="loading">
-        <div class="spinner"></div>
-        <p style="font-size: 0.7rem; font-weight: 700; margin-top: 0.75rem; color: var(--text-muted);">தேர்வு தயாராகிறது...</p>
-    </div>
 
-    <div id="namePrompt" class="name-modal">
-        <img src="images/logo.png" style="height: 50px; margin-bottom: 1.5rem;">
-        <h2>தேர்வைத் தொடங்கவும்</h2>
-        <p style="font-size: 0.75rem; font-weight: 700; color: var(--text-muted); margin-bottom: 1.5rem;">உங்கள் பெயரை உள்ளிடவும் (Enter Name)</p>
-        <input type="text" id="userNameInput" class="name-input" placeholder="பெயர்...">
-        <button id="startQuizBtn" class="btn-p">START TEST</button>
-    </div>
-
-    <nav>
-        <a href="daily.html" class="back-link">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
-        </a>
-        <div class="nav-logo">
-            <h1>A1 TAMIL</h1>
-            <span>Primary Edition</span>
+    <nav class="navbar" style="position: sticky; top: 0; z-index: 2000; background: white; border-bottom: 1px solid #e2e8f0; padding: 0.5rem 0;">
+        <div class="nav-container" style="display: flex; align-items: center; padding: 0 1rem; max-width: 800px; margin: 0 auto;">
+            <a href="daily.html" style="margin-right: 1rem; color: #1e293b; display: flex; align-items: center;">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+            </a>
+            <a href="index.html" class="brand" style="text-decoration: none; display: flex; align-items: center; gap: 0.6rem;">
+                <img src="images/logo.png" alt="A1" style="height: 40px;">
+                <div style="display: flex; flex-direction: column;">
+                    <span style="font-size: 1.1rem; font-weight: 800; color: #0f172a; line-height: 1;">COACHING</span>
+                    <span style="font-size: 0.55rem; font-weight: 700; color: #f43f5e;">TNPSC & TET EXPERTS</span>
+                </div>
+            </a>
         </div>
     </nav>
 
-    <div class="quiz-header">
-        <h2 id="lessonTitle">ஆன்லைன் தேர்வு</h2>
-        <div class="progress-chip">Total Questions: <span id="totalQ">0</span></div>
-    </div>
-
-    <div class="quiz-container" id="questionContainer">
-        <!-- Questions injected here -->
-    </div>
-
-    <div class="footer-action">
-        <button id="finalSubmitBtn" class="btn-submit">SUBMIT TEST</button>
-    </div>
-
-    <div class="modal-overlay" id="resultOverlay">
-        <div class="result-card">
-            <h2 id="resName" style="font-size: 1rem; margin: 0; color: var(--text-muted);">NAME</h2>
-            <div class="score-box" id="finalScore">0/0</div>
-            <p id="resLesson" style="font-size: 0.8rem; font-weight: 800; color: var(--primary); margin-bottom: 0.5rem;"></p>
-            <p class="result-msg" id="resultMsg">Good Job!</p>
-            <button onclick="location.reload()" class="btn-p">RETRY</button>
-            <button onclick="history.back()" class="btn-o">CLOSE</button>
+    <main class="quiz-view-container">
+        
+        <div id="quizHeader" class="quiz-header">
+            <h1 id="lessonTitle">ஆன்லைன் தேர்வு</h1>
+            <p id="lessonSub" style="color: #64748b; font-weight: 600;">அனைத்து கேள்விகளுக்கும் விடையளிக்கவும்</p>
+            <div id="inlineLangToggle" class="inline-lang-container">
+                <button onclick="toggleLang('en', this)" class="lang-btn active">English</button>
+                <button onclick="toggleLang('tm', this)" class="lang-btn">தமிழ்</button>
+            </div>
         </div>
+
+        <div id="quizLoader" style="text-align: center; color: #64748b; font-weight: 600; padding: 4rem;">
+            Loading...
+        </div>
+
+        <div id="quizApp" style="display: none;">
+            <div id="quizProgress" style="padding: 0.5rem 1rem; border-radius: 20px; background: #f1f5f9; color: #475569; font-weight: 700; font-size: 0.8rem; width: fit-content; margin: 0 auto 1.5rem;">
+                மொத்த கேள்விகள் (Total Questions): <span id="totalQNum">0</span>
+            </div>
+
+            <div id="questionContainer" class="question-list">
+                <!-- All colorful cards injected here -->
+            </div>
+
+            <div class="submit-section">
+                <button id="finalSubmitBtn" class="btn btn-submit" style="width: 100%; max-width: 400px;">சமர்ப்பிக்கவும் (SUBMIT TEST)</button>
+            </div>
+        </div>
+
+        <div class="overlay" id="overlay"></div>
+        <div class="overlay" id="nameOverlay" style="display: block; z-index: 3000;"></div>
+        
+        <!-- Name Entry Prompt -->
+        <div id="namePrompt" style="display: block; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 3001; background: white; padding: 2.5rem; border-radius: 2rem; width: 85%; max-width: 400px; box-shadow: 0 50px 100px rgba(0,0,0,0.3); text-align: center;">
+            <img src="images/logo.png" alt="A1" style="height: 60px; margin-bottom: 1.5rem;">
+            <h2 style="color: #1e293b; margin-bottom: 0.5rem; font-size: 1.4rem;">தேர்வைத் தொடங்கவும்</h2>
+            <p style="color: #64748b; font-weight: 600; margin-bottom: 1.5rem; font-size: 0.9rem;">உங்கள் பெயரை உள்ளிடவும் (Enter Name)</p>
+            <input type="text" id="userNameInput" placeholder="பெயர் மட்டும்..." style="width: 100%; padding: 1rem; border-radius: 1rem; border: 2px solid #e2e8f0; font-size: 1.1rem; font-weight: 700; text-align: center; color: #1e293b; margin-bottom: 2rem; outline: none; transition: border-color 0.3s;" onfocus="this.style.borderColor='#1a73e8'">
+            <button id="startQuizBtn" class="btn btn-primary" style="width: 100%; padding: 1.1rem; font-size: 1.2rem; font-weight: 800; border-radius: 100px; background: #1a73e8; color: white; border: none;">தொடங்கவும் (START)</button>
+        </div>
+
+        <!-- Enhanced Result View -->
+        <div id="resultView">
+            <div id="screenshotArea" style="padding: 1rem; position: relative;">
+                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-30deg); opacity: 0.05; font-size: 3rem; font-weight: 900; color: #000; pointer-events: none; white-space: nowrap; width: 100%; text-align: center;">A1 COACHING CENTRE</div>
+                <h2 style="color: #64748b; font-size: 1rem; margin-bottom: 0.2rem; text-transform: uppercase; letter-spacing: 1px;">மாணவர் பெயர்</h2>
+                <h1 id="resUserName" style="color: #1e293b; margin-bottom: 1.5rem; font-weight: 900; font-size: 1.8rem;">பெயர்</h1>
+                
+                <div style="background: #f8fafc; padding: 1.5rem; border-radius: 1.5rem; border: 1px solid #e2e8f0; margin-bottom: 1.5rem;">
+                    <p style="color: #64748b; font-size: 0.85rem; margin-bottom: 0.4rem; font-weight: 700;">பாடம் (Lesson)</p>
+                    <h3 id="resLessonTitle" style="color: #1e293b; font-size: 1.1rem; margin: 0; line-height: 1.4;">தலைப்பு</h3>
+                </div>
+
+                <div style="margin: 1.5rem 0;">
+                    <p style="color: #64748b; font-size: 0.9rem; font-weight: 700;">பெற்ற மதிப்பெண்கள்</p>
+                    <div class="score-display" id="finalScore" style="margin: 0.5rem 0;">0/0</div>
+                </div>
+            </div>
+
+            <p id="resultMsg" style="color: #64748b; font-weight: 600; margin-bottom: 2rem;"></p>
+            
+            <div style="display: flex; flex-direction: column; gap: 0.8rem;">
+                <button onclick="closeResults()" class="btn btn-primary" style="width:100%; padding: 1rem; border-radius: 15px; background: #1a73e8; color: white; border: none;">விடைகளைச் சரிபார் (Review Answers)</button>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem;">
+                    <button onclick="window.location.reload()" class="btn btn-outline" style="font-size: 0.85rem; border-radius: 12px; border: 2px solid #e2e8f0; padding: 0.5rem;">மீண்டும் முயற்சி</button>
+                    <a id="backHome" href="index.html" class="btn btn-outline" style="font-size: 0.85rem; text-decoration: none; display: flex; align-items: center; justify-content: center; border-radius: 12px; border: 2px solid #e2e8f0; font-weight: 700; color: #1e293b; padding: 0.5rem;">முகப்புப் பக்கம்</a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <div class="sticky-back">
+        <a id="exitQuizSticky" href="#" class="sticky-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        </a>
     </div>
 
     <script type="module">
         (async () => {
             const v = Date.now();
+            const { checkAuth, waitForAuth } = await import(`./js/auth.js?v=${v}`);
             const { getLocalLessonData } = await import(`./js/fetchData.js?v=${v}`);
+
+            checkAuth();
 
             const params = new URLSearchParams(window.location.search);
             const subject = params.get('subject');
             const className = params.get('class');
             const lessonId = params.get('lesson');
 
+            const exitUrl = `daily.html`;
+            document.getElementById('exitQuizSticky').href = exitUrl;
+            document.getElementById('backHome').href = exitUrl;
+
             let questions = [];
             let answers = {};
-            let lessonTitle = "";
+            let resultsRevealed = false;
+            let currentUserName = "";
+            let currentLessonTitleDisplay = "";
+            let currentLanguage = localStorage.getItem('appLanguage') || 'en';
 
-            async function init() {
+            const startQuizBtn = document.getElementById('startQuizBtn');
+            const userNameInput = document.getElementById('userNameInput');
+
+            // Set loading state
+            startQuizBtn.disabled = true;
+            startQuizBtn.innerText = "தயாராகிறது... (Loading...)";
+
+            async function initQuiz() {
                 try {
                     const result = await getLocalLessonData(subject, className, lessonId);
-                    if (!result || !result.data) throw new Error("No data");
-
+                    if (!result || !result.data) {
+                        alert('தேர்வுக்கான தரவுகள் (Quiz Data) வரவில்லை. தயவுசெய்து பக்கத்தை புதுப்பிக்கவும் (Refresh)!');
+                        startQuizBtn.innerText = "பிழை! (Error)";
+                        return;
+                    }
                     const data = result.data;
-                    lessonTitle = data.title || (data.lesson_meta ? data.lesson_meta.title : 'Quiz');
+                    const lessonTitle = data.title || (data.lesson_meta ? data.lesson_meta.title : 'Online Test');
+                    currentLessonTitleDisplay = lessonTitle;
+
                     questions = data.quiz ? (data.quiz.questions || (Array.isArray(data.quiz) ? data.quiz : [])) : (data.questions || []);
+                    
+                    if (questions.length === 0) {
+                        alert("இந்த பகுதியில் கேள்விகள் இன்னும் தயாராகவில்லை.");
+                        startQuizBtn.innerText = "கேள்விகள் இல்லை";
+                        return;
+                    }
 
-                    document.getElementById('lessonTitle').innerText = lessonTitle;
-                    document.getElementById('totalQ').innerText = questions.length;
+                    const titleEl = document.getElementById('lessonTitle');
+                    if (titleEl) titleEl.innerHTML = formatText(lessonTitle);
+                    document.getElementById('totalQNum').innerText = questions.length;
+                    
+                    renderAllQuestions();
+                    document.getElementById('quizLoader').style.display = 'none';
+                    document.getElementById('quizApp').style.display = 'block';
 
-                    renderQuestions();
+                    // Ready to start
+                    startQuizBtn.disabled = false;
+                    startQuizBtn.innerText = "தொடங்கவும் (START)";
+                    
+                    checkEnglishSubject();
+                    updateLangUI();
                 } catch (e) {
-                    alert("Error: " + e.message);
-                } finally {
-                    document.getElementById('loading').style.display = 'none';
+                    console.error("Init Error:", e);
+                    alert("தேர்வை லோடு செய்வதில் பிழை ஏற்பட்டது: " + e.message);
                 }
             }
 
-            function renderQuestions() {
+            initQuiz();
+
+            startQuizBtn.onclick = () => {
+                const name = userNameInput.value.trim();
+                if (!name) { alert("உங்கள் பெயரை உள்ளிடவும்!"); return; }
+                currentUserName = name;
+                document.getElementById('namePrompt').style.display = 'none';
+                document.getElementById('nameOverlay').style.display = 'none';
+                window.scrollTo(0, 0);
+            };
+
+            userNameInput.onkeyup = (e) => {
+                if (e.key === 'Enter' && !startQuizBtn.disabled) startQuizBtn.onclick();
+            };
+
+            window.handleSelect = (qIdx, oIdx, el) => {
+                if (resultsRevealed) return;
+                const grid = document.getElementById(`options-${qIdx}`);
+                if (!grid || grid.classList.contains('locked')) return;
+
+                const q = questions[qIdx];
+                const correctIdx = q.answer !== undefined ? q.answer : q.a;
+                answers[qIdx] = oIdx;
+                
+                const items = grid.querySelectorAll('.option-item');
+                if (oIdx === correctIdx) el.classList.add('correct');
+                else {
+                    el.classList.add('wrong');
+                    if (items[correctIdx]) items[correctIdx].classList.add('correct');
+                }
+                el.classList.add('selected');
+                grid.classList.add('locked');
+            };
+
+            function renderAllQuestions() {
                 const container = document.getElementById('questionContainer');
+                if (!container) return;
                 container.innerHTML = questions.map((q, idx) => `
                     <div class="question-card">
-                        <div class="q-text"><strong>${idx + 1}.</strong> ${formatText(q.question || q.q)}</div>
+                        <div class="question-text">
+                            <strong>${idx + 1}.</strong> ${formatText(q.question || q.q)}
+                        </div>
                         <div class="options-grid" id="options-${idx}">
                             ${q.options.map((opt, oIdx) => `
                                 <div class="option-item" onclick="handleSelect(${idx}, ${oIdx}, this)">
-                                    ${formatText(opt)}
+                                    <span>${formatText(opt)}</span>
                                 </div>
                             `).join('')}
                         </div>
@@ -268,25 +595,10 @@
                 `).join('');
             }
 
-            window.handleSelect = (qIdx, oIdx, el) => {
-                const grid = document.getElementById(`options-${qIdx}`);
-                if (grid.classList.contains('locked')) return;
-
-                const q = questions[qIdx];
-                const correctIdx = q.answer !== undefined ? q.answer : q.a;
-                answers[qIdx] = oIdx;
-
-                const items = grid.querySelectorAll('.option-item');
-                items.forEach(it => it.classList.remove('selected'));
-                el.classList.add('selected');
-
-                // Instant Feedback
-                if (oIdx === correctIdx) el.classList.add('correct');
-                else {
-                    el.classList.add('wrong');
-                    if (items[correctIdx]) items[correctIdx].classList.add('correct');
-                }
-                grid.classList.add('locked');
+            window.toggleLang = (lang) => {
+                currentLanguage = lang;
+                localStorage.setItem('appLanguage', lang);
+                updateLangUI();
             };
 
             function formatText(text) {
@@ -299,27 +611,45 @@
                 return html;
             }
 
-            document.getElementById('startQuizBtn').onclick = () => {
-                const name = document.getElementById('userNameInput').value.trim();
-                if (!name) { alert("Please enter name!"); return; }
-                document.getElementById('namePrompt').style.display = 'none';
-                document.getElementById('resName').innerText = name;
+            function updateLangUI() {
+                document.body.className = 'lang-' + currentLanguage;
+            }
+
+            function checkEnglishSubject() {
+                if (subject && subject.includes('english')) {
+                    document.getElementById('inlineLangToggle').style.display = 'flex';
+                }
+            }
+
+            window.closeResults = () => {
+                document.getElementById('overlay').style.display = 'none';
+                document.getElementById('resultView').style.display = 'none';
             };
 
-            document.getElementById('finalSubmitBtn').onclick = () => {
-                let score = 0;
-                questions.forEach((q, idx) => {
-                    if (answers[idx] === (q.answer !== undefined ? q.answer : q.a)) score++;
-                });
+            const submitBtn = document.getElementById('finalSubmitBtn');
+            if (submitBtn) {
+                submitBtn.onclick = () => {
+                    let score = 0;
+                    questions.forEach((q, idx) => {
+                        if (answers[idx] === (q.answer !== undefined ? q.answer : q.a)) score++;
+                    });
+                    resultsRevealed = true;
+                    document.getElementById('overlay').style.display = 'block';
+                    document.getElementById('resultView').style.display = 'block';
+                    document.getElementById('finalScore').innerText = `${score}/${questions.length}`;
+                    document.getElementById('resUserName').innerText = currentUserName;
+                    document.getElementById('resLessonTitle').innerText = currentLessonTitleDisplay.replace(/\|\|/g, ' / ');
+                    
+                    const pct = (score / questions.length) * 100;
+                    document.getElementById('resultMsg').innerText = pct >= 80 ? "சிறப்பு! (Excellent!)" : pct >= 50 ? "நல்ல முயற்சி! (Good!)" : "மேலும் பயிற்சி தேவை. (Keep it up!)";
+                    window.scrollTo(0, 0);
+                };
+            }
 
-                document.getElementById('finalScore').innerText = `${score}/${questions.length}`;
-                document.getElementById('resLesson').innerText = lessonTitle;
-                const pct = (score / questions.length) * 100;
-                document.getElementById('resultMsg').innerText = pct >= 80 ? "Excellent!" : pct >= 50 ? "Good Job!" : "Keep Practicing!";
-                document.getElementById('resultOverlay').style.display = 'flex';
-            };
-
-            init();
+            waitForAuth().then(user => {
+                if (!user) { window.location.href = 'login.html'; return; }
+                checkEnglishSubject();
+            });
         })();
     </script>
 </body>

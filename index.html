@@ -2,505 +2,250 @@
 <html lang="ta">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A1 Coaching Centre - Dashboard</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>A1 Dashboard - Compact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
     <style>
-        .dashboard-header {
-            background: linear-gradient(135deg, var(--primary-dark), var(--primary));
-            color: white;
-            padding: 4rem 1.5rem;
-            border-radius: 0 0 3rem 3rem;
-            margin-bottom: -2rem;
-            text-align: center;
+        :root {
+            --primary: #1e3a8a;
+            --primary-soft: #eff6ff;
+            --accent: #f43f5e;
+            --bg: #f8fafc;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
         }
 
-        .welcome-text {
-            font-size: 2.2rem;
-            margin-bottom: 0.5rem;
-        }
-
-
-        /* Dashboard Background Effect */
-        .dashboard-bg {
-            position: fixed;
-            top: 0; left: 0; width: 100vw; height: 100vh;
-            background-color: #f8fafc;
-            background-image: 
-                radial-gradient(at 0% 0%, rgba(37, 99, 235, 0.05) 0px, transparent 50%),
-                radial-gradient(at 100% 0%, rgba(225, 29, 72, 0.05) 0px, transparent 50%),
-                radial-gradient(at 100% 100%, rgba(13, 148, 136, 0.05) 0px, transparent 50%),
-                radial-gradient(at 0% 100%, rgba(217, 119, 6, 0.05) 0px, transparent 50%);
-            z-index: -1;
-            pointer-events: none;
-        }
-
-        .subject-card {
-            flex: 0 0 140px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            padding: 1.1rem 0.6rem;
-            cursor: pointer;
-            text-decoration: none;
-            color: inherit;
-            border-radius: 1rem;
-            border: 1px solid rgba(255, 255, 255, 0.9);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.03);
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            scroll-snap-align: start;
-            position: relative;
-            overflow: hidden;
-            background: rgba(255,255,255,0.7);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-        }
-
-        .subject-card::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0; height: 100%;
-            background: linear-gradient(180deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 100%);
-            z-index: 0;
-            pointer-events: none;
-        }
-
-        .subject-card > * {
-            position: relative;
-            z-index: 1;
-        }
-
-        .subject-icon {
-            width: 44px;
-            height: 44px;
-            background: #ffffff !important;
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 0.6rem;
-            font-size: 1.25rem;
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
-        }
-
-        .subject-card:hover {
-            transform: translateY(-8px) scale(1.02);
-            box-shadow: 0 20px 35px rgba(0,0,0,0.08);
-            border-color: #ffffff;
-        }
-
-        .subject-card:hover .subject-icon {
-            transform: scale(1.15) rotate(5deg);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-        }
-        
-        /* Vibrant Premium Themes */
-        .subject-card.tamil { 
-            background: linear-gradient(145deg, rgba(255,241,242,0.8), rgba(255,228,230,0.8)); 
-            border-bottom: 4px solid #e11d48;
-        }
-        .subject-card.tamil .subject-icon { color: #e11d48; }
-        .subject-card.tamil h3 { color: #9f1239; }
-
-        .subject-card.english { 
-            background: linear-gradient(145deg, rgba(240,249,255,0.8), rgba(224,242,254,0.8)); 
-            border-bottom: 4px solid #0284c7;
-        }
-        .subject-card.english .subject-icon { color: #0284c7; }
-        .subject-card.english h3 { color: #075985; }
-
-        .subject-card.maths { 
-            background: linear-gradient(145deg, rgba(240,253,250,0.8), rgba(204,251,241,0.8)); 
-            border-bottom: 4px solid #0d9488;
-        }
-        .subject-card.maths .subject-icon { color: #0d9488; }
-        .subject-card.maths h3 { color: #115e59; }
-
-        .subject-card.science { 
-            background: linear-gradient(145deg, rgba(240,253,244,0.8), rgba(220,252,231,0.8)); 
-            border-bottom: 4px solid #16a34a;
-        }
-        .subject-card.science .subject-icon { color: #16a34a; }
-        .subject-card.science h3 { color: #166534; }
-
-        .subject-card.social { 
-            background: linear-gradient(145deg, rgba(255,251,235,0.8), rgba(254,243,199,0.8)); 
-            border-bottom: 4px solid #d97706;
-        }
-        .subject-card.social .subject-icon { color: #d97706; }
-        .subject-card.social h3 { color: #92400e; }
-
-        .subject-card.psychology { 
-            background: linear-gradient(145deg, rgba(250,245,255,0.8), rgba(243,232,255,0.8)); 
-            border-bottom: 4px solid #9333ea;
-        }
-        .subject-card.psychology .subject-icon { color: #9333ea; }
-        .subject-card.psychology h3 { color: #6b21a8; }
-
-        .subject-card h3 {
-            margin: 0;
-            line-height: 1.2;
-            font-size: 0.95rem;
-            font-weight: 800;
-            letter-spacing: -0.01em;
-        }
-
-        /* Disabled State for Regular Subjects */
-        .subject-card.disabled {
-            opacity: 0.6;
-            filter: grayscale(1);
-            cursor: not-allowed;
-            pointer-events: none;
-        }
-        .subject-card.disabled::after {
-            content: '🔒';
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            font-size: 1rem;
-        }
-
-        .nav-actions {
-            display: flex;
-            gap: 1rem;
-            align-items: center;
-        }
-        
-        .section-header {
-            margin: 2.5rem 0 1.2rem;
-            font-size: 1.45rem;
-            color: #1e293b;
-            font-weight: 800;
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-            position: relative;
-        }
-
-        .section-header::after {
-            content: '';
-            flex: 1;
-            height: 2px;
-            background: linear-gradient(90deg, #e2e8f0, transparent);
-            margin-left: 0.5rem;
-        }
-
-        .navbar {
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            background: rgba(255,255,255,0.85);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
-            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-            border-bottom: 1px solid rgba(255,255,255,0.6);
-        }
+        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
         body {
-            overflow-x: hidden;
+            background: var(--bg);
+            margin: 0;
+            color: var(--text-main);
+            font-family: 'Outfit', sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden; /* Zero scroll */
         }
 
-        .subject-row {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1rem;
-            padding: 0.5rem;
+        /* Ultra Compact Navbar */
+        nav {
+            background: white;
+            padding: 0.3rem 0.75rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #f1f5f9;
         }
-        
+        .brand { display: flex; align-items: center; gap: 0.4rem; text-decoration: none; }
+        .brand img { height: 32px; }
+        .brand-text h1 { font-size: 0.75rem; margin: 0; font-weight: 900; color: var(--text-main); line-height: 1; }
+        .brand-text span { font-size: 0.45rem; font-weight: 700; color: var(--accent); }
+
+        .btn-auth {
+            padding: 0.25rem 0.6rem;
+            border: 1.5px solid var(--primary);
+            border-radius: 0.4rem;
+            color: var(--primary);
+            font-size: 0.6rem;
+            font-weight: 800;
+            background: transparent;
+            cursor: pointer;
+        }
+
+        /* Notice Ticker */
+        .ticker {
+            background: #1e293b;
+            color: white;
+            padding: 0.25rem 0.5rem;
+            font-size: 0.55rem;
+            font-weight: 600;
+            white-space: nowrap;
+            overflow: hidden;
+            position: relative;
+        }
+        .ticker-inner { display: inline-block; animation: scroll 20s linear infinite; }
+        @keyframes scroll { from { transform: translateX(100%); } to { transform: translateX(-100%); } }
+
+        /* Compact Header Row */
+        .header-row {
+            padding: 0.4rem 0.75rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header-row h2 { font-size: 0.75rem; margin: 0; font-weight: 900; }
+        #indexDate { font-size: 0.55rem; font-weight: 800; color: #166534; background: #dcfce7; padding: 0.15rem 0.5rem; border-radius: 1rem; }
+
+        /* Daily Exam Card */
+        .daily-card {
+            margin: 0 0.75rem 0.5rem;
+            background: linear-gradient(135deg, #dcfce7, #bbf7d0);
+            border-radius: 0.75rem;
+            padding: 0.6rem;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            text-decoration: none;
+            border-bottom: 3px solid #16a34a;
+        }
+        .daily-icon { font-size: 1.25rem; }
+        .daily-text h3 { font-size: 0.8rem; margin: 0; color: #166534; font-weight: 900; }
+        .daily-text p { font-size: 0.55rem; margin: 0; color: #14532d; font-weight: 600; }
+
+        /* Subject Grid */
+        .subjects-container {
+            flex: 1;
+            padding: 0 0.75rem 0.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .subject-group h4 { font-size: 0.65rem; margin: 0 0 0.4rem; color: var(--text-muted); font-weight: 800; border-bottom: 1px solid #f1f5f9; padding-bottom: 0.1rem; }
+        .subject-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.4rem;
+        }
+
         .subject-card {
-            width: 100%;
-            min-height: 90px;
-            padding: 1.2rem 0.6rem;
-            border-radius: 1.2rem;
+            background: white;
+            border-radius: 0.6rem;
+            padding: 0.5rem 0.25rem;
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
-            cursor: pointer;
             text-decoration: none;
             color: inherit;
-            border: 1px solid rgba(255, 255, 255, 0.9);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.03);
-            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            border: 1px solid #f1f5f9;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
             position: relative;
-            overflow: hidden;
-            background: rgba(255,255,255,0.75);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
         }
+        .subject-card.disabled { opacity: 0.5; }
+        .subject-card.disabled::after { content: '🔒'; position: absolute; top: 2px; right: 2px; font-size: 0.5rem; }
 
-        .subject-icon {
-            width: 44px;
-            height: 44px;
-            font-size: 1.25rem;
-            margin-bottom: 0.5rem;
-            border-radius: 12px;
-            background: #ffffff !important;
+        .s-icon { font-size: 1rem; margin-bottom: 0.2rem; }
+        .s-name { font-size: 0.55rem; font-weight: 800; color: var(--text-main); }
+
+        /* Footer Banner */
+        .contact-banner {
+            background: linear-gradient(135deg, #fef08a, #eab308);
+            padding: 0.5rem 0.75rem;
             display: flex;
+            justify-content: space-between;
             align-items: center;
-            justify-content: center;
-            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+            border-top: 1px solid #fde047;
         }
-
-        .subject-card h3 {
-            font-size: 0.95rem;
-            font-weight: 800;
-        }
-
-        @keyframes pulseMobile {
-            from { transform: scale(1); opacity: 1; }
-            to { transform: scale(1.05); opacity: 0.8; }
+        .contact-text { font-size: 0.6rem; font-weight: 900; color: #1e293b; }
+        .btn-whatsapp { 
+            background: #25D366; color: white; border: none; padding: 0.25rem 0.6rem; 
+            border-radius: 1rem; font-size: 0.55rem; font-weight: 800; cursor: pointer;
         }
     </style>
 </head>
 <body>
-    <div class="dashboard-bg"></div>
-
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="brand" style="text-decoration: none; display: flex; align-items: center; gap: 0.6rem; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
-                <!-- User's newly adapted logo image goes here -->
-                <img src="images/logo.png" alt="A1" style="height: 60px; object-fit: contain; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.08));" onerror="this.onerror=null; this.src=''; this.alt='A1'; this.style.fontSize='2rem'; this.style.fontWeight='900'; this.style.color='var(--primary-dark)';">
-                <!-- Coaching Text next to the A1 logo -->
-                <div style="display: flex; flex-direction: column; justify-content: center;">
-                    <span style="font-size: 1.6rem; font-weight: 800; color: var(--text-main); line-height: 1; letter-spacing: -0.05em;">COACHING</span>
-                    <span style="font-size: 0.7rem; font-weight: 700; color: var(--accent); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 0.1rem;">TNPSC & TET EXPERTS</span>
-                    <span style="font-size: 0.9rem; font-weight: 800; color: #16a34a; margin-top: 0.3rem; animation: pulseMobile 1.5s infinite alternate;">📞 6369371452</span>
-                </div>
-            </a>
-            <div class="nav-actions">
-                <button id="authBtn" class="btn btn-outline" style="padding: 0.5rem 1rem; border-radius: 0.5rem;">Login</button>
+    <nav>
+        <a href="index.html" class="brand">
+            <img src="images/logo.png" alt="A1">
+            <div class="brand-text">
+                <h1>COACHING</h1>
+                <span>TNPSC & TET EXPERTS</span>
             </div>
-        </div>
+        </a>
+        <button id="authBtn" class="btn-auth">Login</button>
     </nav>
 
-    <!-- Announcement Ticker -->
-    <div class="announcement-ticker">
-        <div class="ticker-content">
-            <span style="display:inline-flex;align-items:center;gap:0.5rem;"><span style="background:var(--accent);color:white;padding:0.1rem 0.6rem;border-radius:1rem;font-size:0.75rem;font-weight:800;letter-spacing:0.5px;box-shadow:0 2px 4px rgba(255,109,0,0.3);">SPECIAL OFFER</span> PDF மெட்டீரியல், + 16 TET மாதிரி தேர்வுகள், 200 யூனிட் தேர்வுகள், 20 திருப்புதல் தேர்வுகள் என அனைத்தும் <strong>ரூபாய் 500 மட்டுமே!</strong> உடனே தொடர்பு கொள்ளவும்: <strong>6369371452</strong></span>
-            
-            <span style="display:inline-flex;align-items:center;gap:0.5rem;"><span style="background:var(--accent);color:white;padding:0.1rem 0.6rem;border-radius:1rem;font-size:0.75rem;font-weight:800;letter-spacing:0.5px;box-shadow:0 2px 4px rgba(255,109,0,0.3);">SPECIAL OFFER</span> PDF மெட்டீரியல், + 16 TET மாதிரி தேர்வுகள், 200 யூனிட் தேர்வுகள், 20 திருப்புதல் தேர்வுகள் என அனைத்தும் <strong>ரூபாய் 500 மட்டுமே!</strong> உடனே தொடர்பு கொள்ளவும்: <strong>6369371452</strong></span>
+    <div class="ticker">
+        <div class="ticker-inner">
+            PDF மெட்டீரியல் + TET மாதிரி தேர்வுகள் + 200 யூனிட் தேர்வுகள் அனைத்தும் ரூபாய் 500 மட்டுமே! தொடர்புக்கு: 6369371452
         </div>
     </div>
 
-    <main class="container" style="padding-top: 2rem;">
-        <!-- Subjects Rows Layout (YouTube Style) -->
-        
-        <!-- DAILY CHALLENGE SECTION -->
-        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 1rem;">
-            <h2 class="section-header" style="margin-bottom: 0;">📅 </h2>
-            <div id="indexDate" style="font-size: 0.9rem; font-weight: 800; color: #1e3a8a; background: #dcfce7; padding: 0.4rem 1rem; border-radius: 2rem; border: 1px solid #16a34a;"></div>
+    <div class="header-row">
+        <h2>தினசரிப் பாடங்கள்</h2>
+        <div id="indexDate">29 ஏப்ரல், 2026</div>
+    </div>
+
+    <a href="daily.html" class="daily-card">
+        <div class="daily-icon">🎯</div>
+        <div class="daily-text">
+            <h3>இன்றைய சிறப்புத் தேர்வு (Daily Exam)</h3>
+            <p>தினசரிப் பாடங்கள் மற்றும் தேர்வை எழுத இங்கே கிளிக் செய்யவும்</p>
         </div>
-        <div style="margin-bottom: 2rem;">
-            <a href="quiz.html?lesson=1&paper=1" class="subject-card" style="background: linear-gradient(135deg, #dcfce7, #bbf7d0); border-bottom: 4px solid #16a34a; width: 100%; flex-direction: row; justify-content: center; gap: 1rem; padding: 1.5rem; text-decoration: none;">
-                <div class="subject-icon" style="margin:0; font-size: 1.5rem; min-width: 50px;">🎯</div>
-                <div style="text-align: left;">
-                    <h3 style="font-size: 1.2rem; color: #166534; margin-bottom: 0.2rem;">இன்றைய சிறப்புத் தேர்வு (Daily Exam)</h3>
-                    <p style="margin:0; font-size: 0.85rem; color: #14532d; font-weight: 700;">தினசரிப் பாடங்கள் மற்றும் தேர்வை எழுத இங்கே கிளிக் செய்யவும்</p>
-                </div>
-            </a>
-        </div>
+    </a>
 
-        <h2 class="section-header">📄 TET Paper I (வகுப்பு 1 - 5)</h2>
-        <div class="subject-row">
-            <a href="subject.html?id=tamil&paper=1" class="subject-card tamil disabled">
-                <div class="subject-icon">📚</div>
-                <h3>தமிழ்</h3>
-            </a>
-            <a href="subject.html?id=english&paper=1" class="subject-card english disabled">
-                <div class="subject-icon">📖</div>
-                <h3>English</h3>
-            </a>
-            <a href="subject.html?id=maths&paper=1" class="subject-card maths disabled">
-                <div class="subject-icon">📐</div>
-                <h3>கணிதம்</h3>
-            </a>
-            <a href="subject.html?id=science&paper=1" class="subject-card science disabled">
-                <div class="subject-icon">🌱</div>
-                <h3>சுற்றுச்சூழல்</h3>
-            </a>
-            <a href="subject.html?id=social&paper=1" class="subject-card social disabled">
-                <div class="subject-icon">🌍</div>
-                <h3>சமூக அறிவியல்</h3>
-            </a>
-        </div>
-
-
-
-        <!-- ROW 3: Additional Sections (Combined) -->
-        <h2 class="section-header">⭐ கூடுதல் பகுதிகள்</h2>
-        <div class="subject-row">
-            <a href="subject.html?id=psychology" class="subject-card psychology disabled">
-                <div class="subject-icon">🧠</div>
-                <h3>உளவியல்</h3>
-            </a>
-            <a href="subject.html?id=mocktest" class="subject-card tamil disabled">
-                <div class="subject-icon">📝</div>
-                <h3>மாதிரித்தேர்வு</h3>
-            </a>
-            <a href="subject.html?id=revision" class="subject-card tamil disabled">
-                <div class="subject-icon">🔄</div>
-                <h3>திருப்புதல் தேர்வு</h3>
-            </a>
-            <a href="subject.html?id=standard_6_7_8" class="subject-card tamil disabled">
-                <div class="subject-icon">📚</div>
-                <h3>6, 7, 8 வகுப்புகள்</h3>
-            </a>
-        </div>
-
-
-        <!-- Simple Contact Banner -->
-        <div class="contact-banner card animate-fade" style="background: linear-gradient(135deg, #fef08a, #eab308); color: #1e293b; text-align: center; padding: 1.8rem 1.5rem; border: none; box-shadow: 0 8px 25px -5px rgba(234, 179, 8, 0.4); border-radius: 1.25rem; margin-top: 2rem; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1.2rem;">
-            
-            <div style="display: flex; gap: 1rem; align-items: center; justify-content: center; flex-wrap: wrap;">
-                <div style="background: rgba(255,255,255,0.6); padding: 0.6rem 1.5rem; border-radius: 1rem; box-shadow: 0 4px 10px rgba(0,0,0,0.05); display: flex; align-items: center;">
-                    <p style="margin: 0; font-size: 1.25rem; font-weight: 900; color: #0f172a; letter-spacing: 1px;">GPAY: <span style="color: #dc2626;">8883464252</span></p>
-                </div>
-                
-                <a href="tel:6369371452" style="background: var(--primary); color: white; width: 46px; height: 46px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" title="Call Us">
-                    <svg style="width: 22px; height: 22px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-                </a>
+    <div class="subjects-container">
+        <div class="subject-group">
+            <h4>TET PAPER I (வகுப்பு 1 - 5)</h4>
+            <div class="subject-grid">
+                <a href="subject.html?id=tamil&paper=1" class="subject-card disabled"><div class="s-icon">📚</div><div class="s-name">தமிழ்</div></a>
+                <a href="subject.html?id=english&paper=1" class="subject-card disabled"><div class="s-icon">📖</div><div class="s-name">English</div></a>
+                <a href="subject.html?id=maths&paper=1" class="subject-card disabled"><div class="s-icon">📐</div><div class="s-name">கணிதம்</div></a>
+                <a href="subject.html?id=science&paper=1" class="subject-card disabled"><div class="s-icon">🌱</div><div class="s-name">சுற்றுச்சூழல்</div></a>
+                <a href="subject.html?id=social&paper=1" class="subject-card disabled"><div class="s-icon">🌍</div><div class="s-name">சமூக அறிவியல்</div></a>
             </div>
-            
-            <button onclick="document.getElementById('paidGroupModal').style.display='flex';" style="background: #1e293b; color: white; padding: 0.8rem 2rem; border: none; border-radius: 2rem; font-weight: 800; font-size: 1.1rem; box-shadow: 0 10px 20px rgba(30, 41, 59, 0.3); transition: transform 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-                Paid Group-ல் இணைய
-            </button>
-            
         </div>
 
-    </main>
-
-    <footer>
-        <p>&copy; 2026 A1 Coaching Centre. All rights reserved.</p>
-    </footer>
-
-        <p>&copy; 2026 A1 Coaching Centre. All rights reserved.</p>
-    </footer>
-
-    <!-- Paid Group Modal -->
-    <div id="paidGroupModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 2000; align-items: center; justify-content: center;">
-        <div style="background: white; border-radius: 1rem; width: 90%; max-width: 400px; padding: 1.5rem; text-align: center; position: relative; box-shadow: 0 10px 25px rgba(0,0,0,0.2);">
-            <button onclick="document.getElementById('paidGroupModal').style.display='none';" style="position: absolute; top: 10px; right: 15px; background: none; border: none; font-size: 1.5rem; font-weight: bold; cursor: pointer; color: #64748b; padding: 0;">&times;</button>
-            <h3 style="color: #1e293b; margin-top: 0.5rem; margin-bottom: 1rem; font-size: 1.3rem;">🎯 Paid Group</h3>
-            
-            <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 0.5rem; padding: 1rem; margin-bottom: 1rem; text-align: left;">
-                <p style="margin: 0.4rem 0; font-weight: bold; color: #334155; font-size: 0.95rem;">TET PAPER - 1 (1-5 வகுப்புகள்) - ₹500</p>
-                <p style="margin: 0.4rem 0; font-weight: bold; color: #334155; font-size: 0.95rem;">TET PAPER - 2 (6-8 வகுப்புகள்) - ₹500</p>
-                <p style="margin: 0.4rem 0; font-weight: bold; color: #e11d48; font-size: 0.95rem;">TET PAPER 1 & 2 - ₹900</p>
+        <div class="subject-group">
+            <h4>⭐ கூடுதல் பகுதிகள்</h4>
+            <div class="subject-grid">
+                <a href="subject.html?id=psychology" class="subject-card disabled"><div class="s-icon">🧠</div><div class="s-name">உளவியல்</div></a>
+                <a href="subject.html?id=mocktest" class="subject-card disabled"><div class="s-icon">📝</div><div class="s-name">மாதிரித்தேர்வு</div></a>
+                <a href="subject.html?id=revision" class="subject-card disabled"><div class="s-icon">🔄</div><div class="s-name">திருப்புதல்</div></a>
             </div>
-            
-            <p style="font-weight: 800; color: #0f172a; margin-bottom: 0.8rem; font-size: 0.9rem;">GPAY NO : <span style="color:var(--primary);">8883464252</span> அல்லது <span style="color:var(--primary);">8807656338</span></p>
-            
-            <div style="display: flex; flex-direction: column; gap: 0.75rem;">
-                <input type="text" id="pgName" placeholder="மாணவர் பெயர்" style="width: 100%; padding: 0.8rem; border: 1px solid #cbd5e1; border-radius: 0.5rem; font-size: 1rem; font-family: inherit; box-sizing: border-box;">
-                <input type="text" id="pgPaper" placeholder="சேர விரும்பும் Paper" style="width: 100%; padding: 0.8rem; border: 1px solid #cbd5e1; border-radius: 0.5rem; font-size: 1rem; font-family: inherit; box-sizing: border-box;">
-                <input type="tel" id="pgMobile" placeholder="மொபைல் No" style="width: 100%; padding: 0.8rem; border: 1px solid #cbd5e1; border-radius: 0.5rem; font-size: 1rem; font-family: inherit; box-sizing: border-box;">
-            </div>
-            
-            <button onclick="sendPaidGroupMsg()" style="width: 100%; background: #25D366; color: white; border: none; border-radius: 0.5rem; padding: 0.8rem; margin-top: 1rem; font-weight: bold; font-family: inherit; font-size: 1.05rem; cursor: pointer; transition: background 0.3s;" onmouseover="this.style.background='#20ba59'" onmouseout="this.style.background='#25D366'">
-                Send to WhatsApp
-            </button>
         </div>
     </div>
-    
-    <script>
-        function sendPaidGroupMsg() {
-            const name = document.getElementById('pgName').value;
-            const paper = document.getElementById('pgPaper').value;
-            const mobile = document.getElementById('pgMobile').value;
-            if(!name || !paper || !mobile) {
-                alert("தயவுசெய்து அனைத்து விவரங்களையும் நிரப்பவும்!");
-                return;
-            }
-            const msg = `*Paid Group Registration:*\nமாணவர் பெயர்: ${name}\nசேர விரும்பும் Paper: ${paper}\nமொபைல் No: ${mobile}`;
-            const url = `https://wa.me/916369371452?text=${encodeURIComponent(msg)}`;
-            window.open(url, '_blank');
-        }
-    </script>
 
-
+    <div class="contact-banner">
+        <div class="contact-text">GPAΥ: 8883464252</div>
+        <button onclick="window.open('https://wa.me/916369371452', '_blank')" class="btn-whatsapp">WhatsApp-ல் இணைய</button>
+    </div>
 
     <script type="module">
         (async () => {
-            const v = new Date().getTime();
+            const v = Date.now();
             const { checkAuth, waitForAuth } = await import(`./js/auth.js?v=${v}`);
 
-            // Synchronously set button state to avoid flicker
+            const authBtn = document.getElementById('authBtn');
             const _session = localStorage.getItem('A1_COACHING_PAPER_1_SESSION_FINAL_2026');
             const _user = _session ? JSON.parse(_session) : null;
-            const authBtn = document.getElementById('authBtn');
-            if (authBtn) authBtn.textContent = _user ? 'Logout' : 'Login';
+            if (authBtn) authBtn.innerText = _user ? 'Logout' : 'Login';
 
-            // Check auth and update UI
             checkAuth();
 
             let currentUser = _user;
-            let authResolved = true;
-
-            waitForAuth().then((user) => {
+            waitForAuth().then(user => {
                 currentUser = user;
-                authResolved = true;
-                if (authBtn) authBtn.textContent = user ? 'Logout' : 'Login';
-
-                const dateStr = new Date().toLocaleDateString('ta-IN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-                const dateEl = document.getElementById('indexDate');
-                if (dateEl) dateEl.innerText = dateStr;
+                if (authBtn) authBtn.innerText = user ? 'Logout' : 'Login';
+                
+                // Set Date
+                const dateStr = new Date().toLocaleDateString('ta-IN', { day: 'numeric', month: 'long', year: 'numeric' });
+                document.getElementById('indexDate').innerText = dateStr;
             });
 
             document.addEventListener('click', async (e) => {
                 const link = e.target.closest('a');
-                // If it's a link and not the login/logout button
-                if (link && !link.closest('.nav-actions') && link.id !== 'authBtn') {
-                    // Ignore contact links (WhatsApp, Call, etc.) from login restriction
-                    const isContactLink = link.href.startsWith('tel:') || link.href.includes('wa.me') || link.target === '_blank';
-                    if (isContactLink) {
-                        return; // Let default browser behavior execute
-                    }
-
-                    e.preventDefault(); // Stop default navigation
-                    
-                    // Wait for auth to resolve if it hasn't yet
-                    if (!authResolved) {
-                        await waitForAuth();
-                    }
-
-                    // If user is not logged in, they must login to access the menu
+                if (link && link.classList.contains('subject-card') || (link && link.classList.contains('daily-card'))) {
+                    e.preventDefault();
                     if (!currentUser) {
-                        alert("பாடங்களை அணுக லாகின் (Login) செய்ய வேண்டும்!");
+                        alert("பாடங்களை அணுக லாகின் செய்யவும்!");
                         window.location.href = 'login.html';
                     } else {
-                        // If logged in, proceed to the requested menu
                         window.location.href = link.href;
                     }
                 }
             });
 
-            const authBtnEl = document.getElementById('authBtn');
-            if (authBtnEl) {
-                authBtnEl.addEventListener('click', () => {
-                    if (currentUser) {
-                        if (window.logout) window.logout();
-                    } else {
-                        window.location.href = 'login.html';
-                    }
-                });
-            }
-
-            // --- DYNAMIC DAILY CHALLENGE LINK ---
-            try {
-                const dailyRes = await fetch('1.json?v=' + v);
-                if (dailyRes.ok) {
-                    const dailyData = await dailyRes.json();
-                    const dailyLink = document.querySelector('a[href*="quiz.html?lesson=1"]');
-                    if (dailyLink && dailyData.activeSubject) {
-                        // Redirect to daily.html
-                        dailyLink.href = `daily.html`;
-                    }
+            authBtn.onclick = () => {
+                if (currentUser) {
+                    localStorage.removeItem('A1_COACHING_PAPER_1_SESSION_FINAL_2026');
+                    window.location.reload();
+                } else {
+                    window.location.href = 'login.html';
                 }
-            } catch (e) { console.error("Could not fetch daily data for link", e); }
+            };
         })();
     </script>
 </body>
