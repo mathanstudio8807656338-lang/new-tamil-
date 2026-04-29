@@ -28,7 +28,7 @@
             overflow: hidden;
         }
 
-        /* Navbar with Back Button */
+        /* Navbar */
         nav {
             background: white;
             padding: 0.5rem 1rem;
@@ -127,14 +127,19 @@
             padding: 0.8rem 0.5rem;
             border-radius: 0.75rem;
             text-decoration: none;
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             font-weight: 900;
             display: flex; align-items: center; justify-content: center; gap: 0.4rem;
             transition: 0.2s;
+            text-align: center;
         }
         .btn-n { background: #f1f5f9; color: #475569; border: 1.5px solid #e2e8f0; }
         .btn-e { background: var(--primary); color: white; box-shadow: 0 10px 15px rgba(30, 58, 138, 0.2); }
-        .btn-l { background: #fafafa; color: #cbd5e1; border: 1.5px dashed #e2e8f0; }
+        .btn-l { 
+            background: #fafafa; color: #94a3b8; border: 1.5px dashed #e2e8f0; 
+            font-size: 0.6rem; /* Smaller for long text */
+            line-height: 1.2;
+        }
 
         /* Footer */
         .footer-bar {
@@ -194,7 +199,7 @@
     </div>
 
     <script type="module">
-        import { waitForAuth } from './js/auth.js?v=9.0';
+        import { waitForAuth } from './js/auth.js?v=11.0';
 
         (async () => {
             const container = document.getElementById('lessonContainer');
@@ -241,7 +246,7 @@
                             
                             ${isExamOpen ? 
                                 `<a href="quiz.html?subject=${subject}&class=${cGrade}&lesson=${fileId}" class="btn-sm btn-e">📝 தேர்வு (Exam)</a>` : 
-                                `<div class="btn-sm btn-l">🔒 Locked</div>`}
+                                `<div class="btn-sm btn-l">🔒 இன்று இரவு 8 மணிக்குத் திறக்கப்படும்</div>`}
                         </div>
                     </div>
                 `;
