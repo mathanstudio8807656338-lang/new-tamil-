@@ -21,61 +21,9 @@ async function generateDeterministicKey(phone) {
 }
 
 // ✅ Page load-ல் Block check + Auto Register
+// ✅ Device Lock கட்டுப்பாடு நீக்கப்பட்டுள்ளது (Free Entry Project)
 async function checkBlockStatus(user) {
-    try {
-        const deviceId = await getDeviceId();
-        const lockCheck = await checkDeviceLock(user.phoneNumber, deviceId, PROJECT_PREFIX);
-
-        if (!lockCheck.allowed) {
-            localStorage.removeItem(STORAGE_KEY);
-            document.documentElement.style.visibility = 'visible';
-            document.body.innerHTML = `
-                <div style="
-                    min-height:100vh;
-                    display:flex;
-                    align-items:center;
-                    justify-content:center;
-                    background:#0a0f1e;
-                    font-family:sans-serif;
-                    padding:20px;
-                ">
-                    <div style="
-                        background:#111827;
-                        border:1px solid #ef4444;
-                        border-radius:16px;
-                        padding:40px;
-                        max-width:400px;
-                        text-align:center;
-                        color:#e2e8f0;
-                    ">
-                        <div style="font-size:3rem;margin-bottom:16px;">🚫</div>
-                        <div style="font-size:1.2rem;font-weight:700;color:#ef4444;margin-bottom:12px;">
-                            ${lockCheck.blocked ? 'Account தடுக்கப்பட்டுள்ளது!' : 'முறைகேடான உள்நுழைவு!'}
-                        </div>
-                        <div style="font-size:0.95rem;color:#94a3b8;margin-bottom:24px;line-height:1.6;">
-                            ${lockCheck.message}
-                        </div>
-                        <a href="login.html" style="
-                            display:inline-block;
-                            background:#0ea5e9;
-                            color:white;
-                            padding:12px 32px;
-                            border-radius:8px;
-                            text-decoration:none;
-                            font-weight:700;
-                            letter-spacing:1px;
-                        ">Login Page-க்கு போ</a>
-                    </div>
-                </div>`;
-            return false;
-        }
-
-        // ✅ Auto Register
-        await registerDevice(user.phoneNumber, deviceId, PROJECT_PREFIX);
-        return true;
-    } catch (e) {
-        return true;
-    }
+    return true; // எப்போதும் அனுமதி
 }
 
 function initLoginPage() {
