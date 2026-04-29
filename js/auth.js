@@ -265,8 +265,8 @@ function initLoginPage() {
         });
     }
 
-    const backBtn = document.getElementById('backBtn');
-    const switchToFreeBtn = document.getElementById('switchToFree'); // ✨ New
+    const backBtns = document.querySelectorAll('.backToStep1, #backBtn');
+    const switchToFreeBtn = document.getElementById('switchToFree');
 
     if (switchToFreeBtn) {
         switchToFreeBtn.addEventListener('click', () => {
@@ -277,16 +277,16 @@ function initLoginPage() {
         });
     }
 
-    if (backBtn) {
-        backBtn.addEventListener('click', () => {
+    backBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
             const step1 = document.getElementById('step1');
             const step2 = document.getElementById('step2');
             const stepFree = document.getElementById('stepFree');
             if (step2) step2.style.display = 'none';
-            if (stepFree) stepFree.style.display = 'none'; // Hide free step too on back
+            if (stepFree) stepFree.style.display = 'none';
             if (step1) step1.style.display = 'block';
         });
-    }
+    });
 }
 
 export async function checkAuth() {
