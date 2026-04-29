@@ -1,5 +1,5 @@
 // A1 Coaching - Authentication Module (Project 2 - tet1.mygreenpen.com)
-import { getDeviceId, checkDeviceLock, registerDevice } from './firebase-device-lock-p2.js';
+import { getDeviceId, checkDeviceLock, registerDevice, registerFreeStudent } from './firebase-device-lock-p2.js';
 
 const CHARSET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
 const STORAGE_KEY = 'A1_COACHING_PAPER_1_SESSION_FINAL_2026';
@@ -81,8 +81,64 @@ async function checkBlockStatus(user) {
 function initLoginPage() {
     const phoneForm = document.getElementById('phoneForm');
     const pinForm = document.getElementById('pinForm');
+    const freeForm = document.getElementById('freeForm');
     if (!phoneForm || !pinForm) return;
     let currentPhoneNumber = "";
+
+    // 🔗 FREE REGISTRATION LOGIC
+    if (freeForm) {
+        freeForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const name = document.getElementById('freeName').value.trim();
+            const phone = document.getElementById('freePhone').value.trim();
+            const btn = document.getElementById('freeBtn');
+            const text = document.getElementById('freeBtnText');
+            const loader = document.getElementById('freeLoader');
+
+            if (phone.length !== 10) {
+                alert("சரியான 10 இலக்க மொபைல் எண்ணை உள்ளிடவும்!");
+                return;
+            }
+
+            btn.disabled = true;
+            if (text) text.style.display = 'none';
+            if (loader) loader.style.display = 'block';
+
+            try {
+                const deviceId = await getDeviceId();
+                const result = await registerFreeStudent(name, phone, deviceId);
+                
+                if (result.success) {
+                    const userData = {
+                        phoneNumber: phone,
+                        name: name,
+                        deviceId: deviceId,
+                        loggedInAt: Date.now(),
+                        isFree: true
+                    };
+                    localStorage.setItem(STORAGE_KEY, JSON.stringify(userData));
+
+                    const waMsg = `வணக்கம் சார், நான் ${name} (${phone}). நான் A1 இலவசத் தேர்வுத் தளத்தில் இணைந்துள்ளேன்.`;
+                    const waLink = `https://wa.me/916369371452?text=${encodeURIComponent(waMsg)}`;
+                    
+                    alert("விவரங்கள் சேமிக்கப்பட்டன! தேர்வைத் தொடங்க வாட்ஸ்அப் வழியாக எங்களுக்குத் தெரிவிக்கவும்.");
+                    window.open(waLink, '_blank');
+                    
+                    setTimeout(() => { window.location.href = "index.html"; }, 1000);
+                } else {
+                    alert("பிழை! மீண்டும் முயலவும்.");
+                    btn.disabled = false;
+                    if (text) text.style.display = 'block';
+                    if (loader) loader.style.display = 'none';
+                }
+            } catch (err) {
+                console.error(err);
+                btn.disabled = false;
+                if (text) text.style.display = 'block';
+                if (loader) loader.style.display = 'none';
+            }
+        });
+    }
 
     phoneForm.addEventListener('submit', async (e) => {
         e.preventDefault();

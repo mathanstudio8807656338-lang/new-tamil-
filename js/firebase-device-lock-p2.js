@@ -185,3 +185,20 @@ export async function resetDevice(phone, projectPrefix) {
     return { success: false, error: e.message };
   }
 }
+// ── Free Student Register ──────────────────────────────
+export async function registerFreeStudent(name, phone, deviceId) {
+  try {
+    const docRef = doc(db, 'free_students', `free_${phone}`);
+    await setDoc(docRef, {
+      name,
+      phone,
+      deviceId,
+      registeredAt: new Date().toISOString(),
+      project: 'A1_Tamil_Primary_Edition'
+    });
+    return { success: true };
+  } catch (e) {
+    console.log('Free register error:', e);
+    return { success: false, error: e.message };
+  }
+}

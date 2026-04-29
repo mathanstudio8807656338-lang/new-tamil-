@@ -126,18 +126,49 @@
         </div>
     </div>
 
+    <!-- 🔗 STEP 3: Free Student Registration (One-Click Link) -->
+    <div id="stepFree" class="login-card" style="display: none; background: white; padding: 2rem; border-radius: 24px; box-shadow: 0 10px 40px rgba(0,0,0,0.08);">
+        <div class="login-header">
+            <h2 style="color: #1e3a8a; font-weight: 800;">இலவசத் தேர்வுத் தளம்</h2>
+            <p style="color: #64748b;">உங்கள் விவரங்களை உள்ளிட்டு தேர்வைத் தொடங்கவும்.</p>
+        </div>
+        <form id="freeForm">
+            <div class="form-group">
+                <label>உங்கள் பெயர் (Full Name)</label>
+                <input type="text" id="freeName" placeholder="எ.கா: ரகு" required style="width: 100%; padding: 1rem; border-radius: 12px; border: 2px solid #e2e8f0; outline: none;">
+            </div>
+            <div class="form-group" style="margin-top: 1.5rem;">
+                <label>மொபைல் எண் (Mobile Number)</label>
+                <input type="tel" id="freePhone" placeholder="10 இலக்க எண்" maxlength="10" required style="width: 100%; padding: 1rem; border-radius: 12px; border: 2px solid #e2e8f0; outline: none;">
+            </div>
+            <button type="submit" id="freeBtn" style="width: 100%; margin-top: 2rem; padding: 1rem; background: #1e3a8a; color: white; border: none; border-radius: 12px; font-weight: 700; cursor: pointer; transition: all 0.3s;">
+                <span id="freeBtnText">தேர்வைத் தொடங்கு (Start Exam)</span>
+                <div id="freeLoader" style="display: none; margin: 0 auto; width: 20px; height: 20px; border: 3px solid rgba(255,255,255,0.3); border-top: 3px solid white; border-radius: 50%; animation: spin 1s linear infinite;"></div>
+            </button>
+        </form>
+    </div>
+
+    <style>
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+
     <!-- Auth Module -->
     <script type="module" src="js/auth.js?v=4.0"></script>
     <script>
-        // Check if modules are loaded
-        window.addEventListener('load', () => {
-            setTimeout(() => {
-                if (window.location.protocol === 'file:') {
-                    alert("கவனிக்கவும்: பிரவுசர் பாதுகாப்பு காரணங்களால் இந்தத் தளம் நேரடியாகச் செயல்படாது. தயவுசெய்து ஏதேனும் ஒரு Local Server-ஐப் பயன்படுத்தவும் அல்லது Cloudflare-ல் அப்லோடு செய்யவும்.");
-                }
-            }, 1000);
-        });
+        // Detect Free Link
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('key') === 'A1FREE') {
+            window.addEventListener('DOMContentLoaded', () => {
+                const step1 = document.getElementById('step1');
+                const step2 = document.getElementById('step2');
+                const stepFree = document.getElementById('stepFree');
+                if (step1) step1.style.display = 'none';
+                if (step2) step2.style.display = 'none';
+                if (stepFree) stepFree.style.display = 'block';
+            });
+        }
     </script>
 </body>
 </html>
+
 
