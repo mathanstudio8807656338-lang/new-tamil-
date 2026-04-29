@@ -122,13 +122,13 @@ function initLoginPage() {
                     };
                     localStorage.setItem(STORAGE_KEY, JSON.stringify(userData));
 
-                    const waMsg = `வணக்கம் சார், நான் ${name} (${phone}). நான் A1 இலவசத் தேர்வுத் தளத்தில் இணைந்துள்ளேன்.`;
-                    const waLink = `https://wa.me/916369371452?text=${encodeURIComponent(waMsg)}`;
+                    // 3. Join WhatsApp Group
+                    const groupLink = `https://chat.whatsapp.com/KDL9niBSU6t0Nx1wlBtpJy`;
                     
-                    alert("விவரங்கள் சேமிக்கப்பட்டன! தேர்வைத் தொடங்க வாட்ஸ்அப் வழியாக எங்களுக்குத் தெரிவிக்கவும்.");
-                    window.open(waLink, '_blank');
+                    alert("விவரங்கள் சேமிக்கப்பட்டன! எங்களது அதிகாரப்பூர்வ வாட்ஸ்அப் குழுவில் இணைந்து புதிய பாடங்களைப் பெற்றிடுங்கள்.");
+                    window.open(groupLink, '_blank');
                     
-                    setTimeout(() => { window.location.href = "index.html"; }, 1000);
+                    setTimeout(() => { window.location.href = "index.html"; }, 1500);
                 } else {
                     alert("பிழை! மீண்டும் முயலவும்.");
                     btn.disabled = false;
