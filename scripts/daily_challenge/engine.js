@@ -15,7 +15,7 @@ const path  = require('path');
 const https = require('https');
 
 const TRACKER_FILE  = path.join(__dirname, 'tracker.json');
-const TARGET_REPO   = 'a1onlinecoachingcenter-star/test-series-'; // Assuming same target or local repo
+const TARGET_REPO   = 'mathanstudio8807656338-lang/new-tamil-'; // Updated to current repo
 const TOKEN         = process.env.AUTOMATIC_TOKEN;
 
 const DAY_SUBJECT = {
