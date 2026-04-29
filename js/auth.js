@@ -306,7 +306,7 @@ export async function checkAuth() {
         }
 
         if ((path.includes('login.html') || path.endsWith('/login')) && user) {
-            window.location.replace("index.html");
+            window.location.replace("daily.html");
             return user;
         }
 

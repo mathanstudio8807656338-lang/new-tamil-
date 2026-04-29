@@ -32,7 +32,7 @@
         .login-card {
             background: white;
             width: 95%;
-            max-width: 380px; /* Slightly larger as requested */
+            max-width: 380px;
             padding: 1.75rem;
             border-radius: 2rem;
             box-shadow: 0 25px 60px rgba(0,0,0,0.08);
@@ -95,6 +95,7 @@
 <body>
 
     <div class="login-card">
+        <!-- WhatsApp Flow Modal -->
         <div id="waModal">
             <div style="font-size: 3rem;">🌟</div>
             <h2 style="font-size: 1.2rem; color: var(--primary); margin: 0.75rem 0;">இன்னும் ஒரே படி!</h2>
@@ -155,12 +156,15 @@
         <div class="footer-text">© A1 Tamil Primary Edition</div>
     </div>
 
-    <script type="module" src="js/auth.js?v=10.0"></script>
+    <script type="module" src="js/auth.js?v=11.0"></script>
     <script>
         const waJoinBtn = document.getElementById('waJoinBtn');
         const proceedBtn = document.getElementById('proceedBtn');
+        
         if (waJoinBtn) {
             waJoinBtn.onclick = () => {
+                // Set the flag that they've joined
+                localStorage.setItem('A1_WA_JOINED', 'true');
                 setTimeout(() => {
                     proceedBtn.style.display = 'flex';
                     waJoinBtn.style.opacity = '0.5';
@@ -168,6 +172,7 @@
                 }, 1000);
             };
         }
+        
         if (proceedBtn) {
             proceedBtn.onclick = () => { window.location.href = "daily.html"; };
         }
