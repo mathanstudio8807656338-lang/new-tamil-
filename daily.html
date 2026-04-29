@@ -3,261 +3,384 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily Challenge - A1 Coaching</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Dashboard - A1 Coaching</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;700;900&display=swap">
     <style>
+        :root {
+            --primary: #1e3a8a;
+            --primary-light: #3b82f6;
+            --accent: #0ea5e9;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --bg: #f8fafc;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+            --glass: rgba(255, 255, 255, 0.8);
+            --shadow: 0 10px 40px rgba(0, 0, 0, 0.04);
+        }
+
+        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
         body {
-            background: #f1f5f9;
-            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            font-family: 'Outfit', sans-serif;
             margin: 0;
-            padding: 0;
+            color: var(--text-main);
+            overflow-x: hidden;
         }
+
+        .premium-bg {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 300px;
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #3b82f6 100%);
+            z-index: -1;
+            border-bottom-left-radius: 3rem;
+            border-bottom-right-radius: 3rem;
+        }
+
         .container {
-            max-width: 800px;
+            max-width: 600px;
             margin: 0 auto;
-            padding: 2rem 1rem;
-        }
-        .daily-header {
-            background: linear-gradient(135deg, #1e3a8a, #1a2e5a);
-            color: white;
-            padding: 2.5rem 1.5rem;
-            border-radius: 1.5rem;
-            text-align: center;
-            margin-bottom: 2rem;
-            box-shadow: 0 10px 25px rgba(30, 58, 138, 0.2);
-        }
-        .daily-header h1 { margin: 0; font-size: 1.8rem; font-weight: 800; }
-        .daily-header p { margin: 0.5rem 0 0; opacity: 0.9; font-weight: 600; }
-
-        .subject-info {
-            background: white;
-            padding: 1.25rem;
-            border-radius: 1rem;
-            display: flex;
-            justify-content: space-around;
-            margin-bottom: 2rem;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            border: 1px solid #e2e8f0;
-        }
-        .info-item { text-align: center; }
-        .info-label { font-size: 0.75rem; color: #64748b; text-transform: uppercase; font-weight: 700; margin-bottom: 0.2rem; }
-        .info-value { font-size: 1.1rem; color: #1e293b; font-weight: 800; }
-
-        .lesson-card {
-            background: white;
-            border-radius: 1.25rem;
             padding: 1.5rem;
-            margin-bottom: 1.5rem;
-            box-shadow: 0 8px 15px rgba(0,0,0,0.04);
-            border: 1px solid #e2e8f0;
-            border-left: 8px solid #2563eb;
-            animation: slideUp 0.5s ease-out;
         }
-        @keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
 
-        .lesson-title {
-            font-size: 1.2rem;
+        header {
+            padding: 1rem 0 2.5rem;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .user-greet h1 {
+            font-size: 1.5rem;
+            margin: 0;
             font-weight: 800;
-            color: #1e293b;
+            letter-spacing: -0.5px;
+        }
+
+        .user-greet p {
+            margin: 0.2rem 0 0;
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+
+        .status-badge {
+            background: rgba(255,255,255,0.2);
+            backdrop-filter: blur(10px);
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            font-size: 0.8rem;
+            font-weight: 700;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+
+        .main-card {
+            background: white;
+            border-radius: 2rem;
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+            margin-top: -1rem;
+            border: 1px solid rgba(255,255,255,0.8);
+            animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .subject-tag {
+            display: inline-block;
+            background: #eff6ff;
+            color: var(--primary);
+            padding: 0.4rem 1rem;
+            border-radius: 0.75rem;
+            font-weight: 800;
+            font-size: 0.85rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+
+        .date-banner {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-bottom: 0.5rem;
+        }
+
+        .timer-box {
+            background: #fffbeb;
+            border-radius: 1.25rem;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            border: 1px solid #fef3c7;
+        }
+
+        .timer-icon {
+            font-size: 1.5rem;
+            background: white;
+            width: 45px; height: 45px;
+            display: flex; align-items: center; justify-content: center;
+            border-radius: 50%;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .timer-info .label { font-size: 0.75rem; color: #b45309; font-weight: 800; text-transform: uppercase; }
+        .timer-info .value { font-size: 1.25rem; font-weight: 900; color: #d97706; font-family: 'Inter', sans-serif; }
+
+        .lesson-item {
+            background: #f8fafc;
+            border-radius: 1.5rem;
+            padding: 1.25rem;
+            margin-bottom: 1rem;
+            border: 1px solid #f1f5f9;
+            transition: all 0.3s;
+        }
+
+        .lesson-item:hover { transform: scale(1.02); background: white; border-color: var(--primary-light); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+
+        .lesson-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
             margin-bottom: 1.25rem;
+        }
+
+        .lesson-index {
+            background: var(--primary);
+            color: white;
+            width: 32px; height: 32px;
+            display: flex; align-items: center; justify-content: center;
+            border-radius: 0.75rem;
+            font-weight: 800;
+            font-size: 0.9rem;
+        }
+
+        .lesson-name {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--text-main);
             line-height: 1.4;
         }
 
-        .btn-row {
+        .action-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 1rem;
+            gap: 0.75rem;
         }
-        .action-btn {
-            padding: 1rem;
-            border-radius: 0.75rem;
+
+        .btn-action {
+            padding: 0.8rem;
+            border-radius: 1rem;
             text-decoration: none;
-            font-weight: 800;
+            font-weight: 700;
+            font-size: 0.85rem;
             text-align: center;
-            font-size: 0.95rem;
-            transition: all 0.3s;
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 0.5rem;
+            gap: 0.4rem;
+            transition: all 0.2s;
         }
-        .btn-notes { background: #0d9488; color: white; box-shadow: 0 4px 10px rgba(13, 148, 136, 0.2); }
-        .btn-exam { background: #1a73e8; color: white; box-shadow: 0 4px 10px rgba(26, 115, 232, 0.2); }
-        .btn-locked { background: #e2e8f0 !important; color: #94a3b8 !important; cursor: not-allowed; box-shadow: none !important; }
 
-        .action-btn:not(.btn-locked):hover { transform: translateY(-3px); filter: brightness(1.1); }
-        
-        .loader { text-align: center; padding: 4rem; color: #64748b; font-weight: 600; }
-        
-        .sticky-back { position: fixed; bottom: 1.5rem; left: 1.2rem; z-index: 1200; }
-        .sticky-btn { width: 48px; height: 48px; display: flex; align-items: center; justify-content: center; background: #ffffff; color: #1e293b; border-radius: 50%; box-shadow: 0 8px 25px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; text-decoration: none; }
+        .btn-notes { background: #0d9488; color: white; }
+        .btn-exam { background: #2563eb; color: white; }
+        .btn-locked { background: #e2e8f0; color: #94a3b8; cursor: not-allowed; }
+
+        .btn-action:not(.btn-locked):active { transform: scale(0.95); }
+
+        .closed-state {
+            text-align: center;
+            padding: 3rem 1.5rem;
+        }
+
+        .loader-container {
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: var(--text-muted);
+        }
+
+        .pulse-loader {
+            width: 50px; height: 50px;
+            background: var(--primary-light);
+            border-radius: 50%;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(0.8); opacity: 0.5; }
+            50% { transform: scale(1.2); opacity: 0.2; }
+            100% { transform: scale(0.8); opacity: 0.5; }
+        }
+
+        /* Responsive */
+        @media (max-width: 400px) {
+            .action-grid { grid-template-columns: 1fr; }
+        }
     </style>
 </head>
 <body>
+    <div class="premium-bg"></div>
+    
     <div class="container">
-        <div class="daily-header">
-            <h1>இன்றைய தினசரித் தேர்வு</h1>
-            <p id="currentDateDisplay" style="font-size: 1.1rem; opacity: 0.9; margin-top: 0.5rem; font-weight: 700;"></p>
-            <p>Daily Challenge & Study Planner</p>
-        </div>
+        <header>
+            <div class="user-greet">
+                <h1 id="greetName">வணக்கம்!</h1>
+                <p id="topDate">ஏப்ரல் 29, 2026</p>
+            </div>
+            <div class="status-badge" id="liveBadge">LIVE</div>
+        </header>
 
-        <div id="dailyContent">
-            <div class="loader">Loading today's schedule...</div>
+        <div id="mainDashboard">
+            <div class="loader-container">
+                <div class="pulse-loader"></div>
+                <p style="margin-top: 1.5rem; font-weight: 600;">தயார் செய்கிறோம்...</p>
+            </div>
         </div>
-    </div>
-
-    <div class="sticky-back">
-        <a href="index.html" class="sticky-btn">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
-        </a>
     </div>
 
     <script type="module">
-        (async () => {
-            const v = Date.now();
-            const container = document.getElementById('dailyContent');
+        import { waitForAuth } from './js/auth.js?v=4.0';
 
+        (async () => {
+            const container = document.getElementById('mainDashboard');
+            const user = await waitForAuth();
+            
+            if (user) {
+                document.getElementById('greetName').innerText = `வணக்கம், ${user.name || "மாணவர்"}!`;
+            }
+
+            const v = Date.now();
             try {
                 const res = await fetch('1.json?v=' + v);
-                if (!res.ok) throw new Error("Data not found");
                 const data = await res.json();
-                const titles = data.activeTitles || [];
-                const subject = data.activeSubject || 'Unknown';
-                const defaultGrade = data.activeGrade || '5';
                 
                 const now = new Date();
                 const currentMins = now.getHours() * 60 + now.getMinutes();
-                const isClosedTime = currentMins >= 1350 || currentMins < 360; // 22:30 to 06:00
+                const isClosedTime = currentMins >= 1350 || currentMins < 360;
+
+                // Update Date
+                const dateStr = now.toLocaleDateString('ta-IN', { weekday: 'long', month: 'long', day: 'numeric' });
+                document.getElementById('topDate').innerText = dateStr;
 
                 if (isClosedTime || data.status === 'closed') {
-                    // Calculate target opening date
-                    const targetDate = new Date(now);
-                    if (currentMins >= 1350) {
-                        targetDate.setDate(now.getDate() + 1); // If past 10:30 PM, target is tomorrow
-                    }
-                    const targetDateStr = targetDate.toLocaleDateString('ta-IN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-                    const dayLabel = (currentMins >= 1350) ? 'நாளை' : 'இன்று';
-
-                    container.innerHTML = `
-                        <div style="text-align:center; padding:4rem; color:#64748b; background:white; border-radius:1.5rem; border:1px solid #e2e8f0; box-shadow: 0 10px 25px rgba(0,0,0,0.05);">
-                            <div style="font-size: 4rem; margin-bottom: 1rem;">🌙</div>
-                            <h2 style="color: #1e3a8a; margin-bottom: 1rem;">இன்றைய அமர்வு முடிந்தது</h2>
-                            <p style="font-size: 1.1rem; line-height: 1.6;">நமது தினசரித் தேர்வுத் தளம் தற்போது ஓய்வில் உள்ளது.<br><b>${dayLabel} (${targetDateStr}) காலை 6:00 மணிக்கு</b> புதிய பாடங்களுடன் மீண்டும் சந்திப்போம்.</p>
-                            <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #f1f5f9;">
-                                <a href="index.html" style="color:#1e3a8a; font-weight:700; text-decoration:none; display: inline-flex; align-items: center; gap: 0.5rem;">
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
-                                    முகப்புப் பக்கத்திற்குச் செல்
-                                </a>
-                            </div>
-                        </div>
-                    `;
-                    document.getElementById('currentDateDisplay').innerText = now.toLocaleDateString('ta-IN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+                    renderClosed(now, currentMins);
                     return;
                 }
 
-
-                let isExamOpen = data.status === 'open';
-                let isNotesOpen = data.status === 'notes' || data.status === 'open';
-
-                let timerHtml = '';
-                if (isNotesOpen || isExamOpen) {
-                    timerHtml = `
-                        <div style="background: #fffbeb; border: 1px dashed #f59e0b; border-radius: 12px; padding: 1rem; text-align: center; margin-bottom: 2rem; box-shadow: 0 4px 15px rgba(245, 158, 11, 0.08);">
-                            <div style="font-size: 0.85rem; font-weight: 800; color: #b45309; text-transform: uppercase; margin-bottom: 0.3rem;">முடிவடைய மீதமுள்ள நேரம் (Closes in)</div>
-                            <div id="countdownTimer" style="font-size: 2rem; font-weight: 900; color: #d97706; font-variant-numeric: tabular-nums; letter-spacing: 2px;">--:--:--</div>
-                        </div>
-                    `;
-                }
-
-                let html = `
-                    <div class="subject-info">
-                        <div class="info-item">
-                            <div class="info-label">பாடம் (Subject)</div>
-                            <div class="info-value" style="text-transform: capitalize;">${subject}</div>
-                        </div>
-                        <div class="info-item">
-                            <div class="info-label">வகுப்பு (Class)</div>
-                            <div class="info-value">${defaultGrade}</div>
-                        </div>
-                    </div>
-                    ${timerHtml}
-                `;
-
-                html += `<div class="lessons-container" style="display: flex; flex-direction: column; gap: 2rem; margin-top: 1rem;">`;
-
-                titles.forEach((title, idx) => {
-                    const fileId = data.activeFiles[idx] || '1';
-                    const currentGrade = (data.activeGrades && data.activeGrades[idx]) ? data.activeGrades[idx] : defaultGrade;
-                    
-                    html += `
-                        <div class="lesson-card" style="margin-bottom: 0; padding: 1.5rem;">
-                            <div class="lesson-title" style="margin-bottom: 1.5rem; text-align: center; color: #1e293b; border-bottom: 2px dashed #e2e8f0; padding-bottom: 1rem; font-size: 1.25rem;">
-                                ${title}
-                            </div>
-                            
-                            <div style="display: grid; grid-template-columns: 1fr; gap: 1rem;">
-                                ${isNotesOpen ? `
-                                    <a href="material.html?subject=${subject}&class=${currentGrade}&lesson=${fileId}" class="action-btn btn-notes" style="padding: 1rem; border-radius: 12px; font-size: 1.05rem;">
-                                        📖 பாடக்குறிப்புகள் (Study Notes)
-                                    </a>
-                                ` : `
-                                    <div class="action-btn btn-locked" style="padding: 1rem; border-radius: 12px; font-size: 1.05rem;">
-                                        🔒 பாடக்குறிப்புகள் மூடியுள்ளது
-                                    </div>
-                                `}
-
-                                ${isExamOpen ? `
-                                    <a href="quiz.html?subject=${subject}&class=${currentGrade}&lesson=${fileId}" class="action-btn btn-exam" style="padding: 1rem; border-radius: 12px; font-size: 1.05rem;">
-                                        📝 ஆன்லைன் தேர்வு (Online Exam)
-                                    </a>
-                                ` : `
-                                    <div class="action-btn btn-locked" style="padding: 1rem; border-radius: 12px; font-size: 1.05rem;">
-                                        🔒 தேர்வு இரவு 8:00 மணிக்கு (Exam at 8 PM)
-                                    </div>
-                                `}
-                            </div>
-                        </div>
-                    `;
-                });
-
-                html += `</div>`;
-
-                const dateStr = new Date().toLocaleDateString('ta-IN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-                document.getElementById('currentDateDisplay').innerText = dateStr;
-
-                container.innerHTML = html;
-
-                if (isNotesOpen || isExamOpen) {
-                    const timerEl = document.getElementById('countdownTimer');
-                    const updateTimer = () => {
-                        const now = new Date();
-                        const targetTime = new Date();
-                        targetTime.setHours(22, 30, 0, 0); // 10:30 PM
-
-                        const diff = targetTime - now;
-                        if (diff <= 0) {
-                            timerEl.innerText = "நேரம் முடிந்தது (Closed)";
-                            return;
-                        }
-                        const h = Math.floor(diff / (1000 * 60 * 60)).toString().padStart(2, '0');
-                        const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60)).toString().padStart(2, '0');
-                        const s = Math.floor((diff % (1000 * 60)) / 1000).toString().padStart(2, '0');
-                        timerEl.innerText = `${h}:${m}:${s}`;
-                    };
-                    updateTimer(); // Initial call
-                    setInterval(updateTimer, 1000);
-                }
+                renderDashboard(data);
 
             } catch (err) {
-                container.innerHTML = `
-                    <div style="text-align:center; padding:4rem; color:#ef4444; background:white; border-radius:1rem; border:1px solid #fee2e2;">
-                        <h3>இன்றைய தரவுகள் இன்னும் பதிவேற்றப்படவில்லை.</h3>
-                        <p>காலை 6:00 மணிக்கு மேல் மீண்டும் முயற்சிக்கவும்.</p>
-                        <a href="index.html" style="color:#1e3a8a; font-weight:700; text-decoration:none;">முகப்புப் பக்கத்திற்குச் செல்</a>
-                    </div>
-                `;
+                console.error(err);
+                container.innerHTML = `<div class="main-card closed-state"><h3>பிழை!</h3><p>தகவல்களைப் பெறுவதில் சிக்கல். மீண்டும் முயற்சிக்கவும்.</p></div>`;
             }
         })();
+
+        function renderDashboard(data) {
+            const container = document.getElementById('mainDashboard');
+            const titles = data.activeTitles || [];
+            const subject = data.activeSubject || 'Unknown';
+            const grade = data.activeGrade || '5';
+            
+            let isExamOpen = data.status === 'open';
+            let isNotesOpen = data.status === 'notes' || data.status === 'open';
+
+            let html = `
+                <div class="main-card">
+                    <div class="subject-tag">${subject} • வகுப்பு ${grade}</div>
+                    <div class="date-banner">இன்றைய பாடங்கள்</div>
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin: 0 0 1.5rem;">தினமும் காலை 6 மணிக்கு புதிய பாடங்கள் பதிவேற்றப்படும்.</p>
+
+                    ${(isNotesOpen || isExamOpen) ? `
+                        <div class="timer-box">
+                            <div class="timer-icon">⏳</div>
+                            <div class="timer-info">
+                                <div class="label">முடிவடைய மீதமுள்ள நேரம்</div>
+                                <div id="timerValue" class="value">--:--:--</div>
+                            </div>
+                        </div>
+                    ` : ''}
+
+                    <div class="lessons-list">
+            `;
+
+            titles.forEach((title, idx) => {
+                const fileId = data.activeFiles[idx] || '1';
+                const cGrade = (data.activeGrades && data.activeGrades[idx]) ? data.activeGrades[idx] : grade;
+                
+                html += `
+                    <div class="lesson-item">
+                        <div class="lesson-header">
+                            <div class="lesson-index">${idx + 1}</div>
+                            <div class="lesson-name">${title}</div>
+                        </div>
+                        <div class="action-grid">
+                            ${isNotesOpen ? `
+                                <a href="material.html?subject=${subject}&class=${cGrade}&lesson=${fileId}" class="btn-action btn-notes">
+                                    📖 குறிப்புகள்
+                                </a>
+                            ` : `<div class="btn-action btn-locked">🔒 மூடியுள்ளது</div>`}
+
+                            ${isExamOpen ? `
+                                <a href="quiz.html?subject=${subject}&class=${cGrade}&lesson=${fileId}" class="btn-action btn-exam">
+                                    📝 தேர்வு
+                                </a>
+                            ` : `<div class="btn-action btn-locked">🔒 இரவு 8:00</div>`}
+                        </div>
+                    </div>
+                `;
+            });
+
+            html += `</div></div>`;
+            container.innerHTML = html;
+
+            startTimer();
+        }
+
+        function renderClosed(now, currentMins) {
+            const container = document.getElementById('mainDashboard');
+            const targetDate = new Date(now);
+            if (currentMins >= 1350) targetDate.setDate(now.getDate() + 1);
+            const targetStr = targetDate.toLocaleDateString('ta-IN', { weekday: 'long', month: 'long', day: 'numeric' });
+            
+            container.innerHTML = `
+                <div class="main-card closed-state">
+                    <div style="font-size: 4rem; margin-bottom: 1rem;">🌙</div>
+                    <h2 style="color: var(--primary); margin-bottom: 1rem;">இன்றைய அமர்வு முடிந்தது</h2>
+                    <p style="color: var(--text-muted); line-height: 1.6;">
+                        தளம் தற்போது ஓய்வில் உள்ளது.<br>
+                        <b>${targetStr} காலை 6:00 மணிக்கு</b> மீண்டும் திறக்கப்படும்.
+                    </p>
+                    <button onclick="location.reload()" style="margin-top: 2rem; padding: 0.8rem 2rem; border-radius: 1rem; border: none; background: var(--primary); color: white; font-weight: 700;">Refresh</button>
+                </div>
+            `;
+        }
+
+        function startTimer() {
+            const el = document.getElementById('timerValue');
+            if (!el) return;
+            const update = () => {
+                const now = new Date();
+                const target = new Date();
+                target.setHours(22, 30, 0, 0);
+                const diff = target - now;
+                if (diff <= 0) { el.innerText = "CLOSED"; return; }
+                const h = Math.floor(diff / 3600000).toString().padStart(2, '0');
+                const m = Math.floor((diff % 3600000) / 60000).toString().padStart(2, '0');
+                const s = Math.floor((diff % 60000) / 1000).toString().padStart(2, '0');
+                el.innerText = `${h}:${m}:${s}`;
+            };
+            update();
+            setInterval(update, 1000);
+        }
     </script>
 </body>
 </html>
+
