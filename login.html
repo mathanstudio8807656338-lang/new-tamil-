@@ -72,16 +72,6 @@
 
         .error-message { color: var(--accent); font-size: 0.6rem; font-weight: 700; margin-top: 0.3rem; display: none; }
 
-        /* Loader */
-        .loader-spin {
-            width: 16px; height: 16px; border: 2px solid rgba(255,255,255,0.3); border-top-color: white;
-            border-radius: 50%; animation: spin 0.8s linear infinite; display: none;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        .step { display: none; }
-        .step.active { display: block; }
-
         /* WhatsApp Join Modal */
         #waModal {
             position: absolute; top: 0; left: 0; width: 100%; height: 100%;
@@ -93,23 +83,32 @@
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
         .wa-btn {
-            background: #25D366; color: white; padding: 0.8rem 1.2rem; border-radius: 1rem;
-            text-decoration: none; font-size: 0.9rem; font-weight: 900; margin-top: 1rem;
-            display: flex; align-items: center; gap: 0.5rem; box-shadow: 0 10px 20px rgba(37, 211, 102, 0.2);
+            width: 100%; background: #25D366; color: white; padding: 0.75rem; border-radius: 0.75rem;
+            text-decoration: none; font-size: 0.85rem; font-weight: 900; margin-top: 1rem;
+            display: flex; align-items: center; justify-content: center; gap: 0.5rem; box-shadow: 0 8px 16px rgba(37, 211, 102, 0.15);
         }
+        .start-btn { background: var(--primary); color: white; display: none; margin-top: 0.75rem; }
+
+        .step { display: none; }
+        .step.active { display: block; }
     </style>
 </head>
 <body>
 
     <div class="login-card">
+        <!-- WhatsApp Flow Modal -->
         <div id="waModal">
-            <div style="font-size: 2.5rem;">📱</div>
-            <h2 style="font-size: 1.1rem; margin: 0.5rem 0; color: var(--primary);">குழுவில் இணையவும்</h2>
-            <p style="font-size: 0.7rem; color: var(--text-muted); font-weight: 700; line-height: 1.4;">பாடங்கள் மற்றும் தேர்வுகளை அணுக முதலில் எங்களது வாட்ஸ்அப் குழுவில் இணைய வேண்டும்.</p>
+            <div style="font-size: 2rem;">🚀</div>
+            <h2 style="font-size: 1rem; margin: 0.5rem 0; color: var(--primary);">ஒரு சிறிய படி!</h2>
+            <p style="font-size: 0.7rem; color: var(--text-muted); font-weight: 700; line-height: 1.4;">பாடங்கள் மற்றும் தேர்வுகளைத் தொடங்க முதலில் எங்களது வாட்ஸ்அப் குழுவில் இணையுங்கள்.</p>
+            
             <a href="https://chat.whatsapp.com/KDL9niBSU6t0Nx1wlBtpJy" id="waJoinBtn" target="_blank" class="wa-btn">
-                JOIN GROUP (இணையவும்)
+                குழுவில் இணைய (JOIN GROUP)
             </a>
-            <p style="font-size: 0.55rem; color: var(--text-muted); margin-top: 1rem;">(குழுவில் இணைந்தவுடன் பாடங்கள் பகுதி திறக்கும்)</p>
+
+            <button id="proceedBtn" class="btn start-btn">
+                இணைந்துவிட்டேன், தேர்வைத் தொடங்கு (START)
+            </button>
         </div>
 
         <div class="logo-box">
@@ -145,7 +144,6 @@
                 </div>
                 <button type="submit" id="freeBtn" class="btn btn-primary">
                     <span id="freeBtnText">தேர்வைத் தொடங்க (START)</span>
-                    <div id="freeLoader" class="loader-spin"></div>
                 </button>
                 <button type="button" class="btn btn-outline backToStep1">BACK</button>
             </form>
@@ -164,17 +162,30 @@
         </div>
     </div>
 
-    <script type="module" src="js/auth.js?v=8.0"></script>
+    <script type="module" src="js/auth.js?v=9.0"></script>
     <script>
+        // WhatsApp Flow Controller
         const waJoinBtn = document.getElementById('waJoinBtn');
+        const proceedBtn = document.getElementById('proceedBtn');
+        
         if (waJoinBtn) {
             waJoinBtn.onclick = () => {
+                // When clicked, show the proceed button after a tiny delay
                 setTimeout(() => {
-                    window.location.href = "daily.html";
+                    proceedBtn.style.display = 'flex';
+                    waJoinBtn.style.opacity = '0.5';
+                    waJoinBtn.innerText = 'உள்ளே நுழையவும்...';
                 }, 1000);
             };
         }
 
+        if (proceedBtn) {
+            proceedBtn.onclick = () => {
+                window.location.href = "daily.html";
+            };
+        }
+
+        // Standard Step Switchers
         const urlParams = new URLSearchParams(window.location.search);
         if (urlParams.get('key') === 'A1FREE') {
             document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
