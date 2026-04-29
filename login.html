@@ -31,11 +31,11 @@
 
         .login-card {
             background: white;
-            width: 92%;
-            max-width: 340px;
-            padding: 1.25rem;
-            border-radius: 1.5rem;
-            box-shadow: 0 20px 50px rgba(0,0,0,0.05);
+            width: 95%;
+            max-width: 380px; /* Slightly larger as requested */
+            padding: 1.75rem;
+            border-radius: 2rem;
+            box-shadow: 0 25px 60px rgba(0,0,0,0.08);
             border: 1px solid #f1f5f9;
             text-align: center;
             animation: slideUp 0.5s ease-out;
@@ -44,91 +44,85 @@
 
         @keyframes slideUp { from { transform: translateY(15px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
 
-        .logo-box { margin-bottom: 0.75rem; }
-        .logo-box h1 { font-size: 1.1rem; margin: 0; font-weight: 900; color: var(--primary); }
-        .logo-box p { font-size: 0.6rem; margin: 0; font-weight: 700; color: var(--text-muted); text-transform: uppercase; }
+        .logo-box { margin-bottom: 1.5rem; }
+        .logo-box h1 { font-size: 1.4rem; margin: 0; font-weight: 900; color: var(--primary); letter-spacing: -0.5px; }
+        .logo-box p { font-size: 0.8rem; margin: 0.2rem 0 0; font-weight: 800; color: #16a34a; letter-spacing: 1px; }
+        .logo-box span { font-size: 0.7rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-top: 0.3rem; display: block; }
 
-        .form-group { text-align: left; margin-bottom: 0.6rem; }
-        .form-group label { display: block; font-size: 0.65rem; font-weight: 800; color: var(--text-muted); margin-bottom: 0.2rem; text-transform: uppercase; }
+        .form-group { text-align: left; margin-bottom: 0.8rem; }
+        .form-group label { display: block; font-size: 0.75rem; font-weight: 800; color: var(--text-muted); margin-bottom: 0.3rem; text-transform: uppercase; }
 
-        .input-group { display: flex; gap: 0.4rem; }
-        .prefix { padding: 0.5rem 0.6rem; background: #f1f5f9; border: 1.5px solid #f1f5f9; border-radius: 0.6rem; font-size: 0.8rem; font-weight: 800; color: var(--primary); }
+        .input-group { display: flex; gap: 0.5rem; }
+        .prefix { padding: 0.75rem 0.8rem; background: #f1f5f9; border: 1.5px solid #f1f5f9; border-radius: 0.75rem; font-size: 0.9rem; font-weight: 800; color: var(--primary); }
         .form-control { 
-            width: 100%; padding: 0.5rem 0.8rem; border-radius: 0.6rem; border: 1.5px solid #f1f5f9; 
-            font-size: 0.85rem; font-weight: 700; color: var(--text-main); outline: none; transition: 0.2s;
+            width: 100%; padding: 0.75rem 1rem; border-radius: 0.75rem; border: 1.5px solid #f1f5f9; 
+            font-size: 1rem; font-weight: 700; color: var(--text-main); outline: none; transition: 0.2s;
             background: #f8fafc;
         }
         .form-control:focus { border-color: var(--primary); background: white; }
 
         .btn {
-            width: 100%; padding: 0.65rem; border-radius: 0.75rem; border: none; 
-            font-size: 0.8rem; font-weight: 900; cursor: pointer; transition: 0.2s; margin-top: 0.4rem;
+            width: 100%; padding: 0.85rem; border-radius: 1rem; border: none; 
+            font-size: 0.95rem; font-weight: 900; cursor: pointer; transition: 0.2s; margin-top: 0.5rem;
             display: flex; align-items: center; justify-content: center; gap: 0.5rem;
         }
         .btn:active { transform: scale(0.96); }
-        .btn-primary { background: var(--primary); color: white; box-shadow: 0 8px 16px rgba(30, 58, 138, 0.15); }
-        .btn-outline { background: white; border: 1.5px solid #e2e8f0; color: var(--text-muted); font-size: 0.7rem; }
-        .btn-free { background: #fff1f2; border: 1.5px solid #fecaca; color: var(--accent); margin-top: 0.75rem; }
+        .btn-primary { background: var(--primary); color: white; box-shadow: 0 10px 20px rgba(30, 58, 138, 0.2); }
+        .btn-outline { background: white; border: 2px solid #e2e8f0; color: var(--text-muted); font-size: 0.8rem; }
+        .btn-free { background: #fff1f2; border: 1.5px solid #fecaca; color: var(--accent); margin-top: 1rem; }
 
-        .error-message { color: var(--accent); font-size: 0.6rem; font-weight: 700; margin-top: 0.3rem; display: none; }
+        .error-message { color: var(--accent); font-size: 0.7rem; font-weight: 700; margin-top: 0.4rem; display: none; }
 
-        /* WhatsApp Join Modal */
+        /* WhatsApp Modal */
         #waModal {
             position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-            background: white; border-radius: 1.5rem; z-index: 100;
+            background: white; border-radius: 2rem; z-index: 100;
             display: none; flex-direction: column; align-items: center; justify-content: center;
-            padding: 1.5rem; text-align: center;
-            animation: fadeIn 0.3s;
+            padding: 2rem; text-align: center;
         }
-        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-
         .wa-btn {
-            width: 100%; background: #25D366; color: white; padding: 0.75rem; border-radius: 0.75rem;
-            text-decoration: none; font-size: 0.85rem; font-weight: 900; margin-top: 1rem;
-            display: flex; align-items: center; justify-content: center; gap: 0.5rem; box-shadow: 0 8px 16px rgba(37, 211, 102, 0.15);
+            width: 100%; background: #25D366; color: white; padding: 1rem; border-radius: 1rem;
+            text-decoration: none; font-size: 1rem; font-weight: 900; margin-top: 1.5rem;
+            display: flex; align-items: center; justify-content: center; gap: 0.5rem;
         }
-        .start-btn { background: var(--primary); color: white; display: none; margin-top: 0.75rem; }
+        .start-btn { background: var(--primary); color: white; display: none; margin-top: 1rem; }
 
         .step { display: none; }
         .step.active { display: block; }
+        .footer-text { font-size: 0.65rem; color: var(--text-muted); font-weight: 700; margin-top: 1.5rem; }
     </style>
 </head>
 <body>
 
     <div class="login-card">
-        <!-- WhatsApp Flow Modal -->
         <div id="waModal">
-            <div style="font-size: 2rem;">🚀</div>
-            <h2 style="font-size: 1rem; margin: 0.5rem 0; color: var(--primary);">ஒரு சிறிய படி!</h2>
-            <p style="font-size: 0.7rem; color: var(--text-muted); font-weight: 700; line-height: 1.4;">பாடங்கள் மற்றும் தேர்வுகளைத் தொடங்க முதலில் எங்களது வாட்ஸ்அப் குழுவில் இணையுங்கள்.</p>
-            
+            <div style="font-size: 3rem;">🌟</div>
+            <h2 style="font-size: 1.2rem; color: var(--primary); margin: 0.75rem 0;">இன்னும் ஒரே படி!</h2>
+            <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 700;">தேர்வைத் தொடங்க முதலில் எங்களது வாட்ஸ்அப் குழுவில் இணையுங்கள்.</p>
             <a href="https://chat.whatsapp.com/KDL9niBSU6t0Nx1wlBtpJy" id="waJoinBtn" target="_blank" class="wa-btn">
-                குழுவில் இணைய (JOIN GROUP)
+                குழுவில் இணைய (JOIN)
             </a>
-
-            <button id="proceedBtn" class="btn start-btn">
-                இணைந்துவிட்டேன், தேர்வைத் தொடங்கு (START)
-            </button>
+            <button id="proceedBtn" class="btn start-btn">START EXAM</button>
         </div>
 
         <div class="logo-box">
-            <h1>A1 COACHING</h1>
-            <p>Primary Student Dashboard</p>
+            <h1>A1 ONLINE COACHING CENTRE</h1>
+            <p>📞 6369371452</p>
+            <span>Primary Student Dashboard</span>
         </div>
 
         <div id="step1" class="step active">
             <form id="phoneForm">
                 <div class="form-group">
-                    <label>Phone Number</label>
+                    <label>Mobile Number</label>
                     <div class="input-group">
                         <span class="prefix">+91</span>
-                        <input type="tel" id="phoneNumber" class="form-control" placeholder="10 Digits" required pattern="[0-9]{10}" maxlength="10">
+                        <input type="tel" id="phoneNumber" class="form-control" placeholder="எ.கா: 9876543210" required pattern="[0-9]{10}" maxlength="10">
                     </div>
                 </div>
                 <div id="recaptcha-container"></div>
-                <button type="submit" id="nextBtn" class="btn btn-primary">CONTINUE</button>
+                <button type="submit" class="btn btn-primary">CONTINUE</button>
                 <button type="button" id="switchToFree" class="btn btn-free">இலவசப் பயிற்சி (FREE ENTRY)</button>
-                <div id="phoneError" class="error-message">சரியான எண்ணை உள்ளிடவும்!</div>
             </form>
         </div>
 
@@ -136,15 +130,13 @@
             <form id="freeForm">
                 <div class="form-group">
                     <label>Full Name (பெயர்)</label>
-                    <input type="text" id="freeName" class="form-control" placeholder="பெயர்..." required>
+                    <input type="text" id="freeName" class="form-control" placeholder="உங்கள் பெயர்..." required>
                 </div>
                 <div class="form-group">
                     <label>Mobile Number</label>
                     <input type="tel" id="freePhone" class="form-control" placeholder="10 Digits" maxlength="10" required>
                 </div>
-                <button type="submit" id="freeBtn" class="btn btn-primary">
-                    <span id="freeBtnText">தேர்வைத் தொடங்க (START)</span>
-                </button>
+                <button type="submit" id="freeBtn" class="btn btn-primary">START</button>
                 <button type="button" class="btn btn-outline backToStep1">BACK</button>
             </form>
         </div>
@@ -153,39 +145,33 @@
             <form id="pinForm">
                 <div class="form-group">
                     <label>6-Digit Password</label>
-                    <input type="text" id="pinCode" class="form-control" placeholder="A1B2C3" required maxlength="6" style="text-align:center; letter-spacing:0.3em; font-size:1rem;">
+                    <input type="text" id="pinCode" class="form-control" placeholder="A1B2C3" required maxlength="6" style="text-align:center; letter-spacing:0.4em; font-size:1.2rem;">
                 </div>
                 <button type="submit" id="loginBtn" class="btn btn-primary">LOGIN</button>
-                <button type="button" id="backBtn" class="btn btn-outline">NUMBER மாற்ற</button>
-                <div id="pinError" class="error-message">தவறான பாஸ்வேர்டு!</div>
+                <button type="button" id="backBtn" class="btn btn-outline">CHANGE NUMBER</button>
             </form>
         </div>
+
+        <div class="footer-text">© A1 Tamil Primary Edition</div>
     </div>
 
-    <script type="module" src="js/auth.js?v=9.0"></script>
+    <script type="module" src="js/auth.js?v=10.0"></script>
     <script>
-        // WhatsApp Flow Controller
         const waJoinBtn = document.getElementById('waJoinBtn');
         const proceedBtn = document.getElementById('proceedBtn');
-        
         if (waJoinBtn) {
             waJoinBtn.onclick = () => {
-                // When clicked, show the proceed button after a tiny delay
                 setTimeout(() => {
                     proceedBtn.style.display = 'flex';
                     waJoinBtn.style.opacity = '0.5';
-                    waJoinBtn.innerText = 'உள்ளே நுழையவும்...';
+                    waJoinBtn.innerText = 'Redirecting...';
                 }, 1000);
             };
         }
-
         if (proceedBtn) {
-            proceedBtn.onclick = () => {
-                window.location.href = "daily.html";
-            };
+            proceedBtn.onclick = () => { window.location.href = "daily.html"; };
         }
 
-        // Standard Step Switchers
         const urlParams = new URLSearchParams(window.location.search);
         if (urlParams.get('key') === 'A1FREE') {
             document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
