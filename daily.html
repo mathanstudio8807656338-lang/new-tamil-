@@ -137,6 +137,38 @@
         .loader { height: 100%; display: flex; align-items: center; justify-content: center; }
         .spin { width: 24px; height: 24px; border: 3px solid #f1f5f9; border-top-color: var(--primary); border-radius: 50%; animation: spin 1s linear infinite; }
         @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* Floating Sync Bar */
+        .sync-bar {
+            position: fixed;
+            bottom: 4.5rem; /* Above bottom nav */
+            right: 0.75rem;
+            background: #1e293b;
+            color: white;
+            padding: 0.35rem 0.6rem;
+            border-radius: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            z-index: 1001;
+            font-size: 0.65rem;
+            font-weight: 700;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .sync-time { color: #94a3b8; font-family: monospace; }
+        .btn-push {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 0.2rem 0.5rem;
+            border-radius: 1rem;
+            font-size: 0.55rem;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .btn-push:active { transform: scale(0.9); }
     </style>
 </head>
 <body>
@@ -164,6 +196,11 @@
         <div class="loader"><div class="spin"></div></div>
     </div>
 
+    <div class="sync-bar">
+        <span class="sync-time" id="liveClock">00:00:00 AM</span>
+        <button class="btn-push" onclick="forceSync()">Update</button>
+    </div>
+
     <div class="bottom-nav">
         <a href="tel:6369371452" class="nav-btn call">
             <span class="nav-icon">📞</span>
@@ -188,11 +225,48 @@
             if (user) document.getElementById('greetUser').innerText = `வணக்கம், ${user.name || "மாணவர்"}!`;
 
             try {
+                await loadData();
+            } catch (e) {
+                container.innerHTML = `<p style="text-align:center; font-size:0.8rem; padding:1rem;">Error loading data.</p>`;
+            }
+
+            // Live Clock & Auto-Triggers
+            setInterval(() => {
+                const now = new Date();
+                const istTime = now.toLocaleTimeString('en-US', { hour12: false, timeZone: 'Asia/Kolkata' });
+                document.getElementById('liveClock').innerText = now.toLocaleTimeString('en-US', { hour12: true });
+
+                // Auto-refresh triggers at specific times
+                const triggers = ['06:00:01', '20:00:01', '22:30:01'];
+                if (triggers.includes(istTime)) {
+                    console.log("⏰ Auto-triggering refresh for session change...");
+                    forceSync();
+                }
+            }, 1000);
+
+            window.forceSync = async () => {
+                const btn = document.querySelector('.btn-push');
+                const originalText = btn.innerText;
+                btn.innerText = 'SYNCING...';
+                btn.classList.add('spinning');
+                
+                try {
+                    await loadData();
+                    btn.innerText = 'UPDATED!';
+                } catch (e) {
+                    btn.innerText = 'ERROR';
+                }
+
+                setTimeout(() => {
+                    btn.innerText = 'UPDATE';
+                    btn.classList.remove('spinning');
+                }, 2000);
+            };
+
+            async function loadData() {
                 const res = await fetch('1.json?v=' + Date.now());
                 const data = await res.json();
                 renderLessons(data);
-            } catch (e) {
-                container.innerHTML = `<p style="text-align:center; font-size:0.8rem; padding:1rem;">Error loading data.</p>`;
             }
         })();
 
