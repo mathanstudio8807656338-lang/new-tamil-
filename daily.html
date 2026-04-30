@@ -272,6 +272,12 @@
 
         function renderLessons(data) {
             const container = document.getElementById('lessonContainer');
+            const statusBadge = document.querySelector('.status-badge');
+            
+            if (data.lastUpdated) {
+                statusBadge.innerHTML = `LIVE • Last Update: ${data.lastUpdated}`;
+            }
+
             const titles = data.activeTitles || [];
             const subject = data.activeSubject || 'Tamil';
             const grade = data.activeGrade || '5';
