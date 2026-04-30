@@ -12,11 +12,8 @@
 
 const fs    = require('fs');
 const path  = require('path');
-const https = require('https');
 
 const TRACKER_FILE  = path.join(__dirname, 'tracker.json');
-const TARGET_REPO   = 'mathanstudio8807656338-lang/new-tamil-'; // Updated to current repo
-const TOKEN         = process.env.AUTOMATIC_TOKEN;
 
 const DAY_SUBJECT = {
   Mon: { subject: 'tamil',      isTest: false },
@@ -29,45 +26,6 @@ const DAY_SUBJECT = {
 };
 
 const CLASS_ORDER = ['5', '4', '3', '2', '1'];
-
-// ─── GitHub API ────────────────────────────────────────────────────
-function githubRequest(method, urlPath, body) {
-  return new Promise((resolve, reject) => {
-    const data = body ? JSON.stringify(body) : null;
-    const opts = {
-      hostname: 'api.github.com',
-      path: urlPath, method,
-      headers: {
-        'User-Agent':    'A1-LMS-Bot',
-        'Authorization': `Bearer ${TOKEN}`,
-        'Accept':        'application/vnd.github+json',
-        ...(data ? { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(data) } : {})
-      }
-    };
-    const req = https.request(opts, res => {
-      let buf = '';
-      res.on('data', d => buf += d);
-      res.on('end', () => {
-        try { resolve({ status: res.statusCode, data: JSON.parse(buf) }); }
-        catch { resolve({ status: res.statusCode, data: buf }); }
-      });
-    });
-    req.on('error', reject);
-    if (data) req.write(data);
-    req.end();
-  });
-}
-
-async function uploadFile(filePath, content, message) {
-  const encoded  = Buffer.from(content).toString('base64');
-  const apiPath  = `/repos/${TARGET_REPO}/contents/${filePath}`;
-  const existing = await githubRequest('GET', apiPath);
-  const sha      = existing.status === 200 ? existing.data.sha : null;
-  const result   = await githubRequest('PUT', apiPath, { message, content: encoded, sha, branch: 'main' });
-  const ok = result.status === 200 || result.status === 201;
-  console.log(ok ? `✅ ${filePath}` : `❌ ${filePath} (${result.status})`);
-  return ok;
-}
 
 async function loadTracker() {
   if (fs.existsSync(TRACKER_FILE)) {
@@ -161,7 +119,6 @@ async function run() {
     fs.writeFileSync(localPath, JSON.stringify(closedPayload, null, 2));
     console.log(`💾 Saved local close status`);
 
-    await uploadFile('1.json', JSON.stringify(closedPayload, null, 2), `🔒 Night Close: ${dateStr}`);
     return;
   }
 
@@ -255,9 +212,6 @@ async function run() {
   const localPath = path.join(__dirname, '../../1.json');
   fs.writeFileSync(localPath, JSON.stringify(payload, null, 2));
   console.log(`💾 Saved locally to 1.json`);
-
-  await uploadFile('1.json', JSON.stringify(payload, null, 2),
-    `${action === 'notes' ? '📖' : '📝'} ${action}: ${subject} ${dateStr}`);
 
   console.log(`\n✅ Done! ${action} | ${subject}`);
 }
