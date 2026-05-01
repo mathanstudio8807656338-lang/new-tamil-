@@ -1,0 +1,34 @@
+name: Manual Daily Challenge Update
+
+on:
+  workflow_dispatch:
+    inputs:
+      action_type:
+        description: 'Action to perform (notes, open, close)'
+        required: true
+        default: 'notes'
+
+jobs:
+  update-challenge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Run Engine
+        run: node scripts/daily_challenge/engine.js ${{ github.event.inputs.action_type }}
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add 1.json scripts/daily_challenge/tracker.json
+          git commit -m "chore: manual ${{ github.event.inputs.action_type }} update via admin panel" || echo "No changes to commit"
+          git push origin main

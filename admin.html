@@ -209,87 +209,105 @@
     <div class="container">
         <header>
             <h1>நிர்வாகப் பலகம் (Admin Panel)</h1>
-            <p class="subtitle">Daily Challenge Manual Update & Sync System</p>
+            <p class="subtitle">Cloud-Based Manual Update System (No Local Server Needed)</p>
         </header>
 
         <div class="dashboard">
+            <div class="action-card" style="grid-column: 1 / -1; padding: 1.5rem;">
+                <h3 style="margin-bottom: 1rem;">GitHub Access Configuration</h3>
+                <input type="password" id="gh-token" placeholder="Enter GitHub Personal Access Token" 
+                    style="width: 100%; padding: 0.75rem; border-radius: 0.5rem; border: 1px solid rgba(255,255,255,0.1); background: rgba(0,0,0,0.2); color: white; margin-bottom: 0.5rem;">
+                <p class="desc" style="margin-bottom: 0;">உங்கள் Token-ஐ இங்கே உள்ளிடவும். இது உங்கள் பிரவுசரில் மட்டுமே சேமிக்கப்படும்.</p>
+            </div>
+
             <!-- Morning Notes Card -->
-            <div class="action-card" style="animation-delay: 0.1s;">
+            <div class="action-card">
                 <div class="icon">🌅</div>
                 <h3>காலை குறிப்புகள்</h3>
-                <p class="desc">இன்றைய பாடக்குறிப்புகளை (Notes) மாணவர் பக்கத்தில் பதிவேற்றவும்.</p>
-                <button class="btn" onclick="runAction('notes', this)">
+                <p class="desc">Update Notes (6 AM)</p>
+                <button class="btn" onclick="runCloudAction('notes', this)">
                     <span class="loader"></span>
-                    Update Notes (6 AM)
+                    Trigger Action
                 </button>
             </div>
 
             <!-- Open Quiz Card -->
-            <div class="action-card" style="animation-delay: 0.2s;">
+            <div class="action-card">
                 <div class="icon">📝</div>
                 <h3>தேர்வு தொடக்கம்</h3>
-                <p class="desc">இன்றைய வினாடி-வினா (Quiz) தேர்வைத் தொடங்கவும்.</p>
-                <button class="btn secondary" onclick="runAction('open', this)">
+                <p class="desc">Open Quiz (8 PM)</p>
+                <button class="btn secondary" onclick="runCloudAction('open', this)">
                     <span class="loader"></span>
-                    Open Quiz (8 PM)
+                    Trigger Action
                 </button>
             </div>
 
             <!-- Night Close Card -->
-            <div class="action-card" style="animation-delay: 0.3s;">
+            <div class="action-card">
                 <div class="icon">🌙</div>
                 <h3>இரவு முடிவு</h3>
-                <p class="desc">இன்றைய அமர்வை முடித்து, தேர்வுப் பக்கத்தை மூடவும்.</p>
-                <button class="btn accent" onclick="runAction('close', this)">
+                <p class="desc">Close Session (10 PM)</p>
+                <button class="btn accent" onclick="runCloudAction('close', this)">
                     <span class="loader"></span>
-                    Close Session (10 PM)
+                    Trigger Action
                 </button>
             </div>
         </div>
 
         <div class="logs-section">
             <div class="logs-header">
-                <h3>செயல்பாட்டு பதிவுகள் (Logs)</h3>
+                <h3>செயல்பாட்டு பதிவுகள் (Cloud Logs)</h3>
                 <span class="status-badge" id="status-text">Ready</span>
             </div>
-            <div class="logs-content" id="log-window">System initialized. Waiting for user action...</div>
+            <div class="logs-content" id="log-window">Connected to GitHub API. Waiting for action...</div>
         </div>
     </div>
 
     <script>
-        async function runAction(type, btn) {
+        // Load token from localStorage
+        const tokenInput = document.getElementById('gh-token');
+        tokenInput.value = localStorage.getItem('gh_token') || '';
+        tokenInput.onchange = () => localStorage.setItem('gh_token', tokenInput.value);
+
+        async function runCloudAction(type, btn) {
+            const token = tokenInput.value;
+            if (!token) {
+                alert('தயவுசெய்து GitHub Token-ஐ உள்ளிடவும்!');
+                return;
+            }
+
             const loader = btn.querySelector('.loader');
-            const originalText = btn.innerText;
             const logWindow = document.getElementById('log-window');
             const statusText = document.getElementById('status-text');
 
-            // UI State: Loading
             btn.disabled = true;
             loader.style.display = 'inline-block';
-            statusText.innerText = 'Running...';
-            statusText.style.background = 'rgba(234, 179, 8, 0.2)';
-            statusText.style.color = '#fbbf24';
-
-            logWindow.innerText = `Starting action: ${type.toUpperCase()}...\n` + logWindow.innerText;
+            statusText.innerText = 'Triggering GitHub...';
+            
+            const repo = 'mathanstudio8807656338-lang/new-tamil-';
+            const workflowId = 'manual_update.yml';
 
             try {
-                const response = await fetch(`/run-action?type=${type}`);
-                const result = await response.json();
+                const response = await fetch(`https://api.github.com/repos/${repo}/actions/workflows/${workflowId}/dispatches`, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `token ${token}`,
+                        'Accept': 'application/vnd.github.v3+json',
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ ref: 'main', inputs: { action_type: type } })
+                });
 
-                if (result.success) {
-                    logWindow.innerText = `✅ SUCCESS: ${result.message}\n${result.output}\n\n` + logWindow.innerText;
-                    statusText.innerText = 'Success';
-                    statusText.style.background = 'rgba(34, 197, 94, 0.2)';
-                    statusText.style.color = '#4ade80';
+                if (response.status === 204) {
+                    logWindow.innerText = `✅ SUCCESS: GitHub Action triggered for ${type.toUpperCase()}.\nமாற்றங்கள் 1 நிமிடத்தில் GitHub-ல் பதிவேற்றப்படும்.\n\n` + logWindow.innerText;
+                    statusText.innerText = 'Action Sent';
                 } else {
-                    logWindow.innerText = `❌ FAILED: ${result.message}\n${result.output}\n\n` + logWindow.innerText;
+                    const err = await response.json();
+                    logWindow.innerText = `❌ FAILED: ${err.message}\n\n` + logWindow.innerText;
                     statusText.innerText = 'Error';
-                    statusText.style.background = 'rgba(239, 68, 68, 0.2)';
-                    statusText.style.color = '#f87171';
                 }
             } catch (error) {
-                logWindow.innerText = `❌ ERROR: Could not connect to server.\n${error.message}\n\n` + logWindow.innerText;
-                statusText.innerText = 'Connection Error';
+                logWindow.innerText = `❌ ERROR: ${error.message}\n\n` + logWindow.innerText;
             } finally {
                 btn.disabled = false;
                 loader.style.display = 'none';
