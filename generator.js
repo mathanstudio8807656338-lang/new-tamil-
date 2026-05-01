@@ -38,7 +38,7 @@ function generate() {
                     
                     files.forEach(file => {
                         const content = JSON.parse(fs.readFileSync(path.join(termPath, file), 'utf8'));
-                        const title = content.lesson_meta?.title || content.title || file.replace('.json', '');
+                        const title = content.lesson_meta?.title || content.title || content.பாட_தலைப்பு || file.replace('.json', '');
                         const code = file.replace('.json', '');
                         
                         termData.units[0].topics.push({ "title": title, "isUpdated": true, "code": code });
