@@ -41,7 +41,7 @@ const server = http.createServer((req, res) => {
             }
 
             // Step 2: Git Push
-            const gitCmd = `git add 1.json scripts/daily_challenge/tracker.json && git commit -m "chore: manual ${action} update" && git push origin main`;
+            const gitCmd = `git add 1.json scripts/daily_challenge/tracker.json && git commit -m "chore: manual ${action} update" && git pull origin main --rebase && git push origin main`;
             
             exec(gitCmd, (gitErr, gitStdout, gitStderr) => {
                 output += `\n[GIT STDOUT]\n${gitStdout}\n[GIT STDERR]\n${gitStderr}`;
@@ -61,6 +61,7 @@ const server = http.createServer((req, res) => {
     }
 });
 
-server.listen(PORT, () => {
+server.listen(PORT, '0.0.0.0', () => {
     console.log(`Admin server running at http://localhost:${PORT}`);
+    console.log(`To access from mobile, use your local IP: http://<YOUR_IP>:${PORT}`);
 });
