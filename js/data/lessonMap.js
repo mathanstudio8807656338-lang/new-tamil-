@@ -1346,6 +1346,18 @@ export const lessonMap = {
       "local": true,
       "filename": "psy_6_l4",
       "grade": "6"
+    },
+    "TNTET தாள் 1 - மாதிரித் தேர்வு": {
+      "local": true,
+      "filename": "Lesson_5",
+      "grade": "all",
+      "subject": "mocktest"
+    },
+    "mock_test_5": {
+      "local": true,
+      "filename": "Lesson_5",
+      "grade": "all",
+      "subject": "mocktest"
     }
   },
   "maths": {
@@ -1502,10 +1514,11 @@ export const lessonMap = {
       "grade": "1"
     }
   },
-  "psychology": {
+  "flat_mappings": {
     "psy_6_l1": { "local": true, "filename": "psy_6_l1", "isFlat": true },
     "psy_6_l2": { "local": true, "filename": "psy_6_l2", "isFlat": true },
     "psy_6_l3": { "local": true, "filename": "psy_6_l3", "isFlat": true },
-    "psy_6_l4": { "local": true, "filename": "psy_6_l4", "isFlat": true }
+    "psy_6_l4": { "local": true, "filename": "psy_6_l4", "isFlat": true },
+    "mock_test_5": { "local": true, "filename": "Lesson_5", "isFlat": true }
   }
 };
