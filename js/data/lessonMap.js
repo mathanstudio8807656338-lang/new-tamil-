@@ -472,7 +472,8 @@ export const lessonMap = {
     "mock_test_1": {
       "local": true,
       "filename": "Lesson_1",
-      "grade": "all"
+      "grade": "all",
+      "isFlat": true
     },
     "மாதிரித்தேர்வு 4": {
       "local": true,
@@ -482,7 +483,8 @@ export const lessonMap = {
     "mock_test_4": {
       "local": true,
       "filename": "Lesson_4",
-      "grade": "all"
+      "grade": "all",
+      "isFlat": true
     },
     "மாதிரித்தேர்வு 2": {
       "local": true,
@@ -502,7 +504,8 @@ export const lessonMap = {
     "mock_test_3": {
       "local": true,
       "filename": "Lesson_3",
-      "grade": "all"
+      "grade": "all",
+      "isFlat": true
     },
     "மாதிரித்தேர்வு 5": {
       "local": true,
@@ -512,7 +515,8 @@ export const lessonMap = {
     "mock_test_5": {
       "local": true,
       "filename": "Lesson_5",
-      "grade": "all"
+      "grade": "all",
+      "isFlat": true
     }
   },
   "standard_6_7_8": {
@@ -1315,7 +1319,8 @@ export const lessonMap = {
     "psy_6_l1": {
       "local": true,
       "filename": "psy_6_l1",
-      "grade": "6"
+      "grade": "all",
+      "isFlat": true
     },
     "கற்றல் கோட்பாடுகள் (Learning Principles)": {
       "local": true,
@@ -1325,7 +1330,8 @@ export const lessonMap = {
     "psy_6_l2": {
       "local": true,
       "filename": "psy_6_l2",
-      "grade": "6"
+      "grade": "all",
+      "isFlat": true
     },
     "கற்பித்தல் முறைகள் மற்றும் கலை (Pedagogy)": {
       "local": true,
@@ -1335,7 +1341,8 @@ export const lessonMap = {
     "psy_6_l3": {
       "local": true,
       "filename": "psy_6_l3",
-      "grade": "6"
+      "grade": "all",
+      "isFlat": true
     },
     "ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சிக் கோட்பாடு (Jean Piaget's Theory of Cognitive Development)": {
       "local": true,
@@ -1345,7 +1352,8 @@ export const lessonMap = {
     "psy_6_l4": {
       "local": true,
       "filename": "psy_6_l4",
-      "grade": "6"
+      "grade": "all",
+      "isFlat": true
     },
     "TNTET தாள் 1 - மாதிரித் தேர்வு": {
       "local": true,
@@ -1357,7 +1365,7 @@ export const lessonMap = {
       "local": true,
       "filename": "Lesson_5",
       "grade": "all",
-      "subject": "mocktest"
+      "isFlat": true
     }
   },
   "maths": {
