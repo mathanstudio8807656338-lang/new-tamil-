@@ -1491,5 +1491,11 @@ export const lessonMap = {
       "filename": "soc_1_t1_l3",
       "grade": "1"
     }
+  },
+  "psychology": {
+    "psy_6_l1": { "local": true, "filename": "psy_6_l1", "isFlat": true },
+    "psy_6_l2": { "local": true, "filename": "psy_6_l2", "isFlat": true },
+    "psy_6_l3": { "local": true, "filename": "psy_6_l3", "isFlat": true },
+    "psy_6_l4": { "local": true, "filename": "psy_6_l4", "isFlat": true }
   }
 };

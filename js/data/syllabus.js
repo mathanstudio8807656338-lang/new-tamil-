@@ -3883,7 +3883,12 @@ export const syllabusData = {
         "units": [
           {
             "title": "உளவியல்",
-            "topics": []
+            "topics": [
+              { "code": "psy_6_l1", "title": "குழந்தை மேம்பாடு (6-11 வயது) - பின் குழந்தைப்பருவம்", "isUpdated": true },
+              { "code": "psy_6_l2", "title": "கற்றல் கோட்பாடுகள் (Learning Principles)", "isUpdated": true },
+              { "code": "psy_6_l3", "title": "கற்பித்தல் முறைகள் மற்றும் கலை (Pedagogy)", "isUpdated": true },
+              { "code": "psy_6_l4", "title": "ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சிக் கோட்பாடு", "isUpdated": true }
+            ]
           }
         ]
       }
