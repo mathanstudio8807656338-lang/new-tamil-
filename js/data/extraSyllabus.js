@@ -60,6 +60,11 @@ export const extraSyllabusData = {
                 "title": "மாதிரித்தேர்வு 4",
                 "isUpdated": true,
                 "code": "mock_test_4"
+              },
+              {
+                "title": "மாதிரித்தேர்வு 5",
+                "isUpdated": true,
+                "code": "mock_test_5"
               }
             ]
           }
@@ -94,6 +99,11 @@ export const extraSyllabusData = {
                 "title": "ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சிக் கோட்பாடு (Jean Piaget's Theory)",
                 "isUpdated": true,
                 "code": "psy_6_l4"
+              },
+              {
+                "title": "TNTET தாள் 1 - மாதிரித் தேர்வு",
+                "isUpdated": true,
+                "code": "mock_test_5"
               }
             ]
           }

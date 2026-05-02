@@ -466,42 +466,52 @@ export const lessonMap = {
   "mocktest": {
     "மாதிரித்தேர்வு 1": {
       "local": true,
-      "filename": "mock_test_1",
+      "filename": "Lesson_1",
       "grade": "all"
     },
     "mock_test_1": {
       "local": true,
-      "filename": "mock_test_1",
+      "filename": "Lesson_1",
       "grade": "all"
     },
     "மாதிரித்தேர்வு 4": {
       "local": true,
-      "filename": "mock_test_4",
+      "filename": "Lesson_4",
       "grade": "all"
     },
     "mock_test_4": {
       "local": true,
-      "filename": "mock_test_4",
+      "filename": "Lesson_4",
       "grade": "all"
     },
     "மாதிரித்தேர்வு 2": {
       "local": true,
-      "filename": "model_test_2",
+      "filename": "Lesson_2",
       "grade": "all"
     },
     "model_test_2": {
       "local": true,
-      "filename": "model_test_2",
+      "filename": "Lesson_2",
       "grade": "all"
     },
     "மாதிரித்தேர்வு 3": {
       "local": true,
-      "filename": "mock_test_3",
+      "filename": "Lesson_3",
       "grade": "all"
     },
     "mock_test_3": {
       "local": true,
-      "filename": "mock_test_3",
+      "filename": "Lesson_3",
+      "grade": "all"
+    },
+    "மாதிரித்தேர்வு 5": {
+      "local": true,
+      "filename": "Lesson_5",
+      "grade": "all"
+    },
+    "mock_test_5": {
+      "local": true,
+      "filename": "Lesson_5",
       "grade": "all"
     }
   },
