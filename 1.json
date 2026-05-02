@@ -1,15 +1,9 @@
 {
   "unit": "Daily Challenge",
   "subject": "PSYCHOLOGY",
-<<<<<<< Updated upstream
-  "title": "இன்றைய தேர்வு: கற்பித்தல் முறைகள் மற்றும் கலை (Pedagogy) & ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சிக் கோட்பாடு (Jean Piaget's Theory of Cognitive Development)",
-  "status": "open",
-  "lastUpdated": "2/5/2026, 7:45:34 pm",
-=======
   "title": "இன்றைய தேர்வு: கற்பித்தல் முறைகள் மற்றும் கலை (Pedagogy) & ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சிக் கோட்பாடு (Jean Piaget's Theory of Cognitive Development) & TNTET தாள் 1 - மாதிரித் தேர்வு (150 வினாக்கள்)",
   "status": "open",
-  "lastUpdated": "2/5/2026, 7:42:12 pm",
->>>>>>> Stashed changes
+  "lastUpdated": "2/5/2026, 7:48:00 pm",
   "activeSubject": "psychology",
   "activeGrade": "all",
   "activeGrades": [
