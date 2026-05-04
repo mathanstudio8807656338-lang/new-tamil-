@@ -4,14 +4,12 @@ const { execSync } = require('child_process');
 
 const oneJsonPath = path.join(__dirname, '1.json');
 const mockTestPath = path.join(__dirname, 'json-db/lessons/mocktest/all/Lesson_2.json');
-const englishPath = path.join(__dirname, 'json-db/lessons/english/5/Term 1/Lesson_1.json');
 
 // 1. Reset 1.json to standard Monday Tamil (2 lessons)
 execSync('node scripts/daily_challenge/engine.js notes');
 
 const oneJson = JSON.parse(fs.readFileSync(oneJsonPath, 'utf8'));
 const mockTestData = JSON.parse(fs.readFileSync(mockTestPath, 'utf8'));
-const englishData = JSON.parse(fs.readFileSync(englishPath, 'utf8'));
 
 function extractQuiz(data, lessonId) {
     const raw = Array.isArray(data.quiz) ? data.quiz : (data.quiz?.questions || []);
@@ -29,7 +27,7 @@ function getTitle(data, defaultTitle) {
     return data.lesson_meta?.title || data.title || defaultTitle;
 }
 
-// 2. Add Mock Test Lesson
+// 2. Add Mock Test Lesson (3rd Lesson)
 oneJson.activeTitles.push(getTitle(mockTestData, "மாதிரித்தேர்வு 3"));
 oneJson.activeFiles.push("Lesson_2");
 oneJson.activeGrades.push("all");
@@ -39,15 +37,14 @@ if (!oneJson.activeSubjects) {
 oneJson.activeSubjects[2] = "mocktest";
 oneJson.quiz = oneJson.quiz.concat(extractQuiz(mockTestData, "Lesson_2_MT"));
 
-// 3. Add English Lesson (3rd Subject)
-oneJson.activeTitles.push(getTitle(englishData, "English Lesson 1"));
-oneJson.activeFiles.push("Lesson_1");
-oneJson.activeGrades.push("5");
-oneJson.activeSubjects.push("english");
-oneJson.quiz = oneJson.quiz.concat(extractQuiz(englishData, "Lesson_1_EN"));
-
-// 4. Update overall title
+// 3. Update overall title
 oneJson.title = "இன்றைய பாடங்கள்: " + oneJson.activeTitles.join(' & ');
 
-fs.writeFileSync(oneJsonPath, JSON.stringify(oneJson, null, 2));
-console.log("✅ 1.json updated with 3 subjects (Tamil, Mock Test, English).");
+// 4. Ensure no Bengali/Invalid symbols in the whole file
+let finalStr = JSON.stringify(oneJson, null, 2);
+// Replacing some known bad Bengali-ish sequences if any, but since we removed English, it should be better.
+// Also strip any BOM or weird chars
+finalStr = finalStr.replace(/\uFEFF/g, '');
+
+fs.writeFileSync(oneJsonPath, finalStr);
+console.log("✅ 1.json updated with 3 lessons (2 Tamil + 1 Mock Test).");
