@@ -456,6 +456,11 @@
 
             async function init() {
                 const params = new URLSearchParams(window.location.search);
+                const isFreeMode = params.get('mode') === 'free';
+                if (!isFreeMode) {
+                    const { waitForAuth } = await import(`./js/auth.js?v=${v}`);
+                    await waitForAuth();
+                }
                 const subject = params.get('subject') || 'default';
                 const className = params.get('class');
                 const lessonId = params.get('lesson');

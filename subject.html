@@ -366,8 +366,8 @@
             const v = Date.now();
             try {
                 // Fetch required data
-                const { checkAuth, waitForAuth } = await import(`./js/auth.js?v=${v}`);
-                await waitForAuth();
+                const { checkAuth } = await import(`./js/auth.js?v=${v}`);
+                // await waitForAuth(); // Removed for free access to syllabus
                 const { syllabusData } = await import(`./js/data/syllabus.js?v=${v}`);
                 const { extraSyllabusData } = await import(`./js/data/extraSyllabus.js?v=${v}`);
 
@@ -469,10 +469,10 @@
                                     </div>
                                     ${!isFaded ? `
                                     <div class="btn-group">
-                                        <a href="${isDailyMode ? `quiz.html?lesson=1&status=notes` : `material.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}`}" class="card-btn btn-notes" onclick="event.stopPropagation()">
+                                        <a href="${isDailyMode ? `quiz.html?lesson=1&status=notes` : `material.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}${['mocktest', 'revision'].includes(subject) ? '&mode=free' : ''}`}" class="card-btn btn-notes" onclick="event.stopPropagation()">
                                             பாடக்குறிப்புகள்
                                         </a>
-                                        <a href="${isDailyMode ? `quiz.html?lesson=1` : `quiz.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}`}" class="card-btn btn-quiz" onclick="event.stopPropagation()">
+                                        <a href="${isDailyMode ? `quiz.html?lesson=1` : `quiz.html?subject=${subject}&class=${currentClass}&lesson=${encodeURIComponent(topic.code || topic.title)}${paper ? `&paper=${paper}` : ''}${['mocktest', 'revision'].includes(subject) ? '&mode=free' : ''}`}" class="card-btn btn-quiz" onclick="event.stopPropagation()">
                                             தேர்வு
                                         </a>
                                     </div>` : ''}

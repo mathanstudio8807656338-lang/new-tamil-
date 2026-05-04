@@ -232,11 +232,26 @@ function initLoginPage() {
 
 export async function checkAuth() {
     document.documentElement.style.visibility = 'visible';
-    return { name: "மாணவர்" };
+    const userDataStr = localStorage.getItem(STORAGE_KEY);
+    if (!userDataStr) return null;
+    try {
+        const userData = JSON.parse(userDataStr);
+        if (!userData || !userData.phoneNumber) return null;
+        return userData;
+    } catch {
+        return null;
+    }
 }
 
 export function waitForAuth() {
-    return Promise.resolve({ name: "மாணவர்" });
+    return new Promise(async (resolve) => {
+        const user = await checkAuth();
+        if (user) {
+            resolve(user);
+        } else {
+            window.location.href = "login.html";
+        }
+    });
 }
 
 export function logout() {

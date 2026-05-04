@@ -217,11 +217,11 @@
     </div>
 
     <script type="module">
-        import { waitForAuth } from './js/auth.js?v=15.0';
+        import { checkAuth } from './js/auth.js?v=15.0';
 
         (async () => {
             const container = document.getElementById('lessonContainer');
-            const user = await waitForAuth();
+            const user = await checkAuth();
             if (user) document.getElementById('greetUser').innerText = `வணக்கம், ${user.name || "மாணவர்"}!`;
 
             try {
@@ -299,11 +299,11 @@
                         </div>
                         <div class="l-actions">
                             ${isNotesOpen && cSubject !== 'mocktest' ? 
-                                `<a href="material.html?subject=${cSubject}&class=${cGrade}&term=${cTerm}&lesson=${fileId}" class="btn-sm btn-n">📖 குறிப்புகள்</a>` : 
+                                `<a href="material.html?subject=${cSubject}&class=${cGrade}&term=${cTerm}&lesson=${fileId}&mode=free" class="btn-sm btn-n">📖 குறிப்புகள்</a>` : 
                                 (cSubject === 'mocktest' ? '' : `<div class="btn-sm btn-l">🔒 Locked</div>`)}
                             
                             ${isExamOpen ? 
-                                `<a href="quiz.html?subject=${cSubject}&class=${cGrade}&term=${cTerm}&lesson=${fileId}" class="btn-sm btn-e">📝 தேர்வு (Exam)</a>` : 
+                                `<a href="quiz.html?subject=${cSubject}&class=${cGrade}&term=${cTerm}&lesson=${fileId}&mode=free" class="btn-sm btn-e">📝 தேர்வு (Exam)</a>` : 
                                 `<div class="btn-sm btn-l">🔒 இன்று இரவு 8:00 முதல் 10:30 வரை</div>`}
                         </div>
                     </div>

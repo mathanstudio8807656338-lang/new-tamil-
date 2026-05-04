@@ -101,20 +101,52 @@
             <span>Primary Student Dashboard</span>
         </div>
 
-        <form id="freeForm">
-            <div class="form-group">
-                <label>உங்கள் பெயர் (Full Name)</label>
-                <input type="text" id="freeName" class="form-control" placeholder="பெயர்..." required>
-            </div>
-            <div class="form-group">
-                <label>மொபைல் எண் (Mobile No)</label>
-                <input type="tel" id="freePhone" class="form-control" placeholder="10 Digits" maxlength="10" required>
-            </div>
-            <button type="submit" id="freeBtn" class="btn btn-primary">
-                <span id="freeBtnText">தேர்வைத் தொடங்க (START)</span>
-                <div id="freeLoader" style="display:none; width: 20px; height: 20px; border: 3px solid rgba(255,255,255,0.3); border-top: 3px solid white; border-radius: 50%; animation: spin 1s linear infinite;"></div>
+        <div id="step1">
+            <form id="phoneForm">
+                <div class="form-group">
+                    <label>மொபைல் எண் (Mobile No)</label>
+                    <input type="tel" id="phoneNumber" class="form-control" placeholder="10 Digits" maxlength="10" required>
+                </div>
+                <p id="phoneError" style="color: #ef4444; font-size: 0.8rem; font-weight: 700; display: none; margin-bottom: 0.5rem;"></p>
+                <button type="submit" class="btn btn-primary">தொடரவும் (CONTINUE)</button>
+            </form>
+            <button type="button" id="switchToFree" class="btn" style="background: #f1f5f9; color: var(--primary); margin-top: 1rem;">
+                🎯 இலவச தேர்விற்கு பதிவு செய்ய
             </button>
-        </form>
+        </div>
+
+        <div id="step2" style="display: none;">
+            <form id="pinForm">
+                <div class="form-group">
+                    <label>பாஸ்வேர்டு (6 இலக்கங்கள்)</label>
+                    <input type="password" id="pinCode" class="form-control" placeholder="******" maxlength="6" required>
+                </div>
+                <p id="pinError" style="color: #ef4444; font-size: 0.8rem; font-weight: 700; display: none; margin-bottom: 0.5rem;"></p>
+                <button type="submit" id="loginBtn" class="btn btn-primary">
+                    <span id="loginBtnText">உள்நுழைய (LOGIN)</span>
+                    <div id="loginLoader" style="display:none; width: 20px; height: 20px; border: 3px solid rgba(255,255,255,0.3); border-top: 3px solid white; border-radius: 50%; animation: spin 1s linear infinite;"></div>
+                </button>
+                <button type="button" class="btn backToStep1" style="background: #f1f5f9; color: #475569; margin-top: 0.5rem;">பின்செல்ல (BACK)</button>
+            </form>
+        </div>
+
+        <div id="stepFree" style="display: none;">
+            <form id="freeForm">
+                <div class="form-group">
+                    <label>உங்கள் பெயர் (Full Name)</label>
+                    <input type="text" id="freeName" class="form-control" placeholder="பெயர் மட்டும்..." required>
+                </div>
+                <div class="form-group">
+                    <label>மொபைல் எண் (Mobile No)</label>
+                    <input type="tel" id="freePhone" class="form-control" placeholder="10 Digits" maxlength="10" required>
+                </div>
+                <button type="submit" id="freeBtn" class="btn btn-primary">
+                    <span id="freeBtnText">தேர்வைத் தொடங்க (START)</span>
+                    <div id="freeLoader" style="display:none; width: 20px; height: 20px; border: 3px solid rgba(255,255,255,0.3); border-top: 3px solid white; border-radius: 50%; animation: spin 1s linear infinite;"></div>
+                </button>
+                <button type="button" class="btn backToStep1" style="background: #f1f5f9; color: #475569; margin-top: 0.5rem;">பின்செல்ல (BACK)</button>
+            </form>
+        </div>
 
         <div class="footer-links">
             <a href="https://wa.me/916369371452?text=Paid Group-ல் இணைய விரும்புகிறேன்" target="_blank" class="link-btn paid">
