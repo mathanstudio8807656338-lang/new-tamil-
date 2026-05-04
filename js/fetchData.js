@@ -24,7 +24,7 @@ export function getSafeFileName(topic) {
 }
 
 // --- Robust Data Fetching ---
-export async function getLocalLessonData(subject, className, lessonId) {
+export async function getLocalLessonData(subject, className, lessonId, term) {
     const v = new Date().getTime();
     
     // --- SPECIAL CASE: Daily Challenge (1.json) ---
@@ -53,6 +53,17 @@ export async function getLocalLessonData(subject, className, lessonId) {
     else if (sub.includes('revision')) subjectKey = 'revision';
     else if (sub.includes('mocktest')) subjectKey = 'mocktest';
 
+    const paths = [];
+
+    // Prioritize direct path if Term and Grade are provided
+    if (className && term) {
+        if (className === 'all') {
+            paths.push(`json-db/lessons/${subjectKey}/all/${lessonId}.json`);
+        } else {
+            paths.push(`json-db/lessons/${subjectKey}/${className}/Term ${term}/${lessonId}.json`);
+        }
+    }
+
     let lessonMap = {};
     try {
         const module = await import(`./data/lessonMap.js?v=${v}`);
@@ -69,7 +80,6 @@ export async function getLocalLessonData(subject, className, lessonId) {
     };
 
     const match = findMatch(subjectMap, lessonId);
-    const paths = [];
 
     if (match) {
         if (match.isFlat) {

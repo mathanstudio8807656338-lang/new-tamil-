@@ -459,6 +459,7 @@
                 const subject = params.get('subject') || 'default';
                 const className = params.get('class');
                 const lessonId = params.get('lesson');
+                const term = params.get('term');
                 const paper = params.get('paper');
 
                 const exitUrl = `daily.html`;
@@ -478,7 +479,7 @@
                 }
 
                 try {
-                    const result = await getLocalLessonData(subject, className, lessonId);
+                    const result = await getLocalLessonData(subject, className, lessonId, term);
                     
                     if (!result || !result.data) {
                         document.getElementById('contentArea').innerHTML = `

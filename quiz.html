@@ -483,6 +483,7 @@
             const subject = params.get('subject');
             const className = params.get('class');
             const lessonId = params.get('lesson');
+            const term = params.get('term');
 
             const exitUrl = `daily.html`;
             document.getElementById('exitQuizSticky').href = exitUrl;
@@ -504,7 +505,7 @@
 
             async function initQuiz() {
                 try {
-                    const result = await getLocalLessonData(subject, className, lessonId);
+                    const result = await getLocalLessonData(subject, className, lessonId, term);
                     if (!result || !result.data) {
                         alert('தேர்வுக்கான தரவுகள் (Quiz Data) வரவில்லை. தயவுசெய்து பக்கத்தை புதுப்பிக்கவும் (Refresh)!');
                         startQuizBtn.innerText = "பிழை! (Error)";
