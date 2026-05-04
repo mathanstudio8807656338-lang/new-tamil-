@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700;800&family=Baloo+Thambi+2:wght@800&display=swap');
 
 :root {
     /* Premium Mobile App Color Palette */
@@ -19,6 +19,52 @@
     
     /* Transitions */
     --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* --- Standardized Branding Header --- */
+.header-standard {
+    background: #ffffff !important;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 2000 !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08) !important;
+    height: 70px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-top: 5px solid #331e24 !important;
+    width: 100% !important;
+}
+
+.brand-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    cursor: pointer !important;
+}
+
+.brand-main {
+    font-family: 'Baloo Thambi 2', cursive !important;
+    font-size: 2.1rem !important;
+    font-weight: 800 !important;
+    color: #002d5b !important;
+    line-height: 0.9 !important;
+    margin: 0 !important;
+}
+
+.brand-sub {
+    font-family: 'Outfit', sans-serif !important;
+    font-size: 0.75rem !important;
+    font-weight: 800 !important;
+    color: #002d5b !important;
+    letter-spacing: 0.3em !important;
+    text-transform: uppercase !important;
+    margin-top: 4px !important;
+}
+
+@media (max-width: 480px) {
+    .brand-main { font-size: 1.6rem !important; }
+    .brand-sub { font-size: 0.6rem !important; }
 }
 
 * {

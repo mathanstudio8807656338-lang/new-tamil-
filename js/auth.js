@@ -231,48 +231,12 @@ function initLoginPage() {
 }
 
 export async function checkAuth() {
-    try {
-        const path = window.location.pathname.toLowerCase();
-        const isPublicPage =
-            path.includes('login.html') || path.endsWith('/login') ||
-            path.includes('keygen.html') || path.endsWith('/keygen');
-        const session = localStorage.getItem(STORAGE_KEY);
-        const user = session ? JSON.parse(session) : null;
-        const isProtected = !isPublicPage;
-
-        if (isProtected && !user) {
-            window.location.replace("login.html");
-            return null;
-        }
-
-        if ((path.includes('login.html') || path.endsWith('/login')) && user) {
-            window.location.replace("index.html");
-            return user;
-        }
-
-        // ✅ Block check + Auto Register
-        if (user && isProtected) {
-            const isAllowed = await checkBlockStatus(user);
-            if (!isAllowed) return null;
-        }
-
-        if (user) {
-            const userNameEls = document.querySelectorAll('#studentName, #studentNameDisplay');
-            userNameEls.forEach(el => { el.innerText = user.name || "மாணவர்"; });
-        }
-
-        document.documentElement.style.visibility = 'visible';
-        return user;
-    } catch (e) {
-        document.documentElement.style.visibility = 'visible';
-        return null;
-    }
+    document.documentElement.style.visibility = 'visible';
+    return { name: "மாணவர்" };
 }
 
 export function waitForAuth() {
-    const session = localStorage.getItem(STORAGE_KEY);
-    const user = session ? JSON.parse(session) : null;
-    return Promise.resolve(user);
+    return Promise.resolve({ name: "மாணவர்" });
 }
 
 export function logout() {
