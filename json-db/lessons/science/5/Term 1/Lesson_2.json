@@ -1,6 +1,6 @@
 {
   "lesson_meta": {
-    "title": "அலகு 2: பருப்பொருட்கள் மற்றும் மூலப்பொருட்கள்",
+    "title": "à®…à®²à®•à¯ 2: à®ªà®°à¯à®ªà¯à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à¯ à®®à®±à¯à®±à¯à®®à¯ à®®à¯‚à®²à®ªà¯à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à¯",
     "unit": 2,
     "grade": "5",
     "term": "1",
@@ -10,420 +10,420 @@
   "material": {
     "sections": [
       {
-        "title": "பாடச்சுருக்கம்",
-        "content": "<div style=\"background: #f0fdf4; border-left: 5px solid #22c55e; padding: 1.5rem; border-radius: 0.75rem; line-height: 1.8; color: #166534; font-size: 1.1rem;\">இப்பாடம் பருப்பொருட்களின் மூன்று முக்கிய நிலைகளான திண்மம், திரவம் மற்றும் வாயு ஆகியவற்றின் பண்புகளை விளக்குகிறது. மேலும், இயற்கையாகக் கிடைக்கும் மூலப்பொருட்களான பருத்தி, சணல், நார்கள் மற்றும் மனிதனால் உருவாக்கப்படும் செயற்கை இழைகளான ரேயான், நைலான் போன்றவற்றின் உற்பத்தி முறைகள் மற்றும் பயன்கள் விவரிக்கப்பட்டுள்ளன. கோதுமை, சோளம், நெல் மற்றும் சிறுதானியங்கள் போன்ற முக்கிய உணவு தானியங்களின் முக்கியத்துவம் பற்றியும், பண்டைய மற்றும் நவீன வீட்டு உபயோகப் பொருட்கள் பற்றியும் பாடம் விளக்குகிறது. இறுதியாக, பொருட்களின் அடர்த்தியின் அடிப்படையில் மிதத்தல் மற்றும் மூழ்குதல் தத்துவமும், நீரில் திடப்பொருட்களின் கரைதிறன் மற்றும் திரவங்களின் கலத்தல் பண்புகளும் வேதியியல் அடிப்படையில் தெளிவாக விளக்கப்பட்டுள்ளன.</div>"
+        "title": "à®ªà®¾à®Ÿà®šà¯à®šà¯à®°à¯à®•à¯à®•à®®à¯",
+        "content": "<div style=\"background: #f0fdf4; border-left: 5px solid #22c55e; padding: 1.5rem; border-radius: 0.75rem; line-height: 1.8; color: #166534; font-size: 1.1rem;\">à®‡à®ªà¯à®ªà®¾à®Ÿà®®à¯ à®ªà®°à¯à®ªà¯à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à®¿à®©à¯ à®®à¯‚à®©à¯à®±à¯ à®®à¯à®•à¯à®•à®¿à®¯ à®¨à®¿à®²à¯ˆà®•à®³à®¾à®© à®¤à®¿à®£à¯à®®à®®à¯, à®¤à®¿à®°à®µà®®à¯ à®®à®±à¯à®±à¯à®®à¯ à®µà®¾à®¯à¯ à®†à®•à®¿à®¯à®µà®±à¯à®±à®¿à®©à¯ à®ªà®£à¯à®ªà¯à®•à®³à¯ˆ à®µà®¿à®³à®•à¯à®•à¯à®•à®¿à®±à®¤à¯. à®®à¯‡à®²à¯à®®à¯, à®‡à®¯à®±à¯à®•à¯ˆà®¯à®¾à®•à®•à¯ à®•à®¿à®Ÿà¯ˆà®•à¯à®•à¯à®®à¯ à®®à¯‚à®²à®ªà¯à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à®¾à®© à®ªà®°à¯à®¤à¯à®¤à®¿, à®šà®£à®²à¯, à®¨à®¾à®°à¯à®•à®³à¯ à®®à®±à¯à®±à¯à®®à¯ à®®à®©à®¿à®¤à®©à®¾à®²à¯ à®‰à®°à¯à®µà®¾à®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®®à¯ à®šà¯†à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆà®•à®³à®¾à®© à®°à¯‡à®¯à®¾à®©à¯, à®¨à¯ˆà®²à®¾à®©à¯ à®ªà¯‹à®©à¯à®±à®µà®±à¯à®±à®¿à®©à¯ à®‰à®±à¯à®ªà®¤à¯à®¤à®¿ à®®à¯à®±à¯ˆà®•à®³à¯ à®®à®±à¯à®±à¯à®®à¯ à®ªà®¯à®©à¯à®•à®³à¯ à®µà®¿à®µà®°à®¿à®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®Ÿà¯à®³à¯à®³à®©. à®•à¯‹à®¤à¯à®®à¯ˆ, à®šà¯‹à®³à®®à¯, à®¨à¯†à®²à¯ à®®à®±à¯à®±à¯à®®à¯ à®šà®¿à®±à¯à®¤à®¾à®©à®¿à®¯à®™à¯à®•à®³à¯ à®ªà¯‹à®©à¯à®± à®®à¯à®•à¯à®•à®¿à®¯ à®‰à®£à®µà¯ à®¤à®¾à®©à®¿à®¯à®™à¯à®•à®³à®¿à®©à¯ à®®à¯à®•à¯à®•à®¿à®¯à®¤à¯à®¤à¯à®µà®®à¯ à®ªà®±à¯à®±à®¿à®¯à¯à®®à¯, à®ªà®£à¯à®Ÿà¯ˆà®¯ à®®à®±à¯à®±à¯à®®à¯ à®¨à®µà¯€à®© à®µà¯€à®Ÿà¯à®Ÿà¯ à®‰à®ªà®¯à¯‹à®•à®ªà¯ à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à¯ à®ªà®±à¯à®±à®¿à®¯à¯à®®à¯ à®ªà®¾à®Ÿà®®à¯ à®µà®¿à®³à®•à¯à®•à¯à®•à®¿à®±à®¤à¯. à®‡à®±à¯à®¤à®¿à®¯à®¾à®•, à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à®¿à®©à¯ à®…à®Ÿà®°à¯à®¤à¯à®¤à®¿à®¯à®¿à®©à¯ à®…à®Ÿà®¿à®ªà¯à®ªà®Ÿà¯ˆà®¯à®¿à®²à¯ à®®à®¿à®¤à®¤à¯à®¤à®²à¯ à®®à®±à¯à®±à¯à®®à¯ à®®à¯‚à®´à¯à®•à¯à®¤à®²à¯ à®¤à®¤à¯à®¤à¯à®µà®®à¯à®®à¯, à®¨à¯€à®°à®¿à®²à¯ à®¤à®¿à®Ÿà®ªà¯à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à®¿à®©à¯ à®•à®°à¯ˆà®¤à®¿à®±à®©à¯ à®®à®±à¯à®±à¯à®®à¯ à®¤à®¿à®°à®µà®™à¯à®•à®³à®¿à®©à¯ à®•à®²à®¤à¯à®¤à®²à¯ à®ªà®£à¯à®ªà¯à®•à®³à¯à®®à¯ à®µà¯‡à®¤à®¿à®¯à®¿à®¯à®²à¯ à®…à®Ÿà®¿à®ªà¯à®ªà®Ÿà¯ˆà®¯à®¿à®²à¯ à®¤à¯†à®³à®¿à®µà®¾à®• à®µà®¿à®³à®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®Ÿà¯à®³à¯à®³à®©.</div>"
       },
       {
-        "title": "பாடக்கருத்துக்கள் (Core Concepts)",
-        "content": "\n    <div style=\"margin-bottom: 2rem; background: #eff6ff; border-left: 5px solid #3b82f6; padding: 1.5rem; border-radius: 0.75rem;\">\n      <h3 style=\"color: #3b82f6; margin-bottom: 1rem; border-bottom: 2px solid #3b82f644; padding-bottom: 0.5rem;\">பொருள்களின் நிலைகள் (States of Matter)</h3>\n      <ul style=\"margin: 0; padding-left: 1.25rem;\">\n        <li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>பருப்பொருள்கள் திண்மம், திரவம் மற்றும் வாயு என மூன்று நிலைகளில் காணப்படுகின்றன.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>திண்மம்: மூலக்கூறுகள் மிக நெருக்கமாக அமைந்துள்ளன. இவற்றை அழுத்த முடியாது. இவை குறிப்பிட்ட உருவம், வடிவம் மற்றும் கனஅளவைப் பெற்றிருக்கும். (எ.கா: செங்கல், கல்).</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>திரவம்: மூலக்கூறுகள் தளர்வாக இடைவெளிவிட்டு பிணைக்கப்பட்டுள்ளன. இவற்றை சிறிதளவே அழுத்தலாம். குறிப்பிட்ட கனஅளவைப் பெற்றிருக்கும், ஆனால் குறிப்பிட்ட வடிவம் இல்லை. ஊற்றப்படும் கொள்கலனின் வடிவத்தைப் பெறும். (எ.கா: நீர்).</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>வாயு: மூலக்கூறுகள் மிகவும் தளர்வாக பிணைக்கப்பட்டுள்ளன. இவற்றை எளிதில் அழுத்தலாம். குறிப்பிட்ட வடிவமும் கனஅளவும் இல்லை. (எ.கா: காற்று).</li>\n      </ul>\n    </div>\n    <div style=\"margin-bottom: 2rem; background: #fdf2f8; border-left: 5px solid #ec4899; padding: 1.5rem; border-radius: 0.75rem;\">\n      <h3 style=\"color: #ec4899; margin-bottom: 1rem; border-bottom: 2px solid #ec489944; padding-bottom: 0.5rem;\">மூலப்பொருள்கள் (Materials)</h3>\n      <ul style=\"margin: 0; padding-left: 1.25rem;\">\n        <li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>மூலப்பொருள் என்பது ஒரு பொருளைக் கட்டமைக்கக் கூடிய பொருள்களின் கலவையாகும்.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>இது தூயபொருளாகவோ அல்லது தூய்மையற்ற பொருளாகவோ இருக்கலாம்.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>இவை இயற்கையானதாகவோ (மரம், தங்கம்) அல்லது செயற்கையானதாகவோ (கண்ணாடி, பிளாஸ்டிக்) இருக்கலாம்.</li>\n      </ul>\n    </div>\n    <div style=\"margin-bottom: 2rem; background: #f0fdf4; border-left: 5px solid #10b981; padding: 1.5rem; border-radius: 0.75rem;\">\n      <h3 style=\"color: #10b981; margin-bottom: 1rem; border-bottom: 2px solid #10b98144; padding-bottom: 0.5rem;\">இயற்கை இழைகள் (Natural Fibres)</h3>\n      <ul style=\"margin: 0; padding-left: 1.25rem;\">\n        <li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>இழைகள் என்பவை நூல்களாகவோ அல்லது கயிறுகளாகவோ நெய்யக்கூடிய பொருளாகும்.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>தாவரங்கள் (பருத்தி, சணல், நார்) மற்றும் விலங்குகளிலிருந்து (கம்பளி, பட்டு) பெறப்படும் இழைகள் இயற்கை இழைகள் எனப்படும்.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>பருத்தி: கரிசல் மற்றும் வண்டல் மண்ணில் நன்கு வளரக்கூடிய புதர்ச்செடி. இது 5 முதல் 6 அடி வரை வளரும்.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>விதை நீக்குதல் (Ginning): பருத்தி விதைகளிலிருந்து பஞ்சைப் பிரித்தெடுக்கும் முறை.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>நூற்றல் (Spinning): பஞ்சிலிருந்து நூல் தயாரிக்கும் முறை.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>நெய்தல் (Weaving) மற்றும் பின்னுதல் (Knitting): நூல்களிலிருந்து துணி உருவாக்கும் முறைகள். இதற்கு தறி (கைத்தறி அல்லது விசைத்தறி) பயன்படுகிறது.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>சணல்: தாவரத்தின் தண்டுப் பகுதியிலிருந்து பெறப்படும் இழை. இது மென்மையான, பளபளப்பான மற்றும் நீளமான இழை. இது 'தங்க இழை' (Golden Fibre) எனப்படும்.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>நார்கள்: தேங்காயின் வெளிப்புறப் பகுதியிலிருந்து பெறப்படும் கடினமான நார்ப்பொருள்.</li>\n      </ul>\n    </div>\n    <div style=\"margin-bottom: 2rem; background: #fffbeb; border-left: 5px solid #f59e0b; padding: 1.5rem; border-radius: 0.75rem;\">\n      <h3 style=\"color: #f59e0b; margin-bottom: 1rem; border-bottom: 2px solid #f59e0b44; padding-bottom: 0.5rem;\">செயற்கை இழைகள் (Synthetic Fibres)</h3>\n      <ul style=\"margin: 0; padding-left: 1.25rem;\">\n        <li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>வேதிமுறைகளைப் பயன்படுத்தி மனிதனால் உருவாக்கப்படும் இழைகள் செயற்கை இழைகள் அல்லது மனிதனால் உருவாக்கப்பட்ட இழைகள் எனப்படும்.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>எடுத்துக்காட்டு: ரேயான் (மரக்கூழிலிருந்து பெறப்படுகிறது), நைலான் (பட்டு மற்றும் கம்பளிக்கு மாற்று), பாலியெஸ்டர் (பெட்ரோலியப் பொருள்களிலிருந்து பெறப்படுகிறது) மற்றும் அக்ரிலிக்.</li>\n      </ul>\n    </div>\n    <div style=\"margin-bottom: 2rem; background: #f5f3ff; border-left: 5px solid #8b5cf6; padding: 1.5rem; border-radius: 0.75rem;\">\n      <h3 style=\"color: #8b5cf6; margin-bottom: 1rem; border-bottom: 2px solid #8b5cf644; padding-bottom: 0.5rem;\">உணவு தானியங்கள் (Food Grains)</h3>\n      <ul style=\"margin: 0; padding-left: 1.25rem;\">\n        <li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>கோதுமை: உலகின் மிகவும் முக்கியமான உணவுப்பயிர். ரொட்டி, கேக், பாஸ்தா தயாரிக்கப் பயன்படுகிறது.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>சோளம்: மெக்சிகோ மற்றும் அமெரிக்கா இதன் பிறப்பிடம். டகோ (Taco), சோள எண்ணெய் தயாரிக்கப் பயன்படுகிறது.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>நெல்: உலக அளவில் முக்கிய வேளாண் பயிர். பெரும்பாலும் மனித உணவாகவே பயன்படுகிறது.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>சிறுதானியங்கள்: அளவில் சிறியவை. (எ.கா: குதிரைவாலி, தினை, கேழ்வரகு, கம்பு, சோளம், வரகு).</li>\n      </ul>\n    </div>\n    <div style=\"margin-bottom: 2rem; background: #eff6ff; border-left: 5px solid #3b82f6; padding: 1.5rem; border-radius: 0.75rem;\">\n      <h3 style=\"color: #3b82f6; margin-bottom: 1rem; border-bottom: 2px solid #3b82f644; padding-bottom: 0.5rem;\">வீட்டு உபயோகப் பொருள்கள் (Household Items)</h3>\n      <ul style=\"margin: 0; padding-left: 1.25rem;\">\n        <li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>பழங்காலத்தில் ரேடியோ, சுழல் தட்டுப் போன், மண்ணெண்ணெய் அடுப்பு போன்றவை பயன்படுத்தப்பட்டன.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>நவீன காலத்தில் குளிர்சாதனப் பெட்டி, சலவை இயந்திரம், நுண்ணலை அடுப்பு, தூய்மையாக்கி போன்றவை பயன்படுத்தப்படுகின்றன.</li>\n      </ul>\n    </div>\n    <div style=\"margin-bottom: 2rem; background: #fdf2f8; border-left: 5px solid #ec4899; padding: 1.5rem; border-radius: 0.75rem;\">\n      <h3 style=\"color: #ec4899; margin-bottom: 1rem; border-bottom: 2px solid #ec489944; padding-bottom: 0.5rem;\">மிதத்தல் மற்றும் மூழ்குதல் (Floating and Sinking)</h3>\n      <ul style=\"margin: 0; padding-left: 1.25rem;\">\n        <li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>ஒரு பொருளின் மிதக்கும் அல்லது மூழ்கும் தன்மை அப்பொருளின் அடர்த்தியைப் பொறுத்தது.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>ஆப்பிள், பிளாஸ்டிக் பந்து போன்ற குறைவான அடர்த்தி கொண்ட பொருட்கள் நீரில் மிதக்கும்.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>கத்தரிக்கோல், இரும்பு சாவி, நாணயம் போன்ற அதிக அடர்த்தி கொண்ட பொருட்கள் நீரில் மூழ்கும்.</li>\n      </ul>\n    </div>\n    <div style=\"margin-bottom: 2rem; background: #f0fdf4; border-left: 5px solid #10b981; padding: 1.5rem; border-radius: 0.75rem;\">\n      <h3 style=\"color: #10b981; margin-bottom: 1rem; border-bottom: 2px solid #10b98144; padding-bottom: 0.5rem;\">నీరిల్ திடப்பொருளின் கரைதிறன் மற்றும் கலத்தல்</h3>\n      <ul style=\"margin: 0; padding-left: 1.25rem;\">\n        <li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>நீரில் கரையக்கூடிய பொருட்கள்: உப்பு, சர்க்கரை.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>நீரில் கரையாத பொருட்கள்: சாக்பீஸ் தூள், மணல்.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>திரவங்களின் கலத்தல்: எலுமிச்சை சாறு, வினிகர் போன்ற திரவங்கள் நீருடன் நன்றாகக் கலக்கின்றன.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>கடுகு எண்ணெய், தேங்காய் எண்ணெய் போன்றவை நீருடன் கலக்காமல் தனி அடுக்காக மிதக்கின்றன.</li>\n      </ul>\n    </div>"
+        "title": "à®ªà®¾à®Ÿà®•à¯à®•à®°à¯à®¤à¯à®¤à¯à®•à¯à®•à®³à¯ (Core Concepts)",
+        "content": "\n    <div style=\"margin-bottom: 2rem; background: #eff6ff; border-left: 5px solid #3b82f6; padding: 1.5rem; border-radius: 0.75rem;\">\n      <h3 style=\"color: #3b82f6; margin-bottom: 1rem; border-bottom: 2px solid #3b82f644; padding-bottom: 0.5rem;\">à®ªà¯Šà®°à¯à®³à¯à®•à®³à®¿à®©à¯ à®¨à®¿à®²à¯ˆà®•à®³à¯ (States of Matter)</h3>\n      <ul style=\"margin: 0; padding-left: 1.25rem;\">\n        <li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®ªà®°à¯à®ªà¯à®ªà¯Šà®°à¯à®³à¯à®•à®³à¯ à®¤à®¿à®£à¯à®®à®®à¯, à®¤à®¿à®°à®µà®®à¯ à®®à®±à¯à®±à¯à®®à¯ à®µà®¾à®¯à¯ à®Žà®© à®®à¯‚à®©à¯à®±à¯ à®¨à®¿à®²à¯ˆà®•à®³à®¿à®²à¯ à®•à®¾à®£à®ªà¯à®ªà®Ÿà¯à®•à®¿à®©à¯à®±à®©.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®¤à®¿à®£à¯à®®à®®à¯: à®®à¯‚à®²à®•à¯à®•à¯‚à®±à¯à®•à®³à¯ à®®à®¿à®• à®¨à¯†à®°à¯à®•à¯à®•à®®à®¾à®• à®…à®®à¯ˆà®¨à¯à®¤à¯à®³à¯à®³à®©. à®‡à®µà®±à¯à®±à¯ˆ à®…à®´à¯à®¤à¯à®¤ à®®à¯à®Ÿà®¿à®¯à®¾à®¤à¯. à®‡à®µà¯ˆ à®•à¯à®±à®¿à®ªà¯à®ªà®¿à®Ÿà¯à®Ÿ à®‰à®°à¯à®µà®®à¯, à®µà®Ÿà®¿à®µà®®à¯ à®®à®±à¯à®±à¯à®®à¯ à®•à®©à®…à®³à®µà¯ˆà®ªà¯ à®ªà¯†à®±à¯à®±à®¿à®°à¯à®•à¯à®•à¯à®®à¯. (à®Ž.à®•à®¾: à®šà¯†à®™à¯à®•à®²à¯, à®•à®²à¯).</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®¤à®¿à®°à®µà®®à¯: à®®à¯‚à®²à®•à¯à®•à¯‚à®±à¯à®•à®³à¯ à®¤à®³à®°à¯à®µà®¾à®• à®‡à®Ÿà¯ˆà®µà¯†à®³à®¿à®µà®¿à®Ÿà¯à®Ÿà¯ à®ªà®¿à®£à¯ˆà®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®Ÿà¯à®³à¯à®³à®©. à®‡à®µà®±à¯à®±à¯ˆ à®šà®¿à®±à®¿à®¤à®³à®µà¯‡ à®…à®´à¯à®¤à¯à®¤à®²à®¾à®®à¯. à®•à¯à®±à®¿à®ªà¯à®ªà®¿à®Ÿà¯à®Ÿ à®•à®©à®…à®³à®µà¯ˆà®ªà¯ à®ªà¯†à®±à¯à®±à®¿à®°à¯à®•à¯à®•à¯à®®à¯, à®†à®©à®¾à®²à¯ à®•à¯à®±à®¿à®ªà¯à®ªà®¿à®Ÿà¯à®Ÿ à®µà®Ÿà®¿à®µà®®à¯ à®‡à®²à¯à®²à¯ˆ. à®Šà®±à¯à®±à®ªà¯à®ªà®Ÿà¯à®®à¯ à®•à¯Šà®³à¯à®•à®²à®©à®¿à®©à¯ à®µà®Ÿà®¿à®µà®¤à¯à®¤à¯ˆà®ªà¯ à®ªà¯†à®±à¯à®®à¯. (à®Ž.à®•à®¾: à®¨à¯€à®°à¯).</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®µà®¾à®¯à¯: à®®à¯‚à®²à®•à¯à®•à¯‚à®±à¯à®•à®³à¯ à®®à®¿à®•à®µà¯à®®à¯ à®¤à®³à®°à¯à®µà®¾à®• à®ªà®¿à®£à¯ˆà®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®Ÿà¯à®³à¯à®³à®©. à®‡à®µà®±à¯à®±à¯ˆ à®Žà®³à®¿à®¤à®¿à®²à¯ à®…à®´à¯à®¤à¯à®¤à®²à®¾à®®à¯. à®•à¯à®±à®¿à®ªà¯à®ªà®¿à®Ÿà¯à®Ÿ à®µà®Ÿà®¿à®µà®®à¯à®®à¯ à®•à®©à®…à®³à®µà¯à®®à¯ à®‡à®²à¯à®²à¯ˆ. (à®Ž.à®•à®¾: à®•à®¾à®±à¯à®±à¯).</li>\n      </ul>\n    </div>\n    <div style=\"margin-bottom: 2rem; background: #fdf2f8; border-left: 5px solid #ec4899; padding: 1.5rem; border-radius: 0.75rem;\">\n      <h3 style=\"color: #ec4899; margin-bottom: 1rem; border-bottom: 2px solid #ec489944; padding-bottom: 0.5rem;\">à®®à¯‚à®²à®ªà¯à®ªà¯Šà®°à¯à®³à¯à®•à®³à¯ (Materials)</h3>\n      <ul style=\"margin: 0; padding-left: 1.25rem;\">\n        <li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®®à¯‚à®²à®ªà¯à®ªà¯Šà®°à¯à®³à¯ à®Žà®©à¯à®ªà®¤à¯ à®’à®°à¯ à®ªà¯Šà®°à¯à®³à¯ˆà®•à¯ à®•à®Ÿà¯à®Ÿà®®à¯ˆà®•à¯à®•à®•à¯ à®•à¯‚à®Ÿà®¿à®¯ à®ªà¯Šà®°à¯à®³à¯à®•à®³à®¿à®©à¯ à®•à®²à®µà¯ˆà®¯à®¾à®•à¯à®®à¯.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®‡à®¤à¯ à®¤à¯‚à®¯à®ªà¯Šà®°à¯à®³à®¾à®•à®µà¯‹ à®…à®²à¯à®²à®¤à¯ à®¤à¯‚à®¯à¯à®®à¯ˆà®¯à®±à¯à®± à®ªà¯Šà®°à¯à®³à®¾à®•à®µà¯‹ à®‡à®°à¯à®•à¯à®•à®²à®¾à®®à¯.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®‡à®µà¯ˆ à®‡à®¯à®±à¯à®•à¯ˆà®¯à®¾à®©à®¤à®¾à®•à®µà¯‹ (à®®à®°à®®à¯, à®¤à®™à¯à®•à®®à¯) à®…à®²à¯à®²à®¤à¯ à®šà¯†à®¯à®±à¯à®•à¯ˆà®¯à®¾à®©à®¤à®¾à®•à®µà¯‹ (à®•à®£à¯à®£à®¾à®Ÿà®¿, à®ªà®¿à®³à®¾à®¸à¯à®Ÿà®¿à®•à¯) à®‡à®°à¯à®•à¯à®•à®²à®¾à®®à¯.</li>\n      </ul>\n    </div>\n    <div style=\"margin-bottom: 2rem; background: #f0fdf4; border-left: 5px solid #10b981; padding: 1.5rem; border-radius: 0.75rem;\">\n      <h3 style=\"color: #10b981; margin-bottom: 1rem; border-bottom: 2px solid #10b98144; padding-bottom: 0.5rem;\">à®‡à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆà®•à®³à¯ (Natural Fibres)</h3>\n      <ul style=\"margin: 0; padding-left: 1.25rem;\">\n        <li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®‡à®´à¯ˆà®•à®³à¯ à®Žà®©à¯à®ªà®µà¯ˆ à®¨à¯‚à®²à¯à®•à®³à®¾à®•à®µà¯‹ à®…à®²à¯à®²à®¤à¯ à®•à®¯à®¿à®±à¯à®•à®³à®¾à®•à®µà¯‹ à®¨à¯†à®¯à¯à®¯à®•à¯à®•à¯‚à®Ÿà®¿à®¯ à®ªà¯Šà®°à¯à®³à®¾à®•à¯à®®à¯.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®¤à®¾à®µà®°à®™à¯à®•à®³à¯ (à®ªà®°à¯à®¤à¯à®¤à®¿, à®šà®£à®²à¯, à®¨à®¾à®°à¯) à®®à®±à¯à®±à¯à®®à¯ à®µà®¿à®²à®™à¯à®•à¯à®•à®³à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ (à®•à®®à¯à®ªà®³à®¿, à®ªà®Ÿà¯à®Ÿà¯) à®ªà¯†à®±à®ªà¯à®ªà®Ÿà¯à®®à¯ à®‡à®´à¯ˆà®•à®³à¯ à®‡à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆà®•à®³à¯ à®Žà®©à®ªà¯à®ªà®Ÿà¯à®®à¯.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®ªà®°à¯à®¤à¯à®¤à®¿: à®•à®°à®¿à®šà®²à¯ à®®à®±à¯à®±à¯à®®à¯ à®µà®£à¯à®Ÿà®²à¯ à®®à®£à¯à®£à®¿à®²à¯ à®¨à®©à¯à®•à¯ à®µà®³à®°à®•à¯à®•à¯‚à®Ÿà®¿à®¯ à®ªà¯à®¤à®°à¯à®šà¯à®šà¯†à®Ÿà®¿. à®‡à®¤à¯ 5 à®®à¯à®¤à®²à¯ 6 à®…à®Ÿà®¿ à®µà®°à¯ˆ à®µà®³à®°à¯à®®à¯.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®µà®¿à®¤à¯ˆ à®¨à¯€à®•à¯à®•à¯à®¤à®²à¯ (Ginning): à®ªà®°à¯à®¤à¯à®¤à®¿ à®µà®¿à®¤à¯ˆà®•à®³à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®ªà®žà¯à®šà¯ˆà®ªà¯ à®ªà®¿à®°à®¿à®¤à¯à®¤à¯†à®Ÿà¯à®•à¯à®•à¯à®®à¯ à®®à¯à®±à¯ˆ.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®¨à¯‚à®±à¯à®±à®²à¯ (Spinning): à®ªà®žà¯à®šà®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®¨à¯‚à®²à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à¯à®®à¯ à®®à¯à®±à¯ˆ.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®¨à¯†à®¯à¯à®¤à®²à¯ (Weaving) à®®à®±à¯à®±à¯à®®à¯ à®ªà®¿à®©à¯à®©à¯à®¤à®²à¯ (Knitting): à®¨à¯‚à®²à¯à®•à®³à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®¤à¯à®£à®¿ à®‰à®°à¯à®µà®¾à®•à¯à®•à¯à®®à¯ à®®à¯à®±à¯ˆà®•à®³à¯. à®‡à®¤à®±à¯à®•à¯ à®¤à®±à®¿ (à®•à¯ˆà®¤à¯à®¤à®±à®¿ à®…à®²à¯à®²à®¤à¯ à®µà®¿à®šà¯ˆà®¤à¯à®¤à®±à®¿) à®ªà®¯à®©à¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®šà®£à®²à¯: à®¤à®¾à®µà®°à®¤à¯à®¤à®¿à®©à¯ à®¤à®£à¯à®Ÿà¯à®ªà¯ à®ªà®•à¯à®¤à®¿à®¯à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®ªà¯†à®±à®ªà¯à®ªà®Ÿà¯à®®à¯ à®‡à®´à¯ˆ. à®‡à®¤à¯ à®®à¯†à®©à¯à®®à¯ˆà®¯à®¾à®©, à®ªà®³à®ªà®³à®ªà¯à®ªà®¾à®© à®®à®±à¯à®±à¯à®®à¯ à®¨à¯€à®³à®®à®¾à®© à®‡à®´à¯ˆ. à®‡à®¤à¯ 'à®¤à®™à¯à®• à®‡à®´à¯ˆ' (Golden Fibre) à®Žà®©à®ªà¯à®ªà®Ÿà¯à®®à¯.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®¨à®¾à®°à¯à®•à®³à¯: à®¤à¯‡à®™à¯à®•à®¾à®¯à®¿à®©à¯ à®µà¯†à®³à®¿à®ªà¯à®ªà¯à®±à®ªà¯ à®ªà®•à¯à®¤à®¿à®¯à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®ªà¯†à®±à®ªà¯à®ªà®Ÿà¯à®®à¯ à®•à®Ÿà®¿à®©à®®à®¾à®© à®¨à®¾à®°à¯à®ªà¯à®ªà¯Šà®°à¯à®³à¯.</li>\n      </ul>\n    </div>\n    <div style=\"margin-bottom: 2rem; background: #fffbeb; border-left: 5px solid #f59e0b; padding: 1.5rem; border-radius: 0.75rem;\">\n      <h3 style=\"color: #f59e0b; margin-bottom: 1rem; border-bottom: 2px solid #f59e0b44; padding-bottom: 0.5rem;\">à®šà¯†à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆà®•à®³à¯ (Synthetic Fibres)</h3>\n      <ul style=\"margin: 0; padding-left: 1.25rem;\">\n        <li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®µà¯‡à®¤à®¿à®®à¯à®±à¯ˆà®•à®³à¯ˆà®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®¤à¯à®¤à®¿ à®®à®©à®¿à®¤à®©à®¾à®²à¯ à®‰à®°à¯à®µà®¾à®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®®à¯ à®‡à®´à¯ˆà®•à®³à¯ à®šà¯†à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆà®•à®³à¯ à®…à®²à¯à®²à®¤à¯ à®®à®©à®¿à®¤à®©à®¾à®²à¯ à®‰à®°à¯à®µà®¾à®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®Ÿ à®‡à®´à¯ˆà®•à®³à¯ à®Žà®©à®ªà¯à®ªà®Ÿà¯à®®à¯.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®Žà®Ÿà¯à®¤à¯à®¤à¯à®•à¯à®•à®¾à®Ÿà¯à®Ÿà¯: à®°à¯‡à®¯à®¾à®©à¯ (à®®à®°à®•à¯à®•à¯‚à®´à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®ªà¯†à®±à®ªà¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯), à®¨à¯ˆà®²à®¾à®©à¯ (à®ªà®Ÿà¯à®Ÿà¯ à®®à®±à¯à®±à¯à®®à¯ à®•à®®à¯à®ªà®³à®¿à®•à¯à®•à¯ à®®à®¾à®±à¯à®±à¯), à®ªà®¾à®²à®¿à®¯à¯†à®¸à¯à®Ÿà®°à¯ (à®ªà¯†à®Ÿà¯à®°à¯‹à®²à®¿à®¯à®ªà¯ à®ªà¯Šà®°à¯à®³à¯à®•à®³à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®ªà¯†à®±à®ªà¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯) à®®à®±à¯à®±à¯à®®à¯ à®…à®•à¯à®°à®¿à®²à®¿à®•à¯.</li>\n      </ul>\n    </div>\n    <div style=\"margin-bottom: 2rem; background: #f5f3ff; border-left: 5px solid #8b5cf6; padding: 1.5rem; border-radius: 0.75rem;\">\n      <h3 style=\"color: #8b5cf6; margin-bottom: 1rem; border-bottom: 2px solid #8b5cf644; padding-bottom: 0.5rem;\">à®‰à®£à®µà¯ à®¤à®¾à®©à®¿à®¯à®™à¯à®•à®³à¯ (Food Grains)</h3>\n      <ul style=\"margin: 0; padding-left: 1.25rem;\">\n        <li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®•à¯‹à®¤à¯à®®à¯ˆ: à®‰à®²à®•à®¿à®©à¯ à®®à®¿à®•à®µà¯à®®à¯ à®®à¯à®•à¯à®•à®¿à®¯à®®à®¾à®© à®‰à®£à®µà¯à®ªà¯à®ªà®¯à®¿à®°à¯. à®°à¯Šà®Ÿà¯à®Ÿà®¿, à®•à¯‡à®•à¯, à®ªà®¾à®¸à¯à®¤à®¾ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®šà¯‹à®³à®®à¯: à®®à¯†à®•à¯à®šà®¿à®•à¯‹ à®®à®±à¯à®±à¯à®®à¯ à®…à®®à¯†à®°à®¿à®•à¯à®•à®¾ à®‡à®¤à®©à¯ à®ªà®¿à®±à®ªà¯à®ªà®¿à®Ÿà®®à¯. à®Ÿà®•à¯‹ (Taco), à®šà¯‹à®³ à®Žà®£à¯à®£à¯†à®¯à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®¨à¯†à®²à¯: à®‰à®²à®• à®…à®³à®µà®¿à®²à¯ à®®à¯à®•à¯à®•à®¿à®¯ à®µà¯‡à®³à®¾à®£à¯ à®ªà®¯à®¿à®°à¯. à®ªà¯†à®°à¯à®®à¯à®ªà®¾à®²à¯à®®à¯ à®®à®©à®¿à®¤ à®‰à®£à®µà®¾à®•à®µà¯‡ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®šà®¿à®±à¯à®¤à®¾à®©à®¿à®¯à®™à¯à®•à®³à¯: à®…à®³à®µà®¿à®²à¯ à®šà®¿à®±à®¿à®¯à®µà¯ˆ. (à®Ž.à®•à®¾: à®•à¯à®¤à®¿à®°à¯ˆà®µà®¾à®²à®¿, à®¤à®¿à®©à¯ˆ, à®•à¯‡à®´à¯à®µà®°à®•à¯, à®•à®®à¯à®ªà¯, à®šà¯‹à®³à®®à¯, à®µà®°à®•à¯).</li>\n      </ul>\n    </div>\n    <div style=\"margin-bottom: 2rem; background: #eff6ff; border-left: 5px solid #3b82f6; padding: 1.5rem; border-radius: 0.75rem;\">\n      <h3 style=\"color: #3b82f6; margin-bottom: 1rem; border-bottom: 2px solid #3b82f644; padding-bottom: 0.5rem;\">à®µà¯€à®Ÿà¯à®Ÿà¯ à®‰à®ªà®¯à¯‹à®•à®ªà¯ à®ªà¯Šà®°à¯à®³à¯à®•à®³à¯ (Household Items)</h3>\n      <ul style=\"margin: 0; padding-left: 1.25rem;\">\n        <li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®ªà®´à®™à¯à®•à®¾à®²à®¤à¯à®¤à®¿à®²à¯ à®°à¯‡à®Ÿà®¿à®¯à¯‹, à®šà¯à®´à®²à¯ à®¤à®Ÿà¯à®Ÿà¯à®ªà¯ à®ªà¯‹à®©à¯, à®®à®£à¯à®£à¯†à®£à¯à®£à¯†à®¯à¯ à®…à®Ÿà¯à®ªà¯à®ªà¯ à®ªà¯‹à®©à¯à®±à®µà¯ˆ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®¤à¯à®¤à®ªà¯à®ªà®Ÿà¯à®Ÿà®©.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®¨à®µà¯€à®© à®•à®¾à®²à®¤à¯à®¤à®¿à®²à¯ à®•à¯à®³à®¿à®°à¯à®šà®¾à®¤à®©à®ªà¯ à®ªà¯†à®Ÿà¯à®Ÿà®¿, à®šà®²à®µà¯ˆ à®‡à®¯à®¨à¯à®¤à®¿à®°à®®à¯, à®¨à¯à®£à¯à®£à®²à¯ˆ à®…à®Ÿà¯à®ªà¯à®ªà¯, à®¤à¯‚à®¯à¯à®®à¯ˆà®¯à®¾à®•à¯à®•à®¿ à®ªà¯‹à®©à¯à®±à®µà¯ˆ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®¤à¯à®¤à®ªà¯à®ªà®Ÿà¯à®•à®¿à®©à¯à®±à®©.</li>\n      </ul>\n    </div>\n    <div style=\"margin-bottom: 2rem; background: #fdf2f8; border-left: 5px solid #ec4899; padding: 1.5rem; border-radius: 0.75rem;\">\n      <h3 style=\"color: #ec4899; margin-bottom: 1rem; border-bottom: 2px solid #ec489944; padding-bottom: 0.5rem;\">à®®à®¿à®¤à®¤à¯à®¤à®²à¯ à®®à®±à¯à®±à¯à®®à¯ à®®à¯‚à®´à¯à®•à¯à®¤à®²à¯ (Floating and Sinking)</h3>\n      <ul style=\"margin: 0; padding-left: 1.25rem;\">\n        <li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®’à®°à¯ à®ªà¯Šà®°à¯à®³à®¿à®©à¯ à®®à®¿à®¤à®•à¯à®•à¯à®®à¯ à®…à®²à¯à®²à®¤à¯ à®®à¯‚à®´à¯à®•à¯à®®à¯ à®¤à®©à¯à®®à¯ˆ à®…à®ªà¯à®ªà¯Šà®°à¯à®³à®¿à®©à¯ à®…à®Ÿà®°à¯à®¤à¯à®¤à®¿à®¯à¯ˆà®ªà¯ à®ªà¯Šà®±à¯à®¤à¯à®¤à®¤à¯.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®†à®ªà¯à®ªà®¿à®³à¯, à®ªà®¿à®³à®¾à®¸à¯à®Ÿà®¿à®•à¯ à®ªà®¨à¯à®¤à¯ à®ªà¯‹à®©à¯à®± à®•à¯à®±à¯ˆà®µà®¾à®© à®…à®Ÿà®°à¯à®¤à¯à®¤à®¿ à®•à¯Šà®£à¯à®Ÿ à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à¯ à®¨à¯€à®°à®¿à®²à¯ à®®à®¿à®¤à®•à¯à®•à¯à®®à¯.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®•à®¤à¯à®¤à®°à®¿à®•à¯à®•à¯‹à®²à¯, à®‡à®°à¯à®®à¯à®ªà¯ à®šà®¾à®µà®¿, à®¨à®¾à®£à®¯à®®à¯ à®ªà¯‹à®©à¯à®± à®…à®¤à®¿à®• à®…à®Ÿà®°à¯à®¤à¯à®¤à®¿ à®•à¯Šà®£à¯à®Ÿ à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à¯ à®¨à¯€à®°à®¿à®²à¯ à®®à¯‚à®´à¯à®•à¯à®®à¯.</li>\n      </ul>\n    </div>\n    <div style=\"margin-bottom: 2rem; background: #f0fdf4; border-left: 5px solid #10b981; padding: 1.5rem; border-radius: 0.75rem;\">\n      <h3 style=\"color: #10b981; margin-bottom: 1rem; border-bottom: 2px solid #10b98144; padding-bottom: 0.5rem;\">à°¨à±€à°°à°¿à°²à± à®¤à®¿à®Ÿà®ªà¯à®ªà¯Šà®°à¯à®³à®¿à®©à¯ à®•à®°à¯ˆà®¤à®¿à®±à®©à¯ à®®à®±à¯à®±à¯à®®à¯ à®•à®²à®¤à¯à®¤à®²à¯</h3>\n      <ul style=\"margin: 0; padding-left: 1.25rem;\">\n        <li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®¨à¯€à®°à®¿à®²à¯ à®•à®°à¯ˆà®¯à®•à¯à®•à¯‚à®Ÿà®¿à®¯ à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à¯: à®‰à®ªà¯à®ªà¯, à®šà®°à¯à®•à¯à®•à®°à¯ˆ.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®¨à¯€à®°à®¿à®²à¯ à®•à®°à¯ˆà®¯à®¾à®¤ à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à¯: à®šà®¾à®•à¯à®ªà¯€à®¸à¯ à®¤à¯‚à®³à¯, à®®à®£à®²à¯.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®¤à®¿à®°à®µà®™à¯à®•à®³à®¿à®©à¯ à®•à®²à®¤à¯à®¤à®²à¯: à®Žà®²à¯à®®à®¿à®šà¯à®šà¯ˆ à®šà®¾à®±à¯, à®µà®¿à®©à®¿à®•à®°à¯ à®ªà¯‹à®©à¯à®± à®¤à®¿à®°à®µà®™à¯à®•à®³à¯ à®¨à¯€à®°à¯à®Ÿà®©à¯ à®¨à®©à¯à®±à®¾à®•à®•à¯ à®•à®²à®•à¯à®•à®¿à®©à¯à®±à®©.</li><li style='margin-bottom: 0.75rem; color: #374151; font-weight: 500;'>à®•à®Ÿà¯à®•à¯ à®Žà®£à¯à®£à¯†à®¯à¯, à®¤à¯‡à®™à¯à®•à®¾à®¯à¯ à®Žà®£à¯à®£à¯†à®¯à¯ à®ªà¯‹à®©à¯à®±à®µà¯ˆ à®¨à¯€à®°à¯à®Ÿà®©à¯ à®•à®²à®•à¯à®•à®¾à®®à®²à¯ à®¤à®©à®¿ à®…à®Ÿà¯à®•à¯à®•à®¾à®• à®®à®¿à®¤à®•à¯à®•à®¿à®©à¯à®±à®©.</li>\n      </ul>\n    </div>"
       },
       {
-        "title": "உங்களுக்குத் தெரியுமா? (Knowledge Box)",
-        "content": "<div style='display: grid; gap: 1rem;'>\n    <div style=\"background: #fffbeb; border: 1px dashed #f59e0b; padding: 1rem; border-radius: 0.5rem; display: flex; gap: 1rem; align-items: start;\">\n      <span style=\"font-size: 1.5rem;\">💡</span>\n      <p style=\"margin: 0; color: #92400e; font-weight: 500;\">உலகிலேயே மிக உயர்ந்த இழை விலங்கான விக்குனா (Vicuna) ஒட்டக இனத்தைச் சார்ந்தது.</p>\n    </div>\n    <div style=\"background: #fffbeb; border: 1px dashed #f59e0b; padding: 1rem; border-radius: 0.5rem; display: flex; gap: 1rem; align-items: start;\">\n      <span style=\"font-size: 1.5rem;\">💡</span>\n      <p style=\"margin: 0; color: #92400e; font-weight: 500;\">ஒரே விதமான வேதியியல் பண்பைப் பெற்றுள்ள பொருள்கள் ஒன்றுடன் ஒன்று நன்கு கலக்கும்.</p>\n    </div>\n    <div style=\"background: #fffbeb; border: 1px dashed #f59e0b; padding: 1rem; border-radius: 0.5rem; display: flex; gap: 1rem; align-items: start;\">\n      <span style=\"font-size: 1.5rem;\">💡</span>\n      <p style=\"margin: 0; color: #92400e; font-weight: 500;\">வேறுபட்ட வேதியியல் பண்புகளைப் பெற்ற பொருள்கள் ஒன்றுடன் ஒன்று கலப்பதில்லை. (இதனாலேயே நீரும் எண்ணெயும் கலப்பதில்லை).</p>\n    </div>\n    <div style=\"background: #fffbeb; border: 1px dashed #f59e0b; padding: 1rem; border-radius: 0.5rem; display: flex; gap: 1rem; align-items: start;\">\n      <span style=\"font-size: 1.5rem;\">💡</span>\n      <p style=\"margin: 0; color: #92400e; font-weight: 500;\">பருத்தியின் பயன்கள்: மெத்தை, தலையணைகள் தயாரிக்க, அறுவை சிகிச்சையின் போது காயங்களுக்குக் கட்டுப்போட, வேட்டிகள், சேலைகள் தயாரிக்கப் பயன்படுகிறது.</p>\n    </div>\n    <div style=\"background: #fffbeb; border: 1px dashed #f59e0b; padding: 1rem; border-radius: 0.5rem; display: flex; gap: 1rem; align-items: start;\">\n      <span style=\"font-size: 1.5rem;\">💡</span>\n      <p style=\"margin: 0; color: #92400e; font-weight: 500;\">சணலின் பயன்கள்: பைகள், கம்பளிகள், திரைச்சீலைகள் தயாரிக்கப் பயன்படுகிறது.</p>\n    </div>\n    <div style=\"background: #fffbeb; border: 1px dashed #f59e0b; padding: 1rem; border-radius: 0.5rem; display: flex; gap: 1rem; align-items: start;\">\n      <span style=\"font-size: 1.5rem;\">💡</span>\n      <p style=\"margin: 0; color: #92400e; font-weight: 500;\">செயற்கை இழைகளின் பயன்கள்: கயிறு, துணி, மீன்பிடி வலைகள், பாராசூட், சட்டைகள், குழாய்கள் தயாரிக்கப் பயன்படுகிறது.</p>\n    </div></div>"
+        "title": "à®‰à®™à¯à®•à®³à¯à®•à¯à®•à¯à®¤à¯ à®¤à¯†à®°à®¿à®¯à¯à®®à®¾? (Knowledge Box)",
+        "content": "<div style='display: grid; gap: 1rem;'>\n    <div style=\"background: #fffbeb; border: 1px dashed #f59e0b; padding: 1rem; border-radius: 0.5rem; display: flex; gap: 1rem; align-items: start;\">\n      <span style=\"font-size: 1.5rem;\">ðŸ’¡</span>\n      <p style=\"margin: 0; color: #92400e; font-weight: 500;\">à®‰à®²à®•à®¿à®²à¯‡à®¯à¯‡ à®®à®¿à®• à®‰à®¯à®°à¯à®¨à¯à®¤ à®‡à®´à¯ˆ à®µà®¿à®²à®™à¯à®•à®¾à®© à®µà®¿à®•à¯à®•à¯à®©à®¾ (Vicuna) à®’à®Ÿà¯à®Ÿà®• à®‡à®©à®¤à¯à®¤à¯ˆà®šà¯ à®šà®¾à®°à¯à®¨à¯à®¤à®¤à¯.</p>\n    </div>\n    <div style=\"background: #fffbeb; border: 1px dashed #f59e0b; padding: 1rem; border-radius: 0.5rem; display: flex; gap: 1rem; align-items: start;\">\n      <span style=\"font-size: 1.5rem;\">ðŸ’¡</span>\n      <p style=\"margin: 0; color: #92400e; font-weight: 500;\">à®’à®°à¯‡ à®µà®¿à®¤à®®à®¾à®© à®µà¯‡à®¤à®¿à®¯à®¿à®¯à®²à¯ à®ªà®£à¯à®ªà¯ˆà®ªà¯ à®ªà¯†à®±à¯à®±à¯à®³à¯à®³ à®ªà¯Šà®°à¯à®³à¯à®•à®³à¯ à®’à®©à¯à®±à¯à®Ÿà®©à¯ à®’à®©à¯à®±à¯ à®¨à®©à¯à®•à¯ à®•à®²à®•à¯à®•à¯à®®à¯.</p>\n    </div>\n    <div style=\"background: #fffbeb; border: 1px dashed #f59e0b; padding: 1rem; border-radius: 0.5rem; display: flex; gap: 1rem; align-items: start;\">\n      <span style=\"font-size: 1.5rem;\">ðŸ’¡</span>\n      <p style=\"margin: 0; color: #92400e; font-weight: 500;\">à®µà¯‡à®±à¯à®ªà®Ÿà¯à®Ÿ à®µà¯‡à®¤à®¿à®¯à®¿à®¯à®²à¯ à®ªà®£à¯à®ªà¯à®•à®³à¯ˆà®ªà¯ à®ªà¯†à®±à¯à®± à®ªà¯Šà®°à¯à®³à¯à®•à®³à¯ à®’à®©à¯à®±à¯à®Ÿà®©à¯ à®’à®©à¯à®±à¯ à®•à®²à®ªà¯à®ªà®¤à®¿à®²à¯à®²à¯ˆ. (à®‡à®¤à®©à®¾à®²à¯‡à®¯à¯‡ à®¨à¯€à®°à¯à®®à¯ à®Žà®£à¯à®£à¯†à®¯à¯à®®à¯ à®•à®²à®ªà¯à®ªà®¤à®¿à®²à¯à®²à¯ˆ).</p>\n    </div>\n    <div style=\"background: #fffbeb; border: 1px dashed #f59e0b; padding: 1rem; border-radius: 0.5rem; display: flex; gap: 1rem; align-items: start;\">\n      <span style=\"font-size: 1.5rem;\">ðŸ’¡</span>\n      <p style=\"margin: 0; color: #92400e; font-weight: 500;\">à®ªà®°à¯à®¤à¯à®¤à®¿à®¯à®¿à®©à¯ à®ªà®¯à®©à¯à®•à®³à¯: à®®à¯†à®¤à¯à®¤à¯ˆ, à®¤à®²à¯ˆà®¯à®£à¯ˆà®•à®³à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•, à®…à®±à¯à®µà¯ˆ à®šà®¿à®•à®¿à®šà¯à®šà¯ˆà®¯à®¿à®©à¯ à®ªà¯‹à®¤à¯ à®•à®¾à®¯à®™à¯à®•à®³à¯à®•à¯à®•à¯à®•à¯ à®•à®Ÿà¯à®Ÿà¯à®ªà¯à®ªà¯‹à®Ÿ, à®µà¯‡à®Ÿà¯à®Ÿà®¿à®•à®³à¯, à®šà¯‡à®²à¯ˆà®•à®³à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯.</p>\n    </div>\n    <div style=\"background: #fffbeb; border: 1px dashed #f59e0b; padding: 1rem; border-radius: 0.5rem; display: flex; gap: 1rem; align-items: start;\">\n      <span style=\"font-size: 1.5rem;\">ðŸ’¡</span>\n      <p style=\"margin: 0; color: #92400e; font-weight: 500;\">à®šà®£à®²à®¿à®©à¯ à®ªà®¯à®©à¯à®•à®³à¯: à®ªà¯ˆà®•à®³à¯, à®•à®®à¯à®ªà®³à®¿à®•à®³à¯, à®¤à®¿à®°à¯ˆà®šà¯à®šà¯€à®²à¯ˆà®•à®³à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯.</p>\n    </div>\n    <div style=\"background: #fffbeb; border: 1px dashed #f59e0b; padding: 1rem; border-radius: 0.5rem; display: flex; gap: 1rem; align-items: start;\">\n      <span style=\"font-size: 1.5rem;\">ðŸ’¡</span>\n      <p style=\"margin: 0; color: #92400e; font-weight: 500;\">à®šà¯†à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆà®•à®³à®¿à®©à¯ à®ªà®¯à®©à¯à®•à®³à¯: à®•à®¯à®¿à®±à¯, à®¤à¯à®£à®¿, à®®à¯€à®©à¯à®ªà®¿à®Ÿà®¿ à®µà®²à¯ˆà®•à®³à¯, à®ªà®¾à®°à®¾à®šà¯‚à®Ÿà¯, à®šà®Ÿà¯à®Ÿà¯ˆà®•à®³à¯, à®•à¯à®´à®¾à®¯à¯à®•à®³à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯.</p>\n    </div></div>"
       },
       {
-        "title": "கலைச்சொற்கள் (Vocabulary)",
-        "content": "<div style='background: #f8fafc; padding: 1.5rem; border-radius: 0.75rem; border: 1px solid #e2e8f0;'><p style='margin-bottom: 0.5rem; color: #1e293b; font-weight: 600; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.25rem;'>🔹 விதை நீக்குதல் (Ginning) - விதைகளிலிருந்து பஞ்சைப் பிரித்தெடுக்கும் முறை.</p><p style='margin-bottom: 0.5rem; color: #1e293b; font-weight: 600; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.25rem;'>🔹 நூற்றல் (Spinning) - பஞ்சிலிருந்து நூல் தயாரிக்கும் முறை.</p><p style='margin-bottom: 0.5rem; color: #1e293b; font-weight: 600; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.25rem;'>🔹 நெய்தல் (Weaving) - இரண்டு வரிசையான நூல்களைக் கொண்டு துணி உருவாக்கும் முறை.</p><p style='margin-bottom: 0.5rem; color: #1e293b; font-weight: 600; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.25rem;'>🔹 பின்னுதல் (Knitting) - ஒரே ஒரு நூலைக் கொண்டு துணி உருவாக்கும் முறை.</p></div>"
+        "title": "à®•à®²à¯ˆà®šà¯à®šà¯Šà®±à¯à®•à®³à¯ (Vocabulary)",
+        "content": "<div style='background: #f8fafc; padding: 1.5rem; border-radius: 0.75rem; border: 1px solid #e2e8f0;'><p style='margin-bottom: 0.5rem; color: #1e293b; font-weight: 600; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.25rem;'>ðŸ”¹ à®µà®¿à®¤à¯ˆ à®¨à¯€à®•à¯à®•à¯à®¤à®²à¯ (Ginning) - à®µà®¿à®¤à¯ˆà®•à®³à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®ªà®žà¯à®šà¯ˆà®ªà¯ à®ªà®¿à®°à®¿à®¤à¯à®¤à¯†à®Ÿà¯à®•à¯à®•à¯à®®à¯ à®®à¯à®±à¯ˆ.</p><p style='margin-bottom: 0.5rem; color: #1e293b; font-weight: 600; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.25rem;'>ðŸ”¹ à®¨à¯‚à®±à¯à®±à®²à¯ (Spinning) - à®ªà®žà¯à®šà®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®¨à¯‚à®²à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à¯à®®à¯ à®®à¯à®±à¯ˆ.</p><p style='margin-bottom: 0.5rem; color: #1e293b; font-weight: 600; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.25rem;'>ðŸ”¹ à®¨à¯†à®¯à¯à®¤à®²à¯ (Weaving) - à®‡à®°à®£à¯à®Ÿà¯ à®µà®°à®¿à®šà¯ˆà®¯à®¾à®© à®¨à¯‚à®²à¯à®•à®³à¯ˆà®•à¯ à®•à¯Šà®£à¯à®Ÿà¯ à®¤à¯à®£à®¿ à®‰à®°à¯à®µà®¾à®•à¯à®•à¯à®®à¯ à®®à¯à®±à¯ˆ.</p><p style='margin-bottom: 0.5rem; color: #1e293b; font-weight: 600; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.25rem;'>ðŸ”¹ à®ªà®¿à®©à¯à®©à¯à®¤à®²à¯ (Knitting) - à®’à®°à¯‡ à®’à®°à¯ à®¨à¯‚à®²à¯ˆà®•à¯ à®•à¯Šà®£à¯à®Ÿà¯ à®¤à¯à®£à®¿ à®‰à®°à¯à®µà®¾à®•à¯à®•à¯à®®à¯ à®®à¯à®±à¯ˆ.</p></div>"
       },
       {
-        "title": "முக்கியக் குறிப்புகள்",
-        "content": "<div style='background: #f0f9ff; padding: 1.5rem; border-radius: 0.75rem; border: 1px solid #bae6fd;'><p style='margin-bottom: 0.5rem; color: #0369a1; display: flex; gap: 0.5rem;'><span>📍</span> ஆப்பிள் - நீரில் மிதக்கும்.</p><p style='margin-bottom: 0.5rem; color: #0369a1; display: flex; gap: 0.5rem;'><span>📍</span> கத்தரிக்கோல் - நீரில் மூழ்கும்.</p><p style='margin-bottom: 0.5rem; color: #0369a1; display: flex; gap: 0.5rem;'><span>📍</span> பிளாஸ்டிக் பந்து - நீரில் மிதக்கும்.</p><p style='margin-bottom: 0.5rem; color: #0369a1; display: flex; gap: 0.5rem;'><span>📍</span> கல் - நீரில் மூழ்கும்.</p><p style='margin-bottom: 0.5rem; color: #0369a1; display: flex; gap: 0.5rem;'><span>📍</span> உப்பு மற்றும் சர்க்கரை - நீரில் கரையும்.</p><p style='margin-bottom: 0.5rem; color: #0369a1; display: flex; gap: 0.5rem;'><span>📍</span> மணல் மற்றும் சாக்பீஸ் தூள் - நீரில் கரையாது.</p><p style='margin-bottom: 0.5rem; color: #0369a1; display: flex; gap: 0.5rem;'><span>📍</span> எலுமிச்சை சாறு மற்றும் வினிகர் - நீருடன் கலக்கும்.</p><p style='margin-bottom: 0.5rem; color: #0369a1; display: flex; gap: 0.5rem;'><span>📍</span> தேங்காய் எண்ணெய் மற்றும் கடுகு எண்ணெய் - நீருடன் கலக்காது.</p></div>"
+        "title": "à®®à¯à®•à¯à®•à®¿à®¯à®•à¯ à®•à¯à®±à®¿à®ªà¯à®ªà¯à®•à®³à¯",
+        "content": "<div style='background: #f0f9ff; padding: 1.5rem; border-radius: 0.75rem; border: 1px solid #bae6fd;'><p style='margin-bottom: 0.5rem; color: #0369a1; display: flex; gap: 0.5rem;'><span>ðŸ“</span> à®†à®ªà¯à®ªà®¿à®³à¯ - à®¨à¯€à®°à®¿à®²à¯ à®®à®¿à®¤à®•à¯à®•à¯à®®à¯.</p><p style='margin-bottom: 0.5rem; color: #0369a1; display: flex; gap: 0.5rem;'><span>ðŸ“</span> à®•à®¤à¯à®¤à®°à®¿à®•à¯à®•à¯‹à®²à¯ - à®¨à¯€à®°à®¿à®²à¯ à®®à¯‚à®´à¯à®•à¯à®®à¯.</p><p style='margin-bottom: 0.5rem; color: #0369a1; display: flex; gap: 0.5rem;'><span>ðŸ“</span> à®ªà®¿à®³à®¾à®¸à¯à®Ÿà®¿à®•à¯ à®ªà®¨à¯à®¤à¯ - à®¨à¯€à®°à®¿à®²à¯ à®®à®¿à®¤à®•à¯à®•à¯à®®à¯.</p><p style='margin-bottom: 0.5rem; color: #0369a1; display: flex; gap: 0.5rem;'><span>ðŸ“</span> à®•à®²à¯ - à®¨à¯€à®°à®¿à®²à¯ à®®à¯‚à®´à¯à®•à¯à®®à¯.</p><p style='margin-bottom: 0.5rem; color: #0369a1; display: flex; gap: 0.5rem;'><span>ðŸ“</span> à®‰à®ªà¯à®ªà¯ à®®à®±à¯à®±à¯à®®à¯ à®šà®°à¯à®•à¯à®•à®°à¯ˆ - à®¨à¯€à®°à®¿à®²à¯ à®•à®°à¯ˆà®¯à¯à®®à¯.</p><p style='margin-bottom: 0.5rem; color: #0369a1; display: flex; gap: 0.5rem;'><span>ðŸ“</span> à®®à®£à®²à¯ à®®à®±à¯à®±à¯à®®à¯ à®šà®¾à®•à¯à®ªà¯€à®¸à¯ à®¤à¯‚à®³à¯ - à®¨à¯€à®°à®¿à®²à¯ à®•à®°à¯ˆà®¯à®¾à®¤à¯.</p><p style='margin-bottom: 0.5rem; color: #0369a1; display: flex; gap: 0.5rem;'><span>ðŸ“</span> à®Žà®²à¯à®®à®¿à®šà¯à®šà¯ˆ à®šà®¾à®±à¯ à®®à®±à¯à®±à¯à®®à¯ à®µà®¿à®©à®¿à®•à®°à¯ - à®¨à¯€à®°à¯à®Ÿà®©à¯ à®•à®²à®•à¯à®•à¯à®®à¯.</p><p style='margin-bottom: 0.5rem; color: #0369a1; display: flex; gap: 0.5rem;'><span>ðŸ“</span> à®¤à¯‡à®™à¯à®•à®¾à®¯à¯ à®Žà®£à¯à®£à¯†à®¯à¯ à®®à®±à¯à®±à¯à®®à¯ à®•à®Ÿà¯à®•à¯ à®Žà®£à¯à®£à¯†à®¯à¯ - à®¨à¯€à®°à¯à®Ÿà®©à¯ à®•à®²à®•à¯à®•à®¾à®¤à¯.</p></div>"
       },
       {
-        "title": "மதிப்பீட்டு வினாக்கள் (Book-back Exercises)",
-        "content": "<div style='background: #ffffff; padding: 1rem; border-radius: 0.75rem; border: 1px solid #e5e7eb;'><h4 style='color: #1f2937; margin-top: 1.5rem; margin-bottom: 0.75rem; border-left: 4px solid #6366f1; padding-left: 0.5rem;'>சரியான விடையை தேர்ந்தெடுத்தல்</h4><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> கீழ்க்காண்பவற்றுள் எது பொருள்களின் நிலையைக் குறிக்கிறது?</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> திண்மம், திரவம், வாயு</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> கீழ்க்காண்பவற்றுள் எது திண்மம்?</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> ஆப்பிள்</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> சணல் இழைகள் எதிலிருந்து பெறப்படுகின்றன?</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> தண்டு</p><h4 style='color: #1f2937; margin-top: 1.5rem; margin-bottom: 0.75rem; border-left: 4px solid #6366f1; padding-left: 0.5rem;'>கோடிட்ட இடங்களை நிரப்புதல்</h4><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> பருத்தி விளைவதற்கு ஏற்ற மண் __________________.</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> கரிசல் மற்றும் வண்டல் மண்</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> பருத்தி இழைகளிலிருந்து நூல்களைத் தயாரிக்கும் முறைக்கு __________________ என்று பெயர்.</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> நூற்றல்</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> விதை நீக்கல் என்பது விதைகளிலிருந்து __________________ யை பிரிக்க உதவுகிறது.</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> பஞ்சை</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> செயற்கை இழைக்கு மற்றொரு பெயர் __________________.</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> மனிதனால் உருவாக்கப்பட்ட இழை</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> கம்பளி ஆடைகள் __________________ லிருந்து தயாரிக்கப்படுகின்றன.</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> விலங்கு (செம்மறி ஆடு)</p><h4 style='color: #1f2937; margin-top: 1.5rem; margin-bottom: 0.75rem; border-left: 4px solid #6366f1; padding-left: 0.5rem;'>பொருத்துதல்</h4><p><strong>1:</strong> 1. நூல், 2. பஞ்சு, 3. துணிகள், 4. ரேயான், 5. சணல்</p><p><strong>2:</strong> அ) விதை நீக்கல், ஆ) நூற்றல், இ) தண்டு, ஈ) நெய்தல், உ) மரக்கூழ்</p><p style='color: #059669;'><strong>Ans:</strong> 1 - ஆ, 2 - அ, 3 - ஈ, 4 - உ, 5 - இ</p><h4 style='color: #1f2937; margin-top: 1.5rem; margin-bottom: 0.75rem; border-left: 4px solid #6366f1; padding-left: 0.5rem;'>சரியா தவறா எனக் கூறுதல்</h4><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> தேங்காயின் வெளிப்புறம் உள்ள பொருள் நார் எனப்படுகிறது.</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> சரி</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> பீன்ஸ் மற்றும் பட்டாணி பயறு வகையைச் சார்ந்தவை.</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> சரி</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> மேஜை ஒரு வீட்டு உபயோகப் பொருள்.</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> சரி</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> இனிப்புச் சோளம் மக்காச்சோள வகையைச் சார்ந்தது அல்ல.</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> தவறு</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> பருத்திப் பந்தில் சணல் இழைகள் உள்ளன.</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> தவறு</p><h4 style='color: #1f2937; margin-top: 1.5rem; margin-bottom: 0.75rem; border-left: 4px solid #6366f1; padding-left: 0.5rem;'>ஒப்புமை தருதல்</h4><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> திண்மம் : மேசை :: __________________ : நீர்</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> திரவம்</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> பருத்தி விதைகள் : விதை நீக்கல் :: பஞ்சு : __________________</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> நூற்றல்</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> நார் இழைகள் : தேங்காய் :: பருத்தி இழைகள் : __________________</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> பருத்திச் செடி</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> கறுப்பு மிளகு : மசாலா :: இனிப்புச் சோளம் : __________________</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> தானியம்</p></div>"
+        "title": "à®®à®¤à®¿à®ªà¯à®ªà¯€à®Ÿà¯à®Ÿà¯ à®µà®¿à®©à®¾à®•à¯à®•à®³à¯ (Book-back Exercises)",
+        "content": "<div style='background: #ffffff; padding: 1rem; border-radius: 0.75rem; border: 1px solid #e5e7eb;'><h4 style='color: #1f2937; margin-top: 1.5rem; margin-bottom: 0.75rem; border-left: 4px solid #6366f1; padding-left: 0.5rem;'>à®šà®°à®¿à®¯à®¾à®© à®µà®¿à®Ÿà¯ˆà®¯à¯ˆ à®¤à¯‡à®°à¯à®¨à¯à®¤à¯†à®Ÿà¯à®¤à¯à®¤à®²à¯</h4><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> à®•à¯€à®´à¯à®•à¯à®•à®¾à®£à¯à®ªà®µà®±à¯à®±à¯à®³à¯ à®Žà®¤à¯ à®ªà¯Šà®°à¯à®³à¯à®•à®³à®¿à®©à¯ à®¨à®¿à®²à¯ˆà®¯à¯ˆà®•à¯ à®•à¯à®±à®¿à®•à¯à®•à®¿à®±à®¤à¯?</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> à®¤à®¿à®£à¯à®®à®®à¯, à®¤à®¿à®°à®µà®®à¯, à®µà®¾à®¯à¯</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> à®•à¯€à®´à¯à®•à¯à®•à®¾à®£à¯à®ªà®µà®±à¯à®±à¯à®³à¯ à®Žà®¤à¯ à®¤à®¿à®£à¯à®®à®®à¯?</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> à®†à®ªà¯à®ªà®¿à®³à¯</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> à®šà®£à®²à¯ à®‡à®´à¯ˆà®•à®³à¯ à®Žà®¤à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®ªà¯†à®±à®ªà¯à®ªà®Ÿà¯à®•à®¿à®©à¯à®±à®©?</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> à®¤à®£à¯à®Ÿà¯</p><h4 style='color: #1f2937; margin-top: 1.5rem; margin-bottom: 0.75rem; border-left: 4px solid #6366f1; padding-left: 0.5rem;'>à®•à¯‹à®Ÿà®¿à®Ÿà¯à®Ÿ à®‡à®Ÿà®™à¯à®•à®³à¯ˆ à®¨à®¿à®°à®ªà¯à®ªà¯à®¤à®²à¯</h4><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> à®ªà®°à¯à®¤à¯à®¤à®¿ à®µà®¿à®³à¯ˆà®µà®¤à®±à¯à®•à¯ à®à®±à¯à®± à®®à®£à¯ __________________.</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> à®•à®°à®¿à®šà®²à¯ à®®à®±à¯à®±à¯à®®à¯ à®µà®£à¯à®Ÿà®²à¯ à®®à®£à¯</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> à®ªà®°à¯à®¤à¯à®¤à®¿ à®‡à®´à¯ˆà®•à®³à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®¨à¯‚à®²à¯à®•à®³à¯ˆà®¤à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à¯à®®à¯ à®®à¯à®±à¯ˆà®•à¯à®•à¯ __________________ à®Žà®©à¯à®±à¯ à®ªà¯†à®¯à®°à¯.</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> à®¨à¯‚à®±à¯à®±à®²à¯</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> à®µà®¿à®¤à¯ˆ à®¨à¯€à®•à¯à®•à®²à¯ à®Žà®©à¯à®ªà®¤à¯ à®µà®¿à®¤à¯ˆà®•à®³à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ __________________ à®¯à¯ˆ à®ªà®¿à®°à®¿à®•à¯à®• à®‰à®¤à®µà¯à®•à®¿à®±à®¤à¯.</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> à®ªà®žà¯à®šà¯ˆ</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> à®šà¯†à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆà®•à¯à®•à¯ à®®à®±à¯à®±à¯Šà®°à¯ à®ªà¯†à®¯à®°à¯ __________________.</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> à®®à®©à®¿à®¤à®©à®¾à®²à¯ à®‰à®°à¯à®µà®¾à®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®Ÿ à®‡à®´à¯ˆ</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> à®•à®®à¯à®ªà®³à®¿ à®†à®Ÿà¯ˆà®•à®³à¯ __________________ à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®•à®¿à®©à¯à®±à®©.</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> à®µà®¿à®²à®™à¯à®•à¯ (à®šà¯†à®®à¯à®®à®±à®¿ à®†à®Ÿà¯)</p><h4 style='color: #1f2937; margin-top: 1.5rem; margin-bottom: 0.75rem; border-left: 4px solid #6366f1; padding-left: 0.5rem;'>à®ªà¯Šà®°à¯à®¤à¯à®¤à¯à®¤à®²à¯</h4><p><strong>1:</strong> 1. à®¨à¯‚à®²à¯, 2. à®ªà®žà¯à®šà¯, 3. à®¤à¯à®£à®¿à®•à®³à¯, 4. à®°à¯‡à®¯à®¾à®©à¯, 5. à®šà®£à®²à¯</p><p><strong>2:</strong> à®…) à®µà®¿à®¤à¯ˆ à®¨à¯€à®•à¯à®•à®²à¯, à®†) à®¨à¯‚à®±à¯à®±à®²à¯, à®‡) à®¤à®£à¯à®Ÿà¯, à®ˆ) à®¨à¯†à®¯à¯à®¤à®²à¯, à®‰) à®®à®°à®•à¯à®•à¯‚à®´à¯</p><p style='color: #059669;'><strong>Ans:</strong> 1 - à®†, 2 - à®…, 3 - à®ˆ, 4 - à®‰, 5 - à®‡</p><h4 style='color: #1f2937; margin-top: 1.5rem; margin-bottom: 0.75rem; border-left: 4px solid #6366f1; padding-left: 0.5rem;'>à®šà®°à®¿à®¯à®¾ à®¤à®µà®±à®¾ à®Žà®©à®•à¯ à®•à¯‚à®±à¯à®¤à®²à¯</h4><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> à®¤à¯‡à®™à¯à®•à®¾à®¯à®¿à®©à¯ à®µà¯†à®³à®¿à®ªà¯à®ªà¯à®±à®®à¯ à®‰à®³à¯à®³ à®ªà¯Šà®°à¯à®³à¯ à®¨à®¾à®°à¯ à®Žà®©à®ªà¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯.</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> à®šà®°à®¿</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> à®ªà¯€à®©à¯à®¸à¯ à®®à®±à¯à®±à¯à®®à¯ à®ªà®Ÿà¯à®Ÿà®¾à®£à®¿ à®ªà®¯à®±à¯ à®µà®•à¯ˆà®¯à¯ˆà®šà¯ à®šà®¾à®°à¯à®¨à¯à®¤à®µà¯ˆ.</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> à®šà®°à®¿</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> à®®à¯‡à®œà¯ˆ à®’à®°à¯ à®µà¯€à®Ÿà¯à®Ÿà¯ à®‰à®ªà®¯à¯‹à®•à®ªà¯ à®ªà¯Šà®°à¯à®³à¯.</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> à®šà®°à®¿</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> à®‡à®©à®¿à®ªà¯à®ªà¯à®šà¯ à®šà¯‹à®³à®®à¯ à®®à®•à¯à®•à®¾à®šà¯à®šà¯‹à®³ à®µà®•à¯ˆà®¯à¯ˆà®šà¯ à®šà®¾à®°à¯à®¨à¯à®¤à®¤à¯ à®…à®²à¯à®².</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> à®¤à®µà®±à¯</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> à®ªà®°à¯à®¤à¯à®¤à®¿à®ªà¯ à®ªà®¨à¯à®¤à®¿à®²à¯ à®šà®£à®²à¯ à®‡à®´à¯ˆà®•à®³à¯ à®‰à®³à¯à®³à®©.</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> à®¤à®µà®±à¯</p><h4 style='color: #1f2937; margin-top: 1.5rem; margin-bottom: 0.75rem; border-left: 4px solid #6366f1; padding-left: 0.5rem;'>à®’à®ªà¯à®ªà¯à®®à¯ˆ à®¤à®°à¯à®¤à®²à¯</h4><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> à®¤à®¿à®£à¯à®®à®®à¯ : à®®à¯‡à®šà¯ˆ :: __________________ : à®¨à¯€à®°à¯</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> à®¤à®¿à®°à®µà®®à¯</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> à®ªà®°à¯à®¤à¯à®¤à®¿ à®µà®¿à®¤à¯ˆà®•à®³à¯ : à®µà®¿à®¤à¯ˆ à®¨à¯€à®•à¯à®•à®²à¯ :: à®ªà®žà¯à®šà¯ : __________________</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> à®¨à¯‚à®±à¯à®±à®²à¯</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> à®¨à®¾à®°à¯ à®‡à®´à¯ˆà®•à®³à¯ : à®¤à¯‡à®™à¯à®•à®¾à®¯à¯ :: à®ªà®°à¯à®¤à¯à®¤à®¿ à®‡à®´à¯ˆà®•à®³à¯ : __________________</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> à®ªà®°à¯à®¤à¯à®¤à®¿à®šà¯ à®šà¯†à®Ÿà®¿</p><p style='margin-bottom: 0.25rem;'><strong>Q:</strong> à®•à®±à¯à®ªà¯à®ªà¯ à®®à®¿à®³à®•à¯ : à®®à®šà®¾à®²à®¾ :: à®‡à®©à®¿à®ªà¯à®ªà¯à®šà¯ à®šà¯‹à®³à®®à¯ : __________________</p><p style='color: #059669; margin-bottom: 1rem;'><strong>A:</strong> à®¤à®¾à®©à®¿à®¯à®®à¯</p></div>"
       }
     ]
   },
   "quiz": {
     "questions": [
       {
-        "question": "பருப்பொருள்களின் நிலைகள் எத்தனை வகையாகப் பிரிக்கப்பட்டுள்ளன?",
+        "question": "à®ªà®°à¯à®ªà¯à®ªà¯Šà®°à¯à®³à¯à®•à®³à®¿à®©à¯ à®¨à®¿à®²à¯ˆà®•à®³à¯ à®Žà®¤à¯à®¤à®©à¯ˆ à®µà®•à¯ˆà®¯à®¾à®•à®ªà¯ à®ªà®¿à®°à®¿à®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®Ÿà¯à®³à¯à®³à®©?",
         "options": [
-          "இரண்டு",
-          "நான்கு",
-          "மூன்று",
-          "ஐந்து"
+          "à®‡à®°à®£à¯à®Ÿà¯",
+          "à®¨à®¾à®©à¯à®•à¯",
+          "à®®à¯‚à®©à¯à®±à¯",
+          "à®à®¨à¯à®¤à¯"
         ],
         "answer": 2,
-        "explanation": "பருப்பொருள்கள் திண்மம், திரவம் மற்றும் வாயு என மூன்று முக்கிய இயற்பியல் நிலைகளில் காணப்படுகின்றன."
+        "explanation": "à®ªà®°à¯à®ªà¯à®ªà¯Šà®°à¯à®³à¯à®•à®³à¯ à®¤à®¿à®£à¯à®®à®®à¯, à®¤à®¿à®°à®µà®®à¯ à®®à®±à¯à®±à¯à®®à¯ à®µà®¾à®¯à¯ à®Žà®© à®®à¯‚à®©à¯à®±à¯ à®®à¯à®•à¯à®•à®¿à®¯ à®‡à®¯à®±à¯à®ªà®¿à®¯à®²à¯ à®¨à®¿à®²à¯ˆà®•à®³à®¿à®²à¯ à®•à®¾à®£à®ªà¯à®ªà®Ÿà¯à®•à®¿à®©à¯à®±à®©."
       },
       {
-        "question": "கீழ்க்கண்டவற்றுள் எந்த நிலையில் மூலக்கூறுகள் மிக நெருக்கமாக அமைந்துள்ளன?",
+        "question": "à®•à¯€à®´à¯à®•à¯à®•à®£à¯à®Ÿà®µà®±à¯à®±à¯à®³à¯ à®Žà®¨à¯à®¤ à®¨à®¿à®²à¯ˆà®¯à®¿à®²à¯ à®®à¯‚à®²à®•à¯à®•à¯‚à®±à¯à®•à®³à¯ à®®à®¿à®• à®¨à¯†à®°à¯à®•à¯à®•à®®à®¾à®• à®…à®®à¯ˆà®¨à¯à®¤à¯à®³à¯à®³à®©?",
         "options": [
-          "வாயு",
-          "திரவம்",
-          "திண்மம்",
-          "பிளாஸ்மா"
+          "à®µà®¾à®¯à¯",
+          "à®¤à®¿à®°à®µà®®à¯",
+          "à®¤à®¿à®£à¯à®®à®®à¯",
+          "à®ªà®¿à®³à®¾à®¸à¯à®®à®¾"
         ],
         "answer": 2,
-        "explanation": "திண்மங்களில் மூலக்கூறுகள் மிக நெருக்கமாக அமைந்திருப்பதால் அவற்றை அழுத்த முடியாது."
+        "explanation": "à®¤à®¿à®£à¯à®®à®™à¯à®•à®³à®¿à®²à¯ à®®à¯‚à®²à®•à¯à®•à¯‚à®±à¯à®•à®³à¯ à®®à®¿à®• à®¨à¯†à®°à¯à®•à¯à®•à®®à®¾à®• à®…à®®à¯ˆà®¨à¯à®¤à®¿à®°à¯à®ªà¯à®ªà®¤à®¾à®²à¯ à®…à®µà®±à¯à®±à¯ˆ à®…à®´à¯à®¤à¯à®¤ à®®à¯à®Ÿà®¿à®¯à®¾à®¤à¯."
       },
       {
-        "question": "குறிப்பிட்ட கனஅளவைப் பெற்றிருக்கும், ஆனால் குறிப்பிட்ட வடிவம் இல்லாத பருப்பொருள் நிலை எது?",
+        "question": "à®•à¯à®±à®¿à®ªà¯à®ªà®¿à®Ÿà¯à®Ÿ à®•à®©à®…à®³à®µà¯ˆà®ªà¯ à®ªà¯†à®±à¯à®±à®¿à®°à¯à®•à¯à®•à¯à®®à¯, à®†à®©à®¾à®²à¯ à®•à¯à®±à®¿à®ªà¯à®ªà®¿à®Ÿà¯à®Ÿ à®µà®Ÿà®¿à®µà®®à¯ à®‡à®²à¯à®²à®¾à®¤ à®ªà®°à¯à®ªà¯à®ªà¯Šà®°à¯à®³à¯ à®¨à®¿à®²à¯ˆ à®Žà®¤à¯?",
         "options": [
-          "திண்மம்",
-          "திரவம்",
-          "வாயு",
-          "மூலப்பொருள்"
+          "à®¤à®¿à®£à¯à®®à®®à¯",
+          "à®¤à®¿à®°à®µà®®à¯",
+          "à®µà®¾à®¯à¯",
+          "à®®à¯‚à®²à®ªà¯à®ªà¯Šà®°à¯à®³à¯"
         ],
         "answer": 1,
-        "explanation": "திரவங்களுக்குக் குறிப்பிட்ட கனஅளவு உண்டு, ஆனால் அவை ஊற்றப்படும் கொள்கலனின் வடிவத்தையே பெறுகின்றன."
+        "explanation": "à®¤à®¿à®°à®µà®™à¯à®•à®³à¯à®•à¯à®•à¯à®•à¯ à®•à¯à®±à®¿à®ªà¯à®ªà®¿à®Ÿà¯à®Ÿ à®•à®©à®…à®³à®µà¯ à®‰à®£à¯à®Ÿà¯, à®†à®©à®¾à®²à¯ à®…à®µà¯ˆ à®Šà®±à¯à®±à®ªà¯à®ªà®Ÿà¯à®®à¯ à®•à¯Šà®³à¯à®•à®²à®©à®¿à®©à¯ à®µà®Ÿà®¿à®µà®¤à¯à®¤à¯ˆà®¯à¯‡ à®ªà¯†à®±à¯à®•à®¿à®©à¯à®±à®©."
       },
       {
-        "question": "மூலக்கூறுகள் மிகவும் தளர்வாகப் பிணைக்கப்பட்டுள்ள பருப்பொருள் நிலை எது?",
+        "question": "à®®à¯‚à®²à®•à¯à®•à¯‚à®±à¯à®•à®³à¯ à®®à®¿à®•à®µà¯à®®à¯ à®¤à®³à®°à¯à®µà®¾à®•à®ªà¯ à®ªà®¿à®£à¯ˆà®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®Ÿà¯à®³à¯à®³ à®ªà®°à¯à®ªà¯à®ªà¯Šà®°à¯à®³à¯ à®¨à®¿à®²à¯ˆ à®Žà®¤à¯?",
         "options": [
-          "திண்மம்",
-          "வாயு",
-          "திரவம்",
-          "இழைகள்"
+          "à®¤à®¿à®£à¯à®®à®®à¯",
+          "à®µà®¾à®¯à¯",
+          "à®¤à®¿à®°à®µà®®à¯",
+          "à®‡à®´à¯ˆà®•à®³à¯"
         ],
         "answer": 1,
-        "explanation": "வாயுக்களில் மூலக்கூறுகள் மிகவும் தளர்வாக பிணைக்கப்பட்டுள்ளதால் அவற்றை எளிதில் அழுத்தலாம்."
+        "explanation": "à®µà®¾à®¯à¯à®•à¯à®•à®³à®¿à®²à¯ à®®à¯‚à®²à®•à¯à®•à¯‚à®±à¯à®•à®³à¯ à®®à®¿à®•à®µà¯à®®à¯ à®¤à®³à®°à¯à®µà®¾à®• à®ªà®¿à®£à¯ˆà®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®Ÿà¯à®³à¯à®³à®¤à®¾à®²à¯ à®…à®µà®±à¯à®±à¯ˆ à®Žà®³à®¿à®¤à®¿à®²à¯ à®…à®´à¯à®¤à¯à®¤à®²à®¾à®®à¯."
       },
       {
-        "question": "பருத்திச் செடி எந்த வகையான மண்ணில் நன்கு வளரும்?",
+        "question": "à®ªà®°à¯à®¤à¯à®¤à®¿à®šà¯ à®šà¯†à®Ÿà®¿ à®Žà®¨à¯à®¤ à®µà®•à¯ˆà®¯à®¾à®© à®®à®£à¯à®£à®¿à®²à¯ à®¨à®©à¯à®•à¯ à®µà®³à®°à¯à®®à¯?",
         "options": [
-          "செம்மண் மற்றும் களிமண்",
-          "கரிசல் மற்றும் வண்டல் மண்",
-          "பாலைவன மண்",
-          "செம்மண் மட்டும்"
+          "à®šà¯†à®®à¯à®®à®£à¯ à®®à®±à¯à®±à¯à®®à¯ à®•à®³à®¿à®®à®£à¯",
+          "à®•à®°à®¿à®šà®²à¯ à®®à®±à¯à®±à¯à®®à¯ à®µà®£à¯à®Ÿà®²à¯ à®®à®£à¯",
+          "à®ªà®¾à®²à¯ˆà®µà®© à®®à®£à¯",
+          "à®šà¯†à®®à¯à®®à®£à¯ à®®à®Ÿà¯à®Ÿà¯à®®à¯"
         ],
         "answer": 1,
-        "explanation": "பருத்திச் செடி வளர கரிசல் மற்றும் வண்டல் மண் மிகவும் ஏற்றதாகும்."
+        "explanation": "à®ªà®°à¯à®¤à¯à®¤à®¿à®šà¯ à®šà¯†à®Ÿà®¿ à®µà®³à®° à®•à®°à®¿à®šà®²à¯ à®®à®±à¯à®±à¯à®®à¯ à®µà®£à¯à®Ÿà®²à¯ à®®à®£à¯ à®®à®¿à®•à®µà¯à®®à¯ à®à®±à¯à®±à®¤à®¾à®•à¯à®®à¯."
       },
       {
-        "question": "பருத்திப் பஞ்சிலிருந்து விதைகளைப் பிரித்தெடுக்கும் முறை எவ்வாறு அழைக்கப்படுகிறது?",
+        "question": "à®ªà®°à¯à®¤à¯à®¤à®¿à®ªà¯ à®ªà®žà¯à®šà®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®µà®¿à®¤à¯ˆà®•à®³à¯ˆà®ªà¯ à®ªà®¿à®°à®¿à®¤à¯à®¤à¯†à®Ÿà¯à®•à¯à®•à¯à®®à¯ à®®à¯à®±à¯ˆ à®Žà®µà¯à®µà®¾à®±à¯ à®…à®´à¯ˆà®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯?",
         "options": [
-          "நூற்றல்",
-          "நெய்தல்",
-          "விதை நீக்குதல் (Ginning)",
-          "பின்னுதல்"
+          "à®¨à¯‚à®±à¯à®±à®²à¯",
+          "à®¨à¯†à®¯à¯à®¤à®²à¯",
+          "à®µà®¿à®¤à¯ˆ à®¨à¯€à®•à¯à®•à¯à®¤à®²à¯ (Ginning)",
+          "à®ªà®¿à®©à¯à®©à¯à®¤à®²à¯"
         ],
         "answer": 2,
-        "explanation": "விதைகளிலிருந்து பஞ்சைப் பிரித்தெடுக்கும் முறை விதை நீக்குதல் (Ginning) எனப்படும்."
+        "explanation": "à®µà®¿à®¤à¯ˆà®•à®³à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®ªà®žà¯à®šà¯ˆà®ªà¯ à®ªà®¿à®°à®¿à®¤à¯à®¤à¯†à®Ÿà¯à®•à¯à®•à¯à®®à¯ à®®à¯à®±à¯ˆ à®µà®¿à®¤à¯ˆ à®¨à¯€à®•à¯à®•à¯à®¤à®²à¯ (Ginning) à®Žà®©à®ªà¯à®ªà®Ÿà¯à®®à¯."
       },
       {
-        "question": "பஞ்சிலிருந்து நூலைத் தயாரிக்கும் முறைக்கு என்ன பெயர்?",
+        "question": "à®ªà®žà¯à®šà®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®¨à¯‚à®²à¯ˆà®¤à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à¯à®®à¯ à®®à¯à®±à¯ˆà®•à¯à®•à¯ à®Žà®©à¯à®© à®ªà¯†à®¯à®°à¯?",
         "options": [
-          "நூற்றல் (Spinning)",
-          "நெய்தல்",
-          "விதை நீக்குதல்",
-          "பிரித்தெடுத்தல்"
+          "à®¨à¯‚à®±à¯à®±à®²à¯ (Spinning)",
+          "à®¨à¯†à®¯à¯à®¤à®²à¯",
+          "à®µà®¿à®¤à¯ˆ à®¨à¯€à®•à¯à®•à¯à®¤à®²à¯",
+          "à®ªà®¿à®°à®¿à®¤à¯à®¤à¯†à®Ÿà¯à®¤à¯à®¤à®²à¯"
         ],
         "answer": 0,
-        "explanation": "பஞ்சிலிருந்து நூல் தயாரிக்கும் முறைக்கு நூற்றல் என்று பெயர்."
+        "explanation": "à®ªà®žà¯à®šà®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®¨à¯‚à®²à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à¯à®®à¯ à®®à¯à®±à¯ˆà®•à¯à®•à¯ à®¨à¯‚à®±à¯à®±à®²à¯ à®Žà®©à¯à®±à¯ à®ªà¯†à®¯à®°à¯."
       },
       {
-        "question": "துணிகளை உருவாக்க இரண்டு வரிசையான நூல்களைக் கொண்டு முடையப்படும் முறை எவ்வாறு அழைக்கப்படுகிறது?",
+        "question": "à®¤à¯à®£à®¿à®•à®³à¯ˆ à®‰à®°à¯à®µà®¾à®•à¯à®• à®‡à®°à®£à¯à®Ÿà¯ à®µà®°à®¿à®šà¯ˆà®¯à®¾à®© à®¨à¯‚à®²à¯à®•à®³à¯ˆà®•à¯ à®•à¯Šà®£à¯à®Ÿà¯ à®®à¯à®Ÿà¯ˆà®¯à®ªà¯à®ªà®Ÿà¯à®®à¯ à®®à¯à®±à¯ˆ à®Žà®µà¯à®µà®¾à®±à¯ à®…à®´à¯ˆà®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯?",
         "options": [
-          "விதை நீக்குதல்",
-          "நூற்றல்",
-          "பின்னுதல்",
-          "நெய்தல்"
+          "à®µà®¿à®¤à¯ˆ à®¨à¯€à®•à¯à®•à¯à®¤à®²à¯",
+          "à®¨à¯‚à®±à¯à®±à®²à¯",
+          "à®ªà®¿à®©à¯à®©à¯à®¤à®²à¯",
+          "à®¨à¯†à®¯à¯à®¤à®²à¯"
         ],
         "answer": 3,
-        "explanation": "நெய்தல் மற்றும் பின்னுதல் ஆகியவை துணி உருவாக்கும் முறைகள். நெய்தலில் கைத்தறி அல்லது விசைத்தறி பயன்படுத்தப்படும்."
+        "explanation": "à®¨à¯†à®¯à¯à®¤à®²à¯ à®®à®±à¯à®±à¯à®®à¯ à®ªà®¿à®©à¯à®©à¯à®¤à®²à¯ à®†à®•à®¿à®¯à®µà¯ˆ à®¤à¯à®£à®¿ à®‰à®°à¯à®µà®¾à®•à¯à®•à¯à®®à¯ à®®à¯à®±à¯ˆà®•à®³à¯. à®¨à¯†à®¯à¯à®¤à®²à®¿à®²à¯ à®•à¯ˆà®¤à¯à®¤à®±à®¿ à®…à®²à¯à®²à®¤à¯ à®µà®¿à®šà¯ˆà®¤à¯à®¤à®±à®¿ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®¤à¯à®¤à®ªà¯à®ªà®Ÿà¯à®®à¯."
       },
       {
-        "question": "கீழ்க்கண்டவற்றுள் எது 'தங்க இழை' (Golden fibre) என்று அழைக்கப்படுகிறது?",
+        "question": "à®•à¯€à®´à¯à®•à¯à®•à®£à¯à®Ÿà®µà®±à¯à®±à¯à®³à¯ à®Žà®¤à¯ 'à®¤à®™à¯à®• à®‡à®´à¯ˆ' (Golden fibre) à®Žà®©à¯à®±à¯ à®…à®´à¯ˆà®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯?",
         "options": [
-          "பருத்தி",
-          "சணல்",
-          "பட்டு",
-          "கம்பளி"
+          "à®ªà®°à¯à®¤à¯à®¤à®¿",
+          "à®šà®£à®²à¯",
+          "à®ªà®Ÿà¯à®Ÿà¯",
+          "à®•à®®à¯à®ªà®³à®¿"
         ],
         "answer": 1,
-        "explanation": "சணல் மென்மையான, பளபளப்பான மற்றும் நீளமான இழையாகும். எனவே இது தங்க இழை எனப்படுகிறது."
+        "explanation": "à®šà®£à®²à¯ à®®à¯†à®©à¯à®®à¯ˆà®¯à®¾à®©, à®ªà®³à®ªà®³à®ªà¯à®ªà®¾à®© à®®à®±à¯à®±à¯à®®à¯ à®¨à¯€à®³à®®à®¾à®© à®‡à®´à¯ˆà®¯à®¾à®•à¯à®®à¯. à®Žà®©à®µà¯‡ à®‡à®¤à¯ à®¤à®™à¯à®• à®‡à®´à¯ˆ à®Žà®©à®ªà¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯."
       },
       {
-        "question": "சணல் தாவரத்தின் எந்தப் பகுதியிலிருந்து சணல் இழை பெறப்படுகிறது?",
+        "question": "à®šà®£à®²à¯ à®¤à®¾à®µà®°à®¤à¯à®¤à®¿à®©à¯ à®Žà®¨à¯à®¤à®ªà¯ à®ªà®•à¯à®¤à®¿à®¯à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®šà®£à®²à¯ à®‡à®´à¯ˆ à®ªà¯†à®±à®ªà¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯?",
         "options": [
-          "வேர்",
-          "இலை",
-          "தண்டு",
-          "பூ"
+          "à®µà¯‡à®°à¯",
+          "à®‡à®²à¯ˆ",
+          "à®¤à®£à¯à®Ÿà¯",
+          "à®ªà¯‚"
         ],
         "answer": 2,
-        "explanation": "சணல் தாவரத்தின் தண்டுப் பகுதியிலிருந்து சணல் இழைகள் பெறப்படுகின்றன."
+        "explanation": "à®šà®£à®²à¯ à®¤à®¾à®µà®°à®¤à¯à®¤à®¿à®©à¯ à®¤à®£à¯à®Ÿà¯à®ªà¯ à®ªà®•à¯à®¤à®¿à®¯à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®šà®£à®²à¯ à®‡à®´à¯ˆà®•à®³à¯ à®ªà¯†à®±à®ªà¯à®ªà®Ÿà¯à®•à®¿à®©à¯à®±à®©."
       },
       {
-        "question": "கீழ்க்கண்டவற்றில் எது இயற்கை இழை அல்ல?",
+        "question": "à®•à¯€à®´à¯à®•à¯à®•à®£à¯à®Ÿà®µà®±à¯à®±à®¿à®²à¯ à®Žà®¤à¯ à®‡à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆ à®…à®²à¯à®²?",
         "options": [
-          "பருத்தி",
-          "நைலான்",
-          "சணல்",
-          "கம்பளி"
+          "à®ªà®°à¯à®¤à¯à®¤à®¿",
+          "à®¨à¯ˆà®²à®¾à®©à¯",
+          "à®šà®£à®²à¯",
+          "à®•à®®à¯à®ªà®³à®¿"
         ],
         "answer": 1,
-        "explanation": "பருத்தி, சணல், கம்பளி ஆகியவை இயற்கை இழைகள். நைலான் செயற்கை இழை ஆகும்."
+        "explanation": "à®ªà®°à¯à®¤à¯à®¤à®¿, à®šà®£à®²à¯, à®•à®®à¯à®ªà®³à®¿ à®†à®•à®¿à®¯à®µà¯ˆ à®‡à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆà®•à®³à¯. à®¨à¯ˆà®²à®¾à®©à¯ à®šà¯†à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆ à®†à®•à¯à®®à¯."
       },
       {
-        "question": "மரக்கூழிலிருந்து பெறப்படும் செயற்கை இழை எது?",
+        "question": "à®®à®°à®•à¯à®•à¯‚à®´à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®ªà¯†à®±à®ªà¯à®ªà®Ÿà¯à®®à¯ à®šà¯†à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆ à®Žà®¤à¯?",
         "options": [
-          "நைலான்",
-          "பாலியெஸ்டர்",
-          "அக்ரிலிக்",
-          "ரேயான்"
+          "à®¨à¯ˆà®²à®¾à®©à¯",
+          "à®ªà®¾à®²à®¿à®¯à¯†à®¸à¯à®Ÿà®°à¯",
+          "à®…à®•à¯à®°à®¿à®²à®¿à®•à¯",
+          "à®°à¯‡à®¯à®¾à®©à¯"
         ],
         "answer": 3,
-        "explanation": "ரேயான் மரக்கூழிலிருந்து பெறப்படும் ஒரு செயற்கை இழையாகும்."
+        "explanation": "à®°à¯‡à®¯à®¾à®©à¯ à®®à®°à®•à¯à®•à¯‚à®´à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®ªà¯†à®±à®ªà¯à®ªà®Ÿà¯à®®à¯ à®’à®°à¯ à®šà¯†à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆà®¯à®¾à®•à¯à®®à¯."
       },
       {
-        "question": "பெட்ரோலியப் பொருள்களிலிருந்து பெறப்படும் செயற்கை இழை எது?",
+        "question": "à®ªà¯†à®Ÿà¯à®°à¯‹à®²à®¿à®¯à®ªà¯ à®ªà¯Šà®°à¯à®³à¯à®•à®³à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®ªà¯†à®±à®ªà¯à®ªà®Ÿà¯à®®à¯ à®šà¯†à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆ à®Žà®¤à¯?",
         "options": [
-          "பாலியெஸ்டர்",
-          "பட்டு",
-          "ரேயான்",
-          "பருத்தி"
+          "à®ªà®¾à®²à®¿à®¯à¯†à®¸à¯à®Ÿà®°à¯",
+          "à®ªà®Ÿà¯à®Ÿà¯",
+          "à®°à¯‡à®¯à®¾à®©à¯",
+          "à®ªà®°à¯à®¤à¯à®¤à®¿"
         ],
         "answer": 0,
-        "explanation": "பாலியெஸ்டர் பெட்ரோலியப் பொருள்களிலிருந்து பெறப்படும் செயற்கை இழையாகும்."
+        "explanation": "à®ªà®¾à®²à®¿à®¯à¯†à®¸à¯à®Ÿà®°à¯ à®ªà¯†à®Ÿà¯à®°à¯‹à®²à®¿à®¯à®ªà¯ à®ªà¯Šà®°à¯à®³à¯à®•à®³à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®ªà¯†à®±à®ªà¯à®ªà®Ÿà¯à®®à¯ à®šà¯†à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆà®¯à®¾à®•à¯à®®à¯."
       },
       {
-        "question": "கம்பளி ஆடைகள் எதிலிருந்து தயாரிக்கப்படுகின்றன?",
+        "question": "à®•à®®à¯à®ªà®³à®¿ à®†à®Ÿà¯ˆà®•à®³à¯ à®Žà®¤à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®•à®¿à®©à¯à®±à®©?",
         "options": [
-          "பருத்திச் செடி",
-          "பெட்ரோலியப் பொருட்கள்",
-          "செம்மறி ஆடு",
-          "பட்டுப்புழு"
+          "à®ªà®°à¯à®¤à¯à®¤à®¿à®šà¯ à®šà¯†à®Ÿà®¿",
+          "à®ªà¯†à®Ÿà¯à®°à¯‹à®²à®¿à®¯à®ªà¯ à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à¯",
+          "à®šà¯†à®®à¯à®®à®±à®¿ à®†à®Ÿà¯",
+          "à®ªà®Ÿà¯à®Ÿà¯à®ªà¯à®ªà¯à®´à¯"
         ],
         "answer": 2,
-        "explanation": "கம்பளி ஆடைகள் செம்மறி ஆடு போன்ற விலங்குகளின் முடிகளிலிருந்து தயாரிக்கப்படுகின்றன."
+        "explanation": "à®•à®®à¯à®ªà®³à®¿ à®†à®Ÿà¯ˆà®•à®³à¯ à®šà¯†à®®à¯à®®à®±à®¿ à®†à®Ÿà¯ à®ªà¯‹à®©à¯à®± à®µà®¿à®²à®™à¯à®•à¯à®•à®³à®¿à®©à¯ à®®à¯à®Ÿà®¿à®•à®³à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®•à®¿à®©à¯à®±à®©."
       },
       {
-        "question": "தேங்காயின் வெளிப்புறப் பகுதியிலிருந்து பெறப்படும் கடினமான நார்ப்பொருள் எதற்குப் பயன்படுகிறது?",
+        "question": "à®¤à¯‡à®™à¯à®•à®¾à®¯à®¿à®©à¯ à®µà¯†à®³à®¿à®ªà¯à®ªà¯à®±à®ªà¯ à®ªà®•à¯à®¤à®¿à®¯à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®ªà¯†à®±à®ªà¯à®ªà®Ÿà¯à®®à¯ à®•à®Ÿà®¿à®©à®®à®¾à®© à®¨à®¾à®°à¯à®ªà¯à®ªà¯Šà®°à¯à®³à¯ à®Žà®¤à®±à¯à®•à¯à®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯?",
         "options": [
-          "உணவாகப் பயன்படுத்த",
-          "கயிறுகள் மற்றும் தரை விரிப்புகள் தயாரிக்க",
-          "மென்மையான ஆடைகள் தயாரிக்க",
-          "கண்ணாடி தயாரிக்க"
+          "à®‰à®£à®µà®¾à®•à®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®¤à¯à®¤",
+          "à®•à®¯à®¿à®±à¯à®•à®³à¯ à®®à®±à¯à®±à¯à®®à¯ à®¤à®°à¯ˆ à®µà®¿à®°à®¿à®ªà¯à®ªà¯à®•à®³à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•",
+          "à®®à¯†à®©à¯à®®à¯ˆà®¯à®¾à®© à®†à®Ÿà¯ˆà®•à®³à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•",
+          "à®•à®£à¯à®£à®¾à®Ÿà®¿ à®¤à®¯à®¾à®°à®¿à®•à¯à®•"
         ],
         "answer": 1,
-        "explanation": "தேங்காய் நார் கயிறுகள், தரை விரிப்புகள் மற்றும் தூரிகைகள் தயாரிக்கப் பயன்படுகிறது."
+        "explanation": "à®¤à¯‡à®™à¯à®•à®¾à®¯à¯ à®¨à®¾à®°à¯ à®•à®¯à®¿à®±à¯à®•à®³à¯, à®¤à®°à¯ˆ à®µà®¿à®°à®¿à®ªà¯à®ªà¯à®•à®³à¯ à®®à®±à¯à®±à¯à®®à¯ à®¤à¯‚à®°à®¿à®•à¯ˆà®•à®³à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯."
       },
       {
-        "question": "உலகின் மிகவும் முக்கியமான உணவுப் பயிர் எது?",
+        "question": "à®‰à®²à®•à®¿à®©à¯ à®®à®¿à®•à®µà¯à®®à¯ à®®à¯à®•à¯à®•à®¿à®¯à®®à®¾à®© à®‰à®£à®µà¯à®ªà¯ à®ªà®¯à®¿à®°à¯ à®Žà®¤à¯?",
         "options": [
-          "கோதுமை",
-          "கம்பு",
-          "வரகு",
-          "கொள்ளு"
+          "à®•à¯‹à®¤à¯à®®à¯ˆ",
+          "à®•à®®à¯à®ªà¯",
+          "à®µà®°à®•à¯",
+          "à®•à¯Šà®³à¯à®³à¯"
         ],
         "answer": 0,
-        "explanation": "ரொட்டி, கேக், பாஸ்தா தயாரிக்கப் பயன்படும் கோதுமையே உலகின் மிக முக்கியமான உணவுப் பயிர் என்று பாடத்தில் குறிப்பிடப்பட்டுள்ளது."
+        "explanation": "à®°à¯Šà®Ÿà¯à®Ÿà®¿, à®•à¯‡à®•à¯, à®ªà®¾à®¸à¯à®¤à®¾ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®®à¯ à®•à¯‹à®¤à¯à®®à¯ˆà®¯à¯‡ à®‰à®²à®•à®¿à®©à¯ à®®à®¿à®• à®®à¯à®•à¯à®•à®¿à®¯à®®à®¾à®© à®‰à®£à®µà¯à®ªà¯ à®ªà®¯à®¿à®°à¯ à®Žà®©à¯à®±à¯ à®ªà®¾à®Ÿà®¤à¯à®¤à®¿à®²à¯ à®•à¯à®±à®¿à®ªà¯à®ªà®¿à®Ÿà®ªà¯à®ªà®Ÿà¯à®Ÿà¯à®³à¯à®³à®¤à¯."
       },
       {
-        "question": "மெக்சிகோ மற்றும் அமெரிக்காவை பிறப்பிடமாகக் கொண்ட உணவுப் பயிர் எது?",
+        "question": "à®®à¯†à®•à¯à®šà®¿à®•à¯‹ à®®à®±à¯à®±à¯à®®à¯ à®…à®®à¯†à®°à®¿à®•à¯à®•à®¾à®µà¯ˆ à®ªà®¿à®±à®ªà¯à®ªà®¿à®Ÿà®®à®¾à®•à®•à¯ à®•à¯Šà®£à¯à®Ÿ à®‰à®£à®µà¯à®ªà¯ à®ªà®¯à®¿à®°à¯ à®Žà®¤à¯?",
         "options": [
-          "கோதுமை",
-          "சோளம்",
-          "நெல்",
-          "கேழ்வரகு"
+          "à®•à¯‹à®¤à¯à®®à¯ˆ",
+          "à®šà¯‹à®³à®®à¯",
+          "à®¨à¯†à®²à¯",
+          "à®•à¯‡à®´à¯à®µà®°à®•à¯"
         ],
         "answer": 1,
-        "explanation": "சோளம் மெக்சிகோ மற்றும் அமெரிக்காவை பூர்வீகமாகக் கொண்டது."
+        "explanation": "à®šà¯‹à®³à®®à¯ à®®à¯†à®•à¯à®šà®¿à®•à¯‹ à®®à®±à¯à®±à¯à®®à¯ à®…à®®à¯†à®°à®¿à®•à¯à®•à®¾à®µà¯ˆ à®ªà¯‚à®°à¯à®µà¯€à®•à®®à®¾à®•à®•à¯ à®•à¯Šà®£à¯à®Ÿà®¤à¯."
       },
       {
-        "question": "கீழ்க்கண்டவற்றுள் எது சிறுதானியம் அல்ல?",
+        "question": "à®•à¯€à®´à¯à®•à¯à®•à®£à¯à®Ÿà®µà®±à¯à®±à¯à®³à¯ à®Žà®¤à¯ à®šà®¿à®±à¯à®¤à®¾à®©à®¿à®¯à®®à¯ à®…à®²à¯à®²?",
         "options": [
-          "தினை",
-          "கேழ்வரகு",
-          "கோதுமை",
-          "குதிரைவாலி"
+          "à®¤à®¿à®©à¯ˆ",
+          "à®•à¯‡à®´à¯à®µà®°à®•à¯",
+          "à®•à¯‹à®¤à¯à®®à¯ˆ",
+          "à®•à¯à®¤à®¿à®°à¯ˆà®µà®¾à®²à®¿"
         ],
         "answer": 2,
-        "explanation": "தினை, கேழ்வரகு, குதிரைவாலி ஆகியவை சிறுதானியங்கள். கோதுமை ஒரு முக்கிய உணவு தானியம்."
+        "explanation": "à®¤à®¿à®©à¯ˆ, à®•à¯‡à®´à¯à®µà®°à®•à¯, à®•à¯à®¤à®¿à®°à¯ˆà®µà®¾à®²à®¿ à®†à®•à®¿à®¯à®µà¯ˆ à®šà®¿à®±à¯à®¤à®¾à®©à®¿à®¯à®™à¯à®•à®³à¯. à®•à¯‹à®¤à¯à®®à¯ˆ à®’à®°à¯ à®®à¯à®•à¯à®•à®¿à®¯ à®‰à®£à®µà¯ à®¤à®¾à®©à®¿à®¯à®®à¯."
       },
       {
-        "question": "நீரில் மிதக்கும் பொருளுக்கு உதாரணம் தருக.",
+        "question": "à®¨à¯€à®°à®¿à®²à¯ à®®à®¿à®¤à®•à¯à®•à¯à®®à¯ à®ªà¯Šà®°à¯à®³à¯à®•à¯à®•à¯ à®‰à®¤à®¾à®°à®£à®®à¯ à®¤à®°à¯à®•.",
         "options": [
-          "இரும்பு நாணயம்",
-          "கத்தரிக்கோல்",
-          "கல்",
-          "ஆப்பிள்"
+          "à®‡à®°à¯à®®à¯à®ªà¯ à®¨à®¾à®£à®¯à®®à¯",
+          "à®•à®¤à¯à®¤à®°à®¿à®•à¯à®•à¯‹à®²à¯",
+          "à®•à®²à¯",
+          "à®†à®ªà¯à®ªà®¿à®³à¯"
         ],
         "answer": 3,
-        "explanation": "நீரை விட அடர்த்தி குறைவான பொருட்கள் மிதக்கும். ஆப்பிள் நீரில் மிதக்கும்."
+        "explanation": "à®¨à¯€à®°à¯ˆ à®µà®¿à®Ÿ à®…à®Ÿà®°à¯à®¤à¯à®¤à®¿ à®•à¯à®±à¯ˆà®µà®¾à®© à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à¯ à®®à®¿à®¤à®•à¯à®•à¯à®®à¯. à®†à®ªà¯à®ªà®¿à®³à¯ à®¨à¯€à®°à®¿à®²à¯ à®®à®¿à®¤à®•à¯à®•à¯à®®à¯."
       },
       {
-        "question": "ஒரு பொருள் நீரில் மிதப்பதும் அல்லது மூழ்குவதும் எதைப் பொறுத்தது?",
+        "question": "à®’à®°à¯ à®ªà¯Šà®°à¯à®³à¯ à®¨à¯€à®°à®¿à®²à¯ à®®à®¿à®¤à®ªà¯à®ªà®¤à¯à®®à¯ à®…à®²à¯à®²à®¤à¯ à®®à¯‚à®´à¯à®•à¯à®µà®¤à¯à®®à¯ à®Žà®¤à¯ˆà®ªà¯ à®ªà¯Šà®±à¯à®¤à¯à®¤à®¤à¯?",
         "options": [
-          "பொருளின் நிறம்",
-          "பொருளின் அடர்த்தி",
-          "பொருளின் நீளம்",
-          "பொருளின் விலை"
+          "à®ªà¯Šà®°à¯à®³à®¿à®©à¯ à®¨à®¿à®±à®®à¯",
+          "à®ªà¯Šà®°à¯à®³à®¿à®©à¯ à®…à®Ÿà®°à¯à®¤à¯à®¤à®¿",
+          "à®ªà¯Šà®°à¯à®³à®¿à®©à¯ à®¨à¯€à®³à®®à¯",
+          "à®ªà¯Šà®°à¯à®³à®¿à®©à¯ à®µà®¿à®²à¯ˆ"
         ],
         "answer": 1,
-        "explanation": "ஒரு பொருளின் மிதத்தல் அல்லது மூழ்குதல் அப்பொருளின் அடர்த்தியைப் பொறுத்தது."
+        "explanation": "à®’à®°à¯ à®ªà¯Šà®°à¯à®³à®¿à®©à¯ à®®à®¿à®¤à®¤à¯à®¤à®²à¯ à®…à®²à¯à®²à®¤à¯ à®®à¯‚à®´à¯à®•à¯à®¤à®²à¯ à®…à®ªà¯à®ªà¯Šà®°à¯à®³à®¿à®©à¯ à®…à®Ÿà®°à¯à®¤à¯à®¤à®¿à®¯à¯ˆà®ªà¯ à®ªà¯Šà®±à¯à®¤à¯à®¤à®¤à¯."
       },
       {
-        "question": "கீழ்க்கண்டவற்றுள் நீரில் கரையும் பொருள் எது?",
+        "question": "à®•à¯€à®´à¯à®•à¯à®•à®£à¯à®Ÿà®µà®±à¯à®±à¯à®³à¯ à®¨à¯€à®°à®¿à®²à¯ à®•à®°à¯ˆà®¯à¯à®®à¯ à®ªà¯Šà®°à¯à®³à¯ à®Žà®¤à¯?",
         "options": [
-          "மணல்",
-          "சாக்பீஸ் தூள்",
-          "சர்க்கரை",
-          "கல்"
+          "à®®à®£à®²à¯",
+          "à®šà®¾à®•à¯à®ªà¯€à®¸à¯ à®¤à¯‚à®³à¯",
+          "à®šà®°à¯à®•à¯à®•à®°à¯ˆ",
+          "à®•à®²à¯"
         ],
         "answer": 2,
-        "explanation": "உப்பு, சர்க்கரை ஆகியவை நீரில் முழுமையாகக் கரையக்கூடியவை."
+        "explanation": "à®‰à®ªà¯à®ªà¯, à®šà®°à¯à®•à¯à®•à®°à¯ˆ à®†à®•à®¿à®¯à®µà¯ˆ à®¨à¯€à®°à®¿à®²à¯ à®®à¯à®´à¯à®®à¯ˆà®¯à®¾à®•à®•à¯ à®•à®°à¯ˆà®¯à®•à¯à®•à¯‚à®Ÿà®¿à®¯à®µà¯ˆ."
       },
       {
-        "question": "நீரில் கரையாத திடப்பொருளுக்கு ஓர் எடுத்துக்காட்டு கூறுக.",
+        "question": "à®¨à¯€à®°à®¿à®²à¯ à®•à®°à¯ˆà®¯à®¾à®¤ à®¤à®¿à®Ÿà®ªà¯à®ªà¯Šà®°à¯à®³à¯à®•à¯à®•à¯ à®“à®°à¯ à®Žà®Ÿà¯à®¤à¯à®¤à¯à®•à¯à®•à®¾à®Ÿà¯à®Ÿà¯ à®•à¯‚à®±à¯à®•.",
         "options": [
-          "உப்பு",
-          "சர்க்கரை",
-          "மணல்",
-          "வினிகர்"
+          "à®‰à®ªà¯à®ªà¯",
+          "à®šà®°à¯à®•à¯à®•à®°à¯ˆ",
+          "à®®à®£à®²à¯",
+          "à®µà®¿à®©à®¿à®•à®°à¯"
         ],
         "answer": 2,
-        "explanation": "மணல் மற்றும் சாக்பீஸ் தூள் ஆகியவை நீரில் கரையாத திடப்பொருட்கள்."
+        "explanation": "à®®à®£à®²à¯ à®®à®±à¯à®±à¯à®®à¯ à®šà®¾à®•à¯à®ªà¯€à®¸à¯ à®¤à¯‚à®³à¯ à®†à®•à®¿à®¯à®µà¯ˆ à®¨à¯€à®°à®¿à®²à¯ à®•à®°à¯ˆà®¯à®¾à®¤ à®¤à®¿à®Ÿà®ªà¯à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à¯."
       },
       {
-        "question": "உலகிலேயே மிக உயர்ந்த இழை விலங்கான விக்குனா (Vicuna) எந்த இனத்தைச் சார்ந்தது?",
+        "question": "à®‰à®²à®•à®¿à®²à¯‡à®¯à¯‡ à®®à®¿à®• à®‰à®¯à®°à¯à®¨à¯à®¤ à®‡à®´à¯ˆ à®µà®¿à®²à®™à¯à®•à®¾à®© à®µà®¿à®•à¯à®•à¯à®©à®¾ (Vicuna) à®Žà®¨à¯à®¤ à®‡à®©à®¤à¯à®¤à¯ˆà®šà¯ à®šà®¾à®°à¯à®¨à¯à®¤à®¤à¯?",
         "options": [
-          "குதிரை",
-          "மான்",
-          "ஒட்டகம்",
-          "பன்றி"
+          "à®•à¯à®¤à®¿à®°à¯ˆ",
+          "à®®à®¾à®©à¯",
+          "à®’à®Ÿà¯à®Ÿà®•à®®à¯",
+          "à®ªà®©à¯à®±à®¿"
         ],
         "answer": 2,
-        "explanation": "உலகிலேயே மிக உயர்ந்த இழை விலங்கான விக்குனா ஒட்டக இனத்தைச் சார்ந்தது."
+        "explanation": "à®‰à®²à®•à®¿à®²à¯‡à®¯à¯‡ à®®à®¿à®• à®‰à®¯à®°à¯à®¨à¯à®¤ à®‡à®´à¯ˆ à®µà®¿à®²à®™à¯à®•à®¾à®© à®µà®¿à®•à¯à®•à¯à®©à®¾ à®’à®Ÿà¯à®Ÿà®• à®‡à®©à®¤à¯à®¤à¯ˆà®šà¯ à®šà®¾à®°à¯à®¨à¯à®¤à®¤à¯."
       },
       {
-        "question": "நீருடன் எந்தத் திரவம் நன்றாகக் கலக்கும்?",
+        "question": "à®¨à¯€à®°à¯à®Ÿà®©à¯ à®Žà®¨à¯à®¤à®¤à¯ à®¤à®¿à®°à®µà®®à¯ à®¨à®©à¯à®±à®¾à®•à®•à¯ à®•à®²à®•à¯à®•à¯à®®à¯?",
         "options": [
-          "தேங்காய் எண்ணெய்",
-          "கடுகு எண்ணெய்",
-          "எலுமிச்சை சாறு",
-          "மண்ணெண்ணெய்"
+          "à®¤à¯‡à®™à¯à®•à®¾à®¯à¯ à®Žà®£à¯à®£à¯†à®¯à¯",
+          "à®•à®Ÿà¯à®•à¯ à®Žà®£à¯à®£à¯†à®¯à¯",
+          "à®Žà®²à¯à®®à®¿à®šà¯à®šà¯ˆ à®šà®¾à®±à¯",
+          "à®®à®£à¯à®£à¯†à®£à¯à®£à¯†à®¯à¯"
         ],
         "answer": 2,
-        "explanation": "ஒரே விதமான வேதியியல் பண்புடையதால் எலுமிச்சை சாறு நீருடன் நன்றாகக் கலக்கும்."
+        "explanation": "à®’à®°à¯‡ à®µà®¿à®¤à®®à®¾à®© à®µà¯‡à®¤à®¿à®¯à®¿à®¯à®²à¯ à®ªà®£à¯à®ªà¯à®Ÿà¯ˆà®¯à®¤à®¾à®²à¯ à®Žà®²à¯à®®à®¿à®šà¯à®šà¯ˆ à®šà®¾à®±à¯ à®¨à¯€à®°à¯à®Ÿà®©à¯ à®¨à®©à¯à®±à®¾à®•à®•à¯ à®•à®²à®•à¯à®•à¯à®®à¯."
       },
       {
-        "question": "நீரும் தேங்காய் எண்ணெயும் ஏன் ஒன்றோடு ஒன்று கலப்பதில்லை?",
+        "question": "à®¨à¯€à®°à¯à®®à¯ à®¤à¯‡à®™à¯à®•à®¾à®¯à¯ à®Žà®£à¯à®£à¯†à®¯à¯à®®à¯ à®à®©à¯ à®’à®©à¯à®±à¯‹à®Ÿà¯ à®’à®©à¯à®±à¯ à®•à®²à®ªà¯à®ªà®¤à®¿à®²à¯à®²à¯ˆ?",
         "options": [
-          "ஒரே நிறத்தைக் கொண்டிருப்பதால்",
-          "வேறுபட்ட வேதியியல் பண்புகளைப் பெற்றிருப்பதால்",
-          "இரண்டும் அடர்த்தி குறைந்தவை என்பதால்",
-          "இரண்டும் திடப்பொருட்கள் என்பதால்"
+          "à®’à®°à¯‡ à®¨à®¿à®±à®¤à¯à®¤à¯ˆà®•à¯ à®•à¯Šà®£à¯à®Ÿà®¿à®°à¯à®ªà¯à®ªà®¤à®¾à®²à¯",
+          "à®µà¯‡à®±à¯à®ªà®Ÿà¯à®Ÿ à®µà¯‡à®¤à®¿à®¯à®¿à®¯à®²à¯ à®ªà®£à¯à®ªà¯à®•à®³à¯ˆà®ªà¯ à®ªà¯†à®±à¯à®±à®¿à®°à¯à®ªà¯à®ªà®¤à®¾à®²à¯",
+          "à®‡à®°à®£à¯à®Ÿà¯à®®à¯ à®…à®Ÿà®°à¯à®¤à¯à®¤à®¿ à®•à¯à®±à¯ˆà®¨à¯à®¤à®µà¯ˆ à®Žà®©à¯à®ªà®¤à®¾à®²à¯",
+          "à®‡à®°à®£à¯à®Ÿà¯à®®à¯ à®¤à®¿à®Ÿà®ªà¯à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à¯ à®Žà®©à¯à®ªà®¤à®¾à®²à¯"
         ],
         "answer": 1,
-        "explanation": "வேறுபட்ட வேதியியல் பண்புகளைப் பெற்ற பொருட்கள் ஒன்றுடன் ஒன்று கலப்பதில்லை."
+        "explanation": "à®µà¯‡à®±à¯à®ªà®Ÿà¯à®Ÿ à®µà¯‡à®¤à®¿à®¯à®¿à®¯à®²à¯ à®ªà®£à¯à®ªà¯à®•à®³à¯ˆà®ªà¯ à®ªà¯†à®±à¯à®± à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à¯ à®’à®©à¯à®±à¯à®Ÿà®©à¯ à®’à®©à¯à®±à¯ à®•à®²à®ªà¯à®ªà®¤à®¿à®²à¯à®²à¯ˆ."
       },
       {
-        "question": "ரொட்டி, கேக் மற்றும் பாஸ்தா தயாரிக்க முக்கியமாகப் பயன்படும் தானியம் எது?",
+        "question": "à®°à¯Šà®Ÿà¯à®Ÿà®¿, à®•à¯‡à®•à¯ à®®à®±à¯à®±à¯à®®à¯ à®ªà®¾à®¸à¯à®¤à®¾ à®¤à®¯à®¾à®°à®¿à®•à¯à®• à®®à¯à®•à¯à®•à®¿à®¯à®®à®¾à®•à®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®®à¯ à®¤à®¾à®©à®¿à®¯à®®à¯ à®Žà®¤à¯?",
         "options": [
-          "கம்பு",
-          "நெல்",
-          "கோதுமை",
-          "சோளம்"
+          "à®•à®®à¯à®ªà¯",
+          "à®¨à¯†à®²à¯",
+          "à®•à¯‹à®¤à¯à®®à¯ˆ",
+          "à®šà¯‹à®³à®®à¯"
         ],
         "answer": 2,
-        "explanation": "கோதுமை மாவு ரொட்டி, கேக், பாஸ்தா போன்றவற்றைத் தயாரிக்கப் பயன்படுகிறது."
+        "explanation": "à®•à¯‹à®¤à¯à®®à¯ˆ à®®à®¾à®µà¯ à®°à¯Šà®Ÿà¯à®Ÿà®¿, à®•à¯‡à®•à¯, à®ªà®¾à®¸à¯à®¤à®¾ à®ªà¯‹à®©à¯à®±à®µà®±à¯à®±à¯ˆà®¤à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯."
       },
       {
-        "question": "அறுவை சிகிச்சையின் போது காயங்களுக்குக் கட்டுப்போட எந்த இயற்கை இழை பயன்படுகிறது?",
+        "question": "à®…à®±à¯à®µà¯ˆ à®šà®¿à®•à®¿à®šà¯à®šà¯ˆà®¯à®¿à®©à¯ à®ªà¯‹à®¤à¯ à®•à®¾à®¯à®™à¯à®•à®³à¯à®•à¯à®•à¯à®•à¯ à®•à®Ÿà¯à®Ÿà¯à®ªà¯à®ªà¯‹à®Ÿ à®Žà®¨à¯à®¤ à®‡à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯?",
         "options": [
-          "சணல்",
-          "பட்டு",
-          "பருத்தி பஞ்சு",
-          "நைலான்"
+          "à®šà®£à®²à¯",
+          "à®ªà®Ÿà¯à®Ÿà¯",
+          "à®ªà®°à¯à®¤à¯à®¤à®¿ à®ªà®žà¯à®šà¯",
+          "à®¨à¯ˆà®²à®¾à®©à¯"
         ],
         "answer": 2,
-        "explanation": "பருத்தி பஞ்சு காயங்களுக்குக் கட்டுப்போடப் பயன்படுகிறது என தகவல் பேழை கூறுகிறது."
+        "explanation": "à®ªà®°à¯à®¤à¯à®¤à®¿ à®ªà®žà¯à®šà¯ à®•à®¾à®¯à®™à¯à®•à®³à¯à®•à¯à®•à¯à®•à¯ à®•à®Ÿà¯à®Ÿà¯à®ªà¯à®ªà¯‹à®Ÿà®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯ à®Žà®© à®¤à®•à®µà®²à¯ à®ªà¯‡à®´à¯ˆ à®•à¯‚à®±à¯à®•à®¿à®±à®¤à¯."
       },
       {
-        "question": "பாலியெஸ்டர் மற்றும் அக்ரிலிக் எவ்வகையான இழைகள்?",
+        "question": "à®ªà®¾à®²à®¿à®¯à¯†à®¸à¯à®Ÿà®°à¯ à®®à®±à¯à®±à¯à®®à¯ à®…à®•à¯à®°à®¿à®²à®¿à®•à¯ à®Žà®µà¯à®µà®•à¯ˆà®¯à®¾à®© à®‡à®´à¯ˆà®•à®³à¯?",
         "options": [
-          "தாவர இழைகள்",
-          "விலங்கு இழைகள்",
-          "செயற்கை இழைகள்",
-          "பருத்தி இழைகள்"
+          "à®¤à®¾à®µà®° à®‡à®´à¯ˆà®•à®³à¯",
+          "à®µà®¿à®²à®™à¯à®•à¯ à®‡à®´à¯ˆà®•à®³à¯",
+          "à®šà¯†à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆà®•à®³à¯",
+          "à®ªà®°à¯à®¤à¯à®¤à®¿ à®‡à®´à¯ˆà®•à®³à¯"
         ],
         "answer": 2,
-        "explanation": "இவை பெட்ரோலியப் பொருட்கள் மற்றும் வேதியியல் பொருட்களிலிருந்து மனிதனால் உருவாக்கப்பட்ட செயற்கை இழைகள் ஆகும்."
+        "explanation": "à®‡à®µà¯ˆ à®ªà¯†à®Ÿà¯à®°à¯‹à®²à®¿à®¯à®ªà¯ à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à¯ à®®à®±à¯à®±à¯à®®à¯ à®µà¯‡à®¤à®¿à®¯à®¿à®¯à®²à¯ à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®®à®©à®¿à®¤à®©à®¾à®²à¯ à®‰à®°à¯à®µà®¾à®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®Ÿ à®šà¯†à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆà®•à®³à¯ à®†à®•à¯à®®à¯."
       },
       {
-        "question": "பட்டு மற்றும் கம்பளிக்கு மாற்றாக உருவாக்கப்பட்ட செயற்கை இழை எது?",
+        "question": "à®ªà®Ÿà¯à®Ÿà¯ à®®à®±à¯à®±à¯à®®à¯ à®•à®®à¯à®ªà®³à®¿à®•à¯à®•à¯ à®®à®¾à®±à¯à®±à®¾à®• à®‰à®°à¯à®µà®¾à®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®Ÿ à®šà¯†à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆ à®Žà®¤à¯?",
         "options": [
-          "நைலான்",
-          "பருத்தி",
-          "சணல்",
-          "தேங்காய் நார்"
+          "à®¨à¯ˆà®²à®¾à®©à¯",
+          "à®ªà®°à¯à®¤à¯à®¤à®¿",
+          "à®šà®£à®²à¯",
+          "à®¤à¯‡à®™à¯à®•à®¾à®¯à¯ à®¨à®¾à®°à¯"
         ],
         "answer": 0,
-        "explanation": "நைலான் பட்டு மற்றும் கம்பளிக்கு மாற்று இழையாகக் கண்டுபிடிக்கப்பட்டது."
+        "explanation": "à®¨à¯ˆà®²à®¾à®©à¯ à®ªà®Ÿà¯à®Ÿà¯ à®®à®±à¯à®±à¯à®®à¯ à®•à®®à¯à®ªà®³à®¿à®•à¯à®•à¯ à®®à®¾à®±à¯à®±à¯ à®‡à®´à¯ˆà®¯à®¾à®•à®•à¯ à®•à®£à¯à®Ÿà¯à®ªà®¿à®Ÿà®¿à®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®Ÿà®¤à¯."
       },
       {
-        "question": "கீழ்க்கண்டவற்றுள் பழங்கால வீட்டு உபயோகப் பொருள் எது?",
+        "question": "à®•à¯€à®´à¯à®•à¯à®•à®£à¯à®Ÿà®µà®±à¯à®±à¯à®³à¯ à®ªà®´à®™à¯à®•à®¾à®² à®µà¯€à®Ÿà¯à®Ÿà¯ à®‰à®ªà®¯à¯‹à®•à®ªà¯ à®ªà¯Šà®°à¯à®³à¯ à®Žà®¤à¯?",
         "options": [
-          "நுண்ணலை அடுப்பு",
-          "குளிர்சாதனப் பெட்டி",
-          "மண்ணெண்ணெய் அடுப்பு",
-          "சலவை இயந்திரம்"
+          "à®¨à¯à®£à¯à®£à®²à¯ˆ à®…à®Ÿà¯à®ªà¯à®ªà¯",
+          "à®•à¯à®³à®¿à®°à¯à®šà®¾à®¤à®©à®ªà¯ à®ªà¯†à®Ÿà¯à®Ÿà®¿",
+          "à®®à®£à¯à®£à¯†à®£à¯à®£à¯†à®¯à¯ à®…à®Ÿà¯à®ªà¯à®ªà¯",
+          "à®šà®²à®µà¯ˆ à®‡à®¯à®¨à¯à®¤à®¿à®°à®®à¯"
         ],
         "answer": 2,
-        "explanation": "பழங்காலத்தில் மண்ணெண்ணெய் அடுப்பு பயன்படுத்தப்பட்டது. மற்றவை நவீனகால உபகரணங்கள்."
+        "explanation": "à®ªà®´à®™à¯à®•à®¾à®²à®¤à¯à®¤à®¿à®²à¯ à®®à®£à¯à®£à¯†à®£à¯à®£à¯†à®¯à¯ à®…à®Ÿà¯à®ªà¯à®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®¤à¯à®¤à®ªà¯à®ªà®Ÿà¯à®Ÿà®¤à¯. à®®à®±à¯à®±à®µà¯ˆ à®¨à®µà¯€à®©à®•à®¾à®² à®‰à®ªà®•à®°à®£à®™à¯à®•à®³à¯."
       },
       {
-        "question": "பருத்தி ஒரு புதர்ச்செடி ஆகும். இது தோராயமாக எத்தனை அடி வரை வளரக்கூடியது?",
+        "question": "à®ªà®°à¯à®¤à¯à®¤à®¿ à®’à®°à¯ à®ªà¯à®¤à®°à¯à®šà¯à®šà¯†à®Ÿà®¿ à®†à®•à¯à®®à¯. à®‡à®¤à¯ à®¤à¯‹à®°à®¾à®¯à®®à®¾à®• à®Žà®¤à¯à®¤à®©à¯ˆ à®…à®Ÿà®¿ à®µà®°à¯ˆ à®µà®³à®°à®•à¯à®•à¯‚à®Ÿà®¿à®¯à®¤à¯?",
         "options": [
-          "1-2 அடி",
-          "5-6 அடி",
-          "10-15 அடி",
-          "20-25 அடி"
+          "1-2 à®…à®Ÿà®¿",
+          "5-6 à®…à®Ÿà®¿",
+          "10-15 à®…à®Ÿà®¿",
+          "20-25 à®…à®Ÿà®¿"
         ],
         "answer": 1,
-        "explanation": "பருத்திச் செடி 5 முதல் 6 அடி வரை வளரக்கூடிய புதர்ச்செடி ஆகும்."
+        "explanation": "à®ªà®°à¯à®¤à¯à®¤à®¿à®šà¯ à®šà¯†à®Ÿà®¿ 5 à®®à¯à®¤à®²à¯ 6 à®…à®Ÿà®¿ à®µà®°à¯ˆ à®µà®³à®°à®•à¯à®•à¯‚à®Ÿà®¿à®¯ à®ªà¯à®¤à®°à¯à®šà¯à®šà¯†à®Ÿà®¿ à®†à®•à¯à®®à¯."
       },
       {
-        "question": "பொருள்களைப் பிணைக்கும் தளர்வின் அடிப்படையில் கீழ்க்கண்டவற்றின் சரியான வரிசையைத் தேர்ந்தெடுக்க. (நெருக்கமானது முதல் மிகவும் தளர்வானது வரை)",
+        "question": "à®ªà¯Šà®°à¯à®³à¯à®•à®³à¯ˆà®ªà¯ à®ªà®¿à®£à¯ˆà®•à¯à®•à¯à®®à¯ à®¤à®³à®°à¯à®µà®¿à®©à¯ à®…à®Ÿà®¿à®ªà¯à®ªà®Ÿà¯ˆà®¯à®¿à®²à¯ à®•à¯€à®´à¯à®•à¯à®•à®£à¯à®Ÿà®µà®±à¯à®±à®¿à®©à¯ à®šà®°à®¿à®¯à®¾à®© à®µà®°à®¿à®šà¯ˆà®¯à¯ˆà®¤à¯ à®¤à¯‡à®°à¯à®¨à¯à®¤à¯†à®Ÿà¯à®•à¯à®•. (à®¨à¯†à®°à¯à®•à¯à®•à®®à®¾à®©à®¤à¯ à®®à¯à®¤à®²à¯ à®®à®¿à®•à®µà¯à®®à¯ à®¤à®³à®°à¯à®µà®¾à®©à®¤à¯ à®µà®°à¯ˆ)",
         "options": [
-          "திண்மம், திரவம், வாயு",
-          "வாயு, திரவம், திண்மம்",
-          "திரவம், திண்மம், வாயு",
-          "வாயு, திண்மம், திரவம்"
+          "à®¤à®¿à®£à¯à®®à®®à¯, à®¤à®¿à®°à®µà®®à¯, à®µà®¾à®¯à¯",
+          "à®µà®¾à®¯à¯, à®¤à®¿à®°à®µà®®à¯, à®¤à®¿à®£à¯à®®à®®à¯",
+          "à®¤à®¿à®°à®µà®®à¯, à®¤à®¿à®£à¯à®®à®®à¯, à®µà®¾à®¯à¯",
+          "à®µà®¾à®¯à¯, à®¤à®¿à®£à¯à®®à®®à¯, à®¤à®¿à®°à®µà®®à¯"
         ],
         "answer": 0,
-        "explanation": "திண்மத்தில் நெருக்கம் அதிகம். திரவத்தில் தளர்வு. வாயுவில் மிகவும் தளர்வான அமைப்பு."
+        "explanation": "à®¤à®¿à®£à¯à®®à®¤à¯à®¤à®¿à®²à¯ à®¨à¯†à®°à¯à®•à¯à®•à®®à¯ à®…à®¤à®¿à®•à®®à¯. à®¤à®¿à®°à®µà®¤à¯à®¤à®¿à®²à¯ à®¤à®³à®°à¯à®µà¯. à®µà®¾à®¯à¯à®µà®¿à®²à¯ à®®à®¿à®•à®µà¯à®®à¯ à®¤à®³à®°à¯à®µà®¾à®© à®…à®®à¯ˆà®ªà¯à®ªà¯."
       },
       {
-        "question": "மீன்பிடி வலைகள் மற்றும் பாராசூட் துணிகள் தயாரிக்க எந்த வகை இழைகள் அதிகம் பயன்படுகின்றன?",
+        "question": "à®®à¯€à®©à¯à®ªà®¿à®Ÿà®¿ à®µà®²à¯ˆà®•à®³à¯ à®®à®±à¯à®±à¯à®®à¯ à®ªà®¾à®°à®¾à®šà¯‚à®Ÿà¯ à®¤à¯à®£à®¿à®•à®³à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®• à®Žà®¨à¯à®¤ à®µà®•à¯ˆ à®‡à®´à¯ˆà®•à®³à¯ à®…à®¤à®¿à®•à®®à¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®•à®¿à®©à¯à®±à®©?",
         "options": [
-          "பருத்தி",
-          "சணல்",
-          "செயற்கை இழைகள் (நைலான்)",
-          "தேங்காய் நார்"
+          "à®ªà®°à¯à®¤à¯à®¤à®¿",
+          "à®šà®£à®²à¯",
+          "à®šà¯†à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆà®•à®³à¯ (à®¨à¯ˆà®²à®¾à®©à¯)",
+          "à®¤à¯‡à®™à¯à®•à®¾à®¯à¯ à®¨à®¾à®°à¯"
         ],
         "answer": 2,
-        "explanation": "செயற்கை இழைகள் வலுவானவை, எனவே மீன்பிடி வலைகள், பாராசூட் போன்றவற்றைத் தயாரிக்கப் பயன்படுகின்றன."
+        "explanation": "à®šà¯†à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆà®•à®³à¯ à®µà®²à¯à®µà®¾à®©à®µà¯ˆ, à®Žà®©à®µà¯‡ à®®à¯€à®©à¯à®ªà®¿à®Ÿà®¿ à®µà®²à¯ˆà®•à®³à¯, à®ªà®¾à®°à®¾à®šà¯‚à®Ÿà¯ à®ªà¯‹à®©à¯à®±à®µà®±à¯à®±à¯ˆà®¤à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®•à®¿à®©à¯à®±à®©."
       },
       {
-        "question": "உலக அளவில் அதிகம் பயன்படுத்தப்படும் விவசாயப் பயிர் எது?",
+        "question": "à®‰à®²à®• à®…à®³à®µà®¿à®²à¯ à®…à®¤à®¿à®•à®®à¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®¤à¯à®¤à®ªà¯à®ªà®Ÿà¯à®®à¯ à®µà®¿à®µà®šà®¾à®¯à®ªà¯ à®ªà®¯à®¿à®°à¯ à®Žà®¤à¯?",
         "options": [
-          "நெல்",
-          "கம்பு",
-          "வரகு",
-          "கேழ்வரகு"
+          "à®¨à¯†à®²à¯",
+          "à®•à®®à¯à®ªà¯",
+          "à®µà®°à®•à¯",
+          "à®•à¯‡à®´à¯à®µà®°à®•à¯"
         ],
         "answer": 0,
-        "explanation": "நெல் (அரிசி) உலக அளவில் மிகவும் முக்கியமான ஒரு வேளாண் பயிராகும். இது பெரும்பாலும் மனித உணவாகப் பயன்படுகிறது."
+        "explanation": "à®¨à¯†à®²à¯ (à®…à®°à®¿à®šà®¿) à®‰à®²à®• à®…à®³à®µà®¿à®²à¯ à®®à®¿à®•à®µà¯à®®à¯ à®®à¯à®•à¯à®•à®¿à®¯à®®à®¾à®© à®’à®°à¯ à®µà¯‡à®³à®¾à®£à¯ à®ªà®¯à®¿à®°à®¾à®•à¯à®®à¯. à®‡à®¤à¯ à®ªà¯†à®°à¯à®®à¯à®ªà®¾à®²à¯à®®à¯ à®®à®©à®¿à®¤ à®‰à®£à®µà®¾à®•à®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯."
       },
       {
-        "question": "டகோ (Taco) மற்றும் டார்டில்லா (Tortilla) போன்ற உணவுகள் எந்த தானியத்திலிருந்து தயாரிக்கப்படுகின்றன?",
+        "question": "à®Ÿà®•à¯‹ (Taco) à®®à®±à¯à®±à¯à®®à¯ à®Ÿà®¾à®°à¯à®Ÿà®¿à®²à¯à®²à®¾ (Tortilla) à®ªà¯‹à®©à¯à®± à®‰à®£à®µà¯à®•à®³à¯ à®Žà®¨à¯à®¤ à®¤à®¾à®©à®¿à®¯à®¤à¯à®¤à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®•à®¿à®©à¯à®±à®©?",
         "options": [
-          "கோதுமை",
-          "நெல்",
-          "சோளம்",
-          "கம்பு"
+          "à®•à¯‹à®¤à¯à®®à¯ˆ",
+          "à®¨à¯†à®²à¯",
+          "à®šà¯‹à®³à®®à¯",
+          "à®•à®®à¯à®ªà¯"
         ],
         "answer": 2,
-        "explanation": "மெக்சிகோ உணவுகளான டகோ போன்றவை சோளத்திலிருந்து தயாரிக்கப்படுகின்றன."
+        "explanation": "à®®à¯†à®•à¯à®šà®¿à®•à¯‹ à®‰à®£à®µà¯à®•à®³à®¾à®© à®Ÿà®•à¯‹ à®ªà¯‹à®©à¯à®±à®µà¯ˆ à®šà¯‹à®³à®¤à¯à®¤à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®•à®¿à®©à¯à®±à®©."
       },
       {
-        "question": "பொருத்துக: 1. ரேயான் - a. பெட்ரோலியப் பொருள்கள், 2. நைலான் - b. மரக்கூழ், 3. பாலியெஸ்டர் - c. பட்டுக்கு மாற்று",
+        "question": "à®ªà¯Šà®°à¯à®¤à¯à®¤à¯à®•: 1. à®°à¯‡à®¯à®¾à®©à¯ - a. à®ªà¯†à®Ÿà¯à®°à¯‹à®²à®¿à®¯à®ªà¯ à®ªà¯Šà®°à¯à®³à¯à®•à®³à¯, 2. à®¨à¯ˆà®²à®¾à®©à¯ - b. à®®à®°à®•à¯à®•à¯‚à®´à¯, 3. à®ªà®¾à®²à®¿à®¯à¯†à®¸à¯à®Ÿà®°à¯ - c. à®ªà®Ÿà¯à®Ÿà¯à®•à¯à®•à¯ à®®à®¾à®±à¯à®±à¯",
         "options": [
           "1-b, 2-c, 3-a",
           "1-a, 2-b, 3-c",
@@ -431,120 +431,120 @@
           "1-b, 2-a, 3-c"
         ],
         "answer": 0,
-        "explanation": "ரேயான் மரக்கூழில் இருந்தும், நைலான் பட்டுக்கு மாற்றாகவும், பாலியெஸ்டர் பெட்ரோலியத்திலிருந்தும் பெறப்படுகிறது."
+        "explanation": "à®°à¯‡à®¯à®¾à®©à¯ à®®à®°à®•à¯à®•à¯‚à®´à®¿à®²à¯ à®‡à®°à¯à®¨à¯à®¤à¯à®®à¯, à®¨à¯ˆà®²à®¾à®©à¯ à®ªà®Ÿà¯à®Ÿà¯à®•à¯à®•à¯ à®®à®¾à®±à¯à®±à®¾à®•à®µà¯à®®à¯, à®ªà®¾à®²à®¿à®¯à¯†à®¸à¯à®Ÿà®°à¯ à®ªà¯†à®Ÿà¯à®°à¯‹à®²à®¿à®¯à®¤à¯à®¤à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯à®®à¯ à®ªà¯†à®±à®ªà¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯."
       },
       {
-        "question": "கூற்று (A): ஆப்பிள் நீரில் மிதக்கிறது. காரணம் (R): ஆப்பிளின் அடர்த்தி நீரின் அடர்த்தியை விட குறைவு.",
+        "question": "à®•à¯‚à®±à¯à®±à¯ (A): à®†à®ªà¯à®ªà®¿à®³à¯ à®¨à¯€à®°à®¿à®²à¯ à®®à®¿à®¤à®•à¯à®•à®¿à®±à®¤à¯. à®•à®¾à®°à®£à®®à¯ (R): à®†à®ªà¯à®ªà®¿à®³à®¿à®©à¯ à®…à®Ÿà®°à¯à®¤à¯à®¤à®¿ à®¨à¯€à®°à®¿à®©à¯ à®…à®Ÿà®°à¯à®¤à¯à®¤à®¿à®¯à¯ˆ à®µà®¿à®Ÿ à®•à¯à®±à¯ˆà®µà¯.",
         "options": [
-          "A மற்றும் R இரண்டும் சரி. R என்பது A-க்கு சரியான விளக்கம்.",
-          "A மற்றும் R இரண்டும் சரி. ஆனால் R என்பது A-க்கு சரியான விளக்கம் அல்ல.",
-          "A சரி ஆனால் R தவறு.",
-          "A தவறு ஆனால் R சரி."
+          "A à®®à®±à¯à®±à¯à®®à¯ R à®‡à®°à®£à¯à®Ÿà¯à®®à¯ à®šà®°à®¿. R à®Žà®©à¯à®ªà®¤à¯ A-à®•à¯à®•à¯ à®šà®°à®¿à®¯à®¾à®© à®µà®¿à®³à®•à¯à®•à®®à¯.",
+          "A à®®à®±à¯à®±à¯à®®à¯ R à®‡à®°à®£à¯à®Ÿà¯à®®à¯ à®šà®°à®¿. à®†à®©à®¾à®²à¯ R à®Žà®©à¯à®ªà®¤à¯ A-à®•à¯à®•à¯ à®šà®°à®¿à®¯à®¾à®© à®µà®¿à®³à®•à¯à®•à®®à¯ à®…à®²à¯à®².",
+          "A à®šà®°à®¿ à®†à®©à®¾à®²à¯ R à®¤à®µà®±à¯.",
+          "A à®¤à®µà®±à¯ à®†à®©à®¾à®²à¯ R à®šà®°à®¿."
         ],
         "answer": 0,
-        "explanation": "நீரை விட அடர்த்தி குறைந்த பொருட்கள் மிதக்கும். ஆப்பிள் மிதக்க அதன் அடர்த்தி குறைவு என்பதே காரணம்."
+        "explanation": "à®¨à¯€à®°à¯ˆ à®µà®¿à®Ÿ à®…à®Ÿà®°à¯à®¤à¯à®¤à®¿ à®•à¯à®±à¯ˆà®¨à¯à®¤ à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à¯ à®®à®¿à®¤à®•à¯à®•à¯à®®à¯. à®†à®ªà¯à®ªà®¿à®³à¯ à®®à®¿à®¤à®•à¯à®• à®…à®¤à®©à¯ à®…à®Ÿà®°à¯à®¤à¯à®¤à®¿ à®•à¯à®±à¯ˆà®µà¯ à®Žà®©à¯à®ªà®¤à¯‡ à®•à®¾à®°à®£à®®à¯."
       },
       {
-        "question": "கூற்று (A): நீரும் கடுகு எண்ணெயும் ஒன்றாகக் கலக்கும். காரணம் (R): அவற்றின் வேதியியல் பண்புகள் வேறுபட்டவை.",
+        "question": "à®•à¯‚à®±à¯à®±à¯ (A): à®¨à¯€à®°à¯à®®à¯ à®•à®Ÿà¯à®•à¯ à®Žà®£à¯à®£à¯†à®¯à¯à®®à¯ à®’à®©à¯à®±à®¾à®•à®•à¯ à®•à®²à®•à¯à®•à¯à®®à¯. à®•à®¾à®°à®£à®®à¯ (R): à®…à®µà®±à¯à®±à®¿à®©à¯ à®µà¯‡à®¤à®¿à®¯à®¿à®¯à®²à¯ à®ªà®£à¯à®ªà¯à®•à®³à¯ à®µà¯‡à®±à¯à®ªà®Ÿà¯à®Ÿà®µà¯ˆ.",
         "options": [
-          "A மற்றும் R இரண்டும் சரி.",
-          "A சரி, R தவறு.",
-          "A தவறு, R சரி.",
-          "A மற்றும் R இரண்டும் தவறு."
+          "A à®®à®±à¯à®±à¯à®®à¯ R à®‡à®°à®£à¯à®Ÿà¯à®®à¯ à®šà®°à®¿.",
+          "A à®šà®°à®¿, R à®¤à®µà®±à¯.",
+          "A à®¤à®µà®±à¯, R à®šà®°à®¿.",
+          "A à®®à®±à¯à®±à¯à®®à¯ R à®‡à®°à®£à¯à®Ÿà¯à®®à¯ à®¤à®µà®±à¯."
         ],
         "answer": 2,
-        "explanation": "எண்ணெயும் நீரும் ஒன்றோடொன்று கலக்காது (A தவறு). காரணம் அவற்றின் வேதியியல் பண்புகள் வேறுபட்டவை (R சரி)."
+        "explanation": "à®Žà®£à¯à®£à¯†à®¯à¯à®®à¯ à®¨à¯€à®°à¯à®®à¯ à®’à®©à¯à®±à¯‹à®Ÿà¯Šà®©à¯à®±à¯ à®•à®²à®•à¯à®•à®¾à®¤à¯ (A à®¤à®µà®±à¯). à®•à®¾à®°à®£à®®à¯ à®…à®µà®±à¯à®±à®¿à®©à¯ à®µà¯‡à®¤à®¿à®¯à®¿à®¯à®²à¯ à®ªà®£à¯à®ªà¯à®•à®³à¯ à®µà¯‡à®±à¯à®ªà®Ÿà¯à®Ÿà®µà¯ˆ (R à®šà®°à®¿)."
       },
       {
-        "question": "ஒப்புமை: இயற்கை இழை : சணல் :: செயற்கை இழை : ?",
+        "question": "à®’à®ªà¯à®ªà¯à®®à¯ˆ: à®‡à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆ : à®šà®£à®²à¯ :: à®šà¯†à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆ : ?",
         "options": [
-          "பருத்தி",
-          "தேங்காய் நார்",
-          "அக்ரிலிக்",
-          "கம்பளி"
+          "à®ªà®°à¯à®¤à¯à®¤à®¿",
+          "à®¤à¯‡à®™à¯à®•à®¾à®¯à¯ à®¨à®¾à®°à¯",
+          "à®…à®•à¯à®°à®¿à®²à®¿à®•à¯",
+          "à®•à®®à¯à®ªà®³à®¿"
         ],
         "answer": 2,
-        "explanation": "பருத்தி, நார், கம்பளி இயற்கையானவை. அக்ரிலிக் செயற்கை இழையாகும்."
+        "explanation": "à®ªà®°à¯à®¤à¯à®¤à®¿, à®¨à®¾à®°à¯, à®•à®®à¯à®ªà®³à®¿ à®‡à®¯à®±à¯à®•à¯ˆà®¯à®¾à®©à®µà¯ˆ. à®…à®•à¯à®°à®¿à®²à®¿à®•à¯ à®šà¯†à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆà®¯à®¾à®•à¯à®®à¯."
       },
       {
-        "question": "ஒரு பொருளைக் கட்டமைக்கக் கூடிய பல பொருள்களின் கலவை எவ்வாறு அழைக்கப்படுகிறது?",
+        "question": "à®’à®°à¯ à®ªà¯Šà®°à¯à®³à¯ˆà®•à¯ à®•à®Ÿà¯à®Ÿà®®à¯ˆà®•à¯à®•à®•à¯ à®•à¯‚à®Ÿà®¿à®¯ à®ªà®² à®ªà¯Šà®°à¯à®³à¯à®•à®³à®¿à®©à¯ à®•à®²à®µà¯ˆ à®Žà®µà¯à®µà®¾à®±à¯ à®…à®´à¯ˆà®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯?",
         "options": [
-          "மூலப்பொருள்",
-          "திரவம்",
-          "வாயு",
-          "தானியம்"
+          "à®®à¯‚à®²à®ªà¯à®ªà¯Šà®°à¯à®³à¯",
+          "à®¤à®¿à®°à®µà®®à¯",
+          "à®µà®¾à®¯à¯",
+          "à®¤à®¾à®©à®¿à®¯à®®à¯"
         ],
         "answer": 0,
-        "explanation": "மூலப்பொருள் என்பது ஒரு பொருளை உருவாக்கப் பயன்படும் அடிப்படை கலவையாகும்."
+        "explanation": "à®®à¯‚à®²à®ªà¯à®ªà¯Šà®°à¯à®³à¯ à®Žà®©à¯à®ªà®¤à¯ à®’à®°à¯ à®ªà¯Šà®°à¯à®³à¯ˆ à®‰à®°à¯à®µà®¾à®•à¯à®•à®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®®à¯ à®…à®Ÿà®¿à®ªà¯à®ªà®Ÿà¯ˆ à®•à®²à®µà¯ˆà®¯à®¾à®•à¯à®®à¯."
       },
       {
-        "question": "ஒரு கைத்தறி அல்லது விசைத்தறியில் இரண்டு வரிசையான நூல்களைக் கொண்டு துணி உருவாக்கும் முறைக்கு என்ன பெயர்?",
+        "question": "à®’à®°à¯ à®•à¯ˆà®¤à¯à®¤à®±à®¿ à®…à®²à¯à®²à®¤à¯ à®µà®¿à®šà¯ˆà®¤à¯à®¤à®±à®¿à®¯à®¿à®²à¯ à®‡à®°à®£à¯à®Ÿà¯ à®µà®°à®¿à®šà¯ˆà®¯à®¾à®© à®¨à¯‚à®²à¯à®•à®³à¯ˆà®•à¯ à®•à¯Šà®£à¯à®Ÿà¯ à®¤à¯à®£à®¿ à®‰à®°à¯à®µà®¾à®•à¯à®•à¯à®®à¯ à®®à¯à®±à¯ˆà®•à¯à®•à¯ à®Žà®©à¯à®© à®ªà¯†à®¯à®°à¯?",
         "options": [
-          "பின்னுதல்",
-          "நெய்தல்",
-          "நூற்றல்",
-          "விதை நீக்குதல்"
+          "à®ªà®¿à®©à¯à®©à¯à®¤à®²à¯",
+          "à®¨à¯†à®¯à¯à®¤à®²à¯",
+          "à®¨à¯‚à®±à¯à®±à®²à¯",
+          "à®µà®¿à®¤à¯ˆ à®¨à¯€à®•à¯à®•à¯à®¤à®²à¯"
         ],
         "answer": 1,
-        "explanation": "நெய்தல் (Weaving) என்பது இரண்டு வரிசையான நூல்களைக் கொண்டு துணி முடையப்படும் முறையாகும்."
+        "explanation": "à®¨à¯†à®¯à¯à®¤à®²à¯ (Weaving) à®Žà®©à¯à®ªà®¤à¯ à®‡à®°à®£à¯à®Ÿà¯ à®µà®°à®¿à®šà¯ˆà®¯à®¾à®© à®¨à¯‚à®²à¯à®•à®³à¯ˆà®•à¯ à®•à¯Šà®£à¯à®Ÿà¯ à®¤à¯à®£à®¿ à®®à¯à®Ÿà¯ˆà®¯à®ªà¯à®ªà®Ÿà¯à®®à¯ à®®à¯à®±à¯ˆà®¯à®¾à®•à¯à®®à¯."
       },
       {
-        "question": "ஒரு சுழல் தட்டு தொலைபேசி (Rotary dial phone) எந்தக் கால பயன்பாட்டிற்கு எடுத்துக்காட்டு?",
+        "question": "à®’à®°à¯ à®šà¯à®´à®²à¯ à®¤à®Ÿà¯à®Ÿà¯ à®¤à¯Šà®²à¯ˆà®ªà¯‡à®šà®¿ (Rotary dial phone) à®Žà®¨à¯à®¤à®•à¯ à®•à®¾à®² à®ªà®¯à®©à¯à®ªà®¾à®Ÿà¯à®Ÿà®¿à®±à¯à®•à¯ à®Žà®Ÿà¯à®¤à¯à®¤à¯à®•à¯à®•à®¾à®Ÿà¯à®Ÿà¯?",
         "options": [
-          "பழங்காலம்",
-          "நவீன காலம்",
-          "எதிர்காலம்",
-          "தற்காலம்"
+          "à®ªà®´à®™à¯à®•à®¾à®²à®®à¯",
+          "à®¨à®µà¯€à®© à®•à®¾à®²à®®à¯",
+          "à®Žà®¤à®¿à®°à¯à®•à®¾à®²à®®à¯",
+          "à®¤à®±à¯à®•à®¾à®²à®®à¯"
         ],
         "answer": 0,
-        "explanation": "சுழல் தட்டுப் போன், ரேடியோ போன்றவை பழங்கால வீட்டு உபயோகப் பொருட்கள்."
+        "explanation": "à®šà¯à®´à®²à¯ à®¤à®Ÿà¯à®Ÿà¯à®ªà¯ à®ªà¯‹à®©à¯, à®°à¯‡à®Ÿà®¿à®¯à¯‹ à®ªà¯‹à®©à¯à®±à®µà¯ˆ à®ªà®´à®™à¯à®•à®¾à®² à®µà¯€à®Ÿà¯à®Ÿà¯ à®‰à®ªà®¯à¯‹à®•à®ªà¯ à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à¯."
       },
       {
-        "question": "கீழ்க்கண்டவற்றுள் எது தானிய வகையைச் சாராதது?",
+        "question": "à®•à¯€à®´à¯à®•à¯à®•à®£à¯à®Ÿà®µà®±à¯à®±à¯à®³à¯ à®Žà®¤à¯ à®¤à®¾à®©à®¿à®¯ à®µà®•à¯ˆà®¯à¯ˆà®šà¯ à®šà®¾à®°à®¾à®¤à®¤à¯?",
         "options": [
-          "கோதுமை",
-          "சோளம்",
-          "நெல்",
-          "பருத்தி"
+          "à®•à¯‹à®¤à¯à®®à¯ˆ",
+          "à®šà¯‹à®³à®®à¯",
+          "à®¨à¯†à®²à¯",
+          "à®ªà®°à¯à®¤à¯à®¤à®¿"
         ],
         "answer": 3,
-        "explanation": "கோதுமை, சோளம், நெல் ஆகியவை தானியங்கள். பருத்தி இழை தரும் தாவரம்."
+        "explanation": "à®•à¯‹à®¤à¯à®®à¯ˆ, à®šà¯‹à®³à®®à¯, à®¨à¯†à®²à¯ à®†à®•à®¿à®¯à®µà¯ˆ à®¤à®¾à®©à®¿à®¯à®™à¯à®•à®³à¯. à®ªà®°à¯à®¤à¯à®¤à®¿ à®‡à®´à¯ˆ à®¤à®°à¯à®®à¯ à®¤à®¾à®µà®°à®®à¯."
       },
       {
-        "question": "தாவரத்தின் எந்தப் பகுதியிலிருந்து பருத்தி இழை கிடைக்கிறது?",
+        "question": "à®¤à®¾à®µà®°à®¤à¯à®¤à®¿à®©à¯ à®Žà®¨à¯à®¤à®ªà¯ à®ªà®•à¯à®¤à®¿à®¯à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®ªà®°à¯à®¤à¯à®¤à®¿ à®‡à®´à¯ˆ à®•à®¿à®Ÿà¯ˆà®•à¯à®•à®¿à®±à®¤à¯?",
         "options": [
-          "தண்டு",
-          "பஞ்சுப் பந்து (Cotton boll) / காய்",
-          "வேர்",
-          "இலை"
+          "à®¤à®£à¯à®Ÿà¯",
+          "à®ªà®žà¯à®šà¯à®ªà¯ à®ªà®¨à¯à®¤à¯ (Cotton boll) / à®•à®¾à®¯à¯",
+          "à®µà¯‡à®°à¯",
+          "à®‡à®²à¯ˆ"
         ],
         "answer": 1,
-        "explanation": "பருத்திச் செடியின் பஞ்சுப் பந்து வெடிக்கும் போது அதிலிருந்து பஞ்சு பெறப்படுகிறது."
+        "explanation": "à®ªà®°à¯à®¤à¯à®¤à®¿à®šà¯ à®šà¯†à®Ÿà®¿à®¯à®¿à®©à¯ à®ªà®žà¯à®šà¯à®ªà¯ à®ªà®¨à¯à®¤à¯ à®µà¯†à®Ÿà®¿à®•à¯à®•à¯à®®à¯ à®ªà¯‹à®¤à¯ à®…à®¤à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®ªà®žà¯à®šà¯ à®ªà¯†à®±à®ªà¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯."
       },
       {
-        "question": "ஒரு மாணவன் நீரில் உப்பு, மணல், சர்க்கரை, மற்றும் சாக்பீஸ் தூளைக் கலக்கிறான். எவை முழுமையாகக் கரையும்?",
+        "question": "à®’à®°à¯ à®®à®¾à®£à®µà®©à¯ à®¨à¯€à®°à®¿à®²à¯ à®‰à®ªà¯à®ªà¯, à®®à®£à®²à¯, à®šà®°à¯à®•à¯à®•à®°à¯ˆ, à®®à®±à¯à®±à¯à®®à¯ à®šà®¾à®•à¯à®ªà¯€à®¸à¯ à®¤à¯‚à®³à¯ˆà®•à¯ à®•à®²à®•à¯à®•à®¿à®±à®¾à®©à¯. à®Žà®µà¯ˆ à®®à¯à®´à¯à®®à¯ˆà®¯à®¾à®•à®•à¯ à®•à®°à¯ˆà®¯à¯à®®à¯?",
         "options": [
-          "உப்பு மற்றும் மணல்",
-          "சர்க்கரை மற்றும் சாக்பீஸ் தூள்",
-          "உப்பு மற்றும் சர்க்கரை",
-          "மணல் மற்றும் சாக்பீஸ் தூள்"
+          "à®‰à®ªà¯à®ªà¯ à®®à®±à¯à®±à¯à®®à¯ à®®à®£à®²à¯",
+          "à®šà®°à¯à®•à¯à®•à®°à¯ˆ à®®à®±à¯à®±à¯à®®à¯ à®šà®¾à®•à¯à®ªà¯€à®¸à¯ à®¤à¯‚à®³à¯",
+          "à®‰à®ªà¯à®ªà¯ à®®à®±à¯à®±à¯à®®à¯ à®šà®°à¯à®•à¯à®•à®°à¯ˆ",
+          "à®®à®£à®²à¯ à®®à®±à¯à®±à¯à®®à¯ à®šà®¾à®•à¯à®ªà¯€à®¸à¯ à®¤à¯‚à®³à¯"
         ],
         "answer": 2,
-        "explanation": "உப்பு மற்றும் சர்க்கரை நீரில் எளிதில் கரையக்கூடியவை."
+        "explanation": "à®‰à®ªà¯à®ªà¯ à®®à®±à¯à®±à¯à®®à¯ à®šà®°à¯à®•à¯à®•à®°à¯ˆ à®¨à¯€à®°à®¿à®²à¯ à®Žà®³à®¿à®¤à®¿à®²à¯ à®•à®°à¯ˆà®¯à®•à¯à®•à¯‚à®Ÿà®¿à®¯à®µà¯ˆ."
       },
       {
-        "question": "ஒப்புமை: பட்டு : விலங்கு இழை :: சணல் : ?",
+        "question": "à®’à®ªà¯à®ªà¯à®®à¯ˆ: à®ªà®Ÿà¯à®Ÿà¯ : à®µà®¿à®²à®™à¯à®•à¯ à®‡à®´à¯ˆ :: à®šà®£à®²à¯ : ?",
         "options": [
-          "தாவர இழை",
-          "செயற்கை இழை",
-          "வேதியியல் இழை",
-          "கனிம இழை"
+          "à®¤à®¾à®µà®° à®‡à®´à¯ˆ",
+          "à®šà¯†à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆ",
+          "à®µà¯‡à®¤à®¿à®¯à®¿à®¯à®²à¯ à®‡à®´à¯ˆ",
+          "à®•à®©à®¿à®® à®‡à®´à¯ˆ"
         ],
         "answer": 0,
-        "explanation": "பட்டுப்புழுவிலிருந்து கிடைப்பதால் பட்டு விலங்கு இழை. சணல் தாவரத்திலிருந்து கிடைப்பதால் தாவர இழை."
+        "explanation": "à®ªà®Ÿà¯à®Ÿà¯à®ªà¯à®ªà¯à®´à¯à®µà®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®•à®¿à®Ÿà¯ˆà®ªà¯à®ªà®¤à®¾à®²à¯ à®ªà®Ÿà¯à®Ÿà¯ à®µà®¿à®²à®™à¯à®•à¯ à®‡à®´à¯ˆ. à®šà®£à®²à¯ à®¤à®¾à®µà®°à®¤à¯à®¤à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®•à®¿à®Ÿà¯ˆà®ªà¯à®ªà®¤à®¾à®²à¯ à®¤à®¾à®µà®° à®‡à®´à¯ˆ."
       },
       {
-        "question": "பருத்தி ஆடை தயாரிக்கும் படிகளைச் சரியாக வரிசைப்படுத்துக: 1. நூற்றல், 2. நெய்தல், 3. பஞ்சைப் பெறுதல், 4. விதை நீக்குதல்",
+        "question": "à®ªà®°à¯à®¤à¯à®¤à®¿ à®†à®Ÿà¯ˆ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à¯à®®à¯ à®ªà®Ÿà®¿à®•à®³à¯ˆà®šà¯ à®šà®°à®¿à®¯à®¾à®• à®µà®°à®¿à®šà¯ˆà®ªà¯à®ªà®Ÿà¯à®¤à¯à®¤à¯à®•: 1. à®¨à¯‚à®±à¯à®±à®²à¯, 2. à®¨à¯†à®¯à¯à®¤à®²à¯, 3. à®ªà®žà¯à®šà¯ˆà®ªà¯ à®ªà¯†à®±à¯à®¤à®²à¯, 4. à®µà®¿à®¤à¯ˆ à®¨à¯€à®•à¯à®•à¯à®¤à®²à¯",
         "options": [
           "3, 4, 1, 2",
           "1, 2, 3, 4",
@@ -552,150 +552,150 @@
           "3, 1, 4, 2"
         ],
         "answer": 0,
-        "explanation": "முதலில் பஞ்சைப் பெறுதல், பின் விதையை நீக்குதல் (Ginning), பின்பு நூற்றல் (Spinning), கடைசியாக நெய்தல் (Weaving)."
+        "explanation": "à®®à¯à®¤à®²à®¿à®²à¯ à®ªà®žà¯à®šà¯ˆà®ªà¯ à®ªà¯†à®±à¯à®¤à®²à¯, à®ªà®¿à®©à¯ à®µà®¿à®¤à¯ˆà®¯à¯ˆ à®¨à¯€à®•à¯à®•à¯à®¤à®²à¯ (Ginning), à®ªà®¿à®©à¯à®ªà¯ à®¨à¯‚à®±à¯à®±à®²à¯ (Spinning), à®•à®Ÿà¯ˆà®šà®¿à®¯à®¾à®• à®¨à¯†à®¯à¯à®¤à®²à¯ (Weaving)."
       },
       {
-        "question": "வீட்டில் உனது அம்மா தோசை சுட இரும்பு தோசைக்கல்லைப் பயன்படுத்துகிறார். திண்மமான இரும்பை ஏன் அவர் பயன்படுத்துகிறார்?",
+        "question": "à®µà¯€à®Ÿà¯à®Ÿà®¿à®²à¯ à®‰à®©à®¤à¯ à®…à®®à¯à®®à®¾ à®¤à¯‹à®šà¯ˆ à®šà¯à®Ÿ à®‡à®°à¯à®®à¯à®ªà¯ à®¤à¯‹à®šà¯ˆà®•à¯à®•à®²à¯à®²à¯ˆà®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®¤à¯à®¤à¯à®•à®¿à®±à®¾à®°à¯. à®¤à®¿à®£à¯à®®à®®à®¾à®© à®‡à®°à¯à®®à¯à®ªà¯ˆ à®à®©à¯ à®…à®µà®°à¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®¤à¯à®¤à¯à®•à®¿à®±à®¾à®°à¯?",
         "options": [
-          "அது எளிதில் கரையும்",
-          "அது குறிப்பிட்ட வடிவமும், உறுதியும் கொண்டது",
-          "அது எளிதில் ஆவியாகும்",
-          "அதில் மூலக்கூறுகள் தளர்வாக உள்ளன"
+          "à®…à®¤à¯ à®Žà®³à®¿à®¤à®¿à®²à¯ à®•à®°à¯ˆà®¯à¯à®®à¯",
+          "à®…à®¤à¯ à®•à¯à®±à®¿à®ªà¯à®ªà®¿à®Ÿà¯à®Ÿ à®µà®Ÿà®¿à®µà®®à¯à®®à¯, à®‰à®±à¯à®¤à®¿à®¯à¯à®®à¯ à®•à¯Šà®£à¯à®Ÿà®¤à¯",
+          "à®…à®¤à¯ à®Žà®³à®¿à®¤à®¿à®²à¯ à®†à®µà®¿à®¯à®¾à®•à¯à®®à¯",
+          "à®…à®¤à®¿à®²à¯ à®®à¯‚à®²à®•à¯à®•à¯‚à®±à¯à®•à®³à¯ à®¤à®³à®°à¯à®µà®¾à®• à®‰à®³à¯à®³à®©"
         ],
         "answer": 1,
-        "explanation": "திண்மங்களுக்குக் குறிப்பிட்ட வடிவமும், மூலக்கூறுகளின் நெருக்கமான அமைப்பினால் கடினத்தன்மையும் உண்டு."
+        "explanation": "à®¤à®¿à®£à¯à®®à®™à¯à®•à®³à¯à®•à¯à®•à¯à®•à¯ à®•à¯à®±à®¿à®ªà¯à®ªà®¿à®Ÿà¯à®Ÿ à®µà®Ÿà®¿à®µà®®à¯à®®à¯, à®®à¯‚à®²à®•à¯à®•à¯‚à®±à¯à®•à®³à®¿à®©à¯ à®¨à¯†à®°à¯à®•à¯à®•à®®à®¾à®© à®…à®®à¯ˆà®ªà¯à®ªà®¿à®©à®¾à®²à¯ à®•à®Ÿà®¿à®©à®¤à¯à®¤à®©à¯à®®à¯ˆà®¯à¯à®®à¯ à®‰à®£à¯à®Ÿà¯."
       },
       {
-        "question": "சரியான இணையைத் தேர்ந்தெடுக்க.",
+        "question": "à®šà®°à®¿à®¯à®¾à®© à®‡à®£à¯ˆà®¯à¯ˆà®¤à¯ à®¤à¯‡à®°à¯à®¨à¯à®¤à¯†à®Ÿà¯à®•à¯à®•.",
         "options": [
-          "திரவம் - குறிப்பிட்ட வடிவம் உண்டு",
-          "வாயு - மூலக்கூறுகள் நெருக்கமாக உள்ளன",
-          "திண்மம் - அழுத்த முடியும்",
-          "திரவம் - குறிப்பிட்ட கனஅளவு உண்டு"
+          "à®¤à®¿à®°à®µà®®à¯ - à®•à¯à®±à®¿à®ªà¯à®ªà®¿à®Ÿà¯à®Ÿ à®µà®Ÿà®¿à®µà®®à¯ à®‰à®£à¯à®Ÿà¯",
+          "à®µà®¾à®¯à¯ - à®®à¯‚à®²à®•à¯à®•à¯‚à®±à¯à®•à®³à¯ à®¨à¯†à®°à¯à®•à¯à®•à®®à®¾à®• à®‰à®³à¯à®³à®©",
+          "à®¤à®¿à®£à¯à®®à®®à¯ - à®…à®´à¯à®¤à¯à®¤ à®®à¯à®Ÿà®¿à®¯à¯à®®à¯",
+          "à®¤à®¿à®°à®µà®®à¯ - à®•à¯à®±à®¿à®ªà¯à®ªà®¿à®Ÿà¯à®Ÿ à®•à®©à®…à®³à®µà¯ à®‰à®£à¯à®Ÿà¯"
         ],
         "answer": 3,
-        "explanation": "திரவங்களுக்குக் குறிப்பிட்ட கனஅளவு உண்டு ஆனால் குறிப்பிட்ட வடிவம் இல்லை."
+        "explanation": "à®¤à®¿à®°à®µà®™à¯à®•à®³à¯à®•à¯à®•à¯à®•à¯ à®•à¯à®±à®¿à®ªà¯à®ªà®¿à®Ÿà¯à®Ÿ à®•à®©à®…à®³à®µà¯ à®‰à®£à¯à®Ÿà¯ à®†à®©à®¾à®²à¯ à®•à¯à®±à®¿à®ªà¯à®ªà®¿à®Ÿà¯à®Ÿ à®µà®Ÿà®¿à®µà®®à¯ à®‡à®²à¯à®²à¯ˆ."
       },
       {
-        "question": "குளிர்காலத்தில் அணிய ஏற்ற ஆடை எது?",
+        "question": "à®•à¯à®³à®¿à®°à¯à®•à®¾à®²à®¤à¯à®¤à®¿à®²à¯ à®…à®£à®¿à®¯ à®à®±à¯à®± à®†à®Ÿà¯ˆ à®Žà®¤à¯?",
         "options": [
-          "பருத்தி",
-          "கம்பளி",
-          "நைலான்",
-          "சணல்"
+          "à®ªà®°à¯à®¤à¯à®¤à®¿",
+          "à®•à®®à¯à®ªà®³à®¿",
+          "à®¨à¯ˆà®²à®¾à®©à¯",
+          "à®šà®£à®²à¯"
         ],
         "answer": 1,
-        "explanation": "விலங்குகளிடமிருந்து பெறப்படும் கம்பளி உடலை வெதுவெதுப்பாக வைக்க உதவும்."
+        "explanation": "à®µà®¿à®²à®™à¯à®•à¯à®•à®³à®¿à®Ÿà®®à®¿à®°à¯à®¨à¯à®¤à¯ à®ªà¯†à®±à®ªà¯à®ªà®Ÿà¯à®®à¯ à®•à®®à¯à®ªà®³à®¿ à®‰à®Ÿà®²à¯ˆ à®µà¯†à®¤à¯à®µà¯†à®¤à¯à®ªà¯à®ªà®¾à®• à®µà¯ˆà®•à¯à®• à®‰à®¤à®µà¯à®®à¯."
       },
       {
-        "question": "ஒரு பிளாஸ்டிக் பாட்டிலை நீரில் போடும்போது அது மிதக்கிறது, ஆனால் அதை முழுவதுமாக மணலால் நிரப்பிப் போடும்போது மூழ்குகிறது. ஏன்?",
+        "question": "à®’à®°à¯ à®ªà®¿à®³à®¾à®¸à¯à®Ÿà®¿à®•à¯ à®ªà®¾à®Ÿà¯à®Ÿà®¿à®²à¯ˆ à®¨à¯€à®°à®¿à®²à¯ à®ªà¯‹à®Ÿà¯à®®à¯à®ªà¯‹à®¤à¯ à®…à®¤à¯ à®®à®¿à®¤à®•à¯à®•à®¿à®±à®¤à¯, à®†à®©à®¾à®²à¯ à®…à®¤à¯ˆ à®®à¯à®´à¯à®µà®¤à¯à®®à®¾à®• à®®à®£à®²à®¾à®²à¯ à®¨à®¿à®°à®ªà¯à®ªà®¿à®ªà¯ à®ªà¯‹à®Ÿà¯à®®à¯à®ªà¯‹à®¤à¯ à®®à¯‚à®´à¯à®•à¯à®•à®¿à®±à®¤à¯. à®à®©à¯?",
         "options": [
-          "பாட்டிலின் நிறம் மாறிவிடுகிறது",
-          "பாட்டிலின் அடர்த்தி நீரை விட அதிகமாகிவிடுகிறது",
-          "நீர் மணலை ஈர்க்கிறது",
-          "பாட்டில் திரவமாக மாறிவிடுகிறது"
+          "à®ªà®¾à®Ÿà¯à®Ÿà®¿à®²à®¿à®©à¯ à®¨à®¿à®±à®®à¯ à®®à®¾à®±à®¿à®µà®¿à®Ÿà¯à®•à®¿à®±à®¤à¯",
+          "à®ªà®¾à®Ÿà¯à®Ÿà®¿à®²à®¿à®©à¯ à®…à®Ÿà®°à¯à®¤à¯à®¤à®¿ à®¨à¯€à®°à¯ˆ à®µà®¿à®Ÿ à®…à®¤à®¿à®•à®®à®¾à®•à®¿à®µà®¿à®Ÿà¯à®•à®¿à®±à®¤à¯",
+          "à®¨à¯€à®°à¯ à®®à®£à®²à¯ˆ à®ˆà®°à¯à®•à¯à®•à®¿à®±à®¤à¯",
+          "à®ªà®¾à®Ÿà¯à®Ÿà®¿à®²à¯ à®¤à®¿à®°à®µà®®à®¾à®• à®®à®¾à®±à®¿à®µà®¿à®Ÿà¯à®•à®¿à®±à®¤à¯"
         ],
         "answer": 1,
-        "explanation": "பொருளின் அடர்த்தி நீரின் அடர்த்தியை விட அதிகரிக்கும் போது அது மூழ்கும்."
+        "explanation": "à®ªà¯Šà®°à¯à®³à®¿à®©à¯ à®…à®Ÿà®°à¯à®¤à¯à®¤à®¿ à®¨à¯€à®°à®¿à®©à¯ à®…à®Ÿà®°à¯à®¤à¯à®¤à®¿à®¯à¯ˆ à®µà®¿à®Ÿ à®…à®¤à®¿à®•à®°à®¿à®•à¯à®•à¯à®®à¯ à®ªà¯‹à®¤à¯ à®…à®¤à¯ à®®à¯‚à®´à¯à®•à¯à®®à¯."
       },
       {
-        "question": "கีழ்க்கண்டவற்றுள் எது சிறுதானியத்திற்கு உதாரணம் அல்ல?",
+        "question": "à®•à¸µà®´à¯à®•à¯à®•à®£à¯à®Ÿà®µà®±à¯à®±à¯à®³à¯ à®Žà®¤à¯ à®šà®¿à®±à¯à®¤à®¾à®©à®¿à®¯à®¤à¯à®¤à®¿à®±à¯à®•à¯ à®‰à®¤à®¾à®°à®£à®®à¯ à®…à®²à¯à®²?",
         "options": [
-          "தினை",
-          "வரகு",
-          "கேழ்வரகு",
-          "சோயாபீன்ஸ்"
+          "à®¤à®¿à®©à¯ˆ",
+          "à®µà®°à®•à¯",
+          "à®•à¯‡à®´à¯à®µà®°à®•à¯",
+          "à®šà¯‹à®¯à®¾à®ªà¯€à®©à¯à®¸à¯"
         ],
         "answer": 3,
-        "explanation": "சோயாபீன்ஸ் பயறு வகை. தினை, வரகு, கேழ்வரகு ஆகியவை சிறுதானியங்கள்."
+        "explanation": "à®šà¯‹à®¯à®¾à®ªà¯€à®©à¯à®¸à¯ à®ªà®¯à®±à¯ à®µà®•à¯ˆ. à®¤à®¿à®©à¯ˆ, à®µà®°à®•à¯, à®•à¯‡à®´à¯à®µà®°à®•à¯ à®†à®•à®¿à®¯à®µà¯ˆ à®šà®¿à®±à¯à®¤à®¾à®©à®¿à®¯à®™à¯à®•à®³à¯."
       },
       {
-        "question": "ஒரு கயிறு மிகவும் உறுதியாகவும், கடினமானதாகவும் இருக்க வேண்டும் என்றால் எந்த இயற்கைப் பொருளைப் பயன்படுத்தி அதைத் தயாரிக்கலாம்?",
+        "question": "à®’à®°à¯ à®•à®¯à®¿à®±à¯ à®®à®¿à®•à®µà¯à®®à¯ à®‰à®±à¯à®¤à®¿à®¯à®¾à®•à®µà¯à®®à¯, à®•à®Ÿà®¿à®©à®®à®¾à®©à®¤à®¾à®•à®µà¯à®®à¯ à®‡à®°à¯à®•à¯à®• à®µà¯‡à®£à¯à®Ÿà¯à®®à¯ à®Žà®©à¯à®±à®¾à®²à¯ à®Žà®¨à¯à®¤ à®‡à®¯à®±à¯à®•à¯ˆà®ªà¯ à®ªà¯Šà®°à¯à®³à¯ˆà®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®¤à¯à®¤à®¿ à®…à®¤à¯ˆà®¤à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à®²à®¾à®®à¯?",
         "options": [
-          "பருத்தி",
-          "தேங்காய் நார்",
-          "பட்டு",
-          "கோதுமை"
+          "à®ªà®°à¯à®¤à¯à®¤à®¿",
+          "à®¤à¯‡à®™à¯à®•à®¾à®¯à¯ à®¨à®¾à®°à¯",
+          "à®ªà®Ÿà¯à®Ÿà¯",
+          "à®•à¯‹à®¤à¯à®®à¯ˆ"
         ],
         "answer": 1,
-        "explanation": "தேங்காய் நார் கடினமானது, கயிறுகள் மற்றும் தரை விரிப்புகள் தயாரிக்கப் பயன்படுகிறது."
+        "explanation": "à®¤à¯‡à®™à¯à®•à®¾à®¯à¯ à®¨à®¾à®°à¯ à®•à®Ÿà®¿à®©à®®à®¾à®©à®¤à¯, à®•à®¯à®¿à®±à¯à®•à®³à¯ à®®à®±à¯à®±à¯à®®à¯ à®¤à®°à¯ˆ à®µà®¿à®°à®¿à®ªà¯à®ªà¯à®•à®³à¯ à®¤à®¯à®¾à®°à®¿à®•à¯à®•à®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯."
       },
       {
-        "question": "நவீன சமையலறையில் உணவை விரைவாகச் சூடுபடுத்தப் பயன்படும் சாதனம் எது?",
+        "question": "à®¨à®µà¯€à®© à®šà®®à¯ˆà®¯à®²à®±à¯ˆà®¯à®¿à®²à¯ à®‰à®£à®µà¯ˆ à®µà®¿à®°à¯ˆà®µà®¾à®•à®šà¯ à®šà¯‚à®Ÿà¯à®ªà®Ÿà¯à®¤à¯à®¤à®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®®à¯ à®šà®¾à®¤à®©à®®à¯ à®Žà®¤à¯?",
         "options": [
-          "மண்ணெண்ணெய் அடுப்பு",
-          "விறகு அடுப்பு",
-          "நுண்ணலை அடுப்பு (Microwave oven)",
-          "கிரைண்டர்"
+          "à®®à®£à¯à®£à¯†à®£à¯à®£à¯†à®¯à¯ à®…à®Ÿà¯à®ªà¯à®ªà¯",
+          "à®µà®¿à®±à®•à¯ à®…à®Ÿà¯à®ªà¯à®ªà¯",
+          "à®¨à¯à®£à¯à®£à®²à¯ˆ à®…à®Ÿà¯à®ªà¯à®ªà¯ (Microwave oven)",
+          "à®•à®¿à®°à¯ˆà®£à¯à®Ÿà®°à¯"
         ],
         "answer": 2,
-        "explanation": "நவீன வீட்டு உபயோகப் பொருள்களில் நுண்ணலை அடுப்பு உணவை விரைவாகச் சமைக்கப் பயன்படுகிறது."
+        "explanation": "à®¨à®µà¯€à®© à®µà¯€à®Ÿà¯à®Ÿà¯ à®‰à®ªà®¯à¯‹à®•à®ªà¯ à®ªà¯Šà®°à¯à®³à¯à®•à®³à®¿à®²à¯ à®¨à¯à®£à¯à®£à®²à¯ˆ à®…à®Ÿà¯à®ªà¯à®ªà¯ à®‰à®£à®µà¯ˆ à®µà®¿à®°à¯ˆà®µà®¾à®•à®šà¯ à®šà®®à¯ˆà®•à¯à®•à®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯."
       },
       {
-        "question": "கூற்று (A): செயற்கை இழைகள் எளிதில் சுருங்குவதில்லை மற்றும் மங்குவதில்லை. காரணம் (R): அவை மனிதனால் வேதிப்பொருட்களைப் பயன்படுத்தி உருவாக்கப்படுகின்றன.",
+        "question": "à®•à¯‚à®±à¯à®±à¯ (A): à®šà¯†à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆà®•à®³à¯ à®Žà®³à®¿à®¤à®¿à®²à¯ à®šà¯à®°à¯à®™à¯à®•à¯à®µà®¤à®¿à®²à¯à®²à¯ˆ à®®à®±à¯à®±à¯à®®à¯ à®®à®™à¯à®•à¯à®µà®¤à®¿à®²à¯à®²à¯ˆ. à®•à®¾à®°à®£à®®à¯ (R): à®…à®µà¯ˆ à®®à®©à®¿à®¤à®©à®¾à®²à¯ à®µà¯‡à®¤à®¿à®ªà¯à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à¯ˆà®ªà¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®¤à¯à®¤à®¿ à®‰à®°à¯à®µà®¾à®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®•à®¿à®©à¯à®±à®©.",
         "options": [
-          "A மற்றும் R இரண்டும் சரி. R என்பது A-க்கு சரியான விளக்கம்.",
-          "A மற்றும் R இரண்டும் சரி. ஆனால் விளக்கம் அல்ல.",
-          "A சரி, R தவறு.",
-          "A தவறு, R சரி."
+          "A à®®à®±à¯à®±à¯à®®à¯ R à®‡à®°à®£à¯à®Ÿà¯à®®à¯ à®šà®°à®¿. R à®Žà®©à¯à®ªà®¤à¯ A-à®•à¯à®•à¯ à®šà®°à®¿à®¯à®¾à®© à®µà®¿à®³à®•à¯à®•à®®à¯.",
+          "A à®®à®±à¯à®±à¯à®®à¯ R à®‡à®°à®£à¯à®Ÿà¯à®®à¯ à®šà®°à®¿. à®†à®©à®¾à®²à¯ à®µà®¿à®³à®•à¯à®•à®®à¯ à®…à®²à¯à®².",
+          "A à®šà®°à®¿, R à®¤à®µà®±à¯.",
+          "A à®¤à®µà®±à¯, R à®šà®°à®¿."
         ],
         "answer": 0,
-        "explanation": "செயற்கை இழைகள் வேதிப்பொருட்களால் உருவாக்கப்படுவதால் அவை அதிக நீடித்துழைக்கக் கூடியவை."
+        "explanation": "à®šà¯†à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆà®•à®³à¯ à®µà¯‡à®¤à®¿à®ªà¯à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à®¾à®²à¯ à®‰à®°à¯à®µà®¾à®•à¯à®•à®ªà¯à®ªà®Ÿà¯à®µà®¤à®¾à®²à¯ à®…à®µà¯ˆ à®…à®¤à®¿à®• à®¨à¯€à®Ÿà®¿à®¤à¯à®¤à¯à®´à¯ˆà®•à¯à®•à®•à¯ à®•à¯‚à®Ÿà®¿à®¯à®µà¯ˆ."
       },
       {
-        "question": "வாழ்க்கைச் சூழல் வினா: நீ சந்தைக்குச் சென்று காய்கறிகள் வாங்கச் செல்கிறாய். சுற்றுச்சூழலுக்குப் பாதுகாப்பான எந்தப் பையை எடுத்துச் செல்வாய்?",
+        "question": "à®µà®¾à®´à¯à®•à¯à®•à¯ˆà®šà¯ à®šà¯‚à®´à®²à¯ à®µà®¿à®©à®¾: à®¨à¯€ à®šà®¨à¯à®¤à¯ˆà®•à¯à®•à¯à®šà¯ à®šà¯†à®©à¯à®±à¯ à®•à®¾à®¯à¯à®•à®±à®¿à®•à®³à¯ à®µà®¾à®™à¯à®•à®šà¯ à®šà¯†à®²à¯à®•à®¿à®±à®¾à®¯à¯. à®šà¯à®±à¯à®±à¯à®šà¯à®šà¯‚à®´à®²à¯à®•à¯à®•à¯à®ªà¯ à®ªà®¾à®¤à¯à®•à®¾à®ªà¯à®ªà®¾à®© à®Žà®¨à¯à®¤à®ªà¯ à®ªà¯ˆà®¯à¯ˆ à®Žà®Ÿà¯à®¤à¯à®¤à¯à®šà¯ à®šà¯†à®²à¯à®µà®¾à®¯à¯?",
         "options": [
-          "நைலான் பை",
-          "பாலித்தீன் பை",
-          "சணல் பை",
-          "பிளாஸ்டிக் பை"
+          "à®¨à¯ˆà®²à®¾à®©à¯ à®ªà¯ˆ",
+          "à®ªà®¾à®²à®¿à®¤à¯à®¤à¯€à®©à¯ à®ªà¯ˆ",
+          "à®šà®£à®²à¯ à®ªà¯ˆ",
+          "à®ªà®¿à®³à®¾à®¸à¯à®Ÿà®¿à®•à¯ à®ªà¯ˆ"
         ],
         "answer": 2,
-        "explanation": "சணல் ஒரு இயற்கை இழை. பிளாஸ்டிக் மற்றும் பாலித்தீன் சுற்றுச்சூழலுக்குக் கேடு விளைவிப்பவை."
+        "explanation": "à®šà®£à®²à¯ à®’à®°à¯ à®‡à®¯à®±à¯à®•à¯ˆ à®‡à®´à¯ˆ. à®ªà®¿à®³à®¾à®¸à¯à®Ÿà®¿à®•à¯ à®®à®±à¯à®±à¯à®®à¯ à®ªà®¾à®²à®¿à®¤à¯à®¤à¯€à®©à¯ à®šà¯à®±à¯à®±à¯à®šà¯à®šà¯‚à®´à®²à¯à®•à¯à®•à¯à®•à¯ à®•à¯‡à®Ÿà¯ à®µà®¿à®³à¯ˆà®µà®¿à®ªà¯à®ªà®µà¯ˆ."
       },
       {
-        "question": "கீழ்க்கண்டவற்றுள் எதற்குத் தன்னிச்சையான குறிப்பிட்ட உருவம் மற்றும் வடிவம் உண்டு?",
+        "question": "à®•à¯€à®´à¯à®•à¯à®•à®£à¯à®Ÿà®µà®±à¯à®±à¯à®³à¯ à®Žà®¤à®±à¯à®•à¯à®¤à¯ à®¤à®©à¯à®©à®¿à®šà¯à®šà¯ˆà®¯à®¾à®© à®•à¯à®±à®¿à®ªà¯à®ªà®¿à®Ÿà¯à®Ÿ à®‰à®°à¯à®µà®®à¯ à®®à®±à¯à®±à¯à®®à¯ à®µà®Ÿà®¿à®µà®®à¯ à®‰à®£à¯à®Ÿà¯?",
         "options": [
-          "காற்று",
-          "எலுமிச்சை சாறு",
-          "கல்",
-          "சமையல் எரிவாயு"
+          "à®•à®¾à®±à¯à®±à¯",
+          "à®Žà®²à¯à®®à®¿à®šà¯à®šà¯ˆ à®šà®¾à®±à¯",
+          "à®•à®²à¯",
+          "à®šà®®à¯ˆà®¯à®²à¯ à®Žà®°à®¿à®µà®¾à®¯à¯"
         ],
         "answer": 2,
-        "explanation": "கல் ஒரு திண்மம். திண்மங்களுக்குக் குறிப்பிட்ட உருவம் மற்றும் வடிவம் உண்டு."
+        "explanation": "à®•à®²à¯ à®’à®°à¯ à®¤à®¿à®£à¯à®®à®®à¯. à®¤à®¿à®£à¯à®®à®™à¯à®•à®³à¯à®•à¯à®•à¯à®•à¯ à®•à¯à®±à®¿à®ªà¯à®ªà®¿à®Ÿà¯à®Ÿ à®‰à®°à¯à®µà®®à¯ à®®à®±à¯à®±à¯à®®à¯ à®µà®Ÿà®¿à®µà®®à¯ à®‰à®£à¯à®Ÿà¯."
       },
       {
-        "question": "நெய்தல் (Weaving) தொழிலில் பயன்படுத்தப்படும் இயந்திரத்தின் பெயர் என்ன?",
+        "question": "à®¨à¯†à®¯à¯à®¤à®²à¯ (Weaving) à®¤à¯Šà®´à®¿à®²à®¿à®²à¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®¤à¯à®¤à®ªà¯à®ªà®Ÿà¯à®®à¯ à®‡à®¯à®¨à¯à®¤à®¿à®°à®¤à¯à®¤à®¿à®©à¯ à®ªà¯†à®¯à®°à¯ à®Žà®©à¯à®©?",
         "options": [
-          "தறி (Loom)",
-          "கணினி",
-          "அச்சு இயந்திரம்",
-          "டிராக்டர்"
+          "à®¤à®±à®¿ (Loom)",
+          "à®•à®£à®¿à®©à®¿",
+          "à®…à®šà¯à®šà¯ à®‡à®¯à®¨à¯à®¤à®¿à®°à®®à¯",
+          "à®Ÿà®¿à®°à®¾à®•à¯à®Ÿà®°à¯"
         ],
         "answer": 0,
-        "explanation": "நூல்களிலிருந்து துணி நெய்ய கைத்தறி அல்லது விசைத்தறி பயன்படுத்தப்படுகிறது."
+        "explanation": "à®¨à¯‚à®²à¯à®•à®³à®¿à®²à®¿à®°à¯à®¨à¯à®¤à¯ à®¤à¯à®£à®¿ à®¨à¯†à®¯à¯à®¯ à®•à¯ˆà®¤à¯à®¤à®±à®¿ à®…à®²à¯à®²à®¤à¯ à®µà®¿à®šà¯ˆà®¤à¯à®¤à®±à®¿ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®¤à¯à®¤à®ªà¯à®ªà®Ÿà¯à®•à®¿à®±à®¤à¯."
       },
       {
-        "question": "ஒரே ஒரு நூலைக் கொண்டு ஆடை உருவாக்கும் முறைக்கு என்ன பெயர்?",
+        "question": "à®’à®°à¯‡ à®’à®°à¯ à®¨à¯‚à®²à¯ˆà®•à¯ à®•à¯Šà®£à¯à®Ÿà¯ à®†à®Ÿà¯ˆ à®‰à®°à¯à®µà®¾à®•à¯à®•à¯à®®à¯ à®®à¯à®±à¯ˆà®•à¯à®•à¯ à®Žà®©à¯à®© à®ªà¯†à®¯à®°à¯?",
         "options": [
-          "நெய்தல்",
-          "நூற்றல்",
-          "பின்னுதல் (Knitting)",
-          "விதை நீக்குதல்"
+          "à®¨à¯†à®¯à¯à®¤à®²à¯",
+          "à®¨à¯‚à®±à¯à®±à®²à¯",
+          "à®ªà®¿à®©à¯à®©à¯à®¤à®²à¯ (Knitting)",
+          "à®µà®¿à®¤à¯ˆ à®¨à¯€à®•à¯à®•à¯à®¤à®²à¯"
         ],
         "answer": 2,
-        "explanation": "நெய்தலில் இரு வரிசை நூல்கள் பயன்படும். பின்னுதலில் (Knitting) ஒரே ஒரு நூல் பயன்படும்."
+        "explanation": "à®¨à¯†à®¯à¯à®¤à®²à®¿à®²à¯ à®‡à®°à¯ à®µà®°à®¿à®šà¯ˆ à®¨à¯‚à®²à¯à®•à®³à¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®®à¯. à®ªà®¿à®©à¯à®©à¯à®¤à®²à®¿à®²à¯ (Knitting) à®’à®°à¯‡ à®’à®°à¯ à®¨à¯‚à®²à¯ à®ªà®¯à®©à¯à®ªà®Ÿà¯à®®à¯."
       },
       {
-        "question": "வினிகரை நீரில் ஊற்றினால் என்ன நிகழும்?",
+        "question": "à®µà®¿à®©à®¿à®•à®°à¯ˆ à®¨à¯€à®°à®¿à®²à¯ à®Šà®±à¯à®±à®¿à®©à®¾à®²à¯ à®Žà®©à¯à®© à®¨à®¿à®•à®´à¯à®®à¯?",
         "options": [
-          "நீர் நிறம் மாறும், ஆனால் கலக்காது",
-          "வினிகர் முழுவதும் நீருடன் நன்றாகக் கலக்கும்",
-          "வினிகர் மிதக்கும்",
-          "வினிகர் மூழ்கி அடியில் தங்கும்"
+          "à®¨à¯€à®°à¯ à®¨à®¿à®±à®®à¯ à®®à®¾à®±à¯à®®à¯, à®†à®©à®¾à®²à¯ à®•à®²à®•à¯à®•à®¾à®¤à¯",
+          "à®µà®¿à®©à®¿à®•à®°à¯ à®®à¯à®´à¯à®µà®¤à¯à®®à¯ à®¨à¯€à®°à¯à®Ÿà®©à¯ à®¨à®©à¯à®±à®¾à®•à®•à¯ à®•à®²à®•à¯à®•à¯à®®à¯",
+          "à®µà®¿à®©à®¿à®•à®°à¯ à®®à®¿à®¤à®•à¯à®•à¯à®®à¯",
+          "à®µà®¿à®©à®¿à®•à®°à¯ à®®à¯‚à®´à¯à®•à®¿ à®…à®Ÿà®¿à®¯à®¿à®²à¯ à®¤à®™à¯à®•à¯à®®à¯"
         ],
         "answer": 1,
-        "explanation": "வினிகர் மற்றும் நீர் இரண்டும் ஒரே விதமான வேதியியல் பண்புடைய திரவங்கள், எனவே முழுமையாகக் கலக்கும்."
+        "explanation": "à®µà®¿à®©à®¿à®•à®°à¯ à®®à®±à¯à®±à¯à®®à¯ à®¨à¯€à®°à¯ à®‡à®°à®£à¯à®Ÿà¯à®®à¯ à®’à®°à¯‡ à®µà®¿à®¤à®®à®¾à®© à®µà¯‡à®¤à®¿à®¯à®¿à®¯à®²à¯ à®ªà®£à¯à®ªà¯à®Ÿà¯ˆà®¯ à®¤à®¿à®°à®µà®™à¯à®•à®³à¯, à®Žà®©à®µà¯‡ à®®à¯à®´à¯à®®à¯ˆà®¯à®¾à®•à®•à¯ à®•à®²à®•à¯à®•à¯à®®à¯."
       }
     ]
   }

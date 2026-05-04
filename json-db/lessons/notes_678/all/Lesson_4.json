@@ -1,14 +1,14 @@
 {
-  "வகுப்பு": "6",
-  "பருவம்": "1",
-  "பாட_எண்": "Grammar",
-  "பாட_தலைப்பு": "English Grammar (Term 1)",
-  "பாடக்குறிப்புகள்": {
-    "பாடச்சுருக்கம்": "This grammar module covers the fundamental concepts of English grammar for Class 6 Term 1. It begins with the structure of a sentence, differentiating between the Subject and the Predicate. It then comprehensively explains the 8 Parts of Speech: Noun, Pronoun, Verb, Adjective, Adverb, Preposition, Conjunction, and Interjection. Furthermore, it delves deep into the classification of Nouns (Proper, Common, Collective, Abstract, Material) and Pronouns (Subject, Object, Possessive adjectives, and Possessive pronouns). These rules form the foundation for constructing grammatically correct sentences in English.",
-    "பாடக்கருத்துக்கள்": [
+  "à®µà®•à¯à®ªà¯à®ªà¯": "6",
+  "à®ªà®°à¯à®µà®®à¯": "1",
+  "à®ªà®¾à®Ÿ_à®Žà®£à¯": "Grammar",
+  "à®ªà®¾à®Ÿ_à®¤à®²à¯ˆà®ªà¯à®ªà¯": "English Grammar (Term 1)",
+  "à®ªà®¾à®Ÿà®•à¯à®•à¯à®±à®¿à®ªà¯à®ªà¯à®•à®³à¯": {
+    "à®ªà®¾à®Ÿà®šà¯à®šà¯à®°à¯à®•à¯à®•à®®à¯": "This grammar module covers the fundamental concepts of English grammar for Class 6 Term 1. It begins with the structure of a sentence, differentiating between the Subject and the Predicate. It then comprehensively explains the 8 Parts of Speech: Noun, Pronoun, Verb, Adjective, Adverb, Preposition, Conjunction, and Interjection. Furthermore, it delves deep into the classification of Nouns (Proper, Common, Collective, Abstract, Material) and Pronouns (Subject, Object, Possessive adjectives, and Possessive pronouns). These rules form the foundation for constructing grammatically correct sentences in English.",
+    "à®ªà®¾à®Ÿà®•à¯à®•à®°à¯à®¤à¯à®¤à¯à®•à¯à®•à®³à¯": [
       {
-        "தலைப்பு": "1. Subject and Predicate",
-        "விவரங்கள்": [
+        "à®¤à®²à¯ˆà®ªà¯à®ªà¯": "1. Subject and Predicate",
+        "à®µà®¿à®µà®°à®™à¯à®•à®³à¯": [
           "A sentence is a group of words that makes complete sense.",
           "Every complete sentence contains two parts: a Subject and a Predicate.",
           "Subject: The person, place, animal, or thing we are speaking about. (e.g., 'The sun' in 'The sun shines loudly' - Wait, 'The sun shines brightly').",
@@ -16,15 +16,15 @@
         ]
       },
       {
-        "தலைப்பு": "2. Parts of Speech",
-        "விவரங்கள்": [
+        "à®¤à®²à¯ˆà®ªà¯à®ªà¯": "2. Parts of Speech",
+        "à®µà®¿à®µà®°à®™à¯à®•à®³à¯": [
           "Words are divided into different kinds or classes called Parts of Speech, according to their use and function in a sentence.",
           "There are 8 parts of speech in English: Noun, Pronoun, Verb, Adjective, Adverb, Preposition, Conjunction, and Interjection."
         ]
       },
       {
-        "தலைப்பு": "3. Nouns and Types of Nouns",
-        "விவரங்கள்": [
+        "à®¤à®²à¯ˆà®ªà¯à®ªà¯": "3. Nouns and Types of Nouns",
+        "à®µà®¿à®µà®°à®™à¯à®•à®³à¯": [
           "A Noun is a word used as the name of a person, place, or thing.",
           "Proper Noun: The name of a particular person or place (Always starts with a capital letter). Example: Chennai, Ravi.",
           "Common Noun: A name given in common to every person or thing of the same class or kind. Example: boy, city, dog.",
@@ -34,8 +34,8 @@
         ]
       },
       {
-        "தலைப்பு": "4. Pronouns",
-        "விவரங்கள்": [
+        "à®¤à®²à¯ˆà®ªà¯à®ªà¯": "4. Pronouns",
+        "à®µà®¿à®µà®°à®™à¯à®•à®³à¯": [
           "A Pronoun is a word used instead of a noun to avoid repetition.",
           "Subject Pronouns (do the action): I, We, You, He, She, It, They.",
           "Object Pronouns (receive the action): me, us, you, him, her, it, them.",
@@ -44,134 +44,134 @@
         ]
       },
       {
-        "தலைப்பு": "5. Verbs, Adjectives, and Adverbs",
-        "விவரங்கள்": [
+        "à®¤à®²à¯ˆà®ªà¯à®ªà¯": "5. Verbs, Adjectives, and Adverbs",
+        "à®µà®¿à®µà®°à®™à¯à®•à®³à¯": [
           "Verb: A word used to express an action or state. Example: run, jump, is, are.",
           "Adjective: A word used to add something to the meaning of a noun (Describes a noun). Example: brave boy, tall tree.",
           "Adverb: A word used to add something to the meaning of a verb, an adjective, or another adverb. Example: He ran quickly, very beautiful."
         ]
       },
       {
-        "தலைப்பு": "6. Prepositions, Conjunctions, and Interjections",
-        "விவரங்கள்": [
+        "à®¤à®²à¯ˆà®ªà¯à®ªà¯": "6. Prepositions, Conjunctions, and Interjections",
+        "à®µà®¿à®µà®°à®™à¯à®•à®³à¯": [
           "Preposition: A word used with a noun or pronoun to show how the person or thing denoted by the noun or pronoun stands in relation to something else. Example: on, in, under.",
           "Conjunction: A word used to join words or sentences. Example: and, but, or, because.",
           "Interjection: A word which expresses some sudden feeling. Example: Alas!, Hurrah!, Oh!"
         ]
       }
     ],
-    "தகவல்_பேழை": [
+    "à®¤à®•à®µà®²à¯_à®ªà¯‡à®´à¯ˆ": [
       "The word 'Noun' comes from the Latin word 'nomen' which means 'name'.",
       "Articles (a, an, the) are actually a type of Adjective because they describe nouns.",
       "A sentence can have a single word if it is an imperative verb. Example: 'Stop!' (Here the subject 'You' is understood)."
     ],
-    "உங்களுக்கு_தெரியுமா": [
+    "à®‰à®™à¯à®•à®³à¯à®•à¯à®•à¯_à®¤à¯†à®°à®¿à®¯à¯à®®à®¾": [
       "Do you know that the word 'I' is always capitalized, no matter where it appears in a sentence?",
       "Do you know that 'Abstract Nouns' are things you cannot perceive through your five senses? You cannot touch, taste, see, hear, or smell 'bravery'.",
       "Did you know 'oxymoron' is a figure of speech but 'Noun' is a part of speech? Always distinguish between figures of speech and parts of speech."
     ],
-    "படம்_சார்ந்த_குறிப்புகள்": [
+    "à®ªà®Ÿà®®à¯_à®šà®¾à®°à¯à®¨à¯à®¤_à®•à¯à®±à®¿à®ªà¯à®ªà¯à®•à®³à¯": [
       "Tree Diagram of Nouns: The main branch is 'Nouns', splitting into 'Proper', 'Common', 'Collective', 'Material', and 'Abstract'.",
       "Table of Pronouns: A table showing First Person, Second Person, and Third Person categorized into Subjective, Objective, and Possessive cases."
     ],
-    "நினைவில்_கொள்க": [
+    "à®¨à®¿à®©à¯ˆà®µà®¿à®²à¯_à®•à¯Šà®³à¯à®•": [
       "A Proper Noun always begins with a capital letter.",
       "A pronoun must agree with the noun it replaces in number and gender.",
       "A predicate MUST contain a verb.",
       "Adjectives describe Nouns. Adverbs describe Verbs, Adjectives, or other Adverbs."
     ],
-    "கலைச்சொற்கள்": [
+    "à®•à®²à¯ˆà®šà¯à®šà¯Šà®±à¯à®•à®³à¯": [
       {
-        "சொல்": "Noun (பெயர்ச்சொல்)",
-        "பொருள்": "A word that names a person, place, thing, or idea."
+        "à®šà¯Šà®²à¯": "Noun (à®ªà¯†à®¯à®°à¯à®šà¯à®šà¯Šà®²à¯)",
+        "à®ªà¯Šà®°à¯à®³à¯": "A word that names a person, place, thing, or idea."
       },
       {
-        "சொல்": "Verb (வினைச்சொல்)",
-        "பொருள்": "A word that expresses an action, an occurrence, or a state of being."
+        "à®šà¯Šà®²à¯": "Verb (à®µà®¿à®©à¯ˆà®šà¯à®šà¯Šà®²à¯)",
+        "à®ªà¯Šà®°à¯à®³à¯": "A word that expresses an action, an occurrence, or a state of being."
       },
       {
-        "சொல்": "Adjective (பெயரடை)",
-        "பொருள்": "A word that modifies or describes a noun or pronoun."
+        "à®šà¯Šà®²à¯": "Adjective (à®ªà¯†à®¯à®°à®Ÿà¯ˆ)",
+        "à®ªà¯Šà®°à¯à®³à¯": "A word that modifies or describes a noun or pronoun."
       },
       {
-        "சொல்": "Pronoun (பிரதிப் பெயர்ச்சொல்)",
-        "பொருள்": "A word that takes the place of a noun."
+        "à®šà¯Šà®²à¯": "Pronoun (à®ªà®¿à®°à®¤à®¿à®ªà¯ à®ªà¯†à®¯à®°à¯à®šà¯à®šà¯Šà®²à¯)",
+        "à®ªà¯Šà®°à¯à®³à¯": "A word that takes the place of a noun."
       },
       {
-        "சொல்": "Predicate (பயனிலை)",
-        "பொருள்": "The part of a sentence or clause containing a verb and stating something about the subject."
+        "à®šà¯Šà®²à¯": "Predicate (à®ªà®¯à®©à®¿à®²à¯ˆ)",
+        "à®ªà¯Šà®°à¯à®³à¯": "The part of a sentence or clause containing a verb and stating something about the subject."
       }
     ],
-    "பாட_பின்புற_வினாக்கள்": {
-      "சரியான_விடையை_தேர்ந்தெடுத்து_எழுதுக": [
+    "à®ªà®¾à®Ÿ_à®ªà®¿à®©à¯à®ªà¯à®±_à®µà®¿à®©à®¾à®•à¯à®•à®³à¯": {
+      "à®šà®°à®¿à®¯à®¾à®©_à®µà®¿à®Ÿà¯ˆà®¯à¯ˆ_à®¤à¯‡à®°à¯à®¨à¯à®¤à¯†à®Ÿà¯à®¤à¯à®¤à¯_à®Žà®´à¯à®¤à¯à®•": [
         {
-          "கேள்வி": "Identify the proper noun in the sentence: 'She travelled to London.'",
-          "விடை": "London"
+          "à®•à¯‡à®³à¯à®µà®¿": "Identify the proper noun in the sentence: 'She travelled to London.'",
+          "à®µà®¿à®Ÿà¯ˆ": "London"
         },
         {
-          "கேள்வி": "What part of speech is the word 'beautifully' in 'She sang beautifully'?",
-          "விடை": "Adverb"
+          "à®•à¯‡à®³à¯à®µà®¿": "What part of speech is the word 'beautifully' in 'She sang beautifully'?",
+          "à®µà®¿à®Ÿà¯ˆ": "Adverb"
         },
         {
-          "கேள்வி": "Find the subject in the sentence: 'The old man walked slowly.'",
-          "விடை": "The old man"
+          "à®•à¯‡à®³à¯à®µà®¿": "Find the subject in the sentence: 'The old man walked slowly.'",
+          "à®µà®¿à®Ÿà¯ˆ": "The old man"
         },
         {
-          "கேள்வி": "Choose the correct pronoun: 'Ravi and I are friends. ___ play together.'",
-          "விடை": "We"
+          "à®•à¯‡à®³à¯à®µà®¿": "Choose the correct pronoun: 'Ravi and I are friends. ___ play together.'",
+          "à®µà®¿à®Ÿà¯ˆ": "We"
         }
       ],
-      "கோடிட்ட_இடங்களை_நிரப்புக": [
+      "à®•à¯‹à®Ÿà®¿à®Ÿà¯à®Ÿ_à®‡à®Ÿà®™à¯à®•à®³à¯ˆ_à®¨à®¿à®°à®ªà¯à®ªà¯à®•": [
         {
-          "கேள்வி": "A __________ noun names a collection or group of things.",
-          "விடை": "Collective"
+          "à®•à¯‡à®³à¯à®µà®¿": "A __________ noun names a collection or group of things.",
+          "à®µà®¿à®Ÿà¯ˆ": "Collective"
         },
         {
-          "கேள்வி": "Words that join two sentences are called __________.",
-          "விடை": "Conjunctions"
+          "à®•à¯‡à®³à¯à®µà®¿": "Words that join two sentences are called __________.",
+          "à®µà®¿à®Ÿà¯ˆ": "Conjunctions"
         },
         {
-          "கேள்வி": "Honesty is the best policy. Here 'Honesty' is an __________ noun.",
-          "விடை": "Abstract"
+          "à®•à¯‡à®³à¯à®µà®¿": "Honesty is the best policy. Here 'Honesty' is an __________ noun.",
+          "à®µà®¿à®Ÿà¯ˆ": "Abstract"
         }
       ],
-      "பொருத்துக": [
+      "à®ªà¯Šà®°à¯à®¤à¯à®¤à¯à®•": [
         {
-          "கேள்வி": "Proper Noun",
-          "விடை": "India"
+          "à®•à¯‡à®³à¯à®µà®¿": "Proper Noun",
+          "à®µà®¿à®Ÿà¯ˆ": "India"
         },
         {
-          "கேள்வி": "Material Noun",
-          "விடை": "Gold"
+          "à®•à¯‡à®³à¯à®µà®¿": "Material Noun",
+          "à®µà®¿à®Ÿà¯ˆ": "Gold"
         },
         {
-          "கேள்வி": "Collective Noun",
-          "விடை": "Army"
+          "à®•à¯‡à®³à¯à®µà®¿": "Collective Noun",
+          "à®µà®¿à®Ÿà¯ˆ": "Army"
         },
         {
-          "கேள்வி": "Abstract Noun",
-          "விடை": "Kindness"
+          "à®•à¯‡à®³à¯à®µà®¿": "Abstract Noun",
+          "à®µà®¿à®Ÿà¯ˆ": "Kindness"
         }
       ],
-      "சரியா_தவறா": [
+      "à®šà®°à®¿à®¯à®¾_à®¤à®µà®±à®¾": [
         {
-          "கேள்வி": "A common noun always begins with a capital letter.",
-          "விடை": "False"
+          "à®•à¯‡à®³à¯à®µà®¿": "A common noun always begins with a capital letter.",
+          "à®µà®¿à®Ÿà¯ˆ": "False"
         },
         {
-          "கேள்வி": "An adjective describes a verb.",
-          "விடை": "False"
+          "à®•à¯‡à®³à¯à®µà®¿": "An adjective describes a verb.",
+          "à®µà®¿à®Ÿà¯ˆ": "False"
         },
         {
-          "கேள்வி": "A sentence always has a subject and a predicate.",
-          "விடை": "True"
+          "à®•à¯‡à®³à¯à®µà®¿": "A sentence always has a subject and a predicate.",
+          "à®µà®¿à®Ÿà¯ˆ": "True"
         }
       ],
-      "கூற்று_காரணம்": [
+      "à®•à¯‚à®±à¯à®±à¯_à®•à®¾à®°à®£à®®à¯": [
         {
-          "கூற்று": "In the sentence 'Stop!', the subject is hidden.",
-          "காரணம்": "In imperative sentences, the subject 'You is always implied or understood.",
-          "விடை": "Both Assertion and Reason are true, and the Reason is the correct explanation."
+          "à®•à¯‚à®±à¯à®±à¯": "In the sentence 'Stop!', the subject is hidden.",
+          "à®•à®¾à®°à®£à®®à¯": "In imperative sentences, the subject 'You is always implied or understood.",
+          "à®µà®¿à®Ÿà¯ˆ": "Both Assertion and Reason are true, and the Reason is the correct explanation."
         }
       ]
     }
@@ -841,3 +841,4 @@
     ]
   }
 }
+

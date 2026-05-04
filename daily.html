@@ -288,6 +288,7 @@
             titles.forEach((title, idx) => {
                 const fileId = data.activeFiles[idx] || '1';
                 const cGrade = (data.activeGrades && data.activeGrades[idx]) ? data.activeGrades[idx] : grade;
+                const cSubject = (data.activeSubjects && data.activeSubjects[idx]) ? data.activeSubjects[idx] : subject;
                 
                 html += `
                     <div class="lesson-tile">
@@ -297,11 +298,11 @@
                         </div>
                         <div class="l-actions">
                             ${isNotesOpen ? 
-                                `<a href="material.html?subject=${subject}&class=${cGrade}&lesson=${fileId}" class="btn-sm btn-n">📖 குறிப்புகள்</a>` : 
+                                `<a href="material.html?subject=${cSubject}&class=${cGrade}&lesson=${fileId}" class="btn-sm btn-n">📖 குறிப்புகள்</a>` : 
                                 `<div class="btn-sm btn-l">🔒 Locked</div>`}
                             
                             ${isExamOpen ? 
-                                `<a href="quiz.html?subject=${subject}&class=${cGrade}&lesson=${fileId}" class="btn-sm btn-e">📝 தேர்வு (Exam)</a>` : 
+                                `<a href="quiz.html?subject=${cSubject}&class=${cGrade}&lesson=${fileId}" class="btn-sm btn-e">📝 தேர்வு (Exam)</a>` : 
                                 `<div class="btn-sm btn-l">🔒 இன்று இரவு 8:00 முதல் 10:30 வரை</div>`}
                         </div>
                     </div>
