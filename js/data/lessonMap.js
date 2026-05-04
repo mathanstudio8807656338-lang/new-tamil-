@@ -54,37 +54,37 @@ export const lessonMap = {
       "grade": "3",
       "term": 1
     },
-    "Unit 1: A World with Robots || à®…à®²à®•à¯ 1: à®‡à®¯à®¨à¯à®¤à®¿à®° à®®à®©à®¿à®¤à®°à¯à®•à®³à¯ à®¨à®¿à®±à¯ˆà®¨à¯à®¤ à®‰à®²à®•à®®à¯": {
+    "Unit 1: A World with Robots || அலகு 1: இயந்திர மனிதர்கள் நிறைந்த உலகம்": {
       "local": true,
       "filename": "Lesson_1",
       "grade": "4",
       "term": 1
     },
-    "Unit 2: My Hobbies || à®…à®²à®•à¯ 2: à®Žà®©à®¤à¯ à®ªà¯Šà®´à¯à®¤à¯à®ªà¯‹à®•à¯à®•à¯à®•à®³à¯": {
+    "Unit 2: My Hobbies || அலகு 2: எனது பொழுதுபோக்குகள்": {
       "local": true,
       "filename": "Lesson_2",
       "grade": "4",
       "term": 1
     },
-    "Unit 3: Time for a Journey || à®…à®²à®•à¯ 3: à®ªà®¯à®£à®¤à¯à®¤à®¿à®±à¯à®•à®¾à®© à®¨à¯‡à®°à®®à¯": {
+    "Unit 3: Time for a Journey || அலகு 3: பயணத்திற்கான நேரம்": {
       "local": true,
       "filename": "Lesson_3",
       "grade": "4",
       "term": 1
     },
-    "Unit 1: Exploring Space || à®…à®²à®•à¯ 1: à®µà®¿à®£à¯à®µà¯†à®³à®¿à®ªà¯ à®ªà®¯à®£à®®à¯": {
+    "Unit 1: Exploring Space || அலகு 1: விண்வெளிப் பயணம்": {
       "local": true,
       "filename": "Lesson_1",
       "grade": "5",
       "term": 1
     },
-    "Unit 2: My Native Place || à®…à®²à®•à¯ 2: à®Žà®©à®¤à¯ à®šà¯Šà®¨à¯à®¤ à®Šà®°à¯": {
+    "Unit 2: My Native Place || அலகு 2: எனது சொந்த ஊர்": {
       "local": true,
       "filename": "Lesson_2",
       "grade": "5",
       "term": 1
     },
-    "Patriotism and Duty || à®¤à¯‡à®šà®ªà®•à¯à®¤à®¿ à®®à®±à¯à®±à¯à®®à¯ à®•à®Ÿà®®à¯ˆ": {
+    "Patriotism and Duty || தேசபக்தி மற்றும் கடமை": {
       "local": true,
       "filename": "Lesson_6",
       "grade": "5",
@@ -134,7 +134,7 @@ export const lessonMap = {
     }
   },
   "maths": {
-    "à®µà®Ÿà®¿à®µà®¿à®¯à®²à¯": {
+    "வடிவியல்": {
       "local": true,
       "filename": "Lesson_1",
       "grade": "2",
@@ -146,7 +146,7 @@ export const lessonMap = {
       "grade": "5",
       "term": 1
     },
-    "à®Žà®£à¯à®•à®³à¯ 1 à®‡à®²à®¿à®°à¯à®¨à¯à®¤à¯ 99 à®µà®°à¯ˆ": {
+    "எண்கள் 1 இலிருந்து 99 வரை": {
       "local": true,
       "filename": "Lesson_2",
       "grade": "2",
@@ -158,7 +158,7 @@ export const lessonMap = {
       "grade": "5",
       "term": 1
     },
-    "à®…à®®à¯ˆà®ªà¯à®ªà¯à®•à®³à¯": {
+    "அமைப்புகள்": {
       "local": true,
       "filename": "Lesson_3",
       "grade": "2",
@@ -170,7 +170,7 @@ export const lessonMap = {
       "grade": "5",
       "term": 1
     },
-    "à®…à®³à®µà¯ˆà®•à®³à¯": {
+    "அளவைகள்": {
       "local": true,
       "filename": "Lesson_4",
       "grade": "2",
@@ -182,7 +182,7 @@ export const lessonMap = {
       "grade": "5",
       "term": 1
     },
-    "à®•à®¾à®²à®®à¯": {
+    "காலம்": {
       "local": true,
       "filename": "Lesson_5",
       "grade": "2",
@@ -194,7 +194,7 @@ export const lessonMap = {
       "grade": "5",
       "term": 1
     },
-    "à®¤à®•à®µà®²à¯ à®šà¯†à®¯à®²à®¾à®•à¯à®•à®®à¯": {
+    "தகவல் செயலாக்கம்": {
       "local": true,
       "filename": "Lesson_6",
       "grade": "2",
@@ -206,37 +206,37 @@ export const lessonMap = {
       "grade": "5",
       "term": 1
     },
-    "à®…à®²à®•à¯ 1: à®µà®Ÿà®¿à®µà®¿à®¯à®²à¯": {
+    "அலகு 1: வடிவியல்": {
       "local": true,
       "filename": "Lesson_1",
       "grade": "5",
       "term": 1
     },
-    "à®…à®²à®•à¯ 2: à®Žà®£à¯à®•à®³à¯": {
+    "அலகு 2: எண்கள்": {
       "local": true,
       "filename": "Lesson_2",
       "grade": "5",
       "term": 1
     },
-    "à®…à®²à®•à¯ 3: à®…à®®à¯ˆà®ªà¯à®ªà¯à®•à®³à¯": {
+    "அலகு 3: அமைப்புகள்": {
       "local": true,
       "filename": "Lesson_3",
       "grade": "5",
       "term": 1
     },
-    "à®…à®²à®•à¯ 4: à®…à®³à®µà¯ˆà®•à®³à¯": {
+    "அலகு 4: அளவைகள்": {
       "local": true,
       "filename": "Lesson_4",
       "grade": "5",
       "term": 1
     },
-    "à®…à®²à®•à¯ 5: à®¨à¯‡à®°à®®à¯": {
+    "அலகு 5: நேரம்": {
       "local": true,
       "filename": "Lesson_5",
       "grade": "5",
       "term": 1
     },
-    "à®…à®²à®•à¯ 6: à®¤à®•à®µà®²à¯ à®šà¯†à®¯à®²à®¾à®•à¯à®•à®®à¯": {
+    "அலகு 6: தகவல் செயலாக்கம்": {
       "local": true,
       "filename": "Lesson_6",
       "grade": "5",
@@ -244,7 +244,7 @@ export const lessonMap = {
     }
   },
   "mocktest": {
-    "à®®à®¾à®¤à®¿à®°à®¿à®¤à¯à®¤à¯‡à®°à¯à®µà¯ 1": {
+    "மாதிரித்தேர்வு 1": {
       "local": true,
       "filename": "Lesson_1",
       "isFlat": true
@@ -254,7 +254,7 @@ export const lessonMap = {
       "filename": "Lesson_1",
       "isFlat": true
     },
-    "à®®à®¾à®¤à®¿à®°à®¿à®¤à¯à®¤à¯‡à®°à¯à®µà¯ 3": {
+    "மாதிரித்தேர்வு 3": {
       "local": true,
       "filename": "Lesson_2",
       "isFlat": true
@@ -264,7 +264,7 @@ export const lessonMap = {
       "filename": "Lesson_2",
       "isFlat": true
     },
-    "à®®à®¾à®¤à®¿à®°à®¿à®¤à¯à®¤à¯‡à®°à¯à®µà¯ 4": {
+    "மாதிரித்தேர்வு 4": {
       "local": true,
       "filename": "Lesson_3",
       "isFlat": true
@@ -274,7 +274,7 @@ export const lessonMap = {
       "filename": "Lesson_3",
       "isFlat": true
     },
-    "à®®à®¾à®¤à®¿à®°à®¿à®¤à¯à®¤à¯‡à®°à¯à®µà¯ 2": {
+    "மாதிரித்தேர்வு 2": {
       "local": true,
       "filename": "Lesson_4",
       "isFlat": true
@@ -284,7 +284,7 @@ export const lessonMap = {
       "filename": "Lesson_4",
       "isFlat": true
     },
-    "TNTET à®¤à®¾à®³à¯ 1 - à®®à®¾à®¤à®¿à®°à®¿ à®µà®¿à®©à®¾à®¤à¯à®¤à®¾à®³à¯ (150 à®µà®¿à®©à®¾à®•à¯à®•à®³à¯)": {
+    "TNTET தாள் 1 - மாதிரி வினாத்தாள் (150 வினாக்கள்)": {
       "local": true,
       "filename": "Lesson_5",
       "isFlat": true
@@ -296,7 +296,7 @@ export const lessonMap = {
     }
   },
   "notes_678": {
-    "à®®à¯à®•à¯à®•à®¿à®¯ à®•à¯à®±à®¿à®ªà¯à®ªà¯à®•à®³à¯ - à®ªà®•à¯à®¤à®¿ 1": {
+    "முக்கிய குறிப்புகள் - பகுதி 1": {
       "local": true,
       "filename": "Lesson_1",
       "isFlat": true
@@ -306,7 +306,7 @@ export const lessonMap = {
       "filename": "Lesson_1",
       "isFlat": true
     },
-    "à®®à¯à®•à¯à®•à®¿à®¯ à®•à¯à®±à®¿à®ªà¯à®ªà¯à®•à®³à¯ - à®ªà®•à¯à®¤à®¿ 2": {
+    "முக்கிய குறிப்புகள் - பகுதி 2": {
       "local": true,
       "filename": "Lesson_2",
       "isFlat": true
@@ -316,7 +316,7 @@ export const lessonMap = {
       "filename": "Lesson_2",
       "isFlat": true
     },
-    "à®®à¯à®•à¯à®•à®¿à®¯ à®•à¯à®±à®¿à®ªà¯à®ªà¯à®•à®³à¯ - à®ªà®•à¯à®¤à®¿ 3": {
+    "முக்கிய குறிப்புகள் - பகுதி 3": {
       "local": true,
       "filename": "Lesson_3",
       "isFlat": true
@@ -331,7 +331,7 @@ export const lessonMap = {
       "filename": "Lesson_4",
       "isFlat": true
     },
-    "6à®†à®®à¯ à®µà®•à¯à®ªà¯à®ªà¯ à®•à®£à®¿à®¤à®®à¯ - à®®à¯à®¤à®²à¯ à®ªà®°à¯à®µà®®à¯ - à®®à¯à®´à¯à®®à¯ˆà®¯à®¾à®© à®ªà®¾à®Ÿà®•à¯à®•à¯à®±à®¿à®ªà¯à®ªà¯à®•à®³à¯": {
+    "6ஆம் வகுப்பு கணிதம் - முதல் பருவம் - முழுமையான பாடக்குறிப்புகள்": {
       "local": true,
       "filename": "Lesson_5",
       "isFlat": true
@@ -343,7 +343,7 @@ export const lessonMap = {
     }
   },
   "psychology": {
-    "TNTET à®¤à®¾à®³à¯ 1 - à®®à®¾à®¤à®¿à®°à®¿ à®µà®¿à®©à®¾à®¤à¯à®¤à®¾à®³à¯ (150 à®µà®¿à®©à®¾à®•à¯à®•à®³à¯)": {
+    "TNTET தாள் 1 - மாதிரி வினாத்தாள் (150 வினாக்கள்)": {
       "local": true,
       "filename": "Lesson_5",
       "isFlat": true
@@ -353,7 +353,7 @@ export const lessonMap = {
       "filename": "Lesson_5",
       "isFlat": true
     },
-    "à®•à¯à®´à®¨à¯à®¤à¯ˆ à®®à¯‡à®®à¯à®ªà®¾à®Ÿà¯ (6 - 11 à®µà®¯à®¤à¯) - à®ªà®¿à®©à¯ à®•à¯à®´à®¨à¯à®¤à¯ˆà®ªà¯à®ªà®°à¯à®µà®®à¯ (Later Childhood)": {
+    "குழந்தை மேம்பாடு (6 - 11 வயது) - பின் குழந்தைப்பருவம் (Later Childhood)": {
       "local": true,
       "filename": "psy_6_l1",
       "isFlat": true
@@ -363,7 +363,7 @@ export const lessonMap = {
       "filename": "psy_6_l1",
       "isFlat": true
     },
-    "à®•à®±à¯à®±à®²à¯ à®•à¯‹à®Ÿà¯à®ªà®¾à®Ÿà¯à®•à®³à¯ (Learning Principles)": {
+    "கற்றல் கோட்பாடுகள் (Learning Principles)": {
       "local": true,
       "filename": "psy_6_l2",
       "isFlat": true
@@ -373,7 +373,7 @@ export const lessonMap = {
       "filename": "psy_6_l2",
       "isFlat": true
     },
-    "à®•à®±à¯à®ªà®¿à®¤à¯à®¤à®²à¯ à®®à¯à®±à¯ˆà®•à®³à¯ à®®à®±à¯à®±à¯à®®à¯ à®•à®²à¯ˆ (Pedagogy)": {
+    "கற்பித்தல் முறைகள் மற்றும் கலை (Pedagogy)": {
       "local": true,
       "filename": "psy_6_l3",
       "isFlat": true
@@ -383,7 +383,7 @@ export const lessonMap = {
       "filename": "psy_6_l3",
       "isFlat": true
     },
-    "à®œà¯€à®©à¯ à®ªà®¿à®¯à®¾à®œà¯‡à®¯à®¿à®©à¯ à®…à®±à®¿à®µà®¾à®±à¯à®±à®²à¯ à®µà®³à®°à¯à®šà¯à®šà®¿à®•à¯ à®•à¯‹à®Ÿà¯à®ªà®¾à®Ÿà¯ (Jean Piaget's Theory of Cognitive Development)": {
+    "ஜீன் பியாஜேயின் அறிவாற்றல் வளர்ச்சிக் கோட்பாடு (Jean Piaget's Theory of Cognitive Development)": {
       "local": true,
       "filename": "psy_6_l4",
       "isFlat": true
@@ -395,7 +395,7 @@ export const lessonMap = {
     }
   },
   "revision": {
-    "à®¤à®¿à®°à¯à®ªà¯à®ªà¯à®¤à®²à¯ à®¤à¯‡à®°à¯à®µà¯ - 2 (150 à®µà®¿à®©à®¾à®•à¯à®•à®³à¯ à®¤à¯Šà®•à¯à®ªà¯à®ªà¯)": {
+    "திருப்புதல் தேர்வு - 2 (150 வினாக்கள் தொகுப்பு)": {
       "local": true,
       "filename": "Lesson_1",
       "isFlat": true
@@ -405,7 +405,7 @@ export const lessonMap = {
       "filename": "Lesson_1",
       "isFlat": true
     },
-    "à®ªà®¾à®Ÿà®•à¯à®•à¯à®±à®¿à®ªà¯à®ªà¯à®•à®³à¯ (180 à®µà®¿à®©à®¾à®•à¯à®•à®³à¯ à®¤à¯Šà®•à¯à®ªà¯à®ªà¯)": {
+    "பாடக்குறிப்புகள் (180 வினாக்கள் தொகுப்பு)": {
       "local": true,
       "filename": "Lesson_2",
       "isFlat": true
@@ -415,7 +415,7 @@ export const lessonMap = {
       "filename": "Lesson_2",
       "isFlat": true
     },
-    "à®¤à®¿à®°à¯à®ªà¯à®ªà¯à®¤à®²à¯ à®¤à¯‡à®°à¯à®µà¯ 3 (Revision Test 3)": {
+    "திருப்புதல் தேர்வு 3 (Revision Test 3)": {
       "local": true,
       "filename": "Lesson_3",
       "isFlat": true
@@ -425,7 +425,7 @@ export const lessonMap = {
       "filename": "Lesson_3",
       "isFlat": true
     },
-    "à®¤à®¿à®°à¯à®ªà¯à®ªà¯à®¤à®²à¯ à®¤à¯‡à®°à¯à®µà¯ 4": {
+    "திருப்புதல் தேர்வு 4": {
       "local": true,
       "filename": "Lesson_4",
       "isFlat": true
@@ -461,7 +461,31 @@ export const lessonMap = {
       "grade": "2",
       "term": 1
     },
-    "à®…à®²à®•à¯ 1: à®Žà®©à®¤à¯ à®‰à®Ÿà®²à¯ (My Body)": {
+    "நமது சுற்றுச்சூழல்": {
+      "local": true,
+      "filename": "1",
+      "grade": "2",
+      "term": 1
+    },
+    "எனது அற்புதமான உடல்": {
+      "local": true,
+      "filename": "2",
+      "grade": "2",
+      "term": 1
+    },
+    "நம்மைச் சுற்றியுள்ள தாவரங்கள்": {
+      "local": true,
+      "filename": "3",
+      "grade": "2",
+      "term": 1
+    },
+    "நம்மைச் சுற்றியுள்ள விலங்குகள்": {
+      "local": true,
+      "filename": "4",
+      "grade": "2",
+      "term": 1
+    },
+    "அலகு 1: எனது உடல் (My Body)": {
       "local": true,
       "filename": "Lesson_1",
       "grade": "4",
@@ -473,7 +497,7 @@ export const lessonMap = {
       "grade": "5",
       "term": 1
     },
-    "à®…à®²à®•à¯ 2: à®ªà®°à¯à®ªà¯à®ªà¯Šà®°à¯à®³à¯à®®à¯ à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à¯à®®à¯ (Matter and Materials)": {
+    "அலகு 2: பருப்பொருளும் பொருட்களும் (Matter and Materials)": {
       "local": true,
       "filename": "Lesson_2",
       "grade": "4",
@@ -485,7 +509,7 @@ export const lessonMap = {
       "grade": "5",
       "term": 1
     },
-    "à®…à®²à®•à¯ 3: à®µà¯‡à®²à¯ˆà®¯à¯à®®à¯ à®†à®±à¯à®±à®²à¯à®®à¯ (Work and Energy)": {
+    "அலகு 3: வேலையும் ஆற்றலும் (Work and Energy)": {
       "local": true,
       "filename": "Lesson_3",
       "grade": "4",
@@ -497,7 +521,7 @@ export const lessonMap = {
       "grade": "5",
       "term": 1
     },
-    "à®…à®²à®•à¯ 4: à®…à®©à¯à®±à®¾à®Ÿ à®µà®¾à®´à¯à®µà®¿à®²à¯ à®…à®±à®¿à®µà®¿à®¯à®²à¯ (Science in Everyday Life)": {
+    "அலகு 4: அன்றாட வாழ்வில் அறிவியல் (Science in Everyday Life)": {
       "local": true,
       "filename": "Lesson_4",
       "grade": "4",
@@ -509,25 +533,25 @@ export const lessonMap = {
       "grade": "5",
       "term": 1
     },
-    "à®…à®²à®•à¯ 1: à®‰à®±à¯à®ªà¯à®ªà¯ à®®à®£à¯à®Ÿà®²à®™à¯à®•à®³à¯": {
+    "அலகு 1: உறுப்பு மண்டலங்கள்": {
       "local": true,
       "filename": "Lesson_1",
       "grade": "5",
       "term": 1
     },
-    "à®…à®²à®•à¯ 2: à®ªà®°à¯à®ªà¯à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à¯ à®®à®±à¯à®±à¯à®®à¯ à®®à¯‚à®²à®ªà¯à®ªà¯Šà®°à¯à®Ÿà¯à®•à®³à¯": {
+    "அலகு 2: பருப்பொருட்கள் மற்றும் மூலப்பொருட்கள்": {
       "local": true,
       "filename": "Lesson_2",
       "grade": "5",
       "term": 1
     },
-    "à®…à®²à®•à¯ 3: à®†à®±à¯à®±à®²à¯": {
+    "அலகு 3: ஆற்றல்": {
       "local": true,
       "filename": "Lesson_3",
       "grade": "5",
       "term": 1
     },
-    "à®…à®²à®•à¯ 4: à®…à®©à¯à®±à®¾à®Ÿ à®µà®¾à®´à¯à®µà®¿à®²à¯ à®…à®±à®¿à®µà®¿à®¯à®²à¯": {
+    "அலகு 4: அன்றாட வாழ்வில் அறிவியல்": {
       "local": true,
       "filename": "Lesson_4",
       "grade": "5",
@@ -535,7 +559,7 @@ export const lessonMap = {
     }
   },
   "social": {
-    "à®µà®¾ à®µà®¾ à®®à¯à®¯à®²à¯‡": {
+    "வா வா முயலே": {
       "local": true,
       "filename": "Lesson_1",
       "grade": "3",
@@ -547,7 +571,7 @@ export const lessonMap = {
       "grade": "5",
       "term": 1
     },
-    "à®šà¯†à®¯à¯à®¤à¯ à®®à®•à®¿à®´à¯à®µà¯‹à®®à¯": {
+    "செய்து மகிழ்வோம்": {
       "local": true,
       "filename": "Lesson_2",
       "grade": "3",
@@ -559,19 +583,19 @@ export const lessonMap = {
       "grade": "5",
       "term": 1
     },
-    "à®…à®²à®•à¯ 1: à®†à®±à¯à®±à®™à¯à®•à®°à¯ˆ à®…à®°à®šà¯à®•à®³à¯ || Unit 1: Kingdoms of River Banks": {
+    "அலகு 1: ஆற்றங்கரை அரசுகள் || Unit 1: Kingdoms of River Banks": {
       "local": true,
       "filename": "Lesson_1",
       "grade": "4",
       "term": 1
     },
-    "à®…à®²à®•à¯ 2: à®à®µà®•à¯ˆ à®¨à®¿à®²à®™à¯à®•à®³à¯": {
+    "அலகு 2: ஐவகை நிலங்கள்": {
       "local": true,
       "filename": "Lesson_2",
       "grade": "4",
       "term": 1
     },
-    "à®…à®²à®•à¯ 3: à®¨à®•à®°à®¾à®Ÿà¯à®šà®¿ à®®à®±à¯à®±à¯à®®à¯ à®®à®¾à®¨à®•à®°à®¾à®Ÿà¯à®šà®¿": {
+    "அலகு 3: நகராட்சி மற்றும் மாநகராட்சி": {
       "local": true,
       "filename": "Lesson_3",
       "grade": "4",
@@ -583,25 +607,25 @@ export const lessonMap = {
       "grade": "5",
       "term": 1
     },
-    "à®¨à®®à®¤à¯ à®ªà¯‚à®®à®¿ ": {
+    "நமது பூமி ": {
       "local": true,
       "filename": "Lesson_1",
       "grade": "5",
       "term": 1
     },
-    "à®µà®°à®²à®¾à®±à¯à®±à¯ˆ à®¨à¯‹à®•à¯à®•à®¿ ": {
+    "வரலாற்றை நோக்கி ": {
       "local": true,
       "filename": "Lesson_2",
       "grade": "5",
       "term": 1
     },
-    "à®¨à®²à¯à®² à®•à¯à®Ÿà®¿à®®à®•à®©à¯": {
+    "நல்ல குடிமகன்": {
       "local": true,
       "filename": "Lesson_3",
       "grade": "5",
       "term": 1
     },
-    "à®µà®³à®¿à®®à®£à¯à®Ÿà®²à®®à¯": {
+    "வளிமண்டலம்": {
       "local": true,
       "filename": "Lesson_4",
       "grade": "5",
@@ -615,7 +639,7 @@ export const lessonMap = {
     }
   },
   "tamil": {
-    "à®µà®¿à®³à¯ˆà®¯à®¾à®Ÿà¯à®Ÿà¯ à®‰à®²à®•à®®à¯": {
+    "விளையாட்டு உலகம்": {
       "local": true,
       "filename": "Lesson_1",
       "grade": "2",
@@ -627,7 +651,7 @@ export const lessonMap = {
       "grade": "5",
       "term": 2
     },
-    "à®šà¯†à®¯à¯à®¤à¯ à®®à®•à®¿à®´à¯à®µà¯‹à®®à¯": {
+    "செய்து மகிழ்வோம்": {
       "local": true,
       "filename": "Lesson_2",
       "grade": "3",
@@ -639,7 +663,7 @@ export const lessonMap = {
       "grade": "5",
       "term": 2
     },
-    "à®šà¯Šà®²à¯à®²à®¾à®¤à¯‡ à®šà¯Šà®²à¯à®²à®¾à®¤à¯‡": {
+    "சொல்லாதே சொல்லாதே": {
       "local": true,
       "filename": "Lesson_3",
       "grade": "2",
@@ -651,7 +675,7 @@ export const lessonMap = {
       "grade": "5",
       "term": 1
     },
-    "à®¨à®¾à®©à¯à®®à¯ à®¨à®¾à®™à¯à®•à®³à¯à®®à¯": {
+    "நானும் நாங்களும்": {
       "local": true,
       "filename": "Lesson_4",
       "grade": "2",
@@ -663,25 +687,25 @@ export const lessonMap = {
       "grade": "5",
       "term": 1
     },
-    "à®¤à®®à®¿à®´à¯ à®…à®®à¯à®¤à¯": {
+    "தமிழ் அமுது": {
       "local": true,
       "filename": "Lesson_1",
       "grade": "3",
       "term": 1
     },
-    "à®•à®£à¯à®£à®©à¯ à®šà¯†à®¯à¯à®¤ à®‰à®¤à®µà®¿": {
+    "கண்ணன் செய்த உதவி": {
       "local": true,
       "filename": "Lesson_3",
       "grade": "3",
       "term": 1
     },
-    "à®šà®¿à®©à¯à®©à¯à®µà®¿à®©à¯ à®•à®¤à¯ˆà®ªà¯à®ªà®¾à®Ÿà®²à¯": {
+    "சின்னுவின் கதைப்பாடல்": {
       "local": true,
       "filename": "Lesson_4",
       "grade": "3",
       "term": 1
     },
-    "à®ªà®¾à®Ÿà¯à®Ÿà¯ à®µà®£à¯à®Ÿà®¿à®¯à®¿à®²à¯‡...": {
+    "பாட்டு வண்டியிலே...": {
       "local": true,
       "filename": "Lesson_5",
       "grade": "3",
@@ -693,13 +717,13 @@ export const lessonMap = {
       "grade": "5",
       "term": 1
     },
-    "à®…à®©à¯à®©à¯ˆà®¤à¯ à®¤à®®à®¿à®´à¯‡ *": {
+    "அன்னைத் தமிழே *": {
       "local": true,
       "filename": "Lesson_1",
       "grade": "4",
       "term": 1
     },
-    "à®‡à®¯à®²à¯ 8: à®µà¯†à®±à¯à®±à®¿ à®µà¯‡à®±à¯à®•à¯ˆ *": {
+    "இயல் 8: வெற்றி வேற்கை *": {
       "local": true,
       "filename": "Lesson_10",
       "grade": "4",
@@ -711,7 +735,7 @@ export const lessonMap = {
       "grade": "4",
       "term": 1
     },
-    "à®‡à®¯à®²à¯ 9: à®µà®¿à®Ÿà®¿à®¯à¯à®®à¯ à®µà¯‡à®³à¯ˆ *": {
+    "இயல் 9: விடியும் வேளை *": {
       "local": true,
       "filename": "Lesson_11",
       "grade": "4",
@@ -723,31 +747,31 @@ export const lessonMap = {
       "grade": "4",
       "term": 1
     },
-    "à®‡à®¯à®²à¯ 10: à®•à®°à®¿à®•à®¾à®²à®©à¯ à®•à®Ÿà¯à®Ÿà®¿à®¯ à®•à®²à¯à®²à®£à¯ˆ *": {
+    "இயல் 10: கரிகாலன் கட்டிய கல்லணை *": {
       "local": true,
       "filename": "Lesson_2",
       "grade": "4",
       "term": 1
     },
-    "à®‡à®¯à®²à¯ 11: à®…à®•à®°à®®à¯à®¤à®²à®¿ *": {
+    "இயல் 11: அகரமுதலி *": {
       "local": true,
       "filename": "Lesson_3",
       "grade": "4",
       "term": 1
     },
-    "à®‡à®¯à®²à¯ 2: à®ªà®©à¯ˆà®®à®°à®šà¯à®šà®¿à®±à®ªà¯à®ªà¯ *": {
+    "இயல் 2: பனைமரச்சிறப்பு *": {
       "local": true,
       "filename": "Lesson_4",
       "grade": "4",
       "term": 1
     },
-    "à®‡à®¯à®²à¯ 3: à®¯à®¾à®°à¯ à®¤à®²à¯ˆà®µà®°à¯? *": {
+    "இயல் 3: யார் தலைவர்? *": {
       "local": true,
       "filename": "Lesson_5",
       "grade": "4",
       "term": 1
     },
-    "à®‡à®¯à®²à¯ 4: à®à®´à¯ à®‡à®±à®•à¯à®•à¯ˆà®•à¯à®•à¯à®°à¯à®µà®¿à®¯à¯à®®à¯ à®¤à¯†à®©à®¾à®²à®¿à®°à®¾à®®à®©à¯à®®à¯ *": {
+    "இயல் 4: ஏழு இறக்கைக்குருவியும் தெனாலிராமனும் *": {
       "local": true,
       "filename": "Lesson_6",
       "grade": "4",
@@ -759,7 +783,7 @@ export const lessonMap = {
       "grade": "5",
       "term": 1
     },
-    "à®‡à®¯à®²à¯ 5: à®®à¯à®³à¯ˆà®ªà¯à®ªà®¾à®°à®¿ - à®ªà®¾à®Ÿà®²à¯ *": {
+    "இயல் 5: முளைப்பாரி - பாடல் *": {
       "local": true,
       "filename": "Lesson_7",
       "grade": "4",
@@ -771,7 +795,7 @@ export const lessonMap = {
       "grade": "5",
       "term": 1
     },
-    "à®‡à®¯à®²à¯ 6: à®ªà®£à¯à®ªà®Ÿà¯à®¤à¯à®¤à¯à®®à¯ à®ªà®´à®®à¯Šà®´à®¿à®•à®³à¯ *": {
+    "இயல் 6: பண்படுத்தும் பழமொழிகள் *": {
       "local": true,
       "filename": "Lesson_8",
       "grade": "4",
@@ -783,7 +807,7 @@ export const lessonMap = {
       "grade": "4",
       "term": 1
     },
-    "à®‡à®¯à®²à¯ 7: à®®à¯à®¯à®²à¯ à®…à®°à®šà®©à¯ *": {
+    "இயல் 7: முயல் அரசன் *": {
       "local": true,
       "filename": "Lesson_9",
       "grade": "4",
@@ -795,55 +819,55 @@ export const lessonMap = {
       "grade": "4",
       "term": 1
     },
-    "à®¤à®®à®¿à®´à®¿à®©à¯ à®‡à®©à®¿à®®à¯ˆ *": {
+    "தமிழின் இனிமை *": {
       "local": true,
       "filename": "Lesson_1",
       "grade": "5",
       "term": 1
     },
-    "à®µà®±à¯à®®à¯ˆà®¯à®¿à®²à¯à®®à¯ à®¨à¯‡à®°à¯à®®à¯ˆ *": {
+    "வறுமையிலும் நேர்மை *": {
       "local": true,
       "filename": "Lesson_2",
       "grade": "5",
       "term": 1
     },
-    "à®•à®µà®¿à®¤à¯ˆà®ªà¯ à®ªà®Ÿà¯à®Ÿà®¿à®®à®©à¯à®±à®®à¯ (à®…à®±à®¿à®µà®¾? à®ªà®£à¯à®ªà®¾?) *": {
+    "கவிதைப் பட்டிமன்றம் (அறிவா? பண்பா?) *": {
       "local": true,
       "filename": "Lesson_3",
       "grade": "5",
       "term": 1
     },
-    "à®…à®±à®¿à®µà¯ à®¨à®¿à®²à®¾ *": {
+    "அறிவு நிலா *": {
       "local": true,
       "filename": "Lesson_4",
       "grade": "5",
       "term": 1
     },
-    "à®Žà®©à¯à®© à®šà®¤à¯à®¤à®®à¯ (à®®à®°à®ªà¯à®šà¯ à®šà¯Šà®±à¯à®•à®³à¯) *": {
+    "என்ன சத்தம் (மரபுச் சொற்கள்) *": {
       "local": true,
       "filename": "Lesson_5",
       "grade": "5",
       "term": 1
     },
-    "à®®à¯‚à®¤à¯à®°à¯ˆ *": {
+    "மூதுரை *": {
       "local": true,
       "filename": "Lesson_6",
       "grade": "5",
       "term": 1
     },
-    "à®•à®²à¯à®µà®¿à®šà¯à®šà¯†à®²à¯à®µà®®à¯à®®à¯ à®ªà¯Šà®°à¯à®Ÿà¯à®šà¯†à®²à¯à®µà®®à¯à®®à¯ *": {
+    "கல்விச்செல்வமும் பொருட்செல்வமும் *": {
       "local": true,
       "filename": "Lesson_7",
       "grade": "5",
       "term": 1
     },
-    "à®Žà®¤à®©à®¾à®²à¯‡? à®Žà®¤à®©à®¾à®²à¯‡? à®®à®±à¯à®±à¯à®®à¯ à®…à®±à®¿à®µà®¿à®¯à®²à®¾à®²à¯ à®†à®³à¯à®µà¯‹à®®à¯": {
+    "எதனாலே? எதனாலே? மற்றும் அறிவியலால் ஆள்வோம்": {
       "local": true,
       "filename": "Lesson_1",
       "grade": "5",
       "term": 2
     },
-    "à®®à¯‚à®¤à¯à®°à¯ˆ, à®•à®²à¯à®µà®¿ à®®à®±à¯à®±à¯à®®à¯ à®ªà¯Šà®°à¯à®Ÿà¯à®šà¯†à®²à¯à®µà®®à¯, à®µà®¾à®°à®¿à®¤à¯ à®¤à®¨à¯à®¤ à®µà®³à¯à®³à®²à¯": {
+    "மூதுரை, கல்வி மற்றும் பொருட்செல்வம், வாரித் தந்த வள்ளல்": {
       "local": true,
       "filename": "Lesson_2",
       "grade": "5",
