@@ -228,6 +228,77 @@
         .ticker-inner { display: inline-block; animation: scroll 20s linear infinite; }
         @keyframes scroll { from { transform: translateX(100%); } to { transform: translateX(-100%); } }
 
+        /* --- Lock Modal --- */
+        .lock-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(15, 23, 42, 0.7);
+            backdrop-filter: blur(5px);
+            z-index: 2000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .lock-modal-content {
+            background: white;
+            width: 90%;
+            max-width: 350px;
+            padding: 25px 20px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.2);
+            animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        @keyframes popIn {
+            0% { transform: scale(0.8); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        .lock-icon {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        .lock-modal-content h3 {
+            color: #1e293b;
+            font-size: 1.2rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+        .lock-modal-content p {
+            color: #64748b;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        .btn-join-paid {
+            display: block;
+            background: linear-gradient(135deg, #e11d48, #be123c);
+            color: white;
+            padding: 12px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 800;
+            font-size: 0.95rem;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 15px rgba(225, 29, 72, 0.3);
+        }
+        .btn-close-modal {
+            display: block;
+            width: 100%;
+            background: #f1f5f9;
+            color: #475569;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            font-weight: 700;
+            font-size: 0.9rem;
+            cursor: pointer;
+        }
+        
+        .locked-card {
+            opacity: 0.85;
+            filter: grayscale(0.5);
+        }
     </style>
 </head>
 <body>
@@ -258,52 +329,52 @@
         <h2 class="section-title">பாடத்தைத் தேர்ந்தெடுக்கவும்</h2>
 
         <div class="subject-list">
-            <a href="subject.html?id=tamil&paper=1" class="subject-card tamil">
+            <a href="#" onclick="showLockModal(event)" class="subject-card tamil locked-card">
                 <div class="icon-wrapper">📖</div>
                 <div class="subject-info">தமிழ்</div>
-                <div class="chevron">❯</div>
+                <div class="chevron">🔒</div>
             </a>
 
-            <a href="subject.html?id=english&paper=1" class="subject-card english">
+            <a href="#" onclick="showLockModal(event)" class="subject-card english locked-card">
                 <div class="icon-wrapper">🔤</div>
                 <div class="subject-info">ஆங்கிலம்</div>
-                <div class="chevron">❯</div>
+                <div class="chevron">🔒</div>
             </a>
 
-            <a href="subject.html?id=maths&paper=1" class="subject-card maths">
+            <a href="#" onclick="showLockModal(event)" class="subject-card maths locked-card">
                 <div class="icon-wrapper">📏</div>
                 <div class="subject-info">கணிதம்</div>
-                <div class="chevron">❯</div>
+                <div class="chevron">🔒</div>
             </a>
 
-            <a href="subject.html?id=science&paper=1" class="subject-card science">
+            <a href="#" onclick="showLockModal(event)" class="subject-card science locked-card">
                 <div class="icon-wrapper">🌿</div>
                 <div class="subject-info">சூழ்நிலையியல்</div>
-                <div class="chevron">❯</div>
+                <div class="chevron">🔒</div>
             </a>
 
-            <a href="subject.html?id=social&paper=1" class="subject-card social">
+            <a href="#" onclick="showLockModal(event)" class="subject-card social locked-card">
                 <div class="icon-wrapper">🌍</div>
                 <div class="subject-info">சமூக அறிவியல்</div>
-                <div class="chevron">❯</div>
+                <div class="chevron">🔒</div>
             </a>
 
-            <a href="subject.html?id=psychology" class="subject-card psy">
+            <a href="#" onclick="showLockModal(event)" class="subject-card psy locked-card">
                 <div class="icon-wrapper">🧠</div>
                 <div class="subject-info">உளவியல்</div>
-                <div class="chevron">❯</div>
+                <div class="chevron">🔒</div>
             </a>
 
-            <a href="subject.html?id=mocktest" class="subject-card std678">
+            <a href="#" onclick="showLockModal(event)" class="subject-card std678 locked-card">
                 <div class="icon-wrapper">📝</div>
                 <div class="subject-info">மாதிரித்தேர்வு</div>
-                <div class="chevron">❯</div>
+                <div class="chevron">🔒</div>
             </a>
 
-            <a href="subject.html?id=revision" class="subject-card std678">
+            <a href="#" onclick="showLockModal(event)" class="subject-card std678 locked-card">
                 <div class="icon-wrapper">🔄</div>
                 <div class="subject-info">திருப்புதல் தேர்வு</div>
-                <div class="chevron">❯</div>
+                <div class="chevron">🔒</div>
             </a>
         </div>
     </main>
@@ -323,6 +394,25 @@
         </a>
     </nav>
 
-    <!-- No auth or login scripts needed anymore -->
+    <!-- Lock Modal -->
+    <div id="lockModal" class="lock-overlay" style="display: none;">
+        <div class="lock-modal-content">
+            <div class="lock-icon">🔒</div>
+            <h3>இந்தப் பகுதி லாக் செய்யப்பட்டுள்ளது!</h3>
+            <p>முழுமையான பாடங்கள் மற்றும் தேர்வுகளை அணுக PAID GROUP-ல் இணையவும்.</p>
+            <a href="https://wa.me/916369371452?text=Paid Group-ல் இணைய விரும்புகிறேன்" target="_blank" class="btn-join-paid">💎 PAID GROUP-ல் இணைய</a>
+            <button class="btn-close-modal" onclick="closeLockModal()">மூடு (Close)</button>
+        </div>
+    </div>
+
+    <script>
+        function showLockModal(e) {
+            if(e) e.preventDefault();
+            document.getElementById('lockModal').style.display = 'flex';
+        }
+        function closeLockModal() {
+            document.getElementById('lockModal').style.display = 'none';
+        }
+    </script>
 </body>
 </html>
