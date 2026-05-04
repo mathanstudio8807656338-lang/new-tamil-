@@ -298,9 +298,9 @@
                             <div class="l-title">${title}</div>
                         </div>
                         <div class="l-actions">
-                            ${isNotesOpen ? 
+                            ${isNotesOpen && cSubject !== 'mocktest' ? 
                                 `<a href="material.html?subject=${cSubject}&class=${cGrade}&term=${cTerm}&lesson=${fileId}" class="btn-sm btn-n">📖 குறிப்புகள்</a>` : 
-                                `<div class="btn-sm btn-l">🔒 Locked</div>`}
+                                (cSubject === 'mocktest' ? '' : `<div class="btn-sm btn-l">🔒 Locked</div>`)}
                             
                             ${isExamOpen ? 
                                 `<a href="quiz.html?subject=${cSubject}&class=${cGrade}&term=${cTerm}&lesson=${fileId}" class="btn-sm btn-e">📝 தேர்வு (Exam)</a>` : 

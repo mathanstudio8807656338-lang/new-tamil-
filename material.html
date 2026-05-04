@@ -497,24 +497,9 @@
                     const title = meta.title || data.title || lessonId;
 
                     if (data) {
-                        let sections = data.sections || (data.material && data.material.sections);
+                        const sections = data.sections || (data.material && data.material.sections);
                         const summary = data.summary || (data.material && data.material.summary);
                         
-                        // Fallback for lessons (like Mock Tests) that only have a quiz but no material sections
-                        if ((!sections || sections.length === 0) && data.quiz) {
-                            const quizData = Array.isArray(data.quiz) ? data.quiz : (data.quiz.questions || []);
-                            if (quizData.length > 0) {
-                                sections = [{
-                                    title: "வினா-விடை தொகுப்பு (Study Guide)",
-                                    type: "pyq",
-                                    content: quizData.map(q => ({
-                                        question: q.q || q.question,
-                                        answer: q.ex || q.explanation || (typeof q.a === 'number' ? (q.options ? q.options[q.a] : "") : q.a)
-                                    }))
-                                }];
-                            }
-                        }
-
                         const fullHeader = `${currentTheme.header} - ${title}`;
                         document.getElementById('lessonTitle').innerText = fullHeader;
                         
