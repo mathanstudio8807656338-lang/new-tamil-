@@ -1,10 +1,10 @@
 {
   "unit": "Daily Challenge",
-  "subject": "TAMIL",
-  "title": "இன்றைய தேர்வு: கவிதைப் பட்டிமன்றம் (அறிவா? பண்பா?) * & அறிவு நிலா *",
-  "status": "open",
-  "lastUpdated": "4/5/2026, 11:38:48 pm",
-  "activeSubject": "tamil",
+  "subject": "ENGLISH",
+  "title": "இன்றைய குறிப்புகள்: Unit 1: Exploring Space || அலகு 1: விண்வெளிப் பயணம் & Unit 2: My Native Place || அலகு 2: எனது சொந்த ஊர்",
+  "status": "notes",
+  "lastUpdated": "5/5/2026, 9:26:45 am",
+  "activeSubject": "english",
   "activeGrade": "5",
   "activeGrades": [
     "5",
@@ -15,1094 +15,1842 @@
     "1"
   ],
   "activeTitles": [
-    "கவிதைப் பட்டிமன்றம் (அறிவா? பண்பா?) *",
-    "அறிவு நிலா *"
+    "Unit 1: Exploring Space || அலகு 1: விண்வெளிப் பயணம்",
+    "Unit 2: My Native Place || அலகு 2: எனது சொந்த ஊர்"
   ],
   "activeFiles": [
-    "Lesson_3",
-    "Lesson_4"
+    "Lesson_1",
+    "Lesson_2"
   ],
   "quiz": [
     {
-      "q": "1. 'நற்றமிழ்' இச்சொல்லைப் பிரித்து எழுதக் கிடைப்பது எது?",
+      "q": "In which year and on which planet is the story 'Earth, the Desolated Home' set? || 'Earth, the Desolated Home' கதை எந்த ஆண்டில் மற்றும் எந்த கிரகத்தில் நடக்கிறது?",
       "options": [
-        "நல் + தமிழ்",
-        "நன்மை + தமிழ்",
-        "நற் + தமிழ்",
-        "நத்து + தமிழ்"
-      ],
-      "a": 1,
-      "ex": "நன்மை + தமிழ் = நற்றமிழ். நிலைமொழியின் ஈற்றில் உள்ள 'மை' விகுதி கெட்டு, 'நன்மை' என்பது 'நல்' எனத் திரிந்து பின் 'நற்றமிழ்' எனப் புணரும்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "2. 'அகிலம்' மற்றும் 'அண்டம்' என்ற சொற்கள் எதனைக் குறிக்கின்றன?",
-      "options": [
-        "வானம்",
-        "உலகம்",
-        "பூமி",
-        "கடல்"
-      ],
-      "a": 1,
-      "ex": "அகிலம், அண்டம், பார், ஞாலம், வைையம் போன்ற சொற்கள் யாவும் உலகத்தையே குறிக்கின்றன.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "3. அறிவு + ஆயுதம் என்பதனைச் சேர்த்து எழுதக் கிடைக்கும் சரியான சொல் யாது?",
-      "options": [
-        "அறிவாயுதம்",
-        "அறிவாழி",
-        "அறிவாயிரம்",
-        "அறிவோயுதம்"
-      ],
-      "a": 0,
-      "ex": "அறிவு என்னும் சொல்லின் ஈற்றில் உள்ள 'உ' கெட்டு, வருமொழியின் முதலில் உள்ள 'ஆ' உடன் இணைந்து 'அறிவாயுதம்' என்றானது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "4. 'புகழ்' என்னும் சொல்லின் சரியான எதிர்ச்சொல் எது?",
-      "options": [
-        "மகிழ்",
-        "இகழ்",
-        "அகழ்",
-        "நிகழ்"
-      ],
-      "a": 1,
-      "ex": "புகழ் என்பது ஒருவரின் பெருமையைக் குறிக்கும். அதற்கு நேர் எதிர் சொல்லான 'இகழ்' என்பது ஒருவரைத் தாழ்வாகப் பேசுவதைக் குறிக்கும்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "5. இப்பாடப்பகுதியின்படி 'புத்தர்' மற்றும் 'திருவள்ளுவர்' எத்தகைய பண்பிற்கு உதாரணமாகக் கூறப்பட்டுள்ளனர்?",
-      "options": [
-        "அறிவாற்றல்",
-        "வீரம்",
-        "நேர்மை மற்றும் நற்பண்பு",
-        "கல்வி"
+        "A) 2058, Earth || அ) 2058, பூமி",
+        "B) 2086, Jupiter || ஆ) 2086, வியாழன்",
+        "C) 2068, Mars || இ) 2068, செவ்வாய் கிரகம்",
+        "D) 2168, Saturn || ஈ) 2168, சனி"
       ],
       "a": 2,
-      "ex": "இன்சுவை எனும் கதாபாத்திரம், புத்தரின் மனிதாபிமானத்தையும் வள்ளுவரின் அறநெறிகளையும் பண்பிற்குச் சான்றாகக் குறிப்பிட்டார்.",
-      "lesson": "Lesson_3"
+      "ex": "The story is set in 2068 on Mars after Earth's destruction. || மனிதர்களின் சுரண்டலால் பூமி அழிக்கப்பட்ட பிறகு, 2068-ல் மனிதர்கள் செவ்வாய் கிரகத்தில் வாழ்வதாக கதை அமைக்கப்பட்டுள்ளது.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "6. 'அறிவினால் அண்டம் ஆளலாம்' என்று பட்டிமன்றத்தில் முழங்கியவர் யார்?",
+      "q": "How long did it take for the grandfather to travel to see Arivumathi? || தாத்தா அறிவுமதியைச் சந்திக்க எவ்வளவு காலம் பயணம் செய்தார்?",
       "options": [
-        "மதியொளி",
-        "அருளப்பன்",
-        "சலீமா",
-        "நடுவர்"
+        "A) 150 days || அ) 150 நாட்கள்",
+        "B) 1500 sols || ஆ) 1500 sols (மார்ஷியன் நாட்கள்)",
+        "C) 1500 hours || இ) 1500 மணிநேரம்",
+        "D) 15 months || ஈ) 15 மாதங்கள்"
       ],
       "a": 1,
-      "ex": "அருளப்பன் என்பவர் அறிவு சிறந்தது என்பதை நிலைநாட்ட 'அறிவினால் அண்டம் ஆளலாம்' என்ற கருத்தை வலியுறுத்தினார்.",
-      "lesson": "Lesson_3"
+      "ex": "It took 1500 Martian days (sols) for grandfather to reach. || தாத்தா செவ்வாய் கிரகத்தில் உள்ள அறிவுமதியின் மையத்தை அடைய 1500 sols பயணம் செய்தார்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "7. 'விசும்பு' என்னும் சொல்லின் சரியான பொருள் யாது?",
+      "q": "How is water produced on Mars? || செவ்வாய் கிரகத்தில் தண்ணீர் எவ்வாறு உற்பத்தி செய்யப்படுகிறது?",
       "options": [
-        "கடல்",
-        "வானம்",
-        "காற்று",
-        "நெருப்பு"
-      ],
-      "a": 1,
-      "ex": "விசும்பு என்றால் வானம் அல்லது ஆகாயம் என்று பொருள். 'விசும்பு வழங்கிய இளநீர்' போன்ற பயன்பாடுகளும் உண்டு.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "8. அக்னிச் சிறகு ஆசிரியர் அப்துல் கலாம் மற்றும் எடிசன் எதனைக் கொண்டு வெற்றிக் கண்டனர்?",
-      "options": [
-        "பணம்",
-        "அறிவாற்றல்",
-        "அமைதி",
-        "வீரம்"
-      ],
-      "a": 1,
-      "ex": "அப்துல் கலாம் மற்றும் தாமஸ் ஆல்வா எடிசன் ஆகியோர் கவிதைப் பட்டிமன்றத்தில் 'அறிவாற்றலுக்குச்' சிறந்த எடுத்துக்காட்டுகளாகக் கூறப்பட்டுள்ளனர்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "9. 'செந்தமிழ்' என்பதனைச் சரியாகப் பிரித்து எழுதக் கிடைப்பது எது?",
-      "options": [
-        "செந் + தமிழ்",
-        "செம்மை + தமிழ்",
-        "சே + தமிழ்",
-        "செந்த + தமிழ்"
-      ],
-      "a": 1,
-      "ex": "செம்மை + தமிழ் = செந்தமிழ். பண்புத்தொகைப் புணர்ச்சியின்படி 'மை' கெட்டு, மகரம் திரிரிந்து 'நி' ஆகிச் செந்தமிழ் என்றானது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "10. 'நவிலல்' என்ற சொல்லின் பொருள் யாது?",
-      "options": [
-        "பாடுதல்",
-        "சொல்லல் / கூறுதல்",
-        "ஆடுதல்",
-        "உறங்குதல்"
-      ],
-      "a": 1,
-      "ex": "நவிலல் என்றால் ஒரு கருத்தைச் சொல்லுதல் அல்லது எடுத்துரைத்தல் என்று பொருள்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "11. நடுவர் இறுதித் தீர்ப்பில் அறிவையும் பண்பையும் எதனுடன் ஒப்பிட்டார்?",
-      "options": [
-        "இரு கைகள்",
-        "இரு கால்கள்",
-        "இரு கண்கள்",
-        "இரு செவிகள்"
+        "A) Rainfall || அ) மழையின் மூலம்",
+        "B) Rivers || ஆ) நதிகளில் இருந்து",
+        "C) Burning fuels || இ) எரிபொருட்களை எரிப்பதன் மூலம்",
+        "D) Melting glaciers || ஈ) பனிப்பாறைகளை உருக்குவதன் மூலம்"
       ],
       "a": 2,
-      "ex": "மனிதனுக்கு இரு கண்கள் எவ்வளவு முக்கியமோ, அம்மாதிரி அறிவும் பண்பும் ஒரு மனிதனின் முன்னேற்றத்திற்கு அவசியம் என்று நடுவர் தீர்ப்பளித்தார்.",
-      "lesson": "Lesson_3"
+      "ex": "On Mars, water is artificially produced by burning fuels. || செவ்வாயில் எரிபொருட்களை எரிப்பதன் மூலமே செயற்கையாக நீர் உருவாக்கப்படுகிறது.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "12. 'பண்பிலான் பெற்ற பெருஞ்செல்வம்' யாருக்குப் போன்றது என சலீமா குறிப்பிடுகிறார்?",
+      "q": "Which planets are mentioned in the poem 'Beyond the Universe'? || 'Beyond the Universe' கவிதையில் வரும் கிரகங்கள் யாவை?",
       "options": [
-        "மன்னன் போன்றது",
-        "களர்நிலம் போன்றது (பயனற்றது)",
-        "வானம் போன்றது",
-        "கடல் போன்றது"
-      ],
-      "a": 1,
-      "ex": "பண்பு இல்லாதவன் அடையும் செல்வம் நல்ல பாத்திரம் இல்லாமல் ஊற்றப்படும் பால் திரிந்து போவதைப்போல எவருக்கும் பயன்படாது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "13. 'கவியரங்கம்' - இச்சொல்லைப் பிரித்து எழுதும் முறை யாது?",
-      "options": [
-        "கவி + அரங்கம்",
-        "கவிய + அரங்கம்",
-        "கவி + ரங்கம்",
-        "கவி + யரங்கம்"
+        "A) Earth, Mars, Saturn, Jupiter, Uranus, Neptune || அ) பூமி, செவ்வாய், சனி, வியாழன், யுரேனஸ், நெப்டியூன்",
+        "B) Mercury, Venus, Earth, Mars || ஆ) புதன், வெள்ளி, பூமி, செவ்வாய்",
+        "C) Jupiter, Saturn, Pluto || இ) வியாழன், சனி, புளூட்டோ",
+        "D) Earth, Moon, Sun || ஈ) பூமி, நிலவு, சூரியன்"
       ],
       "a": 0,
-      "ex": "கவி + அரங்கம் = கவியரங்கம். இங்கு 'இ' என்ற உயிரெழுத்தோடு 'அ' என்ற உயிரெழுத்து சேரும்போது 'ய' என்ற உடம்படுமெய் தோன்றும்.",
-      "lesson": "Lesson_3"
+      "ex": "The poet glides past Earth, Mars, Saturn, Jupiter, Uranus, and Neptune. || கவிஞர் பூமி, செவ்வாய், சனி, வியாழன், யுரேனஸ் மற்றும் நெப்டியூன் ஆகிய கிரகங்களைக் கடந்து செல்வதாகக் கூறுகிறார்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "14. 'வெளிச்சம்' என்பதைக் குறிக்கும் மற்றொரு சொல் எது?",
+      "q": "How did Amuthan and Nilavan return to Earth? || அமுதன் மற்றும் நிலவன் எவ்வாறு பூமிக்கு திரும்பினர்?",
       "options": [
-        "இருள்",
-        "ஒளி",
-        "மின்சாரம்",
-        "வானம்"
+        "A) Grandfather rescued them || அ) தாத்தா காப்பாற்றினார்",
+        "B) Friendly aliens repaired their shuttle || ஆ) ஏலியன்கள் விண்கலத்தை சரிசெய்து உதவினர்",
+        "C) Flew it themselves || இ) தாங்களே இயக்கினர்",
+        "D) Scientists rescued them || ஈ) விஞ்ஞானிகள் மீட்டனர்"
       ],
       "a": 1,
-      "ex": "வெளிச்சம் மற்றும் ஒளி என்பன ஒரே பொருளைத் தரும் சொற்களாகும்.",
-      "lesson": "Lesson_3"
+      "ex": "Friendly green aliens repaired their space shuttle. || நட்புமிக்க பச்சை நிற வேற்றுகிரகவாசிகள் விண்கலத்தை சரிசெய்து அவர்களை அனுப்பி வைத்தனர்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "15. 'பண்புதான் வெற்றிப் படிக்கட்டு' என்று கூறிய கதாபாத்திரம் எது?",
+      "q": "How many Indian colonies were on Mars by 2068? || 2068-ல் செவ்வாயில் இந்தியா எத்தனை குடியிருப்புகளை அமைத்தது?",
       "options": [
-        "மதியொளி",
-        "அருளப்பன்",
-        "இன்சுவை",
-        "வள்ளுவர்"
+        "A) Two || அ) இரண்டு",
+        "B) Three || ஆ) மூன்று",
+        "C) Four || இ) நான்கு",
+        "D) Five || ஈ) ஐந்து"
+      ],
+      "a": 1,
+      "ex": "India established three colonies on Mars. || இந்தியா செவ்வாய் கிரகத்தில் மூன்று குடியிருப்புகளை நிறுவியுள்ளது.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What does 'Sol' mean in the lesson? || 'Sol' என்ற வார்த்தையின் அர்த்தம் என்ன?",
+      "options": [
+        "A) Solar eclipse || அ) சூரிய கிரகணம்",
+        "B) Day on Earth || ஆ) பூமியின் ஒரு நாள்",
+        "C) Day on Mars || இ) செவ்வாய் கிரகத்தின் ஒரு நாள்",
+        "D) Type of fuel || ஈ) ஒரு வகை எரிபொருள்"
       ],
       "a": 2,
-      "ex": "இன்சுவை எனும் சிறுமி, பண்புதான் ஒரு மனிதனை வெற்றியை நோக்கிச் கூட்டிச் செல்லும் படிக்கட்டு என்று வாதிட்டார்.",
-      "lesson": "Lesson_3"
+      "ex": "A Sol represents a single day on planet Mars. || 'Sol' என்பது செவ்வாய் கிரகத்தில் ஒரு நாளைக் குறிக்கும் சொல்லாகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "16. 'அகிலமெல்லாம்' - இச்சொல்லைப் பிரித்து எழுதுக.",
+      "q": "Which planet is characterized by 'red storms' in the poem? || சிவப்பு புயல்களால் வகைப்படுத்தப்படும் கிரகம் எது?",
       "options": [
-        "அகிலம் + எலாம்",
-        "அகிலம் + எல்லாம்",
-        "அகிலம் + லும்",
-        "அகி + மெல்லாம்"
-      ],
-      "a": 1,
-      "ex": "அகிலம் + எல்லாம் = அகிலமெல்லாம். மகர மெய்யுடன் எகரம் சேர்ந்து மே எனப் புணர்ந்தது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "17. 'மாண்பு' என்பதன் பொருள் யாது?",
-      "options": [
-        "அழகு",
-        "சிறப்பு / பெருமை",
-        "வலிமை",
-        "கோபம்"
-      ],
-      "a": 1,
-      "ex": "மாண்பு என்றால் ஒருவரின் சிறப்பு அல்லது மேன்மையான குணத்தைக் குறிக்கும்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "18. இப்பாடப்பகுதி மாணவர்களிடம் எத்தகைய திறனை வளர்க்க உதவுகிறது?",
-      "options": [
-        "ஓடும் திறன்",
-        "ஆடும் திறன்",
-        "பேச்சு மற்றும் விவாதத்திறன்",
-        "உறங்கும் திறன்"
+        "A) Mars || அ) செவ்வாய்",
+        "B) Saturn || ஆ) சனி",
+        "C) Jupiter || இ) வியாழன்",
+        "D) Uranus || ஈ) யுரேனஸ்"
       ],
       "a": 2,
-      "ex": "பட்டிமன்றப் பாடப்பகுதி மாணவர்களின் விவாதத்திறனையும், கவிதை எழுதும் திறனையும் வளர்க்கும் நோக்கத்தோடு அமைக்கப்பட்டுள்ளது.",
-      "lesson": "Lesson_3"
+      "ex": "Jupiter is noted for its red storms. || வியாழன் அதன் சிவப்பு புயல்களுக்காக கவிதையில் குறிப்பிடப்படுகிறது.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "19. 'அறிவாக் ஆயுதம்' - இதில் ஆயுதம் எதனைக் குறிக்கும்?",
+      "q": "Which planet is called the 'blue ice giant'? || 'நீல பனி அரக்கன்' என்று அழைக்கப்படும் கிரகம் எது?",
       "options": [
-        "கத்தி",
-        "துப்பாக்கி",
-        "கருவி / வழிமுறை",
-        "கேடயம்"
+        "A) Neptune || அ) நெப்டியூன்",
+        "B) Earth || ஆ) பூமி",
+        "C) Uranus || இ) யுரேனஸ்",
+        "D) Saturn || ஈ) சனி"
+      ],
+      "a": 0,
+      "ex": "Neptune is described as the blue ice giant. || நெப்டியூன் அதன் குளிர்ந்த, நீல நிறத்தால் இவ்வாறு வர்ணிக்கப்படுகிறது.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Where did Amuthan and Nilavan accidentally lock themselves? || அமுதனும் நிலவனும் மீண்டும் எங்கு சிக்கிக்கொண்டனர்?",
+      "options": [
+        "A) Space suit || அ) விண்வெளி உடையில்",
+        "B) Functional space shuttle || ஆ) ஒரு விண்வெளி ஓடத்தில்",
+        "C) Capsule || இ) ஒரு காப்ஸ்யூலில்",
+        "D) Alien spaceship || ஈ) வேற்றுகிரகவாசிகளின் கப்பலில்"
+      ],
+      "a": 1,
+      "ex": "They locked themselves inside a functional space shuttle. || அவர்கள் ஒரு விண்வெளி ஓடத்திற்குள் (space shuttle) தவறுதலாக சிக்கிக்கொண்டனர்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What did the boys pull to launch the shuttle? || சிறுவர்கள் எதை இழுத்ததால் விண்கலம் ஏவப்பட்டது?",
+      "options": [
+        "A) A button || அ) ஒரு பொத்தான்",
+        "B) A rope || ஆ) ஒரு கயிறு",
+        "C) A lever || இ) ஒரு நெம்புகோல் (lever)",
+        "D) A switch || ஈ) ஒரு சுவிட்ச்"
       ],
       "a": 2,
-      "ex": "வெற்றியை அடைய அறிவு எனும் கருவியே (Weapon) சிறந்தது என்பது கவிஞரின் கருத்து.",
-      "lesson": "Lesson_3"
+      "ex": "Pulling a lever initiated the launch. || ஒரு நெம்புகோலை தவறுதலாக இழுத்ததால் விண்கலம் இயங்கத் தொடங்கியது.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "20. பண்பு சிறந்தது என்று வாதிட்ட ஜோடி எது?",
+      "q": "Which compound word is formed by joining 'Light + House'?",
       "options": [
-        "இன்சுவை மற்றும் சலீமா",
-        "அருளப்பன் மற்றும் மதியொளி",
-        "இன்சுவை மற்றும் அருளப்பன்",
-        "சலீமா மற்றும் மதியொளி"
-      ],
-      "a": 0,
-      "ex": "இன்சுவை மற்றும் சலீமா ஆகிய இருவரும் பண்பின் சிறப்புகளைப் பற்றி வாதாடினார்கள்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "21. 'இரு செவிகள்' என்று நடுவர் எதனைக் கூறுகிறார்?",
-      "options": [
-        "கண்ணுக்கு",
-        "காதுக்கு",
-        "மூக்குக்கு",
-        "வாய்க்கு"
-      ],
-      "a": 0,
-      "ex": "நடுவர் தன் கவிதையில் \"கண்ணுக்கு இரு செவி\" என்று நயத்திற்காக ஒரு மேலோட்டமான ஒப்பீட்டைப் பயன்படுத்துகிறார்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "22. 'அறிவு + ஆயுதம்' - இச்சொல்லில் அமைந்துள்ள புணர்ச்சி விதி?",
-      "options": [
-        "இயல்பு புணர்ச்சி",
-        "உடம்படுமெய் புணர்ச்சி",
-        "விகாரப் புணர்ச்சி",
-        "எதுவுமில்லை"
+        "A) Lighthome",
+        "B) Lighthouse",
+        "C) Houselight",
+        "D) Sunlight"
       ],
       "a": 1,
-      "ex": "நிலைமொழி ஈற்றில் 'இ' வந்து வருமொழி முதலில் உயிரெழுத்து வந்ததால் 'ய' என்ற உடம்படுமெய் இங்கு தோன்றியுள்ளது.",
-      "lesson": "Lesson_3"
+      "ex": "Light + House forms Lighthouse.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "23. அப்துல் கலாம் எழுதிய முக்கிய நூலின் பெயர் என்ன?",
+      "q": "Identify the abstract noun: || அருவப் பெயர்ச்சொல்லைக் கண்டறியவும்:",
       "options": [
-        "அக்னிச் சிறகுகள்",
-        "அழகின் சிரிப்பு",
-        "இருண்ட வீடு",
-        "நல்வழி"
-      ],
-      "a": 0,
-      "ex": "அக்னிச் சிறகுகள் என்பது இந்தியாவின் ஏவுகணை மனிதர் அப்துல் கலாமின் புகழ்பெற்ற நூல்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "24. 'செப்பல்' என்பதன் பொருள் யாது?",
-      "options": [
-        "நடத்தல்",
-        "கூறுதல் / சொல்லல்",
-        "அழுதல்",
-        "சிரித்தல்"
+        "A) Flock",
+        "B) Honesty",
+        "C) Watchman",
+        "D) Mars"
       ],
       "a": 1,
-      "ex": "செப்பல், நவிலல், சொல்லல், ஓதுதல் போன்றவை பேசுவதைக் குறிக்கும் சொற்களாகும்.",
-      "lesson": "Lesson_3"
+      "ex": "Honesty represents a quality you cannot touch. || Honesty என்பது ஒரு பண்பு, இதனைத் தொட முடியாது.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "25. 'பண்பு கொண்டவர் மட்டுமே உலகை நிலைநிறுத்துகின்றனர்' என்று யாரைக் கூறுகிறோம்?",
+      "q": "Correct collective noun: A _______ of grapes.",
       "options": [
-        "திருவள்ளுவர் (குறள் வழி)",
-        "புத்தர்",
-        "இன்சுவை",
-        "அனைவரும்"
+        "A) herd",
+        "B) swarm",
+        "C) bunch",
+        "D) army"
+      ],
+      "a": 2,
+      "ex": "A group of grapes is called a bunch.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Name of the Martian habitat where Arivumathi lived?",
+      "options": [
+        "A) Hub",
+        "B) Earth 2.0",
+        "C) Space station",
+        "D) Galaxy"
+      ],
+      "a": 0,
+      "ex": "The settlement was called a Hub. || செவ்வாயில் மனிதர்கள் வாழும் மையப்பகுதி 'Hub' ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is required to breathe outside on Mars? || செவ்வாயில் சுவாசிக்க என்ன தேவை?",
+      "options": [
+        "A) Umbrella",
+        "B) Space suit and oxygen || ஆ) விண்வெளி உடை மற்றும் ஆக்சிஜன்",
+        "C) Cotton clothes",
+        "D) Water bottle"
+      ],
+      "a": 1,
+      "ex": "A space suit and oxygen cylinder are mandatory. || செவ்வாயில் விண்வெளி உடை மற்றும் ஆக்சிஜன் அவசியம்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Which planet has 'magnificent rings'?",
+      "options": [
+        "A) Earth",
+        "B) Mars",
+        "C) Saturn",
+        "D) Jupiter"
+      ],
+      "a": 2,
+      "ex": "Saturn is famous for its magnificent rings.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Which planet is 'tumbling and rolling'?",
+      "options": [
+        "A) Jupiter",
+        "B) Uranus",
+        "C) Neptune",
+        "D) Mercury"
+      ],
+      "a": 1,
+      "ex": "Uranus is described as tumbling and rolling.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Meaning of 'Desolated'?",
+      "options": [
+        "A) Beautiful",
+        "B) Crowded",
+        "C) Uninhabitable/Ruined || இ) பாழடைந்த",
+        "D) Lush green"
+      ],
+      "a": 2,
+      "ex": "Desolated means empty, ruined, and uninhabitable.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is true about Martian vegetables? || செவ்வாய் காய்கறிகள் பற்றிய உண்மை என்ன?",
+      "options": [
+        "A) Tastier than Earth's",
+        "B) No real flavor || ஆ) நிஜமான சுவை இல்லை",
+        "C) Very sweet",
+        "D) Very colorful"
+      ],
+      "a": 1,
+      "ex": "They lack real flavor because soil is chemically treated. || ரசாயன மண்ணால் காய்கறிகளில் உண்மையான சுவை இல்லை.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Sun + Flower = ?",
+      "options": [
+        "A) Flowersun",
+        "B) Sunplant",
+        "C) Sunflower",
+        "D) Sunlight"
+      ],
+      "a": 2,
+      "ex": "Sunflower is the compound word.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Star + Fish = ?",
+      "options": [
+        "A) Fishstar",
+        "B) Starfish",
+        "C) Seastar",
+        "D) Shine"
+      ],
+      "a": 1,
+      "ex": "Starfish is the result.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Collective noun for birds?",
+      "options": [
+        "A) Swarm",
+        "B) Flock",
+        "C) Herd",
+        "D) Army"
+      ],
+      "a": 1,
+      "ex": "A group of birds is a flock.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Collective noun for bees?",
+      "options": [
+        "A) Swarm",
+        "B) Bunch",
+        "C) Choir",
+        "D) Flock"
+      ],
+      "a": 0,
+      "ex": "Bees come in a swarm.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Collective noun for singers?",
+      "options": [
+        "A) Army",
+        "B) Herd",
+        "C) Choir",
+        "D) Bunch"
+      ],
+      "a": 2,
+      "ex": "A group of singers is a choir.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Word for a group of ants?",
+      "options": [
+        "A) Swarm",
+        "B) Army",
+        "C) Flock",
+        "D) Herd"
+      ],
+      "a": 1,
+      "ex": "An army of ants.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Collective noun for cattle?",
+      "options": [
+        "A) Herd",
+        "B) Bunch",
+        "C) Choir",
+        "D) Flock"
+      ],
+      "a": 0,
+      "ex": "A group of cattle is a herd.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Which is an Abstract Noun?",
+      "options": [
+        "A) Freedom",
+        "B) Table",
+        "C) Dog",
+        "D) Water"
+      ],
+      "a": 0,
+      "ex": "Freedom is an intangible concept.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What does 'Astonished' mean?",
+      "options": [
+        "A) Sad",
+        "B) Greatly surprised || ஆ) ஆச்சரியப்பட்ட",
+        "C) Angry",
+        "D) Tired"
+      ],
+      "a": 1,
+      "ex": "Astonished means extremely surprised.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What do we call the fuel formed from ancient remains? || புதைபடிவ எரிபொருட்கள் எதிலிருந்து உருவாகின்றன?",
+      "options": [
+        "A) Solar",
+        "B) Wind",
+        "C) Fossil Fuel || இ) புதைபடிவ எரிபொருள்",
+        "D) Biogas"
+      ],
+      "a": 2,
+      "ex": "Fuel from remains of dead plants and animals over millions of years. || மில்லியன் கணக்கான ஆண்டுகளில் உருவான எரிபொருள்.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What is the 'Milky Way'?",
+      "options": [
+        "A) Chocolate",
+        "B) Our Galaxy || ஆ) நமது விண்மீன் மண்டலம்",
+        "C) Mars region",
+        "D) Star type"
+      ],
+      "a": 1,
+      "ex": "The galaxy containing our solar system.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Assertion (A): Earth has become a desolated home. Reason (R): Humans overexploited and destroyed Earth's natural resources.",
+      "options": [
+        "A) Both A and R are true, and R is the correct explanation of A",
+        "B) Both A and R are true, but R is not the correct explanation",
+        "C) A is true, but R is false",
+        "D) A is false, but R is true"
+      ],
+      "a": 0,
+      "ex": "Human exploitation ruined Earth.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Assertion (A): The vegetables available on Mars are extremely tasty. Reason (R): The soil on Mars is chemically treated.",
+      "options": [
+        "A) Both A and R are true",
+        "B) A is false, but R is true",
+        "C) A is true, but R is false",
+        "D) Both A and R are false"
+      ],
+      "a": 1,
+      "ex": "The vegetables on Mars lack real flavor because the soil is chemically treated. Therefore, Assertion A is false.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Where did the shuttle crash?",
+      "options": [
+        "A) Moon",
+        "B) Earth",
+        "C) Strange planet || இ) புதிய கிரகம்",
+        "D) Mars"
+      ],
+      "a": 2,
+      "ex": "They crashed on an unknown planet.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Attitude of aliens towards boys?",
+      "options": [
+        "A) Angry",
+        "B) Attack",
+        "C) Peaceful and helpful || இ) அமைதி/உதவி",
+        "D) Prison"
+      ],
+      "a": 2,
+      "ex": "Aliens were friendly and helpful.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Which of the following pairs is correct according to the poem?",
+      "options": [
+        "A) Saturn - Ice giant",
+        "B) Jupiter - Red storms || ஆ) வியாழன் - புயல்",
+        "C) Uranus - Rings",
+        "D) Neptune - Tumbling"
+      ],
+      "a": 1,
+      "ex": "Jupiter is the one with red storms.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Which of the following compound word pairs is incorrect?",
+      "options": [
+        "A) Foot + ball = Football",
+        "B) Rain + bow = Rainbow",
+        "C) Mail + box = Mailbox",
+        "D) Watch + man = Manwatch"
       ],
       "a": 3,
-      "ex": "\"பண்புடையார் பட்டுண்டு உலகம்\" - என்ற வள்ளுவர் வாக்குப்படி பண்பு கொண்டவர்களால்தான் உலகம் இயங்குகிறது.",
-      "lesson": "Lesson_3"
+      "ex": "The correct compound word for Watch + man is 'Watchman', not 'Manwatch'.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "26. தாமஸ் ஆல்வா எடிசன் கண்டுபிடித்த முக்கியக் கண்டுபிடிப்பு யாது?",
+      "q": "What is the correct meaning of the word 'Adapted'?",
       "options": [
-        "வானொலி",
-        "மின்விளக்கு",
-        "தொலைபேசி",
-        "மிதிவண்டி"
+        "A) Modified or adjusted to survive || அ) তথவமைத்தல்",
+        "B) Destroyed",
+        "C) Creating",
+        "D) Traveling"
+      ],
+      "a": 0,
+      "ex": "Adjusting to survives in new conditions.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What do you call the specialized, pressurized suit worn by astronauts?",
+      "options": [
+        "A) Capsule",
+        "B) Space suit",
+        "C) Hub",
+        "D) Sol"
       ],
       "a": 1,
-      "ex": "அறிவாற்றலால் உலகிற்கு ஒளி தந்தவர் தாமஸ் ஆல்வா எடிசன்.",
-      "lesson": "Lesson_3"
+      "ex": "Astronauts wear space suits.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "27. **கூற்று:** அறிவு இல்லாவிட்டால் உலகம் இருண்டுவிடும். **காரணம்:** கண்டுபிடிப்புகள் யாவும் அறிவால்தான் உருவானவை.",
+      "q": "What is a 'Capsule'?",
       "options": [
-        "கூற்று சரி, காரணம் தவறு",
-        "கூற்று தவறு, காரணம் சரி",
-        "கூற்று மற்றும் காரணம் இரண்டும் சரி",
-        "இரண்டும் தவறு"
+        "A) Pill",
+        "B) Sleeping compartment || ஆ) தூங்கும் பகுதி",
+        "C) Spaceship",
+        "D) Food"
+      ],
+      "a": 1,
+      "ex": "A small cylinder-shaped bed for sleeping.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "At the end of the poem, where does the poet travel last?",
+      "options": [
+        "A) Sun",
+        "B) Meet the Creator || ஆ) படைப்பாளரைச் சந்திக்க",
+        "C) Earth center",
+        "D) Black hole"
+      ],
+      "a": 1,
+      "ex": "Journey ends meeting the Creator.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "Assertion (A): Abstract nouns cannot be seen or touched. Reason (R): Words like 'Honesty' and 'Freedom' are examples of abstract nouns.",
+      "options": [
+        "A) Both A and R are true",
+        "B) A is true, but R is false",
+        "C) A is false, but R is true",
+        "D) Both A and R are false"
+      ],
+      "a": 0,
+      "ex": "Abstract nouns are intangible.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
+    },
+    {
+      "q": "What type of noun is 'Fear'?",
+      "options": [
+        "A) Proper",
+        "B) Collective",
+        "C) Abstract",
+        "D) Material"
       ],
       "a": 2,
-      "ex": "அருளப்பன் மற்றும் மதியொளியின் வாதப்படி அறிவே உலக முன்னேற்றத்தின் அடிப்படை.",
-      "lesson": "Lesson_3"
+      "ex": "Fear is an emotion (abstract).",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "28. 'பண்பிலான் பெற்ற செல்வம்' எதோடு ஒப்பிடப்படுகிறது?",
+      "q": "What is the primary moral of the story 'Earth, the Desolated Home'?",
       "options": [
-        "தூய பாத்திரம்",
-        "அழுக்கு அல்லது தூய்மையற்ற பாத்திரம்",
-        "தங்கப் பாத்திரம்",
-        "மண்சட்டி"
+        "A) travel to Mars",
+        "B) Protect Earth || ஆ) பூமியைப் பாதுகாப்போம்",
+        "C) Find aliens",
+        "D) Wear suits"
       ],
       "a": 1,
-      "ex": "தூய்மையற்ற பாத்திரத்தில் ஊற்றப்பட்ட பால் கெட்டுப் போவதைப்போல, பண்பற்றவன் அடைந்த செல்வம் வீணாகும்.",
-      "lesson": "Lesson_3"
+      "ex": "Protect our natural home (Earth).",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "29. கவிதைப் பட்டிமன்றத்தின் தலைப்பு யாது?",
+      "q": "\"Names a group or collection of individuals viewed as a single, whole unit\" - This is the definition of which noun?",
       "options": [
-        "நேர்மையே உயர்வு",
-        "அறிவா? பண்பா?",
-        "கல்வியே செல்வம்",
-        "உழைப்பின் வாரா"
+        "A) Abstract",
+        "B) Collective",
+        "C) Common",
+        "D) Proper"
       ],
       "a": 1,
-      "ex": "அறிவா? பண்பா? என்ற விவாதமே இப்பாடத்தின் மையத் தலைப்பு.",
-      "lesson": "Lesson_3"
+      "ex": "Collective nouns name groups.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "30. 'விசும்பு' என்பதன் எதிர்ச்சொல் எதுவாக இருக்க முடியும்?",
+      "q": "Which grammatical category do the words \"Beauty\" and \"Kindness\" belong to?",
       "options": [
-        "ஆகாயம்",
-        "பூமி / நிலம்",
-        "கடல்",
-        "நெருப்பு"
-      ],
-      "a": 1,
-      "ex": "விசும்பு என்றால் வானம், அதற்கு எதிர் நிலம் அல்லது பூமி.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "31. 'நற்றமிழ்' - இதில் அமைந்துள்ள பண்புப் பெயர் எது?",
-      "options": [
-        "நன்மை",
-        "தமிழ்",
-        "நற்",
-        "மிமை"
-      ],
-      "a": 0,
-      "ex": "நன்மை + தமிழ் என்ற சொல்லில் 'நன்மை' என்பது அதன் குணத்தைக் குறிக்கும் பண்புப் பெயர்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "32. அறிவு சிறந்தது என்று வாதிட்ட ஜோடி எது?",
-      "options": [
-        "இன்சுவை மற்றும் சலீமா",
-        "அருளப்பன் மற்றும் மதியொளி",
-        "இன்சுவை மற்றும் அருளப்பன்",
-        "சலீமா மற்றும் மதியொளி"
-      ],
-      "a": 1,
-      "ex": "அருளப்பன் மற்றும் மதியொளி அறிவாற்றலின் முக்கியத்துவத்தை வலியுறுத்தினார்கள்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "33. 'அண்டம்' என்பதன் பன்மை வடிவம் யாது?",
-      "options": [
-        "அண்டங்கள்",
-        "அண்டங்காக்கை",
-        "அண்டினங்கள்",
-        "அண்டி"
-      ],
-      "a": 0,
-      "ex": "அண்டம் என்ற சொல்லுடன் 'கள்' விகுதி சேர்ந்து அண்டங்கள் எனப் பன்மையாகிறது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "34. **பொருத்துக:** (1) அறிவு - அ. அப்துல் கலாம், (2) பண்பு - ஆ. புத்தர், (3) உலகம் - இ. அகிலம்",
-      "options": [
-        "1-அ, 2-ஆ, 3-இ",
-        "1-ஆ, 2-அ, 3-இ",
-        "1-இ, 2-ஆ, 3-அ",
-        "1-அ, 2-இ, 3-ஆ"
-      ],
-      "a": 0,
-      "ex": "அறிவிற்கு கலாம், பண்பிற்கு புத்தர், உலகிற்கு அகிலம் என்பன சரியான இணைகள்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "35. 'நெஞ்சார்ந்த' - பிரித்து எழுதுக.",
-      "options": [
-        "நெஞ்சு + ஆர்ந்த",
-        "நெஞ்சா + ர்ந்த",
-        "நெஞ் + சார்ந்த",
-        "நெஞ்சு + சார்ந்த"
-      ],
-      "a": 0,
-      "ex": "நெஞ்சு + ஆர்ந்த = நெஞ்சார்ந்த. நிலைமொழி ஈற்று உகரம் கெட்டு ஆர்ந்த இணைந்தது.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "36. 'ஒளி' என்பதன் எதிர்ச்சொல் யாது?",
-      "options": [
-        "வெளிச்சம்",
-        "இருள்",
-        "பகல்",
-        "காலை"
-      ],
-      "a": 1,
-      "ex": "ஒளி அல்லது வெளிச்சம் என்பதன் எதிர்ச்சொல் இருள்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "37. 'கவியரங்கம்' - இதில் 'அரங்கம்' என்பது எதனைக் குறிக்கும்?",
-      "options": [
-        "வீடு",
-        "மேடை / அவை",
-        "ஆறு",
-        "மரம்"
-      ],
-      "a": 1,
-      "ex": "கூடி விவாதிக்கும் இடத்தையே அரங்கம் அல்லது அவை என்பர்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "38. நடுவர் தீர்ப்பின்படி எது மிக முக்கியமானது?",
-      "options": [
-        "அறிவு மட்டும்",
-        "பண்பு மட்டும்",
-        "அறிவும் பண்பும் இணையாக",
-        "செல்வம்"
+        "A) Collective",
+        "B) Compound",
+        "C) Abstract",
+        "D) Action"
       ],
       "a": 2,
-      "ex": "ஒரு மனிதன் உயர இவ்விரண்டு பண்புகளுமே சம அளவில் முக்கியம்.",
-      "lesson": "Lesson_3"
+      "ex": "These are intangible qualities.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "39. ஒருவரின் ஏற்றத்திற்கு எது இரண்டு கண்கள் போன்றவை?",
+      "q": "What is the main difference in Arivumathi's life on Mars?",
       "options": [
-        "கல்வியும் செல்வமும்",
-        "அறிவும் பண்பும்",
-        "பணமும் வீரமும்",
-        "அன்பும் அறிவும்"
-      ],
-      "a": 1,
-      "ex": "இப்பாடத்தின் இறுதித் தீர்ப்பு வரிகள் இதையே வலியுறுத்துகின்றன.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "40. 'கவிதைப் பட்டிமன்றம்' என்பதில் இடம்பெறும் பேச்சாளர்களின் எண்ணிக்கை எத்தனை?",
-      "options": [
-        "2",
-        "3",
-        "4",
-        "5 (நடுவருடன் சேர்த்து)"
-      ],
-      "a": 2,
-      "ex": "நான்கு மாணவர்கள் (இன்சுவை, அருளப்பன், மதியொளி, சலீமா) விவாதத்தில் பங்கேற்றனர்.",
-      "lesson": "Lesson_3"
-    },
-    {
-      "q": "1. 'தற்போது' - இச்சொல்லுக்குரிய பொருளைத் தேர்ந்தெடுக்க.",
-      "options": [
-        "a) எப்பொழுது",
-        "b) அப்பொழுது",
-        "c) இப்பொழுது",
-        "d) முப்பொழுது"
-      ],
-      "a": 2,
-      "ex": "பாடப்புத்தக மதிப்பீட்டுப் பகுதியின்படி, 'தற்போது' என்ற சொல்லின் பொருள் 'இப்பொழுது' என்பதாகும்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "2. காலியான உண்டியலில் ஒரே ஒரு நாணயத்தைத்தான் போட முடியும் என்று தண்மதி கூறக் காரணம் என்ன?",
-      "options": [
-        "a) உண்டியலில் இடம் இல்லை",
-        "b) நாணயம் பெரியதாக இருந்தது",
-        "c) ஒன்றைப் போட்டவுடன் அது காலியான உண்டியலாக இருக்காது",
-        "d) உண்டியலின் கொள்ளளவு ஒன்று மட்டுமே"
-      ],
-      "a": 2,
-      "ex": "இது ஒரு தருக்கச் சிந்தனை (Logical thinking) சார்ந்த புதிராகும். ஒரு நாணயத்தை உள்ளே போட்ட மறுகணமே உண்டியல் 'காலியான' என்ற தன்மையை இழந்துவிடுகிறது.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "3. 'குறிப்பேடு' என்ற சொல்லைப் பிரித்து எழுதக் கிடைப்பது எது?",
-      "options": [
-        "a) குறி + ஏடு",
-        "b) குறிப்பு + ஏடு",
-        "c) குறிப் + பேடு",
-        "d) குறிப்பு + பேடு"
-      ],
-      "a": 1,
-      "ex": "நிலைமொழியின் ஈற்று உயிர்மெய்யும் (பு), வருமொழியின் முதல் உயிரும் (ஏ) புணரும்போது 'குறிப்பு + ஏடு = குறிப்பேடு' எனப் பிரியும்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "4. கூற்று (A): கவிநிலாவை பாட்டி \"அறிவுநிலா\" என்று அழைத்தார். \nகாரணம் (R): கவிநிலா இரண்டு கடினமான புதிர்களுக்குப் புத்திசாலித்தனமாக விடையளித்தாள்.",
-      "options": [
-        "a) A மற்றும் R இரண்டும் சரி, R என்பது A-விற்கான சரியான விளக்கம்",
-        "b) A சரி, R தவறு",
-        "c) A தவறு, R சரி",
-        "d) A மற்றும் R இரண்டும் சரி, ஆனால் R சரியான விளக்கமல்ல"
+        "A) Artificial air and water || அ) செயற்கை காற்று/நீர்",
+        "B) Rain daily",
+        "C) Natural food",
+        "D) No clothes"
       ],
       "a": 0,
-      "ex": "தாத்தா கேட்ட இரண்டு புதிர்களுக்கும் (பையில் ஓட்டை, நேரம் என்ன) கவிநிலா புத்திசாலித்தனமாக விடையளித்ததால் பாட்டி அவளை அறிவுநிலா எனப் பாராட்டினார்.",
-      "lesson": "Lesson_4"
+      "ex": "On Mars, basic needs are artificial.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "5. 'எதையெதையோ' என்ற சொல்லைப் பிரித்து எழுதக் கிடைப்பது எது?",
+      "q": "How did Amuthan and Nilavan feel inside the museum?",
       "options": [
-        "a) எதை + எதையோ",
-        "b) எதை + யெதையோ",
-        "c) எதைய + எதையோ",
-        "d) எத + எதையோ"
+        "A) Astonished || அ) வியப்பு",
+        "B) Desolated",
+        "C) Adapted",
+        "D) None"
       ],
       "a": 0,
-      "ex": "'எதை + எதையோ' என்பது யகர உடம்படுமெய் பெற்று 'எதையெதையோ' எனப் புணரும்.",
-      "lesson": "Lesson_4"
+      "ex": "They felt amazed and astonished.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "6. பொருத்துக: \n1. கவிநிலா - அ. பெயர் \n2. அழகன் - ஆ. பை மற்றும் நேரம் \n3. தண்மதி - இ. உண்டியல்",
+      "q": "Term for process of adjusting to surivive on a new planet?",
       "options": [
-        "a) 1-ஆ, 2-அ, 3-இ",
-        "b) 1-அ, 2-ஆ, 3-இ",
-        "c) 1-இ, 2-அ, 3-ஆ",
-        "d) 1-ஆ, 2-இ, 3-அ"
+        "A) Adaptation",
+        "B) Exploration",
+        "C) Desolation",
+        "D) Creation"
       ],
       "a": 0,
-      "ex": "கவிநிலா பையில் ஓட்டை மற்றும் நேரம் புதிர்களுக்கும், அழகன் பெயர் புதிருக்கும், தண்மதி உண்டியல் புதிருக்கும் விடையளித்தனர்.",
-      "lesson": "Lesson_4"
+      "ex": "Adaptation is the ability to modify to survive.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "7. 'அமைதி + ஆகி' என்பதைச் சேர்த்து எழுதக் கிடைக்கும் சொல் என்ன?",
+      "q": "Name of a massive system of billions of stars?",
       "options": [
-        "a) அமைதியாகி",
-        "b) அமைதாக்கி",
-        "c) அமைதியக்கி",
-        "d) அமைதியோகி"
-      ],
-      "a": 0,
-      "ex": "இகர ஈற்று நிலைமொழியுடன் ஆகார முதல் வருமொழி சேரும்போது யகர உடம்படுமெய் பெற்று (அமைதி + ய் + ஆகி) 'அமைதியாகி' என வரும்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "8. ஒரு மனிதரிடம் ஒரே கேள்வி ஒரே நாளில் திரும்பத்திரும்ப, பலமுறை கேட்கப்பட்டும் வெவ்வேறு சரியான விடைகள் கிடைத்தன எனில், அக்கேள்வி என்னவாக இருக்கும்?",
-      "options": [
-        "a) உங்கள் பெயர் என்ன?",
-        "b) உங்கள் வயது என்ன?",
-        "c) தற்போது நேரம் என்ன?",
-        "d) நீங்கள் எங்கு செல்கிறீர்கள்?"
+        "A) Sol",
+        "B) Capsule",
+        "C) Galaxy",
+        "D) Hub"
       ],
       "a": 2,
-      "ex": "நேரம் ஒவ்வொரு நொடியும் மாறிக்கொண்டே இருக்கும், எனவே கேட்கப்படும் ஒவ்வொரு முறையும் விடை மாறும் ஆனால் அது சரியான விடையாகவே இருக்கும். இப்புதிருக்கு கவிநிலா விடையளித்தாள்.",
-      "lesson": "Lesson_4"
+      "ex": "A galaxy contains billions of stars.",
+      "notesMode": true,
+      "lesson": "Lesson_1"
     },
     {
-      "q": "9. 'திரும்ப + திரும்ப' என்பதைச் சேர்த்து எழுதக் கிடைக்கும் சொல்?",
+      "q": "How did Santhosh record his experience of visiting his grandparents' village, Sirumalai? || சந்தோஷ் தனது தாத்தா பாட்டியின் ஊரான சிறுமலைக்குச் சென்ற அனுபவத்தை எப்படிப் பதிவு செய்தான்?",
       "options": [
-        "a) திரும்பதிரும்ப",
-        "b) திரும்பத்திரும்ப",
-        "c) திரும்பித்திரும்ப",
-        "d) திரும்ப்பதிரும்ப"
+        "Wrote in a notebook || நோட்டில் எழுதினான்",
+        "Recorded as an audio diary on his mother's phone || தாயின் போனில் ஆடியோ டைரியாகப் பதிவு செய்தான்",
+        "Typed on a computer || கணினியில் தட்டச்சு செய்தான்",
+        "Wrote a letter to a friend || நண்பனுக்குக் கடிதம் எழுதினான்"
       ],
       "a": 1,
-      "ex": "அகர ஈற்று வினையெச்சத்தின் பின் வல்லினம் மிகும் என்ற விதிப்படி 'திரும்பத்திரும்ப' எனச் சேரும்.",
-      "lesson": "Lesson_4"
+      "ex": "Santhosh recorded his vacation experiences as an audio diary using his mother's mobile phone. || சந்தோஷ் தனது விடுமுறை அனுபவங்களைத் தனது தாயின் மொபைல் போனைப் பயன்படுத்தி ஆடியோ டைரியாகப் பதிவு செய்தான்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "10. கவிநிலா, தண்மதி, அழகன் மூவரும் தாத்தா, பாட்டியைக் கண்டதும் ஏன் மகிழ்ந்தனர்?",
+      "q": "What is the correct plural form of the word 'Fish'? || 'Fish' என்ற சொல்லின் சரியான பன்மை வடிவம் எது?",
       "options": [
-        "a) இனிப்புகள் தருவார்கள் என்பதால்",
-        "b) கதை சொல்வார்கள் என்பதால்",
-        "c) புதிர்கள் போட்டு விளையாடலாம் என்பதால்",
-        "d) ஊருக்கு அழைத்துச் செல்வார்கள் என்பதால்"
+        "Fishes",
+        "Fishs",
+        "Fish",
+        "Fishies"
       ],
       "a": 2,
-      "ex": "குழந்தைகள் மூவரும் தாத்தா, பாட்டியுடன் சேர்ந்து புதிர் விளையாட்டு விளையாடுவதற்காகவே மகிழ்ச்சியுடன் ஓடி வந்தனர்.",
-      "lesson": "Lesson_4"
+      "ex": "'Fish' is a word that has an identical form in both singular and plural. || 'Fish' என்பது ஒருமை மற்றும் பன்மை இரண்டிலும் ஒரே மாதிரியான வடிவத்தைக் கொண்ட சொல்லாகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "11. \"அது உனக்குச் சொந்தமானது. ஆனால், மற்றவர்கள்தான் அதை அதிகம் பயன்படுத்துவார்கள்\" - இந்த புதிரைக் கேட்டவர் யார்?",
+      "q": "What did the farmer give to his three daughters to test their responsibility? || விவசாயி தன் மூன்று மகள்களின் பொறுப்புணர்வைச் சோதிக்க அவர்களுக்கு என்ன கொடுத்தார்?",
       "options": [
-        "a) தாத்தா",
-        "b) பாட்டி",
-        "c) அழகன்",
-        "d) கவிநிலா"
+        "Gold || தங்கம்",
+        "Money || பணம்",
+        "A bag of millet || ஒரு பை கேழ்வரகு/தினை",
+        "Land documents || நில ஆவணங்கள்"
+      ],
+      "a": 2,
+      "ex": "The farmer gave each of his daughters a bag of millet to test their wisdom and responsibility. || விவசாயி தனது ஒவ்வொரு மகளுக்கும் ஒரு பை கேழ்வரகு தானியத்தைக் கொடுத்து அவர்களின் புத்திசாலித்தனத்தையும் பொறுப்புணர்வையும் சோதித்தார்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "'It ploughs the soil before farmer' - What ploughs the soil before the farmer? || 'விவசாயிக்கு முன்பே இது மண்ணை உழுகிறது' - விவசாயிக்கு முன்பே மண்ணை உழுவது எது?",
+      "options": [
+        "Tractor || டிராக்டர்",
+        "Bull || காளை",
+        "Earthworm || மண்புழு",
+        "Wind || காற்று"
+      ],
+      "a": 2,
+      "ex": "In the poem 'Farmer's Friend', it is mentioned that the earthworm ploughs the soil even before the farmer does. || 'விவசாயியின் நண்பன்' கவிதையில், விவசாயி உழுவதற்கு முன்பே மண்புழு மண்ணை உழுகிறது என்று குறிப்பிடப்பட்டுள்ளது.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What is the meaning of the word 'Enchanting'? || 'Enchanting' என்ற சொல்லின் அர்த்தம் என்ன?",
+      "options": [
+        "Many in number || அதிக எண்ணிக்கையிலான",
+        "Attractive || கவர்ச்சிகரமான",
+        "Holiday || விடுமுறை",
+        "Holy || புனிதமான"
       ],
       "a": 1,
-      "ex": "பாட்டி தான் முதல் புதிராக அழகனைப் பார்த்து இந்தக் கேள்வியைக் கேட்டார்.",
-      "lesson": "Lesson_4"
+      "ex": "'Enchanting' means attractive or charming to the mind. || 'Enchanting' என்றால் கவர்ச்சிகரமான அல்லது மனதை ஈர்க்கக்கூடிய என்று பொருள்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "12. அறிவுநிலா பாடப்பகுதியில் இரண்டு புதிர்களுக்கு விடையளித்தவர் யார்?",
+      "q": "Which auxiliary verb is used when forming a sentence in the Future Continuous Tense? || வருங்காலத் தொடர்ச்சியை (Future Continuous Tense) உருவாக்கும் போது எந்த துணை வினைச்சொல் பயன்படுத்தப்படுகிறது?",
       "options": [
-        "a) அழகன்",
-        "b) தண்மதி",
-        "c) பாட்டி",
-        "d) கவிநிலா"
+        "was / were",
+        "am / is / are",
+        "will be",
+        "have been"
+      ],
+      "a": 2,
+      "ex": "To denote an action that will be in progress in the future, 'will be + verb(ing)' is used. || எதிர்காலத்தில் நடக்கப்போகும் ஒரு செயலைக் குறிக்க, 'will be + verb(ing)' பயன்படுத்தப்படுகிறது.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Choose the correct match: What does a 'Breeze' do? || சரியான பொருத்தத்தைத் தேர்ந்தெடுக்கவும்: 'Breeze' (தென்றல்) என்ன செய்யும்?",
+      "options": [
+        "Flows || ஓடும்",
+        "Swims || நீந்தும்",
+        "Sings || பாடும்",
+        "Blows || வீசும்"
       ],
       "a": 3,
-      "ex": "கவிநிலா பையில் ஓட்டை போடுவது மற்றும் நேரம் பற்றிய இரண்டு புதிர்களுக்கும் விடையளித்தாள்.",
-      "lesson": "Lesson_4"
+      "ex": "According to the book back exercises, the correct match is Breeze - Blows. || புத்தகப் பயிற்சியின்படி, தென்றல் வீசும் (Breeze - Blows) என்பதே சரியான பொருத்தமாகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "13. பையில் எடை கூடாமல் இருக்க தாத்தா கேட்ட புதிருக்கான விடை என்ன?",
+      "q": "What did the farmer's first daughter do with the millet given to her? || விவசாயியின் முதல் மகள் அவளுக்குக் கொடுக்கப்பட்ட தானியத்தை என்ன செய்தாள்?",
       "options": [
-        "a) காற்று",
-        "b) துளை / ஓட்டை",
-        "c) பஞ்சு",
-        "d) காகிதம்"
+        "Gave it to community food service || சமூக உணவகத்திற்கு வழங்கினாள்",
+        "Fed it to flocks of birds || பறவைக் கூட்டங்களுக்கு உணவாக ஊட்டினாள்",
+        "Sowed it in the land || நிலத்தில் விதைத்தாள்",
+        "Kept it safely in a box || ஒரு பெட்டியில் பாதுகாப்பாக வைத்தாள்"
       ],
       "a": 1,
-      "ex": "ஒரு பையில் பொருள்களைப் போட இடமில்லை, எடை கூடக்கூடாது என்றால் அதில் ஒரு ஓட்டையைப் போட்டால் மட்டுமே எடை கூடாது.",
-      "lesson": "Lesson_4"
+      "ex": "The first daughter fed the grains to flocks of birds on her way home. || முதல் மகள் வீட்டிற்குச் செல்லும் வழியில் பறவைக் கூட்டங்களுக்குத் தானியங்களை உணவாக ஊட்டினாள்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "14. புதிர்களுக்கு விடையளிக்கப் பாட்டி கூறிய விதிமுறைகளில் தவறானது எது?",
+      "q": "What is the plural form of the word 'Mouse'? || 'Mouse' என்ற சொல்லின் பன்மை வடிவம் என்ன?",
       "options": [
-        "a) ஒவ்வொருவருக்கும் ஒரு புதிர் கூறப்படும்",
-        "b) அவரவர் புதிருக்கான விடையை அவரவர்தான் கூற வேண்டும்",
-        "c) விடை தெரியவில்லை என்றால் மற்றவர்கள் கூறலாம்",
-        "d) விடை தெரியவில்லை என்றால் விளையாட்டிலிருந்து வெளியேற வேண்டும்"
+        "Mouses",
+        "Mices",
+        "Mice",
+        "Mooses"
+      ],
+      "a": 2,
+      "ex": "This is an irregular plural. 'Mouse' changes to 'Mice'. || இது ஒரு ஒழுங்கற்ற பன்மை. 'Mouse' என்பது 'Mice' ஆக மாறுகிறது.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Which animal used by the farmer helps in ploughing, watering, and threshing? || விவசாயியால் பயன்படுத்தப்படும் எந்த விலங்கு உழுதல், நீர் பாய்ச்சுதல் மற்றும் தானியம் பிரித்தலுக்கு உதவுகிறது?",
+      "options": [
+        "Horse || குதிரை",
+        "Bulls || காளைகள்",
+        "Donkey || கழுதை",
+        "Dog || நாய்"
+      ],
+      "a": 1,
+      "ex": "Mr. Murugan, a farmer, has two bulls that help him with all farming activities. || விவசாயி திரு. முருகனிடம் இரண்டு காளைகள் உள்ளன, அவை அவருக்கு அனைத்து விவசாய வேலைகளுக்கும் உதவுகின்றன.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Identify the sentence in the 'Past Continuous Tense' among the following. || பின்வருவனவற்றில் 'கடந்த காலத் தொடர்ச்சியில்' (Past Continuous Tense) உள்ள வாக்கியத்தைக் கண்டறியவும்.",
+      "options": [
+        "She will be swimming.",
+        "They are writing the poem.",
+        "He was watching a movie.",
+        "I sing a song."
+      ],
+      "a": 2,
+      "ex": "The structure 'was/were + verb+ing' indicates the Past Continuous Tense. || 'was/were + verb+ing' என்ற அமைப்பு கடந்த காலத் தொடர்ச்சியைக் குறிக்கிறது.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Which is the rhyming word for 'Filth' in the poem? || கவிதையில் 'Filth' என்ற சொல்லுக்கு இயைபுச் சொல் எது?",
+      "options": [
+        "Harm",
+        "Wealth / Health",
+        "Farmer",
+        "Hook"
+      ],
+      "a": 1,
+      "ex": "In the poem, the words Filth, Health, and Wealth end with the same rhyming sound. || கவிதையில், Filth, Health மற்றும் Wealth ஆகிய சொற்கள் ஒரே மாதிரியான ஒலியுடன் முடிவடைகின்றன.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Which of these activities did the village children NOT play during summer vacation? || கோடை விடுமுறை சந்தோஷ் கிராமத்தில் பின்வரும் எந்த விளையாட்டை விளையாடவில்லை?",
+      "options": [
+        "Climbing trees || மரம் ஏறுதல்",
+        "Playing video games || வீடியோ கேம் விளையாடுதல்",
+        "Playing hide and seek || கண்ணாமூச்சி விளையாடுதல்",
+        "Playing with a tyre and stick || டயர் மற்றும் குச்சியுடன் விளையாடுதல்"
+      ],
+      "a": 1,
+      "ex": "Santhosh did not play video games or watch TV in the village; he completely engaged in outdoor games. || சந்தோஷ் கிராமத்தில் வீடியோ கேம் விளையாடவில்லை அல்லது டிவி பார்க்கவில்லை; அவன் முழுமையாக வெளிப்புற விளையாட்டுகளில் ஈடுபட்டான்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What is the correct plural form of 'Leaf'? || 'Leaf' -ன் சரியான பன்மை வடிவம் என்ன?",
+      "options": [
+        "Leafs",
+        "Leefs",
+        "Leaves",
+        "Leavs"
+      ],
+      "a": 2,
+      "ex": "Words ending in 'f' or 'fe' change into 'ves' in plural form (Leaf - Leaves). || 'f' அல்லது 'fe' இல் முடியும் சொற்கள் பன்மை வடிவில் 'ves' ஆக மாறும் (Leaf - Leaves).",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Change the sentence to Future Continuous Tense: 'She was waiting for bus.' || 'She was waiting for bus' என்ற வாக்கியத்தை வருங்காலத் தொடர்ச்சிக்கு மாற்றவும்.",
+      "options": [
+        "She waits for bus.",
+        "She is waiting for bus.",
+        "She will be waiting for bus.",
+        "She will wait for bus."
+      ],
+      "a": 2,
+      "ex": "To change past continuous (was waiting) to future continuous, we use 'will be waiting'. || கடந்த காலத் தொடர்ச்சியை (was waiting) வருங்காலத் தொடர்ச்சியாக மாற்ற, 'will be waiting' என்பதைப் பயன்படுத்துகிறோம்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Like what should one be humble, according to the poem? || கவிதையின்படி, ஒருவர் எதைப் போல பணிவாக இருக்க வேண்டும்?",
+      "options": [
+        "Like a tree || மரத்தைப் போல",
+        "Like a breeze || தென்றலைப் போல",
+        "Like a worm || ஒரு புழுவைப் போல",
+        "Like a river || ஆற்றைப் போல"
+      ],
+      "a": 2,
+      "ex": "The last line of the poem says, \"Be humble like a worm.\" || கவிதையின் கடைசி வரி, \"ஒரு புழுவைப் போல பணிவாக இருங்கள்\" என்று கூறுகிறது.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What did the second daughter do with the millets? || இரண்டாவது மகள் தானியங்களை என்ன செய்தாள்?",
+      "options": [
+        "Fed them to the birds || பறவைகளுக்கு ஊட்டினாள்",
+        "Thought they were sacred and gave them to community food service || அவை புனிதமானவை என்று கருதி சமூக உணவகத்திற்கு வழங்கினாள்",
+        "Sowed them in the field || வயலில் விதைத்தாள்",
+        "Sold them in the market || சந்தையில் விற்றாள்"
+      ],
+      "a": 1,
+      "ex": "The second daughter considered the grains sacred and mixed them with grains kept for community food service. || இரண்டாவது மகள் தானியங்களைப் புனிதமாகக் கருதி, சமூகப் பொது உணவிற்காக வைத்திருந்த தானியங்களுடன் சேர்த்தாள்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What is the meaning of 'Threshing'? || 'Threshing' என்பதன் பொருள் என்ன?",
+      "options": [
+        "Sowing seeds in the land || நிலத்தில் விதைகளை விதைத்தல்",
+        "Separating grain from crops || தானியத்தைப் பயிரிலிருந்து பிரித்தல்",
+        "Removing weeds || களைகளை அகற்றுதல்",
+        "Ploughing || உழுதல்"
+      ],
+      "a": 1,
+      "ex": "In the glossary section, 'Threshing' is defined as separating grain from crops. || கலைச்சொல் பகுதியில், 'Threshing' என்பது தானியத்தைப் பயிரிலிருந்து பிரித்தல் என வரையறுக்கப்பட்டுள்ளது.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What is the plural form of the word 'Child'? || 'Child' என்ற சொல்லின் பன்மை வடிவம் என்ன?",
+      "options": [
+        "Childs",
+        "Childrens",
+        "Children",
+        "Childes"
+      ],
+      "a": 2,
+      "ex": "This is an irregular plural word. Child becomes Children. || இது ஒரு ஒழுங்கற்ற பன்மைச் சொல். Child என்பது Children ஆக மாறும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What is used as bait in the fisher's hook to catch fish in the pond? || குளத்தில் மீன் பிடிக்க மீனவரின் தூண்டிலில் இரையாகப் பயன்படுத்தப்படுவது எது?",
+      "options": [
+        "Small fishes || சிறிய மீன்கள்",
+        "Frog || தவளை",
+        "Earthworm || மண்புழு",
+        "Insects || பூச்சிகள்"
+      ],
+      "a": 2,
+      "ex": "The poem mentions about the earthworm, \"It is used in the fisher’s hook.\" || மண்புழு மீனவரின் தூண்டிலில் இரையாகப் பயன்படுகிறது என்று கவிதை கூறுகிறது.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Choose the correct match: What does a 'River' do? || சரியான பொருத்தத்தைத் தேர்ந்தெடுக்கவும்: 'River' (ஆறு) என்ன செய்யும்?",
+      "options": [
+        "Sings",
+        "Swims",
+        "Flows || ஓடும்/பாயும்",
+        "Blows"
+      ],
+      "a": 2,
+      "ex": "According to the book evaluation section, the correct match is River - Flows. || புத்தக மதிப்பீட்டுப் பகுதியின்படி, ஆறு ஓடும் (River - Flows) என்பது சரியானது.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Change the Future Continuous sentence 'I will be speaking to her' into Past Continuous. || 'I will be speaking to her' என்ற வாக்கியத்தை கடந்த காலத் தொடர்ச்சிக்கு மாற்றவும்.",
+      "options": [
+        "I am speaking to her.",
+        "I spoke to her.",
+        "I was speaking to her.",
+        "I were speaking to her."
+      ],
+      "a": 2,
+      "ex": "For the subject 'I' in Past Continuous, 'was' is used. So, \"I was speaking\" is correct. || கடந்த காலத் தொடர்ச்சியில் 'I' என்ற எழுவாய்க்கு 'was' பயன்படுத்தப்பட வேண்டும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "How did Santhosh know that the river water was pollution-free? || ஆற்றுத் தண்ணீர் மாசு இல்லாதது என்று சந்தோஷிற்கு எப்படித் தெரிந்தது?",
+      "options": [
+        "By the taste of the water || தண்ணீரின் சுவையின் மூலம்",
+        "By clearly seeing the pebbles and colourful fish at the bottom of the river || ஆற்றின் அடிப்பகுதியில் உள்ள கூழாங்கற்கள் மற்றும் மீன்களைப் பார்த்ததன் மூலம்",
+        "Because the village people told him || கிராம மக்கள் அவனிடம் சொன்னதால்",
+        "By bathing in the river || ஆற்றில் குளித்ததன் மூலம்"
+      ],
+      "a": 1,
+      "ex": "The river water was so clean that he could clearly see the pebbles and fish swimming by. || ஆற்றுத் தண்ணீர் சுத்தமாக இருந்ததால் அவனால் மீன்களையும் கூழாங்கற்களையும் பார்க்க முடிந்தது.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What is the correct plural word for 'Deer'? || 'Deer' என்ற சொல்லின் சரியான பன்மை வடிவம் என்ன?",
+      "options": [
+        "Deers",
+        "Deeres",
+        "Deer",
+        "Dears"
+      ],
+      "a": 2,
+      "ex": "Some animal names have identical forms in both singular and plural. Deer remains Deer. || சில விலங்குகளின் பெயர்கள் ஒருமை மற்றும் பன்மை இரண்டிலும் ஒரே மாதிரியாக இருக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Which daughter of the farmer received the responsibility of the agricultural lands due to her wisdom? || தனது புத்திசாலித்தனத்தால் விவசாய நிலங்களை நிர்வகிக்கும் பொறுப்பைப் பெற்ற விவசாயியின் மகள் யார்?",
+      "options": [
+        "First daughter || முதல் மகள்",
+        "Second daughter || இரண்டாம் மகள்",
+        "Third daughter || மூன்றாம் மகள்",
+        "All three daughters || மூன்று மகள்களும்"
+      ],
+      "a": 2,
+      "ex": "Because the third daughter sowed the grains and harvested them, her father praised her wisdom and gave her the responsibility. || மூன்றாவது மகள் தானியங்களை விதைத்து அறுவடை செய்ததால் அவளுக்கு நிலப் பொறுப்பு வழங்கப்பட்டது.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Which word rhymes with 'Armour' in the poem? || கவிதையில் 'Armour' என்ற சொல்லுடன் இயைந்து வரும் சொல் எது?",
+      "options": [
+        "Charm",
+        "Farmer",
+        "Hook",
+        "Wealth"
+      ],
+      "a": 1,
+      "ex": "In the poem, 'Farmer' and 'Armour' are used as rhyming words. || 'Farmer' மற்றும் 'Armour' ஆகியவை இயைபுச் சொற்களாகப் பயன்படுத்தப்பட்டுள்ளன.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What does the poem say we should not use, as it harms the soil? || நிலத்திற்குத் தீமை விளைவிப்பதால் எதைப் பயன்படுத்தக் கூடாது என்று கவிதை கூறுகிறது?",
+      "options": [
+        "Natural fertilizers || இயற்கை உரங்கள்",
+        "Chemicals || ரசாயனங்கள்",
+        "Cow dung || மாட்டுச் சாணம்",
+        "Water || தண்ணீர்"
+      ],
+      "a": 1,
+      "ex": "The poem insists, \"We don’t use chemicals in the soil.\" || 'மண்ணில் ரசாயனங்களைப் பயன்படுத்தக் கூடாது' என்று கவிதை வலியுறுத்துகிறது.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What is the plural form of 'Loaf'? || 'Loaf' -ன் பன்மை வடிவம் என்ன?",
+      "options": [
+        "Loafs",
+        "Loaves",
+        "Loefs",
+        "Loafes"
+      ],
+      "a": 1,
+      "ex": "A word ending in 'f' changes into 'ves' in plural form (Loaf - Loaves). || 'f' இல் முடியும் சொல் பன்மை வடிவில் 'ves' ஆக மாறும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Fill in the blank with Past Continuous Tense: 'We _______ eating fruits.' || 'We _______ eating fruits' என்ற வாக்கியத்தைக் கடந்த காலத் தொடர்ச்சியால் நிரப்பவும்.",
+      "options": [
+        "was",
+        "are",
+        "were",
+        "will be"
+      ],
+      "a": 2,
+      "ex": "When the plural subject 'We' comes, 'were' must be used in the Past Continuous Tense. || 'We' என்ற பன்மை எழுவாய்க்கு கடந்த காலத்தில் 'were' பயன்படுத்தப்பட வேண்டும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "With whom did Santhosh break groundnut pods in the village? || கிராமத்தில் சந்தோஷ் யாருடன் நிலக்கடலை உடைத்தான்?",
+      "options": [
+        "Paavai",
+        "Amir",
+        "Peter and Umaiyal",
+        "Varun"
+      ],
+      "a": 2,
+      "ex": "Peter and Umaiyal were breaking groundnut pods, and Santhosh joined them. || பீட்டரும் உமையாளும் நிலக்கடலை உடைத்துக் கொண்டிருந்தார்கள், சந்தோஷும் அவர்களுடன் சேர்ந்து கொண்டான்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Varun and Akshaya talked about their team experiences in which sports game? || வருணும் அக்ஷயாவும் எந்த விளையாட்டில் தங்கள் குழு அனுபவங்களைப் பற்றிப் பேசினர்?",
+      "options": [
+        "Kabaddi",
+        "Cricket",
+        "Kho-Kho",
+        "Football"
+      ],
+      "a": 2,
+      "ex": "In the Skills Development (Listen, Speak) section, they converse about the Kho-Kho game. || அவர்கள் கோ-கோ (Kho-Kho) விளையாட்டைப் பற்றி உரையாடுகிறார்கள்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What is the correct plural word for 'Tooth'? || 'Tooth' என்ற சொல்லின் சரியான பன்மை வடிவம் என்ன?",
+      "options": [
+        "Tooths",
+        "Teeth",
+        "Teethes",
+        "Toothes"
+      ],
+      "a": 1,
+      "ex": "By changing the vowel 'oo' to 'ee', the plural is formed (Tooth - Teeth). || உயிர் எழுத்தை மாற்றுவதன் மூலம் பன்மை உருவாகிறது (Tooth - Teeth).",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Why is a 'Scarecrow' placed in the field? || வயலில் சோளக்காட்டுப் பொம்மை ஏன் வைக்கப்படுகிறது?",
+      "options": [
+        "To water the crops",
+        "To frighten birds away from the field || பறவைகளை வயலிலிருந்து விரட்ட",
+        "For decoration",
+        "To catch thieves"
+      ],
+      "a": 1,
+      "ex": "A scarecrow is a human-like figure used to scare birds away from destroying crops. || பறவைகள் பயிர்களை அழிப்பதைத் தடுக்க அவற்றை அச்சுறுத்தப் பொம்மைகள் வைக்கப்படுகின்றன.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What is the situational context of the English phrase 'You need to freshen up'? || 'You need to freshen up' என்ற ஆங்கிலத் தொடரின் பயன்பாடு எப்போது?",
+      "options": [
+        "While playing",
+        "Asking someone to wash their face and feel refreshed || முகத்தைக் கழுவி புத்துணர்ச்சி பெறச் சொல்லும் போது",
+        "While eating food",
+        "When going to sleep"
+      ],
+      "a": 1,
+      "ex": "This is a basic situational sentence used in daily life routines. || இது அன்றாட வாழ்க்கையில் பயன்படுத்தப்படும் ஒரு வாக்கியமாகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What is the name of the village where the story of the farmer's daughters takes place? || விவசாயியின் மகள்கள் கதை நடக்கும் கிராமத்தின் பெயர் என்ன?",
+      "options": [
+        "Sirumalai",
+        "Manipuram",
+        "Kallakurichi",
+        "Thanjavur"
+      ],
+      "a": 1,
+      "ex": "The supplementary story is about a farmer who lived in the village of Manipuram. || துணைக் கதை மணிபுரம் கிராமத்தில் வாழ்ந்த ஒரு விவசாயியைப் பற்றியது.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What is the plural form of 'Man'? || 'Man' -ன் பன்மை வடிவம் என்ன?",
+      "options": [
+        "Mans",
+        "Men",
+        "Mens",
+        "Manes"
+      ],
+      "a": 1,
+      "ex": "The plural is formed by changing the internal vowel (Man - Men). || 'Man' என்பதன் பன்மை வடிவம் 'Men' ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "'She was writing the homework at 6 o clock.' - What tense does this indicate? || 'She was writing the homework at 6 o clock' - இது எந்தக் காலத்தைக் குறிக்கிறது?",
+      "options": [
+        "Present Continuous",
+        "Past Continuous || கடந்த காலத் தொடர்ச்சி",
+        "Future Continuous",
+        "Simple Past"
+      ],
+      "a": 1,
+      "ex": "Since 'was + verb(ing)' is used, it is Past Continuous Tense. || 'was + verb(ing)' என்பது கடந்த காலத் தொடர்ச்சியைக் குறிக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Which is the rhyming word that matches with 'Charm' in the poem? || கவிதையில் 'Charm' என்ற சொல்லுடன் பொருந்தும் இயைபுச் சொல் எது?",
+      "options": [
+        "Harm",
+        "Look",
+        "Hook",
+        "Filth"
+      ],
+      "a": 0,
+      "ex": "In the poem, Charm and Harm are rhyming words. || 'Charm' மற்றும் 'Harm' ஆகியவை இயைபுச் சொற்களாகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What is the meaning of the English word 'Millet'? || 'Millet' என்ற ஆங்கிலச் சொல்லின் பொருள் என்ன?",
+      "options": [
+        "Wheat",
+        "A cereal grown in warm countries (Sirudhaniyam) || சிறுதானியம்",
+        "Paddy",
+        "Corn"
+      ],
+      "a": 1,
+      "ex": "Millet is a type of cereal grain grown in warm countries. || தினை, கேழ்வரகு போன்றவையே மில்லட் எனப்படும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What is the plural form of the word 'Mango'? || 'Mango' -ன் பன்மை வடிவம் என்ன?",
+      "options": [
+        "Mangos",
+        "Mangoes",
+        "Mangese",
+        "Mangoies"
+      ],
+      "a": 1,
+      "ex": "For many words ending in 'o', '-es' is added to make the plural (Mango - Mangoes). || 'o' இல் முடியும் சில சொற்களுக்கு '-es' சேர்த்து பன்மை உருவாக்கப்படும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Choose the correct match: What does a 'Fish' do? || சரியான பொருத்தத்தைத் தேர்ந்தெடுக்கவும்: 'Fish' என்ன செய்யும்?",
+      "options": [
+        "Sings",
+        "Swims || நீந்தும்",
+        "Flows",
+        "Blows"
+      ],
+      "a": 1,
+      "ex": "Fishes swim in water, so Fish - Swims is the correct match. || மீன்கள் நீரில் நீந்தும், எனவே மீன் - நீந்தும் என்பதே சரியானது.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Choose the correct answer when changing 'They were going to Coimbatore' into Future Continuous Tense. || 'They were going to Coimbatore' என்பதை வருங்காலத் தொடர்ச்சிக்கு மாற்றும் போது எது சரியான விடை?",
+      "options": [
+        "They are going to Coimbatore.",
+        "They will go to Coimbatore.",
+        "They will be going to Coimbatore.",
+        "They goes to Coimbatore."
+      ],
+      "a": 2,
+      "ex": "'were going' changes to 'will be going' in Future Continuous Tense. || கடந்த காலத் தொடர்ச்சி வருங்காலத் தொடர்ச்சியில் 'will be going' என மாறும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Which sweet and juicy fruit did Santhosh's grandfather give him to eat? || சந்தோஷின் தாத்தா அவனுக்கு உண்ணக் கொடுத்த பழம் எது?",
+      "options": [
+        "Jackfruit || பலாப்பழம்",
+        "Mango || மாம்பழம்",
+        "Banana || வாழைப்பழம்",
+        "Pomegranate || மாதுளை"
+      ],
+      "a": 1,
+      "ex": "His grandfather plucked a ripe, sweet, and juicy mango from the tree and gave it to him. || அவரது தாத்தா ஒரு இனிப்பான மாம்பழத்தைப் பறித்துக் கொடுத்தார்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What is the correct plural form of 'Calf'? || 'Calf' -ன் சரியான பன்மை வடிவம் என்ன?",
+      "options": [
+        "Calfs",
+        "Calves",
+        "Calfies",
+        "Calve"
+      ],
+      "a": 1,
+      "ex": "Because it ends in 'f', it changes to 'ves' (Calf - Calves). || 'f' இல் முடிவதால் இது 'ves' என மாறும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "'I was dancing while he was singing.' - What is the grammar structure in this sentence? || 'I was dancing while he was singing' - இதில் உள்ள இலக்கண அமைப்பு என்ன?",
+      "options": [
+        "Both actions are in Future Continuous",
+        "Past Continuous indicating two simultaneous actions || இரண்டு தொடர்ச் செயல்கள் ஒரே நேரத்தில் நடந்ததைக் குறிக்கும் கடந்த காலத் தொடர்ச்சி",
+        "Present Continuous",
+        "Simple Past"
+      ],
+      "a": 1,
+      "ex": "To indicate two actions that were happening at the same time in the past, this structure is used. || கடந்த காலத்தில் ஒரே நேரத்தில் நடந்த செயல்களைக் குறிக்க இது பயன்படுகிறது.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Which English word indicates that the farmer's third daughter acted intelligently? || விவசாயியின் மூன்றாவது மகள் புத்திசாலித்தனமாகச் செயல்பட்டதைக் குறிக்கும் ஆங்கிலச் சொல் எது?",
+      "options": [
+        "Harm",
+        "Filth",
+        "Wisely || புத்திசாலித்தனமாக",
+        "Eager"
+      ],
+      "a": 2,
+      "ex": "Wisely means acting cleverly or intelligently. || 'Wisely' என்பது புத்திசாலித்தனத்தைக் குறிக்கும் சொல்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What is the plural form of 'Knife'? || 'Knife' -ன் பன்மை வடிவம் என்ன?",
+      "options": [
+        "Knifes",
+        "Knives",
+        "Knieves",
+        "Knifi"
+      ],
+      "a": 1,
+      "ex": "A word ending in 'fe' changes into 'ves' (Knife - Knives). || 'Knife' என்பதன் பன்மை வடிவம் 'Knives' ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What is the rhyming word for 'Look' according to the poem? || கவிதையின்படி 'Look' என்ற சொல்லுக்கு இயைபுச் சொல் எது?",
+      "options": [
+        "Hook",
+        "Harm",
+        "Farmer",
+        "Wealth"
+      ],
+      "a": 0,
+      "ex": "Look and Hook are rhyming words in the poem box. || 'Look' மற்றும் 'Hook' ஆகியவை கவிதையில் வரும் இயைபுச் சொற்களாகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Which detail is a must-include point when writing an 'Autobiography'? || 'சுயசரிதை' எழுதும் போது கண்டிப்பாக இருக்க வேண்டியத் தகவல் எது?",
+      "options": [
+        "Date and place of birth || பிறந்த தேதி மற்றும் இடம்",
+        "Criticism of others",
+        "Future imagination",
+        "Friends' secrets"
+      ],
+      "a": 0,
+      "ex": "In the autobiography, personal basic details like date and place of birth are essential. || சுயசரிதையில் பிறப்பு பற்றியத் தகவல்கள் முக்கியமானவை.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "'We _______ be walking.' - What is the correct word to form Future Continuous Tense? || 'We _______ be walking' - வருங்காலத் தொடர்ச்சியை உருவாக்கச் சரியான சொல் எது?",
+      "options": [
+        "shall",
+        "are",
+        "will",
+        "was"
+      ],
+      "a": 2,
+      "ex": "In the Future Continuous Tense, 'will be' is used for all subjects. || வருங்காலத் தொடர்ச்சியில் 'will be' என்பது அனைத்து எழுவாய்களுக்கும் பொருந்தும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "How do people often see the earthworm? || மக்கள் மண்புழுவை பெரும்பாலும் எப்படிப் பார்க்கிறார்கள்?",
+      "options": [
+        "As a beautiful creature",
+        "As filth (dirt/ugly) || அழுக்காக/அருவருப்பாக",
+        "As dangerous",
+        "As holy"
+      ],
+      "a": 1,
+      "ex": "The poem says that people often see the earthworm as 'Filth' (ugly or dirt). || மக்கள் மண்புழுவை வெறும் அழுக்காக மட்டுமே பார்க்கிறார்கள் என்று கவிதை கூறுகிறது.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Who among the village children was doing the task of milking cows? || கிராமத்துக் குழந்தைகளில் யார் பசுவிடம் பால் கறக்கும் வேலையைச் செய்தார்கள்?",
+      "options": [
+        "Santhosh",
+        "Peter",
+        "Umaiyal",
+        "Amir"
       ],
       "a": 3,
-      "ex": "பாட்டி கூறிய விதிமுறைப்படி விடை தெரியவில்லை என்றால் தெரிந்த மற்றவர்கள் விடை கூறலாம், வெளியேற வேண்டும் என அவர் கூறவில்லை.",
-      "lesson": "Lesson_4"
+      "ex": "Amir is mentioned in the lesson as the boy who was milking cows. || அமீர் பால் கறப்பதாகப் பாடத்தில் சொல்லப்பட்டுள்ளது.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "15. உண்டியல் புதிரில் பாட்டி தண்மதியிடம் கொடுத்ததாகக் கூறிய மொத்த நாணயங்களின் எண்ணிக்கை எவ்வளவு?",
+      "q": "What is the meaning of the word 'Sacred'? || 'Sacred' என்ற சொல்லின் பொருள் என்ன?",
       "options": [
-        "a) 100",
-        "b) 200",
-        "c) 250",
-        "d) 500"
-      ],
-      "a": 2,
-      "ex": "பாட்டி தண்மதியிடம் 250 நாணயங்கள் இருப்பதாகக் கூறி புதிரைத் தொடங்கினார்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "16. சரியான இணையைக் கண்டறிக:",
-      "options": [
-        "a) தாத்தா - உண்டியல் புதிர்",
-        "b) பாட்டி - நேரம் புதிர்",
-        "c) கவிநிலா - பெயர் புதிர்",
-        "d) அழகன் - பெயர் புதிர்"
-      ],
-      "a": 3,
-      "ex": "அழகன் தான் பெயர் புதிருக்கான விடையைக் கூறினான். மற்ற இணைகள் அனைத்தும் தவறானவை.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "17. கூற்று (A): பெயர் நமக்குச் சொந்தமானது, ஆனால் நாமே அதை அதிகம் பயன்படுத்துவோம். \nகாரணம் (R): மற்றவர்கள் நம்மை அழைக்கப் பெயரைப் பயன்படுத்துகிறார்கள்.",
-      "options": [
-        "a) A மற்றும் R சரி",
-        "b) A தவறு, R சரி",
-        "c) A சரி, R தவறு",
-        "d) இரண்டுமே தவறு"
-      ],
-      "a": 1,
-      "ex": "பெயர் நமக்குச் சொந்தமாக இருந்தாலும், மற்றவர்கள்தான் நம்மை அழைப்பதற்காக அதை அதிகம் பயன்படுத்துவார்கள். எனவே கூற்று A தவறு.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "18. அறிவுநிலா பாடப்பகுதியில் இடம்பெற்றுள்ள மொத்த புதிர்களின் எண்ணிக்கை எத்தனை?",
-      "options": [
-        "a) இரண்டு",
-        "b) மூன்று",
-        "c) நான்கு",
-        "d) ஐந்து"
-      ],
-      "a": 2,
-      "ex": "1. பெயர் புதிர், 2. பையில் ஓட்டை புதிர், 3. உண்டியல் புதிர், 4. நேரம் புதிர் என மொத்தம் 4 புதிர்கள் இடம்பெற்றுள்ளன.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "19. பாடப்பகுதியில் 'உண்டியல்' புதிரில் அந்த உண்டியலின் அதிகபட்ச கொள்ளளவாகக் கூறப்பட்ட நாணயங்களின் எண்ணிக்கை?",
-      "options": [
-        "a) 100",
-        "b) 150",
-        "c) 200",
-        "d) 250"
-      ],
-      "a": 2,
-      "ex": "250 நாணயங்கள் கொடுக்கப்பட்டாலும், அந்த உண்டியலில் 200 நாணயங்கள் மட்டுமே போட முடியும் என பாட்டி கூறினார்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "20. கீழ்க்கண்டவற்றுள் பாட்டி கேட்காத புதிர் எது?",
-      "options": [
-        "a) பெயர் புதிர்",
-        "b) உண்டியல் புதிர்",
-        "c) நேரம் புதிர்",
-        "d) மேற்கண்ட எதுவுமில்லை"
-      ],
-      "a": 2,
-      "ex": "நேரம் பற்றிய புதிரைக் கேட்டவர் தாத்தா. பாட்டி பெயர் மற்றும் உண்டியல் புதிர்களை மட்டுமே கேட்டார்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "21. \"விடை தெரியவில்லை என்றால் தெரிந்தவர் விடை கூறலாம்\" - இது யார் வகுத்த விதிமுறை?",
-      "options": [
-        "a) தாத்தா",
-        "b) பாட்டி",
-        "c) கவிநிலா",
-        "d) தண்மதி"
-      ],
-      "a": 1,
-      "ex": "புதிர் விளையாட்டைத் தொடங்குவதற்கு முன் பாட்டியே இந்த விதிமுறைகளை வகுத்தார்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "22. கவிநிலாவைத் தவிர வேறு யாருக்கும் புதிர்களுக்குப் பதிலளிக்க வாய்ப்பு கிடைக்கவில்லையா?",
-      "options": [
-        "a) ஆம், கவிநிலா மட்டுமே விடையளித்தாள்",
-        "b) இல்லை, அழகன் மற்றும் தண்மதியும் தலா ஒரு புதிருக்கு விடையளித்தனர்",
-        "c) இல்லை, தண்மதி மட்டும் விடையளித்தாள்",
-        "d) தாத்தா மட்டுமே விடையளித்தார்"
-      ],
-      "a": 1,
-      "ex": "அழகன் (பெயர்), தண்மதி (உண்டியல்) ஆகியோரும் புதிர்களுக்கு விடையளித்துள்ளனர்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "23. அறிவுநிலா பாடப்பகுதி எவ்வகை இலக்கிய வடிவத்தைச் சார்ந்தது?",
-      "options": [
-        "a) கவிதை",
-        "b) உரைநடை",
-        "c) நாடகம்",
-        "d) துணைப்பாடம்"
-      ],
-      "a": 1,
-      "ex": "பாடத்தின் தலைப்புப் பகுதியிலேயே 'அறிவுநிலா (உரைநடை)' எனத் தெளிவாகக் குறிப்பிடப்பட்டுள்ளது.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "24. ஒரு கேள்விக்கு பல கோணங்களில் சிந்தித்து விடையளிக்கும் கவிநிலாவின் திறன் எவ்வகைச் சிந்தனையைக் குறிக்கிறது?",
-      "options": [
-        "a) குவிசிந்தனை (Convergent thinking)",
-        "b) விரிசிந்தனை (Divergent thinking)",
-        "c) எதிர்மறைச் சிந்தனை",
-        "d) மனப்பாடத் திறன்"
-      ],
-      "a": 1,
-      "ex": "ஒரே கேள்விக்கு மாற்று வழிகளில் அல்லது ஆக்கபூர்வமாகச் சிந்தித்து விடை காண்பது விரிசிந்தனை ஆகும்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "25. தாத்தா கேட்ட புதிர்களின் எண்ணிக்கை எத்தனை?",
-      "options": [
-        "a) ஒன்று",
-        "b) இரண்டு",
-        "c) மூன்று",
-        "d) நான்கு"
-      ],
-      "a": 1,
-      "ex": "தாத்தா பை மற்றும் நேரம் ஆகிய இரண்டு புதிர்களைக் கேட்டார்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "26. பொருத்துக:\n1. பாட்டி கேட்டது - அ. பை, நேரம்\n2. தாத்தா கேட்டது - ஆ. பெயர், உண்டியல்",
-      "options": [
-        "a) 1-அ, 2-ஆ",
-        "b) 1-ஆ, 2-அ",
-        "c) இரண்டுமே அ",
-        "d) இரண்டுமே ஆ"
-      ],
-      "a": 1,
-      "ex": "பாட்டி பெயர் மற்றும் உண்டியல் புதிர்களையும், தாத்தா பை மற்றும் நேரம் புதிர்களையும் கேட்டனர்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "27. \"ஒரு பை முழுக்கப் பொருள்கள் இருக்கின்றன... எடை கூடக்கூடாது\" என்ற புதிருக்குரிய சரியான விடை 'ஓட்டை' என்று கூறியவர்?",
-      "options": [
-        "a) தண்மதி",
-        "b) அழகன்",
-        "c) கவிநிலா",
-        "d) பாட்டி"
-      ],
-      "a": 2,
-      "ex": "தாத்தா கேட்ட இந்தப் புதிருக்கு கவிநிலா சிந்தித்து சரியான விடையைக் கூறினாள்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "28. \"அறிவுநிலா\" என்ற தலைப்பு யாருடைய பண்பை மையமாகக் கொண்டு வைக்கப்பட்டுள்ளது?",
-      "options": [
-        "a) தண்மதி",
-        "b) கவிநிலா",
-        "c) பாட்டி",
-        "d) தாத்தா"
-      ],
-      "a": 1,
-      "ex": "கவிநிலாவின் புத்திசாலித்தனத்தைக் கண்டு பாட்டி அவளை அறிவுநிலா என்று அழைத்ததே பாடத்தின் மையக்கருத்தாக உள்ளது.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "29. காலியான உண்டியலில் ஒரு நாணயத்தை மட்டுமே போட முடியும் என்ற தண்மதியின் விடை உணர்த்தும் திறன் எது?",
-      "options": [
-        "a) மொழித்திறன்",
-        "b) தருக்கப் பகுப்பாய்வு (Logical analysis)",
-        "c) மனப்பாடத் திறன்",
-        "d) கணிதத் திறன்"
-      ],
-      "a": 1,
-      "ex": "எண்கள் (250, 200) கொடுக்கப்பட்டிருந்தாலும், \"காலியான\" என்ற சொல்லின் தருக்க ரீதியான பொருளைப் பகுப்பாய்வு செய்து விடை கூறப்பட்டதால் இது தருக்கப் பகுப்பாய்வுத் திறனைக் குறிக்கும்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "30. கூற்று (A): புதிர்கள் மாணவர்களின் சிந்தனைத் திறனையும் ஆர்வத்தையும் வளர்க்கின்றன.\nகாரணம் (R): புதிர்கள் நேரடியான விடைகளைக் கொண்டிருக்காமல் மறைமுகமான பொருளைக் கொண்டு சிந்திக்கும்படி அமைந்திருக்கும்.",
-      "options": [
-        "a) A தவறு, R சரி",
-        "b) A சரி, R தவறு",
-        "c) A மற்றும் R சரி, R சரியான விளக்கம்",
-        "d) A மற்றும் R சரி, ஆனால் R சரியான விளக்கமல்ல"
-      ],
-      "a": 2,
-      "ex": "புதிர்களின் இயல்பே மாணவர்களைப் பல கோணங்களில் சிந்திக்கத் தூண்டுவதாகும்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "31. நேரம் என்ன என்ற கேள்விக்கு எப்போதும் ஒரே விடைதான் கிடைக்கும் என்ற கூற்று சரியானதா?",
-      "options": [
-        "a) சரி",
-        "b) தவறு",
-        "c) சில நேரங்களில் சரி",
-        "d) கூற இயலாது"
-      ],
-      "a": 1,
-      "ex": "நேரம் தொடர்ந்து மாறிக்கொண்டே இருக்கும், எனவே ஒவ்வொரு முறையும் வெவ்வேறு விடைகள் (ஆனால் சரியான விடைகள்) கிடைக்கும்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "32. தண்மதிக்கு உண்டியல் புதிரை யார் கேட்டது?",
-      "options": [
-        "a) தாத்தா",
-        "b) கவிநிலா",
-        "c) அழகன்",
-        "d) பாட்டி"
-      ],
-      "a": 3,
-      "ex": "பாட்டி தண்மதியைப் பார்த்து உண்டியல் தொடர்பான புதிரைக் கேட்டார்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "33. கீழ்க்கண்டவற்றுள் கவிநிலா விடையளிக்காத புதிர் எது?",
-      "options": [
-        "a) பையில் ஓட்டை புதிர்",
-        "b) நேரம் புதிர்",
-        "c) பெயர் புதிர்",
-        "d) மேற்கண்ட எதுவுமில்லை"
-      ],
-      "a": 2,
-      "ex": "பெயர் புதிருக்கு அழகன் விடையளித்தான்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "34. வகுப்பறையில் புதிர்களைப் பயன்படுத்துவதன் முக்கியப் கற்பித்தல் நோக்கம் (Pedagogical objective) என்ன?",
-      "options": [
-        "a) நேரத்தை வீணாக்குதல்",
-        "b) மாணவர்களின் மனப்பாடத் திறனைச் சோதித்தல்",
-        "c) ஆர்வத்தைத் தூண்டுதல் மற்றும் கற்பனைத் திறனை வளர்த்தல்",
-        "d) பாடப்புத்தகத்தை மட்டும் படிக்கச் செய்தல்"
-      ],
-      "a": 2,
-      "ex": "புதிர்கள் மாணவர்களின் இயல்பான ஆர்வத்தைத் தூண்டி, அவர்களின் அறிவாற்றல் மற்றும் கற்பனைத் திறனை மேம்படுத்துகின்றன.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "35. சரியான வரிசையைத் தேர்ந்தெடுக்க: புதிர்களுக்கு விடையளித்த குழந்தைகளின் வரிசை (பாடம் தொடங்கும்போது)",
-      "options": [
-        "a) அழகன், கவிநிலா, தண்மதி, கவிநிலா",
-        "b) கவிநிலா, தண்மதி, அழகன், கவிநிலா",
-        "c) தண்மதி, அழகன், கவிநிலா, கவிநிலா",
-        "d) அழகன், தண்மதி, கவிநிலா, கவிநிலா"
+        "Holy || புனிதமான",
+        "Responsible",
+        "Intelligent",
+        "Dirty"
       ],
       "a": 0,
-      "ex": "முதலில் அழகன் (பெயர்), அடுத்து கவிநிலா (ஓட்டை), அடுத்து தண்மதி (உண்டியல்), இறுதியாக மீண்டும் கவிநிலா (நேரம்) விடையளித்தனர்.",
-      "lesson": "Lesson_4"
+      "ex": "The second daughter considered the grains as 'Sacred' (Holy). || 'Sacred' என்றால் புனிதமானது என்று பொருள்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "36. அறிவுநிலா பாடப்பகுதியில் உள்ள கதைமாந்தர்களின் மொத்த எண்ணிக்கை?",
+      "q": "What is an 'Armour'? || 'Armour' (கவசம்) என்பது என்ன?",
       "options": [
-        "a) மூன்று",
-        "b) நான்கு",
-        "c) ஐந்து",
-        "d) ஆறு"
-      ],
-      "a": 2,
-      "ex": "கவிநிலா, தண்மதி, அழகன் (குழந்தைகள் 3 பேர்) + தாத்தா, பாட்டி (2 பேர்) என மொத்தம் 5 கதைமாந்தர்கள் உள்ளனர்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "37. \"அப்படியெனில் கேட்கப்பட்ட அந்தக் கேள்வி என்னவாக இருக்கும்?\" - இதில் 'அப்படியெனில்' என்ற சொல் எதனைக் குறிக்கிறது?",
-      "options": [
-        "a) வெவ்வேறு விடைகள் வந்தாலும் அனைத்தும் சரியெனில்",
-        "b) கேள்வி தவறாக இருந்தால்",
-        "c) பதில் கூற மறுத்தால்",
-        "d) விடை தெரியவில்லை எனில்"
-      ],
-      "a": 0,
-      "ex": "ஒரே கேள்விக்குப் பலமுறை வெவ்வேறு விடைகள் வந்தாலும் அவை அனைத்தும் சரியான விடைகளாக இருப்பின் என்ற நிபந்தனையையே இச்சொல் குறிக்கிறது.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "38. கூற்று 1: பையில் சிறிது கூட எடை கூடக்கூடாது எனில் அதில் துளை போட வேண்டும். \nகூற்று 2: காலியான உண்டியலில் இரண்டு நாணயங்களை மட்டுமே முதலில் போட முடியும்.",
-      "options": [
-        "a) கூற்று 1 மட்டும் சரி",
-        "b) கூற்று 2 மட்டும் சரி",
-        "c) இரண்டும் சரி",
-        "d) இரண்டும் தவறு"
-      ],
-      "a": 0,
-      "ex": "காலியான உண்டியலில் முதல் நாணயத்தைப் போட்டவுடனேயே அது காலியாக இருக்காது. எனவே கூற்று 2 தவறு.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "39. 'உனக்குச் சொந்தமானது ஆனால் மற்றவர்கள் அதிகம் பயன்படுத்துவார்கள்' - இதில் மறைந்துள்ள மொழிநுட்பம் என்ன?",
-      "options": [
-        "a) பொருட்பெயர்",
-        "b) இடுகுறிப்பெயர்",
-        "c) அழைக்கும் பெயர்",
-        "d) காரணப்பெயர்"
-      ],
-      "a": 2,
-      "ex": "நமது பெயரை நாம் சொல்வதை விட மற்றவர்களே நம்மை அழைப்பதற்காக அதிகம் உச்சரிக்கின்றனர் என்ற நடைமுறை உண்மையே இதன் நுட்பம்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "40. விடையளிக்க முடியாத நிலையில் இருப்பவருக்குப் பாட்டி அளித்த சலுகை என்ன?",
-      "options": [
-        "a) அடுத்த புதிருக்குச் செல்லலாம்",
-        "b) தெரிந்தவர் விடை கூறலாம்",
-        "c) தாத்தாவே விடை கூறுவார்",
-        "d) விளையாட்டை முடித்துக்கொள்ளலாம்"
+        "A farmer",
+        "A metal cover worn to protect the body in battle || போரில் உடலைப் பாதுகாக்கும் உலோக உறை",
+        "An earthworm",
+        "A chemical fertilizer"
       ],
       "a": 1,
-      "ex": "ஒவ்வொருவருக்கும் ஒரு புதிர் என்றாலும், விடை தெரியவில்லை என்றால் தெரிந்த மற்றவர் கூறலாம் என்பதே பாட்டியின் சலுகை கலந்த விதிமுறை.",
-      "lesson": "Lesson_4"
+      "ex": "An armour is a protective metal cover worn during battle. || கவசம் என்பது போரில் பாதுகாப்பிற்காக அணியும் உலோக மூடி ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "41. 'தண்மதி' - இச்சொல்லின் இலக்கணக் குறிப்பு என்ன?",
+      "q": "'It ______ going to Delhi.' - Fill in the blank with the correct word for past continuous tense. || 'It ______ going to Delhi' - சரியான கடந்த காலத் தொடர்ச்சியைத் தேர்ந்தெடுக்கவும்.",
       "options": [
-        "a) வினைத்தொகை",
-        "b) பண்புத்தொகை",
-        "c) உவமைத்தொகை",
-        "d) உம்மைத்தொகை"
+        "were",
+        "was",
+        "will be",
+        "is"
       ],
       "a": 1,
-      "ex": "தன்மை + மதி எனப் பிரியும். குளிர்ந்த நிலவு என்பது இதன் பொருள். மை விகுதியும் ஆகிய என்ற பண்புருபும் மறைந்து வந்துள்ளதால் இது பண்புத்தொகை.",
-      "lesson": "Lesson_4"
+      "ex": "When the singular subject 'It' is used, 'was' is applied in past continuous tense. || ஒருமை எழுவாய்க்கு 'was' பயன்படுத்தப்படும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "42. புதிர் விளையாட்டு மாணவர்களிடம் எந்த மொழித்திறனை அதிகம் வளர்க்கிறது?",
+      "q": "Who is Mr. Murugan? || திரு. முருகன் யார்?",
       "options": [
-        "a) எழுதுதல் திறன்",
-        "b) வாசித்தல் திறன்",
-        "c) கேட்டல் மற்றும் பேசுதல் (வாய்மொழிப் பரிமாற்றம்)",
-        "d) இலக்கணத் திறன்"
-      ],
-      "a": 2,
-      "ex": "புதிரைக் கூர்ந்து கேட்பதும், அதற்கான விடையைச் சிந்தித்து வாய்மொழியாகக் கூறுவதும் இத்திறன்களையே வலுப்படுத்துகின்றன.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "43. 'அழகு + அன்' என்பது எவ்வாறு சேரும்?",
-      "options": [
-        "a) அழகன்",
-        "b) அழுகன்",
-        "c) அழகியன்",
-        "d) அழகுஅன்"
-      ],
-      "a": 0,
-      "ex": "அழகு என்ற பண்புப் பெயருடன் 'அன்' என்ற ஆண்பால் விகுதி சேரும்போது அழகன் என வரும்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "44. குழந்தைகள் தாத்தா பாட்டியுடன் விளையாடிய விளையாட்டு எது?",
-      "options": [
-        "a) ஓடிப்பிடித்து விளையாடுதல்",
-        "b) கண்ணாமூச்சி",
-        "c) புதிர் விளையாட்டு",
-        "d) தாயக்கட்டம்"
-      ],
-      "a": 2,
-      "ex": "பாடத்தின் மையக்கருவே தாத்தா பாட்டியுடன் குழந்தைகள் விளையாடிய புதிர் விளையாட்டுதான்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "45. தாத்தாவும் பாட்டியும் எந்த மனநிலையில் குழந்தைகளுடன் விளையாடினர்?",
-      "options": [
-        "a) கோபத்துடன்",
-        "b) சோர்வுடன்",
-        "c) உற்சாகமாக மற்றும் சுவாரஸ்யமாக",
-        "d) கட்டாயத்தின் பேரில்"
-      ],
-      "a": 2,
-      "ex": "குழந்தைகளுக்குச் சுவாரஸ்யமான புதிர்களைக் கேட்டு அவர்களுடன் உற்சாகமாக விளையாடினர்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "46. 'கவிநிலா' என்பதன் பொருள் யாது?",
-      "options": [
-        "a) கவிதை பாடும் நிலா",
-        "b) கவிதை போன்ற நிலா (உவமை)",
-        "c) நிலாவைப் பற்றிய கவிதை",
-        "d) கவியும் நிலாவும்"
+        "A teacher",
+        "A farmer || ஒரு விவசாயி",
+        "A driver",
+        "A doctor"
       ],
       "a": 1,
-      "ex": "கவிநிலா என்பது கவிதை போன்ற நிலவு என்ற பொருளில் உவமைத் தொகையாக அமைகிறது.",
-      "lesson": "Lesson_4"
+      "ex": "In the reading exercise, Mr. Murugan is described as a farmer with two bulls. || திரு. முருகன் ஒரு விவசாயி ஆவார்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "47. காலியான உண்டியலில் எத்தனை நாணயங்களைப் போட முடியும்?",
+      "q": "What is a synonym for the word 'Vacation'? || 'Vacation' என்ற சொல்லின் இணையானப் பொருள் எது?",
       "options": [
-        "a) 200",
-        "b) 250",
-        "c) 1",
-        "d) 0"
-      ],
-      "a": 2,
-      "ex": "காலியான உண்டியலில் ஒன்றைப் போட்டவுடன் அது காலியாக இருக்காது என்பதால் 1 நாணயம் மட்டுமே போட முடியும்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "48. \"அறிவுநிலா\" எனப் பெயரிடக் காரணமான நிகழ்வு எதைக் காட்டுகிறது?",
-      "options": [
-        "a) உருவ அமைப்பை",
-        "b) வயதை",
-        "c) அறிவாற்றல் மற்றும் சிந்தனைத் திறனைப் பாராட்டுவதை",
-        "d) விளையாட்டில் வென்றதை"
-      ],
-      "a": 2,
-      "ex": "குழந்தைகளின் சிந்தனைத் திறனை ஊக்குவித்துப் பாராட்டும் வகையில் பாட்டி அவ்வாறு அழைத்தார்.",
-      "lesson": "Lesson_4"
-    },
-    {
-      "q": "49. 'பொருள்' என்பதன் பன்மைச் சொல்?",
-      "options": [
-        "a) பொருளா",
-        "b) பொருள்கள்",
-        "c) பொருற்கள்",
-        "d) பொருளை"
+        "Work",
+        "Holiday || விடுமுறை",
+        "Toils",
+        "School"
       ],
       "a": 1,
-      "ex": "அஃறிணைப் பெயர்களுடன் 'கள்' விகுதி சேர்ந்து பன்மை ஆகும்.",
-      "lesson": "Lesson_4"
+      "ex": "Vacation means a holiday. || வெக்கேஷன் என்றால் விடுமுறை என்று பொருள்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     },
     {
-      "q": "50. இப்பாடப்பகுதியில் உள்ள மதிப்பீட்டு வினாக்களில் சிந்தனை வினாவாக எதை அமைக்கலாம்?",
+      "q": "What is the meaning of the word 'Numerous'? || 'Numerous' என்பதன் பொருள் என்ன?",
       "options": [
-        "a) கவிநிலாவை அறிவுநிலா என அழைத்தது யார்?",
-        "b) உங்களுக்குப் பிடித்த புதிர் எது? ஏன்?",
-        "c) பாட்டி கூறிய விதிமுறைகள் யாவை?",
-        "d) 'தற்போது' என்பதன் பொருள் என்ன?"
+        "Small",
+        "Many in number || அதிக எண்ணிக்கையிலான",
+        "Intelligent",
+        "Beautiful"
       ],
       "a": 1,
-      "ex": "மாணவர்களின் சொந்தச் சிந்தனையையும், காரணகாரிய அறிவையும் தூண்டும் வினா இதுவேயாகும். இது பாடத்தின் இறுதியிலும் சிந்தனை வினாவாகக் கொடுக்கப்பட்டுள்ளது.",
-      "lesson": "Lesson_4"
+      "ex": "Numerous means 'many in number'. || நியூமரஸ் என்றால் பல அல்லது அதிக எண்ணிக்கையில் என்று பொருள்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "Who is referred to as the 'Farmer's Friend'? || 'விவசாயியின் நண்பன்' என்று அழைக்கப்படுவது எது?",
+      "options": [
+        "Tractor",
+        "Earthworm || மண்புழு",
+        "Well",
+        "Chemical fertilizer"
+      ],
+      "a": 1,
+      "ex": "The title of the poem itself is 'Farmer's Friend', which refers to the earthworm. || மண்புழுவே விவசாயியின் நண்பனாகக் கருதப்படுகிறது.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
+    },
+    {
+      "q": "What is the correct meaning of the English word 'Eager'? || 'Eager' என்ற ஆங்கிலச் சொல்லின் சரியான பொருள் என்ன?",
+      "options": [
+        "Lazy",
+        "Angry",
+        "Keen (Very interested) || மிகுந்த ஆர்வம்",
+        "Patient"
+      ],
+      "a": 2,
+      "ex": "'Eager' means to be very interested or keen to do something. || 'ஈகர்' என்பது மிகுந்த ஆர்வத்தைக் குறிக்கும் சொல்லாகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_2"
     }
   ],
-  "sections": []
+  "sections": [
+    {
+      "title": "1. PROSE: Earth, the Desolated Home || 1. உரைநடை: பூமி, பாழடைந்த இல்லம்",
+      "class": "box-pink",
+      "type": "content",
+      "content": [
+        {
+          "text": "((Story Overview || கதை மேலோட்டம்))"
+        },
+        {
+          "text": "🚀 [[Setting/காலம்]]: The year [[2068]]. Earth is completely destroyed due to human exploitation. || ஆண்டு [[2068]]. மனிதச் சுரண்டலால் பூமி முற்றிலும் அழிந்துவிட்டது."
+        },
+        {
+          "text": "🛰️ [[New Habitat/புதிய வாழிடம்]]: Humans have colonized [[Mars]] (the Red Planet). India has established three colonies there. || மனிதர்கள் [[செவ்வாய் கிரகத்தில்]] (சிவப்பு கிரகம்) குடியேறியுள்ளனர். இந்தியா அங்கு மூன்று குடியேற்றங்களை அமைத்துள்ளது."
+        },
+        {
+          "text": "👨‍👩‍👦 [[Characters/கதாபாத்திரங்கள்]]: [[Arivumathi]] and her grandfather. || [[அறிவுமதி]] மற்றும் அவளது தாத்தா."
+        },
+        {
+          "text": "📖 [[Plot Synopsis/கதைச் சுருக்கம்]]: Grandfather travels [[1500 sols]] (Martian days) to visit Arivumathi for her birthday. He compares the harsh, artificial life on Mars with the beautiful, natural past of Earth. || அறிவுமதியின் பிறந்தநாளுக்காக தாத்தா [[1500 செவ்வாய் நாட்களைக்]] கடந்து பயணம் செய்கிறார். அவர் செவ்வாய் கிரகத்தின் கடினமான வாழ்க்கையை பூமியின் இயற்கையான கடந்த காலத்துடன் ஒப்பிடுகிறார்."
+        },
+        {
+          "text": "🌱 [[Core Message/முக்கிய செய்தி]]: We must protect our [[natural home]] (Earth) instead of destroying it and struggling to adapt to dead planets. || நமது இயற்கை இல்லத்தை ([[பூமி]]) அழித்துவிட்டு, உயிரற்ற கிரகங்களில் வாழப் போராடுவதற்குப் பதிலாக, நாம் பூமியைப் பாதுகாக்க வேண்டும்."
+        },
+        {
+          "text": "((Key Comparisons (Earth vs. Mars) || முக்கிய ஒப்பீடுகள்))"
+        },
+        {
+          "text": "[[Environment]]: Clean Air (Earth) vs. Toxic Air + [[Space Suit]] (Mars) || [[சுற்றுச்சூழல்]]: தூய்மையான காற்று (பூமி) vs நச்சுக் காற்று + [[விண்வெளி உடை]] (செவ்வாய்)"
+        },
+        {
+          "text": "[[Agriculture]]: Natural Fertile Soil (Earth) vs. Chemically Treated Soil (Mars) || [[விவசாயம்]]: இயற்கை வளமான மண் (பூமி) vs ரசாயன மண் (செவ்வாய்)"
+        },
+        {
+          "text": "[[Water Supply]]: Natural Rain/Rivers (Earth) vs. [[Artificially Generated]] (Mars) || [[நீர் ஆதாரம்]]: இயற்கை மழை/நதிகள் (பூமி) vs [[செயற்கையாக உருவாக்கப்பட்டது]] (செவ்வாய்)"
+        }
+      ]
+    },
+    {
+      "title": "2. POEM: Beyond the Universe || 2. கவிதை: பிரபஞ்சத்தைத் தாண்டி",
+      "class": "box-orange",
+      "type": "content",
+      "content": [
+        {
+          "text": "((Theme || கருப்பொருள்))"
+        },
+        {
+          "text": "A vivid, imaginative journey across the [[solar system]], exploring the unique characteristics of different planets. || சூரிய குடும்பம் முழுவதும் ஒரு தெளிவான, கற்பனைப் பயணம்."
+        },
+        {
+          "text": "((The Cosmic Journey || காஸ்மிக் பயணம்))"
+        },
+        {
+          "text": "🌍 [[1. Earth]]: Leaving behind blue home || [[பூமி]]: நீல இல்லத்தை விட்டு வெளியேறுதல்."
+        },
+        {
+          "text": "🔴 [[2. Mars]]: Gliding past red planet || [[செவ்வாய்]]: சிவப்பு கிரகத்தைக் கடந்து செல்லுதல்."
+        },
+        {
+          "text": "🪐 [[3. Saturn]]: Magnificent rings and moons || [[சனி]]: அழகான வளையங்கள் மற்றும் நிலவுகள்."
+        },
+        {
+          "text": "🌀 [[4. Jupiter]]: Giant with [[red storms]] || [[வியாழன்]]: [[சிவப்பு புயல்களைக்]] கொண்ட அரக்கன்."
+        },
+        {
+          "text": "🔃 [[5. Uranus]]: Tumbling, rolling planet || [[யுரேனஸ்]]: உருளும் கிரகம்."
+        },
+        {
+          "text": "❄️ [[6. Neptune]]: [[Blue ice giant]] || [[நெப்டியூன்]]: [[நீல பனி அரக்கன்]]."
+        },
+        {
+          "text": "🌌 [[7. Destination]]: Infinite universe to meet [[Creator]] || [[முடிவு]]: [[படைப்பாளரைச்]] சந்திக்க எல்லையற்ற பிரபஞ்சம் நோக்கி."
+        }
+      ]
+    },
+    {
+      "title": "3. SUPPLEMENTARY: Lost in Space || 3. துணைப்பாடம்: விண்வெளியில் தொலைந்தவர்கள்",
+      "class": "box-blue",
+      "type": "content",
+      "content": [
+        {
+          "text": "((Story Overview || கதை மேலோட்டம்))"
+        },
+        {
+          "text": "[[Main Characters]]: [[Amuthan]] and [[Nilavan]]. || [[கதாபாத்திரங்கள்]]: [[அமுதன்]] மற்றும் [[நிலவன்]]."
+        },
+        {
+          "text": "[[The Incident]]: While visiting a space museum, they accidentally lock themselves inside a [[space shuttle]] and launch into space. || விண்வெளி அருங்காட்சியகத்தில் இருந்த [[விண்வெளி ஓடத்தில்]] தங்களை பூட்டிக் கொண்டு தவறுதலாக விண்ணில் பறந்தனர்."
+        },
+        {
+          "text": "[[The Climax]]: Shuttle crash-lands on a strange planet. They meet friendly green [[aliens]]. || ஒரு விசித்திரக் கிரகத்தில் விண்கலம் மோதியது. அங்கு நட்புமிக்க [[ஏலியன்களைச்]] சந்தித்தனர்."
+        },
+        {
+          "text": "[[Resolution]]: Aliens repair their shuttle and guide them safely back to Earth. || ஏலியன்கள் விண்கலத்தை சரிசெய்து அவர்களைப் பூமிக்குத் திருப்பி அனுப்பின."
+        }
+      ]
+    },
+    {
+      "title": "4. GLOSSARY & PICTIONARY || 4. கலைச்சொற்கள்",
+      "class": "box-green",
+      "type": "content",
+      "content": [
+        {
+          "text": "[[Sol]]: Martian day (Day on Mars). || [[Sol]]: செவ்வாய் கிரகத்தின் ஒரு நாள்."
+        },
+        {
+          "text": "[[Desolated]]: Ruined, empty, uninhabitable. || [[பாழடைந்த]]: பாழான, வாழத் தகுதியற்ற."
+        },
+        {
+          "text": "[[Hub]]: Central living space / settlement. || [[மையப்பகுதி]]: தங்கும் குடியிருப்பு."
+        },
+        {
+          "text": "[[Space suit]]: Pressurized suit for astronauts. || [[விண்வெளி உடை]]: விண்வெளி வீரர்களுக்கான உடை."
+        },
+        {
+          "text": "[[Capsule]]: Cylinder-shaped bed for sleeping. || [[காப்ஸ்யூல்]]: உறங்கும் உருளை வடிவப் படுக்கை."
+        },
+        {
+          "text": "[[Astonished]]: Greatly surprised / amazed. || [[வியப்பு]]: மிகவும் ஆச்சரியப்பட்ட."
+        },
+        {
+          "text": "[[Fossil Fuel]]: Ancient organic fuel (Coal/Oil). || [[புதைபடிவ எரிபொருள்]]: நிலக்கரி/எண்ணெய்."
+        },
+        {
+          "text": "[[Adapted]]: Adjusted to survive in new conditions. || [[தகவமைத்தல்]]: புதிய சூழ்நிலைக்கு ஏற்ப மாறுதல்."
+        },
+        {
+          "text": "[[Galaxy]]: Massive system of billions of stars. || [[பேரண்டம்]]: விண்மீன் மண்டலம்."
+        },
+        {
+          "text": "[[Milky Way]]: Galaxy containing our Solar System. || [[பால்வெளி மண்டலம்]]: நமது சூரிய குடும்பம் உள்ள மண்டலம்."
+        }
+      ]
+    },
+    {
+      "title": "5. GRAMMAR Focus || 5. இலக்கணம்",
+      "class": "box-orange",
+      "type": "content",
+      "content": [
+        {
+          "text": "((A. Compound Words || கூட்டுச் சொற்கள்))"
+        },
+        {
+          "text": "[[Sunflower]], [[Lighthouse]], [[Mailbox]], [[Watchman]], [[Starfish]], [[Rainbow]], [[Football]]. || இரண்டு தனித்தனி சொற்கள் இணைந்து புதிய சொல்லாகுதல்."
+        },
+        {
+          "text": "((B. Nouns || பெயர்ச்சொற்கள்))"
+        },
+        {
+          "text": "[[Collective Noun]]: Flock (birds), Swarm (bees), Bunch (grapes), Army (ants), Herd (cattle), Choir (singers). || [[தொகுப்புப் பெயர்]]: ஒரு தொகுதியைக் குறிக்கும் பெயர்."
+        },
+        {
+          "text": "[[Abstract Noun]]: Happiness, Freedom, Honesty, Bravery, Kindness. || [[பண்புப் பெயர்]]: தொட்டுணர முடியாத பண்பு அல்லது உணர்ச்சி."
+        }
+      ]
+    },
+    {
+      "title": "6. EVALUATION Q&A || 6. மதிப்பீடு வினா-விடைகள்",
+      "class": "box-blue",
+      "type": "content",
+      "content": [
+        {
+          "text": "[[Q1]]: What is the setting of 'Earth, the Desolated Home'? || 'Earth, the Desolated Home' கதையின் காலம் எது?"
+        },
+        {
+          "text": "[[Ans]]: The story is set in [[2068]] on planet Mars after humans destroyed Earth. || கி.பி. [[2068]] ஆண்டில் மனிதர்கள் பூமியை அழித்த பிறகு செவ்வாய் கிரகத்தில் கதை நடக்கிறது."
+        },
+        {
+          "text": "[[Q2]]: How long did it take for grandfather to reach? || தாத்தா வர எவ்வளவு காலம் ஆனது?"
+        },
+        {
+          "text": "[[Ans]]: It took [[1500 sols]] (Martian days) for grandfather to travel. || தாத்தா வர [[1500 செவ்வாய் நாட்கள்]] ஆனது."
+        },
+        {
+          "text": "[[Q3]]: How is water produced on Mars? || செவ்வாய் கிரகத்தில் தண்ணீர் எவ்வாறு உருவாகிறது?"
+        },
+        {
+          "text": "[[Ans]]: Water on Mars is artificially produced by [[burning fuels]]. || செவ்வாய் கிரகத்தில் [[எரிபொருட்களை எரிப்பதன்]] மூலம் தண்ணீர் உருவாகிறது."
+        },
+        {
+          "text": "[[Q4]]: Name planets mentioned in 'Beyond the Universe'. || கவிதையில் கூறப்பட்டுள்ள கிரகங்கள் யாவை?"
+        },
+        {
+          "text": "[[Ans]]: Earth, Mars, Saturn, Jupiter, Uranus, and Neptune. || பூமி, செவ்வாய், சனி, வியாழன், யுரேனஸ் மற்றும் நெப்டியூன்."
+        },
+        {
+          "text": "[[Q5]]: How did Amuthan and Nilavan return to Earth? || அமுதன் மற்றும் நிலவன் பூமிக்கு எப்படி திரும்பினர்?"
+        },
+        {
+          "text": "[[Ans]]: Friendly green [[aliens]] repaired their space shuttle and guided them home. || பச்சை நிற [[ஏலியன்கள்]] விண்கலத்தை சரிசெய்து வழிநடத்தின."
+        }
+      ]
+    },
+    {
+      "title": "1. Main Theme || 1. முதன்மையானக் கருப்பொருள்",
+      "class": "box-blue",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "This lesson focuses on [[the beauty of rural life]], living in harmony with nature, the benefits of outdoor activities over electronic devices, the importance of the [[earthworm]] as a [[farmer's friend]], and the story of the farmer and his daughters. || இந்தப் பாடம் [[கிராமப்புற வாழ்க்கையின் அழகு]], இயற்கையோடு இணைந்து வாழ்வது, மின்னணு சாதனங்களை விட வெளிப்புற விளையாட்டுகளின் நன்மைகள், விவசாயியின் நண்பனாக [[மண்புழுவின்]] முக்கியத்துவம் ஆகியவற்றை மையமாகக் கொண்டுள்ளது."
+        }
+      ]
+    },
+    {
+      "title": "2. PART 1: MY LITTLE PICTIONARY || 2. பகுதி 1: எனது குட்டிப் பட அகராதி",
+      "class": "box-green",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "[[Scarecrow]] (n): A figure made to look like a person and put in a field to frighten birds away. || [[சோளக்காட்டு பொம்மை]] (பெயர்ச்சொல்): பறவைகளை மிரட்டி விரட்டுவதற்காக வயலில் வைக்கப்பட்ட மனித உருவம்."
+        },
+        {
+          "text": "[[Armour]] (n): The metal cover worn to protect the body in battle. || [[கவசம்]] (பெயர்ச்சொல்): போரில் உடலைப் பாதுகாப்பதற்காக அணியும் உலோக மூடி."
+        },
+        {
+          "text": "[[Plough]] (v): Turn up soil with a plough. || [[ஏர் உழுதல்]] (வினைச்சொல்): ஏர் கொண்டு மண்ணைத் திருப்புதல்."
+        },
+        {
+          "text": "[[Grains]] (n): Wheat or other cultivated cereal used as food. || [[தானியங்கள்]] (பெயர்ச்சொல்): உணவாகப் பயன்படுத்தப்படும் கோதுமை அல்லது பயிரிடப்பட்ட தானியங்கள்."
+        },
+        {
+          "text": "[[Bullock cart]] (n): A vehicle with two or four wheels driven by bulls. || [[மாட்டு வண்டி]] (பெயர்ச்சொல்): காளைகளால் ஓட்டப்படும் இரண்டு அல்லது நான்கு சக்கர வண்டி."
+        }
+      ]
+    },
+    {
+      "title": "3. PART 2: PROSE - Trip to My Grandparents' Village || 3. பகுதி 2: உரைநடை - தாத்தா பாட்டி ஊருக்குப் பயணம்",
+      "class": "box-pink",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "Santhosh records an [[audio diary]] of his experience visiting sirumalai during his summer vacation. || சந்தோஷ் தனது கோடை விடுமுறையின் அனுபவத்தை [[ஆடியோ டைரியாகப்]] பதிவு செய்கிறான்."
+        },
+        {
+          "text": "((10th April)): He gets ready for the trip and packs his tab to play video games. || ((ஏப்ரல் 10)): அவன் பயணத்திற்குத் தயாராகி, வீடியோ கேம் விளையாட தனது டேப்பை எடுத்துக் கொள்கிறான்."
+        },
+        {
+          "text": "((11th April)): Bus journey. He sees green paddy fields and [[scarecrows]]. His grandfather shows him fruit trees and gives him a [[sweet mango]]. || ((ஏப்ரல் 11)): பேருந்து பயணம். வழியில் பச்சை வயல்கள் மற்றும் [[சோளக்காட்டு பொம்மைகளைப்]] பார்க்கிறான். அவன் தாத்தா மாம்பழத்தைத் தருகிறார்."
+        },
+        {
+          "text": "((12th April)): Morning walk to the fields. He plays with the village children Paavai, [[Amir]], Peter, and Umaiyal. || ((ஏப்ரல் 12)): காலை நடைப்பயணம். அவன் பாவை, [[அமீர்]], பீட்டர் மற்றும் உமையாள் ஆகியோருடன் விளையாடுகிறான்."
+        },
+        {
+          "text": "((13th April)): He bathes in the [[village river]] and watches traditional games. || ((ஏப்ரல் 13)): அவன் [[கிராமத்து ஆற்றில்]] குளிக்கிறான் மற்றும் பாரம்பரிய விளையாட்டுகளைப் பார்க்கிறான்."
+        },
+        {
+          "text": "((14th April)): He returns to the city and realizes he did not watch TV or play video games. || ((ஏப்ரல் 14)): அவன் நகரம் திரும்புகிறான் மற்றும் தான் டிவி பார்க்கவில்லை என்பதை உணர்கிறான்."
+        }
+      ]
+    },
+    {
+      "title": "4. PART 3: GRAMMAR - Singular & Plural || 4. பகுதி 3: இலக்கணம் - ஒருமை மற்றும் பன்மை",
+      "class": "box-orange",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "((Ending in -f and -fe changes into '-ves')): [[Leaf]] – [[Leaves]], [[Knife]] – [[Knives]]. || ((-f மற்றும் -fe-வில் முடியும் வார்த்தைகள்)): [[இலை]] – [[இலைகள்]], [[கத்தி]] – [[கத்திகள்]]."
+        },
+        {
+          "text": "((Changing vowels)): [[Tooth]] – [[Teeth]], [[Foot]] – [[Feet]], [[Woman]] – [[Women]]. || ((உயிர் எழுத்துக்களை மாற்றுதல்)): [[பல்]] – [[பற்கள்]], [[பாதம்]] – [[பாதங்கள்]]."
+        },
+        {
+          "text": "((Irregular plurals)): [[Child]] – [[Children]], [[Ox]] – [[Oxen]], [[Mouse]] – [[Mice]]. || ((ஒழுங்கற்ற பன்மைகள்)): [[குழந்தை]] – [[குழந்தைகள்]], [[எருது]] – [[எருதுகள்]]."
+        },
+        {
+          "text": "((Identical forms)): [[Sheep]] – [[Sheep]], [[Deer]] – [[Deer]], [[Fish]] - [[Fish]]. || ((ஒரே மாதிரியானவை)): [[செம்மறி ஆடு]], [[மான்]], [[மீன்]]."
+        },
+        {
+          "text": "((Adding '-es')): [[Tomato]] – [[Tomatoes]], [[Potato]] – [[Potatoes]]. || (('-es' சேர்த்தல்)): [[தக்காளி]] – [[தக்காளிகள்]]."
+        }
+      ]
+    },
+    {
+      "title": "5. PART 4: POEM - Farmer’s Friend || 5. பகுதி 4: கவிதை - விவசாயியின் நண்பன்",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "<strong>Main Theme:</strong> The significance of the earthworm. || <strong>மையக்கரு:</strong> மண்புழுவின் முக்கியத்துவம்."
+        },
+        {
+          "text": "Often seen as filth, but it gives the soil good health and rewards the farmer with wealth. || இது பெரும்பாலும் அழுக்காகப் பார்க்கப்படுகிறது, ஆனால் இது மண்ணிற்கு ஆரோக்கியத்தையும் விவசாயிக்குச் செல்வத்தையும் தருகிறது."
+        },
+        {
+          "text": "It ploughs the soil even before the farmer does. || விவசாயி உழுவதற்கு முன்பே இது மண்ணை உழுகிறது."
+        },
+        {
+          "text": "We should not use chemicals to harm the soil (motherland's armour). || மண்ணுக்குத் தீங்கு விளைவிக்கும் ரசாயனங்களை நாம் பயன்படுத்தக் கூடாது."
+        },
+        {
+          "text": "It is used as bait on fishing hooks. Be humble like a worm and think of harming no one. || இது மீன்பிடி தூண்டில்களில் இரையாகப் பயன்படுத்தப்படுகிறது. பணிவாக இருங்கள், யாருக்கும் தீங்கு நினைக்காதீர்கள்."
+        }
+      ]
+    },
+    {
+      "title": "6. PART 5: GRAMMAR - Tenses || 6. பகுதி 5: இலக்கணம் - காலங்கள்",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "<strong>1. Past Continuous Tense (was / were + verb+ing):</strong> Denotes an action that was going on in the past. <em>Rule:</em> I, He, She, It -> was | You, We, They -> were. || <strong>1. கடந்த காலத் தொடர்ச்சி:</strong> கடந்த காலத்தில் நடந்து கொண்டிருந்த செயல்கள். விதி: I/He/She/It -> was | You/We/They -> were."
+        },
+        {
+          "text": "<strong>2. Future Continuous Tense (will be + verb+ing):</strong> Denotes an action that will be in progress in the future. <em>Rule:</em> All subjects -> will be. || <strong>2. எதிர்காலத் தொடர்ச்சி:</strong> எதிர்காலத்தில் நடக்கப் போகும் தொடர்ச்சியான செயல்கள். விதி: அனைத்து எழுவாய்களுக்கும் -> will be."
+        }
+      ]
+    },
+    {
+      "title": "7. PART 6: SUPPLEMENTARY - The Farmer and his Daughters || 7. பகுதி 6: துணைப்பாடம் - விவசாயியும் அவரது மகள்களும்",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "Setting: The village of Manipuram. A wealthy farmer tests his 3 daughters' responsibility by giving them <strong>millet</strong> bags wisely and return after one year. || மணிபுரத்தில் ஒரு விவசாயி தனது 3 மகள்களுக்குக் கேழ்வரகு தானியங்கள் தந்து சோதித்தார்."
+        },
+        {
+          "text": "<strong>First daughter:</strong> Fed the grains to flocks of birds on her way home. || <strong>முதல் மகள்:</strong> பறவைகளுக்குத் தானியங்களைப் போட்டாள்."
+        },
+        {
+          "text": "<strong>Second daughter:</strong> Thought grains were sacred, mixed them with community food service grains. || <strong>இரண்டாம் மகள்:</strong> தானியங்களைப் புனிதமாகக் கருதி, சமூக உணவில் கலந்தாள்."
+        },
+        {
+          "text": "<strong>Third daughter:</strong> Sowed the grains in the field, and they grew into crops. Farmer gave her field responsibility. || <strong>மூன்றாம் மகள்:</strong> வயலில் விதைத்து அறுவடை செய்தாள். அவளுக்குப் பொறுப்புகள் வழங்கப்பட்டன."
+        }
+      ]
+    },
+    {
+      "title": "8. PART 7: Let us Read Aloud - Mr. Murugan || 8. பகுதி 7: சத்தமாகப் வாசிப்போம் - திரு. முருகன்",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "Mr. Murugan is a farmer with a small piece of land and two bulls. He takes good care of his bulls as they help him with all farming activities, including ploughing, sowing, irrigating, reaping, binding, and threshing the paddy. || திரு. முருகன் ஒரு சிறிய நிலமும் இரண்டு காளைகளும் கொண்ட ஒரு விவசாயி. உழுதல், விதைத்தல், நீர் பாய்ச்சுதல், அறுவடை செய்தல் மற்றும் தானியங்களைப் பிரித்தல் போன்ற அனைத்து விவசாய வேலைகளுக்கும் உதவுவதால் அவர் தனது காளைகளை நன்கு கவனித்துக் கொள்கிறார்."
+        }
+      ]
+    },
+    {
+      "title": "9. GLOSSARY / VOCABULARY || 9. கலைச்சொற்கள்",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "<strong>Eager:</strong> keen || ஆர்வம் | <strong>Vacation:</strong> holiday || விடுமுறை | <strong>Numerous:</strong> many || பல"
+        },
+        {
+          "text": "<strong>Threshing:</strong> separating grain || தானியம் பிரித்தல் | <strong>Enchanting:</strong> attractive || வசீகரமான"
+        },
+        {
+          "text": "<strong>Expert:</strong> well skilled || நிபுணர் | <strong>Filth:</strong> dirt || அழுக்கு | <strong>Humble:</strong> not proud || பணிவான"
+        },
+        {
+          "text": "<strong>Toils:</strong> work hard || கடின உழைப்பு | <strong>Distribute:</strong> give share || வழங்குதல்"
+        },
+        {
+          "text": "<strong>Responsibility:</strong> power || பொறுப்பு | <strong>Sacred:</strong> holy || புனிதமான | <strong>Wisely:</strong> cleverly || புத்திசாலித்தனமாக"
+        }
+      ]
+    },
+    {
+      "title": "10. BOOK BACK QUESTIONS & ANSWERS || 10. புத்தகப் பயிற்சிகள் (முழுமையானது)",
+      "type": "infobox",
+      "content": [
+        {
+          "text": "<strong>I. Match (Prose):</strong> Cuckoo-Sings, Breeze-Blows, River-Flows, Fish-Swims. || <strong>பொருத்துக:</strong> குயில்-பாடும், தென்றல்-வீசும், ஆறு-ஓடும், மீன்-நீந்தும்."
+        },
+        {
+          "text": "<strong>II. Rhyming (Poem):</strong> Filth-Wealth, Armour-Farmer, Charm-Harm, Look-Hook. || <strong>இயைபுச் சொற்கள்:</strong> Filth-Wealth, Armour-Farmer."
+        },
+        {
+          "text": "<strong>III. Fill (Poem):</strong> 1. It ploughs soil before farmer. 2. Bait in hook. 3. No chemicals. 4. Be humble. || <strong>கோடிட்ட இடம்:</strong> 1. விவசாயிக்கு முன் உழும். 2. தூண்டில் இரை. 3. ரசாயனம் வேண்டாம். 4. பணிவு."
+        },
+        {
+          "text": "<strong>IV. Fill (Story):</strong> 1. Three daughters. 2. Offered millet. 3. Fed birds. || <strong>கோடிட்ட இடம்:</strong> 1. மூன்று மகள்கள். 2. கேழ்வரகு. 3. பறவைகளுக்கு ஊட்டினாள்."
+        },
+        {
+          "text": "<strong>V. Match Actions:</strong> 1st-Feeds birds, 2nd-Community mix, 3rd-Sows. || <strong>செயல்கள்:</strong> 1-பறவைகள், 2-சமூக உணவு, 3-விதைத்தல்."
+        },
+        {
+          "text": "<strong>VI. Plurals:</strong> Loaf-Loaves, Fish-Fish, Goose-Geese, Mouse-Mice, Child-Children, Man-Men, Leaf-Leaves, Mango-Mangoes, Deer-Deer, Calf-Calves, Tooth-Teeth, Knife-Knives."
+        },
+        {
+          "text": "<strong>VII. Tenses (Past Cont.):</strong> They were writing | It was going | She was drawing | We were eating | He was watching | You were making. || <strong>கடந்த காலத் தொடர்ச்சி:</strong> பயிற்சி விடைகள்."
+        },
+        {
+          "text": "<strong>VII. Tenses (Future Cont.):</strong> They will be coming | It will be playing | She will be swimming | We will be walking | He will be doing. || <strong>எதிர்காலத் தொடர்ச்சி:</strong> பயிற்சி விடைகள்."
+        },
+        {
+          "text": "<strong>VIII. Change Sentences:</strong> 1. She was waiting -> She will be waiting. 2. I will be speaking -> I was speaking. || <strong>வாக்கிய மாற்றம்:</strong> விடைகள்."
+        },
+        {
+          "text": "<strong>IX. Prose Answers:</strong> 1. Recorded via mother's phone. 2. Milking, groundnut, climbing. 3. Enjoyed friends. 4. Saw pebbles/fish. || <strong>உரைநடை வினா-விடைகள்.</strong>"
+        },
+        {
+          "text": "<strong>X. Poem Answers:</strong> 1. Seen as filth. 2. Health & Wealth. 3. Harm soil. || <strong>கவிதை வினா-விடைகள்.</strong>"
+        },
+        {
+          "text": "<strong>XI. Story Answers:</strong> 1. Grains. 2. Fed birds. 3. Mixed. 4. Sowed. 5. 3rd is wisest (yield). || <strong>கதை வினா-விடைகள்.</strong>"
+        },
+        {
+          "text": "<strong>XII. Skills (Listen/Speak/Write):</strong> Autobiography points: Birth date, Parents, Interesting incident. || <strong>திறன் மேம்பாடு:</strong> சுயசரிதை குறிப்புகள்."
+        }
+      ]
+    }
+  ]
 }
