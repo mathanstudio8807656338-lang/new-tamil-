@@ -1,9 +1,9 @@
 {
   "unit": "Daily Challenge",
   "subject": "ENGLISH",
-  "title": "இன்றைய குறிப்புகள்: Unit 1: Exploring Space || அலகு 1: விண்வெளிப் பயணம் & Unit 2: My Native Place || அலகு 2: எனது சொந்த ஊர்",
-  "status": "notes",
-  "lastUpdated": "5/5/2026, 9:26:45 am",
+  "title": "இன்றைய தேர்வு: Unit 1: Exploring Space || அலகு 1: விண்வெளிப் பயணம் & Unit 2: My Native Place || அலகு 2: எனது சொந்த ஊர்",
+  "status": "open",
+  "lastUpdated": "5/5/2026, 11:35:52 pm",
   "activeSubject": "english",
   "activeGrade": "5",
   "activeGrades": [
@@ -33,7 +33,6 @@
       ],
       "a": 2,
       "ex": "The story is set in 2068 on Mars after Earth's destruction. || மனிதர்களின் சுரண்டலால் பூமி அழிக்கப்பட்ட பிறகு, 2068-ல் மனிதர்கள் செவ்வாய் கிரகத்தில் வாழ்வதாக கதை அமைக்கப்பட்டுள்ளது.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -46,7 +45,6 @@
       ],
       "a": 1,
       "ex": "It took 1500 Martian days (sols) for grandfather to reach. || தாத்தா செவ்வாய் கிரகத்தில் உள்ள அறிவுமதியின் மையத்தை அடைய 1500 sols பயணம் செய்தார்.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -59,7 +57,6 @@
       ],
       "a": 2,
       "ex": "On Mars, water is artificially produced by burning fuels. || செவ்வாயில் எரிபொருட்களை எரிப்பதன் மூலமே செயற்கையாக நீர் உருவாக்கப்படுகிறது.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -72,7 +69,6 @@
       ],
       "a": 0,
       "ex": "The poet glides past Earth, Mars, Saturn, Jupiter, Uranus, and Neptune. || கவிஞர் பூமி, செவ்வாய், சனி, வியாழன், யுரேனஸ் மற்றும் நெப்டியூன் ஆகிய கிரகங்களைக் கடந்து செல்வதாகக் கூறுகிறார்.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -85,7 +81,6 @@
       ],
       "a": 1,
       "ex": "Friendly green aliens repaired their space shuttle. || நட்புமிக்க பச்சை நிற வேற்றுகிரகவாசிகள் விண்கலத்தை சரிசெய்து அவர்களை அனுப்பி வைத்தனர்.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -98,7 +93,6 @@
       ],
       "a": 1,
       "ex": "India established three colonies on Mars. || இந்தியா செவ்வாய் கிரகத்தில் மூன்று குடியிருப்புகளை நிறுவியுள்ளது.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -111,7 +105,6 @@
       ],
       "a": 2,
       "ex": "A Sol represents a single day on planet Mars. || 'Sol' என்பது செவ்வாய் கிரகத்தில் ஒரு நாளைக் குறிக்கும் சொல்லாகும்.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -124,7 +117,6 @@
       ],
       "a": 2,
       "ex": "Jupiter is noted for its red storms. || வியாழன் அதன் சிவப்பு புயல்களுக்காக கவிதையில் குறிப்பிடப்படுகிறது.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -137,7 +129,6 @@
       ],
       "a": 0,
       "ex": "Neptune is described as the blue ice giant. || நெப்டியூன் அதன் குளிர்ந்த, நீல நிறத்தால் இவ்வாறு வர்ணிக்கப்படுகிறது.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -150,7 +141,6 @@
       ],
       "a": 1,
       "ex": "They locked themselves inside a functional space shuttle. || அவர்கள் ஒரு விண்வெளி ஓடத்திற்குள் (space shuttle) தவறுதலாக சிக்கிக்கொண்டனர்.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -163,7 +153,6 @@
       ],
       "a": 2,
       "ex": "Pulling a lever initiated the launch. || ஒரு நெம்புகோலை தவறுதலாக இழுத்ததால் விண்கலம் இயங்கத் தொடங்கியது.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -176,7 +165,6 @@
       ],
       "a": 1,
       "ex": "Light + House forms Lighthouse.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -189,7 +177,6 @@
       ],
       "a": 1,
       "ex": "Honesty represents a quality you cannot touch. || Honesty என்பது ஒரு பண்பு, இதனைத் தொட முடியாது.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -202,7 +189,6 @@
       ],
       "a": 2,
       "ex": "A group of grapes is called a bunch.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -215,7 +201,6 @@
       ],
       "a": 0,
       "ex": "The settlement was called a Hub. || செவ்வாயில் மனிதர்கள் வாழும் மையப்பகுதி 'Hub' ஆகும்.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -228,7 +213,6 @@
       ],
       "a": 1,
       "ex": "A space suit and oxygen cylinder are mandatory. || செவ்வாயில் விண்வெளி உடை மற்றும் ஆக்சிஜன் அவசியம்.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -241,7 +225,6 @@
       ],
       "a": 2,
       "ex": "Saturn is famous for its magnificent rings.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -254,7 +237,6 @@
       ],
       "a": 1,
       "ex": "Uranus is described as tumbling and rolling.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -267,7 +249,6 @@
       ],
       "a": 2,
       "ex": "Desolated means empty, ruined, and uninhabitable.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -280,7 +261,6 @@
       ],
       "a": 1,
       "ex": "They lack real flavor because soil is chemically treated. || ரசாயன மண்ணால் காய்கறிகளில் உண்மையான சுவை இல்லை.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -293,7 +273,6 @@
       ],
       "a": 2,
       "ex": "Sunflower is the compound word.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -306,7 +285,6 @@
       ],
       "a": 1,
       "ex": "Starfish is the result.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -319,7 +297,6 @@
       ],
       "a": 1,
       "ex": "A group of birds is a flock.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -332,7 +309,6 @@
       ],
       "a": 0,
       "ex": "Bees come in a swarm.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -345,7 +321,6 @@
       ],
       "a": 2,
       "ex": "A group of singers is a choir.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -358,7 +333,6 @@
       ],
       "a": 1,
       "ex": "An army of ants.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -371,7 +345,6 @@
       ],
       "a": 0,
       "ex": "A group of cattle is a herd.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -384,7 +357,6 @@
       ],
       "a": 0,
       "ex": "Freedom is an intangible concept.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -397,7 +369,6 @@
       ],
       "a": 1,
       "ex": "Astonished means extremely surprised.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -410,7 +381,6 @@
       ],
       "a": 2,
       "ex": "Fuel from remains of dead plants and animals over millions of years. || மில்லியன் கணக்கான ஆண்டுகளில் உருவான எரிபொருள்.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -423,7 +393,6 @@
       ],
       "a": 1,
       "ex": "The galaxy containing our solar system.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -436,7 +405,6 @@
       ],
       "a": 0,
       "ex": "Human exploitation ruined Earth.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -449,7 +417,6 @@
       ],
       "a": 1,
       "ex": "The vegetables on Mars lack real flavor because the soil is chemically treated. Therefore, Assertion A is false.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -462,7 +429,6 @@
       ],
       "a": 2,
       "ex": "They crashed on an unknown planet.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -475,7 +441,6 @@
       ],
       "a": 2,
       "ex": "Aliens were friendly and helpful.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -488,7 +453,6 @@
       ],
       "a": 1,
       "ex": "Jupiter is the one with red storms.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -501,7 +465,6 @@
       ],
       "a": 3,
       "ex": "The correct compound word for Watch + man is 'Watchman', not 'Manwatch'.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -514,7 +477,6 @@
       ],
       "a": 0,
       "ex": "Adjusting to survives in new conditions.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -527,7 +489,6 @@
       ],
       "a": 1,
       "ex": "Astronauts wear space suits.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -540,7 +501,6 @@
       ],
       "a": 1,
       "ex": "A small cylinder-shaped bed for sleeping.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -553,7 +513,6 @@
       ],
       "a": 1,
       "ex": "Journey ends meeting the Creator.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -566,7 +525,6 @@
       ],
       "a": 0,
       "ex": "Abstract nouns are intangible.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -579,7 +537,6 @@
       ],
       "a": 2,
       "ex": "Fear is an emotion (abstract).",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -592,7 +549,6 @@
       ],
       "a": 1,
       "ex": "Protect our natural home (Earth).",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -605,7 +561,6 @@
       ],
       "a": 1,
       "ex": "Collective nouns name groups.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -618,7 +573,6 @@
       ],
       "a": 2,
       "ex": "These are intangible qualities.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -631,7 +585,6 @@
       ],
       "a": 0,
       "ex": "On Mars, basic needs are artificial.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -644,7 +597,6 @@
       ],
       "a": 0,
       "ex": "They felt amazed and astonished.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -657,7 +609,6 @@
       ],
       "a": 0,
       "ex": "Adaptation is the ability to modify to survive.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -670,7 +621,6 @@
       ],
       "a": 2,
       "ex": "A galaxy contains billions of stars.",
-      "notesMode": true,
       "lesson": "Lesson_1"
     },
     {
@@ -683,7 +633,6 @@
       ],
       "a": 1,
       "ex": "Santhosh recorded his vacation experiences as an audio diary using his mother's mobile phone. || சந்தோஷ் தனது விடுமுறை அனுபவங்களைத் தனது தாயின் மொபைல் போனைப் பயன்படுத்தி ஆடியோ டைரியாகப் பதிவு செய்தான்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -696,7 +645,6 @@
       ],
       "a": 2,
       "ex": "'Fish' is a word that has an identical form in both singular and plural. || 'Fish' என்பது ஒருமை மற்றும் பன்மை இரண்டிலும் ஒரே மாதிரியான வடிவத்தைக் கொண்ட சொல்லாகும்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -709,7 +657,6 @@
       ],
       "a": 2,
       "ex": "The farmer gave each of his daughters a bag of millet to test their wisdom and responsibility. || விவசாயி தனது ஒவ்வொரு மகளுக்கும் ஒரு பை கேழ்வரகு தானியத்தைக் கொடுத்து அவர்களின் புத்திசாலித்தனத்தையும் பொறுப்புணர்வையும் சோதித்தார்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -722,7 +669,6 @@
       ],
       "a": 2,
       "ex": "In the poem 'Farmer's Friend', it is mentioned that the earthworm ploughs the soil even before the farmer does. || 'விவசாயியின் நண்பன்' கவிதையில், விவசாயி உழுவதற்கு முன்பே மண்புழு மண்ணை உழுகிறது என்று குறிப்பிடப்பட்டுள்ளது.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -735,7 +681,6 @@
       ],
       "a": 1,
       "ex": "'Enchanting' means attractive or charming to the mind. || 'Enchanting' என்றால் கவர்ச்சிகரமான அல்லது மனதை ஈர்க்கக்கூடிய என்று பொருள்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -748,7 +693,6 @@
       ],
       "a": 2,
       "ex": "To denote an action that will be in progress in the future, 'will be + verb(ing)' is used. || எதிர்காலத்தில் நடக்கப்போகும் ஒரு செயலைக் குறிக்க, 'will be + verb(ing)' பயன்படுத்தப்படுகிறது.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -761,7 +705,6 @@
       ],
       "a": 3,
       "ex": "According to the book back exercises, the correct match is Breeze - Blows. || புத்தகப் பயிற்சியின்படி, தென்றல் வீசும் (Breeze - Blows) என்பதே சரியான பொருத்தமாகும்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -774,7 +717,6 @@
       ],
       "a": 1,
       "ex": "The first daughter fed the grains to flocks of birds on her way home. || முதல் மகள் வீட்டிற்குச் செல்லும் வழியில் பறவைக் கூட்டங்களுக்குத் தானியங்களை உணவாக ஊட்டினாள்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -787,7 +729,6 @@
       ],
       "a": 2,
       "ex": "This is an irregular plural. 'Mouse' changes to 'Mice'. || இது ஒரு ஒழுங்கற்ற பன்மை. 'Mouse' என்பது 'Mice' ஆக மாறுகிறது.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -800,7 +741,6 @@
       ],
       "a": 1,
       "ex": "Mr. Murugan, a farmer, has two bulls that help him with all farming activities. || விவசாயி திரு. முருகனிடம் இரண்டு காளைகள் உள்ளன, அவை அவருக்கு அனைத்து விவசாய வேலைகளுக்கும் உதவுகின்றன.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -813,7 +753,6 @@
       ],
       "a": 2,
       "ex": "The structure 'was/were + verb+ing' indicates the Past Continuous Tense. || 'was/were + verb+ing' என்ற அமைப்பு கடந்த காலத் தொடர்ச்சியைக் குறிக்கிறது.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -826,7 +765,6 @@
       ],
       "a": 1,
       "ex": "In the poem, the words Filth, Health, and Wealth end with the same rhyming sound. || கவிதையில், Filth, Health மற்றும் Wealth ஆகிய சொற்கள் ஒரே மாதிரியான ஒலியுடன் முடிவடைகின்றன.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -839,7 +777,6 @@
       ],
       "a": 1,
       "ex": "Santhosh did not play video games or watch TV in the village; he completely engaged in outdoor games. || சந்தோஷ் கிராமத்தில் வீடியோ கேம் விளையாடவில்லை அல்லது டிவி பார்க்கவில்லை; அவன் முழுமையாக வெளிப்புற விளையாட்டுகளில் ஈடுபட்டான்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -852,7 +789,6 @@
       ],
       "a": 2,
       "ex": "Words ending in 'f' or 'fe' change into 'ves' in plural form (Leaf - Leaves). || 'f' அல்லது 'fe' இல் முடியும் சொற்கள் பன்மை வடிவில் 'ves' ஆக மாறும் (Leaf - Leaves).",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -865,7 +801,6 @@
       ],
       "a": 2,
       "ex": "To change past continuous (was waiting) to future continuous, we use 'will be waiting'. || கடந்த காலத் தொடர்ச்சியை (was waiting) வருங்காலத் தொடர்ச்சியாக மாற்ற, 'will be waiting' என்பதைப் பயன்படுத்துகிறோம்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -878,7 +813,6 @@
       ],
       "a": 2,
       "ex": "The last line of the poem says, \"Be humble like a worm.\" || கவிதையின் கடைசி வரி, \"ஒரு புழுவைப் போல பணிவாக இருங்கள்\" என்று கூறுகிறது.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -891,7 +825,6 @@
       ],
       "a": 1,
       "ex": "The second daughter considered the grains sacred and mixed them with grains kept for community food service. || இரண்டாவது மகள் தானியங்களைப் புனிதமாகக் கருதி, சமூகப் பொது உணவிற்காக வைத்திருந்த தானியங்களுடன் சேர்த்தாள்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -904,7 +837,6 @@
       ],
       "a": 1,
       "ex": "In the glossary section, 'Threshing' is defined as separating grain from crops. || கலைச்சொல் பகுதியில், 'Threshing' என்பது தானியத்தைப் பயிரிலிருந்து பிரித்தல் என வரையறுக்கப்பட்டுள்ளது.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -917,7 +849,6 @@
       ],
       "a": 2,
       "ex": "This is an irregular plural word. Child becomes Children. || இது ஒரு ஒழுங்கற்ற பன்மைச் சொல். Child என்பது Children ஆக மாறும்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -930,7 +861,6 @@
       ],
       "a": 2,
       "ex": "The poem mentions about the earthworm, \"It is used in the fisher’s hook.\" || மண்புழு மீனவரின் தூண்டிலில் இரையாகப் பயன்படுகிறது என்று கவிதை கூறுகிறது.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -943,7 +873,6 @@
       ],
       "a": 2,
       "ex": "According to the book evaluation section, the correct match is River - Flows. || புத்தக மதிப்பீட்டுப் பகுதியின்படி, ஆறு ஓடும் (River - Flows) என்பது சரியானது.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -956,7 +885,6 @@
       ],
       "a": 2,
       "ex": "For the subject 'I' in Past Continuous, 'was' is used. So, \"I was speaking\" is correct. || கடந்த காலத் தொடர்ச்சியில் 'I' என்ற எழுவாய்க்கு 'was' பயன்படுத்தப்பட வேண்டும்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -969,7 +897,6 @@
       ],
       "a": 1,
       "ex": "The river water was so clean that he could clearly see the pebbles and fish swimming by. || ஆற்றுத் தண்ணீர் சுத்தமாக இருந்ததால் அவனால் மீன்களையும் கூழாங்கற்களையும் பார்க்க முடிந்தது.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -982,7 +909,6 @@
       ],
       "a": 2,
       "ex": "Some animal names have identical forms in both singular and plural. Deer remains Deer. || சில விலங்குகளின் பெயர்கள் ஒருமை மற்றும் பன்மை இரண்டிலும் ஒரே மாதிரியாக இருக்கும்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -995,7 +921,6 @@
       ],
       "a": 2,
       "ex": "Because the third daughter sowed the grains and harvested them, her father praised her wisdom and gave her the responsibility. || மூன்றாவது மகள் தானியங்களை விதைத்து அறுவடை செய்ததால் அவளுக்கு நிலப் பொறுப்பு வழங்கப்பட்டது.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1008,7 +933,6 @@
       ],
       "a": 1,
       "ex": "In the poem, 'Farmer' and 'Armour' are used as rhyming words. || 'Farmer' மற்றும் 'Armour' ஆகியவை இயைபுச் சொற்களாகப் பயன்படுத்தப்பட்டுள்ளன.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1021,7 +945,6 @@
       ],
       "a": 1,
       "ex": "The poem insists, \"We don’t use chemicals in the soil.\" || 'மண்ணில் ரசாயனங்களைப் பயன்படுத்தக் கூடாது' என்று கவிதை வலியுறுத்துகிறது.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1034,7 +957,6 @@
       ],
       "a": 1,
       "ex": "A word ending in 'f' changes into 'ves' in plural form (Loaf - Loaves). || 'f' இல் முடியும் சொல் பன்மை வடிவில் 'ves' ஆக மாறும்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1047,7 +969,6 @@
       ],
       "a": 2,
       "ex": "When the plural subject 'We' comes, 'were' must be used in the Past Continuous Tense. || 'We' என்ற பன்மை எழுவாய்க்கு கடந்த காலத்தில் 'were' பயன்படுத்தப்பட வேண்டும்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1060,7 +981,6 @@
       ],
       "a": 2,
       "ex": "Peter and Umaiyal were breaking groundnut pods, and Santhosh joined them. || பீட்டரும் உமையாளும் நிலக்கடலை உடைத்துக் கொண்டிருந்தார்கள், சந்தோஷும் அவர்களுடன் சேர்ந்து கொண்டான்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1073,7 +993,6 @@
       ],
       "a": 2,
       "ex": "In the Skills Development (Listen, Speak) section, they converse about the Kho-Kho game. || அவர்கள் கோ-கோ (Kho-Kho) விளையாட்டைப் பற்றி உரையாடுகிறார்கள்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1086,7 +1005,6 @@
       ],
       "a": 1,
       "ex": "By changing the vowel 'oo' to 'ee', the plural is formed (Tooth - Teeth). || உயிர் எழுத்தை மாற்றுவதன் மூலம் பன்மை உருவாகிறது (Tooth - Teeth).",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1099,7 +1017,6 @@
       ],
       "a": 1,
       "ex": "A scarecrow is a human-like figure used to scare birds away from destroying crops. || பறவைகள் பயிர்களை அழிப்பதைத் தடுக்க அவற்றை அச்சுறுத்தப் பொம்மைகள் வைக்கப்படுகின்றன.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1112,7 +1029,6 @@
       ],
       "a": 1,
       "ex": "This is a basic situational sentence used in daily life routines. || இது அன்றாட வாழ்க்கையில் பயன்படுத்தப்படும் ஒரு வாக்கியமாகும்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1125,7 +1041,6 @@
       ],
       "a": 1,
       "ex": "The supplementary story is about a farmer who lived in the village of Manipuram. || துணைக் கதை மணிபுரம் கிராமத்தில் வாழ்ந்த ஒரு விவசாயியைப் பற்றியது.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1138,7 +1053,6 @@
       ],
       "a": 1,
       "ex": "The plural is formed by changing the internal vowel (Man - Men). || 'Man' என்பதன் பன்மை வடிவம் 'Men' ஆகும்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1151,7 +1065,6 @@
       ],
       "a": 1,
       "ex": "Since 'was + verb(ing)' is used, it is Past Continuous Tense. || 'was + verb(ing)' என்பது கடந்த காலத் தொடர்ச்சியைக் குறிக்கும்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1164,7 +1077,6 @@
       ],
       "a": 0,
       "ex": "In the poem, Charm and Harm are rhyming words. || 'Charm' மற்றும் 'Harm' ஆகியவை இயைபுச் சொற்களாகும்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1177,7 +1089,6 @@
       ],
       "a": 1,
       "ex": "Millet is a type of cereal grain grown in warm countries. || தினை, கேழ்வரகு போன்றவையே மில்லட் எனப்படும்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1190,7 +1101,6 @@
       ],
       "a": 1,
       "ex": "For many words ending in 'o', '-es' is added to make the plural (Mango - Mangoes). || 'o' இல் முடியும் சில சொற்களுக்கு '-es' சேர்த்து பன்மை உருவாக்கப்படும்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1203,7 +1113,6 @@
       ],
       "a": 1,
       "ex": "Fishes swim in water, so Fish - Swims is the correct match. || மீன்கள் நீரில் நீந்தும், எனவே மீன் - நீந்தும் என்பதே சரியானது.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1216,7 +1125,6 @@
       ],
       "a": 2,
       "ex": "'were going' changes to 'will be going' in Future Continuous Tense. || கடந்த காலத் தொடர்ச்சி வருங்காலத் தொடர்ச்சியில் 'will be going' என மாறும்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1229,7 +1137,6 @@
       ],
       "a": 1,
       "ex": "His grandfather plucked a ripe, sweet, and juicy mango from the tree and gave it to him. || அவரது தாத்தா ஒரு இனிப்பான மாம்பழத்தைப் பறித்துக் கொடுத்தார்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1242,7 +1149,6 @@
       ],
       "a": 1,
       "ex": "Because it ends in 'f', it changes to 'ves' (Calf - Calves). || 'f' இல் முடிவதால் இது 'ves' என மாறும்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1255,7 +1161,6 @@
       ],
       "a": 1,
       "ex": "To indicate two actions that were happening at the same time in the past, this structure is used. || கடந்த காலத்தில் ஒரே நேரத்தில் நடந்த செயல்களைக் குறிக்க இது பயன்படுகிறது.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1268,7 +1173,6 @@
       ],
       "a": 2,
       "ex": "Wisely means acting cleverly or intelligently. || 'Wisely' என்பது புத்திசாலித்தனத்தைக் குறிக்கும் சொல்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1281,7 +1185,6 @@
       ],
       "a": 1,
       "ex": "A word ending in 'fe' changes into 'ves' (Knife - Knives). || 'Knife' என்பதன் பன்மை வடிவம் 'Knives' ஆகும்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1294,7 +1197,6 @@
       ],
       "a": 0,
       "ex": "Look and Hook are rhyming words in the poem box. || 'Look' மற்றும் 'Hook' ஆகியவை கவிதையில் வரும் இயைபுச் சொற்களாகும்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1307,7 +1209,6 @@
       ],
       "a": 0,
       "ex": "In the autobiography, personal basic details like date and place of birth are essential. || சுயசரிதையில் பிறப்பு பற்றியத் தகவல்கள் முக்கியமானவை.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1320,7 +1221,6 @@
       ],
       "a": 2,
       "ex": "In the Future Continuous Tense, 'will be' is used for all subjects. || வருங்காலத் தொடர்ச்சியில் 'will be' என்பது அனைத்து எழுவாய்களுக்கும் பொருந்தும்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1333,7 +1233,6 @@
       ],
       "a": 1,
       "ex": "The poem says that people often see the earthworm as 'Filth' (ugly or dirt). || மக்கள் மண்புழுவை வெறும் அழுக்காக மட்டுமே பார்க்கிறார்கள் என்று கவிதை கூறுகிறது.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1346,7 +1245,6 @@
       ],
       "a": 3,
       "ex": "Amir is mentioned in the lesson as the boy who was milking cows. || அமீர் பால் கறப்பதாகப் பாடத்தில் சொல்லப்பட்டுள்ளது.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1359,7 +1257,6 @@
       ],
       "a": 0,
       "ex": "The second daughter considered the grains as 'Sacred' (Holy). || 'Sacred' என்றால் புனிதமானது என்று பொருள்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1372,7 +1269,6 @@
       ],
       "a": 1,
       "ex": "An armour is a protective metal cover worn during battle. || கவசம் என்பது போரில் பாதுகாப்பிற்காக அணியும் உலோக மூடி ஆகும்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1385,7 +1281,6 @@
       ],
       "a": 1,
       "ex": "When the singular subject 'It' is used, 'was' is applied in past continuous tense. || ஒருமை எழுவாய்க்கு 'was' பயன்படுத்தப்படும்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1398,7 +1293,6 @@
       ],
       "a": 1,
       "ex": "In the reading exercise, Mr. Murugan is described as a farmer with two bulls. || திரு. முருகன் ஒரு விவசாயி ஆவார்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1411,7 +1305,6 @@
       ],
       "a": 1,
       "ex": "Vacation means a holiday. || வெக்கேஷன் என்றால் விடுமுறை என்று பொருள்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1424,7 +1317,6 @@
       ],
       "a": 1,
       "ex": "Numerous means 'many in number'. || நியூமரஸ் என்றால் பல அல்லது அதிக எண்ணிக்கையில் என்று பொருள்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1437,7 +1329,6 @@
       ],
       "a": 1,
       "ex": "The title of the poem itself is 'Farmer's Friend', which refers to the earthworm. || மண்புழுவே விவசாயியின் நண்பனாகக் கருதப்படுகிறது.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     },
     {
@@ -1450,7 +1341,6 @@
       ],
       "a": 2,
       "ex": "'Eager' means to be very interested or keen to do something. || 'ஈகர்' என்பது மிகுந்த ஆர்வத்தைக் குறிக்கும் சொல்லாகும்.",
-      "notesMode": true,
       "lesson": "Lesson_2"
     }
   ],
