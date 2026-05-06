@@ -131,6 +131,36 @@ export const lessonMap = {
       "filename": "Lesson_7",
       "grade": "5",
       "term": 1
+    },
+    "Fun with Music": {
+      "local": true,
+      "filename": "Lesson_1",
+      "grade": "2",
+      "term": 2
+    },
+    "Wonders of the Jungle": {
+      "local": true,
+      "filename": "Lesson_2",
+      "grade": "2",
+      "term": 2
+    },
+    "A Visit to the Farm || பண்ணைக்கு ஒரு பயணம்": {
+      "local": true,
+      "filename": "Lesson_1",
+      "grade": "2",
+      "term": 3
+    },
+    "People Who Help Us || நமக்கு உதவுபவர்கள்": {
+      "local": true,
+      "filename": "Lesson_2",
+      "grade": "2",
+      "term": 3
+    },
+    "Food We Eat || நாம் உண்ணும் உணவு": {
+      "local": true,
+      "filename": "Lesson_3",
+      "grade": "2",
+      "term": 3
     }
   },
   "maths": {
