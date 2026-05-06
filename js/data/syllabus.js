@@ -26,51 +26,6 @@ export const syllabusData = {
             ]
           }
         ]
-      },
-      {
-        "term": 2,
-        "units": [
-          {
-            "title": "Term 2",
-            "topics": [
-              {
-                "title": "Fun with Music",
-                "isUpdated": true,
-                "code": "Lesson_1"
-              },
-              {
-                "title": "Wonders of the Jungle",
-                "isUpdated": true,
-                "code": "Lesson_2"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "term": 3,
-        "units": [
-          {
-            "title": "Term 3",
-            "topics": [
-              {
-                "title": "A Visit to the Farm || பண்ணைக்கு ஒரு பயணம்",
-                "isUpdated": true,
-                "code": "Lesson_1"
-              },
-              {
-                "title": "People Who Help Us || நமக்கு உதவுபவர்கள்",
-                "isUpdated": true,
-                "code": "Lesson_2"
-              },
-              {
-                "title": "Food We Eat || நாம் உண்ணும் உணவு",
-                "isUpdated": true,
-                "code": "Lesson_3"
-              }
-            ]
-          }
-        ]
       }
     ],
     "3": [
