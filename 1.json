@@ -1,10 +1,10 @@
 {
   "unit": "Daily Challenge",
-  "subject": "ENGLISH",
-  "title": "இன்றைய தேர்வு: Unit 1: Exploring Space || அலகு 1: விண்வெளிப் பயணம் & Unit 2: My Native Place || அலகு 2: எனது சொந்த ஊர்",
-  "status": "open",
-  "lastUpdated": "5/5/2026, 11:35:52 pm",
-  "activeSubject": "english",
+  "subject": "MATHS",
+  "title": "இன்றைய குறிப்புகள்: அலகு 3: அமைப்புகள் & அலகு 4: அளவைகள்",
+  "status": "notes",
+  "lastUpdated": "6/5/2026, 9:43:08 am",
+  "activeSubject": "maths",
   "activeGrade": "5",
   "activeGrades": [
     "5",
@@ -15,1732 +15,1050 @@
     "1"
   ],
   "activeTitles": [
-    "Unit 1: Exploring Space || அலகு 1: விண்வெளிப் பயணம்",
-    "Unit 2: My Native Place || அலகு 2: எனது சொந்த ஊர்"
+    "அலகு 3: அமைப்புகள்",
+    "அலகு 4: அளவைகள்"
   ],
   "activeFiles": [
-    "Lesson_1",
-    "Lesson_2"
+    "Lesson_3",
+    "Lesson_4"
   ],
   "quiz": [
     {
-      "q": "In which year and on which planet is the story 'Earth, the Desolated Home' set? || 'Earth, the Desolated Home' கதை எந்த ஆண்டில் மற்றும் எந்த கிரகத்தில் நடக்கிறது?",
+      "q": "அமைப்புகள் (Patterns) என்பவை எவற்றின் ஒழுங்குபடுத்தப்பட்ட விதத்தைக் குறிக்கின்றன?",
       "options": [
-        "A) 2058, Earth || அ) 2058, பூமி",
-        "B) 2086, Jupiter || ஆ) 2086, வியாழன்",
-        "C) 2068, Mars || இ) 2068, செவ்வாய் கிரகம்",
-        "D) 2168, Saturn || ஈ) 2168, சனி"
-      ],
-      "a": 2,
-      "ex": "The story is set in 2068 on Mars after Earth's destruction. || மனிதர்களின் சுரண்டலால் பூமி அழிக்கப்பட்ட பிறகு, 2068-ல் மனிதர்கள் செவ்வாய் கிரகத்தில் வாழ்வதாக கதை அமைக்கப்பட்டுள்ளது.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "How long did it take for the grandfather to travel to see Arivumathi? || தாத்தா அறிவுமதியைச் சந்திக்க எவ்வளவு காலம் பயணம் செய்தார்?",
-      "options": [
-        "A) 150 days || அ) 150 நாட்கள்",
-        "B) 1500 sols || ஆ) 1500 sols (மார்ஷியன் நாட்கள்)",
-        "C) 1500 hours || இ) 1500 மணிநேரம்",
-        "D) 15 months || ஈ) 15 மாதங்கள்"
-      ],
-      "a": 1,
-      "ex": "It took 1500 Martian days (sols) for grandfather to reach. || தாத்தா செவ்வாய் கிரகத்தில் உள்ள அறிவுமதியின் மையத்தை அடைய 1500 sols பயணம் செய்தார்.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "How is water produced on Mars? || செவ்வாய் கிரகத்தில் தண்ணீர் எவ்வாறு உற்பத்தி செய்யப்படுகிறது?",
-      "options": [
-        "A) Rainfall || அ) மழையின் மூலம்",
-        "B) Rivers || ஆ) நதிகளில் இருந்து",
-        "C) Burning fuels || இ) எரிபொருட்களை எரிப்பதன் மூலம்",
-        "D) Melting glaciers || ஈ) பனிப்பாறைகளை உருக்குவதன் மூலம்"
-      ],
-      "a": 2,
-      "ex": "On Mars, water is artificially produced by burning fuels. || செவ்வாயில் எரிபொருட்களை எரிப்பதன் மூலமே செயற்கையாக நீர் உருவாக்கப்படுகிறது.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Which planets are mentioned in the poem 'Beyond the Universe'? || 'Beyond the Universe' கவிதையில் வரும் கிரகங்கள் யாவை?",
-      "options": [
-        "A) Earth, Mars, Saturn, Jupiter, Uranus, Neptune || அ) பூமி, செவ்வாய், சனி, வியாழன், யுரேனஸ், நெப்டியூன்",
-        "B) Mercury, Venus, Earth, Mars || ஆ) புதன், வெள்ளி, பூமி, செவ்வாய்",
-        "C) Jupiter, Saturn, Pluto || இ) வியாழன், சனி, புளூட்டோ",
-        "D) Earth, Moon, Sun || ஈ) பூமி, நிலவு, சூரியன்"
-      ],
-      "a": 0,
-      "ex": "The poet glides past Earth, Mars, Saturn, Jupiter, Uranus, and Neptune. || கவிஞர் பூமி, செவ்வாய், சனி, வியாழன், யுரேனஸ் மற்றும் நெப்டியூன் ஆகிய கிரகங்களைக் கடந்து செல்வதாகக் கூறுகிறார்.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "How did Amuthan and Nilavan return to Earth? || அமுதன் மற்றும் நிலவன் எவ்வாறு பூமிக்கு திரும்பினர்?",
-      "options": [
-        "A) Grandfather rescued them || அ) தாத்தா காப்பாற்றினார்",
-        "B) Friendly aliens repaired their shuttle || ஆ) ஏலியன்கள் விண்கலத்தை சரிசெய்து உதவினர்",
-        "C) Flew it themselves || இ) தாங்களே இயக்கினர்",
-        "D) Scientists rescued them || ஈ) விஞ்ஞானிகள் மீட்டனர்"
-      ],
-      "a": 1,
-      "ex": "Friendly green aliens repaired their space shuttle. || நட்புமிக்க பச்சை நிற வேற்றுகிரகவாசிகள் விண்கலத்தை சரிசெய்து அவர்களை அனுப்பி வைத்தனர்.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "How many Indian colonies were on Mars by 2068? || 2068-ல் செவ்வாயில் இந்தியா எத்தனை குடியிருப்புகளை அமைத்தது?",
-      "options": [
-        "A) Two || அ) இரண்டு",
-        "B) Three || ஆ) மூன்று",
-        "C) Four || இ) நான்கு",
-        "D) Five || ஈ) ஐந்து"
-      ],
-      "a": 1,
-      "ex": "India established three colonies on Mars. || இந்தியா செவ்வாய் கிரகத்தில் மூன்று குடியிருப்புகளை நிறுவியுள்ளது.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "What does 'Sol' mean in the lesson? || 'Sol' என்ற வார்த்தையின் அர்த்தம் என்ன?",
-      "options": [
-        "A) Solar eclipse || அ) சூரிய கிரகணம்",
-        "B) Day on Earth || ஆ) பூமியின் ஒரு நாள்",
-        "C) Day on Mars || இ) செவ்வாய் கிரகத்தின் ஒரு நாள்",
-        "D) Type of fuel || ஈ) ஒரு வகை எரிபொருள்"
-      ],
-      "a": 2,
-      "ex": "A Sol represents a single day on planet Mars. || 'Sol' என்பது செவ்வாய் கிரகத்தில் ஒரு நாளைக் குறிக்கும் சொல்லாகும்.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Which planet is characterized by 'red storms' in the poem? || சிவப்பு புயல்களால் வகைப்படுத்தப்படும் கிரகம் எது?",
-      "options": [
-        "A) Mars || அ) செவ்வாய்",
-        "B) Saturn || ஆ) சனி",
-        "C) Jupiter || இ) வியாழன்",
-        "D) Uranus || ஈ) யுரேனஸ்"
-      ],
-      "a": 2,
-      "ex": "Jupiter is noted for its red storms. || வியாழன் அதன் சிவப்பு புயல்களுக்காக கவிதையில் குறிப்பிடப்படுகிறது.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Which planet is called the 'blue ice giant'? || 'நீல பனி அரக்கன்' என்று அழைக்கப்படும் கிரகம் எது?",
-      "options": [
-        "A) Neptune || அ) நெப்டியூன்",
-        "B) Earth || ஆ) பூமி",
-        "C) Uranus || இ) யுரேனஸ்",
-        "D) Saturn || ஈ) சனி"
-      ],
-      "a": 0,
-      "ex": "Neptune is described as the blue ice giant. || நெப்டியூன் அதன் குளிர்ந்த, நீல நிறத்தால் இவ்வாறு வர்ணிக்கப்படுகிறது.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Where did Amuthan and Nilavan accidentally lock themselves? || அமுதனும் நிலவனும் மீண்டும் எங்கு சிக்கிக்கொண்டனர்?",
-      "options": [
-        "A) Space suit || அ) விண்வெளி உடையில்",
-        "B) Functional space shuttle || ஆ) ஒரு விண்வெளி ஓடத்தில்",
-        "C) Capsule || இ) ஒரு காப்ஸ்யூலில்",
-        "D) Alien spaceship || ஈ) வேற்றுகிரகவாசிகளின் கப்பலில்"
-      ],
-      "a": 1,
-      "ex": "They locked themselves inside a functional space shuttle. || அவர்கள் ஒரு விண்வெளி ஓடத்திற்குள் (space shuttle) தவறுதலாக சிக்கிக்கொண்டனர்.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "What did the boys pull to launch the shuttle? || சிறுவர்கள் எதை இழுத்ததால் விண்கலம் ஏவப்பட்டது?",
-      "options": [
-        "A) A button || அ) ஒரு பொத்தான்",
-        "B) A rope || ஆ) ஒரு கயிறு",
-        "C) A lever || இ) ஒரு நெம்புகோல் (lever)",
-        "D) A switch || ஈ) ஒரு சுவிட்ச்"
-      ],
-      "a": 2,
-      "ex": "Pulling a lever initiated the launch. || ஒரு நெம்புகோலை தவறுதலாக இழுத்ததால் விண்கலம் இயங்கத் தொடங்கியது.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Which compound word is formed by joining 'Light + House'?",
-      "options": [
-        "A) Lighthome",
-        "B) Lighthouse",
-        "C) Houselight",
-        "D) Sunlight"
-      ],
-      "a": 1,
-      "ex": "Light + House forms Lighthouse.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Identify the abstract noun: || அருவப் பெயர்ச்சொல்லைக் கண்டறியவும்:",
-      "options": [
-        "A) Flock",
-        "B) Honesty",
-        "C) Watchman",
-        "D) Mars"
-      ],
-      "a": 1,
-      "ex": "Honesty represents a quality you cannot touch. || Honesty என்பது ஒரு பண்பு, இதனைத் தொட முடியாது.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Correct collective noun: A _______ of grapes.",
-      "options": [
-        "A) herd",
-        "B) swarm",
-        "C) bunch",
-        "D) army"
-      ],
-      "a": 2,
-      "ex": "A group of grapes is called a bunch.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Name of the Martian habitat where Arivumathi lived?",
-      "options": [
-        "A) Hub",
-        "B) Earth 2.0",
-        "C) Space station",
-        "D) Galaxy"
-      ],
-      "a": 0,
-      "ex": "The settlement was called a Hub. || செவ்வாயில் மனிதர்கள் வாழும் மையப்பகுதி 'Hub' ஆகும்.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "What is required to breathe outside on Mars? || செவ்வாயில் சுவாசிக்க என்ன தேவை?",
-      "options": [
-        "A) Umbrella",
-        "B) Space suit and oxygen || ஆ) விண்வெளி உடை மற்றும் ஆக்சிஜன்",
-        "C) Cotton clothes",
-        "D) Water bottle"
-      ],
-      "a": 1,
-      "ex": "A space suit and oxygen cylinder are mandatory. || செவ்வாயில் விண்வெளி உடை மற்றும் ஆக்சிஜன் அவசியம்.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Which planet has 'magnificent rings'?",
-      "options": [
-        "A) Earth",
-        "B) Mars",
-        "C) Saturn",
-        "D) Jupiter"
-      ],
-      "a": 2,
-      "ex": "Saturn is famous for its magnificent rings.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Which planet is 'tumbling and rolling'?",
-      "options": [
-        "A) Jupiter",
-        "B) Uranus",
-        "C) Neptune",
-        "D) Mercury"
-      ],
-      "a": 1,
-      "ex": "Uranus is described as tumbling and rolling.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Meaning of 'Desolated'?",
-      "options": [
-        "A) Beautiful",
-        "B) Crowded",
-        "C) Uninhabitable/Ruined || இ) பாழடைந்த",
-        "D) Lush green"
-      ],
-      "a": 2,
-      "ex": "Desolated means empty, ruined, and uninhabitable.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "What is true about Martian vegetables? || செவ்வாய் காய்கறிகள் பற்றிய உண்மை என்ன?",
-      "options": [
-        "A) Tastier than Earth's",
-        "B) No real flavor || ஆ) நிஜமான சுவை இல்லை",
-        "C) Very sweet",
-        "D) Very colorful"
-      ],
-      "a": 1,
-      "ex": "They lack real flavor because soil is chemically treated. || ரசாயன மண்ணால் காய்கறிகளில் உண்மையான சுவை இல்லை.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Sun + Flower = ?",
-      "options": [
-        "A) Flowersun",
-        "B) Sunplant",
-        "C) Sunflower",
-        "D) Sunlight"
-      ],
-      "a": 2,
-      "ex": "Sunflower is the compound word.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Star + Fish = ?",
-      "options": [
-        "A) Fishstar",
-        "B) Starfish",
-        "C) Seastar",
-        "D) Shine"
-      ],
-      "a": 1,
-      "ex": "Starfish is the result.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Collective noun for birds?",
-      "options": [
-        "A) Swarm",
-        "B) Flock",
-        "C) Herd",
-        "D) Army"
-      ],
-      "a": 1,
-      "ex": "A group of birds is a flock.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Collective noun for bees?",
-      "options": [
-        "A) Swarm",
-        "B) Bunch",
-        "C) Choir",
-        "D) Flock"
-      ],
-      "a": 0,
-      "ex": "Bees come in a swarm.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Collective noun for singers?",
-      "options": [
-        "A) Army",
-        "B) Herd",
-        "C) Choir",
-        "D) Bunch"
-      ],
-      "a": 2,
-      "ex": "A group of singers is a choir.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Word for a group of ants?",
-      "options": [
-        "A) Swarm",
-        "B) Army",
-        "C) Flock",
-        "D) Herd"
-      ],
-      "a": 1,
-      "ex": "An army of ants.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Collective noun for cattle?",
-      "options": [
-        "A) Herd",
-        "B) Bunch",
-        "C) Choir",
-        "D) Flock"
-      ],
-      "a": 0,
-      "ex": "A group of cattle is a herd.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Which is an Abstract Noun?",
-      "options": [
-        "A) Freedom",
-        "B) Table",
-        "C) Dog",
-        "D) Water"
-      ],
-      "a": 0,
-      "ex": "Freedom is an intangible concept.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "What does 'Astonished' mean?",
-      "options": [
-        "A) Sad",
-        "B) Greatly surprised || ஆ) ஆச்சரியப்பட்ட",
-        "C) Angry",
-        "D) Tired"
-      ],
-      "a": 1,
-      "ex": "Astonished means extremely surprised.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "What do we call the fuel formed from ancient remains? || புதைபடிவ எரிபொருட்கள் எதிலிருந்து உருவாகின்றன?",
-      "options": [
-        "A) Solar",
-        "B) Wind",
-        "C) Fossil Fuel || இ) புதைபடிவ எரிபொருள்",
-        "D) Biogas"
-      ],
-      "a": 2,
-      "ex": "Fuel from remains of dead plants and animals over millions of years. || மில்லியன் கணக்கான ஆண்டுகளில் உருவான எரிபொருள்.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "What is the 'Milky Way'?",
-      "options": [
-        "A) Chocolate",
-        "B) Our Galaxy || ஆ) நமது விண்மீன் மண்டலம்",
-        "C) Mars region",
-        "D) Star type"
-      ],
-      "a": 1,
-      "ex": "The galaxy containing our solar system.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Assertion (A): Earth has become a desolated home. Reason (R): Humans overexploited and destroyed Earth's natural resources.",
-      "options": [
-        "A) Both A and R are true, and R is the correct explanation of A",
-        "B) Both A and R are true, but R is not the correct explanation",
-        "C) A is true, but R is false",
-        "D) A is false, but R is true"
-      ],
-      "a": 0,
-      "ex": "Human exploitation ruined Earth.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Assertion (A): The vegetables available on Mars are extremely tasty. Reason (R): The soil on Mars is chemically treated.",
-      "options": [
-        "A) Both A and R are true",
-        "B) A is false, but R is true",
-        "C) A is true, but R is false",
-        "D) Both A and R are false"
-      ],
-      "a": 1,
-      "ex": "The vegetables on Mars lack real flavor because the soil is chemically treated. Therefore, Assertion A is false.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Where did the shuttle crash?",
-      "options": [
-        "A) Moon",
-        "B) Earth",
-        "C) Strange planet || இ) புதிய கிரகம்",
-        "D) Mars"
-      ],
-      "a": 2,
-      "ex": "They crashed on an unknown planet.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Attitude of aliens towards boys?",
-      "options": [
-        "A) Angry",
-        "B) Attack",
-        "C) Peaceful and helpful || இ) அமைதி/உதவி",
-        "D) Prison"
-      ],
-      "a": 2,
-      "ex": "Aliens were friendly and helpful.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Which of the following pairs is correct according to the poem?",
-      "options": [
-        "A) Saturn - Ice giant",
-        "B) Jupiter - Red storms || ஆ) வியாழன் - புயல்",
-        "C) Uranus - Rings",
-        "D) Neptune - Tumbling"
-      ],
-      "a": 1,
-      "ex": "Jupiter is the one with red storms.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "Which of the following compound word pairs is incorrect?",
-      "options": [
-        "A) Foot + ball = Football",
-        "B) Rain + bow = Rainbow",
-        "C) Mail + box = Mailbox",
-        "D) Watch + man = Manwatch"
+        "வண்ணங்கள் மற்றும் வடிவங்கள்",
+        "வடிவமைப்புகள்",
+        "கோடுகள்",
+        "மேற்கூறிய அனைத்தும்"
       ],
       "a": 3,
-      "ex": "The correct compound word for Watch + man is 'Watchman', not 'Manwatch'.",
-      "lesson": "Lesson_1"
+      "ex": "அமைப்புகள் பொதுவாக வண்ணங்கள், வடிவங்கள், வடிவமைப்புகள் மற்றும் கோடுகள் ஆகியவற்றின் ஒழுங்குபடுத்தப்பட்ட ஒரு குறிப்பிட்ட விதத்தில் மீண்டும் மீண்டும் தோன்றுவதைக் குறிக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
     },
     {
-      "q": "What is the correct meaning of the word 'Adapted'?",
+      "q": "நம்மைச் சுற்றி வடிவங்களின் அமைப்புகள் எங்கு காணப்படுகின்றன?",
       "options": [
-        "A) Modified or adjusted to survive || அ) তথவமைத்தல்",
-        "B) Destroyed",
-        "C) Creating",
-        "D) Traveling"
+        "புத்தகங்களில் மட்டும்",
+        "வகுப்பறையில் மட்டும்",
+        "எல்லா இடங்களிலும்",
+        "காடுகளில் மட்டும்"
+      ],
+      "a": 2,
+      "ex": "வடிவங்களின் அமைப்புகள் நம்மைச் சுற்றி எல்லா இடங்களிலும் இயற்கையாகவும் செயற்கையாகவும் காணப்படுகின்றன.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "ஒரு நட்சத்திர அமைப்பில் ஒரு நிழலிட்ட நட்சத்திரம் மற்றும் ஒரு நிழலிடாத நட்சத்திரம் மாறி மாறி வந்தால், அடுத்ததாக எதனை வரைய வேண்டும்?",
+      "options": [
+        "இரண்டு நிழலிட்ட நட்சத்திரங்கள்",
+        "ஒரு நிழலிட்ட மற்றும் ஒரு நிழலிடாத நட்சத்திரம்",
+        "இரண்டு நிழலிடாத நட்சத்திரங்கள்",
+        "ஒரு வட்டம்"
+      ],
+      "a": 1,
+      "ex": "அமைப்பு தொடர்ந்து வருவதால், மீண்டும் ஒரு நிழலிட்ட மற்றும் ஒரு நிழலிடாத நட்சத்திரமே வர வேண்டும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "சதுர எண் என்றால் என்ன?",
+      "options": [
+        "ஒரு எண்ணை 2-ஆல் பெருக்குவது",
+        "ஒரு எண்ணை 4-ஆல் பெருக்குவது",
+        "ஓர் எண்ணை அதே எண்ணால் பெருக்குவது",
+        "ஒரு எண்ணை அதற்கடுத்த எண்ணால் பெருக்குவது"
+      ],
+      "a": 2,
+      "ex": "ஓர் எண்ணை அதே எண்ணால் பெருக்கக் கிடைப்பதே சதுர எண் ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "ஒரு சதுர எண் எப்போதுமே எவ்வகையான எண்ணாக இருக்கும்?",
+      "options": [
+        "குறை எண் (Negative)",
+        "மிகை எண் (Positive)",
+        "பூஜ்ஜியம்",
+        "பின்ன எண்"
+      ],
+      "a": 1,
+      "ex": "ஒரு சதுர எண் எப்போதுமே மிகை எண்ணாக (Positive Number) மட்டுமே இருக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "1 × 1 என்பதன் மதிப்பு என்ன?",
+      "options": [
+        "2",
+        "0",
+        "1",
+        "11"
+      ],
+      "a": 2,
+      "ex": "1-ஐ 1-ஆல் பெருக்கினால் 1 கிடைக்கும். இது முதல் சதுர எண்ணாகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "3 × 3 என்பதன் மதிப்பு என்ன?",
+      "options": [
+        "6",
+        "9",
+        "33",
+        "12"
+      ],
+      "a": 1,
+      "ex": "3 × 3 = 9. எனவே 9 ஒரு சதுர எண்ணாகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "(11)² = 121 எனில், அதன் இலக்கங்களின் கூட்டுத்தொகை (1+2+1) எந்த சதுர எண்ணைக் குறிக்கிறது?",
+      "options": [
+        "3²",
+        "4²",
+        "2²",
+        "1²"
+      ],
+      "a": 2,
+      "ex": "1+2+1 = 4. 4 என்பது 2-இன் வர்க்கம் (2²).",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "ஜோஷ்வாவால் 12 பொருட்களைப் பயன்படுத்தி ஒரு சதுரத்தை ஏன் உருவாக்க முடியவில்லை?",
+      "options": [
+        "12 ஒரு பெரிய எண்",
+        "சதுரத்தில் பல இடைவெளிகள் நிரப்பப்படாமல் இருக்கும்",
+        "12 ஒரு முக்கோண எண்",
+        "பொருட்கள் பற்றாக்குறை"
+      ],
+      "a": 1,
+      "ex": "12 பொருட்களை சதுர வடிவில் அடுக்கினால் பல இடைவெளிகள் இருக்கும். எனவே 12 ஒரு சதுர எண் அல்ல.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "தொடர் இயல் எண்களின் கூட்டுத்தொகை மூலம் பெறப்படும் எண்கள் எவை?",
+      "options": [
+        "சதுர எண்கள்",
+        "முக்கோண எண்கள்",
+        "இரட்டைப்படை எண்கள்",
+        "பின்ன எண்கள்"
+      ],
+      "a": 1,
+      "ex": "1, 1+2=3, 1+2+3=6 என தொடர் இயல் எண்களின் கூட்டுத்தொகை முக்கோண எண்களை உருவாக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "ஒரு முக்கோண எண்ணின் படவடிவம் எவ்வகையான முக்கோணங்களை உருவாக்கும்?",
+      "options": [
+        "சமபக்க அல்லது செங்கோண முக்கோணம்",
+        "இருசமபக்க முக்கோணம்",
+        "அசமபக்க முக்கோணம்",
+        "வட்டம்"
       ],
       "a": 0,
-      "ex": "Adjusting to survives in new conditions.",
-      "lesson": "Lesson_1"
+      "ex": "ஒரு முக்கோண எண்ணின் படவடிவமானது ஒரு சமபக்க முக்கோணத்தையோ அல்லது செங்கோண முக்கோணத்தையோ உருவாக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
     },
     {
-      "q": "What do you call the specialized, pressurized suit worn by astronauts?",
+      "q": "கீழே கொடுக்கப்பட்டுள்ள எண்களில் முக்கோண எண்களின் வரிசை எது?",
       "options": [
-        "A) Capsule",
-        "B) Space suit",
-        "C) Hub",
-        "D) Sol"
+        "1, 4, 9, 16",
+        "2, 4, 6, 8",
+        "1, 3, 6, 10, 15",
+        "1, 3, 5, 7"
+      ],
+      "a": 2,
+      "ex": "1, 3 (1+2), 6 (1+2+3), 10 (1+2+3+4), 15 என்பவை முக்கோண எண்களாகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "இரண்டு அடுத்தடுத்த முக்கோண எண்களின் கூட்டுத் தொகை எதற்குச் சமமாக இருக்கும்?",
+      "options": [
+        "ஒரு ஒற்றைப்படை எண்",
+        "ஒரு சதுர எண்",
+        "மற்றொரு முக்கோண எண்",
+        "ஒரு பகா எண்"
       ],
       "a": 1,
-      "ex": "Astronauts wear space suits.",
-      "lesson": "Lesson_1"
+      "ex": "எடுத்துக்காட்டாக, 1 மற்றும் 3 ஆகிய அடுத்தடுத்த முக்கோண எண்களைக் கூட்டினால் 4 (சதுர எண்) கிடைக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
     },
     {
-      "q": "What is a 'Capsule'?",
+      "q": "1 + 3 = 4, இதில் 4 என்பது ஒரு சதுர எண். இதேபோல் 3 + 6 என்பதன் கூட்டுத்தொகை என்ன எண்ணைத் தரும்?",
       "options": [
-        "A) Pill",
-        "B) Sleeping compartment || ஆ) தூங்கும் பகுதி",
-        "C) Spaceship",
-        "D) Food"
+        "10",
+        "8",
+        "9",
+        "12"
+      ],
+      "a": 2,
+      "ex": "3 மற்றும் 6 ஆகிய அடுத்தடுத்த முக்கோண எண்களின் கூடுதல் 9. இது ஒரு சதுர எண் (3²) ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "7-ன் சதுர எண் என்ன?",
+      "options": [
+        "14",
+        "49",
+        "21",
+        "28"
       ],
       "a": 1,
-      "ex": "A small cylinder-shaped bed for sleeping.",
-      "lesson": "Lesson_1"
+      "ex": "7 × 7 = 49.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
     },
     {
-      "q": "At the end of the poem, where does the poet travel last?",
+      "q": "64 என்பது எந்த எண்ணின் சதுர எண்?",
       "options": [
-        "A) Sun",
-        "B) Meet the Creator || ஆ) படைப்பாளரைச் சந்திக்க",
-        "C) Earth center",
-        "D) Black hole"
+        "4",
+        "16",
+        "8",
+        "32"
+      ],
+      "a": 2,
+      "ex": "8 × 8 = 64. எனவே இது 8-ன் சதுர எண்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "24 என்பது சதுர எண்ணா?",
+      "options": [
+        "ஆம்",
+        "இல்லை",
+        "சொல்ல முடியாது",
+        "அது ஒரு முக்கோண எண்"
       ],
       "a": 1,
-      "ex": "Journey ends meeting the Creator.",
-      "lesson": "Lesson_1"
+      "ex": "எந்த ஒரு முழு எண்ணையும் அதனாலேயே பெருக்கினால் 24 வராது (4×4=16, 5×5=25). எனவே இது சதுர எண் இல்லை.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
     },
     {
-      "q": "Assertion (A): Abstract nouns cannot be seen or touched. Reason (R): Words like 'Honesty' and 'Freedom' are examples of abstract nouns.",
+      "q": "4, 9, 16, ___, 36 என்ற சதுர எண்களின் வரிசையில் விடுபட்ட எண் எது?",
       "options": [
-        "A) Both A and R are true",
-        "B) A is true, but R is false",
-        "C) A is false, but R is true",
-        "D) Both A and R are false"
+        "20",
+        "25",
+        "30",
+        "24"
+      ],
+      "a": 1,
+      "ex": "வரிசை: 2², 3², 4², 5², 6². எனவே 5² = 25 என்பதே சரியான விடை.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "1, 3, 6, ___, 15 என்ற முக்கோண எண்களின் வரிசையில் விடுபட்ட எண் எது?",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "8"
+      ],
+      "a": 1,
+      "ex": "வரிசை: 1, 1+2(3), 1+2+3(6), 1+2+3+4(10), 1+2+3+4+5(15). எனவே விடை 10.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "15, ___, 28 என்ற முக்கோண எண்களின் வரிசையில் விடுபட்ட எண் எது?",
+      "options": [
+        "21",
+        "20",
+        "25",
+        "18"
       ],
       "a": 0,
-      "ex": "Abstract nouns are intangible.",
-      "lesson": "Lesson_1"
+      "ex": "15 என்பது 1 முதல் 5 வரையான எண்களின் கூடுதல். அடுத்த முக்கோண எண் 15 + 6 = 21.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
     },
     {
-      "q": "What type of noun is 'Fear'?",
+      "q": "சதுர எண் மற்றும் முக்கோண எண்களுக்கு மத்தியில் உள்ள பொதுவான எண் எது?",
       "options": [
-        "A) Proper",
-        "B) Collective",
-        "C) Abstract",
-        "D) Material"
+        "0",
+        "2",
+        "1",
+        "3"
       ],
       "a": 2,
-      "ex": "Fear is an emotion (abstract).",
-      "lesson": "Lesson_1"
+      "ex": "1 என்பது முதல் சதுர எண்ணாகவும் (1×1), முதல் முக்கோண எண்ணாகவும் உள்ளது.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
     },
     {
-      "q": "What is the primary moral of the story 'Earth, the Desolated Home'?",
+      "q": "தொடர்ச்சியான ஒற்றைப்படை எண்களைக் கூட்டினால் என்ன எண்கள் கிடைக்கும்?",
       "options": [
-        "A) travel to Mars",
-        "B) Protect Earth || ஆ) பூமியைப் பாதுகாப்போம்",
-        "C) Find aliens",
-        "D) Wear suits"
+        "முக்கோண எண்கள்",
+        "சதுர எண்கள்",
+        "பகா எண்கள்",
+        "இரட்டைப்படை எண்கள்"
       ],
       "a": 1,
-      "ex": "Protect our natural home (Earth).",
-      "lesson": "Lesson_1"
+      "ex": "தொடர் ஒற்றைப்படை எண்களின் கூடுதல் சதுர எண்களைத் தரும் (எ.கா: 1+3=4, 1+3+5=9).",
+      "notesMode": true,
+      "lesson": "Lesson_3"
     },
     {
-      "q": "\"Names a group or collection of individuals viewed as a single, whole unit\" - This is the definition of which noun?",
+      "q": "1 + 3 + 5 என்பதன் கூட்டுத்தொகை என்ன?",
       "options": [
-        "A) Abstract",
-        "B) Collective",
-        "C) Common",
-        "D) Proper"
+        "8",
+        "9",
+        "7",
+        "10"
       ],
       "a": 1,
-      "ex": "Collective nouns name groups.",
-      "lesson": "Lesson_1"
+      "ex": "1+3+5 = 9. இது 3-ன் சதுர எண் ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
     },
     {
-      "q": "Which grammatical category do the words \"Beauty\" and \"Kindness\" belong to?",
+      "q": "1 + 3 + 5 + 7 + 9 + 11 = 36 எனில், இது எந்த எண்ணின் வர்க்கம் (Square)?",
       "options": [
-        "A) Collective",
-        "B) Compound",
-        "C) Abstract",
-        "D) Action"
+        "5²",
+        "7²",
+        "6²",
+        "8²"
       ],
       "a": 2,
-      "ex": "These are intangible qualities.",
-      "lesson": "Lesson_1"
+      "ex": "36 என்பது 6 × 6. எனவே இது 6-ன் வர்க்கம் (6²) ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
     },
     {
-      "q": "What is the main difference in Arivumathi's life on Mars?",
+      "q": "1 + 3 + 5 + 7 + 9 + 11 + 13 = 49. இதனை எவ்வாறு எழுதலாம்?",
       "options": [
-        "A) Artificial air and water || அ) செயற்கை காற்று/நீர்",
-        "B) Rain daily",
-        "C) Natural food",
-        "D) No clothes"
+        "6²",
+        "7²",
+        "8²",
+        "9²"
+      ],
+      "a": 1,
+      "ex": "முதல் 7 ஒற்றைப்படை எண்களின் கூடுதல் 49. இது 7² ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 என்பதன் கூடுதல் என்ன?",
+      "options": [
+        "64",
+        "81",
+        "49",
+        "100"
       ],
       "a": 0,
-      "ex": "On Mars, basic needs are artificial.",
-      "lesson": "Lesson_1"
+      "ex": "முதல் 8 ஒற்றைப்படை எண்களின் கூடுதல் 8² = 64.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
     },
     {
-      "q": "How did Amuthan and Nilavan feel inside the museum?",
+      "q": "எந்த ஒரு எண், முக்கோண எண் மற்றும் சதுர எண் ஆகிய இரண்டு பண்புகளையும் கொண்டுள்ளது?",
       "options": [
-        "A) Astonished || அ) வியப்பு",
-        "B) Desolated",
-        "C) Adapted",
-        "D) None"
+        "16",
+        "25",
+        "36",
+        "49"
+      ],
+      "a": 2,
+      "ex": "'36' என்பது 6-ன் சதுர எண் மற்றும் 8-ஆவது முக்கோண எண் ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "(111)² = 12321. இதன் இலக்கங்களின் கூட்டுத்தொகை (1+2+3+2+1) என்ன?",
+      "options": [
+        "9 (3²)",
+        "8 (2³)",
+        "16 (4²)",
+        "25 (5²)"
       ],
       "a": 0,
-      "ex": "They felt amazed and astonished.",
-      "lesson": "Lesson_1"
+      "ex": "1+2+3+2+1 = 9. இது 3-ன் வர்க்கமான 3² ஐக் குறிக்கிறது.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
     },
     {
-      "q": "Term for process of adjusting to surivive on a new planet?",
+      "q": "கீழ்க்கண்டவற்றுள் எது சதுர எண்களின் சரியான வரிசை?",
       "options": [
-        "A) Adaptation",
-        "B) Exploration",
-        "C) Desolation",
-        "D) Creation"
+        "1, 2, 3, 4, 5",
+        "1, 4, 9, 16, 25",
+        "1, 3, 6, 10, 15",
+        "2, 4, 8, 16, 32"
+      ],
+      "a": 1,
+      "ex": "1², 2², 3², 4², 5² ஆகியவற்றின் மதிப்புகள் முறையே 1, 4, 9, 16, 25 ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "1, 2, 3, 4 ஆகிய நிலைகளில் எண்களைக் கூட்டும்போது: 1+0=1; 3+1=4; 6+3=9; 10+6=16. இங்கு கிடைக்கும் விடை எண்கள் எவ்வகையைச் சேர்ந்தவை?",
+      "options": [
+        "பகா எண்கள்",
+        "முக்கோண எண்கள்",
+        "சதுர எண்கள்",
+        "பகு எண்கள்"
+      ],
+      "a": 2,
+      "ex": "கிடைக்கும் எண்களான 1, 4, 9, 16 ஆகியவை சதுர எண்கள் ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "உங்கள் வீட்டின் தரையில் சதுர வடிவில் டைல்ஸ் பதிக்கப்படுகிறது. ஒரு வரிசையில் 5 டைல்ஸ் எனில், அந்த முழு சதுரத்தையும் நிரப்ப மொத்தம் எத்தனை டைல்ஸ் தேவை?",
+      "options": [
+        "10",
+        "20",
+        "25",
+        "15"
+      ],
+      "a": 2,
+      "ex": "ஒரு சதுர அமைப்பில் வரிசையும் நிரலும் சமமாக இருக்கும். எனவே 5 × 5 = 25 டைல்ஸ் தேவை.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "பந்துவீச்சு விளையாட்டில் (Bowling) பின்கள் (pins) முக்கோண வடிவில் அடுக்கப்பட்டிருக்கும். முதல் வரிசையில் 1, அடுத்து 2, அடுத்து 3, அடுத்து 4 எனில் மொத்த பின்கள் எத்தனை?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "15"
+      ],
+      "a": 1,
+      "ex": "1 + 2 + 3 + 4 = 10. இது ஒரு முக்கோண எண்ணாகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "ஒரு தோட்டத்தில் செடிகள் சதுர வடிவில் நடப்படுகின்றன. மொத்தம் 81 செடிகள் இருந்தால், ஒரு வரிசையில் எத்தனை செடிகள் இருக்கும்?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "a": 1,
+      "ex": "81 என்பது 9-ன் வர்க்கம் (9²). எனவே ஒரு வரிசையில் 9 செடிகள் இருக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "ஒரு கடிகாரத்தில் எண்கள் 1 முதல் 12 வரை உள்ளன. இவற்றில் உள்ள முழுச் சதுர எண்கள் எத்தனை?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "a": 1,
+      "ex": "1 முதல் 12 வரை உள்ள சதுர எண்கள் 1, 4, மற்றும் 9. எனவே மொத்தம் 3 எண்கள் உள்ளன.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "ஒரு அரங்கில் நாற்காலிகள் முக்கோண அமைப்பில் அடுக்கப்படுகின்றன. 5 வரிசைகள் முழுமையாக அடுக்கப்பட்டால், அங்குள்ள மொத்த நாற்காலிகளின் எண்ணிக்கை எந்த வகையான எண்ணைக் குறிக்கும்?",
+      "options": [
+        "சதுர எண்",
+        "இரட்டைப்படை எண்",
+        "முக்கோண எண்",
+        "பகா எண்"
+      ],
+      "a": 2,
+      "ex": "1+2+3+4+5 = 15. இது ஒரு முக்கோண எண்ணைக் குறிக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "ஒரு மாணவன் தினமும் ஒற்றைப்படை எண்களின் அடிப்படையில் சேமிக்கிறான். முதல் நாள் ₹1, 2ஆம் நாள் ₹3, 3ஆம் நாள் ₹5, 4ஆம் நாள் ₹7. நான்கு நாட்கள் முடிவில் அவனது மொத்த சேமிப்பு எவ்வளவு?",
+      "options": [
+        "₹12",
+        "₹14",
+        "₹16",
+        "₹18"
+      ],
+      "a": 2,
+      "ex": "1+3+5+7 = 16. முதல் 4 ஒற்றைப்படை எண்களின் கூடுதல் 4² = 16 ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "கீழே கொடுக்கப்பட்டுள்ள எண்களில் எது சதுர எண்ணும் அல்ல, முக்கோண எண்ணும் அல்ல?",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "16"
+      ],
+      "a": 2,
+      "ex": "9 மற்றும் 16 சதுர எண்கள். 10 முக்கோண எண். ஆனால் 12 இரண்டுமே இல்லை.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "4 × 4 = 16. இதில் 16 என்ற எண்ணை வேறு எவ்வாறு அழைக்கலாம்?",
+      "options": [
+        "4-இன் முக்கோண எண்",
+        "4-இன் சதுர எண்",
+        "4-இன் ஒற்றைப்படை எண்",
+        "4-இன் பகா எண்"
+      ],
+      "a": 1,
+      "ex": "ஓர் எண்ணை அதே எண்ணால் பெருக்கினால் கிடைப்பது சதுர எண்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "ஒரு செங்கோண முக்கோண வடிவில் கற்களை அடுக்கும்போது உருவாகும் எண்கள்?",
+      "options": [
+        "சதுர எண்கள்",
+        "பகா எண்கள்",
+        "முக்கோண எண்கள்",
+        "முழு எண்கள்"
+      ],
+      "a": 2,
+      "ex": "முக்கோண எண்களின் படவடிவமானது ஒரு சமபக்க அல்லது செங்கோண முக்கோணத்தையோ உருவாக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "6+10=16 என்ற சமன்பாடு நமக்கு உணர்த்தும் கணித உண்மை என்ன?",
+      "options": [
+        "இரண்டு இரட்டைப்படை எண்களின் கூடுதல்",
+        "இரண்டு ஒற்றைப்படை எண்களின் கூடுதல்",
+        "இரண்டு அடுத்தடுத்த முக்கோண எண்களின் கூட்டுத் தொகை ஒரு சதுர எண்",
+        "ஒரு சதுர எண்ணும் முக்கோண எண்ணும் சமம்"
+      ],
+      "a": 2,
+      "ex": "6 மற்றும் 10 ஆகிய அடுத்தடுத்த முக்கோண எண்களின் கூடுதல் 16 (சதுர எண்) என்பதை இது விளக்குகிறது.",
+      "notesMode": true,
+      "lesson": "Lesson_3"
+    },
+    {
+      "q": "நீளத்தின் மிகச்சிறிய அலகு எது?",
+      "options": [
+        "மில்லிமீட்டர் (மி.மீ)",
+        "சென்டிமீட்டர் (செ.மீ)",
+        "மீட்டர் (மீ)",
+        "கிலோமீட்டர் (கி.மீ)"
       ],
       "a": 0,
-      "ex": "Adaptation is the ability to modify to survive.",
-      "lesson": "Lesson_1"
+      "ex": "நீளத்தை அளக்கப் பயன்படும் அலகுகளில் மிகச்சிறியது மில்லிமீட்டர் (மி.மீ) ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
     },
     {
-      "q": "Name of a massive system of billions of stars?",
+      "q": "1 சென்டிமீட்டர் (செ.மீ) என்பது எத்தனை மில்லிமீட்டருக்குச் சமம்?",
       "options": [
-        "A) Sol",
-        "B) Capsule",
-        "C) Galaxy",
-        "D) Hub"
-      ],
-      "a": 2,
-      "ex": "A galaxy contains billions of stars.",
-      "lesson": "Lesson_1"
-    },
-    {
-      "q": "How did Santhosh record his experience of visiting his grandparents' village, Sirumalai? || சந்தோஷ் தனது தாத்தா பாட்டியின் ஊரான சிறுமலைக்குச் சென்ற அனுபவத்தை எப்படிப் பதிவு செய்தான்?",
-      "options": [
-        "Wrote in a notebook || நோட்டில் எழுதினான்",
-        "Recorded as an audio diary on his mother's phone || தாயின் போனில் ஆடியோ டைரியாகப் பதிவு செய்தான்",
-        "Typed on a computer || கணினியில் தட்டச்சு செய்தான்",
-        "Wrote a letter to a friend || நண்பனுக்குக் கடிதம் எழுதினான்"
+        "100 மி.மீ",
+        "10 மி.மீ",
+        "1000 மி.மீ",
+        "1 மி.மீ"
       ],
       "a": 1,
-      "ex": "Santhosh recorded his vacation experiences as an audio diary using his mother's mobile phone. || சந்தோஷ் தனது விடுமுறை அனுபவங்களைத் தனது தாயின் மொபைல் போனைப் பயன்படுத்தி ஆடியோ டைரியாகப் பதிவு செய்தான்.",
-      "lesson": "Lesson_2"
+      "ex": "10 மி.மீ சேர்ந்தது 1 செ.மீ ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
     },
     {
-      "q": "What is the correct plural form of the word 'Fish'? || 'Fish' என்ற சொல்லின் சரியான பன்மை வடிவம் எது?",
+      "q": "1 மீட்டர் (மீ) என்பது எத்தனை சென்டிமீட்டருக்குச் சமம்?",
       "options": [
-        "Fishes",
-        "Fishs",
-        "Fish",
-        "Fishies"
+        "10 செ.மீ",
+        "1000 செ.மீ",
+        "100 செ.மீ",
+        "1 செ.மீ"
       ],
       "a": 2,
-      "ex": "'Fish' is a word that has an identical form in both singular and plural. || 'Fish' என்பது ஒருமை மற்றும் பன்மை இரண்டிலும் ஒரே மாதிரியான வடிவத்தைக் கொண்ட சொல்லாகும்.",
-      "lesson": "Lesson_2"
+      "ex": "100 செ.மீ சேர்ந்தது 1 மீ ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
     },
     {
-      "q": "What did the farmer give to his three daughters to test their responsibility? || விவசாயி தன் மூன்று மகள்களின் பொறுப்புணர்வைச் சோதிக்க அவர்களுக்கு என்ன கொடுத்தார்?",
+      "q": "1 கிலோமீட்டர் (கி.மீ) என்பது எத்தனை மீட்டருக்குச் சமம்?",
       "options": [
-        "Gold || தங்கம்",
-        "Money || பணம்",
-        "A bag of millet || ஒரு பை கேழ்வரகு/தினை",
-        "Land documents || நில ஆவணங்கள்"
+        "10 மீ",
+        "100 மீ",
+        "1000 மீ",
+        "10000 மீ"
       ],
       "a": 2,
-      "ex": "The farmer gave each of his daughters a bag of millet to test their wisdom and responsibility. || விவசாயி தனது ஒவ்வொரு மகளுக்கும் ஒரு பை கேழ்வரகு தானியத்தைக் கொடுத்து அவர்களின் புத்திசாலித்தனத்தையும் பொறுப்புணர்வையும் சோதித்தார்.",
-      "lesson": "Lesson_2"
+      "ex": "1000 மீ சேர்ந்தது 1 கி.மீ ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
     },
     {
-      "q": "'It ploughs the soil before farmer' - What ploughs the soil before the farmer? || 'விவசாயிக்கு முன்பே இது மண்ணை உழுகிறது' - விவசாயிக்கு முன்பே மண்ணை உழுவது எது?",
+      "q": "வாகனங்களின் பயணத் தூரத்தை அளக்கப் பயன்படும் கருவி எது?",
       "options": [
-        "Tractor || டிராக்டர்",
-        "Bull || காளை",
-        "Earthworm || மண்புழு",
-        "Wind || காற்று"
-      ],
-      "a": 2,
-      "ex": "In the poem 'Farmer's Friend', it is mentioned that the earthworm ploughs the soil even before the farmer does. || 'விவசாயியின் நண்பன்' கவிதையில், விவசாயி உழுவதற்கு முன்பே மண்புழு மண்ணை உழுகிறது என்று குறிப்பிடப்பட்டுள்ளது.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is the meaning of the word 'Enchanting'? || 'Enchanting' என்ற சொல்லின் அர்த்தம் என்ன?",
-      "options": [
-        "Many in number || அதிக எண்ணிக்கையிலான",
-        "Attractive || கவர்ச்சிகரமான",
-        "Holiday || விடுமுறை",
-        "Holy || புனிதமான"
+        "தெர்மாமீட்டர்",
+        "ஓடோமீட்டர்",
+        "அம்மீட்டர்",
+        "வோல்ட்மீட்டர்"
       ],
       "a": 1,
-      "ex": "'Enchanting' means attractive or charming to the mind. || 'Enchanting' என்றால் கவர்ச்சிகரமான அல்லது மனதை ஈர்க்கக்கூடிய என்று பொருள்.",
-      "lesson": "Lesson_2"
+      "ex": "வாகனங்களின் பயணத் தூரத்தை ஓடோமீட்டர் என்ற அளவுகருவி கொண்டு அளக்கிறோம்.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
     },
     {
-      "q": "Which auxiliary verb is used when forming a sentence in the Future Continuous Tense? || வருங்காலத் தொடர்ச்சியை (Future Continuous Tense) உருவாக்கும் போது எந்த துணை வினைச்சொல் பயன்படுத்தப்படுகிறது?",
+      "q": "10 மில்லிமீட்டர் (மி.மீ) என்பது எதற்குச் சமம்?",
       "options": [
-        "was / were",
-        "am / is / are",
-        "will be",
-        "have been"
+        "1 மீ",
+        "1 செ.மீ",
+        "1 கி.மீ",
+        "10 செ.மீ"
+      ],
+      "a": 1,
+      "ex": "10 மி.மீ சேர்ந்தது 1 செ.மீ ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "100 சென்டிமீட்டர் (செ.மீ) என்பது எதற்குச் சமம்?",
+      "options": [
+        "1 மீ",
+        "1 மி.மீ",
+        "1 கி.மீ",
+        "10 மீ"
+      ],
+      "a": 0,
+      "ex": "100 செ.மீ சேர்ந்தது 1 மீ ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "1000 மீட்டர் (மீ) என்பது எதற்குச் சமம்?",
+      "options": [
+        "1 மீ",
+        "1 செ.மீ",
+        "1 கி.மீ",
+        "10 கி.மீ"
       ],
       "a": 2,
-      "ex": "To denote an action that will be in progress in the future, 'will be + verb(ing)' is used. || எதிர்காலத்தில் நடக்கப்போகும் ஒரு செயலைக் குறிக்க, 'will be + verb(ing)' பயன்படுத்தப்படுகிறது.",
-      "lesson": "Lesson_2"
+      "ex": "1000 மீ சேர்ந்தது 1 கி.மீ ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
     },
     {
-      "q": "Choose the correct match: What does a 'Breeze' do? || சரியான பொருத்தத்தைத் தேர்ந்தெடுக்கவும்: 'Breeze' (தென்றல்) என்ன செய்யும்?",
+      "q": "அளவைகளில் பெரிய அலகைச் சிறிய அலகாக மாற்ற என்ன செய்ய வேண்டும்?",
       "options": [
-        "Flows || ஓடும்",
-        "Swims || நீந்தும்",
-        "Sings || பாடும்",
-        "Blows || வீசும்"
+        "கூட்ட வேண்டும்",
+        "கழிக்க வேண்டும்",
+        "வகுக்க வேண்டும்",
+        "பெருக்க வேண்டும்"
       ],
       "a": 3,
-      "ex": "According to the book back exercises, the correct match is Breeze - Blows. || புத்தகப் பயிற்சியின்படி, தென்றல் வீசும் (Breeze - Blows) என்பதே சரியான பொருத்தமாகும்.",
-      "lesson": "Lesson_2"
+      "ex": "பெரிய அலகைச் சிறிய அலகாக மாற்றப் பெருக்க வேண்டும்.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
     },
     {
-      "q": "What did the farmer's first daughter do with the millet given to her? || விவசாயியின் முதல் மகள் அவளுக்குக் கொடுக்கப்பட்ட தானியத்தை என்ன செய்தாள்?",
+      "q": "அளவைகளில் சிறிய அலகைப் பெரிய அலகாக மாற்ற என்ன செய்ய வேண்டும்?",
       "options": [
-        "Gave it to community food service || சமூக உணவகத்திற்கு வழங்கினாள்",
-        "Fed it to flocks of birds || பறவைக் கூட்டங்களுக்கு உணவாக ஊட்டினாள்",
-        "Sowed it in the land || நிலத்தில் விதைத்தாள்",
-        "Kept it safely in a box || ஒரு பெட்டியில் பாதுகாப்பாக வைத்தாள்"
+        "பெருக்க வேண்டும்",
+        "வகுக்க வேண்டும்",
+        "கூட்ட வேண்டும்",
+        "கழிக்க வேண்டும்"
       ],
       "a": 1,
-      "ex": "The first daughter fed the grains to flocks of birds on her way home. || முதல் மகள் வீட்டிற்குச் செல்லும் வழியில் பறவைக் கூட்டங்களுக்குத் தானியங்களை உணவாக ஊட்டினாள்.",
-      "lesson": "Lesson_2"
+      "ex": "சிறிய அலகைப் பெரிய அலகாக மாற்ற வகுக்க வேண்டும்.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
     },
     {
-      "q": "What is the plural form of the word 'Mouse'? || 'Mouse' என்ற சொல்லின் பன்மை வடிவம் என்ன?",
+      "q": "1/2 மீட்டர் என்பது எத்தனை சென்டிமீட்டர்?",
       "options": [
-        "Mouses",
-        "Mices",
-        "Mice",
-        "Mooses"
-      ],
-      "a": 2,
-      "ex": "This is an irregular plural. 'Mouse' changes to 'Mice'. || இது ஒரு ஒழுங்கற்ற பன்மை. 'Mouse' என்பது 'Mice' ஆக மாறுகிறது.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Which animal used by the farmer helps in ploughing, watering, and threshing? || விவசாயியால் பயன்படுத்தப்படும் எந்த விலங்கு உழுதல், நீர் பாய்ச்சுதல் மற்றும் தானியம் பிரித்தலுக்கு உதவுகிறது?",
-      "options": [
-        "Horse || குதிரை",
-        "Bulls || காளைகள்",
-        "Donkey || கழுதை",
-        "Dog || நாய்"
+        "25 செ.மீ",
+        "50 செ.மீ",
+        "75 செ.மீ",
+        "100 செ.மீ"
       ],
       "a": 1,
-      "ex": "Mr. Murugan, a farmer, has two bulls that help him with all farming activities. || விவசாயி திரு. முருகனிடம் இரண்டு காளைகள் உள்ளன, அவை அவருக்கு அனைத்து விவசாய வேலைகளுக்கும் உதவுகின்றன.",
-      "lesson": "Lesson_2"
+      "ex": "1 மீ = 100 செ.மீ, எனவே 100-ல் பாதி 50 செ.மீ ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
     },
     {
-      "q": "Identify the sentence in the 'Past Continuous Tense' among the following. || பின்வருவனவற்றில் 'கடந்த காலத் தொடர்ச்சியில்' (Past Continuous Tense) உள்ள வாக்கியத்தைக் கண்டறியவும்.",
+      "q": "1/4 மீட்டர் என்பது எத்தனை சென்டிமீட்டர்?",
       "options": [
-        "She will be swimming.",
-        "They are writing the poem.",
-        "He was watching a movie.",
-        "I sing a song."
-      ],
-      "a": 2,
-      "ex": "The structure 'was/were + verb+ing' indicates the Past Continuous Tense. || 'was/were + verb+ing' என்ற அமைப்பு கடந்த காலத் தொடர்ச்சியைக் குறிக்கிறது.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Which is the rhyming word for 'Filth' in the poem? || கவிதையில் 'Filth' என்ற சொல்லுக்கு இயைபுச் சொல் எது?",
-      "options": [
-        "Harm",
-        "Wealth / Health",
-        "Farmer",
-        "Hook"
-      ],
-      "a": 1,
-      "ex": "In the poem, the words Filth, Health, and Wealth end with the same rhyming sound. || கவிதையில், Filth, Health மற்றும் Wealth ஆகிய சொற்கள் ஒரே மாதிரியான ஒலியுடன் முடிவடைகின்றன.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Which of these activities did the village children NOT play during summer vacation? || கோடை விடுமுறை சந்தோஷ் கிராமத்தில் பின்வரும் எந்த விளையாட்டை விளையாடவில்லை?",
-      "options": [
-        "Climbing trees || மரம் ஏறுதல்",
-        "Playing video games || வீடியோ கேம் விளையாடுதல்",
-        "Playing hide and seek || கண்ணாமூச்சி விளையாடுதல்",
-        "Playing with a tyre and stick || டயர் மற்றும் குச்சியுடன் விளையாடுதல்"
-      ],
-      "a": 1,
-      "ex": "Santhosh did not play video games or watch TV in the village; he completely engaged in outdoor games. || சந்தோஷ் கிராமத்தில் வீடியோ கேம் விளையாடவில்லை அல்லது டிவி பார்க்கவில்லை; அவன் முழுமையாக வெளிப்புற விளையாட்டுகளில் ஈடுபட்டான்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is the correct plural form of 'Leaf'? || 'Leaf' -ன் சரியான பன்மை வடிவம் என்ன?",
-      "options": [
-        "Leafs",
-        "Leefs",
-        "Leaves",
-        "Leavs"
-      ],
-      "a": 2,
-      "ex": "Words ending in 'f' or 'fe' change into 'ves' in plural form (Leaf - Leaves). || 'f' அல்லது 'fe' இல் முடியும் சொற்கள் பன்மை வடிவில் 'ves' ஆக மாறும் (Leaf - Leaves).",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Change the sentence to Future Continuous Tense: 'She was waiting for bus.' || 'She was waiting for bus' என்ற வாக்கியத்தை வருங்காலத் தொடர்ச்சிக்கு மாற்றவும்.",
-      "options": [
-        "She waits for bus.",
-        "She is waiting for bus.",
-        "She will be waiting for bus.",
-        "She will wait for bus."
-      ],
-      "a": 2,
-      "ex": "To change past continuous (was waiting) to future continuous, we use 'will be waiting'. || கடந்த காலத் தொடர்ச்சியை (was waiting) வருங்காலத் தொடர்ச்சியாக மாற்ற, 'will be waiting' என்பதைப் பயன்படுத்துகிறோம்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Like what should one be humble, according to the poem? || கவிதையின்படி, ஒருவர் எதைப் போல பணிவாக இருக்க வேண்டும்?",
-      "options": [
-        "Like a tree || மரத்தைப் போல",
-        "Like a breeze || தென்றலைப் போல",
-        "Like a worm || ஒரு புழுவைப் போல",
-        "Like a river || ஆற்றைப் போல"
-      ],
-      "a": 2,
-      "ex": "The last line of the poem says, \"Be humble like a worm.\" || கவிதையின் கடைசி வரி, \"ஒரு புழுவைப் போல பணிவாக இருங்கள்\" என்று கூறுகிறது.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What did the second daughter do with the millets? || இரண்டாவது மகள் தானியங்களை என்ன செய்தாள்?",
-      "options": [
-        "Fed them to the birds || பறவைகளுக்கு ஊட்டினாள்",
-        "Thought they were sacred and gave them to community food service || அவை புனிதமானவை என்று கருதி சமூக உணவகத்திற்கு வழங்கினாள்",
-        "Sowed them in the field || வயலில் விதைத்தாள்",
-        "Sold them in the market || சந்தையில் விற்றாள்"
-      ],
-      "a": 1,
-      "ex": "The second daughter considered the grains sacred and mixed them with grains kept for community food service. || இரண்டாவது மகள் தானியங்களைப் புனிதமாகக் கருதி, சமூகப் பொது உணவிற்காக வைத்திருந்த தானியங்களுடன் சேர்த்தாள்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is the meaning of 'Threshing'? || 'Threshing' என்பதன் பொருள் என்ன?",
-      "options": [
-        "Sowing seeds in the land || நிலத்தில் விதைகளை விதைத்தல்",
-        "Separating grain from crops || தானியத்தைப் பயிரிலிருந்து பிரித்தல்",
-        "Removing weeds || களைகளை அகற்றுதல்",
-        "Ploughing || உழுதல்"
-      ],
-      "a": 1,
-      "ex": "In the glossary section, 'Threshing' is defined as separating grain from crops. || கலைச்சொல் பகுதியில், 'Threshing' என்பது தானியத்தைப் பயிரிலிருந்து பிரித்தல் என வரையறுக்கப்பட்டுள்ளது.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is the plural form of the word 'Child'? || 'Child' என்ற சொல்லின் பன்மை வடிவம் என்ன?",
-      "options": [
-        "Childs",
-        "Childrens",
-        "Children",
-        "Childes"
-      ],
-      "a": 2,
-      "ex": "This is an irregular plural word. Child becomes Children. || இது ஒரு ஒழுங்கற்ற பன்மைச் சொல். Child என்பது Children ஆக மாறும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is used as bait in the fisher's hook to catch fish in the pond? || குளத்தில் மீன் பிடிக்க மீனவரின் தூண்டிலில் இரையாகப் பயன்படுத்தப்படுவது எது?",
-      "options": [
-        "Small fishes || சிறிய மீன்கள்",
-        "Frog || தவளை",
-        "Earthworm || மண்புழு",
-        "Insects || பூச்சிகள்"
-      ],
-      "a": 2,
-      "ex": "The poem mentions about the earthworm, \"It is used in the fisher’s hook.\" || மண்புழு மீனவரின் தூண்டிலில் இரையாகப் பயன்படுகிறது என்று கவிதை கூறுகிறது.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Choose the correct match: What does a 'River' do? || சரியான பொருத்தத்தைத் தேர்ந்தெடுக்கவும்: 'River' (ஆறு) என்ன செய்யும்?",
-      "options": [
-        "Sings",
-        "Swims",
-        "Flows || ஓடும்/பாயும்",
-        "Blows"
-      ],
-      "a": 2,
-      "ex": "According to the book evaluation section, the correct match is River - Flows. || புத்தக மதிப்பீட்டுப் பகுதியின்படி, ஆறு ஓடும் (River - Flows) என்பது சரியானது.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Change the Future Continuous sentence 'I will be speaking to her' into Past Continuous. || 'I will be speaking to her' என்ற வாக்கியத்தை கடந்த காலத் தொடர்ச்சிக்கு மாற்றவும்.",
-      "options": [
-        "I am speaking to her.",
-        "I spoke to her.",
-        "I was speaking to her.",
-        "I were speaking to her."
-      ],
-      "a": 2,
-      "ex": "For the subject 'I' in Past Continuous, 'was' is used. So, \"I was speaking\" is correct. || கடந்த காலத் தொடர்ச்சியில் 'I' என்ற எழுவாய்க்கு 'was' பயன்படுத்தப்பட வேண்டும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "How did Santhosh know that the river water was pollution-free? || ஆற்றுத் தண்ணீர் மாசு இல்லாதது என்று சந்தோஷிற்கு எப்படித் தெரிந்தது?",
-      "options": [
-        "By the taste of the water || தண்ணீரின் சுவையின் மூலம்",
-        "By clearly seeing the pebbles and colourful fish at the bottom of the river || ஆற்றின் அடிப்பகுதியில் உள்ள கூழாங்கற்கள் மற்றும் மீன்களைப் பார்த்ததன் மூலம்",
-        "Because the village people told him || கிராம மக்கள் அவனிடம் சொன்னதால்",
-        "By bathing in the river || ஆற்றில் குளித்ததன் மூலம்"
-      ],
-      "a": 1,
-      "ex": "The river water was so clean that he could clearly see the pebbles and fish swimming by. || ஆற்றுத் தண்ணீர் சுத்தமாக இருந்ததால் அவனால் மீன்களையும் கூழாங்கற்களையும் பார்க்க முடிந்தது.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is the correct plural word for 'Deer'? || 'Deer' என்ற சொல்லின் சரியான பன்மை வடிவம் என்ன?",
-      "options": [
-        "Deers",
-        "Deeres",
-        "Deer",
-        "Dears"
-      ],
-      "a": 2,
-      "ex": "Some animal names have identical forms in both singular and plural. Deer remains Deer. || சில விலங்குகளின் பெயர்கள் ஒருமை மற்றும் பன்மை இரண்டிலும் ஒரே மாதிரியாக இருக்கும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Which daughter of the farmer received the responsibility of the agricultural lands due to her wisdom? || தனது புத்திசாலித்தனத்தால் விவசாய நிலங்களை நிர்வகிக்கும் பொறுப்பைப் பெற்ற விவசாயியின் மகள் யார்?",
-      "options": [
-        "First daughter || முதல் மகள்",
-        "Second daughter || இரண்டாம் மகள்",
-        "Third daughter || மூன்றாம் மகள்",
-        "All three daughters || மூன்று மகள்களும்"
-      ],
-      "a": 2,
-      "ex": "Because the third daughter sowed the grains and harvested them, her father praised her wisdom and gave her the responsibility. || மூன்றாவது மகள் தானியங்களை விதைத்து அறுவடை செய்ததால் அவளுக்கு நிலப் பொறுப்பு வழங்கப்பட்டது.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Which word rhymes with 'Armour' in the poem? || கவிதையில் 'Armour' என்ற சொல்லுடன் இயைந்து வரும் சொல் எது?",
-      "options": [
-        "Charm",
-        "Farmer",
-        "Hook",
-        "Wealth"
-      ],
-      "a": 1,
-      "ex": "In the poem, 'Farmer' and 'Armour' are used as rhyming words. || 'Farmer' மற்றும் 'Armour' ஆகியவை இயைபுச் சொற்களாகப் பயன்படுத்தப்பட்டுள்ளன.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What does the poem say we should not use, as it harms the soil? || நிலத்திற்குத் தீமை விளைவிப்பதால் எதைப் பயன்படுத்தக் கூடாது என்று கவிதை கூறுகிறது?",
-      "options": [
-        "Natural fertilizers || இயற்கை உரங்கள்",
-        "Chemicals || ரசாயனங்கள்",
-        "Cow dung || மாட்டுச் சாணம்",
-        "Water || தண்ணீர்"
-      ],
-      "a": 1,
-      "ex": "The poem insists, \"We don’t use chemicals in the soil.\" || 'மண்ணில் ரசாயனங்களைப் பயன்படுத்தக் கூடாது' என்று கவிதை வலியுறுத்துகிறது.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is the plural form of 'Loaf'? || 'Loaf' -ன் பன்மை வடிவம் என்ன?",
-      "options": [
-        "Loafs",
-        "Loaves",
-        "Loefs",
-        "Loafes"
-      ],
-      "a": 1,
-      "ex": "A word ending in 'f' changes into 'ves' in plural form (Loaf - Loaves). || 'f' இல் முடியும் சொல் பன்மை வடிவில் 'ves' ஆக மாறும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Fill in the blank with Past Continuous Tense: 'We _______ eating fruits.' || 'We _______ eating fruits' என்ற வாக்கியத்தைக் கடந்த காலத் தொடர்ச்சியால் நிரப்பவும்.",
-      "options": [
-        "was",
-        "are",
-        "were",
-        "will be"
-      ],
-      "a": 2,
-      "ex": "When the plural subject 'We' comes, 'were' must be used in the Past Continuous Tense. || 'We' என்ற பன்மை எழுவாய்க்கு கடந்த காலத்தில் 'were' பயன்படுத்தப்பட வேண்டும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "With whom did Santhosh break groundnut pods in the village? || கிராமத்தில் சந்தோஷ் யாருடன் நிலக்கடலை உடைத்தான்?",
-      "options": [
-        "Paavai",
-        "Amir",
-        "Peter and Umaiyal",
-        "Varun"
-      ],
-      "a": 2,
-      "ex": "Peter and Umaiyal were breaking groundnut pods, and Santhosh joined them. || பீட்டரும் உமையாளும் நிலக்கடலை உடைத்துக் கொண்டிருந்தார்கள், சந்தோஷும் அவர்களுடன் சேர்ந்து கொண்டான்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Varun and Akshaya talked about their team experiences in which sports game? || வருணும் அக்ஷயாவும் எந்த விளையாட்டில் தங்கள் குழு அனுபவங்களைப் பற்றிப் பேசினர்?",
-      "options": [
-        "Kabaddi",
-        "Cricket",
-        "Kho-Kho",
-        "Football"
-      ],
-      "a": 2,
-      "ex": "In the Skills Development (Listen, Speak) section, they converse about the Kho-Kho game. || அவர்கள் கோ-கோ (Kho-Kho) விளையாட்டைப் பற்றி உரையாடுகிறார்கள்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is the correct plural word for 'Tooth'? || 'Tooth' என்ற சொல்லின் சரியான பன்மை வடிவம் என்ன?",
-      "options": [
-        "Tooths",
-        "Teeth",
-        "Teethes",
-        "Toothes"
-      ],
-      "a": 1,
-      "ex": "By changing the vowel 'oo' to 'ee', the plural is formed (Tooth - Teeth). || உயிர் எழுத்தை மாற்றுவதன் மூலம் பன்மை உருவாகிறது (Tooth - Teeth).",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Why is a 'Scarecrow' placed in the field? || வயலில் சோளக்காட்டுப் பொம்மை ஏன் வைக்கப்படுகிறது?",
-      "options": [
-        "To water the crops",
-        "To frighten birds away from the field || பறவைகளை வயலிலிருந்து விரட்ட",
-        "For decoration",
-        "To catch thieves"
-      ],
-      "a": 1,
-      "ex": "A scarecrow is a human-like figure used to scare birds away from destroying crops. || பறவைகள் பயிர்களை அழிப்பதைத் தடுக்க அவற்றை அச்சுறுத்தப் பொம்மைகள் வைக்கப்படுகின்றன.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is the situational context of the English phrase 'You need to freshen up'? || 'You need to freshen up' என்ற ஆங்கிலத் தொடரின் பயன்பாடு எப்போது?",
-      "options": [
-        "While playing",
-        "Asking someone to wash their face and feel refreshed || முகத்தைக் கழுவி புத்துணர்ச்சி பெறச் சொல்லும் போது",
-        "While eating food",
-        "When going to sleep"
-      ],
-      "a": 1,
-      "ex": "This is a basic situational sentence used in daily life routines. || இது அன்றாட வாழ்க்கையில் பயன்படுத்தப்படும் ஒரு வாக்கியமாகும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is the name of the village where the story of the farmer's daughters takes place? || விவசாயியின் மகள்கள் கதை நடக்கும் கிராமத்தின் பெயர் என்ன?",
-      "options": [
-        "Sirumalai",
-        "Manipuram",
-        "Kallakurichi",
-        "Thanjavur"
-      ],
-      "a": 1,
-      "ex": "The supplementary story is about a farmer who lived in the village of Manipuram. || துணைக் கதை மணிபுரம் கிராமத்தில் வாழ்ந்த ஒரு விவசாயியைப் பற்றியது.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is the plural form of 'Man'? || 'Man' -ன் பன்மை வடிவம் என்ன?",
-      "options": [
-        "Mans",
-        "Men",
-        "Mens",
-        "Manes"
-      ],
-      "a": 1,
-      "ex": "The plural is formed by changing the internal vowel (Man - Men). || 'Man' என்பதன் பன்மை வடிவம் 'Men' ஆகும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "'She was writing the homework at 6 o clock.' - What tense does this indicate? || 'She was writing the homework at 6 o clock' - இது எந்தக் காலத்தைக் குறிக்கிறது?",
-      "options": [
-        "Present Continuous",
-        "Past Continuous || கடந்த காலத் தொடர்ச்சி",
-        "Future Continuous",
-        "Simple Past"
-      ],
-      "a": 1,
-      "ex": "Since 'was + verb(ing)' is used, it is Past Continuous Tense. || 'was + verb(ing)' என்பது கடந்த காலத் தொடர்ச்சியைக் குறிக்கும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Which is the rhyming word that matches with 'Charm' in the poem? || கவிதையில் 'Charm' என்ற சொல்லுடன் பொருந்தும் இயைபுச் சொல் எது?",
-      "options": [
-        "Harm",
-        "Look",
-        "Hook",
-        "Filth"
+        "25 செ.மீ",
+        "50 செ.மீ",
+        "75 செ.மீ",
+        "100 செ.மீ"
       ],
       "a": 0,
-      "ex": "In the poem, Charm and Harm are rhyming words. || 'Charm' மற்றும் 'Harm' ஆகியவை இயைபுச் சொற்களாகும்.",
-      "lesson": "Lesson_2"
+      "ex": "1 மீ = 100 செ.மீ, எனவே 100-ன் கால் பகுதி 25 செ.மீ ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
     },
     {
-      "q": "What is the meaning of the English word 'Millet'? || 'Millet' என்ற ஆங்கிலச் சொல்லின் பொருள் என்ன?",
+      "q": "3/4 மீட்டர் என்பது எத்தனை சென்டிமீட்டர்?",
       "options": [
-        "Wheat",
-        "A cereal grown in warm countries (Sirudhaniyam) || சிறுதானியம்",
-        "Paddy",
-        "Corn"
-      ],
-      "a": 1,
-      "ex": "Millet is a type of cereal grain grown in warm countries. || தினை, கேழ்வரகு போன்றவையே மில்லட் எனப்படும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is the plural form of the word 'Mango'? || 'Mango' -ன் பன்மை வடிவம் என்ன?",
-      "options": [
-        "Mangos",
-        "Mangoes",
-        "Mangese",
-        "Mangoies"
-      ],
-      "a": 1,
-      "ex": "For many words ending in 'o', '-es' is added to make the plural (Mango - Mangoes). || 'o' இல் முடியும் சில சொற்களுக்கு '-es' சேர்த்து பன்மை உருவாக்கப்படும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Choose the correct match: What does a 'Fish' do? || சரியான பொருத்தத்தைத் தேர்ந்தெடுக்கவும்: 'Fish' என்ன செய்யும்?",
-      "options": [
-        "Sings",
-        "Swims || நீந்தும்",
-        "Flows",
-        "Blows"
-      ],
-      "a": 1,
-      "ex": "Fishes swim in water, so Fish - Swims is the correct match. || மீன்கள் நீரில் நீந்தும், எனவே மீன் - நீந்தும் என்பதே சரியானது.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Choose the correct answer when changing 'They were going to Coimbatore' into Future Continuous Tense. || 'They were going to Coimbatore' என்பதை வருங்காலத் தொடர்ச்சிக்கு மாற்றும் போது எது சரியான விடை?",
-      "options": [
-        "They are going to Coimbatore.",
-        "They will go to Coimbatore.",
-        "They will be going to Coimbatore.",
-        "They goes to Coimbatore."
+        "25 செ.மீ",
+        "50 செ.மீ",
+        "75 செ.மீ",
+        "100 செ.மீ"
       ],
       "a": 2,
-      "ex": "'were going' changes to 'will be going' in Future Continuous Tense. || கடந்த காலத் தொடர்ச்சி வருங்காலத் தொடர்ச்சியில் 'will be going' என மாறும்.",
-      "lesson": "Lesson_2"
+      "ex": "1 மீ = 100 செ.மீ, எனவே 100-ன் முக்கால் பகுதி 75 செ.மீ ஆகும்.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
     },
     {
-      "q": "Which sweet and juicy fruit did Santhosh's grandfather give him to eat? || சந்தோஷின் தாத்தா அவனுக்கு உண்ணக் கொடுத்த பழம் எது?",
+      "q": "90 சென்டிமீட்டரை மில்லிமீட்டராக மாற்றுக.",
       "options": [
-        "Jackfruit || பலாப்பழம்",
-        "Mango || மாம்பழம்",
-        "Banana || வாழைப்பழம்",
-        "Pomegranate || மாதுளை"
-      ],
-      "a": 1,
-      "ex": "His grandfather plucked a ripe, sweet, and juicy mango from the tree and gave it to him. || அவரது தாத்தா ஒரு இனிப்பான மாம்பழத்தைப் பறித்துக் கொடுத்தார்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is the correct plural form of 'Calf'? || 'Calf' -ன் சரியான பன்மை வடிவம் என்ன?",
-      "options": [
-        "Calfs",
-        "Calves",
-        "Calfies",
-        "Calve"
-      ],
-      "a": 1,
-      "ex": "Because it ends in 'f', it changes to 'ves' (Calf - Calves). || 'f' இல் முடிவதால் இது 'ves' என மாறும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "'I was dancing while he was singing.' - What is the grammar structure in this sentence? || 'I was dancing while he was singing' - இதில் உள்ள இலக்கண அமைப்பு என்ன?",
-      "options": [
-        "Both actions are in Future Continuous",
-        "Past Continuous indicating two simultaneous actions || இரண்டு தொடர்ச் செயல்கள் ஒரே நேரத்தில் நடந்ததைக் குறிக்கும் கடந்த காலத் தொடர்ச்சி",
-        "Present Continuous",
-        "Simple Past"
-      ],
-      "a": 1,
-      "ex": "To indicate two actions that were happening at the same time in the past, this structure is used. || கடந்த காலத்தில் ஒரே நேரத்தில் நடந்த செயல்களைக் குறிக்க இது பயன்படுகிறது.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Which English word indicates that the farmer's third daughter acted intelligently? || விவசாயியின் மூன்றாவது மகள் புத்திசாலித்தனமாகச் செயல்பட்டதைக் குறிக்கும் ஆங்கிலச் சொல் எது?",
-      "options": [
-        "Harm",
-        "Filth",
-        "Wisely || புத்திசாலித்தனமாக",
-        "Eager"
+        "9 மி.மீ",
+        "90 மி.மீ",
+        "900 மி.மீ",
+        "9000 மி.மீ"
       ],
       "a": 2,
-      "ex": "Wisely means acting cleverly or intelligently. || 'Wisely' என்பது புத்திசாலித்தனத்தைக் குறிக்கும் சொல்.",
-      "lesson": "Lesson_2"
+      "ex": "1 செ.மீ = 10 மி.மீ. எனவே, 90 x 10 = 900 மி.மீ.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
     },
     {
-      "q": "What is the plural form of 'Knife'? || 'Knife' -ன் பன்மை வடிவம் என்ன?",
+      "q": "8 மீட்டரை சென்டிமீட்டராக மாற்றுக.",
       "options": [
-        "Knifes",
-        "Knives",
-        "Knieves",
-        "Knifi"
+        "80 செ.மீ",
+        "800 செ.மீ",
+        "8000 செ.மீ",
+        "8 செ.மீ"
       ],
       "a": 1,
-      "ex": "A word ending in 'fe' changes into 'ves' (Knife - Knives). || 'Knife' என்பதன் பன்மை வடிவம் 'Knives' ஆகும்.",
-      "lesson": "Lesson_2"
+      "ex": "1 மீ = 100 செ.மீ. எனவே, 8 x 100 = 800 செ.மீ.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
     },
     {
-      "q": "What is the rhyming word for 'Look' according to the poem? || கவிதையின்படி 'Look' என்ற சொல்லுக்கு இயைபுச் சொல் எது?",
+      "q": "80 மில்லிமீட்டரை சென்டிமீட்டராக மாற்றுக.",
       "options": [
-        "Hook",
-        "Harm",
-        "Farmer",
-        "Wealth"
+        "8 செ.மீ",
+        "80 செ.மீ",
+        "800 செ.மீ",
+        "0.8 செ.மீ"
       ],
       "a": 0,
-      "ex": "Look and Hook are rhyming words in the poem box. || 'Look' மற்றும் 'Hook' ஆகியவை கவிதையில் வரும் இயைபுச் சொற்களாகும்.",
-      "lesson": "Lesson_2"
+      "ex": "சிறிய அலகிலிருந்து பெரிய அலகாக மாற்ற 10-ஆல் வகுக்க வேண்டும். 80 / 10 = 8 செ.மீ.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
     },
     {
-      "q": "Which detail is a must-include point when writing an 'Autobiography'? || 'சுயசரிதை' எழுதும் போது கண்டிப்பாக இருக்க வேண்டியத் தகவல் எது?",
+      "q": "900 சென்டிமீட்டரை மீட்டராக மாற்றுக.",
       "options": [
-        "Date and place of birth || பிறந்த தேதி மற்றும் இடம்",
-        "Criticism of others",
-        "Future imagination",
-        "Friends' secrets"
-      ],
-      "a": 0,
-      "ex": "In the autobiography, personal basic details like date and place of birth are essential. || சுயசரிதையில் பிறப்பு பற்றியத் தகவல்கள் முக்கியமானவை.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "'We _______ be walking.' - What is the correct word to form Future Continuous Tense? || 'We _______ be walking' - வருங்காலத் தொடர்ச்சியை உருவாக்கச் சரியான சொல் எது?",
-      "options": [
-        "shall",
-        "are",
-        "will",
-        "was"
+        "90 மீ",
+        "900 மீ",
+        "9 மீ",
+        "0.9 மீ"
       ],
       "a": 2,
-      "ex": "In the Future Continuous Tense, 'will be' is used for all subjects. || வருங்காலத் தொடர்ச்சியில் 'will be' என்பது அனைத்து எழுவாய்களுக்கும் பொருந்தும்.",
-      "lesson": "Lesson_2"
+      "ex": "சிறிய அலகிலிருந்து பெரிய அலகாக மாற்ற 100-ஆல் வகுக்க வேண்டும். 900 / 100 = 9 மீ.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
     },
     {
-      "q": "How do people often see the earthworm? || மக்கள் மண்புழுவை பெரும்பாலும் எப்படிப் பார்க்கிறார்கள்?",
+      "q": "8000 மீட்டரை கிலோமீட்டராக மாற்றுக.",
       "options": [
-        "As a beautiful creature",
-        "As filth (dirt/ugly) || அழுக்காக/அருவருப்பாக",
-        "As dangerous",
-        "As holy"
-      ],
-      "a": 1,
-      "ex": "The poem says that people often see the earthworm as 'Filth' (ugly or dirt). || மக்கள் மண்புழுவை வெறும் அழுக்காக மட்டுமே பார்க்கிறார்கள் என்று கவிதை கூறுகிறது.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Who among the village children was doing the task of milking cows? || கிராமத்துக் குழந்தைகளில் யார் பசுவிடம் பால் கறக்கும் வேலையைச் செய்தார்கள்?",
-      "options": [
-        "Santhosh",
-        "Peter",
-        "Umaiyal",
-        "Amir"
-      ],
-      "a": 3,
-      "ex": "Amir is mentioned in the lesson as the boy who was milking cows. || அமீர் பால் கறப்பதாகப் பாடத்தில் சொல்லப்பட்டுள்ளது.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is the meaning of the word 'Sacred'? || 'Sacred' என்ற சொல்லின் பொருள் என்ன?",
-      "options": [
-        "Holy || புனிதமான",
-        "Responsible",
-        "Intelligent",
-        "Dirty"
-      ],
-      "a": 0,
-      "ex": "The second daughter considered the grains as 'Sacred' (Holy). || 'Sacred' என்றால் புனிதமானது என்று பொருள்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is an 'Armour'? || 'Armour' (கவசம்) என்பது என்ன?",
-      "options": [
-        "A farmer",
-        "A metal cover worn to protect the body in battle || போரில் உடலைப் பாதுகாக்கும் உலோக உறை",
-        "An earthworm",
-        "A chemical fertilizer"
-      ],
-      "a": 1,
-      "ex": "An armour is a protective metal cover worn during battle. || கவசம் என்பது போரில் பாதுகாப்பிற்காக அணியும் உலோக மூடி ஆகும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "'It ______ going to Delhi.' - Fill in the blank with the correct word for past continuous tense. || 'It ______ going to Delhi' - சரியான கடந்த காலத் தொடர்ச்சியைத் தேர்ந்தெடுக்கவும்.",
-      "options": [
-        "were",
-        "was",
-        "will be",
-        "is"
-      ],
-      "a": 1,
-      "ex": "When the singular subject 'It' is used, 'was' is applied in past continuous tense. || ஒருமை எழுவாய்க்கு 'was' பயன்படுத்தப்படும்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Who is Mr. Murugan? || திரு. முருகன் யார்?",
-      "options": [
-        "A teacher",
-        "A farmer || ஒரு விவசாயி",
-        "A driver",
-        "A doctor"
-      ],
-      "a": 1,
-      "ex": "In the reading exercise, Mr. Murugan is described as a farmer with two bulls. || திரு. முருகன் ஒரு விவசாயி ஆவார்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is a synonym for the word 'Vacation'? || 'Vacation' என்ற சொல்லின் இணையானப் பொருள் எது?",
-      "options": [
-        "Work",
-        "Holiday || விடுமுறை",
-        "Toils",
-        "School"
-      ],
-      "a": 1,
-      "ex": "Vacation means a holiday. || வெக்கேஷன் என்றால் விடுமுறை என்று பொருள்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is the meaning of the word 'Numerous'? || 'Numerous' என்பதன் பொருள் என்ன?",
-      "options": [
-        "Small",
-        "Many in number || அதிக எண்ணிக்கையிலான",
-        "Intelligent",
-        "Beautiful"
-      ],
-      "a": 1,
-      "ex": "Numerous means 'many in number'. || நியூமரஸ் என்றால் பல அல்லது அதிக எண்ணிக்கையில் என்று பொருள்.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "Who is referred to as the 'Farmer's Friend'? || 'விவசாயியின் நண்பன்' என்று அழைக்கப்படுவது எது?",
-      "options": [
-        "Tractor",
-        "Earthworm || மண்புழு",
-        "Well",
-        "Chemical fertilizer"
-      ],
-      "a": 1,
-      "ex": "The title of the poem itself is 'Farmer's Friend', which refers to the earthworm. || மண்புழுவே விவசாயியின் நண்பனாகக் கருதப்படுகிறது.",
-      "lesson": "Lesson_2"
-    },
-    {
-      "q": "What is the correct meaning of the English word 'Eager'? || 'Eager' என்ற ஆங்கிலச் சொல்லின் சரியான பொருள் என்ன?",
-      "options": [
-        "Lazy",
-        "Angry",
-        "Keen (Very interested) || மிகுந்த ஆர்வம்",
-        "Patient"
+        "80 கி.மீ",
+        "800 கி.மீ",
+        "8 கி.மீ",
+        "0.8 கி.மீ"
       ],
       "a": 2,
-      "ex": "'Eager' means to be very interested or keen to do something. || 'ஈகர்' என்பது மிகுந்த ஆர்வத்தைக் குறிக்கும் சொல்லாகும்.",
-      "lesson": "Lesson_2"
+      "ex": "1000 மீ = 1 கி.மீ. எனவே 8000 / 1000 = 8 கி.மீ.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "சரியா / தவறா? 600 மீ என்பது 6 மி.மீ ஆகும்.",
+      "options": [
+        "சரி",
+        "தவறு"
+      ],
+      "a": 1,
+      "ex": "600 மீ என்பது 6 மி.மீ அல்ல. இது தவறான கூற்று.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "சரியா / தவறா? 7000 மீ என்பது 7 கி.மீ ஆகும்.",
+      "options": [
+        "சரி",
+        "தவறு"
+      ],
+      "a": 0,
+      "ex": "1000 மீ = 1 கி.மீ. எனவே 7000 மீ = 7 கி.மீ என்பது சரியான கூற்று.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "5 செ.மீ 8 மி.மீ என்பது எத்தனை மில்லிமீட்டர்?",
+      "options": [
+        "580 மி.மீ",
+        "508 மி.மீ",
+        "58 மி.மீ",
+        "85 மி.மீ"
+      ],
+      "a": 2,
+      "ex": "5 செ.மீ = 50 மி.மீ. இதோடு 8 மி.மீ-ஐ கூட்டினால் 58 மி.மீ கிடைக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "5 மீ 9 மி.மீ என்பதை மில்லிமீட்டராக மாற்றுக.",
+      "options": [
+        "59 மி.மீ",
+        "509 மி.மீ",
+        "5009 மி.மீ",
+        "5900 மி.மீ"
+      ],
+      "a": 2,
+      "ex": "5 மீ = 5000 மி.மீ. இதோடு 9 மி.மீ-ஐ கூட்டினால் 5009 மி.மீ கிடைக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "6 மீ 4 செ.மீ என்பதை சென்டிமீட்டராக மாற்றுக.",
+      "options": [
+        "64 செ.மீ",
+        "640 செ.மீ",
+        "604 செ.மீ",
+        "6004 செ.மீ"
+      ],
+      "a": 2,
+      "ex": "6 மீ = 600 செ.மீ. இதோடு 4 செ.மீ-ஐ கூட்டினால் 604 செ.மீ கிடைக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "8 கி.மீ 400 மீ என்பதை மீட்டராக மாற்றுக.",
+      "options": [
+        "840 மீ",
+        "8400 மீ",
+        "8040 மீ",
+        "8004 மீ"
+      ],
+      "a": 1,
+      "ex": "8 கி.மீ = 8000 மீ. இதோடு 400 மீ-ஐ கூட்டினால் 8400 மீ கிடைக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "3500 மி.மீ என்பதை மீட்டராக மாற்றுக.",
+      "options": [
+        "35 மீ",
+        "3.5 மீ",
+        "350 மீ",
+        "0.35 மீ"
+      ],
+      "a": 1,
+      "ex": "1000 மி.மீ = 1 மீ. எனவே 3500 / 1000 = 3.5 மீ.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "5430 மீ என்பதை கிலோமீட்டராகவும் மீட்டராகவும் மாற்றுக.",
+      "options": [
+        "54 கி.மீ 30 மீ",
+        "5 கி.மீ 430 மீ",
+        "5 கி.மீ 43 மீ",
+        "543 கி.மீ 0 மீ"
+      ],
+      "a": 1,
+      "ex": "5000 மீ = 5 கி.மீ. மீதமுள்ள 430 மீ அப்படியே இருக்கும். விடை: 5 கி.மீ 430 மீ.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "7500 மீ என்பதை கிலோமீட்டராகவும் மீட்டராகவும் மாற்றினால் கிடைப்பது என்ன?",
+      "options": [
+        "7 கி.மீ 50 மீ",
+        "7 கி.மீ 500 மீ",
+        "75 கி.மீ 0 மீ",
+        "70 கி.மீ 500 மீ"
+      ],
+      "a": 1,
+      "ex": "7000 மீ = 7 கி.மீ. மீதமுள்ள 500 மீ அப்படியே இருக்கும். விடை: 7 கி.மீ 500 மீ.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "326 மி.மீ என்பதை சென்டிமீட்டர் மற்றும் மில்லிமீட்டராக மாற்றுக.",
+      "options": [
+        "3 செ.மீ 26 மி.மீ",
+        "32 செ.மீ 6 மி.மீ",
+        "326 செ.மீ",
+        "320 செ.மீ 6 மி.மீ"
+      ],
+      "a": 1,
+      "ex": "326-ஐ 10-ஆல் வகுக்க ஈவு 32 (செ.மீ) மற்றும் மீதி 6 (மி.மீ) கிடைக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "505 மி.மீ என்பது எதற்குச் சமம்?",
+      "options": [
+        "5 செ.மீ 5 மி.மீ",
+        "50 செ.மீ 5 மி.மீ",
+        "505 செ.மீ",
+        "500 செ.மீ 5 மி.மீ"
+      ],
+      "a": 1,
+      "ex": "505 மி.மீ-ஐ 10-ஆல் வகுத்தால் 50 செ.மீ மற்றும் மீதி 5 மி.மீ கிடைக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "650 செ.மீ என்பது எதற்குச் சமம்?",
+      "options": [
+        "6 மீ 50 செ.மீ",
+        "65 மீ 0 செ.மீ",
+        "6 மீ 5 செ.மீ",
+        "60 மீ 50 செ.மீ"
+      ],
+      "a": 0,
+      "ex": "650 செ.மீ-ஐ 100-ஆல் வகுத்தால் 6 மீ மற்றும் மீதி 50 செ.மீ கிடைக்கும்.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "கூடுதல் காண்க: 17 மீ 45 செ.மீ + 52 மீ 30 செ.மீ = ?",
+      "options": [
+        "69 மீ 75 செ.மீ",
+        "70 மீ 15 செ.மீ",
+        "68 மீ 75 செ.மீ",
+        "69 மீ 85 செ.மீ"
+      ],
+      "a": 0,
+      "ex": "மீட்டர்களைக் கூட்ட: 17+52=69 மீ. சென்டிமீட்டர்களைக் கூட்ட: 45+30=75 செ.மீ. கூடுதல் 69 மீ 75 செ.மீ.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "கழிக்க: 1075 கி.மீ 400 மீ - 27 கி.மீ 350 மீ = ?",
+      "options": [
+        "1048 கி.மீ 150 மீ",
+        "1048 கி.மீ 50 மீ",
+        "1102 கி.மீ 750 மீ",
+        "1050 கி.மீ 50 மீ"
+      ],
+      "a": 1,
+      "ex": "400 மீ - 350 மீ = 50 மீ. 1075 கி.மீ - 27 கி.மீ = 1048 கி.மீ. விடை 1048 கி.மீ 50 மீ.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "கழிக்க: 250 மீ 25 செ.மீ - 127 மீ 18 செ.மீ = ?",
+      "options": [
+        "123 மீ 17 செ.மீ",
+        "122 மீ 7 செ.மீ",
+        "123 மீ 7 செ.மீ",
+        "124 மீ 5 செ.மீ"
+      ],
+      "a": 2,
+      "ex": "25 செ.மீ - 18 செ.மீ = 7 செ.மீ. 250 மீ - 127 மீ = 123 மீ. விடை 123 மீ 7 செ.மீ.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "பெருக்குக: 7 மீ 20 செ.மீ x 6 = ?",
+      "options": [
+        "42 மீ 20 செ.மீ",
+        "43 மீ 20 செ.மீ",
+        "42 மீ 120 செ.மீ",
+        "44 மீ 0 செ.மீ"
+      ],
+      "a": 1,
+      "ex": "7 x 6 = 42 மீ; 20 x 6 = 120 செ.மீ (அதாவது 1 மீ 20 செ.மீ). ஆக மொத்தம் 43 மீ 20 செ.மீ.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "பெருக்குக: 35 கி.மீ 500 மீ x 5 = ?",
+      "options": [
+        "175 கி.மீ 2500 மீ",
+        "177 கி.மீ 500 மீ",
+        "176 கி.மீ 500 மீ",
+        "178 கி.மீ 0 மீ"
+      ],
+      "a": 1,
+      "ex": "35 x 5 = 175 கி.மீ; 500 x 5 = 2500 மீ (அதாவது 2 கி.மீ 500 மீ). ஆக மொத்தம் 177 கி.மீ 500 மீ.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "சரவணன் வாகன ஓடோமீட்டர் 000157 கி.மீ காட்டுகிறது. 165 கி.மீ பயணத்திற்குப் பின் ஓடோமீட்டர் எவ்வளவு காட்டும்?",
+      "options": [
+        "312 கி.மீ",
+        "322 கி.மீ",
+        "422 கி.மீ",
+        "332 கி.மீ"
+      ],
+      "a": 1,
+      "ex": "ஆரம்ப அளவு 157 கி.மீ + பயண தூரம் 165 கி.மீ = 322 கி.மீ.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "ஒரு சட்டை தைக்க 1 மீ 25 செ.மீ துணி தேவை எனில் 22 சட்டைகளுக்கு எவ்வளவு துணி தேவை?",
+      "options": [
+        "26 மீ 50 செ.மீ",
+        "27 மீ 50 செ.மீ",
+        "28 மீ 0 செ.மீ",
+        "27 மீ 25 செ.மீ"
+      ],
+      "a": 1,
+      "ex": "1 மீ 25 செ.மீ x 22 = 27 மீ 50 செ.மீ.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "A மற்றும் B ஊர்களுக்கு இடையே உள்ள தூரம் 3 கி.மீ 450 மீ. B மற்றும் C ஊர்களுக்கு இடையே உள்ள தூரம் 5 கி.மீ 350 மீ எனில் A லிருந்து C வரை உள்ள தூரம் எவ்வளவு?",
+      "options": [
+        "8 கி.மீ 800 மீ",
+        "8 கி.மீ 700 மீ",
+        "9 கி.மீ 0 மீ",
+        "8 கி.மீ 900 மீ"
+      ],
+      "a": 0,
+      "ex": "மொத்த தூரம் = (3 கி.மீ 450 மீ) + (5 கி.மீ 350 மீ) = 8 கி.மீ 800 மீ.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "ஒரு கயிற்றின் நீளம் 15 மீ 75 செ.மீ. அதே அளவுள்ள 5 கயிறுகளின் மொத்த நீளம் என்ன?",
+      "options": [
+        "78 மீ 75 செ.மீ",
+        "75 மீ 375 செ.மீ",
+        "79 மீ 25 செ.மீ",
+        "77 மீ 75 செ.மீ"
+      ],
+      "a": 0,
+      "ex": "15 மீ 75 செ.மீ x 5 = 78 மீ 75 செ.மீ.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
+    },
+    {
+      "q": "உங்கள் ஊரிலிருந்து பள்ளி 15 கி.மீ 450 மீ தொலைவில் உள்ளது. வழியில் 13 கி.மீ 200 மீ கடந்தால், பள்ளியை அடைய இன்னும் எவ்வளவு தூரம் பயணிக்க வேண்டும்?",
+      "options": [
+        "2 கி.மீ 200 மீ",
+        "2 கி.மீ 250 மீ",
+        "3 கி.மீ 250 மீ",
+        "2 கி.மீ 350 மீ"
+      ],
+      "a": 1,
+      "ex": "பயணிக்க வேண்டிய மீதி தூரத்தை அறிய கழிக்க வேண்டும்: 15 கி.மீ 450 மீ - 13 கி.மீ 200 மீ = 2 கி.மீ 250 மீ.",
+      "notesMode": true,
+      "lesson": "Lesson_4"
     }
   ],
-  "sections": [
-    {
-      "title": "1. PROSE: Earth, the Desolated Home || 1. உரைநடை: பூமி, பாழடைந்த இல்லம்",
-      "class": "box-pink",
-      "type": "content",
-      "content": [
-        {
-          "text": "((Story Overview || கதை மேலோட்டம்))"
-        },
-        {
-          "text": "🚀 [[Setting/காலம்]]: The year [[2068]]. Earth is completely destroyed due to human exploitation. || ஆண்டு [[2068]]. மனிதச் சுரண்டலால் பூமி முற்றிலும் அழிந்துவிட்டது."
-        },
-        {
-          "text": "🛰️ [[New Habitat/புதிய வாழிடம்]]: Humans have colonized [[Mars]] (the Red Planet). India has established three colonies there. || மனிதர்கள் [[செவ்வாய் கிரகத்தில்]] (சிவப்பு கிரகம்) குடியேறியுள்ளனர். இந்தியா அங்கு மூன்று குடியேற்றங்களை அமைத்துள்ளது."
-        },
-        {
-          "text": "👨‍👩‍👦 [[Characters/கதாபாத்திரங்கள்]]: [[Arivumathi]] and her grandfather. || [[அறிவுமதி]] மற்றும் அவளது தாத்தா."
-        },
-        {
-          "text": "📖 [[Plot Synopsis/கதைச் சுருக்கம்]]: Grandfather travels [[1500 sols]] (Martian days) to visit Arivumathi for her birthday. He compares the harsh, artificial life on Mars with the beautiful, natural past of Earth. || அறிவுமதியின் பிறந்தநாளுக்காக தாத்தா [[1500 செவ்வாய் நாட்களைக்]] கடந்து பயணம் செய்கிறார். அவர் செவ்வாய் கிரகத்தின் கடினமான வாழ்க்கையை பூமியின் இயற்கையான கடந்த காலத்துடன் ஒப்பிடுகிறார்."
-        },
-        {
-          "text": "🌱 [[Core Message/முக்கிய செய்தி]]: We must protect our [[natural home]] (Earth) instead of destroying it and struggling to adapt to dead planets. || நமது இயற்கை இல்லத்தை ([[பூமி]]) அழித்துவிட்டு, உயிரற்ற கிரகங்களில் வாழப் போராடுவதற்குப் பதிலாக, நாம் பூமியைப் பாதுகாக்க வேண்டும்."
-        },
-        {
-          "text": "((Key Comparisons (Earth vs. Mars) || முக்கிய ஒப்பீடுகள்))"
-        },
-        {
-          "text": "[[Environment]]: Clean Air (Earth) vs. Toxic Air + [[Space Suit]] (Mars) || [[சுற்றுச்சூழல்]]: தூய்மையான காற்று (பூமி) vs நச்சுக் காற்று + [[விண்வெளி உடை]] (செவ்வாய்)"
-        },
-        {
-          "text": "[[Agriculture]]: Natural Fertile Soil (Earth) vs. Chemically Treated Soil (Mars) || [[விவசாயம்]]: இயற்கை வளமான மண் (பூமி) vs ரசாயன மண் (செவ்வாய்)"
-        },
-        {
-          "text": "[[Water Supply]]: Natural Rain/Rivers (Earth) vs. [[Artificially Generated]] (Mars) || [[நீர் ஆதாரம்]]: இயற்கை மழை/நதிகள் (பூமி) vs [[செயற்கையாக உருவாக்கப்பட்டது]] (செவ்வாய்)"
-        }
-      ]
-    },
-    {
-      "title": "2. POEM: Beyond the Universe || 2. கவிதை: பிரபஞ்சத்தைத் தாண்டி",
-      "class": "box-orange",
-      "type": "content",
-      "content": [
-        {
-          "text": "((Theme || கருப்பொருள்))"
-        },
-        {
-          "text": "A vivid, imaginative journey across the [[solar system]], exploring the unique characteristics of different planets. || சூரிய குடும்பம் முழுவதும் ஒரு தெளிவான, கற்பனைப் பயணம்."
-        },
-        {
-          "text": "((The Cosmic Journey || காஸ்மிக் பயணம்))"
-        },
-        {
-          "text": "🌍 [[1. Earth]]: Leaving behind blue home || [[பூமி]]: நீல இல்லத்தை விட்டு வெளியேறுதல்."
-        },
-        {
-          "text": "🔴 [[2. Mars]]: Gliding past red planet || [[செவ்வாய்]]: சிவப்பு கிரகத்தைக் கடந்து செல்லுதல்."
-        },
-        {
-          "text": "🪐 [[3. Saturn]]: Magnificent rings and moons || [[சனி]]: அழகான வளையங்கள் மற்றும் நிலவுகள்."
-        },
-        {
-          "text": "🌀 [[4. Jupiter]]: Giant with [[red storms]] || [[வியாழன்]]: [[சிவப்பு புயல்களைக்]] கொண்ட அரக்கன்."
-        },
-        {
-          "text": "🔃 [[5. Uranus]]: Tumbling, rolling planet || [[யுரேனஸ்]]: உருளும் கிரகம்."
-        },
-        {
-          "text": "❄️ [[6. Neptune]]: [[Blue ice giant]] || [[நெப்டியூன்]]: [[நீல பனி அரக்கன்]]."
-        },
-        {
-          "text": "🌌 [[7. Destination]]: Infinite universe to meet [[Creator]] || [[முடிவு]]: [[படைப்பாளரைச்]] சந்திக்க எல்லையற்ற பிரபஞ்சம் நோக்கி."
-        }
-      ]
-    },
-    {
-      "title": "3. SUPPLEMENTARY: Lost in Space || 3. துணைப்பாடம்: விண்வெளியில் தொலைந்தவர்கள்",
-      "class": "box-blue",
-      "type": "content",
-      "content": [
-        {
-          "text": "((Story Overview || கதை மேலோட்டம்))"
-        },
-        {
-          "text": "[[Main Characters]]: [[Amuthan]] and [[Nilavan]]. || [[கதாபாத்திரங்கள்]]: [[அமுதன்]] மற்றும் [[நிலவன்]]."
-        },
-        {
-          "text": "[[The Incident]]: While visiting a space museum, they accidentally lock themselves inside a [[space shuttle]] and launch into space. || விண்வெளி அருங்காட்சியகத்தில் இருந்த [[விண்வெளி ஓடத்தில்]] தங்களை பூட்டிக் கொண்டு தவறுதலாக விண்ணில் பறந்தனர்."
-        },
-        {
-          "text": "[[The Climax]]: Shuttle crash-lands on a strange planet. They meet friendly green [[aliens]]. || ஒரு விசித்திரக் கிரகத்தில் விண்கலம் மோதியது. அங்கு நட்புமிக்க [[ஏலியன்களைச்]] சந்தித்தனர்."
-        },
-        {
-          "text": "[[Resolution]]: Aliens repair their shuttle and guide them safely back to Earth. || ஏலியன்கள் விண்கலத்தை சரிசெய்து அவர்களைப் பூமிக்குத் திருப்பி அனுப்பின."
-        }
-      ]
-    },
-    {
-      "title": "4. GLOSSARY & PICTIONARY || 4. கலைச்சொற்கள்",
-      "class": "box-green",
-      "type": "content",
-      "content": [
-        {
-          "text": "[[Sol]]: Martian day (Day on Mars). || [[Sol]]: செவ்வாய் கிரகத்தின் ஒரு நாள்."
-        },
-        {
-          "text": "[[Desolated]]: Ruined, empty, uninhabitable. || [[பாழடைந்த]]: பாழான, வாழத் தகுதியற்ற."
-        },
-        {
-          "text": "[[Hub]]: Central living space / settlement. || [[மையப்பகுதி]]: தங்கும் குடியிருப்பு."
-        },
-        {
-          "text": "[[Space suit]]: Pressurized suit for astronauts. || [[விண்வெளி உடை]]: விண்வெளி வீரர்களுக்கான உடை."
-        },
-        {
-          "text": "[[Capsule]]: Cylinder-shaped bed for sleeping. || [[காப்ஸ்யூல்]]: உறங்கும் உருளை வடிவப் படுக்கை."
-        },
-        {
-          "text": "[[Astonished]]: Greatly surprised / amazed. || [[வியப்பு]]: மிகவும் ஆச்சரியப்பட்ட."
-        },
-        {
-          "text": "[[Fossil Fuel]]: Ancient organic fuel (Coal/Oil). || [[புதைபடிவ எரிபொருள்]]: நிலக்கரி/எண்ணெய்."
-        },
-        {
-          "text": "[[Adapted]]: Adjusted to survive in new conditions. || [[தகவமைத்தல்]]: புதிய சூழ்நிலைக்கு ஏற்ப மாறுதல்."
-        },
-        {
-          "text": "[[Galaxy]]: Massive system of billions of stars. || [[பேரண்டம்]]: விண்மீன் மண்டலம்."
-        },
-        {
-          "text": "[[Milky Way]]: Galaxy containing our Solar System. || [[பால்வெளி மண்டலம்]]: நமது சூரிய குடும்பம் உள்ள மண்டலம்."
-        }
-      ]
-    },
-    {
-      "title": "5. GRAMMAR Focus || 5. இலக்கணம்",
-      "class": "box-orange",
-      "type": "content",
-      "content": [
-        {
-          "text": "((A. Compound Words || கூட்டுச் சொற்கள்))"
-        },
-        {
-          "text": "[[Sunflower]], [[Lighthouse]], [[Mailbox]], [[Watchman]], [[Starfish]], [[Rainbow]], [[Football]]. || இரண்டு தனித்தனி சொற்கள் இணைந்து புதிய சொல்லாகுதல்."
-        },
-        {
-          "text": "((B. Nouns || பெயர்ச்சொற்கள்))"
-        },
-        {
-          "text": "[[Collective Noun]]: Flock (birds), Swarm (bees), Bunch (grapes), Army (ants), Herd (cattle), Choir (singers). || [[தொகுப்புப் பெயர்]]: ஒரு தொகுதியைக் குறிக்கும் பெயர்."
-        },
-        {
-          "text": "[[Abstract Noun]]: Happiness, Freedom, Honesty, Bravery, Kindness. || [[பண்புப் பெயர்]]: தொட்டுணர முடியாத பண்பு அல்லது உணர்ச்சி."
-        }
-      ]
-    },
-    {
-      "title": "6. EVALUATION Q&A || 6. மதிப்பீடு வினா-விடைகள்",
-      "class": "box-blue",
-      "type": "content",
-      "content": [
-        {
-          "text": "[[Q1]]: What is the setting of 'Earth, the Desolated Home'? || 'Earth, the Desolated Home' கதையின் காலம் எது?"
-        },
-        {
-          "text": "[[Ans]]: The story is set in [[2068]] on planet Mars after humans destroyed Earth. || கி.பி. [[2068]] ஆண்டில் மனிதர்கள் பூமியை அழித்த பிறகு செவ்வாய் கிரகத்தில் கதை நடக்கிறது."
-        },
-        {
-          "text": "[[Q2]]: How long did it take for grandfather to reach? || தாத்தா வர எவ்வளவு காலம் ஆனது?"
-        },
-        {
-          "text": "[[Ans]]: It took [[1500 sols]] (Martian days) for grandfather to travel. || தாத்தா வர [[1500 செவ்வாய் நாட்கள்]] ஆனது."
-        },
-        {
-          "text": "[[Q3]]: How is water produced on Mars? || செவ்வாய் கிரகத்தில் தண்ணீர் எவ்வாறு உருவாகிறது?"
-        },
-        {
-          "text": "[[Ans]]: Water on Mars is artificially produced by [[burning fuels]]. || செவ்வாய் கிரகத்தில் [[எரிபொருட்களை எரிப்பதன்]] மூலம் தண்ணீர் உருவாகிறது."
-        },
-        {
-          "text": "[[Q4]]: Name planets mentioned in 'Beyond the Universe'. || கவிதையில் கூறப்பட்டுள்ள கிரகங்கள் யாவை?"
-        },
-        {
-          "text": "[[Ans]]: Earth, Mars, Saturn, Jupiter, Uranus, and Neptune. || பூமி, செவ்வாய், சனி, வியாழன், யுரேனஸ் மற்றும் நெப்டியூன்."
-        },
-        {
-          "text": "[[Q5]]: How did Amuthan and Nilavan return to Earth? || அமுதன் மற்றும் நிலவன் பூமிக்கு எப்படி திரும்பினர்?"
-        },
-        {
-          "text": "[[Ans]]: Friendly green [[aliens]] repaired their space shuttle and guided them home. || பச்சை நிற [[ஏலியன்கள்]] விண்கலத்தை சரிசெய்து வழிநடத்தின."
-        }
-      ]
-    },
-    {
-      "title": "1. Main Theme || 1. முதன்மையானக் கருப்பொருள்",
-      "class": "box-blue",
-      "type": "infobox",
-      "content": [
-        {
-          "text": "This lesson focuses on [[the beauty of rural life]], living in harmony with nature, the benefits of outdoor activities over electronic devices, the importance of the [[earthworm]] as a [[farmer's friend]], and the story of the farmer and his daughters. || இந்தப் பாடம் [[கிராமப்புற வாழ்க்கையின் அழகு]], இயற்கையோடு இணைந்து வாழ்வது, மின்னணு சாதனங்களை விட வெளிப்புற விளையாட்டுகளின் நன்மைகள், விவசாயியின் நண்பனாக [[மண்புழுவின்]] முக்கியத்துவம் ஆகியவற்றை மையமாகக் கொண்டுள்ளது."
-        }
-      ]
-    },
-    {
-      "title": "2. PART 1: MY LITTLE PICTIONARY || 2. பகுதி 1: எனது குட்டிப் பட அகராதி",
-      "class": "box-green",
-      "type": "infobox",
-      "content": [
-        {
-          "text": "[[Scarecrow]] (n): A figure made to look like a person and put in a field to frighten birds away. || [[சோளக்காட்டு பொம்மை]] (பெயர்ச்சொல்): பறவைகளை மிரட்டி விரட்டுவதற்காக வயலில் வைக்கப்பட்ட மனித உருவம்."
-        },
-        {
-          "text": "[[Armour]] (n): The metal cover worn to protect the body in battle. || [[கவசம்]] (பெயர்ச்சொல்): போரில் உடலைப் பாதுகாப்பதற்காக அணியும் உலோக மூடி."
-        },
-        {
-          "text": "[[Plough]] (v): Turn up soil with a plough. || [[ஏர் உழுதல்]] (வினைச்சொல்): ஏர் கொண்டு மண்ணைத் திருப்புதல்."
-        },
-        {
-          "text": "[[Grains]] (n): Wheat or other cultivated cereal used as food. || [[தானியங்கள்]] (பெயர்ச்சொல்): உணவாகப் பயன்படுத்தப்படும் கோதுமை அல்லது பயிரிடப்பட்ட தானியங்கள்."
-        },
-        {
-          "text": "[[Bullock cart]] (n): A vehicle with two or four wheels driven by bulls. || [[மாட்டு வண்டி]] (பெயர்ச்சொல்): காளைகளால் ஓட்டப்படும் இரண்டு அல்லது நான்கு சக்கர வண்டி."
-        }
-      ]
-    },
-    {
-      "title": "3. PART 2: PROSE - Trip to My Grandparents' Village || 3. பகுதி 2: உரைநடை - தாத்தா பாட்டி ஊருக்குப் பயணம்",
-      "class": "box-pink",
-      "type": "infobox",
-      "content": [
-        {
-          "text": "Santhosh records an [[audio diary]] of his experience visiting sirumalai during his summer vacation. || சந்தோஷ் தனது கோடை விடுமுறையின் அனுபவத்தை [[ஆடியோ டைரியாகப்]] பதிவு செய்கிறான்."
-        },
-        {
-          "text": "((10th April)): He gets ready for the trip and packs his tab to play video games. || ((ஏப்ரல் 10)): அவன் பயணத்திற்குத் தயாராகி, வீடியோ கேம் விளையாட தனது டேப்பை எடுத்துக் கொள்கிறான்."
-        },
-        {
-          "text": "((11th April)): Bus journey. He sees green paddy fields and [[scarecrows]]. His grandfather shows him fruit trees and gives him a [[sweet mango]]. || ((ஏப்ரல் 11)): பேருந்து பயணம். வழியில் பச்சை வயல்கள் மற்றும் [[சோளக்காட்டு பொம்மைகளைப்]] பார்க்கிறான். அவன் தாத்தா மாம்பழத்தைத் தருகிறார்."
-        },
-        {
-          "text": "((12th April)): Morning walk to the fields. He plays with the village children Paavai, [[Amir]], Peter, and Umaiyal. || ((ஏப்ரல் 12)): காலை நடைப்பயணம். அவன் பாவை, [[அமீர்]], பீட்டர் மற்றும் உமையாள் ஆகியோருடன் விளையாடுகிறான்."
-        },
-        {
-          "text": "((13th April)): He bathes in the [[village river]] and watches traditional games. || ((ஏப்ரல் 13)): அவன் [[கிராமத்து ஆற்றில்]] குளிக்கிறான் மற்றும் பாரம்பரிய விளையாட்டுகளைப் பார்க்கிறான்."
-        },
-        {
-          "text": "((14th April)): He returns to the city and realizes he did not watch TV or play video games. || ((ஏப்ரல் 14)): அவன் நகரம் திரும்புகிறான் மற்றும் தான் டிவி பார்க்கவில்லை என்பதை உணர்கிறான்."
-        }
-      ]
-    },
-    {
-      "title": "4. PART 3: GRAMMAR - Singular & Plural || 4. பகுதி 3: இலக்கணம் - ஒருமை மற்றும் பன்மை",
-      "class": "box-orange",
-      "type": "infobox",
-      "content": [
-        {
-          "text": "((Ending in -f and -fe changes into '-ves')): [[Leaf]] – [[Leaves]], [[Knife]] – [[Knives]]. || ((-f மற்றும் -fe-வில் முடியும் வார்த்தைகள்)): [[இலை]] – [[இலைகள்]], [[கத்தி]] – [[கத்திகள்]]."
-        },
-        {
-          "text": "((Changing vowels)): [[Tooth]] – [[Teeth]], [[Foot]] – [[Feet]], [[Woman]] – [[Women]]. || ((உயிர் எழுத்துக்களை மாற்றுதல்)): [[பல்]] – [[பற்கள்]], [[பாதம்]] – [[பாதங்கள்]]."
-        },
-        {
-          "text": "((Irregular plurals)): [[Child]] – [[Children]], [[Ox]] – [[Oxen]], [[Mouse]] – [[Mice]]. || ((ஒழுங்கற்ற பன்மைகள்)): [[குழந்தை]] – [[குழந்தைகள்]], [[எருது]] – [[எருதுகள்]]."
-        },
-        {
-          "text": "((Identical forms)): [[Sheep]] – [[Sheep]], [[Deer]] – [[Deer]], [[Fish]] - [[Fish]]. || ((ஒரே மாதிரியானவை)): [[செம்மறி ஆடு]], [[மான்]], [[மீன்]]."
-        },
-        {
-          "text": "((Adding '-es')): [[Tomato]] – [[Tomatoes]], [[Potato]] – [[Potatoes]]. || (('-es' சேர்த்தல்)): [[தக்காளி]] – [[தக்காளிகள்]]."
-        }
-      ]
-    },
-    {
-      "title": "5. PART 4: POEM - Farmer’s Friend || 5. பகுதி 4: கவிதை - விவசாயியின் நண்பன்",
-      "type": "infobox",
-      "content": [
-        {
-          "text": "<strong>Main Theme:</strong> The significance of the earthworm. || <strong>மையக்கரு:</strong> மண்புழுவின் முக்கியத்துவம்."
-        },
-        {
-          "text": "Often seen as filth, but it gives the soil good health and rewards the farmer with wealth. || இது பெரும்பாலும் அழுக்காகப் பார்க்கப்படுகிறது, ஆனால் இது மண்ணிற்கு ஆரோக்கியத்தையும் விவசாயிக்குச் செல்வத்தையும் தருகிறது."
-        },
-        {
-          "text": "It ploughs the soil even before the farmer does. || விவசாயி உழுவதற்கு முன்பே இது மண்ணை உழுகிறது."
-        },
-        {
-          "text": "We should not use chemicals to harm the soil (motherland's armour). || மண்ணுக்குத் தீங்கு விளைவிக்கும் ரசாயனங்களை நாம் பயன்படுத்தக் கூடாது."
-        },
-        {
-          "text": "It is used as bait on fishing hooks. Be humble like a worm and think of harming no one. || இது மீன்பிடி தூண்டில்களில் இரையாகப் பயன்படுத்தப்படுகிறது. பணிவாக இருங்கள், யாருக்கும் தீங்கு நினைக்காதீர்கள்."
-        }
-      ]
-    },
-    {
-      "title": "6. PART 5: GRAMMAR - Tenses || 6. பகுதி 5: இலக்கணம் - காலங்கள்",
-      "type": "infobox",
-      "content": [
-        {
-          "text": "<strong>1. Past Continuous Tense (was / were + verb+ing):</strong> Denotes an action that was going on in the past. <em>Rule:</em> I, He, She, It -> was | You, We, They -> were. || <strong>1. கடந்த காலத் தொடர்ச்சி:</strong> கடந்த காலத்தில் நடந்து கொண்டிருந்த செயல்கள். விதி: I/He/She/It -> was | You/We/They -> were."
-        },
-        {
-          "text": "<strong>2. Future Continuous Tense (will be + verb+ing):</strong> Denotes an action that will be in progress in the future. <em>Rule:</em> All subjects -> will be. || <strong>2. எதிர்காலத் தொடர்ச்சி:</strong> எதிர்காலத்தில் நடக்கப் போகும் தொடர்ச்சியான செயல்கள். விதி: அனைத்து எழுவாய்களுக்கும் -> will be."
-        }
-      ]
-    },
-    {
-      "title": "7. PART 6: SUPPLEMENTARY - The Farmer and his Daughters || 7. பகுதி 6: துணைப்பாடம் - விவசாயியும் அவரது மகள்களும்",
-      "type": "infobox",
-      "content": [
-        {
-          "text": "Setting: The village of Manipuram. A wealthy farmer tests his 3 daughters' responsibility by giving them <strong>millet</strong> bags wisely and return after one year. || மணிபுரத்தில் ஒரு விவசாயி தனது 3 மகள்களுக்குக் கேழ்வரகு தானியங்கள் தந்து சோதித்தார்."
-        },
-        {
-          "text": "<strong>First daughter:</strong> Fed the grains to flocks of birds on her way home. || <strong>முதல் மகள்:</strong> பறவைகளுக்குத் தானியங்களைப் போட்டாள்."
-        },
-        {
-          "text": "<strong>Second daughter:</strong> Thought grains were sacred, mixed them with community food service grains. || <strong>இரண்டாம் மகள்:</strong> தானியங்களைப் புனிதமாகக் கருதி, சமூக உணவில் கலந்தாள்."
-        },
-        {
-          "text": "<strong>Third daughter:</strong> Sowed the grains in the field, and they grew into crops. Farmer gave her field responsibility. || <strong>மூன்றாம் மகள்:</strong> வயலில் விதைத்து அறுவடை செய்தாள். அவளுக்குப் பொறுப்புகள் வழங்கப்பட்டன."
-        }
-      ]
-    },
-    {
-      "title": "8. PART 7: Let us Read Aloud - Mr. Murugan || 8. பகுதி 7: சத்தமாகப் வாசிப்போம் - திரு. முருகன்",
-      "type": "infobox",
-      "content": [
-        {
-          "text": "Mr. Murugan is a farmer with a small piece of land and two bulls. He takes good care of his bulls as they help him with all farming activities, including ploughing, sowing, irrigating, reaping, binding, and threshing the paddy. || திரு. முருகன் ஒரு சிறிய நிலமும் இரண்டு காளைகளும் கொண்ட ஒரு விவசாயி. உழுதல், விதைத்தல், நீர் பாய்ச்சுதல், அறுவடை செய்தல் மற்றும் தானியங்களைப் பிரித்தல் போன்ற அனைத்து விவசாய வேலைகளுக்கும் உதவுவதால் அவர் தனது காளைகளை நன்கு கவனித்துக் கொள்கிறார்."
-        }
-      ]
-    },
-    {
-      "title": "9. GLOSSARY / VOCABULARY || 9. கலைச்சொற்கள்",
-      "type": "infobox",
-      "content": [
-        {
-          "text": "<strong>Eager:</strong> keen || ஆர்வம் | <strong>Vacation:</strong> holiday || விடுமுறை | <strong>Numerous:</strong> many || பல"
-        },
-        {
-          "text": "<strong>Threshing:</strong> separating grain || தானியம் பிரித்தல் | <strong>Enchanting:</strong> attractive || வசீகரமான"
-        },
-        {
-          "text": "<strong>Expert:</strong> well skilled || நிபுணர் | <strong>Filth:</strong> dirt || அழுக்கு | <strong>Humble:</strong> not proud || பணிவான"
-        },
-        {
-          "text": "<strong>Toils:</strong> work hard || கடின உழைப்பு | <strong>Distribute:</strong> give share || வழங்குதல்"
-        },
-        {
-          "text": "<strong>Responsibility:</strong> power || பொறுப்பு | <strong>Sacred:</strong> holy || புனிதமான | <strong>Wisely:</strong> cleverly || புத்திசாலித்தனமாக"
-        }
-      ]
-    },
-    {
-      "title": "10. BOOK BACK QUESTIONS & ANSWERS || 10. புத்தகப் பயிற்சிகள் (முழுமையானது)",
-      "type": "infobox",
-      "content": [
-        {
-          "text": "<strong>I. Match (Prose):</strong> Cuckoo-Sings, Breeze-Blows, River-Flows, Fish-Swims. || <strong>பொருத்துக:</strong> குயில்-பாடும், தென்றல்-வீசும், ஆறு-ஓடும், மீன்-நீந்தும்."
-        },
-        {
-          "text": "<strong>II. Rhyming (Poem):</strong> Filth-Wealth, Armour-Farmer, Charm-Harm, Look-Hook. || <strong>இயைபுச் சொற்கள்:</strong> Filth-Wealth, Armour-Farmer."
-        },
-        {
-          "text": "<strong>III. Fill (Poem):</strong> 1. It ploughs soil before farmer. 2. Bait in hook. 3. No chemicals. 4. Be humble. || <strong>கோடிட்ட இடம்:</strong> 1. விவசாயிக்கு முன் உழும். 2. தூண்டில் இரை. 3. ரசாயனம் வேண்டாம். 4. பணிவு."
-        },
-        {
-          "text": "<strong>IV. Fill (Story):</strong> 1. Three daughters. 2. Offered millet. 3. Fed birds. || <strong>கோடிட்ட இடம்:</strong> 1. மூன்று மகள்கள். 2. கேழ்வரகு. 3. பறவைகளுக்கு ஊட்டினாள்."
-        },
-        {
-          "text": "<strong>V. Match Actions:</strong> 1st-Feeds birds, 2nd-Community mix, 3rd-Sows. || <strong>செயல்கள்:</strong> 1-பறவைகள், 2-சமூக உணவு, 3-விதைத்தல்."
-        },
-        {
-          "text": "<strong>VI. Plurals:</strong> Loaf-Loaves, Fish-Fish, Goose-Geese, Mouse-Mice, Child-Children, Man-Men, Leaf-Leaves, Mango-Mangoes, Deer-Deer, Calf-Calves, Tooth-Teeth, Knife-Knives."
-        },
-        {
-          "text": "<strong>VII. Tenses (Past Cont.):</strong> They were writing | It was going | She was drawing | We were eating | He was watching | You were making. || <strong>கடந்த காலத் தொடர்ச்சி:</strong> பயிற்சி விடைகள்."
-        },
-        {
-          "text": "<strong>VII. Tenses (Future Cont.):</strong> They will be coming | It will be playing | She will be swimming | We will be walking | He will be doing. || <strong>எதிர்காலத் தொடர்ச்சி:</strong> பயிற்சி விடைகள்."
-        },
-        {
-          "text": "<strong>VIII. Change Sentences:</strong> 1. She was waiting -> She will be waiting. 2. I will be speaking -> I was speaking. || <strong>வாக்கிய மாற்றம்:</strong> விடைகள்."
-        },
-        {
-          "text": "<strong>IX. Prose Answers:</strong> 1. Recorded via mother's phone. 2. Milking, groundnut, climbing. 3. Enjoyed friends. 4. Saw pebbles/fish. || <strong>உரைநடை வினா-விடைகள்.</strong>"
-        },
-        {
-          "text": "<strong>X. Poem Answers:</strong> 1. Seen as filth. 2. Health & Wealth. 3. Harm soil. || <strong>கவிதை வினா-விடைகள்.</strong>"
-        },
-        {
-          "text": "<strong>XI. Story Answers:</strong> 1. Grains. 2. Fed birds. 3. Mixed. 4. Sowed. 5. 3rd is wisest (yield). || <strong>கதை வினா-விடைகள்.</strong>"
-        },
-        {
-          "text": "<strong>XII. Skills (Listen/Speak/Write):</strong> Autobiography points: Birth date, Parents, Interesting incident. || <strong>திறன் மேம்பாடு:</strong> சுயசரிதை குறிப்புகள்."
-        }
-      ]
-    }
-  ]
+  "sections": []
 }
