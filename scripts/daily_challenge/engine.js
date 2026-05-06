@@ -140,7 +140,7 @@ async function run() {
     let currentIdx = tracker[subject] || 0;
     if (currentIdx >= filesList.length) { currentIdx = 0; tracker[subject] = 0; }
 
-    const selected = filesList.slice(currentIdx, currentIdx + 2);
+    const selected = filesList.slice(currentIdx, currentIdx + 3);
     const titles = [];
     const fileNames = [];
     const grades = [];
@@ -186,7 +186,7 @@ async function run() {
     };
 
     if (action === 'open') {
-      tracker[subject] = currentIdx + 2;
+      tracker[subject] = currentIdx + 3;
       saveTracker(tracker);
     }
   }
