@@ -293,6 +293,26 @@ export const lessonMap = {
       "local": true,
       "filename": "Lesson_5",
       "isFlat": true
+    },
+    "TNTET தாள் 1 - மாதிரி வினாத்தாள் 9 (கணிதம்/அறிவியல்)": {
+      "local": true,
+      "filename": "mt_9_ms",
+      "isFlat": true
+    },
+    "mt_9_ms": {
+      "local": true,
+      "filename": "mt_9_ms",
+      "isFlat": true
+    },
+    "TNTET தாள் 1 - மாதிரி வினாத்தாள் 9 (சமூக அறிவியல்)": {
+      "local": true,
+      "filename": "mt_9_ss",
+      "isFlat": true
+    },
+    "mt_9_ss": {
+      "local": true,
+      "filename": "mt_9_ss",
+      "isFlat": true
     }
   },
   "notes_678": {

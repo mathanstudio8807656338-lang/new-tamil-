@@ -292,6 +292,16 @@ export const syllabusData = {
                 "title": "TNTET தாள் 1 - மாதிரி வினாத்தாள் (150 வினாக்கள்)",
                 "isUpdated": true,
                 "code": "Lesson_5"
+              },
+              {
+                "title": "TNTET தாள் 1 - மாதிரி வினாத்தாள் 9 (கணிதம்/அறிவியல்)",
+                "isUpdated": true,
+                "code": "mt_9_ms"
+              },
+              {
+                "title": "TNTET தாள் 1 - மாதிரி வினாத்தாள் 9 (சமூக அறிவியல்)",
+                "isUpdated": true,
+                "code": "mt_9_ss"
               }
             ]
           }
