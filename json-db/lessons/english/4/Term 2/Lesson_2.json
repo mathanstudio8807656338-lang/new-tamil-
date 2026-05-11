@@ -1,0 +1,289 @@
+{
+  "lesson_meta": {
+    "title": "Unit 1: Affection (Poem: The Real Wealth) || அலகு 1: பாசம் (கவிதை: உண்மையான செல்வம்)",
+    "grade": "4",
+    "term": "2",
+    "unit": "1",
+    "type": "Poem",
+    "language": "English",
+    "code": "eng_4_t2_l2"
+  },
+  "material": [
+    {
+      "type": "content",
+      "title": "1. Poem Summary (Bilingual) || 1. கவிதைச் சுருக்கம் (இருமொழி)",
+      "content": "<div><p class='en-text'>'The Real Wealth' is a beautiful poem that teaches us that true riches do not consist of gold or money, but of love, kindness, and strong family bonds. It explains that while material wealth can be lost, the love we share and the help we give to others are permanent treasures. The poem encourages children to value their parents, siblings, and friends more than expensive toys or gadgets.</p><p class='tm-text'>'உண்மையான செல்வம்' என்பது ஒரு அழகான கவிதையாகும், இது உண்மையான செல்வம் என்பது தங்கம் அல்லது பணத்தில் இல்லை, மாறாக அன்பு, கருணை மற்றும் வலுவான குடும்ப உறவுகளில் உள்ளது என்பதைக் கற்பிக்கிறது. பொருள் சார்ந்த செல்வத்தை இழக்க நேரிடலாம், ஆனால் நாம் பகிரும் அன்பும் மற்றவர்களுக்கு நாம் செய்யும் உதவியும் நிலையான பொக்கிஷங்கள் என்று அது விளக்குகிறது. விலை உயர்ந்த பொம்மைகள் அல்லது மின்னணு சாதனங்களை விட தங்கள் பெற்றோர், உடன்பிறந்தோர் மற்றும் நண்பர்களை அதிகம் மதிக்க இக்கவிதை குழந்தைகளை ஊக்குவிக்கிறது.</p></div>"
+    },
+    {
+      "type": "content",
+      "title": "2. Glossary & Meanings || 2. கலைச்சொற்கள் மற்றும் பொருள்கள்",
+      "content": "<div><ul><li><p class='en-text'><strong>Wealth:</strong> A large amount of money or possessions.</p><p class='tm-text'><strong>செல்வம்:</strong> அதிக அளவு பணம் அல்லது சொத்துக்கள்.</p></li><li><p class='en-text'><strong>Kin:</strong> Relatives / Family.</p><p class='tm-text'><strong>உறவினர்:</strong> குடும்ப உறவுகள்.</p></li><li><p class='en-text'><strong>Grudge:</strong> A feeling of ill will or resentment.</p><p class='tm-text'><strong>மனக்கசப்பு:</strong> பகை உணர்வு அல்லது கோபம்.</p></li><li><p class='en-text'><strong>Jest:</strong> A joke.</p><p class='tm-text'><strong>கேலி:</strong> ஒரு நகைச்சுவை.</p></li><li><p class='en-text'><strong>Affection:</strong> A feeling of liking or love.</p><p class='tm-text'><strong>பாசம்:</strong> அன்பு அல்லது விருப்பம்.</p></li></ul></div>"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What is the poem 'The Real Wealth' about? || 'உண்மையான செல்வம்' கவிதை எதைப் பற்றியது?",
+      "options": ["Gold and Silver", "Love and Affection", "Building Houses", "Racing Cars"],
+      "answer": 1,
+      "explanation": "It focuses on emotional bonds as true wealth. || இது உணர்வுப்பூர்வமான உறவுகளை உண்மையான செல்வமாக வலியுறுத்துகிறது."
+    },
+    {
+      "question": "Who are considered our 'Kin'? || 'Kin' என்று யாரைக் குறிப்பிடுகிறார்கள்?",
+      "options": ["Strangers", "Animals", "Relatives and Family", "Enemies"],
+      "answer": 2,
+      "explanation": "Kin refers to our family members and relatives. || Kin என்பது நமது குடும்ப உறுப்பினர்களையும் உறவினர்களையும் குறிக்கும்."
+    },
+    {
+      "question": "What happens to material wealth over time? || பொருள் செல்வம் காலப்போக்கில் என்னவாகும்?",
+      "options": ["It stays forever", "It can be lost or stolen", "It grows on trees", "It never changes"],
+      "answer": 1,
+      "explanation": "Money and gold are temporary. || பணம் மற்றும் தங்கம் தற்காலிகமானவை."
+    },
+    {
+      "question": "What is the real treasure in life? || வாழ்க்கையில் உண்மையான பொக்கிஷம் எது?",
+      "options": ["A big house", "Love and kindness", "A new computer", "A gold ring"],
+      "answer": 1,
+      "explanation": "Kindness and love are permanent treasures. || கருணையும் அன்பும் நிலையான பொக்கிஷங்கள்."
+    },
+    {
+      "question": "The poem suggests we should avoid having a ____. || நாம் எதைத் தவிர்க்க வேண்டும் என்று கவிதை அறிவுறுத்துகிறது?",
+      "options": ["Smile", "Grudge", "Friend", "Book"],
+      "answer": 1,
+      "explanation": "We should not keep bad feelings or anger against others. || மற்றவர்கள் மீது தீய எண்ணங்களையோ அல்லது கோபத்தையோ வைத்திருக்கக் கூடாது."
+    },
+    {
+      "question": "What does 'Jest' mean? || 'Jest' என்பதன் பொருள் என்ன?",
+      "options": ["To fight", "To joke", "To sleep", "To cry"],
+      "answer": 1,
+      "explanation": "Jest means to speak or act in a playful or joking way. || விளையாட்டுத்தனமாக அல்லது நகைச்சுவையாகப் பேசுவது."
+    },
+    {
+      "question": "According to the poem, who nurtures us? || கவிதையின் படி, நம்மை வளர்ப்பது யார்?",
+      "options": ["The sun", "Our parents", "The wind", "The school"],
+      "answer": 1,
+      "explanation": "Parents provide love and care. || பெற்றோர் அன்பையும் கவனிப்பையும் வழங்குகிறார்கள்."
+    },
+    {
+      "question": "True wealth is not measured in ____. || உண்மையான செல்வம் எதைக் கொண்டு அளவிடப்படுவதில்லை?",
+      "options": ["Happiness", "Currency", "Peace", "Love"],
+      "answer": 1,
+      "explanation": "Wealth is not just about money. || செல்வம் என்பது பணம் மட்டுமல்ல."
+    },
+    {
+      "question": "What is the rhyme scheme of the poem? || கவிதையின் எதுகை-மோனை அமைப்பு என்ன?",
+      "options": ["AABB", "ABAB", "ABCB", "AAAA"],
+      "answer": 1,
+      "explanation": "The poem follows a rhythmic pattern. || கவிதை ஒரு தாள அமைப்பைப் பின்பற்றுகிறது."
+    },
+    {
+      "question": "Which of these is a synonym for 'Affection'? || 'Affection' என்பதன் ஒத்த சொல் எது?",
+      "options": ["Hatred", "Love", "Fear", "Boredom"],
+      "answer": 1,
+      "explanation": "Affection means a feeling of love. || Affection என்றால் அன்பு."
+    },
+    {
+      "question": "How should we treat our siblings? || நமது உடன்பிறந்தவர்களை நாம் எப்படி நடத்த வேண்டும்?",
+      "options": ["With anger", "With love and care", "With jealousy", "By ignoring them"],
+      "answer": 1,
+      "explanation": "Siblings are part of our real wealth. || உடன்பிறந்தவர்கள் நமது உண்மையான செல்வத்தின் ஒரு பகுதி."
+    },
+    {
+      "question": "What does the word 'Wealth' mean? || 'Wealth' என்ற சொல்லின் பொருள் என்ன?",
+      "options": ["Being poor", "Abundance of resources", "Loss of money", "A small gift"],
+      "answer": 1,
+      "explanation": "Wealth refers to having plenty of valuable things. || மதிப்புமிக்க விஷயங்கள் ஏராளமாக இருப்பதை செல்வம் என்கிறோம்."
+    },
+    {
+      "question": "Can gold buy true happiness? || தங்கம் உண்மையான மகிழ்ச்சியைத் தருமா?",
+      "options": ["Yes, always", "No, it cannot", "Maybe", "Only for adults"],
+      "answer": 1,
+      "explanation": "Happiness comes from inner peace and love, not gold. || மகிழ்ச்சி என்பது மன அமைதி மற்றும் அன்பிலிருந்து வருவதாகும்."
+    },
+    {
+      "question": "A home filled with love is better than a ____. || அன்பால் நிறைந்த வீடு ஒரு ____ விட சிறந்தது.",
+      "options": ["School", "Palace of gold", "Garden", "Library"],
+      "answer": 1,
+      "explanation": "Love is more valuable than any building. || எந்தவொரு கட்டிடத்தையும் விட அன்பு அதிக மதிப்புடையது."
+    },
+    {
+      "question": "What is the opposite of 'Kin'? || 'Kin' என்பதன் எதிர்ச்சொல் என்ன?",
+      "options": ["Family", "Stranger", "Relative", "Friend"],
+      "answer": 1,
+      "explanation": "A stranger is someone not related to you. || உறவினர் அல்லாதவர்."
+    },
+    {
+      "question": "The poem teaches us to be ____. || கவிதை நம்மை எப்படி இருக்கக் கற்பிக்கிறது?",
+      "options": ["Selfish", "Grateful", "Lazy", "Greedy"],
+      "answer": 1,
+      "explanation": "We should appreciate what we have. || நம்மிடம் இருப்பதைப் போற்ற வேண்டும்."
+    },
+    {
+      "question": "Identify the rhyming word for 'Wealth': || 'Wealth' என்பதற்கான எதுகைச் சொல்லைக் கண்டறியவும்:",
+      "options": ["Gold", "Health", "Money", "House"],
+      "answer": 1,
+      "explanation": "Wealth rhymes with Health. || Wealth மற்றும் Health ஆகியவை எதுகைச் சொற்கள்."
+    },
+    {
+      "question": "Identify the rhyming word for 'Kin': || 'Kin' என்பதற்கான எதுகைச் சொல்லைக் கண்டறியவும்:",
+      "options": ["Bin", "King", "Key", "Kind"],
+      "answer": 0,
+      "explanation": "Kin rhymes with Bin. || Kin மற்றும் Bin ஆகியவை எதுகைச் சொற்கள்."
+    },
+    {
+      "question": "Identify the rhyming word for 'Jest': || 'Jest' என்பதற்கான எதுகைச் சொல்லைக் கண்டறியவும்:",
+      "options": ["Best", "Just", "Joke", "Joy"],
+      "answer": 0,
+      "explanation": "Jest rhymes with Best. || Jest மற்றும் Best ஆகியவை எதுகைச் சொற்கள்."
+    },
+    {
+      "question": "What is the main message to children? || குழந்தைகளுக்கு வழங்கப்படும் முக்கிய செய்தி என்ன?",
+      "options": ["Earn more money", "Love your family", "Play all day", "Buy more toys"],
+      "answer": 1,
+      "explanation": "Family is the most important thing. || குடும்பமே மிக முக்கியமான விஷயம்."
+    },
+    {
+      "question": "What does 'resentment' relate to in the poem? || கவிதையில் 'resentment' என்பது எதனுடன் தொடர்புடையது?",
+      "options": ["Joy", "Grudge", "Peace", "Kindness"],
+      "answer": 1,
+      "explanation": "Grudge and resentment are similar feelings of anger. || Grudge மற்றும் Resentment ஆகியவை கோபத்தின் ஒத்த உணர்வுகள்."
+    },
+    {
+      "question": "A friend in need is a ____. || ஆபத்தில் உதவும் நண்பனே ____.",
+      "options": ["Bad friend", "Friend indeed", "Strange friend", "Funny friend"],
+      "answer": 1,
+      "explanation": "True friends help when we are in trouble. || உண்மையான நண்பர்கள் நாம் கஷ்டத்தில் இருக்கும்போது உதவுவார்கள்."
+    },
+    {
+      "question": "Which word describes 'very great' in the context of wealth? || செல்வத்தின் சூழலில் 'மிகப் பெரியது' என்பதை எந்தச் சொல் விவரிக்கிறது?",
+      "options": ["Small", "Vast", "Poor", "Empty"],
+      "answer": 1,
+      "explanation": "Vast means extremely large. || Vast என்றால் மிகப் பெரியது."
+    },
+    {
+      "question": "What should we share with others? || நாம் மற்றவர்களுடன் எதைப் பகிர்ந்து கொள்ள வேண்டும்?",
+      "options": ["Our problems", "Our love and food", "Our anger", "Our secrets"],
+      "answer": 1,
+      "explanation": "Sharing love brings happiness. || அன்பைப் பகிர்வது மகிழ்ச்சியைத் தரும்."
+    },
+    {
+      "question": "Why is family called 'real wealth'? || குடும்பம் ஏன் 'உண்மையான செல்வம்' என்று அழைக்கப்படுகிறது?",
+      "options": ["Because they give us money", "Because they support us always", "Because they live in a house", "Because they have gold"],
+      "answer": 1,
+      "explanation": "Family support is unconditional and constant. || குடும்பத்தின் ஆதரவு நிபந்தனையற்றது மற்றும் நிலையானது."
+    },
+    {
+      "question": "What is the opposite of 'Kindness'? || 'Kindness' என்பதன் எதிர்ச்சொல் என்ன?",
+      "options": ["Care", "Cruelty", "Gentleness", "Politeness"],
+      "answer": 1,
+      "explanation": "Cruelty is the opposite of being kind. || கருணைக்கு எதிர்ச் சொல் கொடுமை."
+    },
+    {
+      "question": "What does the line 'Nurture your kin' mean? || 'Nurture your kin' என்ற வரியின் பொருள் என்ன?",
+      "options": ["Fight with family", "Ignore relatives", "Take care of family", "Sell your house"],
+      "answer": 2,
+      "explanation": "It means to care for and protect your relatives. || உங்கள் உறவினர்களைப் பாதுகாத்து கவனித்துக் கொள்வதைக் குறிக்கிறது."
+    },
+    {
+      "question": "Which of these is NOT a material wealth? || இதில் எது பொருள் செல்வம் அல்ல?",
+      "options": ["Cash", "Diamond", "Honesty", "Car"],
+      "answer": 2,
+      "explanation": "Honesty is a quality, not a material object. || நேர்மை என்பது ஒரு குணம், அது ஒரு பொருள் அல்ல."
+    },
+    {
+      "question": "How do we feel when we help someone? || ஒருவருக்கு உதவும்போது நாம் எப்படி உணருகிறோம்?",
+      "options": ["Sad", "Happy and proud", "Tired", "Angry"],
+      "answer": 1,
+      "explanation": "Helping others gives a sense of fulfillment. || மற்றவர்களுக்கு உதவுவது மனநிறைவைத் தரும்."
+    },
+    {
+      "question": "What is the plural of 'Life'? || 'Life' என்பதன் பன்மை என்ன?",
+      "options": ["Lifes", "Lives", "Lifess", "Live"],
+      "answer": 1,
+      "explanation": "The plural of life is lives. || Life என்பதன் பன்மை Lives."
+    },
+    {
+      "question": "Which word is a synonym for 'Treasure'? || 'Treasure' என்பதன் ஒத்த சொல் எது?",
+      "options": ["Trash", "Prized possession", "Dirt", "Loss"],
+      "answer": 1,
+      "explanation": "A treasure is something very valuable. || பொக்கிஷம் என்பது மிகவும் மதிப்புமிக்க ஒரு விஷயம்."
+    },
+    {
+      "question": "True or False: Money can buy a mother's love. || சரி அல்லது தவறு: பணத்தால் தாயின் அன்பை வாங்க முடியும்.",
+      "options": ["True", "False"],
+      "answer": 1,
+      "explanation": "Love is priceless. || அன்பு விலைமதிப்பற்றது."
+    },
+    {
+      "question": "What is the meaning of 'Ill-will'? || 'Ill-will' என்பதன் பொருள் என்ன?",
+      "options": ["Good health", "Bad feelings toward others", "Winning a race", "Cooking food"],
+      "answer": 1,
+      "explanation": "It means wishing bad things for others. || மற்றவர்களுக்கு கெட்டது நடக்கணும்னு நினைப்பது."
+    },
+    {
+      "question": "Identify the noun in 'Love is wealth'. || 'Love is wealth' என்பதில் பெயர்ச்சொல்லைக் கண்டறியவும்.",
+      "options": ["Love", "Wealth", "Both Love and Wealth", "Is"],
+      "answer": 2,
+      "explanation": "Both are abstract nouns. || இவை இரண்டும் பண்புப்பெயர்கள்."
+    },
+    {
+      "question": "Which part of speech is 'Beautifully'? || 'Beautifully' என்பது எவ்வகை சொல்?",
+      "options": ["Adjective", "Adverb", "Noun", "Pronoun"],
+      "answer": 1,
+      "explanation": "It describes how something is done. || இது ஒரு விஷயம் எப்படி செய்யப்படுகிறது என்பதை விவரிக்கிறது."
+    },
+    {
+      "question": "Who is the poet of 'The Real Wealth'? || 'உண்மையான செல்வம்' கவிதையை எழுதியவர் யார்?",
+      "options": ["William Wordsworth", "Robert Frost", "Anonymous", "Sarojini Naidu"],
+      "answer": 2,
+      "explanation": "The poem is often cited as traditional or anonymous. || இக்கவிதை பெரும்பாலும் பாரம்பரியமானதாகக் கருதப்படுகிறது."
+    },
+    {
+      "question": "What should be our priority? || நமது முன்னுரிமை எதுவாக இருக்க வேண்டும்?",
+      "options": ["Money", "Relations", "Games", "Clothes"],
+      "answer": 1,
+      "explanation": "Human relationships are most important. || மனித உறவுகளே மிக முக்கியமானவை."
+    },
+    {
+      "question": "What is the synonym of 'Prize'? || 'Prize' என்பதன் ஒத்த சொல் எது?",
+      "options": ["Reward", "Punishment", "Task", "Work"],
+      "answer": 0,
+      "explanation": "A prize is a reward for something. || பரிசு என்பது ஒரு வெகுமதி."
+    },
+    {
+      "question": "Is 'Family' a collective noun? || 'Family' என்பது ஒரு கூட்டுக் பெயர்ச்சொல்லா?",
+      "options": ["Yes", "No"],
+      "answer": 0,
+      "explanation": "It represents a group of related people. || இது ஒரு குழுவைக் குறிக்கிறது."
+    },
+    {
+      "question": "Complete: Don't lose your ____. || பூர்த்தி செய்க: உங்கள் ____ இழக்காதீர்கள்.",
+      "options": ["Money", "Hope and Kindness", "Bag", "Shoes"],
+      "answer": 1,
+      "explanation": "Internal values should be preserved. || அக மதிப்பீடுகளைப் பாதுகாக்க வேண்டும்."
+    },
+    {
+      "question": "What is the moral of the poem? || கவிதையின் நீதி என்ன?",
+      "options": ["Save money", "Love your kin and be kind", "Eat well", "Build a big house"],
+      "answer": 1,
+      "explanation": "Relationships and kindness are the greatest assets. || உறவுகளும் கருணையுமே மிகப்பெரிய சொத்துக்கள்."
+    },
+    {
+      "question": "Which word means 'to jokes and have fun'? || 'கேலி செய்து மகிழ்வது' என்ற பொருள் தரும் சொல் எது?",
+      "options": ["Work", "Jest", "Study", "Sleep"],
+      "answer": 1,
+      "explanation": "Jest involves joking. || Jest என்பது கேலி செய்வதைக் குறிக்கும்."
+    },
+    {
+      "question": "True or False: Material wealth is permanent. || சரி அல்லது தவறு: பொருள் செல்வம் நிலையானது.",
+      "options": ["True", "False"],
+      "answer": 1,
+      "explanation": "Material things are temporary. || பொருள் சார்ந்த விஷயங்கள் தற்காலிகமானவை."
+    },
+    {
+      "question": "The poem encourages us to be ____. || கவிதை நம்மை எப்படி இருக்க ஊக்குவிக்கிறது?",
+      "options": ["Heartless", "Kind-hearted", "Mean", "Rough"],
+      "answer": 1,
+      "explanation": "Kindness is a core value. || கருணை ஒரு அடிப்படை மதிப்பு."
+    }
+  ]
+}

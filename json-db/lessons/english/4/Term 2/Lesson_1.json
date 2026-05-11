@@ -1,0 +1,294 @@
+{
+  "lesson_meta": {
+    "title": "Unit 1: Affection (Prose: Appa) || அலகு 1: பாசம் (உரைநடை: அப்பா)",
+    "grade": "4",
+    "term": "2",
+    "unit": "1",
+    "type": "Prose",
+    "language": "English",
+    "code": "eng_4_t2_l1"
+  },
+  "material": [
+    {
+      "type": "content",
+      "title": "1. Lesson Summary (Bilingual) || 1. பாடச் சுருக்கம் (இருமொழி)",
+      "content": "<div><p class='en-text'>'Appa' is a touching story about a young girl named Keerthi and her deep bond with her father. Keerthi's father, a fisherman, goes missing during a tsunami. Despite the tragedy and being moved to a relief camp, Keerthi never loses hope that her father will return. Years later, a man who survived the disaster is found, and it turns out to be Keerthi's father. The story highlights themes of love, resilience, and the unbreakable bond between a parent and child.</p><p class='tm-text'>'அப்பா' என்பது கீர்த்தி என்ற சிறுமிக்கும் அவளது தந்தைக்கும் இடையிலான ஆழமான பிணைப்பைப் பற்றிய உருக்கமான கதையாகும். மீனவரான கீர்த்தியின் தந்தை சுனாமியின் போது காணாமல் போகிறார். இந்தத் துயரம் நிகழ்ந்து, ஒரு நிவாரண முகாமிற்கு மாற்றப்பட்ட போதிலும், தனது தந்தை திரும்புவார் என்ற நம்பிக்கையை கீர்த்தி ஒருபோதும் இழக்கவில்லை. பல ஆண்டுகளுக்குப் பிறகு, அந்தப் பேரிடரில் உயிர் தப்பிய ஒரு நபர் கண்டுபிடிக்கப்படுகிறார், அவர் கீர்த்தியின் தந்தை என்பது தெரிய வருகிறது. இக்கதை அன்பு, மன உறுதி மற்றும் பெற்றோர்-பிள்ளை இடையிலான பிரிக்க முடியாத பிணைப்பை வலியுறுத்துகிறது.</p></div>"
+    },
+    {
+      "type": "content",
+      "title": "2. My Little Pictionary (Key Vocabulary) || 2. எனது சிறு விளக்கப்பட அகராதி",
+      "content": "<div><ul><li><p class='en-text'><strong>Tsunami:</strong> A giant sea wave caused by an earthquake.</p><p class='tm-text'><strong>சுனாமி:</strong> நிலநடுக்கத்தால் ஏற்படும் ராட்சதக் கடல் அலை.</p></li><li><p class='en-text'><strong>Relief:</strong> Help given to people in need.</p><p class='tm-text'><strong>நிவாரணம்:</strong> தேவையுள்ள மக்களுக்கு வழங்கப்படும் உதவி.</p></li><li><p class='en-text'><strong>Cottage:</strong> A small house.</p><p class='tm-text'><strong>குடிசை/சிறு வீடு:</strong> ஒரு சிறிய வீடு.</p></li><li><p class='en-text'><strong>Stare:</strong> To look fixedly at someone or something.</p><p class='tm-text'><strong>உற்றுப்பார்:</strong> யாரையாவது அல்லது எதையாவது நிலையாகப் பார்ப்பது.</p></li><li><p class='en-text'><strong>Faint:</strong> Not clear; weak.</p><p class='tm-text'><strong>மங்கலான:</strong> தெளிவற்ற; பலவீனமான.</p></li></ul></div>"
+    },
+    {
+      "type": "content",
+      "title": "3. Glossary & Meanings || 3. கலைச்சொற்கள் மற்றும் பொருள்கள்",
+      "content": "<div><ul><li><strong>Shore</strong> - Sea coast || கடற்கரை</li><li><strong>Vast</strong> - Huge / Great || பரந்த / பெரிய</li><li><strong>Rumble</strong> - A low continuous sound || உருமல் சத்தம் / தொடர்ச்சியான தாழ்ந்த ஒலி</li><li><strong>Gazed</strong> - Looked steadily || உற்றுப் பார்த்தான் / நிலையாகப் பார்த்தான்</li><li><strong>Wiped</strong> - Cleaned or dried || துடைத்தான்</li></ul></div>"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Who is the main character in the story 'Appa'? || 'அப்பா' கதையின் முதன்மைக் கதாபாத்திரம் யார்?",
+      "options": ["Keerthivasan", "Keerthi", "Meena", "Senthil"],
+      "answer": 1,
+      "explanation": "Keerthi is the little girl whose story is told. || கீர்த்தி இக்கதையின் நாயகி."
+    },
+    {
+      "question": "What is the occupation of Keerthi's father? || கீர்த்தியின் தந்தையின் தொழில் என்ன?",
+      "options": ["Farmer", "Teacher", "Fisherman", "Doctor"],
+      "answer": 2,
+      "explanation": "He goes to the sea to catch fish. || அவர் கடலுக்குச் சென்று மீன் பிடிப்பவர்."
+    },
+    {
+      "question": "What disaster occurred in the village? || கிராமத்தில் ஏற்பட்ட பேரிடர் எது?",
+      "options": ["Flood", "Earthquake", "Tsunami", "Cyclone"],
+      "answer": 2,
+      "explanation": "A massive tsunami hit the coastal village. || ஒரு பெரிய சுனாமி கடற்கரை கிராமத்தைத் தாக்கியது."
+    },
+    {
+      "question": "Where did the villagers move after the disaster? || பேரிடருக்குப் பிறகு கிராம மக்கள் எங்கு சென்றார்கள்?",
+      "options": ["To the city", "To a relief camp", "To the mountains", "To another village"],
+      "answer": 1,
+      "explanation": "They were moved to a temporary relief camp for safety. || அவர்கள் பாதுகாப்புக்காக ஒரு நிவாரண முகாமிற்கு மாற்றப்பட்டனர்."
+    },
+    {
+      "question": "How did Keerthi feel after losing her father? || தனது தந்தையை இழந்த பிறகு கீர்த்தி எப்படி உணர்ந்தாள்?",
+      "options": ["Happy", "Angry", "Sad but hopeful", "Confused"],
+      "answer": 2,
+      "explanation": "She was deeply sad but kept the hope of his return alive. || அவள் மிகுந்த வருத்தமடைந்தாள், ஆனால் அவர் வருவார் என்ற நம்பிக்கையைத் தக்கவைத்தாள்."
+    },
+    {
+      "question": "What is the meaning of 'Rumble'? || 'Rumble' என்பதன் பொருள் என்ன?",
+      "options": ["A loud scream", "A low continuous sound", "A bright light", "A fast movement"],
+      "answer": 1,
+      "explanation": "Rumble refers to a low, heavy sound like thunder or the sea. || இடி அல்லது கடல் சத்தம் போன்ற தாழ்ந்த ஒலி."
+    },
+    {
+      "question": "What is a 'Tsunami' caused by? || சுனாமி எதனால் ஏற்படுகிறது?",
+      "options": ["Rain", "Wind", "Undersea earthquake", "Sunlight"],
+      "answer": 2,
+      "explanation": "It is caused by earthquakes or volcanic eruptions under the sea. || கடலுக்கு அடியில் ஏற்படும் நிலநடுக்கங்களால் இது ஏற்படுகிறது."
+    },
+    {
+      "question": "In the story, what did Keerthi's father always bring for her? || கதையில், கீர்த்தியின் தந்தை அவளுக்கு எப்போதும் என்ன கொண்டு வருவார்?",
+      "options": ["Toys", "Books", "Fish and sweets", "Clothes"],
+      "answer": 2,
+      "explanation": "He used to bring things she loved from his trips. || அவர் தனது பயணங்களிலிருந்து அவளுக்குப் பிடித்தமானவற்றைக் கொண்டு வருவார்."
+    },
+    {
+      "question": "What does the word 'Gazed' mean? || 'Gazed' என்ற சொல்லின் பொருள் என்ன?",
+      "options": ["Ran quickly", "Looked steadily", "Spoke loudly", "Slept deeply"],
+      "answer": 1,
+      "explanation": "Gazed means looking at something for a long time with focus. || ஒரு விஷயத்தை உற்று நோக்குவது."
+    },
+    {
+      "question": "How many years later was the survivor found? || எத்தனை ஆண்டுகளுக்குப் பிறகு உயிர் தப்பியவர் கண்டுபிடிக்கப்பட்டார்?",
+      "options": ["Two years", "Five years", "Several years", "One month"],
+      "answer": 2,
+      "explanation": "The story mentions that it took several years for the reunion. || மீண்டும் இணைவதற்குப் பல ஆண்டுகள் ஆனதாகக் கதை குறிப்பிடுகிறது."
+    },
+    {
+      "question": "What is the plural form of 'Child'? || 'Child' என்பதன் பன்மை வடிவம் என்ன?",
+      "options": ["Childs", "Children", "Childrens", "Childes"],
+      "answer": 1,
+      "explanation": "The plural of child is children. || Child என்பதன் பன்மை Children."
+    },
+    {
+      "question": "Choose the correct spelling: || சரியான எழுத்துக்கூட்டலைத் தேர்ந்தெடுக்கவும்:",
+      "options": ["Tsunami", "Sunami", "Tsunami", "Tsonami"],
+      "answer": 0,
+      "explanation": "The correct spelling starts with 'T'. || சரியான எழுத்துக்கூட்டல் T-யில் தொடங்குகிறது."
+    },
+    {
+      "question": "Which word is an antonym for 'Vast'? || 'Vast' என்பதன் எதிர்ச்சொல் எது?",
+      "options": ["Huge", "Large", "Small", "Wide"],
+      "answer": 2,
+      "explanation": "Vast means huge, so small is the opposite. || Vast என்றால் பெரியது, சிறியது என்பது அதன் எதிர்ச்சொல்."
+    },
+    {
+      "question": "What did the man do when he saw Keerthi? || கீர்த்தியைப் பார்த்தபோது அந்த மனிதர் என்ன செய்தார்?",
+      "options": ["He ran away", "He cried out her name", "He ignored her", "He laughed"],
+      "answer": 1,
+      "explanation": "Recognizing her, he called her name with emotion. || அவளை அடையாளம் கண்டு, உணர்ச்சியுடன் அவள் பெயரை அழைத்தார்."
+    },
+    {
+      "question": "The story 'Appa' is about: || 'அப்பா' கதை எதைப் பற்றியது:",
+      "options": ["Friendship", "Family love", "Nature", "Business"],
+      "answer": 1,
+      "explanation": "It focuses on the love between a father and daughter. || இது தந்தை மற்றும் மகளுக்கு இடையிலான அன்பை மையமாகக் கொண்டது."
+    },
+    {
+      "question": "Where did Keerthi live before the tsunami? || சுனாமிக்கு முன்பு கீர்த்தி எங்கு வாழ்ந்தாள்?",
+      "options": ["In a city apartment", "In a coastal cottage", "In a palace", "In a school hostel"],
+      "answer": 1,
+      "explanation": "She lived in a small cottage near the sea. || அவள் கடலோரத்தில் ஒரு சிறிய குடிசையில் வாழ்ந்தாள்."
+    },
+    {
+      "question": "What color was the sea looking before the tsunami? || சுனாமிக்கு முன் கடல் என்ன நிறத்தில் இருந்தது?",
+      "options": ["Bright blue", "Dark and scary", "Green", "White"],
+      "answer": 1,
+      "explanation": "The water turned dark and rumbled before the waves hit. || அலைகள் தாக்குவதற்கு முன்பு நீர் கருமையாகவும் உருமிக் கொண்டும் இருந்தது."
+    },
+    {
+      "question": "Identify the proper noun: || சிறப்புப் பெயரைக் கண்டறியவும்:",
+      "options": ["Girl", "Keerthi", "Father", "Beach"],
+      "answer": 1,
+      "explanation": "Keerthi is a specific name. || கீர்த்தி என்பது ஒரு குறிப்பிட்ட பெயர்."
+    },
+    {
+      "question": "What is the past tense of 'Go'? || 'Go' என்பதன் இறந்த காலம் என்ன?",
+      "options": ["Goed", "Went", "Gone", "Going"],
+      "answer": 1,
+      "explanation": "The past tense of go is went. || Go என்பதன் இறந்த காலம் Went."
+    },
+    {
+      "question": "Who helped the villagers in the relief camp? || நிவாரண முகாமில் கிராம மக்களுக்கு உதவியவர் யார்?",
+      "options": ["Enemies", "Volunteers and government", "Animals", "Nobody"],
+      "answer": 1,
+      "explanation": "Help came from many people and the authorities. || அதிகாரிகள் மற்றும் பலரிடமிருந்து உதவி கிடைத்தது."
+    },
+    {
+      "question": "Which punctuation is used at the end of a question? || ஒரு கேள்வியின் இறுதியில் எந்த நிறுத்தற்குறி பயன்படுத்தப்படுகிறது?",
+      "options": [".", ",", "?", "!"],
+      "answer": 2,
+      "explanation": "A question mark (?) is used for questions. || கேள்விகளுக்கு கேள்விக்குறி (?) பயன்படுத்தப்படுகிறது."
+    },
+    {
+      "question": "What does the word 'Relief' mean in the context of the story? || கதையின் சூழலில் 'Relief' என்பதன் பொருள் என்ன?",
+      "options": ["Pain", "Help provided to victims", "Laughter", "Sleep"],
+      "answer": 1,
+      "explanation": "Relief refers to the aid given to those affected by disasters. || பேரிடரால் பாதிக்கப்பட்டவர்களுக்கு வழங்கப்படும் உதவி."
+    },
+    {
+      "question": "Keerthi's father was a brave man. Which word is the adjective? || கீர்த்தியின் தந்தை ஒரு தைரியமான மனிதர். இதில் எது பெயரடை?",
+      "options": ["Keerthi", "Father", "Brave", "Man"],
+      "answer": 2,
+      "explanation": "Brave describes the father. || Brave என்பது தந்தையை விவரிக்கிறது."
+    },
+    {
+      "question": "What did Keerthi do every day at the beach after the tsunami? || சுனாமிக்குப் பிறகு ஒவ்வொரு நாளும் கீர்த்தி கடற்கரையில் என்ன செய்தாள்?",
+      "options": ["She played with sand", "She searched the horizon for her father", "She collected shells", "She swam in the sea"],
+      "answer": 1,
+      "explanation": "She kept looking at the sea, hoping her father would return. || தனது தந்தை வருவார் என்ற நம்பிக்கையில் அவள் கடலையே பார்த்துக் கொண்டிருந்தாள்."
+    },
+    {
+      "question": "What is the meaning of 'Wiped'? || 'Wiped' என்பதன் பொருள் என்ன?",
+      "options": ["Threw", "Cleaned by rubbing", "Broke", "Hidden"],
+      "answer": 1,
+      "explanation": "To wipe is to clean something using a cloth or hand. || கை அல்லது துணியால் துடைப்பது."
+    },
+    {
+      "question": "Which of these is a synonym for 'Huge'? || 'Huge' என்பதன் ஒத்த பொருள் எது?",
+      "options": ["Tiny", "Vast", "Small", "Short"],
+      "answer": 1,
+      "explanation": "Vast means huge or very large. || Vast என்றால் மிகப் பெரியது."
+    },
+    {
+      "question": "Complete the sentence: Keerthi ____ her father very much. || வாக்கியத்தைப் பூர்த்தி செய்க: கீர்த்தி தனது தந்தையை மிகவும் ____.",
+      "options": ["hated", "forgot", "loved", "feared"],
+      "answer": 2,
+      "explanation": "The story is built on her love for her father. || இக்கதை அவள் தந்தை மீது வைத்திருந்த அன்பை அடிப்படையாகக் கொண்டது."
+    },
+    {
+      "question": "What is the opposite of 'Hope'? || 'Hope' என்பதன் எதிர்ச்சொல் என்ன?",
+      "options": ["Wish", "Despair", "Dream", "Faith"],
+      "answer": 1,
+      "explanation": "Despair is the loss of hope. || நம்பிக்கை இழப்பு."
+    },
+    {
+      "question": "The sea waves were as tall as ____. || கடல் அலைகள் ____ போன்ற உயரத்தில் இருந்தன.",
+      "options": ["Trees", "Buildings", "Mountains", "Clouds"],
+      "answer": 2,
+      "explanation": "The tsunami waves are often compared to mountains in size. || சுனாமி அலைகள் பெரும்பாலும் மலைகளுடன் ஒப்பிடப்படுகின்றன."
+    },
+    {
+      "question": "What sound did the sea make before the wave? || அலை வருவதற்கு முன் கடல் என்ன சத்தம் எழுப்பியது?",
+      "options": ["Whistle", "Rumble", "Chirp", "Silence"],
+      "answer": 1,
+      "explanation": "A low rumble was heard from the sea. || கடலில் இருந்து ஒரு குறைந்த உருமல் சத்தம் கேட்டது."
+    },
+    {
+      "question": "Where was the man found? || அந்த மனிதர் எங்கு கண்டுபிடிக்கப்பட்டார்?",
+      "options": ["In the city", "In a nearby island", "In a hospital", "In a relief center far away"],
+      "answer": 3,
+      "explanation": "He was discovered in another location where survivors were kept. || அவர் உயிர் பிழைத்தவர்கள் வைக்கப்பட்டிருந்த வேறொரு இடத்தில் கண்டுபிடிக்கப்பட்டார்."
+    },
+    {
+      "question": "What did Keerthi say when she finally saw her father? || தனது தந்தையை இறுதியாகப் பார்த்தபோது கீர்த்தி என்ன சொன்னாள்?",
+      "options": ["Who are you?", "Appa!", "Where have you been?", "Goodbye"],
+      "answer": 1,
+      "explanation": "She cried out 'Appa!' in joy. || அவள் மகிழ்ச்சியில் 'அப்பா!' என்று கத்தினாள்."
+    },
+    {
+      "question": "How did the story end? || கதை எப்படி முடிந்தது?",
+      "options": ["Keerthi was still alone", "They lived happily together", "They went to the city", "The tsunami came again"],
+      "answer": 1,
+      "explanation": "It ended with their happy reunion. || அது அவர்களின் மகிழ்ச்சியான மீண்டும் இணைதலுடன் முடிந்தது."
+    },
+    {
+      "question": "Is 'Fisherman' a compound word? || 'Fisherman' ஒரு கூட்டுச் சொல்லா?",
+      "options": ["Yes", "No"],
+      "answer": 0,
+      "explanation": "It is made of 'Fisher' and 'man'. || இது 'Fisher' மற்றும் 'man' ஆகிய சொற்களால் ஆனது."
+    },
+    {
+      "question": "Choose the correct article: __ tsunami is a natural disaster. || சரியான கட்டுரைச் சொல்லைத் தேர்ந்தெடுக்கவும்: __ சுனாமி ஒரு இயற்கை பேரிடர்.",
+      "options": ["A", "An", "The", "No article"],
+      "answer": 0,
+      "explanation": "'A' is used before a consonant sound. || மெய்யொலிக்கு முன்பு 'A' பயன்படுத்தப்படுகிறது."
+    },
+    {
+      "question": "What is the meaning of 'Cottage'? || 'Cottage' என்பதன் பொருள் என்ன?",
+      "options": ["A skyscraper", "A small simple house", "A boat", "A factory"],
+      "answer": 1,
+      "explanation": "A cottage is typically a small, cozy house. || இது ஒரு சிறிய எளிய வீடு."
+    },
+    {
+      "question": "Which word is a verb? || இதில் எது வினைச்சொல்?",
+      "options": ["Keerthi", "Father", "Gazed", "Beautiful"],
+      "answer": 2,
+      "explanation": "Gazed describes an action. || Gazed என்பது ஒரு செயலைக் குறிக்கிறது."
+    },
+    {
+      "question": "What part of speech is 'Slowly'? || 'Slowly' என்பது எவ்வகை சொல்?",
+      "options": ["Noun", "Verb", "Adverb", "Adjective"],
+      "answer": 2,
+      "explanation": "It describes how an action is done. || இது ஒரு செயல் எப்படி செய்யப்படுகிறது என்பதை விவரிக்கிறது."
+    },
+    {
+      "question": "What is the collective noun for a group of fish? || மீன்களின் கூட்டத்திற்கான கூட்டுப் பெயர் என்ன?",
+      "options": ["Swarm", "Shoal", "Pack", "Flock"],
+      "answer": 1,
+      "explanation": "A group of fish is called a shoal or school. || மீன் கூட்டத்தை Shoal என்று அழைப்பார்கள்."
+    },
+    {
+      "question": "What was the theme of the story? || கதையின் கருப்பொருள் என்ன?",
+      "options": ["Technology", "Love and Hope", "Space travel", "War"],
+      "answer": 1,
+      "explanation": "The story emphasizes love and never giving up hope. || இக்கதை அன்பு மற்றும் நம்பிக்கையை வலியுறுத்துகிறது."
+    },
+    {
+      "question": "What did the villagers lose in the tsunami? || சுனாமியில் கிராம மக்கள் எதை இழந்தனர்?",
+      "options": ["Homes and belongings", "Nothing", "Only toys", "Television"],
+      "answer": 0,
+      "explanation": "Many lost their houses and everything they owned. || பலர் தங்கள் வீடுகளையும் உடைமைகளையும் இழந்தனர்."
+    },
+    {
+      "question": "Which word means 'to see or watch'? || 'பார்ப்பது' என்ற பொருள் தரும் சொல் எது?",
+      "options": ["Hear", "Stare", "Listen", "Feel"],
+      "answer": 1,
+      "explanation": "Stare means to look fixedly. || உற்றுப் பார்ப்பது."
+    },
+    {
+      "question": "What is the plural of 'Foot'? || 'Foot' என்பதன் பன்மை என்ன?",
+      "options": ["Foots", "Feet", "Feets", "Footes"],
+      "answer": 1,
+      "explanation": "The plural of foot is feet. || Foot என்பதன் பன்மை Feet."
+    },
+    {
+      "question": "Who survived the tsunami in the story? || கதையில் சுனாமியில் உயிர் தப்பியது யார்?",
+      "options": ["Only Keerthi", "Many villagers including Keerthi's father", "Nobody", "Only animals"],
+      "answer": 1,
+      "explanation": "Many people survived, though some were separated for years. || பலர் உயிர் தப்பினர், ஆனால் சிலர் பல ஆண்டுகளாகப் பிரிந்திருந்தனர்."
+    }
+  ]
+}

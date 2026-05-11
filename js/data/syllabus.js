@@ -80,6 +80,46 @@ export const syllabusData = {
             ]
           }
         ]
+      },
+      {
+        "term": 2,
+        "units": [
+          {
+            "title": "Term 2",
+            "topics": [
+              {
+                "title": "Unit 1: Affection (Prose: Appa) || அலகு 1: பாசம் (உரைநடை: அப்பா)",
+                "isUpdated": true,
+                "code": "Lesson_1"
+              },
+              {
+                "title": "Unit 1: Affection (Poem: The Real Wealth) || அலகு 1: பாசம் (கவிதை: உண்மையான செல்வம்)",
+                "isUpdated": true,
+                "code": "Lesson_2"
+              },
+              {
+                "title": "Unit 1: Affection (Supplementary: A True Friend) || அலகு 1: பாசம் (துணைப்பாடம்: ஒரு உண்மையான நண்பன்)",
+                "isUpdated": true,
+                "code": "Lesson_3"
+              },
+              {
+                "title": "Unit 2: Savings (Prose: A Lesson to Save) || அலகு 2: சேமிப்பு (உரைநடை: சேமிக்க ஒரு பாடம்)",
+                "isUpdated": true,
+                "code": "Lesson_4"
+              },
+              {
+                "title": "Unit 2: Savings (Poem: What do humans save?) || அலகு 2: சேமிப்பு (கவிதை: மனிதர்கள் எதைச் சேமிக்கிறார்கள்?)",
+                "isUpdated": true,
+                "code": "Lesson_5"
+              },
+              {
+                "title": "Unit 2: Savings (Supplementary: Save Wisely) || அலகு 2: சேமிப்பு (துணைப்பாடம்: விவேகமாகச் சேமி)",
+                "isUpdated": true,
+                "code": "Lesson_6"
+              }
+            ]
+          }
+        ]
       }
     ],
     "5": [

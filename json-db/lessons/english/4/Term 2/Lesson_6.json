@@ -1,0 +1,265 @@
+{
+  "lesson_meta": {
+    "title": "Unit 2: Savings (Supplementary: Save Wisely) || அலகு 2: சேமிப்பு (துணைப்பாடம்: விவேகமாகச் சேமி)",
+    "grade": "4",
+    "term": "2",
+    "unit": "2",
+    "type": "Supplementary",
+    "language": "English",
+    "code": "eng_4_t2_l6"
+  },
+  "material": [
+    {
+      "type": "content",
+      "title": "1. Story Summary (Bilingual) || 1. கதையின் சுருக்கம் (இருமொழி)",
+      "content": "<div><p class='en-text'>'Save Wisely' is a story about cousins visiting their grandparents' village for a car festival. While most children spend their money on toys and sweets, Kamali and Senthil decide to save. Senthil opens a post office savings account and saves by walking instead of taking a bus and reusing old books. Kamali saves for a flute but gives her money to her father for an emergency. Eventually, both are rewarded for their wisdom: Senthil gets a camera and Kamali gets her dream flute. The story teaches that saving should be done after fulfilling basic needs and helps in achieving meaningful goals.</p><p class='tm-text'>'விவேகமாகச் சேமி' என்பது ஒரு தேர்த்திருவிழாவிற்காகத் தாத்தா பாட்டி கிராமத்திற்குச் சென்ற உறவினர்களைப் பற்றிய கதை. பெரும்பாலான குழந்தைகள் தங்கள் பணத்தை பொம்மைகள் மற்றும் இனிப்புகளுக்காகச் செலவிடும்போது, கமலியும் செந்திலும் சேமிக்க முடிவு செய்கிறார்கள். செந்தில் அஞ்சல் நிலையத்தில் சேமிப்புக் கணக்கைத் தொடங்குகிறான்; பேருந்தில் செல்வதற்குப் பதில் நடந்தே சென்றும், பழைய புத்தகங்களை மீண்டும் பயன்படுத்தியும் சேமிக்கிறான். கமலி புல்லாங்குழல் வாங்கச் சேமிக்கிறாள், ஆனால் அவசத் தேவைக்காகத் தனது பணத்தைத் தந்தையிடம் கொடுக்கிறாள். இறுதியில், இருவருக்கும் அவர்களது விவேகத்திற்காகப் பரிசு கிடைக்கிறது: செந்திலுக்கு ஒரு கேமராவும், கமலிக்கு அவள் ஆசைப்பட்ட புல்லாங்குழலும் கிடைக்கிறது. அடிப்படைத் தேவைகளைப் பூர்த்தி செய்த பிறகே சேமிக்க வேண்டும் என்றும், அது அர்த்தமுள்ள இலக்குகளை அடைய உதவும் என்றும் இக்கதை கற்பிக்கிறது.</p></div>"
+    },
+    {
+      "type": "content",
+      "title": "2. Glossary & Meanings || 2. கலைச்சொற்கள் மற்றும் பொருள்கள்",
+      "content": "<div><ul><li><p class='en-text'><strong>Festival:</strong> A day or period of celebration.</p><p class='tm-text'><strong>திருவிழா:</strong> கொண்டாட்டத்திற்குரிய நாள் அல்லது காலம்.</p></li><li><p class='en-text'><strong>Piggy bank:</strong> A container for saving coins.</p><p class='tm-text'><strong>உண்டியல்:</strong> நாணயங்களைச் சேமிப்பதற்கான ஒரு கொள்கலன்.</p></li><li><p class='en-text'><strong>Flute:</strong> A musical instrument played by blowing into it.</p><p class='tm-text'><strong>புல்லாங்குழல்:</strong> ஊதுவதன் மூலம் இசைக்கப்படும் ஒரு இசைக்கருவி.</p></li><li><p class='en-text'><strong>Cousin:</strong> The child of one's aunt or uncle.</p><p class='tm-text'><strong>உறவினர்:</strong> ஒருவரின் அத்தை அல்லது மாமாவின் குழந்தை.</p></li><li><p class='en-text'><strong>Wisely:</strong> Showing good judgment.</p><p class='tm-text'><strong>விவேகமாக:</strong> புத்திசாலித்தனமாகச் செயல்படுவது.</p></li></ul></div>"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Who are the cousins mentioned in the story? || கதையில் குறிப்பிடப்பட்டுள்ள உறவினர்கள் யார்?",
+      "options": ["Ram and Somu", "Kamali and Senthil", "Siva and Guru", "Arun and Balu"],
+      "answer": 1,
+      "explanation": "Kamali and Senthil are the two main characters. || கமலியும் செந்திலும் இக்கதையின் முக்கிய கதாபாத்திரங்கள்."
+    },
+    {
+      "question": "Where did the cousins go for the festival? || உறவினர்கள் திருவிழாவிற்காக எங்கு சென்றனர்?",
+      "options": ["To the city", "To their grandparents' village", "To a hill station", "To a beach"],
+      "answer": 1,
+      "explanation": "They visited their grandparents for the car festival. || தேர்த்திருவிழாவிற்காக அவர்கள் தாத்தா பாட்டி ஊருக்குச் சென்றனர்."
+    },
+    {
+      "question": "What did Senthil open to save money? || பணத்தைச் சேமிக்க செந்தில் எதைத் தொடங்கினான்?",
+      "options": ["A bank account", "A post office savings account", "A business", "A school"],
+      "answer": 1,
+      "explanation": "Senthil chose the post office to keep his savings. || செந்தில் தனது சேமிப்பை வைக்க அஞ்சல் நிலையத்தைத் தேர்ந்தெடுத்தான்."
+    },
+    {
+      "question": "How did Senthil save money on travel? || பயணத்தில் செந்தில் எப்படிப் பணத்தைச் சேமித்தான்?",
+      "options": ["By flying", "By walking instead of taking a bus", "By taking a taxi", "By staying home"],
+      "answer": 1,
+      "explanation": "He walked to places to avoid spending on bus tickets. || பேருந்துச் செலவைத் தவிர்க்க அவன் நடந்தே சென்றான்."
+    },
+    {
+      "question": "What did Kamali want to buy with her savings? || கமலி தனது சேமிப்பில் எதை வாங்க விரும்பினாள்?",
+      "options": ["A doll", "A flute", "A dress", "A cycle"],
+      "answer": 1,
+      "explanation": "Kamali's dream was to own a flute. || கமலியின் கனவு ஒரு புல்லாங்குழல் வாங்குவது."
+    },
+    {
+      "question": "Why did Kamali give her money to her father? || கமலி ஏன் தனது பணத்தைத் தந்தையிடம் கொடுத்தாள்?",
+      "options": ["To buy a toy", "For a family emergency", "To go on a trip", "To pay school fees"],
+      "answer": 1,
+      "explanation": "She sacrificed her dream for a family need. || குடும்பத் தேவைக்காக அவள் தனது கனவைத் தியாகம் செய்தாள்."
+    },
+    {
+      "question": "What was the final reward for Senthil? || செந்திலுக்கு இறுதியில் கிடைத்த பரிசு என்ன?",
+      "options": ["A cycle", "A camera", "A watch", "A book"],
+      "answer": 1,
+      "explanation": "He was rewarded with a camera for his wise saving. || அவனது விவேகமான சேமிப்பிற்காக அவனுக்கு ஒரு கேமரா கிடைத்தது."
+    },
+    {
+      "question": "Who gave Kamali the flute in the end? || முடிவில் கமலிக்கு புல்லாங்குழலைக் கொடுத்தது யார்?",
+      "options": ["Her friend", "Her father", "Her grandfather", "Her cousin"],
+      "answer": 1,
+      "explanation": "Her father bought it for her, appreciating her sacrifice. || அவளது தியாகத்தைப் பாராட்டி, அவளது தந்தை அவளுக்கு அதை வாங்கிக் கொடுத்தார்."
+    },
+    {
+      "question": "What does 'Piggy bank' mean? || 'Piggy bank' என்பதன் பொருள் என்ன?",
+      "options": ["A bank for pigs", "A container to save coins", "A type of toy", "A food item"],
+      "answer": 1,
+      "explanation": "It is a small box used by children to save money. || குழந்தைகள் பணத்தைச் சேமிக்கப் பயன்படுத்தும் ஒரு சிறிய பெட்டி."
+    },
+    {
+      "question": "The story 'Save Wisely' teaches us to ____. || 'விவேகமாகச் சேமி' கதை நமக்கு ____ கற்பிக்கிறது.",
+      "options": ["Spend all money", "Save for meaningful goals", "Be selfish", "Hide money"],
+      "answer": 1,
+      "explanation": "It emphasizes planning and wise spending. || இது திட்டமிடுதல் மற்றும் விவேகமான செலவினங்களை வலியுறுத்துகிறது."
+    },
+    {
+      "question": "What festival was held in the village? || கிராமத்தில் என்ன திருவிழா நடைபெற்றது?",
+      "options": ["Flower festival", "Car festival (Theru Thiruvizha)", "Kite festival", "Music festival"],
+      "answer": 1,
+      "explanation": "The village had a grand car festival. || கிராமத்தில் ஒரு பெரிய தேர்த்திருவிழா நடைபெற்றது."
+    },
+    {
+      "question": "Senthil reused ____ to save money. || பணத்தைச் சேமிக்க செந்தில் ____ மீண்டும் பயன்படுத்தினான்.",
+      "options": ["Old clothes", "Old books", "Old toys", "Old shoes"],
+      "answer": 1,
+      "explanation": "He saved by not buying new books. || புதிய புத்தகங்களை வாங்காமல் சேமித்தான்."
+    },
+    {
+      "question": "How did the grandparents encourage the children? || தாத்தா பாட்டி குழந்தைகளை எப்படி ஊக்குவித்தனர்?",
+      "options": ["By giving them work", "By giving them pocket money for the festival", "By telling them to stay inside", "By buying them sweets"],
+      "answer": 1,
+      "explanation": "They gave them money to spend as they liked. || அவர்கள் விரும்பியபடி செலவழிக்கப் பணம் கொடுத்தார்கள்."
+    },
+    {
+      "question": "What is the meaning of 'Wisely'? || 'Wisely' என்பதன் பொருள் என்ன?",
+      "options": ["Foolishly", "Quickly", "In a smart and sensible way", "Loudly"],
+      "answer": 2,
+      "explanation": "Acting wisely means making good decisions. || விவேகமாகச் செயல்படுவது என்பது நல்ல முடிவுகளை எடுப்பதாகும்."
+    },
+    {
+      "question": "Identify the noun: The camera is expensive. || பெயர்ச்சொல்லைக் கண்டறியவும்: கேமரா விலை உயர்ந்தது.",
+      "options": ["Camera", "Expensive", "Is", "The"],
+      "answer": 0,
+      "explanation": "Camera is the name of the object. || Camera என்பது ஒரு பொருளின் பெயர்."
+    },
+    {
+      "question": "What is the plural of 'Flute'? || 'Flute' என்பதன் பன்மை என்ன?",
+      "options": ["Flutes", "Flutess", "Flutees", "Flute's"],
+      "answer": 0,
+      "explanation": "The plural is flutes. || பன்மை Flutes."
+    },
+    {
+      "question": "Which of these is a way to save money? || இதில் எது பணத்தைச் சேமிக்கும் வழி?",
+      "options": ["Buying unnecessary toys", "Walking instead of taking transport", "Spending on sweets daily", "Losing your bag"],
+      "answer": 1,
+      "explanation": "Reducing travel costs is a saving method. || பயணச் செலவுகளைக் குறைப்பது ஒரு சேமிப்பு முறை."
+    },
+    {
+      "question": "What did the other children do with their money? || மற்ற குழந்தைகள் தங்கள் பணத்தை என்ன செய்தார்கள்?",
+      "options": ["Saved it", "Spent it on toys and sweets", "Gave it to charity", "Lost it"],
+      "answer": 1,
+      "explanation": "Most children spent it immediately. || பெரும்பாலான குழந்தைகள் அதை உடனடியாகச் செலவழித்தனர்."
+    },
+    {
+      "question": "What is a 'Cousin'? || 'Cousin' என்பது யார்?",
+      "options": ["A brother", "A sister", "A relative (child of aunt/uncle)", "A teacher"],
+      "answer": 2,
+      "explanation": "Cousins are extended family members. || உறவுமுறை சகோதர/சகோதரிகள்."
+    },
+    {
+      "question": "True or False: Kamali was sad she couldn't buy the flute. || சரி அல்லது தவறு: புல்லாங்குழல் வாங்க முடியாததால் கமலி வருத்தமடைந்தாள்.",
+      "options": ["True", "False"],
+      "answer": 0,
+      "explanation": "Initially, she felt bad, but she was happy to help her family. || ஆரம்பத்தில் வருத்தப்பட்டாலும், குடும்பத்திற்கு உதவியதில் மகிழ்ச்சி அடைந்தாள்."
+    },
+    {
+      "question": "What was the 'emergency' in the family? || குடும்பத்தில் ஏற்பட்ட 'அவசரத் தேவை' என்ன?",
+      "options": ["Buying a car", "A medical or household need", "A birthday party", "A holiday trip"],
+      "answer": 1,
+      "explanation": "The money was needed for something important. || பணம் ஒரு முக்கியமான விஷயத்திற்காகத் தேவைப்பட்டது."
+    },
+    {
+      "question": "What does 'Festival' mean? || 'Festival' என்பதன் பொருள் என்ன?",
+      "options": ["A sad day", "A day of celebration", "A working day", "A night time"],
+      "answer": 1,
+      "explanation": "Festivals are times of joy and gathering. || திருவிழாக்கள் மகிழ்ச்சி மற்றும் ஒன்றுகூடும் நேரங்கள்."
+    },
+    {
+      "question": "Which word is a synonym for 'Expensive'? || 'Expensive' என்பதன் ஒத்த சொல் எது?",
+      "options": ["Cheap", "Costly", "Free", "Old"],
+      "answer": 1,
+      "explanation": "Expensive means having a high price. || விலை உயர்ந்தது."
+    },
+    {
+      "question": "Is 'Grandparents' a compound word? || 'Grandparents' ஒரு கூட்டுச் சொல்லா?",
+      "options": ["Yes", "No"],
+      "answer": 0,
+      "explanation": "Grand + Parents = Grandparents. || Grand மற்றும் Parents இணைந்தது."
+    },
+    {
+      "question": "What is the opposite of 'Wisely'? || 'Wisely' என்பதன் எதிர்ச்சொல் என்ன?",
+      "options": ["Smartly", "Foolishly", "Carefully", "Quickly"],
+      "answer": 1,
+      "explanation": "Foolishly is the opposite of wisely. || விவேகத்திற்கு எதிர்ச் சொல் அறிவீனம் (Foolishly)."
+    },
+    {
+      "question": "Where did the story end? || கதை எங்கு முடிந்தது?",
+      "options": ["In the village", "Back in their home", "In the school", "In the market"],
+      "answer": 1,
+      "explanation": "The reunion and rewards happened after they returned. || அவர்கள் திரும்பிய பிறகு பரிசுகள் கிடைத்தன."
+    },
+    {
+      "question": "How did Senthil feel about his camera? || தனது கேமராவைப் பற்றி செந்தில் எப்படி உணர்ந்தான்?",
+      "options": ["He didn't like it", "He was proud and happy", "He was bored", "He broke it"],
+      "answer": 1,
+      "explanation": "It was a result of his hard work and saving. || அது அவனது உழைப்பு மற்றும் சேமிப்பின் பலன்."
+    },
+    {
+      "question": "What is the past form of 'spend'? || 'spend' என்பதன் இறந்த கால வடிவம் என்ன?",
+      "options": ["spended", "spent", "spending", "spends"],
+      "answer": 1,
+      "explanation": "The past of spend is spent. || Spend என்பதன் இறந்த காலம் Spent."
+    },
+    {
+      "question": "What is the meaning of 'Emergency'? || 'Emergency' என்பதன் பொருள் என்ன?",
+      "options": ["A planned event", "An unexpected serious situation", "A game", "A holiday"],
+      "answer": 1,
+      "explanation": "An emergency requires immediate action. || உடனடி நடவடிக்கை தேவைப்படும் எதிர்பாராத நிலை."
+    },
+    {
+      "question": "Which of these is a musical instrument? || இதில் எது ஓர் இசைக்கருவி?",
+      "options": ["Camera", "Flute", "Piggy bank", "Book"],
+      "answer": 1,
+      "explanation": "Flute is a wind instrument. || புல்லாங்குழல் ஒரு காற்றுக் கருவி."
+    },
+    {
+      "question": "True or False: Savings can help in the future. || சரி அல்லது தவறு: சேமிப்பு எதிர்காலத்தில் உதவும்.",
+      "options": ["True", "False"],
+      "answer": 0,
+      "explanation": "This is the main theme of the lesson. || இதுவே பாடத்தின் முக்கிய கருப்பொருள்."
+    },
+    {
+      "question": "Who was the most 'wise' in the story? || கதையில் மிகவும் 'விவேகமாக' இருந்தது யார்?",
+      "options": ["The other children", "Kamali and Senthil", "The sweet seller", "The toy seller"],
+      "answer": 1,
+      "explanation": "They showed restraint and planning. || அவர்கள் நிதானத்தையும் திட்டமிடுதலையும் காட்டினர்."
+    },
+    {
+      "question": "What is the plural of 'Cousin'? || 'Cousin' என்பதன் பன்மை என்ன?",
+      "options": ["Cousiness", "Cousins", "Cousin's", "Cousines"],
+      "answer": 1,
+      "explanation": "The plural is cousins. || பன்மை Cousins."
+    },
+    {
+      "question": "What did Senthil do at the post office? || அஞ்சல் நிலையத்தில் செந்தில் என்ன செய்தான்?",
+      "options": ["Sent a letter", "Deposited his savings", "Bought a stamp", "Met a friend"],
+      "answer": 1,
+      "explanation": "He kept his money safe there. || அவன் தனது பணத்தை அங்கே பாதுகாப்பாக வைத்தான்."
+    },
+    {
+      "question": "What part of speech is 'Expensive'? || 'Expensive' என்பது எவ்வகை சொல்?",
+      "options": ["Noun", "Verb", "Adjective", "Adverb"],
+      "answer": 2,
+      "explanation": "It describes the camera. || இது கேமராவை விவரிக்கிறது."
+    },
+    {
+      "question": "What was the car festival called in Tamil? || தேர்த்திருவிழா தமிழில் எவ்வாறு அழைக்கப்பட்டது?",
+      "options": ["Theru Vizha", "Theru Thiruvizha", "Thiruvizha", "Therottam"],
+      "answer": 1,
+      "explanation": "It is mentioned as 'Car festival' or 'Theru Thiruvizha'. || இது தேர்த்திருவிழா என்று குறிப்பிடப்பட்டுள்ளது."
+    },
+    {
+      "question": "How many cousins were there? || எத்தனை உறவினர்கள் இருந்தனர்?",
+      "options": ["One", "Two", "Three", "Four"],
+      "answer": 1,
+      "explanation": "Kamali and Senthil are the two cousins. || கமலியும் செந்திலும் இரு உறவினர்கள்."
+    },
+    {
+      "question": "What is the synonym of 'Reward'? || 'Reward' என்பதன் ஒத்த சொல் எது?",
+      "options": ["Prize", "Punishment", "Loss", "Job"],
+      "answer": 0,
+      "explanation": "A reward is given for good work. || ஒரு நல்ல வேலைக்காக வழங்கப்படும் பரிசு."
+    },
+    {
+      "question": "We should save ____ fulfilling our needs. || நமது தேவைகளை நிறைவேற்றிய ____ சேமிக்க வேண்டும்.",
+      "options": ["before", "after", "without", "never"],
+      "answer": 1,
+      "explanation": "Basic needs come first. || அடிப்படைத் தேவைகளுக்கே முன்னுரிமை."
+    },
+    {
+      "question": "What is the lesson's moral? || பாடத்தின் நீதி என்ன?",
+      "options": ["Saving is wise", "Never save", "Spend on sweets", "Be lazy"],
+      "answer": 0,
+      "explanation": "Saving wisely leads to rewards. || விவேகமாகச் சேமிப்பது வெற்றியைத் தரும்."
+    }
+  ]
+}

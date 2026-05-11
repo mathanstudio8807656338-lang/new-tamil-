@@ -1,0 +1,247 @@
+{
+  "lesson_meta": {
+    "title": "Unit 1: Affection (Supplementary: A True Friend) || அலகு 1: பாசம் (துணைப்பாடம்: ஒரு உண்மையான நண்பன்)",
+    "grade": "4",
+    "term": "2",
+    "unit": "1",
+    "type": "Supplementary",
+    "language": "English",
+    "code": "eng_4_t2_l3"
+  },
+  "material": [
+    {
+      "type": "content",
+      "title": "1. Story Summary (Bilingual) || 1. கதையின் சுருக்கம் (இருமொழி)",
+      "content": "<div><p class='en-text'>'A True Friend' is a heartwarming story about two close friends, Nandhu and Muthu. They always help each other and share everything. One day, Muthu becomes very sad because his family is facing a difficult time. Nandhu notices this and decides to help his friend without even being asked. He saves his pocket money and uses it to buy the things Muthu needs for school. The story illustrates that a true friend is someone who understands your silence and stands by you during tough times.</p><p class='tm-text'>'ஒரு உண்மையான நண்பன்' என்பது நந்து மற்றும் முத்து என்ற இரு நெருங்கிய நண்பர்களைப் பற்றிய இதயத்தைத் தொடும் கதையாகும். அவர்கள் எப்போதும் ஒருவருக்கொருவர் உதவி செய்துகொள்வார்கள் மற்றும் அனைத்தையும் பகிர்ந்து கொள்வார்கள். ஒரு நாள், முத்துவின் குடும்பம் இக்கட்டான நிலையில் இருப்பதால் அவன் மிகவும் கவலையடைகிறான். நந்து இதைக் கவனித்து, கேட்காமலேயே தனது நண்பனுக்கு உதவ முடிவு செய்கிறான். அவன் தனது சேமிப்புப் பணத்தைச் சேர்த்து வைத்து, முத்துவுக்குத் தேவையான பள்ளி உபகரணங்களை வாங்கிக் கொடுக்கிறான். ஒரு உண்மையான நண்பன் என்பவர் உங்கள் மௌனத்தைப் புரிந்துகொள்பவர் மற்றும் கடினமான காலங்களில் உங்களுடன் நிற்பவர் என்பதை இக்கதை விளக்குகிறது.</p></div>"
+    },
+    {
+      "type": "content",
+      "title": "2. Glossary & Meanings || 2. கலைச்சொற்கள் மற்றும் பொருள்கள்",
+      "content": "<div><ul><li><p class='en-text'><strong>Sincere:</strong> Honest and real.</p><p class='tm-text'><strong>நேர்மையான:</strong> உண்மையான மற்றும் உண்மையானது.</p></li><li><p class='en-text'><strong>Silence:</strong> Quietness; no sound.</p><p class='tm-text'><strong>மௌனம்:</strong> அமைதி; சத்தம் இல்லாமை.</p></li><li><p class='en-text'><strong>Comfort:</strong> To make someone feel better.</p><p class='tm-text'><strong>ஆறுதல்:</strong> ஒருவரை நன்றாக உணர வைப்பது.</p></li><li><p class='en-text'><strong>Upset:</strong> Unhappy or worried.</p><p class='tm-text'><strong>வருத்தம்:</strong> மகிழ்ச்சியின்மை அல்லது கவலை.</p></li><li><p class='en-text'><strong>Support:</strong> Help and encouragement.</p><p class='tm-text'><strong>ஆதரவு:</strong> உதவி மற்றும் ஊக்கம்.</p></li></ul></div>"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Who are the two friends in the story? || கதையில் வரும் இரு நண்பர்கள் யார்?",
+      "options": ["Ram and Somu", "Nandhu and Muthu", "Siva and Guru", "Arun and Balu"],
+      "answer": 1,
+      "explanation": "Nandhu and Muthu are the main characters. || நந்துவும் முத்துவும் இக்கதையின் நாயகர்கள்."
+    },
+    {
+      "question": "Why was Muthu upset? || முத்து ஏன் வருத்தமாக இருந்தான்?",
+      "options": ["He lost his toy", "His family had financial problems", "He failed the exam", "He was sick"],
+      "answer": 1,
+      "explanation": "His family was going through a hard time. || அவனது குடும்பம் கஷ்ட நிலையில் இருந்தது."
+    },
+    {
+      "question": "What did Nandhu do to help Muthu? || முத்துவுக்கு உதவ நந்து என்ன செய்தான்?",
+      "options": ["He gave him his old books", "He saved money to buy school supplies", "He told the teacher", "He did nothing"],
+      "answer": 1,
+      "explanation": "Nandhu used his savings to buy things for Muthu. || நந்து தனது சேமிப்பிலிருந்து முத்துவுக்குத் தேவையானவற்றை வாங்கினான்."
+    },
+    {
+      "question": "How did Nandhu know Muthu was sad? || முத்து வருத்தமாக இருப்பதை நந்து எப்படி அறிந்தான்?",
+      "options": ["Muthu told him", "Nandhu noticed his silence", "The teacher told him", "His mother told him"],
+      "answer": 1,
+      "explanation": "A true friend understands feelings without words. || ஒரு உண்மையான நண்பன் வார்த்தைகள் இல்லாமலேயே உணர்வுகளைப் புரிந்துகொள்வான்."
+    },
+    {
+      "question": "What did Muthu feel when Nandhu helped him? || நந்து உதவியபோது முத்து என்ன உணர்ந்தான்?",
+      "options": ["Angry", "Grateful and happy", "Sad", "Jealous"],
+      "answer": 1,
+      "explanation": "He was touched by Nandhu's kindness. || நந்துவின் கருணையால் அவன் நெகிழ்ந்து போனான்."
+    },
+    {
+      "question": "What is the meaning of 'Sincere'? || 'Sincere' என்பதன் பொருள் என்ன?",
+      "options": ["Fake", "Honest", "Lazy", "Loud"],
+      "answer": 1,
+      "explanation": "Sincere means being genuine and honest. || Sincere என்றால் உண்மையான மற்றும் நேர்மையான."
+    },
+    {
+      "question": "A true friend is someone who ____. || ஒரு உண்மையான நண்பன் என்பவர் ____.",
+      "options": ["Laughs at you", "Leaves you in trouble", "Stands by you", "Ignores you"],
+      "answer": 2,
+      "explanation": "True friends offer support in difficult times. || கஷ்ட காலங்களில் உண்மையான நண்பர்கள் ஆதரவு தருவார்கள்."
+    },
+    {
+      "question": "Where did the friends usually spend their time? || நண்பர்கள் வழக்கமாக எங்கே நேரத்தைச் செலவிடுவார்கள்?",
+      "options": ["At the market", "At school and playground", "In the forest", "At the cinema"],
+      "answer": 1,
+      "explanation": "They were classmates and playmates. || அவர்கள் ஒன்றாகப் படிப்பவர்கள் மற்றும் விளையாடுபவர்கள்."
+    },
+    {
+      "question": "What did Nandhu save to help Muthu? || முத்துவுக்கு உதவ நந்து எதைச் சேமித்தான்?",
+      "options": ["Clothes", "Pocket money", "Food", "Stamps"],
+      "answer": 1,
+      "explanation": "He saved his small daily allowance. || அவன் தனது தினசரி சிறு செலவுப் பணத்தைச் சேமித்தான்."
+    },
+    {
+      "question": "What does 'Silence' mean? || 'Silence' என்பதன் பொருள் என்ன?",
+      "options": ["Noise", "Quietness", "Music", "Shouting"],
+      "answer": 1,
+      "explanation": "Silence is the absence of sound. || சத்தம் இல்லாமை."
+    },
+    {
+      "question": "Identify the adjective: Muthu is a loyal friend. || பெயரடையைக் கண்டறியவும்: முத்து ஒரு விசுவாசமான நண்பன்.",
+      "options": ["Muthu", "Friend", "Loyal", "Is"],
+      "answer": 2,
+      "explanation": "Loyal describes the kind of friend he is. || Loyal என்பது அவன் எவ்வகையான நண்பன் என்பதை விவரிக்கிறது."
+    },
+    {
+      "question": "What is the opposite of 'Friend'? || 'Friend' என்பதன் எதிர்ச்சொல் என்ன?",
+      "options": ["Partner", "Enemy", "Buddy", "Relative"],
+      "answer": 1,
+      "explanation": "Enemy is the opposite of friend. || நண்பனுக்கு எதிர்ச் சொல் எதிரி."
+    },
+    {
+      "question": "How should we treat our friends? || நமது நண்பர்களை நாம் எப்படி நடத்த வேண்டும்?",
+      "options": ["Rudely", "With kindness and honesty", "With selfishness", "By lying to them"],
+      "answer": 1,
+      "explanation": "Friendship is built on trust and kindness. || நட்பு நம்பிக்கை மற்றும் கருணையில் கட்டமைக்கப்பட்டுள்ளது."
+    },
+    {
+      "question": "What lesson does this story teach? || இக்கதை என்ன பாடத்தைக் கற்பிக்கிறது?",
+      "options": ["To earn money", "The value of true friendship", "To play games", "To go to school"],
+      "answer": 1,
+      "explanation": "It teaches the importance of being there for others. || மற்றவர்களுக்கு உறுதுணையாக இருப்பதன் முக்கியத்துவத்தை இது கற்பிக்கிறது."
+    },
+    {
+      "question": "What did Nandhu buy for Muthu? || முத்துவுக்கு நந்து என்ன வாங்கினான்?",
+      "options": ["Chocolates", "School supplies", "A cycle", "A ball"],
+      "answer": 1,
+      "explanation": "He bought things that were needed for his studies. || அவன் படிப்பிற்குத் தேவையானவற்றை வாங்கினான்."
+    },
+    {
+      "question": "Muthu and Nandhu were in the same ____. || முத்துவும் நந்துவும் ஒரே ____ இருந்தனர்.",
+      "options": ["House", "Class", "Village", "Both Class and Village"],
+      "answer": 3,
+      "explanation": "They shared their school and living area. || அவர்கள் பள்ளி மற்றும் வசிப்பிடத்தைப் பகிர்ந்து கொண்டனர்."
+    },
+    {
+      "question": "Which word is a synonym for 'Upset'? || 'Upset' என்பதன் ஒத்த சொல் எது?",
+      "options": ["Happy", "Sad", "Excited", "Calm"],
+      "answer": 1,
+      "explanation": "Upset means feeling unhappy. || வருத்தமாக இருப்பது."
+    },
+    {
+      "question": "What is the past tense of 'Help'? || 'Help' என்பதன் இறந்த காலம் என்ன?",
+      "options": ["Helps", "Helping", "Helped", "Helpful"],
+      "answer": 2,
+      "explanation": "The past tense of help is helped. || Help என்பதன் இறந்த காலம் Helped."
+    },
+    {
+      "question": "True or False: Muthu asked Nandhu for money. || சரி அல்லது தவறு: முத்து நந்துவிடம் பணம் கேட்டான்.",
+      "options": ["True", "False"],
+      "answer": 1,
+      "explanation": "Nandhu helped without being asked. || கேட்காமலேயே நந்து உதவினான்."
+    },
+    {
+      "question": "What is the collective noun for a group of students? || மாணவர்களின் கூட்டத்திற்கான கூட்டுப் பெயர் என்ன?",
+      "options": ["Team", "Class", "Army", "Bunched"],
+      "answer": 1,
+      "explanation": "A group of students in a school is a class. || பள்ளி மாணவர் குழுவை வகுப்பு (Class) என்போம்."
+    },
+    {
+      "question": "Which of these shows 'true friendship'? || இதில் எது 'உண்மையான நட்பைக்' காட்டுகிறது?",
+      "options": ["Borrowing things and not returning", "Helping a friend in need", "Telling secrets of a friend", "Fighting always"],
+      "answer": 1,
+      "explanation": "Support during difficult times is true friendship. || கஷ்ட காலத்தில் உதவுவதே உண்மையான நட்பு."
+    },
+    {
+      "question": "The friends were like ____. || நண்பர்கள் ____ போல இருந்தார்கள்.",
+      "options": ["Strangers", "Brothers", "Enemies", "Birds"],
+      "answer": 1,
+      "explanation": "They were very close. || அவர்கள் மிகவும் நெருக்கமாக இருந்தனர்."
+    },
+    {
+      "question": "What is the plural of 'Friend'? || 'Friend' என்பதன் பன்மை என்ன?",
+      "options": ["Friendes", "Friends", "Friend's", "Friendses"],
+      "answer": 1,
+      "explanation": "The plural is friends. || பன்மை Friends."
+    },
+    {
+      "question": "What does 'Comfort' mean? || 'Comfort' என்பதன் பொருள் என்ன?",
+      "options": ["To scare", "To soothe or console", "To hurt", "To run"],
+      "answer": 1,
+      "explanation": "Comforting is making someone feel better emotionally. || ஒருவருக்கு ஆறுதல் அளிப்பது."
+    },
+    {
+      "question": "Nandhu was a ____ child. || நந்து ஒரு ____ குழந்தை.",
+      "options": ["Greedy", "Thoughtful", "Mean", "Lazy"],
+      "answer": 1,
+      "explanation": "He thought about his friend's problems. || அவன் தனது நண்பனின் பிரச்சனைகளைப் பற்றி சிந்தித்தான்."
+    },
+    {
+      "question": "Which word is a noun? || இதில் எது பெயர்ச்சொல்?",
+      "options": ["Help", "Nandhu", "Quietly", "Kind"],
+      "answer": 1,
+      "explanation": "Nandhu is a name. || நந்து என்பது ஒரு பெயர்."
+    },
+    {
+      "question": "What is the synonym of 'Support'? || 'Support' என்பதன் ஒத்த சொல் எது?",
+      "options": ["Assistance", "Hindrance", "Problem", "Fight"],
+      "answer": 0,
+      "explanation": "Support means giving help. || உதவி வழங்குவது."
+    },
+    {
+      "question": "Is 'Playground' a compound word? || 'Playground' ஒரு கூட்டுச் சொல்லா?",
+      "options": ["Yes", "No"],
+      "answer": 0,
+      "explanation": "Play + Ground = Playground. || Play மற்றும் Ground இணைந்தது."
+    },
+    {
+      "question": "What happened at the end of the story? || கதையின் இறுதியில் என்ன நடந்தது?",
+      "options": ["They fought", "They remained best friends", "They moved to different cities", "They forgot each other"],
+      "answer": 1,
+      "explanation": "Their bond became even stronger. || அவர்களின் பிணைப்பு இன்னும் வலுவானது."
+    },
+    {
+      "question": "Who is the 'True Friend' referred to in the title? || தலைப்பில் குறிப்பிடப்பட்டுள்ள 'உண்மையான நண்பன்' யார்?",
+      "options": ["Muthu", "Nandhu", "The Teacher", "The Parent"],
+      "answer": 1,
+      "explanation": "Nandhu's actions proved he was a true friend. || நந்துவின் செயல்கள் அவன் ஒரு உண்மையான நண்பன் என்பதை நிரூபித்தன."
+    },
+    {
+      "question": "What is the meaning of 'Upset'? || 'Upset' என்பதன் பொருள் என்ன?",
+      "options": ["To win", "To be unhappy", "To run fast", "To sleep"],
+      "answer": 1,
+      "explanation": "Upset refers to emotional distress. || மனவருத்தம்."
+    },
+    {
+      "question": "True or False: Pocket money can be saved. || சரி அல்லது தவறு: செலவுப் பணத்தைச் சேமிக்க முடியும்.",
+      "options": ["True", "False"],
+      "answer": 0,
+      "explanation": "Nandhu showed it is possible. || நந்து அதைச் சாத்தியம் என்று காட்டினான்."
+    },
+    {
+      "question": "Which word means 'the absence of sound'? || 'சத்தம் இல்லாமை' என்ற பொருள் தரும் சொல் எது?",
+      "options": ["Noise", "Silence", "Music", "Talk"],
+      "answer": 1,
+      "explanation": "Silence is being quiet. || மௌனம்."
+    },
+    {
+      "question": "What is the moral? || நீதி என்ன?",
+      "options": ["Money is everything", "A friend in need is a friend indeed", "Play always", "Study alone"],
+      "answer": 1,
+      "explanation": "Helping during hard times defines friendship. || கஷ்ட காலத்தில் உதவுவதே நட்பை வரையறுக்கிறது."
+    },
+    {
+      "question": "How did Nandhu feel after helping? || உதவிய பிறகு நந்து எப்படி உணர்ந்தான்?",
+      "options": ["Proud and happy", "Regretful", "Sad", "Tired"],
+      "answer": 0,
+      "explanation": "Helping others gives joy. || மற்றவர்களுக்கு உதவுவது மகிழ்ச்சியைத் தரும்."
+    },
+    {
+      "question": "Nandhu noticed Muthu's ____. || நந்து முத்துவின் ____ கவனித்தான்.",
+      "options": ["New shoes", "Silence", "Laughter", "Bag"],
+      "answer": 1,
+      "explanation": "He saw that Muthu was unusually quiet. || முத்து வழக்கத்திற்கு மாறாக அமைதியாக இருப்பதை அவன் பார்த்தான்."
+    },
+    {
+      "question": "What is the past form of 'think'? || 'think' என்பதன் இறந்த கால வடிவம் என்ன?",
+      "options": ["thinked", "thought", "thinks", "thinking"],
+      "answer": 1,
+      "explanation": "The past of think is thought. || Think என்பதன் இறந்த காலம் Thought."
+    }
+  ]
+}

@@ -72,6 +72,60 @@ export const lessonMap = {
       "grade": "4",
       "term": 1
     },
+    "Unit 1: Affection (Prose: Appa) || அலகு 1: பாசம் (உரைநடை: அப்பா)": {
+      "local": true,
+      "filename": "Lesson_1",
+      "grade": "4",
+      "term": 2
+    },
+    "Unit 1: Affection (Poem: The Real Wealth) || அலகு 1: பாசம் (கவிதை: உண்மையான செல்வம்)": {
+      "local": true,
+      "filename": "Lesson_2",
+      "grade": "4",
+      "term": 2
+    },
+    "Unit 1: Affection (Supplementary: A True Friend) || அலகு 1: பாசம் (துணைப்பாடம்: ஒரு உண்மையான நண்பன்)": {
+      "local": true,
+      "filename": "Lesson_3",
+      "grade": "4",
+      "term": 2
+    },
+    "Unit 2: Savings (Prose: A Lesson to Save) || அலகு 2: சேமிப்பு (உரைநடை: சேமிக்க ஒரு பாடம்)": {
+      "local": true,
+      "filename": "Lesson_4",
+      "grade": "4",
+      "term": 2
+    },
+    "Lesson_4": {
+      "local": true,
+      "filename": "Lesson_4",
+      "grade": "5",
+      "term": 1
+    },
+    "Unit 2: Savings (Poem: What do humans save?) || அலகு 2: சேமிப்பு (கவிதை: மனிதர்கள் எதைச் சேமிக்கிறார்கள்?)": {
+      "local": true,
+      "filename": "Lesson_5",
+      "grade": "4",
+      "term": 2
+    },
+    "Lesson_5": {
+      "local": true,
+      "filename": "Lesson_5",
+      "grade": "5",
+      "term": 1
+    },
+    "Unit 2: Savings (Supplementary: Save Wisely) || அலகு 2: சேமிப்பு (துணைப்பாடம்: விவேகமாகச் சேமி)": {
+      "local": true,
+      "filename": "Lesson_6",
+      "grade": "4",
+      "term": 2
+    },
+    "Lesson_6": {
+      "local": true,
+      "filename": "Lesson_6",
+      "grade": "5",
+      "term": 1
+    },
     "Unit 1: Exploring Space || அலகு 1: விண்வெளிப் பயணம்": {
       "local": true,
       "filename": "Lesson_1",
@@ -96,27 +150,9 @@ export const lessonMap = {
       "grade": "5",
       "term": 1
     },
-    "Lesson_4": {
-      "local": true,
-      "filename": "Lesson_4",
-      "grade": "5",
-      "term": 1
-    },
     "Unit 2: My Native Place (Part 2)": {
       "local": true,
       "filename": "Lesson_5",
-      "grade": "5",
-      "term": 1
-    },
-    "Lesson_5": {
-      "local": true,
-      "filename": "Lesson_5",
-      "grade": "5",
-      "term": 1
-    },
-    "Lesson_6": {
-      "local": true,
-      "filename": "Lesson_6",
       "grade": "5",
       "term": 1
     },
