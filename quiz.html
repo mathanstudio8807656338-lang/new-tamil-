@@ -520,6 +520,24 @@
                     } else {
                         questions = data.quiz ? (data.quiz.questions || (Array.isArray(data.quiz) ? data.quiz : [])) : (data.questions || []);
                     }
+
+                    // Normalize questions: handle object options and letter answers
+                    questions = questions.map(q => {
+                        let optArr = [];
+                        if (Array.isArray(q.options)) {
+                            optArr = q.options;
+                        } else if (q.options && typeof q.options === 'object') {
+                            optArr = [q.options.A, q.options.B, q.options.C, q.options.D];
+                        }
+
+                        let ansIdx = q.answer !== undefined ? q.answer : q.a;
+                        if (typeof ansIdx === 'string') {
+                            const letterMap = { 'A': 0, 'B': 1, 'C': 2, 'D': 3 };
+                            ansIdx = letterMap[ansIdx.toUpperCase()] !== undefined ? letterMap[ansIdx.toUpperCase()] : 0;
+                        }
+                        
+                        return { ...q, options: optArr, answer: ansIdx };
+                    });
                     
                     if (questions.length === 0) {
                         alert("இந்த பகுதியில் கேள்விகள் இன்னும் தயாராகவில்லை.");
