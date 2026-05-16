@@ -27,18 +27,7 @@ export function getSafeFileName(topic) {
 export async function getLocalLessonData(subject, className, lessonId, term) {
     const v = new Date().getTime();
     
-    // --- SPECIAL CASE: Daily Challenge (1.json) ---
-    if (lessonId === '1') {
-        try {
-            const res = await fetch('1.json?v=' + v);
-            if (res.ok) {
-                const data = await res.json();
-                return { data, url: '1.json' };
-            }
-        } catch (e) {
-            console.error("Daily Challenge (1.json) not found");
-        }
-    }
+
 
     if (!subject || !lessonId) return null;
     const sub = subject.toLowerCase();
