@@ -379,7 +379,7 @@
 
     <nav class="navbar" style="position: sticky; top: 0; z-index: 2000; background: white; border-bottom: 1px solid #e2e8f0; padding: 0.5rem 0;">
         <div class="nav-container" style="display: flex; align-items: center; padding: 0 1rem; max-width: 800px; margin: 0 auto;">
-            <a href="daily.html" style="margin-right: 1rem; color: #1e293b; display: flex; align-items: center;">
+            <a href="index.html" style="margin-right: 1rem; color: #1e293b; display: flex; align-items: center;">
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
             </a>
             <a href="index.html" class="brand" style="text-decoration: none; display: flex; align-items: center; gap: 0.6rem;">
@@ -485,7 +485,7 @@
             const lessonId = params.get('lesson');
             const term = params.get('term');
 
-            const exitUrl = `daily.html`;
+            const exitUrl = `index.html`;
             document.getElementById('exitQuizSticky').href = exitUrl;
             document.getElementById('backHome').href = exitUrl;
 
@@ -515,7 +515,11 @@
                     const lessonTitle = data.title || (data.lesson_meta ? data.lesson_meta.title : 'Online Test');
                     currentLessonTitleDisplay = lessonTitle;
 
-                    questions = data.quiz ? (data.quiz.questions || (Array.isArray(data.quiz) ? data.quiz : [])) : (data.questions || []);
+                    if (data.sections && Array.isArray(data.sections)) {
+                        questions = data.sections.flatMap(section => section.questions || []);
+                    } else {
+                        questions = data.quiz ? (data.quiz.questions || (Array.isArray(data.quiz) ? data.quiz : [])) : (data.questions || []);
+                    }
                     
                     if (questions.length === 0) {
                         alert("இந்த பகுதியில் கேள்விகள் இன்னும் தயாராகவில்லை.");
