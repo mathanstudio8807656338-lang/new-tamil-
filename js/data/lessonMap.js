@@ -280,74 +280,44 @@ export const lessonMap = {
     }
   },
   "mocktest": {
-    "மாதிரித்தேர்வு 1": {
+    "ஆசிரியர் தகுதி தேர்வு - மாதிரி வினாத்தாள் 1 (கணிதம் + அறிவியல்)": {
       "local": true,
-      "filename": "Lesson_1",
+      "filename": "mock_1_ms",
       "isFlat": true
     },
-    "Lesson_1": {
+    "mock_1_ms": {
       "local": true,
-      "filename": "Lesson_1",
+      "filename": "mock_1_ms",
       "isFlat": true
     },
-    "மாதிரித்தேர்வு 3": {
+    "ஆசிரியர் தகுதி தேர்வு - மாதிரி வினாத்தாள் 1 (சமூக அறிவியல்)": {
       "local": true,
-      "filename": "Lesson_2",
+      "filename": "mock_1_ss",
       "isFlat": true
     },
-    "Lesson_2": {
+    "mock_1_ss": {
       "local": true,
-      "filename": "Lesson_2",
+      "filename": "mock_1_ss",
       "isFlat": true
     },
-    "மாதிரித்தேர்வு 4": {
+    "ஆசிரியர் தகுதி தேர்வு - மாதிரி வினாத்தாள் 2 (கணிதம் + அறிவியல்)": {
       "local": true,
-      "filename": "Lesson_3",
+      "filename": "mock_2_ms",
       "isFlat": true
     },
-    "Lesson_3": {
+    "mock_2_ms": {
       "local": true,
-      "filename": "Lesson_3",
+      "filename": "mock_2_ms",
       "isFlat": true
     },
-    "மாதிரித்தேர்வு 2": {
+    "ஆசிரியர் தகுதி தேர்வு - மாதிரி வினாத்தாள் 2 (சமூக அறிவியல்)": {
       "local": true,
-      "filename": "Lesson_4",
+      "filename": "mock_2_ss",
       "isFlat": true
     },
-    "Lesson_4": {
+    "mock_2_ss": {
       "local": true,
-      "filename": "Lesson_4",
-      "isFlat": true
-    },
-    "TNTET தாள் 1 - மாதிரி வினாத்தாள் (150 வினாக்கள்)": {
-      "local": true,
-      "filename": "Lesson_5",
-      "isFlat": true
-    },
-    "Lesson_5": {
-      "local": true,
-      "filename": "Lesson_5",
-      "isFlat": true
-    },
-    "TNTET தாள் 1 - மாதிரி வினாத்தாள் 9 (கணிதம்/அறிவியல்)": {
-      "local": true,
-      "filename": "mt_9_ms",
-      "isFlat": true
-    },
-    "mt_9_ms": {
-      "local": true,
-      "filename": "mt_9_ms",
-      "isFlat": true
-    },
-    "TNTET தாள் 1 - மாதிரி வினாத்தாள் 9 (சமூக அறிவியல்)": {
-      "local": true,
-      "filename": "mt_9_ss",
-      "isFlat": true
-    },
-    "mt_9_ss": {
-      "local": true,
-      "filename": "mt_9_ss",
+      "filename": "mock_2_ss",
       "isFlat": true
     }
   },

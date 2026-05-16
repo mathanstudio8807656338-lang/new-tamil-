@@ -42,29 +42,24 @@ export const extraSyllabusData = {
             "title": "மாதிரித்தேர்வு பகுதி",
             "topics": [
               {
-                "title": "மாதிரித்தேர்வு 1",
+                "title": "மாதிரி வினாத்தாள் 1 (கணிதம்/அறிவியல்)",
                 "isUpdated": true,
-                "code": "mock_test_1"
+                "code": "mock_1_ms"
               },
               {
-                "title": "மாதிரித்தேர்வு 2",
+                "title": "மாதிரி வினாத்தாள் 1 (சமூக அறிவியல்)",
                 "isUpdated": true,
-                "code": "model_test_2"
+                "code": "mock_1_ss"
               },
               {
-                "title": "மாதிரித்தேர்வு 3",
+                "title": "மாதிரி வினாத்தாள் 2 (கணிதம்/அறிவியல்)",
                 "isUpdated": true,
-                "code": "mock_test_3"
+                "code": "mock_2_ms"
               },
               {
-                "title": "மாதிரித்தேர்வு 4",
+                "title": "மாதிரி வினாத்தாள் 2 (சமூக அறிவியல்)",
                 "isUpdated": true,
-                "code": "mock_test_4"
-              },
-              {
-                "title": "மாதிரித்தேர்வு 5",
-                "isUpdated": true,
-                "code": "mock_test_5"
+                "code": "mock_2_ss"
               }
             ]
           }

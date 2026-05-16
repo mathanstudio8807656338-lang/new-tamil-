@@ -1,0 +1,2579 @@
+{
+  "paper_number": 2,
+  "paper_type": "Social_Science",
+  "title": "ஆசிரியர் தகுதி தேர்வு - மாதிரி வினாத்தாள் 2 (சமூக அறிவியல்)",
+  "classes": "6, 7, 8",
+  "total_questions": 150,
+  "sections": [
+    {
+      "subject": "உளவியல் (Psychology)",
+      "questions": [
+        {
+          "question_number": 1,
+          "question": "பொருத்துக:\n1. அக ஊக்கம் - i. பரிசு/பாராட்டு\n2. புற ஊக்கம் - ii. TAT சோதனை\n3. அடைவூக்கம் - iii. மனநிறைவு\n4. கற்றல் வளைவு - iv. முன்னேற்ற வரைபடம்",
+          "options": {
+            "A": "1-iii, 2-i, 3-ii, 4-iv",
+            "B": "1-i, 2-iii, 3-iv, 4-ii",
+            "C": "1-ii, 2-i, 3-iii, 4-iv",
+            "D": "1-iv, 2-ii, 3-i, 4-iii"
+          },
+          "answer": "A",
+          "difficulty": "hard",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l3.json"
+          }
+        },
+        {
+          "question_number": 2,
+          "question": "ஒரு விஞ்ஞானி பல மாதங்களாக ஒரு பிரச்சனைக்குத் தீர்வு காண முயன்று, திடீரென ஒரு நாள் ஓய்வெடுக்கும்போது அதற்கான விடை அவருக்குத் தோன்றுகிறது. இது படைப்பாற்றலின் எந்த நிலை?",
+          "options": {
+            "A": "ஆயத்தம்",
+            "B": "உள்வாங்குதல்",
+            "C": "வெளிச்சம் / மின்னல்",
+            "D": "சரிபார்த்தல்"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l4.json"
+          }
+        },
+        {
+          "question_number": 3,
+          "question": "ஒரு மாணவன் 'செங்கல்' என்பதற்கு வீடு கட்டுவது என்பதைத் தாண்டி பல புதிய பயன்பாடுகளைப் பட்டியலிடுகிறான். இச்செயல்பாடு அவனது எத்திறனைக் காட்டுகிறது?",
+          "options": {
+            "A": "மனப்பாடம் செய்யும் திறன்",
+            "B": "பக்கவாட்டுச் சிந்தனை (படைப்பாற்றல்)",
+            "C": "சமூக நுண்ணறிவு",
+            "D": "குவிச் சிந்தனை"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l4.json"
+          }
+        },
+        {
+          "question_number": 4,
+          "question": "இட் மற்றும் சூப்பர் ஈகோவிற்கு இடையே சமரசம் செய்யும் மனதின் பகுதி எது?",
+          "options": {
+            "A": "அகமனம்",
+            "B": "புறமனம்",
+            "C": "சூப்பர் ஈகோ",
+            "D": "ஈகோ (Ego)"
+          },
+          "answer": "D",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l5.json"
+          }
+        },
+        {
+          "question_number": 5,
+          "question": "'Motivation' என்ற சொல்லின் மூலச்சொல்லான 'Movere' என்பது எம்மொழிச் சொல்?",
+          "options": {
+            "A": "கிரேக்கம்",
+            "B": "இலத்தீன்",
+            "C": "பிரெஞ்சு",
+            "D": "ஜெர்மன்"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l3.json"
+          }
+        },
+        {
+          "question_number": 6,
+          "question": "ஆசிரியை வகுப்பில் ஒரு சிக்கலானப் பிரச்சனையைக் கொடுத்து, மாணவர்களை எந்தவிதத் தடையுமின்றி தங்களுக்குத் தோன்றும் தீர்வுகளைக் கூறச் சொல்கிறார். அவர் பயன்படுத்தும் உத்தி என்ன?",
+          "options": {
+            "A": "மூளைச்சலவை",
+            "B": "விளையாட்டு வழி கற்றல்",
+            "C": "சரிபார்த்தல்",
+            "D": "உள்வாங்குதல்"
+          },
+          "answer": "A",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l4.json"
+          }
+        },
+        {
+          "question_number": 7,
+          "question": "கற்றல் வளைவில் ஏற்படும் தற்காலிக முன்னேற்றத் தடை எவ்வாறு அழைக்கப்படுகிறது?",
+          "options": {
+            "A": "ஆரம்ப வேகம்",
+            "B": "இறுதி வேகம்",
+            "C": "கற்றல் தேக்க நிலை",
+            "D": "கற்றல் முன்னேற்றம்"
+          },
+          "answer": "C",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l3.json"
+          }
+        },
+        {
+          "question_number": 8,
+          "question": "எது சரி, எது தவறு என்று சிந்திக்கும் 'ஒழுக்கக் கொள்கை' எதனுடன் தொடர்புடையது?",
+          "options": {
+            "A": "சூப்பர் ஈகோ (Superego)",
+            "B": "ஈகோ",
+            "C": "இட்",
+            "D": "மையப்பண்பு"
+          },
+          "answer": "A",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l5.json"
+          }
+        },
+        {
+          "question_number": 9,
+          "question": "கற்றல் தேக்க நிலை (Plateau) ஏற்படக் கீழ்க்கண்டவற்றுள் எது காரணமல்ல?",
+          "options": {
+            "A": "அதிகப்படியான சோர்வு",
+            "B": "ஆர்வமின்மை",
+            "C": "சரியான கற்பித்தல் முறை",
+            "D": "கடினமான பாடப்பகுதி"
+          },
+          "answer": "C",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l3.json"
+          }
+        },
+        {
+          "question_number": 10,
+          "question": "நுண்ணறிவு என்பது பல சிறிய தனித்திறன்களின் தொகுப்பு என்று கூறும் கோட்பாடு எது?",
+          "options": {
+            "A": "பல்காரணி கோட்பாடு",
+            "B": "இரட்டைக் காரணி கோட்பாடு",
+            "C": "பல்வகை நுண்ணறிவு கோட்பாடு",
+            "D": "நுண்ணறிவு கட்டமைப்பு கோட்பாடு"
+          },
+          "answer": "A",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l4.json"
+          }
+        },
+        {
+          "question_number": 11,
+          "question": "எண்டோமார்பிக் (Endomorphic), மீசோமார்பிக் (Mesomorphic), எக்டோமார்பிக் (Ectomorphic) என உடல் அமைப்பின் அடிப்படையில் ஆளுமையைப் பிரித்தவர்?",
+          "options": {
+            "A": "ஷெல்டன்",
+            "B": "ஆல்போர்ட்",
+            "C": "காட்டெல்",
+            "D": "ஹிப்போகிரேட்ஸ்"
+          },
+          "answer": "A",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l5.json"
+          }
+        },
+        {
+          "question_number": 12,
+          "question": "ஸ்பியர்மனின் கோட்பாட்டில் நுண்ணறிவுச் சோதனைகள் அனைத்திலும் செயல்படும் பொதுவான மனத்திறன் எவ்வாறு அழைக்கப்படுகிறது?",
+          "options": {
+            "A": "g-காரணி",
+            "B": "s-காரணி",
+            "C": "குழு காரணி",
+            "D": "பல காரணி"
+          },
+          "answer": "A",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l4.json"
+          }
+        },
+        {
+          "question_number": 13,
+          "question": "வகுப்பறைக்குச் செல்லும் முன் ஆசிரியர் செய்யும் திட்டமிடல் (பாடத்திட்டம் தயாரித்தல்) கற்பித்தலின் எந்த நிலையாகும்?",
+          "options": {
+            "A": "இடைவினை நிலை",
+            "B": "பின்-செயல்பாட்டு நிலை",
+            "C": "முன்-செயல்பாட்டு நிலை",
+            "D": "மதிப்பீட்டு நிலை"
+          },
+          "answer": "C",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l7.json"
+          }
+        },
+        {
+          "question_number": 14,
+          "question": "ஒரு மாணவன் கணிதப் புதிர்களையும் சமன்பாடுகளையும் மிக எளிதாகத் தீர்க்கிறான் எனில், அவனிடம் எந்த நுண்ணறிவு மேலோங்கியுள்ளது?",
+          "options": {
+            "A": "சமூக நுண்ணறிவு",
+            "B": "கருத்தியல் நுண்ணறிவு",
+            "C": "செயல்முறை நுண்ணறிவு",
+            "D": "பொதுக் காரணி"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l4.json"
+          }
+        },
+        {
+          "question_number": 15,
+          "question": "கற்றல் என்பது முதிர்ச்சியால் (Maturation) மட்டும் ஏற்படும் மாற்றம் அல்ல - இது சரியா?",
+          "options": {
+            "A": "சரி",
+            "B": "தவறு",
+            "C": "பகுதியளவு சரி",
+            "D": "கூற முடியாது"
+          },
+          "answer": "A",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l3.json"
+          }
+        },
+        {
+          "question_number": 16,
+          "question": "நபர்களின் உடல் அமைப்பு அல்லது பண்புகளின் அடிப்படையில் ஆளுமையை வகைப்படுத்தும் கொள்கை எது?",
+          "options": {
+            "A": "பண்புக் கூறுக் கொள்கை",
+            "B": "உளப்பகுப்பாய்வுக் கோட்பாடு",
+            "C": "வகைப்பாட்டுக் கொள்கை",
+            "D": "தற்காப்புக் கொள்கை"
+          },
+          "answer": "C",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l5.json"
+          }
+        },
+        {
+          "question_number": 17,
+          "question": "மாணவர்களின் ஆர்வம், தேவை மற்றும் திறன்களுக்கு முக்கியத்துவம் அளிக்கும் கல்வி மாதிரி எது?",
+          "options": {
+            "A": "பாடம் மையக் கல்வி",
+            "B": "மாணவர் மையக் கல்வி",
+            "C": "ஆசிரியர் மையக் கல்வி",
+            "D": "கூட்டு கல்வி"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l7.json"
+          }
+        },
+        {
+          "question_number": 18,
+          "question": "படைப்பாற்றலின் நிலைகளில், தீர்வு கிடைக்காமல் மனம் ஓய்வாக இருப்பது போல் தோன்றினாலும் மூளை ஆழ்நிலையில் செயல்படும் கட்டம் எது?",
+          "options": {
+            "A": "ஆயத்தம்",
+            "B": "உள்வாங்குதல்/அடைகாத்தல்",
+            "C": "வெளிச்சம்",
+            "D": "சரிபார்த்தல்"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l4.json"
+          }
+        },
+        {
+          "question_number": 19,
+          "question": "பொருத்துக:\n1. கேட்ஸ் - i. உந்துதல் குறைப்புக் கோட்பாடு\n2. மாஸ்லோ - ii. கற்றல் வரையறை\n3. சி.எல். ஹல் - iii. அடைவூக்கம்\n4. மெக்லிலாண்ட் - iv. தேவைப் படிநிலை",
+          "options": {
+            "A": "1-ii, 2-iv, 3-i, 4-iii",
+            "B": "1-iv, 2-ii, 3-iii, 4-i",
+            "C": "1-ii, 2-i, 3-iv, 4-iii",
+            "D": "1-iii, 2-iv, 3-i, 4-ii"
+          },
+          "answer": "A",
+          "difficulty": "hard",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l3.json"
+          }
+        },
+        {
+          "question_number": 20,
+          "question": "ஒரு கடையில் திருட நினைக்கும் மனதிற்கும் (Id), அது பாவம் எனத் தடுக்கும் மனதிற்கும் (Superego) இடையே போராட்டம் நிகழும் கோட்பாடு எது?",
+          "options": {
+            "A": "வகைப்பாட்டுக் கொள்கை",
+            "B": "பண்புக் கூறுக் கொள்கை",
+            "C": "உளப்பகுப்பாய்வுக் கோட்பாடு",
+            "D": "உயிரியல் கோட்பாடு"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l5.json"
+          }
+        },
+        {
+          "question_number": 21,
+          "question": "மீனா எப்போதும் தன் நண்பர்களுடனும், புதிய நபர்களுடனும் மிக எளிதாகப் பழகி, அவர்களை ஒருங்கிணைக்கிறாள். அவளிடம் எவ்வகை நுண்ணறிவு அதிகமாக உள்ளது?",
+          "options": {
+            "A": "செயல்முறை நுண்ணறிவு",
+            "B": "சமூக நுண்ணறிவு",
+            "C": "கருத்தியல் நுண்ணறிவு",
+            "D": "பகுத்தறிவு"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l4.json"
+          }
+        },
+        {
+          "question_number": 22,
+          "question": "ஒரு குறிப்பிட்ட தலைப்பில் மாணவர்கள் குழுவாகச் சேர்ந்து களப்பணி செய்து தகவல்களைச் சேகரித்துக் கற்கும் முறை எது?",
+          "options": {
+            "A": "திட்ட வழி கற்றல்",
+            "B": "செயல் வழி கற்றல்",
+            "C": "ஒத்துழைப்பு கற்றல்",
+            "D": "தனிநபர் கற்றல்"
+          },
+          "answer": "A",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l7.json"
+          }
+        },
+        {
+          "question_number": 23,
+          "question": "ஒரு தச்சன் (Carpenter) மர வேலைப்பாடுகளில் புதிய மற்றும் தனித்துவமான வடிவமைப்புகளைத் துல்லியமாக உருவாக்குகிறார். இதில் ஈடுபடும் நுண்ணறிவு மற்றும் திறன் எவை?",
+          "options": {
+            "A": "சமூக நுண்ணறிவு மற்றும் குவிச் சிந்தனை",
+            "B": "செயல்முறை நுண்ணறிவு மற்றும் படைப்பாற்றல்",
+            "C": "கருத்தியல் நுண்ணறிவு மற்றும் மூளைச்சலவை",
+            "D": "பொதுக் காரணி மற்றும் ஆயத்தம்"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l4.json"
+          }
+        },
+        {
+          "question_number": 24,
+          "question": "குறிப்பிட்ட துறைகளில் (எ.கா: இசை, ஓவியம்) தனித்து விளங்கும் திறன் ஸ்பியர்மனின் கோட்பாட்டின்படி எது?",
+          "options": {
+            "A": "g-காரணி",
+            "B": "s-காரணி",
+            "C": "முதன்மைக் காரணி",
+            "D": "பொருளடக்கம்"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l4.json"
+          }
+        },
+        {
+          "question_number": 25,
+          "question": "தேர்வில் தோல்வியடைந்த ஒரு மாணவன், 'ஆசிரியர் சரியாகப் பாடம் நடத்தவில்லை' என்று கூறுவது எவ்வகைத் தற்காப்பு நடத்தை?",
+          "options": {
+            "A": "புறத்தெறிதல் (Projection)",
+            "B": "பின்னடைவு",
+            "C": "இலட்சியமாக்கல்",
+            "D": "மறைத்தல்"
+          },
+          "answer": "A",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l5.json"
+          }
+        },
+        {
+          "question_number": 26,
+          "question": "ஒரு குழந்தை புதிய மொழிகளைக் கற்கவும், இசையை ரசிக்கவும் அதிக ஆர்வம் காட்டுகிறது. இத்திறன்கள் யாருடைய கோட்பாட்டுடன் அதிகம் தொடர்புடையது?",
+          "options": {
+            "A": "ஸ்பியர்மனின் இரட்டைக் காரணி",
+            "B": "தர்ஸ்டனின் குழு காரணி",
+            "C": "கார்ட்னரின் பல்வகை நுண்ணறிவு",
+            "D": "வாலாஸின் படைப்பாற்றல்"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l4.json"
+          }
+        },
+        {
+          "question_number": 27,
+          "question": "மன அழுத்தம் ஏற்படும் போது, ஈகோ தன்னைத் தற்காத்துக் கொள்ள எடுக்கும் ஆயுதம் எது?",
+          "options": {
+            "A": "16PF சோதனை",
+            "B": "TAT சோதனை",
+            "C": "தற்காப்பு நடத்தைகள் (Adjustment Mechanisms)",
+            "D": "உற்றுநோக்கல்"
+          },
+          "answer": "C",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l5.json"
+          }
+        },
+        {
+          "question_number": 28,
+          "question": "21-ஆம் நூற்றாண்டு திறன்களில் 'எதையும் ஆய்ந்து முடிவெடுத்தல்' என்பது எதைக் குறிக்கிறது?",
+          "options": {
+            "A": "ஒத்துழைப்பு",
+            "B": "தகவல் தொடர்பு",
+            "C": "விமர்சனச் சிந்தனை",
+            "D": "படைப்பாற்றல்"
+          },
+          "answer": "C",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l7.json"
+          }
+        },
+        {
+          "question_number": 29,
+          "question": "ஒருவரின் கால வயது 10 மற்றும் மன வயது 12 எனில், அவரது நுண்ணறிவு ஈவு (IQ) எவ்வளவு?",
+          "options": {
+            "A": "100",
+            "B": "120",
+            "C": "83",
+            "D": "110"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l4.json"
+          }
+        },
+        {
+          "question_number": 30,
+          "question": "ஒருவர் தனது ஆளுமையை மேம்படுத்திக் கொள்ள எந்தக் காரணியை முழுமையாக மாற்றியமைக்க முடியும்?",
+          "options": {
+            "A": "சுற்றுச்சூழல் காரணிகள்",
+            "B": "உயிரியல்/மரபுக் காரணிகள்",
+            "C": "நரம்பு மண்டலம்",
+            "D": "உடல் அமைப்பு"
+          },
+          "answer": "A",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "all",
+            "term": "all",
+            "file": "psy_l5.json"
+          }
+        }
+      ]
+    },
+    {
+      "subject": "தமிழ் (Tamil)",
+      "questions": [
+        {
+          "question_number": 31,
+          "question": "சில எழுத்துகள் சில இடங்களில் தமக்குரிய கால அளவைவிடக் குறைந்து ஒலிக்கும். இவ்வாறு குறைந்து ஒலிக்கும் எழுத்துகள் என்னவென்று அழைக்கப்படுகின்றன?",
+          "options": {
+            "A": "சுட்டெழுத்துகள்",
+            "B": "அளபெடைகள்",
+            "C": "குறுக்கங்கள்",
+            "D": "வினா எழுத்துகள்"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "tam_7_t1_l10_grammar.json"
+          }
+        },
+        {
+          "question_number": 32,
+          "question": "கூற்று: காந்தியடிகள் கானாடுகாத்தான் செல்வந்தர் வீட்டில் உள்ள வெளிநாட்டுப் பொருட்களைப் பாராட்டினார். \nகாரணம்: அவருக்கு அந்தப் பொருட்கள் மிகவும் பிடித்திருந்தன.",
+          "options": {
+            "A": "கூற்று சரி, காரணம் தவறு",
+            "B": "கூற்று தவறு, காரணம் சரி",
+            "C": "இரண்டும் சரி",
+            "D": "இரண்டும் தவறு"
+          },
+          "answer": "D",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "tam_6_t3_l3.json"
+          }
+        },
+        {
+          "question_number": 33,
+          "question": "\"இந்த முதியவரின் அடிநிழலிலிருந்து தமிழ் கற்க வேண்டும் என்னும் ஆவல் உண்டாகிறது\" என்று காந்தியடிகள் யாரைக் குறிப்பிட்டார்?",
+          "options": {
+            "A": "பாரதியாரை",
+            "B": "திரு.வி.க.வை",
+            "C": "இராஜாஜியை",
+            "D": "உ.வே. சாமிநாதரை"
+          },
+          "answer": "D",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "tam_6_t3_l3.json"
+          }
+        },
+        {
+          "question_number": 34,
+          "question": "காந்தியடிகள் எந்த ஊரில் உள்ள ஒரு பணக்காரர் வீட்டில் தங்கினார்?",
+          "options": {
+            "A": "காரைக்குடி",
+            "B": "கானாடுகாத்தான்",
+            "C": "தேவகோட்டை",
+            "D": "சிவகங்கை"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "tam_6_t3_l3.json"
+          }
+        },
+        {
+          "question_number": 35,
+          "question": "ஆசிரியர் சிறுவனை இருக்கையில் அமர வைத்து முதுகை வளைக்காமல் ஓட்டச் சொல்லியபோது என்ன நிகழ்ந்தது?",
+          "options": {
+            "A": "அவன் அழகாக ஓட்டினான்",
+            "B": "கால்கள் எட்டாமல் இடுப்பை வளைத்து விழுந்தான்",
+            "C": "வேகமாகப் பறந்தான்",
+            "D": "மிதிவண்டி உடைந்தது"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "3",
+            "file": "tam_7_t3_l14.json"
+          }
+        },
+        {
+          "question_number": 36,
+          "question": "வாழ்க்கைச் சூழல் வினா: நீங்கள் ஒரு பொது இடத்திற்குச் செல்கிறீர்கள். அங்கு ஒரு குறிப்பிட்ட பிரிவினருக்கு மட்டும் அனுமதி மறுக்கப்படுகிறது. காந்திய வழியைப் பின்பற்றும் நீங்கள் என்ன செய்வீர்கள்?",
+          "options": {
+            "A": "எனக்கு அனுமதி இருப்பதால் நான் மட்டும் செல்வேன்",
+            "B": "யாரும் அறியாமல் சென்று வருவேன்",
+            "C": "அனைவருக்கும் அனுமதி கிடைக்கும் வரை நானும் அங்கு செல்ல மாட்டேன் என்று புறக்கணிப்பேன்",
+            "D": "அனுமதி இல்லாதவர்களைப் பரிகாசம் செய்வேன்"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "tam_6_t3_l3.json"
+          }
+        },
+        {
+          "question_number": 37,
+          "question": "வாழ்க்கைச் சூழல் வினா: ஒரு தந்தை தன் மகனுக்கு வீடு, நிலம், பணம் ஆகியவற்றைச் சேர்த்து வைத்தார். ஆனால் ஒரு இயற்கைச் சீற்றத்தில் அவை அழிந்தன. மீண்டும் அவர் எதைப் பெற்றால் தன் நிலையை உயர்த்த முடியும்?",
+          "options": {
+            "A": "அரசு உதவி",
+            "B": "கல்வி",
+            "C": "கடனுதவி",
+            "D": "மற்றவர் இரக்கம்"
+          },
+          "answer": "B",
+          "difficulty": "hard",
+          "_metadata": {
+            "class": "7",
+            "term": "2",
+            "file": "tam_7_t2_l1.json"
+          }
+        },
+        {
+          "question_number": 38,
+          "question": "பொருத்துக:\n1. அரசிகெரே - அ. அஞ்சலகம்\n2. சக்லேஷ்பூர் - ஆ. மாமா வீடு\n3. பெங்களூரு - இ. மிதிவண்டிக் கடை\n4. சந்திரசேகரா - ஈ. காற்று இறங்கிய இடம்",
+          "options": {
+            "A": "1-ஆ, 2-ஈ, 3-அ, 4-இ",
+            "B": "1-இ, 2-அ, 3-ஆ, 4-ஈ",
+            "C": "1-ஈ, 2-ஆ, 3-இ, 4-அ",
+            "D": "1-அ, 2-இ, 3-ஈ, 4-ஆ"
+          },
+          "answer": "A",
+          "difficulty": "hard",
+          "_metadata": {
+            "class": "7",
+            "term": "3",
+            "file": "tam_7_t3_l14.json"
+          }
+        },
+        {
+          "question_number": 39,
+          "question": "ஐகாரம் சொல்லின் முதலில் வரும்போது எத்தனை மாத்திரை அளவில் ஒலிக்கும்?",
+          "options": {
+            "A": "அரை மாத்திரை",
+            "B": "இரண்டு மாத்திரை",
+            "C": "ஒன்றரை மாத்திரை",
+            "D": "ஒரு மாத்திரை"
+          },
+          "answer": "C",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "tam_7_t1_l10_grammar.json"
+          }
+        },
+        {
+          "question_number": 40,
+          "question": "ஔ, வௌ என ஔகார எழுத்து தனித்து வரும் இடங்களில் எத்தனை மாத்திரை அளவில் ஒலிக்கும்?",
+          "options": {
+            "A": "அரை மாத்திரை",
+            "B": "ஒரு மாத்திரை",
+            "C": "ஒன்றரை மாத்திரை",
+            "D": "இரண்டு மாத்திரை"
+          },
+          "answer": "D",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "tam_7_t1_l10_grammar.json"
+          }
+        },
+        {
+          "question_number": 41,
+          "question": "சிறுவன் மாமா வீட்டிற்குச் சற்று தூரம் இருக்கும்போதே ஆசிரியரிடம் என்ன கேட்டான்?",
+          "options": {
+            "A": "மிதிவண்டியை எனக்குத் தந்துவிடுங்கள்",
+            "B": "இதுவரை நானே ஓட்டிச் சென்று மாமாவை ஆச்சரியப்படுத்துகிறேன்",
+            "C": "நீங்கள் என்னோடு வீட்டுக்கு வாருங்கள்",
+            "D": "பணம் கொடுங்கள்"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "3",
+            "file": "tam_7_t3_l14.json"
+          }
+        },
+        {
+          "question_number": 42,
+          "question": "எச்சம் என ஒருவன் மக்கட்குச் செய்வன விச்சையல்லது பிற - இதில் 'எச்சம்' என்பதன் பொருள்?",
+          "options": {
+            "A": "மீதி",
+            "B": "செல்வம்",
+            "C": "குறைபாடு",
+            "D": "எச்சரிக்கை"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "2",
+            "file": "tam_7_t2_l1.json"
+          }
+        },
+        {
+          "question_number": 43,
+          "question": "உயர்தர சிந்தனை வினா: ஒரு அரசன் சிறந்தவனா அல்லது கற்றவன் சிறந்தவனா? நாலடியார் கருத்தின்படி விடை தருக.",
+          "options": {
+            "A": "அரசன் (அதிகாரம் உள்ளதால்)",
+            "B": "கற்றவன் (அரசனாலும் கல்வியைக் கவர முடியாது என்பதால்)",
+            "C": "இருவரும் சமம்",
+            "D": "யாரும் இல்லை"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "2",
+            "file": "tam_7_t2_l1.json"
+          }
+        },
+        {
+          "question_number": 44,
+          "question": "'நாலும் இரண்டும் சொல்லுக்குறுதி' - இதில் 'இரண்டு' என்பது எதனைக் குறிக்கிறது?",
+          "options": {
+            "A": "இரண்டு மாணவர்கள்",
+            "B": "திருக்குறள்",
+            "C": "இரண்டு நூல்கள்",
+            "D": "ஆசாரக்கோவை"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "2",
+            "file": "tam_7_t2_l1.json"
+          }
+        },
+        {
+          "question_number": 45,
+          "question": "உயர்தர சிந்தனை வினா (HOTS): ஆசிரியர் தனது மிதிவண்டியைச் சிறுவனிடம் விட்டுவிட்டுப் பேருந்தில் ஏறிச் சென்ற நிகழ்வு, அவரது எத்தன்மையைக் காட்டுகிறது?",
+          "options": {
+            "A": "மிதிவண்டி பழுதாகிவிட்டதால் ஏற்பட்ட வெறுப்பு",
+            "B": "சிறுவனின் அளப்பரிய ஆசையைக் கண்டு பரிசளித்து மகிழும் பெருந்தன்மை",
+            "C": "மிதிவண்டியில் செல்ல முடியாத சோர்வு",
+            "D": "பேருந்தில் செல்ல வேண்டும் என்ற கட்டாயம்"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "3",
+            "file": "tam_7_t3_l14.json"
+          }
+        },
+        {
+          "question_number": 46,
+          "question": "'ஏம்பா, வாய வச்சுக்கிட்டு சும்மா இருக்க முடியலையா?' என்று சிறுவனைப் பார்த்துக் கூறியவர் யார்?",
+          "options": {
+            "A": "ஆசிரியர்",
+            "B": "சந்திரசேகரா",
+            "C": "சிறுவனின் அம்மா",
+            "D": "சிறுவனின் மாமா"
+          },
+          "answer": "C",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "3",
+            "file": "tam_7_t3_l14.json"
+          }
+        },
+        {
+          "question_number": 47,
+          "question": "உயர்தர சிந்தனை வினா: ஒரு நாட்டின் முன்னேற்றத்திற்கு அழியாத செல்வமாக கருதப்படுவது எது?",
+          "options": {
+            "A": "தங்க இருப்பு",
+            "B": "ராணுவ பலம்",
+            "C": "கல்வியறிவுள்ள மக்கள்",
+            "D": "இயற்கை வளம்"
+          },
+          "answer": "C",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "2",
+            "file": "tam_7_t2_l1.json"
+          }
+        },
+        {
+          "question_number": 48,
+          "question": "ஐந்து ஆறு மாதங்களுக்கு ஒருமுறை நண்பர்களோடு மிதிவண்டியில் ஆசிரியர் எங்கு செல்வார்?",
+          "options": {
+            "A": "கிருஷ்ணராஜ சாகர அணைக்கட்டு",
+            "B": "மகாபலிபுரம்",
+            "C": "மங்களூரு",
+            "D": "பெங்களூரு"
+          },
+          "answer": "A",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "3",
+            "file": "tam_7_t3_l14.json"
+          }
+        },
+        {
+          "question_number": 49,
+          "question": "பொருத்துக (மாத்திரை அளவு): 1. ஐகாரம் முதலில் 2. ஔகாரம் முதலில் 3. ஐகாரம் இறுதியில் 4. ஆய்தக்குறுக்கம்",
+          "options": {
+            "A": "1-(1), 2-(1), 3-(1.5), 4-(0.25)",
+            "B": "1-(1.5), 2-(1.5), 3-(1), 4-(0.25)",
+            "C": "1-(1.5), 2-(1), 3-(1.5), 4-(0.5)",
+            "D": "1-(2), 2-(2), 3-(1), 4-(0.25)"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "tam_7_t1_l10_grammar.json"
+          }
+        },
+        {
+          "question_number": 50,
+          "question": "போன்ம், மருண்ம் ஆகிய சொற்களில் மகர மெய் எந்த எழுத்துகளை அடுத்து வருவதால் கால் மாத்திரையாகக் குறைந்து ஒலிக்கிறது?",
+          "options": {
+            "A": "ர், ல்",
+            "B": "ன், ண்",
+            "C": "ஞ், ந்",
+            "D": "ம், வ்"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "tam_7_t1_l10_grammar.json"
+          }
+        },
+        {
+          "question_number": 51,
+          "question": "சரியான விடையைத் தேர்ந்தெடு: காந்தியடிகளிடம் உடை அணிவதில் மாற்றத்தை ஏற்படுத்திய ஊர் எது? (பாட பின்புற வினா)",
+          "options": {
+            "A": "சென்னை",
+            "B": "கானாடுகாத்தான்",
+            "C": "மதுரை",
+            "D": "குற்றாலம்"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "tam_6_t3_l3.json"
+          }
+        },
+        {
+          "question_number": 52,
+          "question": "பாரதியாரை காந்தியடிகளுக்கு \"இவர் எங்கள் தமிழ்நாட்டுக் கவி\" என்று அறிமுகம் செய்தவர் யார்?",
+          "options": {
+            "A": "சத்தியமூர்த்தி",
+            "B": "இராஜாஜி",
+            "C": "காமராஜர்",
+            "D": "பெரியார்"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "tam_6_t3_l3.json"
+          }
+        },
+        {
+          "question_number": 53,
+          "question": "பொருத்துக: 1. இலக்கிய மாநாடு - அ. பாரதியார், 2. தமிழ்நாட்டுக் கவி - ஆ. குற்றாலம், 3. அருவி - இ. ஜி.யு.போப், 4. தமிழ்க் கையேடு - ஈ. சென்னை. சரியான வரிசையைத் தேர்ந்தெடு.",
+          "options": {
+            "A": "1-ஈ, 2-அ, 3-ஆ, 4-இ",
+            "B": "1-அ, 2-ஈ, 3-இ, 4-ஆ",
+            "C": "1-ஈ, 2-ஆ, 3-அ, 4-இ",
+            "D": "1-ஆ, 2-இ, 3-ஈ, 4-அ"
+          },
+          "answer": "A",
+          "difficulty": "hard",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "tam_6_t3_l3.json"
+          }
+        },
+        {
+          "question_number": 54,
+          "question": "மகர மெய்யெழுத்தை அடுத்து எந்த எழுத்து வரும்போது, மகரம் தன் அரை மாத்திரையிலிருந்து கால் மாத்திரையாகக் குறைந்து ஒலிக்கும்?",
+          "options": {
+            "A": "யகர எழுத்து",
+            "B": "பகர எழுத்து",
+            "C": "வகர எழுத்து",
+            "D": "தகர எழுத்து"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "tam_7_t1_l10_grammar.json"
+          }
+        },
+        {
+          "question_number": 55,
+          "question": "உயர்தர சிந்தனை வினா: 'அம்மா' என்ற சொல்லில் உள்ள மகர மெய் முழுமையாக ஒலிக்கிறது, ஆனால் 'வலம் வந்தான்' என்பதில் உள்ள மகரம் ஏன் குறுகுகிறது?",
+          "options": {
+            "A": "அம்மா என்ற சொல்லில் மகரத்தை அடுத்து மீண்டும் 'மா' வந்துள்ளது. வலம் வந்தான் என்பதில் மகரத்தை அடுத்து 'வ' எழுத்து வந்துள்ளதால் ஒலிக்கச் சிரமமாய் இருப்பதால் குறுக்கம் ஏற்படுகிறது.",
+            "B": "அம்மா என்பது பெண்பால் என்பதால்",
+            "C": "வலம் வந்தான் என்பது ஆண்பால் என்பதால்",
+            "D": "இரண்டும் ஒரே அளவுதான் ஒலிக்கும்"
+          },
+          "answer": "A",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "tam_7_t1_l10_grammar.json"
+          }
+        },
+        {
+          "question_number": 56,
+          "question": "ஒப்புமைத் தருக: மனிதர்களின் ஆசை : மிதிவண்டி :: பாவண்ணனின் படைப்பு : ?",
+          "options": {
+            "A": "அஞ்சலகம்",
+            "B": "பிரயாணம்",
+            "C": "சக்லேஷ்பூர்",
+            "D": "அரசிகெரே"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "3",
+            "file": "tam_7_t3_l14.json"
+          }
+        },
+        {
+          "question_number": 57,
+          "question": "மிதிவண்டி ஓட்டித் திரும்பியதும் சிறுவனின் அம்மா சுடச்சுட என்ன வறுத்துத் தந்தார்?",
+          "options": {
+            "A": "பொரி",
+            "B": "அவல்",
+            "C": "கடலை",
+            "D": "கோதுமை"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "3",
+            "file": "tam_7_t3_l14.json"
+          }
+        },
+        {
+          "question_number": 58,
+          "question": "ரௌலட் சட்டத்தை எதிர்ப்பதற்கான போராட்ட ஆலோசனைக் கூட்டம் யார் வீட்டில் நடைபெற்றது?",
+          "options": {
+            "A": "பாரதியார்",
+            "B": "இராஜாஜி",
+            "C": "காமராஜர்",
+            "D": "உ.வே.சா."
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "tam_6_t3_l3.json"
+          }
+        },
+        {
+          "question_number": 59,
+          "question": "கூற்று (A): ஔகாரம் சொல்லின் இடையிலும் இறுதியிலும் வராது. \nகாரணம் (R): ஔகாரம் சொல்லின் முதலில் மட்டுமே வந்து ஒன்றரை மாத்திரையாக ஒலிக்கும் தன்மை கொண்டது.",
+          "options": {
+            "A": "கூற்று சரி, காரணம் தவறு",
+            "B": "கூற்று தவறு, காரணம் சரி",
+            "C": "கூற்று மற்றும் காரணம் இரண்டும் சரி, சரியான விளக்கம்",
+            "D": "கூற்று மற்றும் காரணம் இரண்டும் சரி, ஆனால் சரியான விளக்கமல்ல"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "tam_7_t1_l10_grammar.json"
+          }
+        },
+        {
+          "question_number": 60,
+          "question": "பொருத்துக: \n1. விச்சை - அ) திருட முடியாது \n2. வவ்வார் - ஆ) சேமித்து வைக்கும் இடம் \n3. வைப்புழி - இ) கல்வி \n4. கோட்படா - ஈ) கவர முடியாது",
+          "options": {
+            "A": "1-இ, 2-ஈ, 3-ஆ, 4-அ",
+            "B": "1-அ, 2-ஆ, 3-இ, 4-ஈ",
+            "C": "1-ஈ, 2-இ, 3-அ, 4-ஆ",
+            "D": "1-ஆ, 2-அ, 3-ஈ, 4-இ"
+          },
+          "answer": "A",
+          "difficulty": "hard",
+          "_metadata": {
+            "class": "7",
+            "term": "2",
+            "file": "tam_7_t2_l1.json"
+          }
+        }
+      ]
+    },
+    {
+      "subject": "ஆங்கிலம் (English)",
+      "questions": [
+        {
+          "question_number": 61,
+          "question": "Who was the first person to come out of the tunnel into the strong room?",
+          "options": {
+            "A": "Mr. Wilson",
+            "B": "Duncan Ross",
+            "C": "Mr. Jones",
+            "D": "Spaulding (John Clay)"
+          },
+          "answer": "D",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l6.json"
+          }
+        },
+        {
+          "question_number": 62,
+          "question": "Why did Mr. Wilson go to Sherlock Holmes?",
+          "options": {
+            "A": "He wanted to open a new shop",
+            "B": "He lost his money",
+            "C": "He was disturbed by the thought that someone played a practical joke on him",
+            "D": "He wanted Holmes to join the League"
+          },
+          "answer": "C",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l6.json"
+          }
+        },
+        {
+          "question_number": 63,
+          "question": "Connecting to Self scenario: If you are home alone at midnight and someone knocks on the door, what is the safest action?",
+          "options": {
+            "A": "Open the door immediately",
+            "B": "Do not open the door and inform your parents or the police if suspicious",
+            "C": "Go out through the back door and fight them",
+            "D": "Invite them in"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l6.json"
+          }
+        },
+        {
+          "question_number": 64,
+          "question": "What was the villagers' main problem in the story?",
+          "options": {
+            "A": "No water",
+            "B": "Not sharing with each other",
+            "C": "A dragon",
+            "D": "Too much rain"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "6",
+            "term": "1",
+            "file": "eng_6_t1_l9.json"
+          }
+        },
+        {
+          "question_number": 65,
+          "question": "Why did Holmes hit the ground outside the shop with his walking stick?",
+          "options": {
+            "A": "He was angry",
+            "B": "To check if the cellar was in front of or behind the shop",
+            "C": "To signal Dr. Watson",
+            "D": "To scare away dogs"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l6.json"
+          }
+        },
+        {
+          "question_number": 66,
+          "question": "In which river does the little crocodile live?",
+          "options": {
+            "A": "Ganges",
+            "B": "Nile",
+            "C": "Amazon",
+            "D": "Cauvery"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "6",
+            "term": "1",
+            "file": "eng_6_t1_l2.json"
+          }
+        },
+        {
+          "question_number": 67,
+          "question": "HOTS Question: Why was the colour of Mr. Wilson's hair specifically 'red' crucial to the thieves' plan?",
+          "options": {
+            "A": "Red hair made him better at copying books",
+            "B": "It allowed them to create an exclusive, absurd club that only he would qualify for in the area",
+            "C": "Red hair was considered lucky",
+            "D": "John Clay hated red hair"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l6.json"
+          }
+        },
+        {
+          "question_number": 68,
+          "question": "Book Back True/False: Mr. Ross did not want to hire Mr. Wilson.",
+          "options": {
+            "A": "True",
+            "B": "False",
+            "C": "Partially True",
+            "D": "Cannot be determined"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l6.json"
+          }
+        },
+        {
+          "question_number": 69,
+          "question": "Assertion (A): Holmes and his team waited in the dark inside the bank's strong room.\nReason (R): They wanted to catch the thieves red-handed as they broke in.",
+          "options": {
+            "A": "Both A and R are true, and R is the correct explanation of A.",
+            "B": "Both A and R are true, but R is not the correct explanation of A.",
+            "C": "A is true, but R is false.",
+            "D": "A is false, but R is true."
+          },
+          "answer": "A",
+          "difficulty": "hard",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l6.json"
+          }
+        },
+        {
+          "question_number": 70,
+          "question": "Who is the author/creator of the character Sherlock Holmes (implicit knowledge context)?",
+          "options": {
+            "A": "Agatha Christie",
+            "B": "William Shakespeare",
+            "C": "Arthur Conan Doyle",
+            "D": "Walter de la Mare"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l6.json"
+          }
+        },
+        {
+          "question_number": 71,
+          "question": "Who is the author of 'When the Trees Walked'?",
+          "options": {
+            "A": "Ruskin Bond",
+            "B": "William Wordsworth",
+            "C": "Robert Frost",
+            "D": "Rudyard Kipling"
+          },
+          "answer": "A",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "6",
+            "term": "1",
+            "file": "eng_6_t1_l4.json"
+          }
+        },
+        {
+          "question_number": 72,
+          "question": "What did Spaulding say when Holmes caught him in the strong room?",
+          "options": {
+            "A": "I surrender!",
+            "B": "Who are you?",
+            "C": "You think of everything, Mr. Holmes. You're very clever.",
+            "D": "Please don't arrest me!"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l6.json"
+          }
+        },
+        {
+          "question_number": 73,
+          "question": "What time of the day does the poem take place?",
+          "options": {
+            "A": "Early morning",
+            "B": "Afternoon",
+            "C": "Night time",
+            "D": "Noon"
+          },
+          "answer": "C",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l5.json"
+          }
+        },
+        {
+          "question_number": 74,
+          "question": "What detail shows Holmes's anticipation of the thieves' escape route?",
+          "options": {
+            "A": "He locked the main door",
+            "B": "He placed three men at the other end of the tunnel",
+            "C": "He tied them up",
+            "D": "He removed their guns beforehand"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l6.json"
+          }
+        },
+        {
+          "question_number": 75,
+          "question": "What part of his body does the crocodile improve?",
+          "options": {
+            "A": "Head",
+            "B": "Eyes",
+            "C": "Shining tail",
+            "D": "Legs"
+          },
+          "answer": "C",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "6",
+            "term": "1",
+            "file": "eng_6_t1_l2.json"
+          }
+        },
+        {
+          "question_number": 76,
+          "question": "What specific detail about Spaulding's appearance did Holmes notice?",
+          "options": {
+            "A": "His red hair",
+            "B": "His dirty trousers",
+            "C": "His expensive shoes",
+            "D": "His injured hand"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l6.json"
+          }
+        },
+        {
+          "question_number": 77,
+          "question": "Pick out the rhyming word for 'head' from the poem.",
+          "options": {
+            "A": "Door",
+            "B": "Said",
+            "C": "Hall",
+            "D": "Still"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l5.json"
+          }
+        },
+        {
+          "question_number": 78,
+          "question": "What time is it when Watson whispers to Holmes in the dark strong room?",
+          "options": {
+            "A": "10:00",
+            "B": "11:15",
+            "C": "12:00",
+            "D": "1:30"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l6.json"
+          }
+        },
+        {
+          "question_number": 79,
+          "question": "Analogy Check: Detective : Investigation :: Thief : _________",
+          "options": {
+            "A": "Protection",
+            "B": "Examination",
+            "C": "Robbery",
+            "D": "Copying"
+          },
+          "answer": "C",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l6.json"
+          }
+        },
+        {
+          "question_number": 80,
+          "question": "At what time did Holmes ask Watson to meet him for the investigation?",
+          "options": {
+            "A": "Nine o'clock",
+            "B": "Eleven o'clock",
+            "C": "Midnight",
+            "D": "Ten o'clock"
+          },
+          "answer": "D",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l6.json"
+          }
+        },
+        {
+          "question_number": 81,
+          "question": "HOTS Question: Why was 'copying the Encyclopaedia Britannica' chosen as Wilson's task?",
+          "options": {
+            "A": "Because he was very knowledgeable",
+            "B": "To test his handwriting skills for a secret mission",
+            "C": "Because it was a tedious, time-consuming task that kept him locked in an office",
+            "D": "Because they wanted to publish a new book"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l6.json"
+          }
+        },
+        {
+          "question_number": 82,
+          "question": "Which figure of speech is used in the phrase 'forest’s ferny floor'?",
+          "options": {
+            "A": "Simile",
+            "B": "Metaphor",
+            "C": "Alliteration",
+            "D": "Personification"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l5.json"
+          }
+        },
+        {
+          "question_number": 83,
+          "question": "True or False Book Back Check: There were ghostly listeners inside the house.",
+          "options": {
+            "A": "True",
+            "B": "False",
+            "C": "Partially True",
+            "D": "Not mentioned"
+          },
+          "answer": "A",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l5.json"
+          }
+        },
+        {
+          "question_number": 84,
+          "question": "How did Duncan Ross contribute to the plan?",
+          "options": {
+            "A": "He dug the tunnel alone",
+            "B": "He acted as the head of the Red-Headed League to keep Wilson occupied",
+            "C": "He was the bank manager",
+            "D": "He drove the getaway car"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l6.json"
+          }
+        },
+        {
+          "question_number": 85,
+          "question": "How did the Traveller stand when nobody answered him?",
+          "options": {
+            "A": "Angry and shouting",
+            "B": "Perplexed and still",
+            "C": "Shivering and cold",
+            "D": "Happy and relieved"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l5.json"
+          }
+        },
+        {
+          "question_number": 86,
+          "question": "Code Breaking: In the step-to-success code, what word does '44 15 13 43 15 45' represent? (Clue: 44=S, 15=E, 13=C)",
+          "options": {
+            "A": "SECURE",
+            "B": "SECRET",
+            "C": "STREET",
+            "D": "SILENT"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l6.json"
+          }
+        },
+        {
+          "question_number": 87,
+          "question": "What is the real, notorious identity of Vincent Spaulding?",
+          "options": {
+            "A": "Mr. Jones",
+            "B": "Duncan Ross",
+            "C": "John Clay",
+            "D": "Jabez Wilson"
+          },
+          "answer": "C",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l6.json"
+          }
+        },
+        {
+          "question_number": 88,
+          "question": "True or False Book Back Check: The Traveller came to the house by bicycle.",
+          "options": {
+            "A": "True",
+            "B": "False",
+            "C": "Partially True",
+            "D": "Not mentioned"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l5.json"
+          }
+        },
+        {
+          "question_number": 89,
+          "question": "Real-life Scenario: If someone offers you a job that pays very well for almost no actual work, like copying a book, you should:",
+          "options": {
+            "A": "Accept it immediately",
+            "B": "Be suspicious of their true motives",
+            "C": "Invite your friends to join",
+            "D": "Quit all your other jobs"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l6.json"
+          }
+        },
+        {
+          "question_number": 90,
+          "question": "What were the exact words the Traveller said when he knocked on the door?",
+          "options": {
+            "A": "Hello, is anyone home?",
+            "B": "Open the door!",
+            "C": "Is there anybody there?",
+            "D": "I have lost my way."
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "eng_7_t1_l5.json"
+          }
+        }
+      ]
+    },
+    {
+      "subject": "சமூக அறிவியல் (Social Science)",
+      "questions": [
+        {
+          "question_number": 91,
+          "question": "வாழ்க்கைச் சூழல் வினா: கிரீன்விச் (0°) பகுதியில் நண்பகல் 12 மணியாக இருக்கும்போது, 15° கிழக்கு தீர்க்கக்கோட்டில் அமைந்திருக்கும் ஒரு நகரத்தின் நேரம் என்னவாக இருக்கும்?",
+          "options": {
+            "A": "பிற்பகல் 1 மணி (1:00 PM)",
+            "B": "முற்பகல் 11 மணி (11:00 AM)",
+            "C": "பிற்பகல் 2 மணி (2:00 PM)",
+            "D": "நண்பகல் 12 மணி (12:00 PM)"
+          },
+          "answer": "A",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "soc_6_t3_l6.json"
+          }
+        },
+        {
+          "question_number": 92,
+          "question": "பொருத்துக: \n1. கெய்க்வாட் - அ. நாக்பூர்\n2. பான்ஸ்லே - ஆ. இந்தூர்\n3. ஹோல்கர் - இ. பரோடா\n4. சிந்தியா - ஈ. குவாலியர்",
+          "options": {
+            "A": "1-இ, 2-அ, 3-ஆ, 4-ஈ",
+            "B": "1-அ, 2-ஆ, 3-இ, 4-ஈ",
+            "C": "1-ஈ, 2-இ, 3-அ, 4-ஆ",
+            "D": "1-ஆ, 2-ஈ, 3-இ, 4-அ"
+          },
+          "answer": "A",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "2",
+            "file": "soc_7_t2_l3.json"
+          }
+        },
+        {
+          "question_number": 93,
+          "question": "காலவரிசைப்படி நிகழ்வுகளை வரிசைப்படுத்துக: \nI. சிவாஜி, தம் பாதுகாவலர் இறந்தவுடன் சுதந்திரமான அரசரானார். \nII. பாலாஜி பாஜிராவ் அரசப்பதவி ஏற்றார். \nIII. சிவாஜியின் தந்தை இறந்தவுடன் ஜாவலியின் மீது படையெடுத்தார். \nIV. பாலாஜி விஸ்வநாத் பேஷ்வாவாகப் பொறுப்பேற்றார்.",
+          "options": {
+            "A": "III, I, II, IV",
+            "B": "I, III, IV, II",
+            "C": "I, IV, III, II",
+            "D": "IV, I, II, III"
+          },
+          "answer": "B",
+          "difficulty": "hard",
+          "_metadata": {
+            "class": "7",
+            "term": "2",
+            "file": "soc_7_t2_l3.json"
+          }
+        },
+        {
+          "question_number": 94,
+          "question": "சரியா தவறா? : அரேபியர்கள் சிந்துவைக் கைப்பற்றியவுடன் இந்தியாவில் இஸ்லாமியர் காலகட்டம் முழுமையாகத் தொடங்கிவிட்டது.",
+          "options": {
+            "A": "சரி",
+            "B": "தவறு",
+            "C": "பகுதி சரி",
+            "D": "கூற இயலாது"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "soc_7_t1_l2.json"
+          }
+        },
+        {
+          "question_number": 95,
+          "question": "சங்கம் என்ற சொல் யாரால் ஆதரிக்கப்பட்ட புலவர்களின் குழுமத்தைக் குறிக்கிறது?",
+          "options": {
+            "A": "பல்லவ அரசர்கள்",
+            "B": "மதுரைப் பாண்டிய அரசர்கள்",
+            "C": "சேர அரசர்கள்",
+            "D": "களப்பிரர்கள்"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "soc_6_t3_l1.json"
+          }
+        },
+        {
+          "question_number": 96,
+          "question": "பானிப்பட் போரில் தப்பிப்பிழைத்த மராத்திய வீரர்கள் மகாராஷ்டிரா திரும்பி நடந்தே வர எவ்வளவு காலமானது?",
+          "options": {
+            "A": "ஒரு மாதம்",
+            "B": "ஆறு மாதம்",
+            "C": "ஒரு வருடம்",
+            "D": "இரண்டு மாதம்"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "2",
+            "file": "soc_7_t2_l3.json"
+          }
+        },
+        {
+          "question_number": 97,
+          "question": "பொதுச்சொத்துக்களைப் பாதுகாத்தல் மற்றும் சுற்றுச்சூழலைப் பாதுகாத்தல் என்பவை எதன் கீழ் வருகின்றன?",
+          "options": {
+            "A": "அடிப்படை கடமைகள்",
+            "B": "அடிப்படை உரிமைகள்",
+            "C": "அரசியல் சட்டங்கள்",
+            "D": "மாநில உரிமைகள்"
+          },
+          "answer": "A",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "6",
+            "term": "2",
+            "file": "soc_6_t2_l6.json"
+          }
+        },
+        {
+          "question_number": 98,
+          "question": "குஜராத்தில் உள்ள கௌர்மோட்டா என்ற இடத்திற்கும், அருணாச்சல பிரதேசத்தில் உள்ள கிபித்து என்ற இடத்திற்கும் மையமாக அமைந்துள்ள மாநிலம் எது?",
+          "options": {
+            "A": "மத்தியப் பிரதேசம்",
+            "B": "மகாராஷ்டிரா",
+            "C": "உத்திரப் பிரதேசம்",
+            "D": "சத்தீஸ்கர்"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "soc_6_t3_l6.json"
+          }
+        },
+        {
+          "question_number": 99,
+          "question": "நள்ளிரவு 12 மணியாக இருக்கும் இடம் 0° கிரீன்விச் என்றால், சூரியன் நேர் உச்சியில் இருக்கும் 12 மணி நண்பகலாக இருக்கும் தீர்க்கக்கோடு எது?",
+          "options": {
+            "A": "180° தீர்க்கக்கோடு",
+            "B": "90° கிழக்கு",
+            "C": "90° மேற்கு",
+            "D": "82½° கிழக்கு"
+          },
+          "answer": "A",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "soc_6_t3_l6.json"
+          }
+        },
+        {
+          "question_number": 100,
+          "question": "போரின்போது புறமுதுகில் காயம்பட்டதற்காக அரசர்கள் சாகும்வரை உண்ணாவிரதமிருந்து உயிரை மாய்த்துக்கொள்ளும் வழக்கம் எதை உணர்த்துகிறது?",
+          "options": {
+            "A": "அரசனின் கோழைத்தனம்",
+            "B": "புறமுதுகில் காயமடைவது அவமானமாகக் கருதப்பட்டது",
+            "C": "மக்களின் வெறுப்பு",
+            "D": "கடவுளின் கட்டளை"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "soc_6_t3_l1.json"
+          }
+        },
+        {
+          "question_number": 101,
+          "question": "விவசாயி ஒருவரிடமிருந்து கரும்பைப் பெற்று, சர்க்கரையாக மாற்றி, சந்தைக்குக் கொண்டு செல்லும் தொடரில் 'சந்தைப்படுத்துதல்' எந்த நிலை? (உயர் சிந்தனை வினா)",
+          "options": {
+            "A": "முதல்நிலை",
+            "B": "இரண்டாம் நிலை",
+            "C": "மூன்றாம் நிலை",
+            "D": "நான்காம் நிலை"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "2",
+            "file": "soc_6_t2_l4.json"
+          }
+        },
+        {
+          "question_number": 102,
+          "question": "ஒரு சாதாரண வருவாய்த்துறை அலுவலராகத் தமது பணியைத் தொடங்கி 1713 இல் பேஷ்வாவாக உயர்ந்தவர் யார்?",
+          "options": {
+            "A": "பாஜிராவ்",
+            "B": "பாலாஜி பாஜிராவ்",
+            "C": "பாலாஜி விஸ்வநாத்",
+            "D": "கவி கலாஷ்"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "2",
+            "file": "soc_7_t2_l3.json"
+          }
+        },
+        {
+          "question_number": 103,
+          "question": "சங்க கால நிர்வாகத்தில் அரசருக்கு உதவி செய்த எட்டு உறுப்பினர்களைக் கொண்ட குழுவின் பெயர் என்ன?",
+          "options": {
+            "A": "ஐம்பெருங்குழு",
+            "B": "நாளவை",
+            "C": "எண்பேராயம்",
+            "D": "மண்டலம்"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "soc_6_t3_l1.json"
+          }
+        },
+        {
+          "question_number": 104,
+          "question": "கூற்று: கன்னௌஜின் மீது ஆதிக்கத்தை நிறுவவே மும்முனைப் போராட்டம் நடைபெற்றது. காரணம்: கன்னௌஜ் வளம் நிறைந்த பகுதியாக இருந்தது.",
+          "options": {
+            "A": "காரணம் கூற்றிற்கான சரியான விளக்கமே",
+            "B": "காரணம் கூற்றிற்கான சரியான விளக்கம் அல்ல",
+            "C": "கூற்று தவறு, காரணம் சரி",
+            "D": "கூற்றும் காரணமும் தவறு"
+          },
+          "answer": "A",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "soc_7_t1_l2.json"
+          }
+        },
+        {
+          "question_number": 105,
+          "question": "சரியா? தவறா? : மலை மற்றும் மலைப்பள்ளத்தாக்குகள் மராத்தியர்களை அந்நிய படையெடுப்பாளர்களிடமிருந்து பாதுகாத்தது.",
+          "options": {
+            "A": "தவறு",
+            "B": "கூற இயலாது",
+            "C": "சரி",
+            "D": "பாதி சரி"
+          },
+          "answer": "C",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "2",
+            "file": "soc_7_t2_l3.json"
+          }
+        },
+        {
+          "question_number": 106,
+          "question": "1905-ஆம் ஆண்டு வங்கப் பிரிவினையின் போது மாபெரும் 'ரக்ஷாபந்தன்' விழாவைத் தொடங்கியவர் யார்?",
+          "options": {
+            "A": "மகாத்மா காந்தி",
+            "B": "பால கங்காதர திலகர்",
+            "C": "ரவீந்திரநாத் தாகூர்",
+            "D": "சுபாஷ் சந்திர போஸ்"
+          },
+          "answer": "C",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "soc_7_t1_l2.json"
+          }
+        },
+        {
+          "question_number": 107,
+          "question": "சூரிய ஒளி மற்றும் காற்று ஆகியவை எவ்வகை பரவல் வளங்களுக்கு எடுத்துக்காட்டாகும்?",
+          "options": {
+            "A": "உள்ளூர் வளங்கள்",
+            "B": "உலகளாவிய வளங்கள்",
+            "C": "தனிநபர் வளங்கள்",
+            "D": "சமூக வளங்கள்"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "6",
+            "term": "2",
+            "file": "soc_6_t2_l4.json"
+          }
+        },
+        {
+          "question_number": 108,
+          "question": "கூற்று (A): மிதவெப்ப மண்டலத்தில் மிதமான வெப்பநிலை நிலவுகிறது.\nகாரணம் (R): இப்பகுதிகளில் சூரியக்கதிர்கள் சாய்வாக விழுகின்றன.",
+          "options": {
+            "A": "கூற்று சரி, காரணம் தவறு.",
+            "B": "கூற்று தவறு, காரணம் சரி.",
+            "C": "கூற்று மற்றும் காரணம் இரண்டும் சரி, சரியான விளக்கம்.",
+            "D": "கூற்று மற்றும் காரணம் இரண்டும் சரி, ஆனால் சரியான விளக்கமல்ல."
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "soc_6_t3_l6.json"
+          }
+        },
+        {
+          "question_number": 109,
+          "question": "வாழ்க்கைச் சூழல் வினா: நீங்கள் காலையில் சூரியனை நோக்கி நிற்கும்போது, உங்களுக்குப் பின்னால் இருக்கும் திசை எது?",
+          "options": {
+            "A": "வடக்கு",
+            "B": "தெற்கு",
+            "C": "கிழக்கு",
+            "D": "மேற்கு"
+          },
+          "answer": "D",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "soc_6_t3_l6.json"
+          }
+        },
+        {
+          "question_number": 110,
+          "question": "அரசு அனைத்து மதங்களையும் ஒரே தளத்தில் வைத்துப் பார்ப்பது மற்றும் அரசுக்கெனத் தனி மதம் கிடையாது என்பது எதனைக் குறிக்கிறது?",
+          "options": {
+            "A": "சமத்துவம்",
+            "B": "இறைமை",
+            "C": "மதச்சார்பின்மை",
+            "D": "ஜனநாயகம்"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "2",
+            "file": "soc_6_t2_l6.json"
+          }
+        },
+        {
+          "question_number": 111,
+          "question": "பன்னாட்டு தேதிக்கோடு (International Date Line) எந்தப் பெருங்கடலில் அமைந்துள்ளது?",
+          "options": {
+            "A": "அட்லாண்டிக் பெருங்கடல்",
+            "B": "இந்தியப் பெருங்கடல்",
+            "C": "பசிபிக் பெருங்கடல்",
+            "D": "ஆர்க்டிக் பெருங்கடல்"
+          },
+          "answer": "C",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "soc_6_t3_l6.json"
+          }
+        },
+        {
+          "question_number": 112,
+          "question": "ஓர் இஸ்லாமிய அரசு அரசியல் ரீதியாகவும் மத ரீதியாகவும் ஒரே நபரால் ஆளப்பட்டால் அது எவ்வாறு அழைக்கப்பட்டது?",
+          "options": {
+            "A": "சுல்தானியம்",
+            "B": "கலீபத்",
+            "C": "எமிரேட்",
+            "D": "நவாபியம்"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "soc_7_t1_l2.json"
+          }
+        },
+        {
+          "question_number": 113,
+          "question": "a.m என்பது 'anti - meridiem' என்பதைக் குறிக்கும். இதில் anti என்பதன் பொருள் என்ன?",
+          "options": {
+            "A": "நண்பகலுக்குப் பிறகு (after)",
+            "B": "நண்பகலுக்கு முன்னதாக (before)",
+            "C": "நள்ளிரவு",
+            "D": "சூரிய உதயம்"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "soc_6_t3_l6.json"
+          }
+        },
+        {
+          "question_number": 114,
+          "question": "கி.பி. 1206-இல் முகமது கோரி இயற்கையெய்திய பின்னர், தன்னை \"டெல்லியின் முதல் சுல்தான்\" எனப் பிரகடனப்படுத்திக் கொண்டவர் யார்?",
+          "options": {
+            "A": "இல்துமிஷ்",
+            "B": "குத்புதீன் ஐபக்",
+            "C": "பால்பன்",
+            "D": "அலாவுதீன் கில்ஜி"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "soc_7_t1_l2.json"
+          }
+        },
+        {
+          "question_number": 115,
+          "question": "கூற்று 1: மகிபாலரால் தனது நாட்டை வாரணாசியைக் கடந்து விரிவுபடுத்த முடியவில்லை. கூற்று 2: மகிபாலரும் முதலாம் ராஜேந்திர சோழனும் சமகாலத்தவர் ஆவர்.",
+          "options": {
+            "A": "1 சரி",
+            "B": "2 சரி",
+            "C": "1 மற்றும் 2 சரி",
+            "D": "1 மற்றும் 2 தவறு"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "soc_7_t1_l2.json"
+          }
+        },
+        {
+          "question_number": 116,
+          "question": "சற்று தொலைவிலிருந்து எதிரியின் மீது ஏவுகணையைப் போன்று வீசப்படும் சங்க கால ஆயுதம் எது?",
+          "options": {
+            "A": "வாள்",
+            "B": "தோமாரம்",
+            "C": "ஈட்டி",
+            "D": "வில்"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "soc_6_t3_l1.json"
+          }
+        },
+        {
+          "question_number": 117,
+          "question": "ஒரு மாணவன் தனது பழைய புத்தகங்களை எறியாமல், சிறிய வகுப்பிலுள்ள மாணவனுக்குப் படிக்கக் கொடுக்கிறான். இது வளப் பாதுகாப்பில் எதனைக் குறிக்கிறது? (வாழ்க்கை சூழல் வினா)",
+          "options": {
+            "A": "குறைத்தல்",
+            "B": "மறுபயன்பாடு",
+            "C": "மறுசுழற்சி",
+            "D": "உற்பத்தி"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "2",
+            "file": "soc_6_t2_l4.json"
+          }
+        },
+        {
+          "question_number": 118,
+          "question": "கூற்று: மராத்தியப் போர்வீரர்கள் தங்கள் வசிப்பிடத்திற்குத் தொலைவில் உள்ள கோட்டைகளிலும், நகரங்களிலும் வாழ்ந்தனர். \nகாரணம்: மராத்திய வீரர்கள் ஒவ்வோர் ஆண்டும் போர்க்களத்திலிருந்து தங்கள் நிலங்களின் வேளாண் பணிகளுக்காகச் சென்று வருவதற்கு அனுமதி மறுக்கப்பட்டது.",
+          "options": {
+            "A": "கூற்றிற்கான காரணம் தவறு",
+            "B": "கூற்று சரி, காரணம் தவறு",
+            "C": "கூற்று மற்றும் காரணம் தவறு",
+            "D": "கூற்றிற்கான காரணம் சரி"
+          },
+          "answer": "D",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "2",
+            "file": "soc_7_t2_l3.json"
+          }
+        },
+        {
+          "question_number": 119,
+          "question": "1018-ஆம் ஆண்டில் கஜினி மாமூது எந்தப் புனித நகரத்தைக் கொள்ளையடித்தார்?",
+          "options": {
+            "A": "மதுரா",
+            "B": "காசி",
+            "C": "அயோத்தி",
+            "D": "சோமநாதபுரம்"
+          },
+          "answer": "A",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "soc_7_t1_l2.json"
+          }
+        },
+        {
+          "question_number": 120,
+          "question": "பொருத்துக: 1. சேரர் - அ. அத்திப்பூ மாலை 2. சோழர் - ஆ. வேப்பம்பூ மாலை 3. பாண்டியர் - இ. பனம்பூ மாலை",
+          "options": {
+            "A": "1-இ, 2-அ, 3-ஆ",
+            "B": "1-அ, 2-இ, 3-ஆ",
+            "C": "1-ஆ, 2-அ, 3-இ",
+            "D": "1-இ, 2-ஆ, 3-அ"
+          },
+          "answer": "A",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "soc_6_t3_l1.json"
+          }
+        },
+        {
+          "question_number": 121,
+          "question": "மாளவத்திற்கும் குஜராத்திற்கும் எதிராகப் போர்ப் பிரகடனம் செய்து அவற்றை முகலாயரின் மேலாதிக்கத்திலிருந்து விடுவித்தவர் யார்?",
+          "options": {
+            "A": "பாலாஜி விஸ்வநாத்",
+            "B": "பாஜிராவ்",
+            "C": "பாலாஜி பாஜிராவ்",
+            "D": "ஷாஜி"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "2",
+            "file": "soc_7_t2_l3.json"
+          }
+        },
+        {
+          "question_number": 122,
+          "question": "சுமத்ரா மற்றும் ஜாவாவைச் சேர்ந்த எந்த அரசுடன் பாலர்கள் சுமுகமான உறவைப் பேணினர்?",
+          "options": {
+            "A": "சைலேந்திர அரசு",
+            "B": "ஸ்ரீவிஜய அரசு",
+            "C": "மஜபாகித் அரசு",
+            "D": "சோழ அரசு"
+          },
+          "answer": "A",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "soc_7_t1_l2.json"
+          }
+        },
+        {
+          "question_number": 123,
+          "question": "இரண்டு அட்சக்கோடுகளுக்கு இடைப்பட்ட தூரம் 111 கி.மீ எனில், இரண்டு தீர்க்கக்கோடுகளுக்கு இடைப்பட்ட தூரம் எங்கு 0 கி.மீ ஆக இருக்கும்?",
+          "options": {
+            "A": "நிலநடுக்கோட்டில்",
+            "B": "மிதவெப்ப மண்டலத்தில்",
+            "C": "துருவங்களில்",
+            "D": "வெப்ப மண்டலத்தில்"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "soc_6_t3_l6.json"
+          }
+        },
+        {
+          "question_number": 124,
+          "question": "பயன்படுத்திய பிறகு மீண்டும் புதுப்பித்துக் கொள்ள இயலும் வளங்கள் எவை?",
+          "options": {
+            "A": "புதுப்பிக்கக்கூடிய வளங்கள்",
+            "B": "புதுப்பிக்க இயலா வளங்கள்",
+            "C": "கண்டறியப்பட்ட வளங்கள்",
+            "D": "உள்ளூர் வளங்கள்"
+          },
+          "answer": "A",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "6",
+            "term": "2",
+            "file": "soc_6_t2_l4.json"
+          }
+        },
+        {
+          "question_number": 125,
+          "question": "பொருத்துக (திணை - தொழில்): 1. குறிஞ்சி - அ. உழவு 2. முல்லை - ஆ. மீன்பிடித்தல் 3. மருதம் - இ. ஆநிரை மேய்த்தல் 4. நெய்தல் - ஈ. வேட்டையாடுதல்",
+          "options": {
+            "A": "1-ஈ, 2-இ, 3-அ, 4-ஆ",
+            "B": "1-இ, 2-ஈ, 3-ஆ, 4-அ",
+            "C": "1-அ, 2-ஆ, 3-இ, 4-ஈ",
+            "D": "1-ஈ, 2-அ, 3-இ, 4-ஆ"
+          },
+          "answer": "A",
+          "difficulty": "hard",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "soc_6_t3_l1.json"
+          }
+        },
+        {
+          "question_number": 126,
+          "question": "அரசியலமைப்பு நிர்ணய சபையில் இடம்பெற்றிருந்த பெண் உறுப்பினர்களின் எண்ணிக்கை எத்தனை?",
+          "options": {
+            "A": "12",
+            "B": "15",
+            "C": "10",
+            "D": "22"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "6",
+            "term": "2",
+            "file": "soc_6_t2_l6.json"
+          }
+        },
+        {
+          "question_number": 127,
+          "question": "கி.பி. 712-இல் சிந்துப் படையெடுப்பின் போது முகமது பின் காசிமால் தோற்கடிக்கப்பட்ட சிந்து அரசர் யார்?",
+          "options": {
+            "A": "ஜெயபாலர்",
+            "B": "தாகிர்",
+            "C": "ஆனந்தபாலர்",
+            "D": "பிருதிவிராஜ்"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "soc_7_t1_l2.json"
+          }
+        },
+        {
+          "question_number": 128,
+          "question": "சிந்தனை வினா: ஒரு கப்பல் பசிபிக் பெருங்கடலில் பன்னாட்டு தேதிக்கோட்டை திங்கள் கிழமை கடந்து கிழக்கிலிருந்து மேற்கு நோக்கிச் செல்கிறது எனில், அடுத்த நாள் என்ன கிழமையாக இருக்கும்?",
+          "options": {
+            "A": "ஞாயிறு",
+            "B": "திங்கள்",
+            "C": "செவ்வாய்",
+            "D": "புதன்"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "soc_6_t3_l6.json"
+          }
+        },
+        {
+          "question_number": 129,
+          "question": "தர்மபாலர், தேவபாலர் ஆகியோரின் ஆட்சிக் காலங்கள் எந்த வரலாற்றின் சிறப்பு மிகை ஒளிரும் அத்தியாயங்கள் என வரலாற்றறிஞர் ஆர்.சி. மஜும்தார் கூறியுள்ளார்?",
+          "options": {
+            "A": "ராஜஸ்தானின் வரலாறு",
+            "B": "வங்காள வரலாற்றின்",
+            "C": "குஜராத் வரலாற்றின்",
+            "D": "பஞ்சாப் வரலாற்றின்"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "soc_7_t1_l2.json"
+          }
+        },
+        {
+          "question_number": 130,
+          "question": "தலையாலங்கானம் என்னும் இடத்தில் சேரர், சோழர் மற்றும் ஐந்து வேளிர்களின் கூட்டுப்படையைத் தோற்கடித்த பாண்டிய மன்னன் யார்?",
+          "options": {
+            "A": "நன்மாறன்",
+            "B": "முதுகுடுமிப் பெருவழுதி",
+            "C": "நெடுஞ்செழியன்",
+            "D": "நெடியோன்"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "soc_6_t3_l1.json"
+          }
+        },
+        {
+          "question_number": 131,
+          "question": "பந்தேல்கண்டின் சந்தேலர்கள் தங்களை எந்த குலத்தின் வழித்தோன்றல்கள் எனக் கூறிக் கொள்கின்றனர்?",
+          "options": {
+            "A": "அக்னி குலம்",
+            "B": "சூரிய மற்றும் சந்திர குலம்",
+            "C": "நாக குலம்",
+            "D": "இந்திர குலம்"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "soc_7_t1_l2.json"
+          }
+        },
+        {
+          "question_number": 132,
+          "question": "தற்பொழுது பயன்பாட்டில் இல்லாததும், இருப்பிடம் அறியப்படாமல் இருப்பதும் எவ்வகை வளங்களாகும்?",
+          "options": {
+            "A": "உலகளாவிய வளங்கள்",
+            "B": "மறைந்திருக்கும் வளங்கள்",
+            "C": "கண்டறியப்பட்ட வளங்கள்",
+            "D": "சமூக வளங்கள்"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "6",
+            "term": "2",
+            "file": "soc_6_t2_l4.json"
+          }
+        },
+        {
+          "question_number": 133,
+          "question": "அரேபியர்கள் 0 முதல் 9 வரையிலான எண்களையும், சதுரங்க விளையாட்டையும் யாரிடமிருந்து கற்றுக் கொண்டனர்?",
+          "options": {
+            "A": "சீனர்கள்",
+            "B": "இந்தியர்கள்",
+            "C": "கிரேக்கர்கள்",
+            "D": "ரோமானியர்கள்"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "soc_7_t1_l2.json"
+          }
+        },
+        {
+          "question_number": 134,
+          "question": "1001-ஆம் ஆண்டு கஜினி மாமூதிடம் தோற்றதால் அவமானமுற்று தன்னைத்தானே மாய்த்துக் கொண்ட ஷாகி வம்ச அரசர் யார்?",
+          "options": {
+            "A": "ஆனந்தபாலர்",
+            "B": "ஜெயபாலர்",
+            "C": "ராஜ்யபாலர்",
+            "D": "பீமதேவர்"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "soc_7_t1_l2.json"
+          }
+        },
+        {
+          "question_number": 135,
+          "question": "அரசுகள் சட்டம் இயற்றும் போதும், ஆட்சி செய்யும் போதும் கவனத்தில் கொள்ள வேண்டிய வழிகாட்டல்களை வழங்குவது எது?",
+          "options": {
+            "A": "அடிப்படை உரிமைகள்",
+            "B": "வழிகாட்டும் நெறிமுறைகள்",
+            "C": "நீதிமன்றத் தீர்ப்புகள்",
+            "D": "அடிப்படை கடமைகள்"
+          },
+          "answer": "B",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "2",
+            "file": "soc_6_t2_l6.json"
+          }
+        },
+        {
+          "question_number": 136,
+          "question": "பாலாஜி பாஜிராவ் காலத்தில் மராத்தியப் பேரரசின் கப்பம் வசூலிக்கும் ஆட்சிப்பரப்பு எந்த நகருக்கு 50 மைல்கள் அருகே வரை விரிவடைந்தது?",
+          "options": {
+            "A": "ஆக்ரா",
+            "B": "லாகூர்",
+            "C": "டெல்லி",
+            "D": "காபூல்"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "2",
+            "file": "soc_7_t2_l3.json"
+          }
+        },
+        {
+          "question_number": 137,
+          "question": "இந்தியா போன்ற பன்முகத்தன்மை கொண்ட நாட்டில், அனைத்து தரப்பு மக்களும் சமமாக நடத்தப்படுவதை உறுதி செய்வது எது?",
+          "options": {
+            "A": "அரசியலமைப்புச் சட்டத்தின் அடிப்படை உரிமைகள்",
+            "B": "பொருளாதார வளர்ச்சி",
+            "C": "அந்நிய முதலீடு",
+            "D": "தொழில்நுட்ப வளர்ச்சி"
+          },
+          "answer": "A",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "2",
+            "file": "soc_6_t2_l6.json"
+          }
+        },
+        {
+          "question_number": 138,
+          "question": "\"விண்மீன்கள் வானில் மேற்குப்புறமாக நகர்வது போன்ற தோற்றம், புவி தன்னுடைய அச்சில் தன்னைத்தானே சுற்றிக் கொள்வதால் விளைகிறது\" எனக் குறிப்பிட்ட இந்திய வானியல் அறிஞர் யார்?",
+          "options": {
+            "A": "இரண்டாம் ஆரியபட்டர்",
+            "B": "வராகமிகிரர்",
+            "C": "முதலாம் ஆரியபட்டர்",
+            "D": "பாஸ்கராச்சாரியார்"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "soc_6_t3_l6.json"
+          }
+        },
+        {
+          "question_number": 139,
+          "question": "பௌத்தக் கல்விக்கான மிகச் சிறந்த மையமாகத் திகழ்ந்த 'விக்கிரமசீலா மடாலயத்தை' உருவாக்கியவர் யார்?",
+          "options": {
+            "A": "தேவபாலர்",
+            "B": "தர்மபாலர்",
+            "C": "மகிபாலர்",
+            "D": "கோபாலர்"
+          },
+          "answer": "B",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "soc_7_t1_l2.json"
+          }
+        },
+        {
+          "question_number": 140,
+          "question": "சரியா? தவறா? : பக்தி இயக்கத்தின் மந்திரங்கள் சமஸ்கிருதத்தில் இயற்றப்பட்டது, அனைத்து சமூகத்தினராலும் பக்தி இயக்கப் பாடல்கள் பாடப்பட்டன.",
+          "options": {
+            "A": "சரி",
+            "B": "பாதி சரி",
+            "C": "கூற இயலாது",
+            "D": "தவறு"
+          },
+          "answer": "D",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "2",
+            "file": "soc_7_t2_l3.json"
+          }
+        },
+        {
+          "question_number": 141,
+          "question": "நாடாளுமன்ற நூலகத்தில் அரசியலமைப்புச் சட்டப் பிரதிகள் எந்த வாயு நிரப்பப்பட்ட பேழையில் பாதுகாக்கப்படுகிறது?",
+          "options": {
+            "A": "நைட்ரஜன்",
+            "B": "ஆக்ஸிஜன்",
+            "C": "கார்பன்-டை-ஆக்ஸைடு",
+            "D": "ஹீலியம்"
+          },
+          "answer": "D",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "6",
+            "term": "2",
+            "file": "soc_6_t2_l6.json"
+          }
+        },
+        {
+          "question_number": 142,
+          "question": "பொருத்துக:\n1. 0° அட்சக்கோடு - a. பன்னாட்டு தேதிக்கோடு\n2. 0° தீர்க்கக்கோடு - b. நிலநடுக்கோடு\n3. 180° தீர்க்கக்கோடு - c. துருவம்\n4. 90° அட்சக்கோடு - d. கிரீன்விச்",
+          "options": {
+            "A": "1-b, 2-d, 3-a, 4-c",
+            "B": "1-a, 2-c, 3-b, 4-d",
+            "C": "1-b, 2-c, 3-d, 4-a",
+            "D": "1-d, 2-a, 3-c, 4-b"
+          },
+          "answer": "A",
+          "difficulty": "hard",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "soc_6_t3_l6.json"
+          }
+        },
+        {
+          "question_number": 143,
+          "question": "இந்திய திட்ட நேரம் (IST) எந்தத் தீர்க்கக்கோட்டினை ஆதாரமாகக் கொண்டு கணக்கிடப்படுகிறது?",
+          "options": {
+            "A": "82½° கிழக்கு",
+            "B": "82½° மேற்கு",
+            "C": "0° முதன்மை தீர்க்கக்கோடு",
+            "D": "180° கிழக்கு"
+          },
+          "answer": "A",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "soc_6_t3_l6.json"
+          }
+        },
+        {
+          "question_number": 144,
+          "question": "தங்கம் குறிப்பிட்ட சில இடங்களில் மட்டுமே வெட்டியெடுக்கப்படுகிறது. எனவே இது எவ்வகை வளம்? (பயன்பாட்டு வினா)",
+          "options": {
+            "A": "உலகளாவிய வளம்",
+            "B": "பன்னாட்டு வளம்",
+            "C": "உள்ளூர் வளம்",
+            "D": "சமூக வளம்"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "6",
+            "term": "2",
+            "file": "soc_6_t2_l4.json"
+          }
+        },
+        {
+          "question_number": 145,
+          "question": "புவியின் மீது வடக்கு தெற்காக, செங்குத்தாக வரையப்பட்டுள்ள கற்பனைக் கோடுகள் எவ்வாறு அழைக்கப்படுகின்றன?",
+          "options": {
+            "A": "அட்சக்கோடுகள்",
+            "B": "பெருவட்டம்",
+            "C": "வெப்ப மண்டலக் கோடுகள்",
+            "D": "தீர்க்கக்கோடுகள் (Longitudes)"
+          },
+          "answer": "D",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "6",
+            "term": "3",
+            "file": "soc_6_t3_l6.json"
+          }
+        },
+        {
+          "question_number": 146,
+          "question": "நெய்வேலி பழுப்பு நிலக்கரி சுரங்கம் எவ்வகை வளத்திற்கு சிறந்த எடுத்துக்காட்டாகும்?",
+          "options": {
+            "A": "கண்டறியப்பட்ட வளங்கள்",
+            "B": "மறைந்திருக்கும் வளங்கள்",
+            "C": "உலகளாவிய வளங்கள்",
+            "D": "புதுப்பிக்கக்கூடிய வளங்கள்"
+          },
+          "answer": "A",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "6",
+            "term": "2",
+            "file": "soc_6_t2_l4.json"
+          }
+        },
+        {
+          "question_number": 147,
+          "question": "இந்திய அரசியலமைப்புச் சட்டம் உருவான போது அதில் எத்தனை பகுதிகள் (Parts) இருந்தன?",
+          "options": {
+            "A": "25",
+            "B": "20",
+            "C": "22",
+            "D": "18"
+          },
+          "answer": "C",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "6",
+            "term": "2",
+            "file": "soc_6_t2_l6.json"
+          }
+        },
+        {
+          "question_number": 148,
+          "question": "கி.பி. 647-இல் எந்த மன்னரின் மறைவைத் தொடர்ந்து வட மற்றும் மத்திய இந்தியாவில் ராஜபுத்திர இனக்குழுக்கள் தங்கள் அரசுகளை நிறுவின?",
+          "options": {
+            "A": "அசோகர்",
+            "B": "சமுத்திரகுப்தர்",
+            "C": "ஹர்ஷர்",
+            "D": "கனிஷ்கர்"
+          },
+          "answer": "C",
+          "difficulty": "medium",
+          "_metadata": {
+            "class": "7",
+            "term": "1",
+            "file": "soc_7_t1_l2.json"
+          }
+        },
+        {
+          "question_number": 149,
+          "question": "சிவாஜி காலத்து மராத்திய நிர்வாகத்தில் முகலாயரின் மேலாதிக்கம் எந்த வகையில் தாக்கம் செலுத்தியிருந்தது?",
+          "options": {
+            "A": "மத மாற்றத்தில்",
+            "B": "கட்டடக்கலையில்",
+            "C": "நிலவரி உண்மையான விளைச்சலின் அடிப்படையில் நிர்ணயம் செய்யப்பட்டதில்",
+            "D": "ஆடை உடுத்தும் முறையில்"
+          },
+          "answer": "C",
+          "difficulty": "easy",
+          "_metadata": {
+            "class": "7",
+            "term": "2",
+            "file": "soc_7_t2_l3.json"
+          }
+        },
+        {
+          "question_number": 150,
+          "question": "கூற்றுகளை ஆய்க: \nவாக்கியம் – I: செய்திப்பரிமாற்றக் கடிதங்கள் அடங்கிய தொகுப்புகளையும், கணக்குப் பதிவேடுகளையும் மதிப்பீடு செய்கையில், ஆவணங்களைத் துல்லியமாகப் பராமரிப்பதில் பேஷ்வாக்கள் கவனமுடன் இருந்தனர். \nவாக்கியம் – II: இரண்டாம் பானிப்பட் போரில் பீரங்கிப்படை முக்கியத்துவம் பெற்றிருந்தது.",
+          "options": {
+            "A": "I சரி",
+            "B": "II சரி",
+            "C": "I மற்றும் II சரி",
+            "D": "I மற்றும் II தவறு"
+          },
+          "answer": "A",
+          "difficulty": "hard",
+          "_metadata": {
+            "class": "7",
+            "term": "2",
+            "file": "soc_7_t2_l3.json"
+          }
+        }
+      ]
+    }
+  ]
+}

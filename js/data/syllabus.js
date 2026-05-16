@@ -309,39 +309,24 @@ export const syllabusData = {
             "title": "அனைத்தும்",
             "topics": [
               {
-                "title": "மாதிரித்தேர்வு 1",
+                "title": "ஆசிரியர் தகுதி தேர்வு - மாதிரி வினாத்தாள் 1 (கணிதம் + அறிவியல்)",
                 "isUpdated": true,
-                "code": "Lesson_1"
+                "code": "mock_1_ms"
               },
               {
-                "title": "மாதிரித்தேர்வு 3",
+                "title": "ஆசிரியர் தகுதி தேர்வு - மாதிரி வினாத்தாள் 1 (சமூக அறிவியல்)",
                 "isUpdated": true,
-                "code": "Lesson_2"
+                "code": "mock_1_ss"
               },
               {
-                "title": "மாதிரித்தேர்வு 4",
+                "title": "ஆசிரியர் தகுதி தேர்வு - மாதிரி வினாத்தாள் 2 (கணிதம் + அறிவியல்)",
                 "isUpdated": true,
-                "code": "Lesson_3"
+                "code": "mock_2_ms"
               },
               {
-                "title": "மாதிரித்தேர்வு 2",
+                "title": "ஆசிரியர் தகுதி தேர்வு - மாதிரி வினாத்தாள் 2 (சமூக அறிவியல்)",
                 "isUpdated": true,
-                "code": "Lesson_4"
-              },
-              {
-                "title": "TNTET தாள் 1 - மாதிரி வினாத்தாள் (150 வினாக்கள்)",
-                "isUpdated": true,
-                "code": "Lesson_5"
-              },
-              {
-                "title": "TNTET தாள் 1 - மாதிரி வினாத்தாள் 9 (கணிதம்/அறிவியல்)",
-                "isUpdated": true,
-                "code": "mt_9_ms"
-              },
-              {
-                "title": "TNTET தாள் 1 - மாதிரி வினாத்தாள் 9 (சமூக அறிவியல்)",
-                "isUpdated": true,
-                "code": "mt_9_ss"
+                "code": "mock_2_ss"
               }
             ]
           }
