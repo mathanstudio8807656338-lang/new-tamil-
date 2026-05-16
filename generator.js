@@ -82,17 +82,18 @@ function generate() {
 
     // GitHub Sync
     try {
-        console.log("🚀 GitHub-க்கு தகவல்களை அனுப்புகிறது...");
+        console.log("🚀 Syncing with GitHub...");
         execSync('git add .');
         try {
-            execSync('git commit -m "Auto-update: அனைத்துப் பாடங்களும் புதுப்பிக்கப்பட்டது"');
+            execSync('git commit -m "chore: update syllabus and lesson map"');
         } catch (e) {
-            console.log("ℹ️ கமிட் செய்ய புதிய மாற்றங்கள் இல்லை.");
+            console.log("ℹ️ No changes to commit.");
         }
-        execSync('git push -f origin main');
-        console.log("🎉 GitHub-ல் வெற்றிகரமாகப் பதிவேற்றப்பட்டது!");
+        execSync('git pull origin main --rebase');
+        execSync('git push origin main');
+        console.log("🎉 Successfully synced with GitHub!");
     } catch (e) {
-        console.error("❌ GitHub-க்கு அனுப்ப முடியவில்லை. இன்டர்நெட் அல்லது Git செட்டப்பைச் சரிபார்க்கவும்.");
+        console.error("❌ GitHub Sync Failed:", e.message);
     }
 }
 
