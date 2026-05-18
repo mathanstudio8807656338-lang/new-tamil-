@@ -279,7 +279,28 @@ export const lessonMap = {
       "term": 1
     }
   },
-  "mocktest": {},
+  "mocktest": {
+    "ஆசிரியர் தகுதி தேர்வு மாதிரி வினாத்தாள் - தாள் 1": {
+      "local": true,
+      "filename": "மாதிரி_வினாத்தாள்_1",
+      "isFlat": true
+    },
+    "மாதிரி_வினாத்தாள்_1": {
+      "local": true,
+      "filename": "மாதிரி_வினாத்தாள்_1",
+      "isFlat": true
+    },
+    "ஆசிரியர் தகுதி தேர்வு மாதிரி வினாத்தாள் - தாள் 4": {
+      "local": true,
+      "filename": "மாதிரி_வினாத்தாள்_4",
+      "isFlat": true
+    },
+    "மாதிரி_வினாத்தாள்_4": {
+      "local": true,
+      "filename": "மாதிரி_வினாத்தாள்_4",
+      "isFlat": true
+    }
+  },
   "notes_678": {
     "முக்கிய குறிப்புகள் - பகுதி 1": {
       "local": true,
