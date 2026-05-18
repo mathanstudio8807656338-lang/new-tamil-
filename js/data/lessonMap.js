@@ -279,48 +279,7 @@ export const lessonMap = {
       "term": 1
     }
   },
-  "mocktest": {
-    "ஆசிரியர் தகுதி தேர்வு - மாதிரி வினாத்தாள் 1 (கணிதம் + அறிவியல்)": {
-      "local": true,
-      "filename": "mock_1_ms",
-      "isFlat": true
-    },
-    "mock_1_ms": {
-      "local": true,
-      "filename": "mock_1_ms",
-      "isFlat": true
-    },
-    "ஆசிரியர் தகுதி தேர்வு - மாதிரி வினாத்தாள் 1 (சமூக அறிவியல்)": {
-      "local": true,
-      "filename": "mock_1_ss",
-      "isFlat": true
-    },
-    "mock_1_ss": {
-      "local": true,
-      "filename": "mock_1_ss",
-      "isFlat": true
-    },
-    "ஆசிரியர் தகுதி தேர்வு - மாதிரி வினாத்தாள் 2 (கணிதம் + அறிவியல்)": {
-      "local": true,
-      "filename": "mock_2_ms",
-      "isFlat": true
-    },
-    "mock_2_ms": {
-      "local": true,
-      "filename": "mock_2_ms",
-      "isFlat": true
-    },
-    "ஆசிரியர் தகுதி தேர்வு - மாதிரி வினாத்தாள் 2 (சமூக அறிவியல்)": {
-      "local": true,
-      "filename": "mock_2_ss",
-      "isFlat": true
-    },
-    "mock_2_ss": {
-      "local": true,
-      "filename": "mock_2_ss",
-      "isFlat": true
-    }
-  },
+  "mocktest": {},
   "notes_678": {
     "முக்கிய குறிப்புகள் - பகுதி 1": {
       "local": true,
